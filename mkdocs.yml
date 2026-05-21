@@ -1,0 +1,113 @@
+site_name: Nimble Documentatie
+site_description: Officiële handleiding voor Nimble
+site_author: Dominique
+# Custom domein nog niet geconfigureerd — gebruik github.io URL voor nu.
+# Bij activatie: site_url: https://docs.nimble.be/
+site_url: https://Dominique-prog-tech.github.io/nimble-docs/
+
+theme:
+  name: material
+  language: nl
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Schakel naar donkere modus
+    - scheme: slate
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Schakel naar lichte modus
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+  - md_in_html
+
+extra:
+  generator: false
+
+nav:
+  - Home: index.md
+
+  - Aan de slag:
+    - Installatie: aan-de-slag/installatie.md
+    - Eerste aanmelding: aan-de-slag/eerste-aanmelding.md
+    - Interface-overzicht: aan-de-slag/interface-overzicht.md
+    - Dashboard: aan-de-slag/dashboard.md
+
+  - Werk:
+    - Taken: werk/taken.md
+    - "Inbox foto's": werk/inbox-fotos.md
+    - Agenda: werk/agenda.md
+    - Planning uitvoering: werk/planning-uitvoering.md
+    - Documentenarchief: werk/documentenarchief.md
+
+  - Projecten:
+    - Dashboard projecten: projecten/dashboard-projecten.md
+    - Lijst projecten: projecten/lijst-projecten.md
+    - Artikelen: projecten/artikelen.md
+
+  - CRM:
+    - Relaties: crm/relaties.md
+    - Contacten: crm/contacten.md
+    - Leveranciers: crm/leveranciers.md
+    - Verlof en afwezigheden: crm/verlof-afwezigheden.md
+
+  - Offertes:
+    - Dashboard offertes: offertes/dashboard-offertes.md
+    - Globale lijst offertes: offertes/lijst-offertes.md
+
+  - Financieel:
+    - Verkoop dashboard: financieel/verkoop-dashboard.md
+    - Vorderingsstaten: financieel/vorderingsstaten.md
+    - Facturen: financieel/facturen.md
+    - Herinneringen: financieel/herinneringen.md
+    - Aankoopfacturen: financieel/aankoopfacturen.md
+
+  - Beheer:
+    - Algemene instellingen: beheer/algemene-instellingen.md
+    - Bedrijfsprofiel: beheer/bedrijfsprofiel.md
+    - Exact Online tokens: beheer/exact-online.md
+    - Mail accounts: beheer/mail-accounts.md
+    - Mail templates: beheer/mail-templates.md
+    - Materiaalbeheer: beheer/materiaalbeheer.md
+    - Personeel: beheer/personeel.md
+    - Ploegen: beheer/ploegen.md
+    - Registratie Peppol: beheer/registratie-peppol.md
+    - Tijdsregistratie: beheer/tijdsregistratie.md
+    - Stamgegevens: beheer/stamgegevens.md
+    - Verlof en feestdagen: beheer/verlof-feestdagen.md
+    - Volgnummers: beheer/volgnummers.md
+    - Bankrekeningen: beheer/bankrekeningen.md
+
+  - Mijn gebruiker:
+    - Mijn profiel: gebruiker/mijn-profiel.md
+    - Dashboard platform: gebruiker/dashboard-platform.md
+    - Supportticket aanmaken: gebruiker/supportticket-aanmaken.md
+    - Sessie afsluiten: gebruiker/sessie-afsluiten.md
+
+  - Concepten:
+    - Begrippenlijst: concepten/begrippenlijst.md
+    - Workflow-overzicht: concepten/workflow-overzicht.md
