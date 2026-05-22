@@ -163,11 +163,12 @@ De docs-navigatie volgt **één-op-één de sidebar** van het platform:
 
 ## Publicatie-status
 
-Op moment van setup: **GitHub Pages is nog NIET geactiveerd** voor deze repo.
-Reden: repo is private en GitHub Pages vereist GitHub Pro voor private repos.
+De docs zijn live op **https://docs.nimble-erp.eu**.
 
-Wanneer publicatie gewenst is:
-- Optie 1: repo public maken (gratis Pages).
-- Optie 2: GitHub Pro nemen (~$4/mnd), repo blijft private.
-- Daarna: Settings → Pages → Source: GitHub Actions.
-- Voor custom domein: CNAME-record + docs/CNAME bestand.
+- Repo is **public** (gratis GitHub Pages).
+- Deploy: automatisch via GitHub Actions bij elke push naar `main`.
+- Domein: `docs.nimble-erp.eu` (CNAME-record bij Combell).
+- HTTPS: gratis SSL-certificaat via Let's Encrypt (auto-renewal).
+- Workflow: `.github/workflows/deploy.yml`.
+
+**Domein-redirect**: `nimble-erp.be` redirect naar `nimble-erp.eu` (Combell URL-forwarding).

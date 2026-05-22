@@ -1,9 +1,7 @@
 site_name: Nimble Documentatie
 site_description: Officiële handleiding voor Nimble
 site_author: Dominique
-# Custom domein nog niet geconfigureerd — gebruik github.io URL voor nu.
-# Bij activatie: site_url: https://docs.nimble.be/
-site_url: https://Dominique-prog-tech.github.io/nimble-docs/
+site_url: https://docs.nimble-erp.eu/
 
 theme:
   name: material
