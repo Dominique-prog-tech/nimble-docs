@@ -1,5 +1,10 @@
 # Nimble Documentatie
 
+!!! info "Documentatie in opbouw"
+    Deze handleiding wordt actief uitgewerkt. Sommige pagina's bevatten nog
+    placeholders met `TODO`-markers. We werken er stap voor stap aan om alle
+    inhoud te voltooien — bedankt voor uw geduld.
+
 Welkom bij de officiële handleiding van **Nimble**.
 
 Nimble is een platform voor projectgebaseerd werk in bouw, installatie en
