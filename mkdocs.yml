@@ -76,6 +76,9 @@ plugins:
           build: true
           site_name: Nimble Documentation
           site_description: Manuel officiel de Nimble
+          copyright: >
+            Nimble &copy; 2026 — propriété d'<a href="https://www.adm-concept.be" target="_blank" rel="noopener">ADM-Concept</a>.
+            Tous droits réservés.
           theme:
             language: fr
             palette:
