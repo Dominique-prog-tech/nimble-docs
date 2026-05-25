@@ -55,6 +55,97 @@ markdown_extensions:
   - attr_list
   - md_in_html
 
+plugins:
+  - search:
+      lang:
+        - nl
+        - fr
+  - i18n:
+      docs_structure: suffix
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: nl
+          default: true
+          name: Nederlands
+          build: true
+          site_name: Nimble Documentatie
+          site_description: Officiële handleiding voor Nimble
+        - locale: fr
+          name: Français
+          build: true
+          site_name: Nimble Documentation
+          site_description: Manuel officiel de Nimble
+          theme:
+            language: fr
+            palette:
+              - scheme: default
+                primary: deep purple
+                accent: deep purple
+                toggle:
+                  icon: material/brightness-7
+                  name: Passer en mode sombre
+              - scheme: slate
+                primary: deep purple
+                accent: deep purple
+                toggle:
+                  icon: material/brightness-4
+                  name: Passer en mode clair
+          nav_translations:
+            Home: Accueil
+            Aan de slag: Premiers pas
+            Installatie: Installation
+            Eerste aanmelding: Première connexion
+            Interface-overzicht: Aperçu de l'interface
+            Dashboard: Tableau de bord
+            Werk: Travail
+            Taken: Tâches
+            "Inbox foto's": "Photos boîte de réception"
+            Agenda: Agenda
+            Planning uitvoering: Planning d'exécution
+            Documentenarchief: Archives documents
+            Projecten: Projets
+            Dashboard projecten: Tableau de bord projets
+            Lijst projecten: Liste des projets
+            Artikelen: Articles
+            CRM: CRM
+            Relaties: Relations
+            Contacten: Contacts
+            Leveranciers: Fournisseurs
+            Verlof en afwezigheden: Congés et absences
+            Offertes: Devis
+            Dashboard offertes: Tableau de bord devis
+            Globale lijst offertes: Liste globale des devis
+            Financieel: Finances
+            Verkoop dashboard: Tableau de bord ventes
+            Vorderingsstaten: États d'avancement
+            Facturen: Factures
+            Herinneringen: Rappels
+            Aankoopfacturen: Factures d'achat
+            Beheer: Configuration
+            Algemene instellingen: Paramètres généraux
+            Bedrijfsprofiel: Profil d'entreprise
+            Exact Online tokens: Tokens Exact Online
+            Mail accounts: Comptes mail
+            Mail templates: Modèles de mail
+            Materiaalbeheer: Gestion du matériel
+            Personeel: Personnel
+            Ploegen: Équipes
+            Registratie Peppol: Enregistrement Peppol
+            Tijdsregistratie: Enregistrement du temps
+            Stamgegevens: Données de base
+            Verlof en feestdagen: Congés et jours fériés
+            Volgnummers: Numéros de séquence
+            Bankrekeningen: Comptes bancaires
+            Mijn gebruiker: Mon utilisateur
+            Mijn profiel: Mon profil
+            Dashboard platform: Tableau de bord plateforme
+            Supportticket aanmaken: Créer un ticket de support
+            Sessie afsluiten: Fermer la session
+            Concepten: Concepts
+            Begrippenlijst: Glossaire
+            Workflow-overzicht: Aperçu du workflow
+
 extra:
   generator: false
 
