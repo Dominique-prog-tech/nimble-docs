@@ -1,4 +1,4 @@
-# Nimble Documentatie
+﻿# Nimble Documentatie
 
 !!! info "Documentatie in opbouw"
     Deze handleiding wordt actief uitgewerkt. Sommige pagina's bevatten nog
@@ -13,23 +13,23 @@ en projectplanning tot facturatie, vorderingsstaten en boekhouding.
 
 ## Snel aan de slag
 
-- [Installatie](aan-de-slag/installatie.md) — installeer en configureer Nimble.
-- [Eerste aanmelding](aan-de-slag/eerste-aanmelding.md) — uw eerste keer inloggen.
-- [Interface-overzicht](aan-de-slag/interface-overzicht.md) — leer de lay-out kennen.
-- [Dashboard](aan-de-slag/dashboard.md) — uw startscherm.
+- [Installatie](getting-started/installation.md) — installeer en configureer Nimble.
+- [Eerste aanmelding](getting-started/first-login.md) — uw eerste keer inloggen.
+- [Interface-overzicht](getting-started/interface.md) — leer de lay-out kennen.
+- [Dashboard](getting-started/dashboard.md) — uw startscherm.
 
 ## De hoofdmodules
 
 | Module | Wat u hier doet |
 |---|---|
-| [Werk](werk/agenda.md) | Taken, agenda, planning uitvoering, foto's |
-| [Projecten](projecten/dashboard-projecten.md) | Projectbeheer, artikelen, fases |
-| [CRM](crm/relaties.md) | Relaties, contacten, leveranciers |
-| [Offertes](offertes/dashboard-offertes.md) | Offertebeheer en opvolging |
-| [Financieel](financieel/verkoop-dashboard.md) | Facturen, vorderingsstaten, herinneringen |
-| [Beheer](beheer/bedrijfsprofiel.md) | Configuratie, ploegen, stamgegevens |
+| [Werk](work/calendar.md) | Taken, agenda, planning uitvoering, foto's |
+| [Projecten](projects/dashboard.md) | Projectbeheer, artikelen, fases |
+| [CRM](crm/relations.md) | Relaties, contacten, leveranciers |
+| [Offertes](quotes/dashboard.md) | Offertebeheer en opvolging |
+| [Financieel](finance/sales-dashboard.md) | Facturen, vorderingsstaten, herinneringen |
+| [Beheer](settings/company-profile.md) | Configuratie, ploegen, stamgegevens |
 
 ## Hulp nodig?
 
-- [Begrippenlijst](concepten/begrippenlijst.md) — uitleg van vaktermen.
-- [Supportticket aanmaken](gebruiker/supportticket-aanmaken.md) — direct contact met support.
+- [Begrippenlijst](concepts/glossary.md) — uitleg van vaktermen.
+- [Supportticket aanmaken](account/support-ticket.md) — direct contact met support.

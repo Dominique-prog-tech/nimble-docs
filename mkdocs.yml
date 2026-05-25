@@ -153,62 +153,62 @@ nav:
   - Home: index.md
 
   - Aan de slag:
-    - Installatie: aan-de-slag/installatie.md
-    - Eerste aanmelding: aan-de-slag/eerste-aanmelding.md
-    - Interface-overzicht: aan-de-slag/interface-overzicht.md
-    - Dashboard: aan-de-slag/dashboard.md
+    - Installatie: getting-started/installation.md
+    - Eerste aanmelding: getting-started/first-login.md
+    - Interface-overzicht: getting-started/interface.md
+    - Dashboard: getting-started/dashboard.md
 
   - Werk:
-    - Taken: werk/taken.md
-    - "Inbox foto's": werk/inbox-fotos.md
-    - Agenda: werk/agenda.md
-    - Planning uitvoering: werk/planning-uitvoering.md
-    - Documentenarchief: werk/documentenarchief.md
+    - Taken: work/tasks.md
+    - "Inbox foto's": work/photo-inbox.md
+    - Agenda: work/calendar.md
+    - Planning uitvoering: work/execution-planning.md
+    - Documentenarchief: work/document-archive.md
 
   - Projecten:
-    - Dashboard projecten: projecten/dashboard-projecten.md
-    - Lijst projecten: projecten/lijst-projecten.md
-    - Artikelen: projecten/artikelen.md
+    - Dashboard projecten: projects/dashboard.md
+    - Lijst projecten: projects/list.md
+    - Artikelen: projects/articles.md
 
   - CRM:
-    - Relaties: crm/relaties.md
-    - Contacten: crm/contacten.md
-    - Leveranciers: crm/leveranciers.md
-    - Verlof en afwezigheden: crm/verlof-afwezigheden.md
+    - Relaties: crm/relations.md
+    - Contacten: crm/contacts.md
+    - Leveranciers: crm/suppliers.md
+    - Verlof en afwezigheden: crm/leave-absences.md
 
   - Offertes:
-    - Dashboard offertes: offertes/dashboard-offertes.md
-    - Globale lijst offertes: offertes/lijst-offertes.md
+    - Dashboard offertes: quotes/dashboard.md
+    - Globale lijst offertes: quotes/list.md
 
   - Financieel:
-    - Verkoop dashboard: financieel/verkoop-dashboard.md
-    - Vorderingsstaten: financieel/vorderingsstaten.md
-    - Facturen: financieel/facturen.md
-    - Herinneringen: financieel/herinneringen.md
-    - Aankoopfacturen: financieel/aankoopfacturen.md
+    - Verkoop dashboard: finance/sales-dashboard.md
+    - Vorderingsstaten: finance/progress-statements.md
+    - Facturen: finance/invoices.md
+    - Herinneringen: finance/reminders.md
+    - Aankoopfacturen: finance/purchase-invoices.md
 
   - Beheer:
-    - Algemene instellingen: beheer/algemene-instellingen.md
-    - Bedrijfsprofiel: beheer/bedrijfsprofiel.md
-    - Exact Online tokens: beheer/exact-online.md
-    - Mail accounts: beheer/mail-accounts.md
-    - Mail templates: beheer/mail-templates.md
-    - Materiaalbeheer: beheer/materiaalbeheer.md
-    - Personeel: beheer/personeel.md
-    - Ploegen: beheer/ploegen.md
-    - Registratie Peppol: beheer/registratie-peppol.md
-    - Tijdsregistratie: beheer/tijdsregistratie.md
-    - Stamgegevens: beheer/stamgegevens.md
-    - Verlof en feestdagen: beheer/verlof-feestdagen.md
-    - Volgnummers: beheer/volgnummers.md
-    - Bankrekeningen: beheer/bankrekeningen.md
+    - Algemene instellingen: settings/general.md
+    - Bedrijfsprofiel: settings/company-profile.md
+    - Exact Online tokens: settings/exact-online.md
+    - Mail accounts: settings/mail-accounts.md
+    - Mail templates: settings/mail-templates.md
+    - Materiaalbeheer: settings/materials.md
+    - Personeel: settings/staff.md
+    - Ploegen: settings/teams.md
+    - Registratie Peppol: settings/peppol.md
+    - Tijdsregistratie: settings/time-tracking.md
+    - Stamgegevens: settings/master-data.md
+    - Verlof en feestdagen: settings/leave-holidays.md
+    - Volgnummers: settings/numbering.md
+    - Bankrekeningen: settings/bank-accounts.md
 
   - Mijn gebruiker:
-    - Mijn profiel: gebruiker/mijn-profiel.md
-    - Dashboard platform: gebruiker/dashboard-platform.md
-    - Supportticket aanmaken: gebruiker/supportticket-aanmaken.md
-    - Sessie afsluiten: gebruiker/sessie-afsluiten.md
+    - Mijn profiel: account/profile.md
+    - Dashboard platform: account/platform-dashboard.md
+    - Supportticket aanmaken: account/support-ticket.md
+    - Sessie afsluiten: account/logout.md
 
   - Concepten:
-    - Begrippenlijst: concepten/begrippenlijst.md
-    - Workflow-overzicht: concepten/workflow-overzicht.md
+    - Begrippenlijst: concepts/glossary.md
+    - Workflow-overzicht: concepts/workflow.md
