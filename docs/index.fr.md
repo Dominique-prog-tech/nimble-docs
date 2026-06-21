@@ -23,12 +23,12 @@ d'avancement et la comptabilité.
 
 | Module | Ce que vous y faites |
 |---|---|
-| [Travail](work/calendar.md) | Tâches, agenda, planning d'exécution, photos |
+| [Travail](work/tasks.md) | Tâches, agenda, planning d'exécution, photos |
 | [Projets](projects/dashboard.md) | Gestion de projet, articles, phases |
 | [CRM](crm/relations.md) | Relations, contacts, fournisseurs |
 | [Devis](quotes/dashboard.md) | Gestion et suivi des devis |
 | [Finances](finance/sales-dashboard.md) | Factures, états d'avancement, rappels |
-| [Configuration](settings/company-profile.md) | Configuration, équipes, données de base |
+| [Configuration](settings/general.md) | Configuration, équipes, données de base |
 
 ## Besoin d'aide ?
 

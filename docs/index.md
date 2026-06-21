@@ -22,12 +22,12 @@ en projectplanning tot facturatie, vorderingsstaten en boekhouding.
 
 | Module | Wat u hier doet |
 |---|---|
-| [Werk](work/calendar.md) | Taken, agenda, planning uitvoering, foto's |
+| [Werk](work/tasks.md) | Taken, agenda, planning uitvoering, foto's |
 | [Projecten](projects/dashboard.md) | Projectbeheer, artikelen, fases |
 | [CRM](crm/relations.md) | Relaties, contacten, leveranciers |
 | [Offertes](quotes/dashboard.md) | Offertebeheer en opvolging |
 | [Financieel](finance/sales-dashboard.md) | Facturen, vorderingsstaten, herinneringen |
-| [Beheer](settings/company-profile.md) | Configuratie, ploegen, stamgegevens |
+| [Beheer](settings/general.md) | Configuratie, ploegen, stamgegevens |
 
 ## Hulp nodig?
 
