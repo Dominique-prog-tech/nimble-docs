@@ -1,35 +1,22 @@
-﻿# Nimble Documentatie
+# Nimble Documentatie
 
 !!! info "Documentatie in opbouw"
-    Deze handleiding wordt actief uitgewerkt. Sommige pagina's bevatten nog
-    placeholders met `TODO`-markers. We werken er stap voor stap aan om alle
-    inhoud te voltooien — bedankt voor uw geduld.
+    Deze handleiding groeit mee met het **nieuwe** Nimble-platform. Alleen
+    schermen die klaar zijn, staan hieronder — bedankt voor uw geduld.
 
 Welkom bij de officiële handleiding van **Nimble**.
 
-Nimble is een platform voor projectgebaseerd werk in bouw, installatie en
-technische uitvoering. Het ondersteunt het volledige proces — van offerte
-en projectplanning tot facturatie, vorderingsstaten en boekhouding.
+Nimble is een ERP-platform voor projectgebaseerde KMO's: van relaties en
+voorraad tot projecten, offertes en facturatie.
 
-## Snel aan de slag
+## Beschikbare pagina's
 
-- [Installatie](getting-started/installation.md) — installeer en configureer Nimble.
-- [Eerste aanmelding](getting-started/first-login.md) — uw eerste keer inloggen.
-- [Interface-overzicht](getting-started/interface.md) — leer de lay-out kennen.
-- [Dashboard](getting-started/dashboard.md) — uw startscherm.
-
-## De hoofdmodules
-
-| Module | Wat u hier doet |
+| Scherm | Wat u hier doet |
 |---|---|
-| [Werk](work/tasks.md) | Taken, agenda, planning uitvoering, foto's |
-| [Projecten](projects/dashboard.md) | Projectbeheer, artikelen, fases |
-| [CRM](crm/relations.md) | Relaties, contacten, leveranciers |
-| [Offertes](quotes/dashboard.md) | Offertebeheer en opvolging |
-| [Financieel](finance/sales-dashboard.md) | Facturen, vorderingsstaten, herinneringen |
-| [Beheer](settings/general.md) | Configuratie, ploegen, stamgegevens |
+| [Relaties](relations.md) | Klanten en leveranciers beheren |
+| [Conversie](administration/conversion.md) | Legacy-data overzetten (operators) |
 
-## Hulp nodig?
+## Hulp in de app
 
-- [Begrippenlijst](concepts/glossary.md) — uitleg van vaktermen.
-- [Supportticket aanmaken](account/support-ticket.md) — direct contact met support.
+In Nimble opent u rechtsboven de **?**-knop voor contextuele hulp bij het
+actieve scherm, met een link naar de volledige handleiding.

@@ -4,171 +4,118 @@ Deze file leid je telkens wanneer je in deze repo werkt. Lees hem voor je begint
 
 ## Doel van deze repo
 
-De officiële handleiding van **Nimble**, een Delphi-platform voor
-project-gebaseerd werk (bouw, installatie, projectuitvoering).
-Het ondersteunt projectbeheer, planning, CRM, offertes, facturatie en
-boekhouding.
+De officiële handleiding van **Nimble**, gepubliceerd op
+<https://docs.nimble-erp.eu>.
 
-**Historische noot**: het broncode-project heet intern `DamcErp.dpr`.
-Nimble is de productnaam waaronder het verkocht wordt.
+Nimble is een ERP-platform voor projectgebaseerde KMO's (bouw, installatie,
+technische uitvoering): projectbeheer, planning, werkorders, offertes,
+vorderingsstaten, artikel- en stockbeheer, CRM/relaties.
+
+**Migratie:** we bouwen de nieuwe app (**.NET / Blazor** in `adm-nimble`) naast
+de legacy (Delphi/UniGUI + Firebird). De handleiding volgt het **nieuwe**
+platform en groeit mee per gevalideerd scherm — niet de oude Delphi-UI.
 
 ## Doelpubliek
 
-**Externe klanten die het Nimble-platform afnemen** — projectleiders,
-zaakvoerders en administratief personeel van projectgebaseerde
-bedrijven (bouw, installatie, technische uitvoering).
-Professionals in hun vakgebied, geen IT-developers.
+**Externe klanten die Nimble afnemen** — projectleiders, zaakvoerders en
+administratief personeel. Professionals in hun vakgebied, geen IT-developers.
+
+Uitzondering: enkele **Beheer**-pagina's (bv. Conversie) zijn voor
+ADM-operators; vermeld dat duidelijk bovenaan de pagina.
 
 ### Implicaties voor schrijfstijl
 - **U-vorm**, professioneel maar toegankelijk.
 - **Korte zinnen**, één gedachte per zin.
 - **Vakjargon mag** (vorderingsstaat, ploeg, projectfase), uitleg via
   de begrippenlijst waar nodig.
-- **Geen IT-jargon** zonder context.
+- **Geen IT-jargon** zonder context (wel oké op operator-pagina's zoals Conversie).
 - **Concreet en actiegericht**: "Klik op X", "Vul Y in".
 
 ## Bronnen op deze machine
 
-### Delphi-source (read-only)
-- **Pad**: `D:\@newProjects\platform-nimble-delphi\`
-- **Repo**: ADM-Concept/platform-nimble-delphi (private)
-- **Project-bestand**: `DamcErp.dpr` (oude interne naam)
-- **Autoritieve bron** voor: schermen, velden, validaties, foutmeldingen,
-  bedrijfsregels, menu-structuur.
+### Nieuwe app (autoritatief voor nieuwe schermen)
+- **Pad**: `~/projects/adm-nimble/`
+- **Repo**: ADM-Concept/adm-nimble
+- **Schermen**: `src/Host/Nimble.Host.Web/Components/Pages/*.razor`
+- **Nav**: `Program.cs` → `AddNavItems` / `AddNavSection`
+- **Context-help**: `src/Host/Nimble.Host.Web/Help/NimbleHelpProvider.cs`
+  (route → korte intro + docs-slug). **DoD:** scherm klaar ⇒ Entry in de
+  provider + docs-pagina NL/FR + nav-item hier.
 
-**Bij elk docs-onderwerp: lees relevante .pas/.dfm bestanden eerst.**
-Verzin nooit functionaliteit — markeer onzekerheden met `[TODO]`.
+### Delphi-source (read-only, legacy-referentie)
+- **Pad**: `~/projects/platform-nimble-delphi/` (of Windows-pad uit eerdere setup)
+- **Repo**: ADM-Concept/platform-nimble-delphi
+- Alleen raadplegen voor migratie-gedrag / veldmapping — **niet** als bron
+  voor UI-teksten van nieuwe schermen.
 
-### Belangrijke regel rond Delphi-source
-**NOOIT** Write of Edit gebruiken op `.pas` of `.dfm` bestanden — Windows-1252/
-ANSI encoding zou beschadigd raken. Alleen Read.
+**NOOIT** Write/Edit op `.pas` / `.dfm` (Windows-1252 encoding).
 
-## Sleutel-source-bestanden
+## Docs ↔ app koppeling
 
-| Vraag over... | Lees... |
-|---|---|
-| Menu-structuur, sidebar | `uSidebarStyling.pas` — functie `GetNimbleSidebar` |
-| Hoofdvenster, hoofdform | `Main.pas` / `Main.dfm` |
-| Login-flow | `Login.pas` / `Login.dfm` |
-| Data-laag algemeen | `MainModule.pas` / `MainModule.dfm` |
-| CRM-data | `CrmModule.pas` / `CrmModule.dfm` |
-| Database-schema | `database-schema.sql` |
-| Globale constants/enums | `ProjectConstants.pas` |
+| App-route | Docs-slug | HelpProvider-prefix |
+|---|---|---|
+| `/relaties` | `relations` | `relaties` |
+| `/beheer/conversie` | `administration/conversion` | `beheer/conversie` |
 
-## Modulestructuur (matchend met sidebar)
+URL-patroon: `https://docs.nimble-erp.eu[/fr]/{slug}/`
 
-De docs-navigatie volgt **één-op-één de sidebar** van het platform:
+## Modulestructuur (nieuw platform)
 
-1. **Aan de slag** — installatie, eerste aanmelding, interface, dashboard
-2. **Werk** — taken, foto's-inbox, agenda, planning uitvoering, archief
-3. **Projecten** — projectdashboard, projectenlijst, artikelen
-4. **CRM** — relaties, contacten, leveranciers, verlof
-5. **Offertes** — offertedashboard, offertelijst
-6. **Financieel** — verkoop, vorderingsstaten, facturen, herinneringen, aankopen
-7. **Beheer** — alle configuratie en stamgegevens
-8. **Mijn gebruiker** — profiel, platform-overzicht, support, uitloggen
-9. **Concepten** — begrippenlijst, workflow
+De docs-navigatie volgt de **nieuwe** sidebar. Alleen **klare** pagina's
+staan in `mkdocs.yml` → `nav`. Skelet/TODO van de oude Delphi-scan blijft
+op schijf staan tot het vervangen is, maar komt **niet** in de nav.
 
-## Vaktermen die uitleg verdienen
+1. **Relaties** — klanten & leveranciers
+2. **Voorraad** — artikelen, families, eenheden *(nog te documenteren)*
+3. **Werk** — projecten, werkorders, werkbonnen, planning, medewerkers, ploegen
+4. **Verkoop** — offertes, facturen
+5. **Inkoop** — bestellingen
+6. **Beheer** — tenants, gebruikers, rollen, conversie, prullenbak, actielogboek
 
-- **Project** — een werkopdracht met meerdere fases en deeluitvoeringen.
-- **Vorderingsstaat** — periodieke factuur op basis van uitvoeringspercentage
-  bij langlopende projecten (typisch in bouw).
-- **Ploeg** — uitvoeringsteam (medewerkers + materiaal).
-- **Artikel** — verhandelbare eenheid (materiaal, werkuren, post).
-- **Relatie** — overkoepelende term voor klant of prospect in CRM.
-- **Peppol** — Europees netwerk voor elektronische facturatie.
-- **Exact Online** — externe boekhoudsoftware waarmee gekoppeld kan worden.
+## Vaktermen
 
-## Terminologie — consistent gebruiken
+- **Relatie** — klant en/of leverancier (één fiche, twee vlaggen).
+- **Tenant** — één KMO-klant op het multi-tenant platform (eigen database).
+- **Conversie** — eenmalige/herhaalbare import Firebird → PostgreSQL.
+- **Vorderingsstaat** — deelfactuur op basis van uitvoeringsvoortgang.
+- **Ploeg** — uitvoeringsteam.
+- **Artikel** — verhandelbare eenheid (materiaal, uren, post).
 
-- "relatie" voor CRM (kan klant of prospect zijn) — niet "contact"
-- "contact" specifiek voor contactpersoon bij een relatie
-- "project" (niet: dossier of opdracht — Nimble is project-georiënteerd)
-- "ploeg" (niet: team)
-- "factuur" / "vorderingsstaat" (afhankelijk van type)
-- "rappel" / "herinnering" — Nimble gebruikt "herinnering" in de UI
+## Conventies
 
-## Conventies voor docs
-
-### Bestandsstructuur
-- `docs/` — alle markdown-pagina's
-- `docs/images/` — alle screenshots
-- Map- en bestandsnamen: **kleine letters, koppeltekens, geen accenten**
-
-### Screenshots
-- Formaat: PNG voor UI met tekst, JPG voor foto's
-- Resolutie: max 1920px breed
-- Alt-text altijd beschrijvend
-
-### Markdown
-- Eén `# H1` per pagina (de paginatitel).
-- `## H2` voor hoofdsecties, `### H3` voor subsecties.
-- Admonitions (`!!! tip`, `!!! warning`, `!!! info`, `!!! danger`) volgens
-  Material-syntax.
-
-### Links
-- Tussen pagina's: relatieve paden met `.md` extensie.
-- Naar afbeeldingen: absoluut vanaf docs-root: `/images/bestand.png`.
-
-## TODO-markers — conventie
-
-```markdown
-!!! info "TODO"
-    Beschrijving van wat hier nog ingevuld moet worden.
-    Bron in source: `bestand.pas`
-```
-
-## Schrijfflow per pagina
-
-1. Lees de source (`.pas` en `.dfm`) van het bijhorende scherm.
-2. Begrijp velden, knoppen, validaties.
-3. Schrijf de pagina volgens de template hieronder.
-4. Maak screenshot, plaats in `docs/images/`.
-5. Verwijs vanuit de tekst.
-6. Lokaal previewen via `mkdocs serve`.
-7. Commit + push.
+- Bestanden: **kleine letters, koppeltekens, geen accenten**
+- i18n: `pagina.md` = NL, `pagina.fr.md` = FR
+- Eén `# H1` per pagina; Material-admonitions (`tip` / `warning` / `info`)
+- Screenshots: PNG, max 1920px; placeholder oké tot Dominique levert
 
 ## Pagina-template
 
 ```markdown
-# [Naam van het scherm]
+# [Schermnaam]
 
-[Eén alinea: wanneer en waarom gebruikt een gebruiker dit scherm.]
+[Eén alinea: wanneer/waarom.]
 
 ## Het scherm openen
 
-[Hoe navigeren in Nimble.]
-
-## Velden en functies
-
-[Per veld of sectie een korte uitleg.]
+## De lijst / Velden en functies
 
 ## Veelgemaakte fouten
 
 !!! warning
-    [Wat gaat vaak fout, en hoe vermijd je dat.]
+    …
 
 ## Zie ook
-
-- [Gerelateerde pagina](pad.md)
 ```
 
 ## Wat NIET doen
 
-- Geen functionaliteit verzinnen die niet in de source staat.
+- Geen functionaliteit verzinnen die niet in de Blazor-source staat.
+- Geen oude Delphi-menu's documenteren alsof ze het nieuwe platform zijn.
 - Geen Amerikaanse SaaS-toon. Belgisch-professioneel.
-- Geen "the system will…". Actief: "U klikt op X, en Y verschijnt."
-- Geen lange paragrafen — splits in stappen of lijsten.
+- Geen lange paragrafen — stappen of lijsten.
 
-## Publicatie-status
+## Publicatie
 
-De docs zijn live op **https://docs.nimble-erp.eu**.
-
-- Repo is **public** (gratis GitHub Pages).
-- Deploy: automatisch via GitHub Actions bij elke push naar `main`.
-- Domein: `docs.nimble-erp.eu` (CNAME-record bij Combell).
-- HTTPS: gratis SSL-certificaat via Let's Encrypt (auto-renewal).
-- Workflow: `.github/workflows/deploy.yml`.
-
-**Domein-redirect**: `nimble-erp.be` redirect naar `nimble-erp.eu` (Combell URL-forwarding).
+- Live: **https://docs.nimble-erp.eu**
+- Push naar `main` → GitHub Actions → GitHub Pages
+- Workflow: `.github/workflows/deploy.yml`
