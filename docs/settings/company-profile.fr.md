@@ -1,38 +1,54 @@
-# Profil d'entreprise
+# Fiche d'entreprise
 
-Configurez les données de votre entreprise, votre logo et vos informations de facturation.
+La **fiche d'entreprise** contient les données de votre bureau : identité, contact, adresse, comptes bancaires et logo. Ces données sont utilisées sur les documents comme les devis et les factures.
 
 ## Ouvrir l'écran
 
-!!! info "TODO"
-    Chemin de navigation dans Nimble :
-    sidebar > **Configuration** > **Profil d'entreprise**
+1. Cliquez sur **Administration** en bas de la barre latérale.
+2. Dans le groupe **Entreprise**, cliquez sur la tuile **Fiche d'entreprise**.
 
-    Remplacez ceci par le chemin exact.
+!!! info "Le nom est géré par ADM One"
+    Le **nom** de votre entreprise provient du registre central ADM One et ne peut pas être modifié ici. Si le nom doit changer, contactez ADM.
 
-## Champs et fonctions
+## Les cartes
 
-!!! info "TODO"
-    Documentez sur la base du source Delphi.
+| Carte | Champs |
+|---|---|
+| **Identité** | Nom (lecture seule), numéro de TVA/d'entreprise avec bouton **Récupérer**, numéro FSMA |
+| **Contact** | Téléphone, fax, e-mail, site web |
+| **Adresse** | Rue, n°, boîte, code postal, commune, pays |
+| **Banque** | IBAN, BIC et compte — deux fois, pour deux comptes bancaires |
+| **Documents et charte graphique** | Logo |
 
-    Documentez :
-    - Quels champs apparaissent à l'écran ?
-    - Quels boutons et actions sont disponibles ?
-    - Quelles validations sont effectuées ?
-    - Quels messages d'erreur peuvent apparaître ?
+## Récupérer les données depuis la BCE
 
-## Pas à pas
+1. Saisissez votre **numéro de TVA/d'entreprise**.
+2. Cliquez sur **Récupérer**.
+3. Nimble remplit automatiquement l'adresse et les données officielles depuis la Banque-Carrefour des Entreprises (BCE/KBO).
 
-!!! info "TODO"
-    Décrivez le workflow le plus courant sur cet écran,
-    étape par étape avec une liste numérotée.
+## Remplir l'adresse
+
+- Tapez dans le champ **Code postal** — choisissez dans la liste ; la commune se remplit automatiquement.
+- Ou cherchez dans le champ **Commune** par nom ; le code postal suit.
+- Choisissez le **Pays** dans la liste.
+
+## Définir le logo
+
+1. Glissez une image dans la zone de dépôt, ou cliquez dessus pour choisir un fichier.
+2. Formats autorisés : PNG, JPG, GIF ou WebP — 4 Mo maximum.
+3. Cliquez sur **Supprimer** à côté du logo pour l'effacer.
+
+## Enregistrer
+
+Cliquez sur **Enregistrer** en haut à droite. Le logo est sauvegardé à part, dès le téléversement.
 
 ## Erreurs fréquentes
 
-!!! warning "TODO"
-    Liste des erreurs fréquentes et comment les éviter.
+!!! warning
+    - **Oubli d'enregistrer** — les modifications des champs ne sont sauvegardées qu'après un clic sur **Enregistrer** (le logo, lui, l'est immédiatement).
+    - **Adresse e-mail invalide** — une adresse e-mail modifiée doit être valide, sinon l'écran refuse d'enregistrer.
+    - **Logo trop grand** — 4 Mo maximum ; réduisez d'abord l'image.
 
 ## Voir aussi
 
-!!! info "TODO"
-    Ajoutez des liens vers les pages associées.
+- [Administration](../administration/platform-management.md)

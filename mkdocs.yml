@@ -103,6 +103,11 @@ plugins:
             Relaties: Relations
             Beheer: Configuration
             Conversie: Conversion
+            Platformbeheer: Administration
+            Bedrijfsfiche: Fiche d'entreprise
+            Artikelfamilies: Familles d'articles
+            Eenheden: Unités de mesure
+            Stamgegevens: Données de base
 
 extra:
   generator: false
@@ -110,5 +115,11 @@ extra:
 nav:
   - Home: index.md
   - Relaties: relations.md
+  - Platformbeheer:
+    - Platformbeheer: administration/platform-management.md
+    - Bedrijfsfiche: settings/company-profile.md
+    - Artikelfamilies: administration/article-families.md
+    - Eenheden: administration/units.md
+    - Stamgegevens: administration/master-data.md
   - Beheer:
     - Conversie: administration/conversion.md

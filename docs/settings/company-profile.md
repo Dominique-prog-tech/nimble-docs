@@ -1,38 +1,54 @@
-# Bedrijfsprofiel
+# Bedrijfsfiche
 
-Configureer uw bedrijfsgegevens, logo en facturatiegegevens.
+Op de **Bedrijfsfiche** beheert u de eigen gegevens van uw kantoor: identiteit, contact, adres, bankrekeningen en logo. Deze gegevens worden gebruikt op documenten zoals offertes en facturen.
 
 ## Het scherm openen
 
-!!! info "TODO"
-    Navigatiepad in Nimble:
-    sidebar > **Beheer** > **Bedrijfsprofiel**
+1. Klik onderaan in de zijbalk op **Platformbeheer**.
+2. Klik in de groep **Bedrijf** op de tegel **Bedrijfsfiche**.
 
-    Vervang dit door de exacte route.
+!!! info "Naam wordt door ADM One beheerd"
+    De **naam** van uw bedrijf komt uit het centrale ADM One-register en kunt u hier niet wijzigen. Moet de naam aangepast worden, neem dan contact op met ADM.
 
-## Velden en functies
+## De kaarten
 
-!!! info "TODO"
-    Documenteer op basis van Delphi-source.
+| Kaart | Velden |
+|---|---|
+| **Identiteit** | Naam (alleen-lezen), BTW-/ondernemingsnummer met **Ophalen**-knop, FSMA-nummer |
+| **Contact** | Telefoon, fax, e-mail, website |
+| **Adres** | Straat, nr., bus, postcode, gemeente, land |
+| **Bank** | IBAN, BIC en rekening — tweemaal, voor twee bankrekeningen |
+| **Documenten & huisstijl** | Logo |
 
-    Documenteer:
-    - Welke velden zijn er op het scherm?
-    - Welke knoppen en acties zijn beschikbaar?
-    - Welke validaties gebeuren?
-    - Welke foutmeldingen kunnen verschijnen?
+## Gegevens ophalen uit de KBO
 
-## Stap-voor-stap
+1. Vul uw **BTW-/ondernemingsnummer** in.
+2. Klik op **Ophalen**.
+3. Nimble vult het adres en de officiële gegevens automatisch in vanuit de Kruispuntbank van Ondernemingen (KBO/BCE).
 
-!!! info "TODO"
-    Beschrijf de meest voorkomende workflow op dit scherm
-    stap voor stap met genummerde lijst.
+## Adres invullen
+
+- Typ in het veld **Postcode** — kies uit de lijst; de gemeente wordt automatisch ingevuld.
+- Of zoek in het veld **Gemeente** op naam; de postcode volgt vanzelf.
+- Kies het **Land** uit de lijst.
+
+## Logo instellen
+
+1. Sleep een afbeelding naar het sleepvak, of klik erop om een bestand te kiezen.
+2. Toegestaan: PNG, JPG, GIF of WebP — maximaal 4 MB.
+3. Klik op **Verwijderen** naast het logo om het te wissen.
+
+## Opslaan
+
+Klik rechtsboven op **Opslaan**. Het logo wordt apart bewaard, meteen bij het uploaden.
 
 ## Veelgemaakte fouten
 
-!!! warning "TODO"
-    Lijst van veelgemaakte fouten en hoe ze te vermijden.
+!!! warning
+    - **Opslaan vergeten** — wijzigingen aan de velden worden pas bewaard na een klik op **Opslaan** (het logo wél meteen).
+    - **Ongeldig e-mailadres** — een gewijzigd e-mailadres moet geldig zijn, anders weigert het scherm op te slaan.
+    - **Logo te groot** — maximaal 4 MB; verklein de afbeelding eerst.
 
 ## Zie ook
 
-!!! info "TODO"
-    Voeg links toe naar gerelateerde pagina's.
+- [Platformbeheer](../administration/platform-management.md)
