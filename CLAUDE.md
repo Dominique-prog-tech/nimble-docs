@@ -56,6 +56,14 @@ ADM-operators; vermeld dat duidelijk bovenaan de pagina.
 |---|---|---|
 | `/relaties` | `relations` | `relaties` |
 | `/beheer/conversie` | `administration/conversion` | `beheer/conversie` |
+| `/administration` | `administration/platform-management` | `administration` |
+| `/administration/company-profile` | `settings/company-profile` | `administration/company-profile` |
+| `/administration/families`, `/voorraad/families` | `administration/article-families` | `administration/families`, `voorraad/families` |
+| `/administration/eenheden`, `/voorraad/eenheden` | `administration/units` | `administration/eenheden`, `voorraad/eenheden` |
+| `/administration/lookups/{key}` (nog niet vrijgegeven) | `administration/master-data` | `administration/lookups` |
+| `/administration/lookups/leadbronnen` | `administration/lead-sources` | `administration/lookups/leadbronnen` |
+| `/administration/types-aanvraag` | `administration/lead-request-types` | `administration/types-aanvraag` |
+| `/administration/lead-status` | `administration/lead-status` | `administration/lead-status` |
 
 URL-patroon: `https://docs.nimble-erp.eu[/fr]/{slug}/`
 

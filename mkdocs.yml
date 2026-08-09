@@ -108,6 +108,9 @@ plugins:
             Artikelfamilies: Familles d'articles
             Eenheden: Unités de mesure
             Stamgegevens: Données de base
+            Leadbronnen: Sources de leads
+            Types aanvraag: Types de demande
+            Leadstatus: Statut de lead
 
 extra:
   generator: false
@@ -121,5 +124,8 @@ nav:
     - Artikelfamilies: administration/article-families.md
     - Eenheden: administration/units.md
     - Stamgegevens: administration/master-data.md
+    - Leadbronnen: administration/lead-sources.md
+    - Types aanvraag: administration/lead-request-types.md
+    - Leadstatus: administration/lead-status.md
   - Beheer:
     - Conversie: administration/conversion.md

@@ -22,6 +22,9 @@ Formaat: `- [ ] pagina.md (+ .fr.md) — locatie in de pagina — wat de screens
 - [ ] `administration/article-families.md` — onder "Het scherm openen" — de familielijst met een uitgeklapte subfamilie
 - [ ] `administration/units.md` — onder "Het scherm openen" — de eenhedenlijst
 - [ ] `administration/master-data.md` — onder "Het scherm openen" — één representatieve sorteerbare lijst (bv. productiestatus) met de sleep-volgorde
+- [ ] `administration/lead-sources.md` — onder "Het scherm openen" — de leadbronnenlijst
+- [ ] `administration/lead-request-types.md` — onder "Een type aanmaken of bewerken" — het bewerkvenster met de omvangvraag-sectie en de live-preview
+- [ ] `administration/lead-status.md` — onder "Het scherm openen" — de leadstatuslijst met de vaste sleutels
 
 ## Afgewerkt
 
