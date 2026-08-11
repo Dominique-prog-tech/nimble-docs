@@ -90,12 +90,14 @@ les avez saisis.
 
 ### Onglet Journal
 
-Vous y trouvez tout ce qui s'est passé autour de ce lead, en deux listes que vous basculez en haut :
+Vous y trouvez tout ce qui s'est passé autour de ce lead, en trois listes que vous basculez en haut :
 
 - **Tâches** — ce qui doit encore être fait. Les tâches de suivi que Nimble crée lui-même (voir
   ci-dessous) s'y trouvent aussi.
 - **Journal** — ce qui s'est passé : les notes que vous ajoutez, les appels que vous enregistrez, et le
   texte complet des demandes arrivées via le site web.
+- **Pièces jointes** — documents et photos liés à ce lead : un plan envoyé par le client, une photo de la
+  situation existante. Voir [Pièces jointes](../bijlagen.fr.md).
 
 L'onglet n'apparaît que pour un lead **existant** — un nouveau lead n'a pas encore de numéro auquel
 rattacher des tâches ou des notes. Enregistrez-le d'abord.

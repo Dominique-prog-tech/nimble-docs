@@ -87,12 +87,14 @@ niets gevonden, dan verschijnt een melding en blijven de velden zoals u ze zelf 
 
 ### Tabblad Journaal
 
-Hier staat alles wat er rond deze lead gebeurd is, in twee lijsten die u bovenaan omschakelt:
+Hier staat alles wat er rond deze lead gebeurd is, in drie lijsten die u bovenaan omschakelt:
 
 - **Taken** — wat er nog moet gebeuren. Opvolgtaken die Nimble zelf aanmaakt (zie hieronder) staan hier
   ook tussen.
 - **Logboek** — wat er gebeurd is: notities die u zelf toevoegt, telefoongesprekken die u registreert, en
   de volledige tekst van aanvragen die via de website binnenkwamen.
+- **Bijlagen** — documenten en foto's bij deze lead: een plan dat de klant meestuurde, een foto van de
+  bestaande situatie. Zie [Bijlagen](../bijlagen.md).
 
 Het tabblad verschijnt pas bij een **bestaande** lead — een nieuwe lead heeft nog geen nummer om taken of
 notities aan te hangen. Bewaar ze eerst.

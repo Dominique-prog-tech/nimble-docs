@@ -31,6 +31,7 @@ La recherche porte sur toutes les colonnes, y compris **Entreprises** — tapez 
 - **Journal** — cliquez à droite sur le rail **Journal** pour le côté de la personne sélectionnée :
     - **Tâches** — ce qui doit encore être fait pour cette personne.
     - **Journal** — ce qui s'est passé : notes et appels.
+    - **Pièces jointes** — documents et photos liés à cette personne. Voir [Pièces jointes](../bijlagen.fr.md).
 
 ## La fiche de contact
 

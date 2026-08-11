@@ -31,6 +31,7 @@ De zoekbalk zoekt over alle kolommen, ook over **Bedrijven** — typ een bedrijf
 - **Journaal** — klik rechts op de rail **Journaal** voor de zijkant van de geselecteerde persoon:
     - **Taken** — wat er voor deze persoon nog moet gebeuren.
     - **Logboek** — wat er gebeurd is: notities en oproepen.
+    - **Bijlagen** — documenten en foto's bij deze persoon. Zie [Bijlagen](../bijlagen.md).
 
 ## De contactfiche
 

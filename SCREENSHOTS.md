@@ -51,6 +51,8 @@ Formaat: `- [ ] pagina.md (+ .fr.md) — locatie in de pagina — wat de screens
 - [ ] `inventory/articles.md` — onder "De lijst" — de artikellijst met de kolommen en een gevulde familie
 - [ ] `inventory/articles.md` — onder "Een artikel aanmaken of bewerken" — het bewerkvenster met de verplichte velden
 - [ ] `inventory/articles.md` — onder "De rail Stock" — de opengeklapte stockrail met de opmerking over het oude pakket
+- [ ] `bijlagen.md` — onder "Een bestand toevoegen" — het tabblad Bijlagen met enkele bestanden, waarvan minstens één foto met miniatuur
+- [ ] `bijlagen.md` — onder "Het tabblad openen" — het journaalpaneel met de tabkeuze open, zodat Bijlagen tussen de andere tabbladen staat
 
 ## Afgewerkt
 
