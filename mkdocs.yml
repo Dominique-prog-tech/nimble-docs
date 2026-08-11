@@ -134,5 +134,6 @@ nav:
     - Leadbronnen: administration/lead-sources.md
     - Types aanvraag: administration/lead-request-types.md
     - Leadstatus: administration/lead-status.md
+    - Leadopvolging: administration/lead-follow-up.md
   - Beheer:
     - Conversie: administration/conversion.md

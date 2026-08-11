@@ -46,6 +46,7 @@ Formaat: `- [ ] pagina.md (+ .fr.md) — locatie in de pagina — wat de screens
 - [ ] `settings/company-profile.md` — onder "Website-leads naar" — de kaart Contact met het veld Website-leads naar en de uitleg eronder
 - [ ] `crm/tasks.md` — onder "Mijn taken of alle taken" — het takenscherm met de schakelaar en een gevulde lijst
 - [ ] `crm/tasks.md` — onder "Taken die vanzelf verschijnen" — een automatisch aangemaakte opvolgtaak met het codelabel zichtbaar
+- [ ] `administration/lead-follow-up.md` — onder "Het scherm openen" — het instellingenscherm met de schakelaar en het dagenveld
 
 ## Afgewerkt
 
