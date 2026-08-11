@@ -26,7 +26,11 @@ La recherche porte sur toutes les colonnes, y compris **Entreprises** — tapez 
 
 - **Nouveau** — cliquez sur **Nouvelle personne de contact**.
 - **Modifier** — **double-cliquez** une ligne.
+- **Aller au client** — cliquez un nom d'entreprise dans la colonne **Entreprises** ; la fiche client s'ouvre directement.
 - **Exporter** — la liste vers Excel ou CSV.
+- **Journal** — cliquez à droite sur le rail **Journal** pour le côté de la personne sélectionnée :
+    - **Tâches** — ce qui doit encore être fait pour cette personne.
+    - **Journal** — ce qui s'est passé : notes et appels.
 
 ## La fiche de contact
 

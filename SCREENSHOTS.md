@@ -25,6 +25,7 @@ Formaat: `- [ ] pagina.md (+ .fr.md) — locatie in de pagina — wat de screens
 - [ ] `relations.md` — onder "Het scherm openen" (journaal-bullet) — de journaal-rail open op het tabblad Contacten
 - [ ] `crm/contactpersonen.md` — onder "Het scherm openen" — de contactenlijst met de kolom Bedrijven gevuld
 - [ ] `crm/contactpersonen.md` — onder "Blok Bedrijven" — de fiche met twee gekoppelde bedrijven en verschillende rollen
+- [ ] `crm/contactpersonen.md` — onder "De lijst" (journaal-bullet) — de journaal-rail open met de Taken-tab
 - [ ] `administration/contact-functions.md` — onder "Het scherm openen" — de lijst met contactfuncties
 - [ ] `administration/conversion.md` — onder "Het scherm openen" — het conversiescherm met de Firebird-broncontrole en de startknop
 - [ ] `administration/platform-management.md` — onder "Het scherm openen" — de Platformbeheer-hub met de tegelgroepen (zoals ze zichtbaar zijn met volle rechten)
