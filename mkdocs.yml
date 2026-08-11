@@ -124,6 +124,8 @@ nav:
     - Relaties: relations.md
     - Contactpersonen: crm/contactpersonen.md
     - Taken: crm/tasks.md
+  - Voorraad:
+    - Artikelen: inventory/articles.md
   - Platformbeheer:
     - Platformbeheer: administration/platform-management.md
     - Bedrijfsfiche: settings/company-profile.md
