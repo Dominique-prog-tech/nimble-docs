@@ -22,11 +22,16 @@ Cliquez sur **CRM → Relations** dans la barre latérale.
 - **Exporter** — exportez la liste vers Excel ou CSV.
 - **Nouveau** — cliquez sur **Nouvelle relation**.
 - **Modifier** — **double-cliquez** une ligne pour ouvrir la fiche.
-- **Journal** — cliquez à droite sur le rail **Journal** pour ouvrir les tâches et le journal de la relation sélectionnée.
+- **Journal** — cliquez à droite sur le rail **Journal** pour le côté de la relation sélectionnée. Il comporte trois onglets :
+    - **Contacts** — qui contacter chez ce client. Les adresses e-mail et les numéros sont cliquables, ce qui vous permet d'appeler ou d'écrire sans ouvrir la fiche. Cliquez une carte pour ouvrir la fiche de contact, ou utilisez **Nouvelle personne de contact** pour en lier une directement à ce client.
+    - **Tâches** — ce qui doit encore être fait.
+    - **Journal** — ce qui s'est passé : notes et appels.
 
 ## La fiche de relation
 
-La fiche est divisée en blocs.
+La fiche comporte deux onglets : **Fiche** et **Personnes de contact**. Les boutons **Enregistrer**, **Annuler** et **Supprimer** se trouvent sous les onglets et valent pour les deux — vous pouvez donc enregistrer depuis n'importe quel onglet.
+
+L'onglet **Fiche** est divisé en blocs.
 
 ### Bloc Identification
 
@@ -78,6 +83,23 @@ Ce bloc n'apparaît que pour une relation née d'un **lead**, et uniquement si v
 !!! note "Pourquoi pas simplement des champs sur le client ?"
     Le budget, le timing et l'urgence décrivent une demande, pas un client — après le premier devis, ils ne sont plus exacts. Ils restent donc rattachés au lead, mais vous les retrouvez ici sans devoir passer par l'écran des leads.
 
+### Onglet Personnes de contact
+
+Vous gérez ici qui répond chez ce client. Le nombre figure dans le titre de l'onglet, ce qui vous évite de l'ouvrir pour savoir si quelqu'un y est lié.
+
+| Colonne | Explication |
+|---|---|
+| **Personne** | Le nom. En lecture seule — la personne elle-même se modifie via [Personnes de contact](crm/contactpersonen.fr.md). |
+| **Rôle** | Ce que cette personne fait dans **cette** entreprise. La même personne peut avoir un autre rôle ailleurs. |
+| **E-mail** | Une adresse différente de celle de la personne. Laissez vide pour utiliser l'adresse personnelle — elle apparaît en gris dans le champ. |
+| **GSM** | Celui de la personne, pour information. |
+
+- **Lier** — choisissez une personne dans la liste de recherche en bas et cliquez sur **Lier**.
+- **Délier** — supprime le lien. La personne elle-même subsiste ; elle peut travailler dans une autre entreprise.
+
+!!! note "Tout est enregistré avec Enregistrer"
+    Les liens et les rôles ne sont écrits qu'au moment où vous cliquez sur **Enregistrer**. **Annuler** laisse tout en l'état.
+
 ## En bas de la fiche
 
 - **Enregistrer** — conserve les modifications. Actif uniquement avec un nom rempli et une adresse e-mail valide.
@@ -103,4 +125,5 @@ Vous disposez d'une base Firebird existante ? Via **Configuration → Conversion
 ## Voir aussi
 
 - [Leads](crm/leads.fr.md) — du premier contact à la conversion en client
+- [Personnes de contact](crm/contactpersonen.fr.md) — les personnes derrière ces entreprises
 - [Conversion](administration/conversion.md) — transfert Firebird → PostgreSQL

@@ -101,6 +101,8 @@ plugins:
           nav_translations:
             Home: Accueil
             Relaties: Relations
+            Contactpersonen: Personnes de contact
+            Contactfuncties: Fonctions de contact
             Beheer: Configuration
             Conversie: Conversion
             Platformbeheer: Administration
@@ -120,12 +122,14 @@ nav:
   - CRM:
     - Leads: crm/leads.md
     - Relaties: relations.md
+    - Contactpersonen: crm/contactpersonen.md
   - Platformbeheer:
     - Platformbeheer: administration/platform-management.md
     - Bedrijfsfiche: settings/company-profile.md
     - Artikelfamilies: administration/article-families.md
     - Eenheden: administration/units.md
     - Stamgegevens: administration/master-data.md
+    - Contactfuncties: administration/contact-functions.md
     - Leadbronnen: administration/lead-sources.md
     - Types aanvraag: administration/lead-request-types.md
     - Leadstatus: administration/lead-status.md

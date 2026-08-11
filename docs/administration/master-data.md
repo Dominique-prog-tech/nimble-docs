@@ -52,3 +52,4 @@ Open de waarde en klik op **Verwijderen**. De waarde wordt gearchiveerd (prullen
 ## Zie ook
 
 - [Platformbeheer](platform-management.md)
+- [Contactfuncties](contact-functions.md) — de functietitels op contactpersonen

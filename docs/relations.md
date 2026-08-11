@@ -22,11 +22,16 @@ Klik in de zijbalk op **CRM → Relaties**.
 - **Exporteren** — exporteer de lijst naar Excel of CSV.
 - **Nieuw** — klik op **Nieuwe relatie**.
 - **Bewerken** — **dubbelklik** een rij om de fiche te openen.
-- **Journaal** — klik rechts op de rail **Journaal** om taken en logboek van de geselecteerde relatie te openen.
+- **Journaal** — klik rechts op de rail **Journaal** voor de zijkant van de geselecteerde relatie. Die heeft drie tabbladen:
+    - **Contacten** — wie u bij deze klant moet hebben. E-mailadressen en nummers zijn aanklikbaar, zodat u kunt bellen of mailen zonder de fiche te openen. Klik een kaartje om de contactfiche te openen, of gebruik **Nieuwe contactpersoon** om er meteen een aan deze klant te koppelen.
+    - **Taken** — wat er nog moet gebeuren.
+    - **Logboek** — wat er gebeurd is: notities en oproepen.
 
 ## De relatiefiche
 
-De fiche is verdeeld in blokken.
+De fiche heeft twee tabbladen: **Fiche** en **Contactpersonen**. De knoppen **Opslaan**, **Annuleren** en **Verwijderen** staan onder de tabbladen en gelden voor allebei — u kunt dus bewaren vanaf welk tabblad u ook staat.
+
+Het tabblad **Fiche** is verdeeld in blokken.
 
 ### Blok Identificatie
 
@@ -78,6 +83,23 @@ Dit blok verschijnt alleen bij een relatie die uit een **lead** is ontstaan, en 
 !!! note "Waarom niet gewoon velden op de klant?"
     Budget, timing en urgentie beschrijven één aanvraag, geen klant — na de eerste offerte kloppen ze niet meer. Ze blijven daarom bij de lead staan, maar u vindt ze hier terug zonder naar het leadscherm te moeten.
 
+### Tabblad Contactpersonen
+
+Hier beheert u wie er bij deze klant aan de lijn komt. Het aantal staat in de titel van het tabblad, zodat u niet hoeft te openen om te weten of er iemand aan hangt.
+
+| Kolom | Uitleg |
+|---|---|
+| **Persoon** | De naam. Enkel lezen — de persoon zelf bewerkt u via [Contactpersonen](crm/contactpersonen.md). |
+| **Rol** | Wat deze persoon bij **dit** bedrijf doet. Dezelfde persoon kan elders een andere rol hebben. |
+| **E-mail** | Een adres dat afwijkt van dat van de persoon. Laat het leeg om het persoonlijke adres te gebruiken — dat staat als grijze suggestie in het veld. |
+| **Gsm** | Van de persoon zelf, ter info. |
+
+- **Koppelen** — kies onderaan een persoon in de zoeklijst en klik op **Koppelen**.
+- **Loskoppelen** — haalt de koppeling weg. De persoon zelf blijft bestaan; hij kan bij een ander bedrijf werken.
+
+!!! note "Alles gaat pas mee bij Opslaan"
+    Ook koppelingen en rollen worden pas weggeschreven wanneer u op **Opslaan** klikt. **Annuleren** laat alles zoals het was.
+
 ## Onderaan de fiche
 
 - **Opslaan** — bewaart de wijzigingen. Alleen actief met een ingevulde naam en een geldig e-mailadres.
@@ -103,4 +125,5 @@ Heeft u een bestaande Firebird-databank? Via **Beheer → Conversie** importeert
 ## Zie ook
 
 - [Leads](crm/leads.md) — van eerste contact tot omzetting naar klant
+- [Contactpersonen](crm/contactpersonen.md) — de mensen achter deze bedrijven
 - [Conversie](administration/conversion.md) — Firebird → PostgreSQL overzetten
