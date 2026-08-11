@@ -4,10 +4,7 @@ Op het scherm **Relaties** beheert u de klanten en leveranciers van uw bedrijf. 
 
 ## Het scherm openen
 
-Klik in de zijbalk op **Relaties**.
-
-!!! note "Actieve tenant"
-    Zonder gekozen tenant ziet u een waarschuwing. Kies eerst een tenant via **Beheer → Tenants → Gebruiken**.
+Klik in de zijbalk op **CRM → Relaties**.
 
 ## De lijst
 

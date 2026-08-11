@@ -4,10 +4,7 @@ Sur l'écran **Relations**, vous gérez les clients et fournisseurs de votre ent
 
 ## Ouvrir l'écran
 
-Cliquez sur **Relations** dans la barre latérale.
-
-!!! note "Tenant actif"
-    Sans tenant choisi, un avertissement s'affiche. Choisissez d'abord un tenant via **Configuration → Tenants → Utiliser**.
+Cliquez sur **CRM → Relations** dans la barre latérale.
 
 ## La liste
 
