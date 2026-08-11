@@ -15,10 +15,23 @@ Op de **Bedrijfsfiche** beheert u de eigen gegevens van uw kantoor: identiteit, 
 | Kaart | Velden |
 |---|---|
 | **Identiteit** | Naam (alleen-lezen), BTW-/ondernemingsnummer met **Ophalen**-knop, FSMA-nummer |
-| **Contact** | Telefoon, fax, e-mail, website |
+| **Contact** | Telefoon, fax, e-mail, website, **Website-leads naar** |
 | **Adres** | Straat, nr., bus, postcode, gemeente, land |
 | **Bank** | IBAN, BIC en rekening — tweemaal, voor twee bankrekeningen |
 | **Documenten & huisstijl** | Logo |
+
+## Website-leads naar
+
+Vult iemand het contactformulier op uw website in, dan maakt Nimble daar automatisch een lead van en
+verwittigt u per e-mail. In het veld **Website-leads naar** bepaalt u wie die melding krijgt.
+
+- Vul een adres in van de persoon of de ploeg die aanvragen opvolgt — een groepsadres zoals
+  `verkoop@uwbedrijf.be` mag ook.
+- Laat u het veld **leeg**, dan gaat de melding naar het **e-mailadres** hierboven op deze kaart.
+- Staan beide leeg, dan krijgt u geen mail. De lead wordt wél aangemaakt en er staat een taak klaar, dus
+  er gaat niets verloren — maar u ziet ze pas wanneer u in Nimble kijkt.
+
+Zie [Leads](../crm/leads.md) voor wat er met zo'n aanvraag gebeurt.
 
 ## Gegevens ophalen uit de KBO
 

@@ -15,10 +15,25 @@ La **fiche d'entreprise** contient les données de votre bureau : identité, con
 | Carte | Champs |
 |---|---|
 | **Identité** | Nom (lecture seule), numéro de TVA/d'entreprise avec bouton **Récupérer**, numéro FSMA |
-| **Contact** | Téléphone, fax, e-mail, site web |
+| **Contact** | Téléphone, fax, e-mail, site web, **Leads du site web vers** |
 | **Adresse** | Rue, n°, boîte, code postal, commune, pays |
 | **Banque** | IBAN, BIC et compte — deux fois, pour deux comptes bancaires |
 | **Documents et charte graphique** | Logo |
+
+## Leads du site web vers
+
+Lorsqu'une personne remplit le formulaire de contact de votre site web, Nimble en crée automatiquement un
+lead et vous en avertit par e-mail. Le champ **Leads du site web vers** détermine qui reçoit cet
+avertissement.
+
+- Indiquez l'adresse de la personne ou de l'équipe qui suit les demandes — une adresse de groupe comme
+  `ventes@votreentreprise.be` convient également.
+- Si vous laissez le champ **vide**, l'avertissement part vers l'**e-mail** indiqué plus haut sur cette
+  carte.
+- Si les deux sont vides, vous ne recevez pas de mail. Le lead est bien créé et une tâche vous attend,
+  donc rien ne se perd — mais vous ne le voyez qu'en consultant Nimble.
+
+Voir [Leads](../crm/leads.md) pour ce qu'il advient d'une telle demande.
 
 ## Récupérer les données depuis la BCE
 

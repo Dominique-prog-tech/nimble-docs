@@ -41,6 +41,9 @@ Formaat: `- [ ] pagina.md (+ .fr.md) — locatie in de pagina — wat de screens
 - [ ] `crm/leads.md` — onder "Blok Contact" — de leadfiche met het Contact-blok en de Ophalen-knop (KBO)
 - [ ] `crm/leads.md` — onder "Blok De aanvraag" — de leadfiche met het blok De aanvraag, inclusief een zichtbare omvangvraag
 - [ ] `crm/leads.md` — onder "Blok Opvolging" — de leadfiche met het blok Opvolging, status op Verloren zodat Verliesreden zichtbaar is
+- [ ] `crm/leads.md` — onder "Tabblad Journaal" — de leadfiche met het Journaal-tabblad open op Taken
+- [ ] `crm/leads.md` — onder "Leads via uw website" — het Logboek van een lead met een binnengekomen website-aanvraag
+- [ ] `settings/company-profile.md` — onder "Website-leads naar" — de kaart Contact met het veld Website-leads naar en de uitleg eronder
 
 ## Afgewerkt
 

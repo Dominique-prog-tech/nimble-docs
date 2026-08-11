@@ -42,8 +42,12 @@ tableau.
 
 ## La fiche du lead
 
-Un double-clic sur une carte comme sur une ligne de la liste ouvre la même fenêtre d'édition, structurée
-en trois blocs — dans l'ordre où vous recevez généralement ces informations au téléphone.
+Un double-clic sur une carte comme sur une ligne de la liste ouvre la même fenêtre d'édition. Cette
+fenêtre comporte deux onglets : **Fiche** et **Journal**. Les boutons du bas valent pour les deux — vous
+pouvez donc enregistrer depuis n'importe quel onglet.
+
+L'onglet **Fiche** est structuré en trois blocs — dans l'ordre où vous recevez généralement ces
+informations au téléphone.
 
 ### Bloc Contact
 
@@ -84,6 +88,57 @@ les avez saisis.
 | **Motif de perte** | Apparaît et devient **obligatoire** dès que le statut est **Perdu** |
 | **Date de réactivation** | Apparaît et devient **obligatoire** dès que le statut est **En attente** |
 
+### Onglet Journal
+
+Vous y trouvez tout ce qui s'est passé autour de ce lead, en deux listes que vous basculez en haut :
+
+- **Tâches** — ce qui doit encore être fait. Les tâches de suivi que Nimble crée lui-même (voir
+  ci-dessous) s'y trouvent aussi.
+- **Journal** — ce qui s'est passé : les notes que vous ajoutez, les appels que vous enregistrez, et le
+  texte complet des demandes arrivées via le site web.
+
+L'onglet n'apparaît que pour un lead **existant** — un nouveau lead n'a pas encore de numéro auquel
+rattacher des tâches ou des notes. Enregistrez-le d'abord.
+
+## Suivi automatique
+
+Chaque matin, Nimble vérifie lui-même quels leads restent en plan et en crée une tâche. Vous retrouvez
+ces tâches dans le **Journal** du lead et dans l'écran **Tâches**.
+
+| Quand | Ce que vous recevez |
+|---|---|
+| L'**action suivante** était prévue à une date dépassée et le lead ne bouge pas | Tâche *« Action suivante expirée »* |
+| Un lead **En attente** a atteint sa **date de réactivation** | Tâche *« Reprendre le lead »* |
+| Aucune **action suivante** n'est prévue et il ne s'est rien passé depuis un moment | Tâche *« Lead à l'arrêt »* |
+
+!!! info "Vous ne recevez jamais deux fois le même rappel"
+    Si la tâche est déjà ouverte, Nimble n'en crée pas une seconde. Si vous la clôturez et que le lead
+    reste ensuite de nouveau en plan, une nouvelle tâche suit bien.
+
+## Leads via votre site web
+
+Lorsqu'une personne remplit le formulaire de contact de votre site web, cette demande arrive directement
+dans Nimble — vous n'avez rien à recopier.
+
+- Un lead est créé avec la source **Website**, au statut **Nouveau**.
+- Le **contenu complet du formulaire** est repris dans le **Journal** de ce lead, y compris les champs
+  propres à votre formulaire. Ainsi, rien ne se perd.
+- Une **tâche** est ajoutée et un **e-mail** part vers l'adresse configurée dans
+  [Fiche d'entreprise → Leads du site web vers](../settings/company-profile.md).
+
+!!! info "Une deuxième demande de la même adresse ne devient pas un deuxième lead"
+    Si quelqu'un utilisant la même adresse e-mail demande encore quelque chose alors que son lead
+    précédent est toujours en cours, la nouvelle demande arrive comme **ligne de journal sur ce lead
+    existant** — avec une tâche. Vous n'avez donc pas deux cartes de la même personne dans votre
+    pipeline.
+
+    Si son lead précédent était déjà **gagné, perdu ou converti en client**, il s'agit bien d'un nouveau
+    lead. Qui revient après un dossier clôturé représente une nouvelle opportunité.
+
+    Si la personne n'a **pas indiqué d'adresse e-mail**, Nimble ne peut pas comparer et crée toujours un
+    nouveau lead. Un doublon dans la liste vous coûte une minute ; une demande manquée vous coûte un
+    client.
+
 ### En bas de la fiche
 
 - **Enregistrer** — enregistre le lead. Si le statut est Perdu ou En attente sans les données
@@ -112,6 +167,7 @@ les avez saisis.
 
 ## Voir aussi
 
+- [Fiche d'entreprise](../settings/company-profile.md) — configurer qui reçoit les leads du site web
 - [Sources de leads](../administration/lead-sources.md)
 - [Types de demande](../administration/lead-request-types.md)
 - [Statut de lead](../administration/lead-status.md)
