@@ -123,6 +123,7 @@ nav:
     - Leads: crm/leads.md
     - Relaties: relations.md
     - Contactpersonen: crm/contactpersonen.md
+    - Taken: crm/tasks.md
   - Platformbeheer:
     - Platformbeheer: administration/platform-management.md
     - Bedrijfsfiche: settings/company-profile.md
