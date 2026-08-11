@@ -87,7 +87,11 @@ niets gevonden, dan verschijnt een melding en blijven de velden zoals u ze zelf 
   gegevens, dan blijft de knop uitgeschakeld.
 - **Annuleren** — sluit zonder te bewaren.
 - **Omzetten naar klant** — enkel zichtbaar bij een bestaande, nog niet omgezette lead. Maakt van de lead
-  een relatie (klant); de fiche toont daarna een melding dat de lead is omgezet.
+  een relatie (klant); de fiche toont daarna een melding dat de lead is omgezet. Contactgegevens, adres,
+  btw-nummer, categorie, **leadbron** en **verantwoordelijke** gaan mee naar de klantenfiche. De
+  aanvraaggegevens (type aanvraag, omvang, budget, timing, urgentie, volgende actie) blijven op de lead
+  staan, maar zijn op de klantenfiche leesbaar in het blok **Afkomstig van een lead** — zie
+  [Relaties](../relations.md).
 - **Verwijderen** — enkel bij een bestaande lead. Archiveert de lead naar de prullenbak; niets wordt
   definitief gewist.
 

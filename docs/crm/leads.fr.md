@@ -90,7 +90,11 @@ les avez saisis.
   obligatoires correspondantes, le bouton reste désactivé.
 - **Annuler** — ferme sans enregistrer.
 - **Convertir en client** — visible uniquement pour un lead existant, pas encore converti. Transforme le
-  lead en relation (client) ; la fiche affiche ensuite un message confirmant la conversion.
+  lead en relation (client) ; la fiche affiche ensuite un message confirmant la conversion. Les
+  coordonnées, l'adresse, le numéro de TVA, la catégorie, la **source du lead** et le **responsable**
+  accompagnent la fiche client. Les données de la demande (type de demande, ampleur, budget, timing,
+  urgence, prochaine action) restent sur le lead, mais sont lisibles sur la fiche client dans le bloc
+  **Issu d'un lead** — voir [Relations](../relations.fr.md).
 - **Supprimer** — uniquement pour un lead existant. Archive le lead dans la corbeille ; rien n'est
   supprimé définitivement.
 

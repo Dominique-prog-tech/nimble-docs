@@ -17,6 +17,10 @@ Formaat: `- [ ] pagina.md (+ .fr.md) — locatie in de pagina — wat de screens
 - [ ] `settings/company-profile.md` — onder "Het scherm openen" — de Bedrijfsfiche-pagina met de vijf kaarten (Identiteit, Contact, Adres, Bank, Documenten & huisstijl)
 - [ ] `settings/company-profile.md` — onder "Gegevens ophalen uit de KBO" — het BTW-veld met de Ophalen-knop, vóór/na klikken
 - [ ] `relations.md` — onder "Het scherm openen" — de relatielijst met de kolommen en de knop Nieuwe relatie
+- [ ] `relations.md` — onder "Blok Identificatie" — de relatiefiche met het Identificatie-blok en de Ophalen-knop (KBO)
+- [ ] `relations.md` — onder "Blok Adres" — het Adres-blok met een opengeklapte postcodelijst
+- [ ] `relations.md` — onder "Blok Classificatie" — het Classificatie-blok met Categorie, Bron en Verantwoordelijke ingevuld
+- [ ] `relations.md` — onder "Blok Afkomstig van een lead" — een omgezette klant met het volledige herkomstblok
 - [ ] `administration/conversion.md` — onder "Het scherm openen" — het conversiescherm met de Firebird-broncontrole en de startknop
 - [ ] `administration/platform-management.md` — onder "Het scherm openen" — de Platformbeheer-hub met de tegelgroepen (zoals ze zichtbaar zijn met volle rechten)
 - [ ] `administration/article-families.md` — onder "Het scherm openen" — de familielijst met een uitgeklapte subfamilie
