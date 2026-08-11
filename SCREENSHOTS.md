@@ -25,6 +25,12 @@ Formaat: `- [ ] pagina.md (+ .fr.md) — locatie in de pagina — wat de screens
 - [ ] `administration/lead-sources.md` — onder "Het scherm openen" — de leadbronnenlijst
 - [ ] `administration/lead-request-types.md` — onder "Een type aanmaken of bewerken" — het bewerkvenster met de omvangvraag-sectie en de live-preview
 - [ ] `administration/lead-status.md` — onder "Het scherm openen" — de leadstatuslijst met de vaste sleutels
+- [ ] `administration/lead-status.md` — onder "Volgorde en zichtbaarheid op het bord" — het bewerkvenster met de Volgorde-spinner en het Tonen-op-het-bord-vinkje
+- [ ] `crm/leads.md` — onder "Bord" — het leadbord met meerdere kolommen, een kaart met aandacht-markering
+- [ ] `crm/leads.md` — onder "Lijst" — de leadlijst met de kolommen
+- [ ] `crm/leads.md` — onder "Blok Contact" — de leadfiche met het Contact-blok en de Ophalen-knop (KBO)
+- [ ] `crm/leads.md` — onder "Blok De aanvraag" — de leadfiche met het blok De aanvraag, inclusief een zichtbare omvangvraag
+- [ ] `crm/leads.md` — onder "Blok Opvolging" — de leadfiche met het blok Opvolging, status op Verloren zodat Verliesreden zichtbaar is
 
 ## Afgewerkt
 

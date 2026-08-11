@@ -43,3 +43,4 @@ Open de leadbron en klik op **Verwijderen**. De bron wordt gearchiveerd (prullen
 - [Platformbeheer](platform-management.md)
 - [Types aanvraag](lead-request-types.md)
 - [Leadstatus](lead-status.md)
+- [Leads](../crm/leads.md)

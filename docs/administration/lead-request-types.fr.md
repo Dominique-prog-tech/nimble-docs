@@ -46,3 +46,4 @@ Ouvrez le type et cliquez en bas de la fenêtre d'édition sur **Supprimer**. Le
 - [Administration](platform-management.md)
 - [Sources de leads](lead-sources.md)
 - [Statut de lead](lead-status.md)
+- [Leads](../crm/leads.fr.md)

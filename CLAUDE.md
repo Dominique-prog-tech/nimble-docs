@@ -57,6 +57,7 @@ ADM-operators; vermeld dat duidelijk bovenaan de pagina.
 | App-route | Docs-slug | HelpProvider-prefix |
 |---|---|---|
 | `/relaties` | `relations` | `relaties` |
+| `/crm/leads` | `crm/leads` | `crm/leads` |
 | `/beheer/conversie` | `administration/conversion` | `beheer/conversie` |
 | `/administration` | `administration/platform-management` | `administration` |
 | `/administration/company-profile` | `settings/company-profile` | `administration/company-profile` |

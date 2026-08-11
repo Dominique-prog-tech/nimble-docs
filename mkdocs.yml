@@ -118,6 +118,8 @@ extra:
 nav:
   - Home: index.md
   - Relaties: relations.md
+  - CRM:
+    - Leads: crm/leads.md
   - Platformbeheer:
     - Platformbeheer: administration/platform-management.md
     - Bedrijfsfiche: settings/company-profile.md

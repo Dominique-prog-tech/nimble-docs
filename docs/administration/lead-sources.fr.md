@@ -43,3 +43,4 @@ Ouvrez la source et cliquez sur **Supprimer**. La source est archivée (corbeill
 - [Administration](platform-management.md)
 - [Types de demande](lead-request-types.md)
 - [Statut de lead](lead-status.md)
+- [Leads](../crm/leads.fr.md)

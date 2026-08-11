@@ -46,3 +46,4 @@ Open het type en klik onderaan in het bewerkvenster op **Verwijderen**. Het type
 - [Platformbeheer](platform-management.md)
 - [Leadbronnen](lead-sources.md)
 - [Leadstatus](lead-status.md)
+- [Leads](../crm/leads.md)
