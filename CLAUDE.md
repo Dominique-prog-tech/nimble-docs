@@ -40,7 +40,9 @@ ADM-operators; vermeld dat duidelijk bovenaan de pagina.
 - **Nav**: `Program.cs` → `AddNavItems` / `AddNavSection`
 - **Context-help**: `src/Host/Nimble.Host.Web/Help/NimbleHelpProvider.cs`
   (route → korte intro + docs-slug). **DoD:** scherm klaar ⇒ Entry in de
-  provider + docs-pagina NL/FR + nav-item hier.
+  provider + docs-pagina NL/FR + nav-item hier. **Elk hoofdscherm van een
+  module krijgt zijn eigen Entry — geen uitzonderingen** (10/08/2026: Leads
+  bleek te ontbreken ondanks een uitgewerkt scherm).
 
 ### Delphi-source (read-only, legacy-referentie)
 - **Pad**: `~/projects/platform-nimble-delphi/` (of Windows-pad uit eerdere setup)
@@ -114,6 +116,14 @@ op schijf staan tot het vervangen is, maar komt **niet** in de nav.
 
 ## Zie ook
 ```
+
+⚠️ **Scope (10/08/2026): niet enkel het hoofdscherm.** De help-lade (het "?"-paneel in de app)
+koppelt aan de **route** van het hoofdscherm (lijst/bord) en toont enkel een korte intro + link
+hierheen — een bewerk-/aanmaakformulier zonder eigen route erft automatisch diezelfde
+lade-inhoud. **Deze pagina zelf mag zich daar niet toe beperken**: documenteer ook de volledige
+functionaliteit van vensters die rechtstreeks van dit hoofdscherm afgeleid zijn (typisch het
+bewerkformulier/de fiche, ook al is dat een popup zonder eigen URL) — elk veld, elke
+verplichte-veld-regel, elke workflow-stap die de gebruiker daar tegenkomt.
 
 ## Wat NIET doen
 
