@@ -132,6 +132,7 @@ nav:
     - Artikelfamilies: administration/article-families.md
     - Eenheden: administration/units.md
     - Stamgegevens: administration/master-data.md
+    - Klantcategorieën: administration/account-categories.md
     - Contactfuncties: administration/contact-functions.md
     - Leadbronnen: administration/lead-sources.md
     - Types aanvraag: administration/lead-request-types.md

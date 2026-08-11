@@ -47,6 +47,7 @@ Formaat: `- [ ] pagina.md (+ .fr.md) — locatie in de pagina — wat de screens
 - [ ] `crm/tasks.md` — onder "Mijn taken of alle taken" — het takenscherm met de schakelaar en een gevulde lijst
 - [ ] `crm/tasks.md` — onder "Taken die vanzelf verschijnen" — een automatisch aangemaakte opvolgtaak met het codelabel zichtbaar
 - [ ] `administration/lead-follow-up.md` — onder "Het scherm openen" — het instellingenscherm met de schakelaar en het dagenveld
+- [ ] `administration/account-categories.md` — onder "Het scherm openen" — de lijst met klantcategorieën
 - [ ] `inventory/articles.md` — onder "De lijst" — de artikellijst met de kolommen en een gevulde familie
 - [ ] `inventory/articles.md` — onder "Een artikel aanmaken of bewerken" — het bewerkvenster met de verplichte velden
 - [ ] `inventory/articles.md` — onder "De rail Stock" — de opengeklapte stockrail met de opmerking over het oude pakket
