@@ -117,6 +117,12 @@ plugins:
             Leadbronnen: Sources de leads
             Types aanvraag: Types de demande
             Leadstatus: Statut de lead
+            Leadopvolging: Suivi des leads
+            Taken: Tâches
+            Bijlagen: Pièces jointes
+            Voorraad: Stock
+            Artikelen: Articles
+            Klantcategorieën: Catégories de clients
 
 extra:
   generator: false
