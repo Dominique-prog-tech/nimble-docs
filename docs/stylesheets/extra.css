@@ -194,8 +194,12 @@ html {
   margin-bottom: 0;
 }
 
-/* Wat er nog niet is, mag zichtbaar zijn zonder klikbaar te lijken. */
+/* Wat er nog niet is, mag zichtbaar zijn zonder klikbaar te lijken.
+   0.8 en niet 0.55: bij CleanOps stonden vijf van de zes kaarten op deze klasse en op 0.55 kleurde dat de
+   halve onthaalpagina grijs — Dominique las het als "de tekst is lichter dan bij jullie", terwijl de
+   typografie byte-voor-byte gelijk was. Vandaag ongebruikt bij ons, maar wie hem straks gebruikt, begint
+   dan meteen op de waarde die de drie sites afspraken (14/08/2026). */
 .nb-binnenkort {
-  opacity: 0.55;
+  opacity: 0.8;
   pointer-events: none;
 }
