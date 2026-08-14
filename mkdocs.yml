@@ -23,7 +23,7 @@ theme:
         icon: material/brightness-7
         name: Schakel naar donkere modus
     - scheme: slate
-      primary: deep purple
+      primary: black
       accent: deep purple
       toggle:
         icon: material/brightness-4
@@ -58,6 +58,10 @@ markdown_extensions:
   - tables
   - attr_list
   - md_in_html
+  # Iconen (:material-…: / :octicons-…:) voor het kaartraster op de onthaalpagina.
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
   - search:
@@ -93,7 +97,7 @@ plugins:
                   icon: material/brightness-7
                   name: Passer en mode sombre
               - scheme: slate
-                primary: deep purple
+                primary: black
                 accent: deep purple
                 toggle:
                   icon: material/brightness-4

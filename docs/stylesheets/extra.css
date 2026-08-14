@@ -6,13 +6,13 @@
    dus die schalen automatisch mee — NIET expliciet overschrijven. */
 
 .md-typeset {
-  font-size: 0.76rem;
-  line-height: 1.65;
+  font-size: 0.8rem;
+  line-height: 1.72;
 }
 
 /* Sidebar en nav iets compacter */
 .md-nav {
-  font-size: 0.7rem;
+  font-size: 0.72rem;
 }
 
 
@@ -74,5 +74,118 @@
    Lager getal = compactere site overal (header, tabs, sidebar, body, footer).
    Eén knop om alles proportioneel mee te schalen. */
 html {
-  font-size: 125%;
+  font-size: 130%;
+}
+
+
+/* === Merkkleur (augustus 2026) =================================================
+   Doorgetrokken van CreditSoft (zelfde opzet, eigen kleuren): de site had geen
+   merkanker — accent stond op Material's "deep purple", niet op óns paars. De
+   kleuren hieronder komen rechtstreeks uit het Nimble-logo (docs/images/logo.svg):
+   #7c3aed diep paars, #c084fc licht paars — hetzelfde verloop als het
+   login-tweeluik van de app.
+
+   Bewuste keuze (van CreditSoft overgenomen): de header blijft WIT. Een volpaarse
+   balk oogt gedateerd; het merk komt terug in links, actieve navigatie en accenten. */
+:root {
+  --nb-paars: #7c3aed;
+  --nb-paars-licht: #c084fc;
+  --md-accent-fg-color: var(--nb-paars);
+  --md-typeset-a-color: var(--nb-paars);
+}
+[data-md-color-scheme="slate"] {
+  /* Op donkere achtergrond is #7c3aed te donker om te lezen — de lichte variant. */
+  --md-accent-fg-color: var(--nb-paars-licht);
+  --md-typeset-a-color: var(--nb-paars-licht);
+}
+
+/* Actieve pagina in de zijbalk krijgt het merkpaars i.p.v. Material's indigo */
+.md-nav__link--active,
+.md-nav__link--active:focus,
+.md-nav__link--active:hover {
+  color: var(--md-typeset-a-color);
+  font-weight: 600;
+}
+
+/* === Leeskolom =================================================================
+   Zelfde meting als bij CreditSoft: Material's .md-grid staat op 61rem en laat de
+   tekst in een smalle kolom tussen twee schaarse zijkolommen staan. 70rem geeft de
+   tekst zijn plaats terug zonder onleesbaar lange regels (~90 tekens bovengrens). */
+.md-grid {
+  max-width: 70rem;
+}
+
+/* === Koppen ====================================================================
+   h2 en h3 leken te veel op elkaar. h2 krijgt een fijne scheidingslijn zodat een
+   lange pagina leesbaar opdeelt. */
+.md-typeset h2 {
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  margin-top: 2.2em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+.md-typeset h3 {
+  font-weight: 600;
+  margin-top: 1.8em;
+}
+
+/* === Onthaalpagina =============================================================
+   Kop-blok plus kaartraster (Material's .grid.cards, dankzij attr_list +
+   md_in_html + pymdownx.emoji). Vorm van CreditSoft; klasse-prefix nb-. */
+.nb-hero {
+  padding: 2.2rem 0 1.6rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  margin-bottom: 2rem;
+}
+.nb-hero h1 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.5rem;
+  background: linear-gradient(95deg, var(--nb-paars), var(--nb-paars-licht));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.nb-hero p {
+  font-size: 0.9rem;
+  color: var(--md-default-fg-color--light);
+  max-width: 34rem;
+  margin: 0;
+}
+
+/* Drie kolommen op een breed scherm — zie de CreditSoft-nota: het raster staat op
+   de .grid-div zelf; de <ul> erbinnen is display:contents. */
+@media screen and (min-width: 60em) {
+  .md-typeset .grid.cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Kaartraster: rustiger rand, merkpaars bij hover, titel zonder extra marge */
+.md-typeset .grid.cards > ul > li {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.5rem;
+  padding: 1rem 1.1rem;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 2px 12px rgba(124, 58, 237, 0.09);
+  transform: translateY(-2px);
+}
+.md-typeset .grid.cards > ul > li > hr {
+  margin: 0.6em 0;
+  border-color: var(--md-default-fg-color--lightest);
+}
+.md-typeset .grid.cards > ul > li p:last-child {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.74rem;
+  margin-bottom: 0;
+}
+
+/* Wat er nog niet is, mag zichtbaar zijn zonder klikbaar te lijken. */
+.nb-binnenkort {
+  opacity: 0.55;
+  pointer-events: none;
 }
