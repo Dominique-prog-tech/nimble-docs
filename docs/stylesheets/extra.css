@@ -90,11 +90,21 @@ html {
 :root {
   --nb-paars: #7c3aed;
   --nb-paars-licht: #c084fc;
+}
+
+/* ⚠️ Óók op [data-md-color-primary], niet enkel :root. Material zet data-md-color-primary op de BODY en
+   declareert de linkkleur dáár — een :root-regel staat op <html> en verliest dan binnen de body. Het venijn:
+   in de inspector ziet alles er gezond uit (de variabele stáát, met de juiste waarde), maar de links renderen
+   Material-indigo. Live gemeten op 14/08/2026: --nb-paars = #7c3aed op <html>, linkkleur rgb(64,81,181).
+   Controleer dus de GERENDERDE kleur van een link, nooit de variabele. Gevonden door de CleanOps-sessie. */
+:root,
+[data-md-color-primary] {
   --md-accent-fg-color: var(--nb-paars);
   --md-typeset-a-color: var(--nb-paars);
 }
-[data-md-color-scheme="slate"] {
-  /* Op donkere achtergrond is #7c3aed te donker om te lezen — de lichte variant. */
+/* In donker wint Material met [data-md-color-scheme][data-md-color-primary] (specificiteit 0,2,0) — dus hier
+   dezelfde dubbele selector. Op donkere achtergrond is #7c3aed te donker om te lezen — de lichte variant. */
+[data-md-color-scheme="slate"][data-md-color-primary] {
   --md-accent-fg-color: var(--nb-paars-licht);
   --md-typeset-a-color: var(--nb-paars-licht);
 }
