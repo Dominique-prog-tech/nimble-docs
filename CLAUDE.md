@@ -99,39 +99,29 @@ op schijf staan tot het vervangen is, maar komt **niet** in de nav.
 - Eén `# H1` per pagina; Material-admonitions (`tip` / `warning` / `info`)
 - Screenshots: PNG, max 1920px; placeholder oké tot Dominique levert
 
-## Pagina-template
+### Vormgeving — vloot-afspraak
 
-```markdown
-# [Schermnaam]
+De drie docs-sites (CreditSoft, Nimble, CleanOps) delen één opzet. De afspraak én de drie gemeten
+valkuilen staan in **`~/projects/adm-appkit/docs/docs-site-vormgeving.md`** — lees dat vóór je iets aan
+de vorm wijzigt, en **stem een wijziging af met de andere twee**.
 
-[Eén alinea: wanneer/waarom.]
+Kort: merkkleur uit `logo.svg`, header wit in licht en zwart in donker, en drie valkuilen die er alle
+drie uitzien alsof alles klopt (een `:root`-regel die niet werkt, een palet dat op twee plaatsen staat,
+en meten binnen een seconde na een themawissel). **Niet hier overschrijven — verwijs ernaar.**
 
-## Het scherm openen
+## Een pagina schrijven
+
+Gebruik **`/adm-toolkit:handleiding-schrijven <scherm>`**. Die loopt de hele procedure af: de source
+lezen, de pagina-template, NL én FR, de `nav` in `mkdocs.yml`, en de entry in de hulplade van de app.
+
+Daar staan ook de stijlregels die vroeger hier stonden — geen verzonnen functionaliteit, geen
+Amerikaanse SaaS-toon, actief formuleren, en zelf geen schermafdrukken plaatsen.
+
+> Tot 15/08/2026 stond die template hier uitgeschreven, en identiek in de twee andere docs-repo's:
+> 113 regels die drie keer onderhouden moesten worden. De **schrijfflow** hierboven blijft wél
+> repo-eigen — die verschilt echt per platform.
 
 ## De lijst / Velden en functies
-
-## Veelgemaakte fouten
-
-!!! warning
-    …
-
-## Zie ook
-```
-
-⚠️ **Scope (10/08/2026): niet enkel het hoofdscherm.** De help-lade (het "?"-paneel in de app)
-koppelt aan de **route** van het hoofdscherm (lijst/bord) en toont enkel een korte intro + link
-hierheen — een bewerk-/aanmaakformulier zonder eigen route erft automatisch diezelfde
-lade-inhoud. **Deze pagina zelf mag zich daar niet toe beperken**: documenteer ook de volledige
-functionaliteit van vensters die rechtstreeks van dit hoofdscherm afgeleid zijn (typisch het
-bewerkformulier/de fiche, ook al is dat een popup zonder eigen URL) — elk veld, elke
-verplichte-veld-regel, elke workflow-stap die de gebruiker daar tegenkomt.
-
-## Wat NIET doen
-
-- Geen functionaliteit verzinnen die niet in de Blazor-source staat.
-- Geen oude Delphi-menu's documenteren alsof ze het nieuwe platform zijn.
-- Geen Amerikaanse SaaS-toon. Belgisch-professioneel.
-- Geen lange paragrafen — stappen of lijsten.
 
 ## Publicatie
 
