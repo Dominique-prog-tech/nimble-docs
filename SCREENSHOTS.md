@@ -5,10 +5,22 @@ er een NL/FR-pagina voor krijgt. Elke regel = één plek in de handleiding waar 
 schermafbeelding nog ontbreekt. Dit bestand staat bewust **buiten** `docs/` (mkdocs'
 `docs_dir`) — het wordt dus nooit mee gepubliceerd op docs.nimble-erp.eu.
 
-**Laatste stap vóór oplevering van een module:** Dominique maakt de screenshots,
-plaatst ze in `docs/images/<sectie>/...`, voegt de `![...](../images/...)`-referentie
-toe op de aangegeven plek in zowel de NL- als de FR-pagina, en vinkt de regel hieronder
-af (verplaatst naar "Afgewerkt").
+**⚠️ Sinds 19/08/2026 hoeft dit niet meer met de hand.** `adm-nimble/docs/tools/gen-screenshots.mjs`
+maakt de beelden automatisch — overgenomen uit CreditSoft, dat dit al langer zo doet. Draaien:
+
+```bash
+NIMBLE_DOCS_WACHTWOORD='…' node docs/tools/gen-screenshots.mjs
+```
+
+Het script meldt zichzelf aan, kiest de demo-tenant, zet de taal per beeld en schrijft rechtstreeks
+naar `docs/images/`. **Het weigert te draaien buiten een demo-tenant** — thomadak en bavo dragen
+echte klantnamen, en deze handleiding staat publiek.
+
+**Twee dingen ontbreken nog vóór het kan draaien:** er is nog géén demo-tenant in Nimble, en het
+wachtwoord van de testgebruiker moet in de omgeving staan. Zolang dat niet geregeld is, blijft de
+oude werkwijze gelden: Dominique maakt de screenshots, plaatst ze in `docs/images/<sectie>/...`,
+voegt de `![...](../images/...)`-referentie toe in zowel de NL- als de FR-pagina, en vinkt de regel
+hieronder af (verplaatst naar "Afgewerkt").
 
 Formaat: `- [ ] pagina.md (+ .fr.md) — locatie in de pagina — wat de screenshot moet tonen`
 
