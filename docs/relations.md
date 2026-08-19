@@ -104,12 +104,14 @@ Hier beheert u wie er bij deze klant aan de lijn komt. Het aantal staat in de ti
 ## Onderaan de fiche
 
 - **Opslaan** — bewaart de wijzigingen. Alleen actief met een ingevulde naam en een geldig e-mailadres.
-- **Annuleren** — sluit zonder te bewaren.
+- **Annuleren** — gaat terug naar de lijst zonder te bewaren.
 - **Verwijderen** — alleen bij een bestaande relatie, zie hieronder.
 
 ## Verwijderen
 
-In het bewerkvenster klikt u op **Verwijderen**. De relatie wordt **gearchiveerd** (soft-delete) en belandt in de **Prullenbak**, waar u ze kunt herstellen vóór definitieve verwijdering.
+Op de fiche klikt u op **Verwijderen**. U krijgt eerst de vraag *"Archiveren?"* met de naam erbij. Bevestigt u, dan wordt de relatie **gearchiveerd** (soft-delete) en belandt ze in de **Prullenbak**, waar u ze kunt herstellen vóór definitieve verwijdering.
+
+Opslaan en Verwijderen verschijnen alleen als u het **bewerkrecht** hebt; zonder dat recht kunt u de fiche lezen maar niet wijzigen.
 
 ## Veelgemaakte fouten
 
@@ -129,3 +131,4 @@ Heeft u een bestaande Firebird-databank? Via **Beheer → Conversie** importeert
 - [Contactpersonen](crm/contactpersonen.md) — de mensen achter deze bedrijven
 - [Conversie](administration/conversion.md) — Firebird → PostgreSQL overzetten
 - [Lijsten filteren](lijsten-filteren.md) — de trechterknop, de filterbouwer en de filterbalk
+- [Werken met een fiche](fiches.md) — eigen adres, tabbladen, opslaan en archiveren

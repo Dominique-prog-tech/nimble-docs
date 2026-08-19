@@ -75,7 +75,7 @@ Vous liez ici la personne aux entreprises où elle travaille.
 ## En bas de la fiche
 
 - **Enregistrer** — actif dès qu'un nom de famille est saisi et que toutes les adresses e-mail sont valides.
-- **Annuler** — ferme sans conserver.
+- **Annuler** — revient à la liste sans conserver.
 - **Supprimer** — uniquement pour une personne existante. La fiche est **archivée** dans la **Corbeille** ; les liens avec les entreprises subsistent, si bien que la restauration ramène la personne avec ses entreprises.
 
 ## Erreurs fréquentes
@@ -90,3 +90,4 @@ Vous liez ici la personne aux entreprises où elle travaille.
 
 - [Relations](../relations.fr.md) — les entreprises auxquelles ces personnes sont liées
 - [Fonctions de contact](../administration/contact-functions.fr.md) — la liste des titres de fonction
+- [Travailler avec une fiche](../fiches.md) — adresse propre, onglets, enregistrer et archiver

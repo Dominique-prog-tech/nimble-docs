@@ -75,7 +75,7 @@ Hier koppelt u de persoon aan de bedrijven waar hij werkt.
 ## Onderaan de fiche
 
 - **Opslaan** — actief zodra er een achternaam staat en alle e-mailadressen geldig zijn.
-- **Annuleren** — sluit zonder te bewaren.
+- **Annuleren** — gaat terug naar de lijst zonder te bewaren.
 - **Verwijderen** — alleen bij een bestaande persoon. De fiche wordt **gearchiveerd** naar de **Prullenbak**; de koppelingen met bedrijven blijven bestaan, zodat herstellen de persoon mét zijn bedrijven terugbrengt.
 
 ## Veelgemaakte fouten
@@ -90,3 +90,4 @@ Hier koppelt u de persoon aan de bedrijven waar hij werkt.
 
 - [Relaties](../relations.md) — de bedrijven waar deze personen aan hangen
 - [Contactfuncties](../administration/contact-functions.md) — de lijst met functietitels
+- [Werken met een fiche](../fiches.md) — eigen adres, tabbladen, opslaan en archiveren

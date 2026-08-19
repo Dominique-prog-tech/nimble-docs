@@ -104,12 +104,14 @@ Vous gérez ici qui répond chez ce client. Le nombre figure dans le titre de l'
 ## En bas de la fiche
 
 - **Enregistrer** — conserve les modifications. Actif uniquement avec un nom rempli et une adresse e-mail valide.
-- **Annuler** — ferme sans conserver.
+- **Annuler** — revient à la liste sans conserver.
 - **Supprimer** — uniquement pour une relation existante, voir ci-dessous.
 
 ## Supprimer
 
-Dans la fenêtre d'édition, cliquez sur **Supprimer**. La relation est **archivée** (soft-delete) et arrive dans la **Corbeille**, où vous pouvez la restaurer avant suppression définitive.
+Sur la fiche, cliquez sur **Supprimer**. La question « Archiver ? » apparaît d'abord, avec le nom. Après confirmation, la relation est **archivée** (soft-delete) et arrive dans la **Corbeille**, où vous pouvez la restaurer avant suppression définitive.
+
+Enregistrer et Supprimer n'apparaissent que si vous disposez du **droit de modification** ; sans ce droit, vous pouvez lire la fiche mais pas la modifier.
 
 ## Erreurs fréquentes
 
@@ -129,3 +131,4 @@ Vous disposez d'une base Firebird existante ? Via **Configuration → Conversion
 - [Personnes de contact](crm/contactpersonen.fr.md) — les personnes derrière ces entreprises
 - [Conversion](administration/conversion.md) — transfert Firebird → PostgreSQL
 - [Filtrer les listes](lijsten-filteren.md) — le bouton entonnoir, le générateur de filtres et la barre de filtre
+- [Travailler avec une fiche](fiches.md) — adresse propre, onglets, enregistrer et archiver

@@ -14,6 +14,9 @@ Formaat: `- [ ] pagina.md (+ .fr.md) — locatie in de pagina — wat de screens
 
 ## Open
 
+- [ ] `fiches.md` (+ `.fr.md`) — onder "Tabbladen" — een relatiefiche met de twee groepen tabbladen zichtbaar (links Fiche/Contactpersonen, rechts Contacten/Taken/Logboek/Bijlagen)
+- [ ] `fiches.md` (+ `.fr.md`) — onder "Opslaan, annuleren, verwijderen" — de bevestigingsvraag "Archiveren?" met de naam van het record erin
+- [ ] `fiches.md` (+ `.fr.md`) — onder "Wie mag wijzigen" — dezelfde fiche zonder bewerkrecht: velden grijs, enkel de terugknop
 - [ ] `lijsten-filteren.md` (+ `.fr.md`) — onder "De filterbouwer" — de werkbalk van een lijst met de trechterknop aangeduid (Artikelen leent zich het best)
 - [ ] `lijsten-filteren.md` (+ `.fr.md`) — onder "Meerdere voorwaarden" — het venster Filterbouwer met twee voorwaarden en de En/Of-knop zichtbaar
 - [ ] `lijsten-filteren.md` (+ `.fr.md`) — onder "De filterbalk: zien waarop u filtert" — de balk boven de lijst met een uitgeschreven voorwaarde, vinkje en kruisje
@@ -44,7 +47,7 @@ Formaat: `- [ ] pagina.md (+ .fr.md) — locatie in de pagina — wat de screens
 - [ ] `crm/leads.md` — onder "Blok Contact" — de leadfiche met het Contact-blok en de Ophalen-knop (KBO)
 - [ ] `crm/leads.md` — onder "Blok De aanvraag" — de leadfiche met het blok De aanvraag, inclusief een zichtbare omvangvraag
 - [ ] `crm/leads.md` — onder "Blok Opvolging" — de leadfiche met het blok Opvolging, status op Verloren zodat Verliesreden zichtbaar is
-- [ ] `crm/leads.md` — onder "Tabblad Journaal" — de leadfiche met het Journaal-tabblad open op Taken
+- [ ] `crm/leads.md` — onder "Tabblad Journaal" — de leadfiche met het tabblad Taken open (sinds 19/08/2026 staan Taken, Logboek en Bijlagen als aparte tabbladen, niet meer gestapeld onder één Journaal-tab)
 - [ ] `crm/leads.md` — onder "Leads via uw website" — het Logboek van een lead met een binnengekomen website-aanvraag
 - [ ] `settings/company-profile.md` — onder "Website-leads naar" — de kaart Contact met het veld Website-leads naar en de uitleg eronder
 - [ ] `crm/tasks.md` — onder "Mijn taken of alle taken" — het takenscherm met de schakelaar en een gevulde lijst
@@ -52,7 +55,7 @@ Formaat: `- [ ] pagina.md (+ .fr.md) — locatie in de pagina — wat de screens
 - [ ] `administration/lead-follow-up.md` — onder "Het scherm openen" — het instellingenscherm met de schakelaar en het dagenveld
 - [ ] `administration/account-categories.md` — onder "Het scherm openen" — de lijst met klantcategorieën
 - [ ] `inventory/articles.md` — onder "De lijst" — de artikellijst met de kolommen en een gevulde familie
-- [ ] `inventory/articles.md` — onder "Een artikel aanmaken of bewerken" — het bewerkvenster met de verplichte velden
+- [ ] `inventory/articles.md` — onder "Een artikel aanmaken of bewerken" — de artikelfiche met de verplichte velden (sinds 19/08/2026 een pagina, geen venster)
 - [ ] `inventory/articles.md` — onder "De rail Stock" — de opengeklapte stockrail met de opmerking over het oude pakket
 - [ ] `bijlagen.md` — onder "Een bestand toevoegen" — het tabblad Bijlagen met enkele bestanden, waarvan minstens één foto met miniatuur
 - [ ] `bijlagen.md` — onder "Het tabblad openen" — het journaalpaneel met de tabkeuze open, zodat Bijlagen tussen de andere tabbladen staat

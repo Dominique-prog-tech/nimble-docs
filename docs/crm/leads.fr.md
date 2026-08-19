@@ -42,9 +42,10 @@ tableau.
 
 ## La fiche du lead
 
-Un double-clic sur une carte comme sur une ligne de la liste ouvre la même fenêtre d'édition. Cette
-fenêtre comporte deux onglets : **Fiche** et **Journal**. Les boutons du bas valent pour les deux — vous
-pouvez donc enregistrer depuis n'importe quel onglet.
+Un double-clic sur une carte comme sur une ligne de la liste ouvre la même fiche — une page à part
+entière, avec sa propre adresse, que vous pouvez transmettre. À gauche l'onglet **Fiche**, à droite
+**Tâches**, **Journal** et **Pièces jointes**. Les boutons du bas appartiennent à la fiche ; sur un
+onglet du journal, ils ne s'affichent pas. Voir [Travailler avec une fiche](../fiches.md).
 
 L'onglet **Fiche** est structuré en trois blocs — dans l'ordre où vous recevez généralement ces
 informations au téléphone.
@@ -145,7 +146,7 @@ dans Nimble — vous n'avez rien à recopier.
 
 - **Enregistrer** — enregistre le lead. Si le statut est Perdu ou En attente sans les données
   obligatoires correspondantes, le bouton reste désactivé.
-- **Annuler** — ferme sans enregistrer.
+- **Annuler** — revient à la liste sans enregistrer.
 - **Convertir en client** — visible uniquement pour un lead existant, pas encore converti. Transforme le
   lead en relation (client) ; la fiche affiche ensuite un message confirmant la conversion. Les
   coordonnées, l'adresse, le numéro de TVA, la catégorie, la **source du lead** et le **responsable**
@@ -175,3 +176,4 @@ dans Nimble — vous n'avez rien à recopier.
 - [Statut de lead](../administration/lead-status.md)
 - [Relations](../relations.md)
 - [Filtrer les listes](../lijsten-filteren.md) — le bouton entonnoir, le générateur de filtres et la barre de filtre
+- [Travailler avec une fiche](../fiches.md) — adresse propre, onglets, enregistrer et archiver

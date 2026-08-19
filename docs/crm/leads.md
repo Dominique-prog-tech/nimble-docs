@@ -40,9 +40,10 @@ exporteren dan het bord.
 
 ## De leadfiche
 
-Zowel een dubbelklik op een kaart als op een lijstrij opent hetzelfde bewerkvenster. Dat venster heeft
-twee tabbladen: **Fiche** en **Journaal**. De knoppen onderaan horen bij beide — u kunt dus opslaan
-vanuit welk tabblad u ook openstaat.
+Zowel een dubbelklik op een kaart als op een lijstrij opent dezelfde fiche — een eigen pagina met een
+eigen adres, die u kunt doorsturen. Links staat het tabblad **Fiche**, rechts staan **Taken**,
+**Logboek** en **Bijlagen**. De knoppen onderaan horen bij de fiche; op een journaal-tabblad ziet u ze
+niet. Zie [Werken met een fiche](../fiches.md).
 
 Het tabblad **Fiche** is opgebouwd in drie blokken — dezelfde volgorde waarin u de informatie doorgaans
 aan de telefoon te horen krijgt.
@@ -140,7 +141,7 @@ u hoeft niets over te typen.
 
 - **Opslaan** — bewaart de lead. Is de status Verloren of On hold zonder de bijhorende verplichte
   gegevens, dan blijft de knop uitgeschakeld.
-- **Annuleren** — sluit zonder te bewaren.
+- **Annuleren** — gaat terug naar de lijst zonder te bewaren.
 - **Omzetten naar klant** — enkel zichtbaar bij een bestaande, nog niet omgezette lead. Maakt van de lead
   een relatie (klant); de fiche toont daarna een melding dat de lead is omgezet. Contactgegevens, adres,
   btw-nummer, categorie, **leadbron** en **verantwoordelijke** gaan mee naar de klantenfiche. De
@@ -170,3 +171,4 @@ u hoeft niets over te typen.
 - [Leadstatus](../administration/lead-status.md)
 - [Relaties](../relations.md)
 - [Lijsten filteren](../lijsten-filteren.md) — de trechterknop, de filterbouwer en de filterbalk
+- [Werken met een fiche](../fiches.md) — eigen adres, tabbladen, opslaan en archiveren
