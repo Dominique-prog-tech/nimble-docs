@@ -69,6 +69,8 @@ En bas à droite.
     Dans l'ancienne fenêtre, cela se faisait sans question : un clic et l'enregistrement quittait la
     liste. D'où la confirmation.
 
+![La question de confirmation « Archiver ? » avec le nom de l'enregistrement.](images/fiche-archiveren-bevestiging-fr.png)
+
 ## Qui peut modifier
 
 Sur les fiches **Articles**, **Relations** et **Personnes de contact**, Enregistrer et Supprimer dépendent

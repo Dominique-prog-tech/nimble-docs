@@ -31,7 +31,6 @@ Formaat: `- [ ] pagina.md (+ .fr.md) — locatie in de pagina — wat de screens
 
 ## Open
 
-- [ ] `fiches.fr.md` — onder "Enregistrer, annuler, supprimer" — **enkel de FR nog.** Het beeld bestaat (`fiche-archiveren-bevestiging-fr.png`) maar is niet geplaatst: het bevestigingsvenster van de AppKit is Nederlands, óók op een Franse pagina ("Archiveren?", "U archiveert …", knoppen "Archiveren"/"Annuleren"). Die teksten staan hardgecodeerd in `Adm.AppKit.Web`, niet in een vertaaltabel. Gemeld aan de ADM One-sessie op 19/08/2026. Plaatsen zodra dat opgelost is — een Franse handleiding met een Nederlands venster leest als een fout in de handleiding, terwijl de fout in de app zit.
 - [ ] `fiches.md` (+ `.fr.md`) — onder "Wie mag wijzigen" — dezelfde fiche zonder bewerkrecht: velden grijs, enkel de terugknop
 - [ ] `settings/company-profile.md` — onder "Het scherm openen" — de Bedrijfsfiche-pagina met de vijf kaarten (Identiteit, Contact, Adres, Bank, Documenten & huisstijl)
 - [ ] `settings/company-profile.md` — onder "Gegevens ophalen uit de KBO" — het BTW-veld met de Ophalen-knop, vóór/na klikken
@@ -81,4 +80,6 @@ Alle vier gemaakt met `gen-screenshots.mjs` op 19/08/2026, uit de demo-tenant, N
 - [x] `lijsten-filteren.md` (+ `.fr.md`) — onder "De filterbouwer" — `lijst-werkbalk-filterbouwer.png`
 - [x] `lijsten-filteren.md` (+ `.fr.md`) — onder "Meerdere voorwaarden" — `filterbouwer-twee-voorwaarden.png`
 - [x] `lijsten-filteren.md` (+ `.fr.md`) — onder "De filterbalk" — `filterbalk-actieve-voorwaarde.png`
-- [x] `fiches.md` — onder "Opslaan, annuleren, verwijderen" — `fiche-archiveren-bevestiging.png` (NL; de FR staat nog open, zie hierboven)
+- [x] `fiches.md` (+ `.fr.md`) — onder "Opslaan, annuleren, verwijderen" — `fiche-archiveren-bevestiging.png`.
+      De FR stond een halve dag open: het venster van de AppKit was Nederlands, óók op een Franse pagina.
+      Opgelost in AppKit 0.209.0, opnieuw geschoten en geplaatst op 19/08/2026.
