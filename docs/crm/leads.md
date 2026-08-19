@@ -169,3 +169,4 @@ u hoeft niets over te typen.
 - [Types aanvraag](../administration/lead-request-types.md)
 - [Leadstatus](../administration/lead-status.md)
 - [Relaties](../relations.md)
+- [Lijsten filteren](../lijsten-filteren.md) — de trechterknop, de filterbouwer en de filterbalk

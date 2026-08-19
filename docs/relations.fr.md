@@ -128,3 +128,4 @@ Vous disposez d'une base Firebird existante ? Via **Configuration → Conversion
 - [Leads](crm/leads.fr.md) — du premier contact à la conversion en client
 - [Personnes de contact](crm/contactpersonen.fr.md) — les personnes derrière ces entreprises
 - [Conversion](administration/conversion.md) — transfert Firebird → PostgreSQL
+- [Filtrer les listes](lijsten-filteren.md) — le bouton entonnoir, le générateur de filtres et la barre de filtre

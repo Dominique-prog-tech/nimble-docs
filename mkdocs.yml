@@ -104,6 +104,7 @@ plugins:
                   name: Passer en mode clair
           nav_translations:
             Home: Accueil
+            Lijsten filteren: Filtrer les listes
             Relaties: Relations
             Contactpersonen: Personnes de contact
             Contactfuncties: Fonctions de contact
@@ -129,6 +130,7 @@ extra:
 
 nav:
   - Home: index.md
+  - Lijsten filteren: lijsten-filteren.md
   - CRM:
     - Leads: crm/leads.md
     - Relaties: relations.md

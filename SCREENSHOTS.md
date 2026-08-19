@@ -14,6 +14,9 @@ Formaat: `- [ ] pagina.md (+ .fr.md) — locatie in de pagina — wat de screens
 
 ## Open
 
+- [ ] `lijsten-filteren.md` (+ `.fr.md`) — onder "De filterbouwer" — de werkbalk van een lijst met de trechterknop aangeduid (Artikelen leent zich het best)
+- [ ] `lijsten-filteren.md` (+ `.fr.md`) — onder "Meerdere voorwaarden" — het venster Filterbouwer met twee voorwaarden en de En/Of-knop zichtbaar
+- [ ] `lijsten-filteren.md` (+ `.fr.md`) — onder "De filterbalk: zien waarop u filtert" — de balk boven de lijst met een uitgeschreven voorwaarde, vinkje en kruisje
 - [ ] `settings/company-profile.md` — onder "Het scherm openen" — de Bedrijfsfiche-pagina met de vijf kaarten (Identiteit, Contact, Adres, Bank, Documenten & huisstijl)
 - [ ] `settings/company-profile.md` — onder "Gegevens ophalen uit de KBO" — het BTW-veld met de Ophalen-knop, vóór/na klikken
 - [ ] `relations.md` — onder "Het scherm openen" — de relatielijst met de kolommen en de knop Nieuwe relatie

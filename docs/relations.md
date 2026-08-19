@@ -128,3 +128,4 @@ Heeft u een bestaande Firebird-databank? Via **Beheer → Conversie** importeert
 - [Leads](crm/leads.md) — van eerste contact tot omzetting naar klant
 - [Contactpersonen](crm/contactpersonen.md) — de mensen achter deze bedrijven
 - [Conversie](administration/conversion.md) — Firebird → PostgreSQL overzetten
+- [Lijsten filteren](lijsten-filteren.md) — de trechterknop, de filterbouwer en de filterbalk

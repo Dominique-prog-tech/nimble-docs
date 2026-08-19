@@ -174,3 +174,4 @@ dans Nimble — vous n'avez rien à recopier.
 - [Types de demande](../administration/lead-request-types.md)
 - [Statut de lead](../administration/lead-status.md)
 - [Relations](../relations.md)
+- [Filtrer les listes](../lijsten-filteren.md) — le bouton entonnoir, le générateur de filtres et la barre de filtre

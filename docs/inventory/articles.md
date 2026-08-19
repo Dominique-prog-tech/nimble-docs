@@ -70,3 +70,4 @@ stand en de bewegingen van dat artikel.
 
 - [Artikelfamilies](../administration/article-families.md)
 - [Eenheden](../administration/units.md)
+- [Lijsten filteren](../lijsten-filteren.md) — de trechterknop, de filterbouwer en de filterbalk

@@ -73,3 +73,4 @@ son état actuel et ses mouvements.
 
 - [Familles d'articles](../administration/article-families.md)
 - [Unités](../administration/units.md)
+- [Filtrer les listes](../lijsten-filteren.md) — le bouton entonnoir, le générateur de filtres et la barre de filtre
