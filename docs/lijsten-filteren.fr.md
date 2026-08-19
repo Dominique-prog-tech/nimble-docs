@@ -33,6 +33,8 @@ Pour tout ce qui va plus loin, cliquez sur le **bouton entonnoir** dans la barre
 la liste. L'infobulle indique **Filtres avancés**. Une fenêtre s'ouvre, intitulée **Générateur de
 filtres**.
 
+![La barre d'outils au-dessus de la liste des articles, avec le bouton entonnoir pour les filtres avancés.](images/lijst-werkbalk-filterbouwer-fr.png)
+
 ### Composer une condition
 
 1. Cliquez sur **Ajouter une condition**.
@@ -47,10 +49,12 @@ Si vous ne souhaitez finalement rien modifier, cliquez sur **Annuler** — la li
 
 ### Plusieurs conditions
 
+![Le générateur de filtres avec deux conditions et le bouton Et au-dessus.](images/filterbouwer-twee-voorwaarden-fr.png)
+
 Cliquez de nouveau sur **Ajouter une condition** pour une deuxième ligne. En haut se trouve un bouton
 **Et**. Vous y choisissez la façon dont les règles se combinent :
 
-- **Et** — toutes les conditions doivent être remplies. *La famille d'articles contient « roofing »*
+- **Et** — toutes les conditions doivent être remplies. *La famille d'articles contient « sanitaire »*
   **et** *le prix de vente est compris entre 20 et 50.*
 - **Ou** — une seule suffit. *Le statut est Acceptée* **ou** *le statut est Envoyée.*
 
@@ -63,8 +67,10 @@ les deux : *(statut Acceptée ou Envoyée) et date comprise entre le 1er janvier
 
 ## La barre de filtre : voir sur quoi vous filtrez
 
-Dès qu'un filtre est actif, une barre apparaît au-dessus de la liste, reprenant la **condition
+Dès qu'un filtre est actif, une barre apparaît sous la liste, reprenant la **condition
 complète** en toutes lettres. Elle porte trois commandes :
+
+![La barre de filtre sous la liste des articles, avec la condition commence par Numéro, SAN.](images/filterbalk-actieve-voorwaarde-fr.png)
 
 - La **case à cocher** en tête désactive temporairement le filtre sans l'effacer. Cliquez de nouveau et
   il est de retour — pratique pour jeter un œil à la liste entière.
@@ -87,7 +93,7 @@ colonnes et leur largeur. Si vous revenez demain sur la liste des articles, votr
 
 !!! warning
     - **« La liste est vide, quelque chose est cassé. »** Il reste presque toujours un filtre actif.
-      Regardez la barre au-dessus de la liste : s'il y a une condition, cliquez sur la croix. C'est
+      Regardez la barre sous la liste : s'il y a une condition, cliquez sur la croix. C'est
       exactement à cela que sert cette barre.
     - **Et là où vous pensiez Ou.** *Le statut est Acceptée **et** le statut est Envoyée* ne donne aucune
       ligne — aucune offre ne porte deux statuts à la fois. Vous vouliez dire **Ou**.

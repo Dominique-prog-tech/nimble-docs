@@ -46,6 +46,8 @@ En haut de la fiche se trouvent deux groupes d'onglets.
 **À droite**, le journal : **Tâches**, **Journal**, **Pièces jointes**, et sur une relation également
 **Contacts**. Ce sont les éléments rattachés à l'enregistrement.
 
+![Une fiche de relation avec à gauche les onglets Fiche et Personnes de contact, à droite Contacts, Tâches, Journal et Pièces jointes.](images/fiche-tabbladen-fr.png)
+
 !!! info "Les boutons disparaissent sur un onglet du journal"
     Enregistrer et Supprimer appartiennent au formulaire. Si vous êtes sur **Pièces jointes**, ces boutons
     ne s'affichent pas — sinon « Supprimer » serait ambigu : cela supprimerait-il l'enregistrement ou la

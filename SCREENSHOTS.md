@@ -5,33 +5,34 @@ er een NL/FR-pagina voor krijgt. Elke regel = één plek in de handleiding waar 
 schermafbeelding nog ontbreekt. Dit bestand staat bewust **buiten** `docs/` (mkdocs'
 `docs_dir`) — het wordt dus nooit mee gepubliceerd op docs.nimble-erp.eu.
 
-**⚠️ Sinds 19/08/2026 hoeft dit niet meer met de hand.** `adm-nimble/docs/tools/gen-screenshots.mjs`
-maakt de beelden automatisch — overgenomen uit CreditSoft, dat dit al langer zo doet. Draaien:
+**⚠️ Sinds 19/08/2026 hoeft dit niet meer met de hand, en sinds diezelfde dag werkt het ook echt.**
+`adm-nimble/docs/tools/gen-screenshots.mjs` maakt de beelden automatisch — overgenomen uit CreditSoft,
+dat dit al langer zo doet. Draaien, vanuit de hoofdmap van `adm-nimble`:
 
 ```bash
-NIMBLE_DOCS_WACHTWOORD='…' node docs/tools/gen-screenshots.mjs
+node docs/tools/gen-screenshots.mjs
 ```
+
+Meer is er niet: het script haalt de aanmelding zelf uit de user-secrets van de Host
+(`Auth:InitialAdmin:UserName/Password`). Dat is de dev-geheimenkluis van .NET — buiten de repo, per
+machine — dus er komt nog steeds geen geheim in git. Wil je een andere login, zet dan
+`NIMBLE_DOCS_GEBRUIKER` / `NIMBLE_DOCS_WACHTWOORD` in de omgeving; die gaan vóór.
 
 Het script meldt zichzelf aan, kiest de demo-tenant, zet de taal per beeld en schrijft rechtstreeks
 naar `docs/images/`. **Het weigert te draaien buiten een demo-tenant** — thomadak en bavo dragen
-echte klantnamen, en deze handleiding staat publiek.
+echte klantnamen, en deze handleiding staat publiek. De demo-tenant bestaat sinds 19/08/2026 en wordt
+gevuld met een knop op `/beheer/conversie` (alleen zichtbaar op tenantcode `demo`).
 
-**Twee dingen ontbreken nog vóór het kan draaien:** er is nog géén demo-tenant in Nimble, en het
-wachtwoord van de testgebruiker moet in de omgeving staan. Zolang dat niet geregeld is, blijft de
-oude werkwijze gelden: Dominique maakt de screenshots, plaatst ze in `docs/images/<sectie>/...`,
-voegt de `![...](../images/...)`-referentie toe in zowel de NL- als de FR-pagina, en vinkt de regel
-hieronder af (verplaatst naar "Afgewerkt").
+Wat het script niet kan, doet Dominique nog met de hand: beeld maken, in `docs/images/<sectie>/...`
+zetten, de `![...](../images/...)`-referentie toevoegen in zowel de NL- als de FR-pagina, en de regel
+hieronder verplaatsen naar "Afgewerkt".
 
 Formaat: `- [ ] pagina.md (+ .fr.md) — locatie in de pagina — wat de screenshot moet tonen`
 
 ## Open
 
-- [ ] `fiches.md` (+ `.fr.md`) — onder "Tabbladen" — een relatiefiche met de twee groepen tabbladen zichtbaar (links Fiche/Contactpersonen, rechts Contacten/Taken/Logboek/Bijlagen)
-- [ ] `fiches.md` (+ `.fr.md`) — onder "Opslaan, annuleren, verwijderen" — de bevestigingsvraag "Archiveren?" met de naam van het record erin
+- [ ] `fiches.fr.md` — onder "Enregistrer, annuler, supprimer" — **enkel de FR nog.** Het beeld bestaat (`fiche-archiveren-bevestiging-fr.png`) maar is niet geplaatst: het bevestigingsvenster van de AppKit is Nederlands, óók op een Franse pagina ("Archiveren?", "U archiveert …", knoppen "Archiveren"/"Annuleren"). Die teksten staan hardgecodeerd in `Adm.AppKit.Web`, niet in een vertaaltabel. Gemeld aan de ADM One-sessie op 19/08/2026. Plaatsen zodra dat opgelost is — een Franse handleiding met een Nederlands venster leest als een fout in de handleiding, terwijl de fout in de app zit.
 - [ ] `fiches.md` (+ `.fr.md`) — onder "Wie mag wijzigen" — dezelfde fiche zonder bewerkrecht: velden grijs, enkel de terugknop
-- [ ] `lijsten-filteren.md` (+ `.fr.md`) — onder "De filterbouwer" — de werkbalk van een lijst met de trechterknop aangeduid (Artikelen leent zich het best)
-- [ ] `lijsten-filteren.md` (+ `.fr.md`) — onder "Meerdere voorwaarden" — het venster Filterbouwer met twee voorwaarden en de En/Of-knop zichtbaar
-- [ ] `lijsten-filteren.md` (+ `.fr.md`) — onder "De filterbalk: zien waarop u filtert" — de balk boven de lijst met een uitgeschreven voorwaarde, vinkje en kruisje
 - [ ] `settings/company-profile.md` — onder "Het scherm openen" — de Bedrijfsfiche-pagina met de vijf kaarten (Identiteit, Contact, Adres, Bank, Documenten & huisstijl)
 - [ ] `settings/company-profile.md` — onder "Gegevens ophalen uit de KBO" — het BTW-veld met de Ophalen-knop, vóór/na klikken
 - [ ] `relations.md` — onder "Het scherm openen" — de relatielijst met de kolommen en de knop Nieuwe relatie
@@ -74,4 +75,10 @@ Formaat: `- [ ] pagina.md (+ .fr.md) — locatie in de pagina — wat de screens
 
 ## Afgewerkt
 
-*(nog leeg)*
+Alle vier gemaakt met `gen-screenshots.mjs` op 19/08/2026, uit de demo-tenant, NL én FR.
+
+- [x] `fiches.md` (+ `.fr.md`) — onder "Tabbladen" — `fiche-tabbladen.png`
+- [x] `lijsten-filteren.md` (+ `.fr.md`) — onder "De filterbouwer" — `lijst-werkbalk-filterbouwer.png`
+- [x] `lijsten-filteren.md` (+ `.fr.md`) — onder "Meerdere voorwaarden" — `filterbouwer-twee-voorwaarden.png`
+- [x] `lijsten-filteren.md` (+ `.fr.md`) — onder "De filterbalk" — `filterbalk-actieve-voorwaarde.png`
+- [x] `fiches.md` — onder "Opslaan, annuleren, verwijderen" — `fiche-archiveren-bevestiging.png` (NL; de FR staat nog open, zie hierboven)

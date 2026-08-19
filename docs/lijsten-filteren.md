@@ -30,6 +30,8 @@ projecten van één klant.
 Voor alles wat verder gaat, klikt u op de **trechterknop** in de werkbalk boven de lijst. De tooltip
 leest **Uitgebreid filteren**. Er opent een venster met de titel **Filterbouwer**.
 
+![De werkbalk boven de artikelenlijst, met de trechterknop voor uitgebreid filteren.](images/lijst-werkbalk-filterbouwer.png)
+
 ### Een voorwaarde samenstellen
 
 1. Klik op **Voorwaarde toevoegen**.
@@ -42,10 +44,12 @@ Wilt u toch niets wijzigen, klik dan op **Annuleren** — de lijst blijft dan zo
 
 ### Meerdere voorwaarden
 
+![De Filterbouwer met twee voorwaarden en de En/Of-knop erboven.](images/filterbouwer-twee-voorwaarden.png)
+
 Klik nogmaals op **Voorwaarde toevoegen** voor een tweede regel. Bovenaan staat een knop **En**. Daar
 kiest u hoe de regels samenwerken:
 
-- **En** — alle voorwaarden moeten kloppen. *Artikelfamilie bevat "roofing"* **en** *verkoopprijs ligt
+- **En** — alle voorwaarden moeten kloppen. *Artikelfamilie bevat "sanitair"* **en** *verkoopprijs ligt
   tussen 20 en 50.*
 - **Of** — één ervan volstaat. *Status is Aanvaard* **of** *status is Verstuurd.*
 
@@ -58,8 +62,10 @@ Met **Groep toevoegen** maakt u een blok binnen het geheel, zodat u de twee kunt
 
 ## De filterbalk: zien waarop u filtert
 
-Zodra er gefilterd is, verschijnt boven de lijst een balk met de **volledige voorwaarde** uitgeschreven.
+Zodra er gefilterd is, verschijnt onder de lijst een balk met de **volledige voorwaarde** uitgeschreven.
 Daarop staan drie bedieningen:
+
+![De filterbalk onder de artikelenlijst met de voorwaarde begint met Nummer, SAN.](images/filterbalk-actieve-voorwaarde.png)
 
 - Het **vinkje** vooraan zet de filter tijdelijk uit zonder hem te wissen. Klik nogmaals en hij staat
   er weer — handig om even de volledige lijst te zien.
@@ -82,7 +88,7 @@ morgen terug op de artikelenlijst, dan staat uw filter er nog.
 
 !!! warning
     - **"De lijst is leeg, er is iets stuk."** Er staat bijna altijd nog een filter aan. Kijk naar de
-      balk boven de lijst: staat daar een voorwaarde, klik dan op het kruisje. Precies daarvoor is die
+      balk onder de lijst: staat daar een voorwaarde, klik dan op het kruisje. Precies daarvoor is die
       balk er.
     - **En waar Of bedoeld is.** *Status is Aanvaard **en** status is Verstuurd* geeft nul rijen — geen
       enkele offerte heeft twee statussen tegelijk. U bedoelt **Of**.

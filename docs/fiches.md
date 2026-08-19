@@ -44,6 +44,8 @@ Bovenaan de fiche staan twee groepen tabbladen.
 **Rechts** staat het journaal: **Taken**, **Logboek**, **Bijlagen**, en op een relatie ook
 **Contacten**. Dat zijn de dingen die aan het record hangen.
 
+![Een relatiefiche met links de tabbladen Fiche en Contactpersonen, rechts Contacten, Taken, Logboek en Bijlagen.](images/fiche-tabbladen.png)
+
 !!! info "De knoppen verdwijnen op een journaal-tabblad"
     Opslaan en Verwijderen horen bij het formulier. Staat u op **Bijlagen**, dan ziet u die knoppen niet
     — anders zou "Verwijderen" dubbelzinnig zijn: verwijdert dat het record of de bijlage waar u naar
@@ -63,6 +65,8 @@ Onderaan rechts.
 
     In het oude venster gebeurde dat zonder vraag: één klik en het record was uit de lijst. Vandaar de
     bevestiging.
+
+![De bevestigingsvraag Archiveren? met de naam van het record erin.](images/fiche-archiveren-bevestiging.png)
 
 ## Wie mag wijzigen
 
