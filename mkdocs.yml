@@ -154,4 +154,9 @@ nav:
     - Leadstatus: administration/lead-status.md
     - Leadopvolging: administration/lead-follow-up.md
   - Beheer:
+    - Klantenregister: administration/tenants.md
+    - Gebruikers: administration/users.md
+    - Rollen: administration/roles.md
+    - Prullenbak: administration/recycle-bin.md
+    - Actielogboek: administration/audit-log.md
     - Conversie: administration/conversion.md
