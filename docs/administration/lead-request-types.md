@@ -17,7 +17,7 @@
 | **Omvangvraag** | Samenvatting van het omvangveld (bijschrift + eenheid), of "— niet gevraagd —" |
 | **Volgorde** | Bepaalt de volgorde in de keuzelijsten |
 
-Dubbelklik op een rij om te bewerken, of klik op **Nieuw type**.
+Dubbelklik op een rij om het type te openen, of klik op **Nieuw type**. Het type opent op een **eigen pagina** met een eigen webadres — u kunt die link dus doorsturen, en de terugknop van uw browser werkt.
 
 ## Een type aanmaken of bewerken
 
@@ -27,12 +27,15 @@ Dubbelklik op een rij om te bewerken, of klik op **Nieuw type**.
      - **Bijschrift (NL)** / **Bijschrift (FR)** — hoe het veld heet op de leadfiche (bv. "Oppervlakte").
      - **Eenheid** — bv. `m²`, `personen`, `lm`.
      - Laat het bijschrift leeg als omvang voor dit type geen betekenis heeft; het veld verschijnt dan niet op de leadfiche.
-4. Onder het formulier ziet u meteen een voorbeeld van hoe het veld op de leadfiche zal heten.
-5. Klik op **Opslaan**.
+4. Onder het blok **Omvangvraag** ziet u meteen een voorbeeld van hoe het veld op de leadfiche zal heten.
+5. Klik rechtsonder op **Opslaan**. U komt daarna terug in de lijst.
+
+!!! tip "Uw werk raakt niet zomaar kwijt"
+    Navigeert u weg met onbewaarde wijzigingen, dan vraagt uw browser eerst of u dat zeker wil.
 
 ## Verwijderen
 
-Open het type en klik onderaan in het bewerkvenster op **Verwijderen**. Het type wordt gearchiveerd (prullenbak); bestaande leads met dit type blijven behouden.
+Open het type en klik rechtsonder op **Verwijderen**. Er verschijnt eerst de vraag *"Archiveren?"* met de naam erbij. Het type wordt **gearchiveerd** (prullenbak); bestaande leads met dit type blijven behouden.
 
 ## Veelgemaakte fouten
 

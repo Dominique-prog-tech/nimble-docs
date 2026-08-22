@@ -17,7 +17,7 @@ Les **types de demande** indiquent ce qu'un lead demande précisément : une toi
 | **Question de taille** | Résumé du champ de taille (libellé + unité), ou « — pas demandé — » |
 | **Ordre** | Détermine l'ordre dans les listes de choix |
 
-Double-cliquez une ligne pour modifier, ou cliquez sur **Nouveau type**.
+Double-cliquez une ligne pour ouvrir le type, ou cliquez sur **Nouveau type**. Le type s'ouvre sur une **page à part entière**, avec sa propre adresse web : vous pouvez donc transmettre ce lien, et le bouton retour de votre navigateur fonctionne.
 
 ## Créer ou modifier un type
 
@@ -27,12 +27,15 @@ Double-cliquez une ligne pour modifier, ou cliquez sur **Nouveau type**.
      - **Libellé (NL)** / **Libellé (FR)** — le nom du champ sur la fiche du lead (p. ex. « Superficie »).
      - **Unité** — p. ex. `m²`, `personnes`, `ml`.
      - Laissez le libellé vide si la taille n'a pas de sens pour ce type ; le champ n'apparaît alors pas sur la fiche du lead.
-4. Sous le formulaire, un aperçu montre immédiatement le nom du champ sur la fiche du lead.
-5. Cliquez sur **Enregistrer**.
+4. Sous le bloc **Question de taille**, un aperçu montre immédiatement le nom du champ sur la fiche du lead.
+5. Cliquez en bas à droite sur **Enregistrer**. Vous revenez ensuite à la liste.
+
+!!! tip "Votre travail ne se perd plus sans avertissement"
+    Si vous quittez la page avec des modifications non enregistrées, votre navigateur vous demande d'abord confirmation.
 
 ## Supprimer
 
-Ouvrez le type et cliquez en bas de la fenêtre d'édition sur **Supprimer**. Le type est archivé (corbeille) ; les leads existants avec ce type sont conservés.
+Ouvrez le type et cliquez en bas à droite sur **Supprimer**. La question « Archiver ? » apparaît d'abord, avec le nom. Le type est **archivé** (corbeille) ; les leads existants avec ce type sont conservés.
 
 ## Erreurs fréquentes
 
