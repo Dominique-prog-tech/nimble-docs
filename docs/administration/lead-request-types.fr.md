@@ -17,7 +17,7 @@ Les **types de demande** indiquent ce qu'un lead demande précisément : une toi
 | **Question de taille** | Résumé du champ de taille (libellé + unité), ou « — pas demandé — » |
 | **Ordre** | Détermine l'ordre dans les listes de choix |
 
-Double-cliquez une ligne pour ouvrir le type, ou cliquez sur **Nouveau type**. Le type s'ouvre sur une **page à part entière**, avec sa propre adresse web : vous pouvez donc transmettre ce lien, et le bouton retour de votre navigateur fonctionne.
+Double-cliquez une ligne pour ouvrir le type, ou cliquez sur **Nouveau type**. Chaque type a sa propre adresse web : copiez la barre d'adresse et votre collègue ouvre exactement ce type.
 
 ## Créer ou modifier un type
 
@@ -30,7 +30,7 @@ Double-cliquez une ligne pour ouvrir le type, ou cliquez sur **Nouveau type**. L
 4. Sous le bloc **Question de taille**, un aperçu montre immédiatement le nom du champ sur la fiche du lead.
 5. Cliquez en bas à droite sur **Enregistrer**. Vous revenez ensuite à la liste.
 
-!!! tip "Votre travail ne se perd plus sans avertissement"
+!!! tip "Modifications non enregistrées"
     Si vous quittez la page avec des modifications non enregistrées, votre navigateur vous demande d'abord confirmation.
 
 ## Supprimer

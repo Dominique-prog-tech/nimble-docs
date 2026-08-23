@@ -17,7 +17,7 @@
 | **Omvangvraag** | Samenvatting van het omvangveld (bijschrift + eenheid), of "— niet gevraagd —" |
 | **Volgorde** | Bepaalt de volgorde in de keuzelijsten |
 
-Dubbelklik op een rij om het type te openen, of klik op **Nieuw type**. Het type opent op een **eigen pagina** met een eigen webadres — u kunt die link dus doorsturen, en de terugknop van uw browser werkt.
+Dubbelklik op een rij om het type te openen, of klik op **Nieuw type**. Elk type heeft zijn eigen webadres: kopieer de adresbalk en uw collega opent precies dat type.
 
 ## Een type aanmaken of bewerken
 
@@ -30,7 +30,7 @@ Dubbelklik op een rij om het type te openen, of klik op **Nieuw type**. Het type
 4. Onder het blok **Omvangvraag** ziet u meteen een voorbeeld van hoe het veld op de leadfiche zal heten.
 5. Klik rechtsonder op **Opslaan**. U komt daarna terug in de lijst.
 
-!!! tip "Uw werk raakt niet zomaar kwijt"
+!!! tip "Onbewaarde wijzigingen"
     Navigeert u weg met onbewaarde wijzigingen, dan vraagt uw browser eerst of u dat zeker wil.
 
 ## Verwijderen

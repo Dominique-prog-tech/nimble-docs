@@ -111,6 +111,24 @@ en meten binnen een seconde na een themawissel). **Niet hier overschrijven — v
 
 ## Een pagina schrijven
 
+### De schrijfregels — vloot-afspraak
+
+**Bron: `~/projects/adm-appkit/docs/handleiding-schrijfregels.md`.** Lees dat vóór je aan een pagina
+begint. Zeven regels die geen enkele controle kan meten — waaronder de twee die hier al misgingen:
+
+- een nieuwe **functie** op een **bestaand** scherm ontsnapt aan de hele deploy-poort, want dat scherm
+  had al een help-entry en al een pagina. Voeg je iets toe, ga dan zélf naar de handleidingpagina en
+  de help-entry van dat scherm;
+- **beschrijf wat er ís, niet wat er veranderd is** — met de *impliciete* vergelijking als valstrik.
+  "Het type opent op een eigen pagina" bevat geen enkel verboden woord en is tóch een vergelijking met
+  een venster dat de lezer nooit gezien heeft. Zo'n zin veroudert stil; een verandering is nieuws op
+  het moment dat ze gebeurt, en dat hoort in de release notes.
+
+**Niet hier overschrijven — verwijs ernaar.** Vind je dat een regel bij Nimble anders moet liggen, vul
+dan het gedeelde bestand aan (met erbij wát er misging), zodat CreditSoft en CleanOps het meekrijgen.
+
+### De flow
+
 Gebruik **`/adm-toolkit:handleiding-schrijven <scherm>`**. Die loopt de hele procedure af: de source
 lezen, de pagina-template, NL én FR, de `nav` in `mkdocs.yml`, en de entry in de hulplade van de app.
 
