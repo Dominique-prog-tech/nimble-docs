@@ -15,9 +15,8 @@ Deux boutons figurent en haut :
 - **Toutes les tâches** — toutes les tâches ouvertes de votre dossier, quel que soit leur responsable.
 
 !!! info "Rien sous Mes tâches ?"
-    Les tâches reprises de votre ancien programme n'ont généralement **pas de responsable** — l'ancienne
-    base ne contenait rien à cet endroit. Elles existent bel et bien ; vous les trouvez sous **Toutes les
-    tâches**.
+    **Mes tâches** n'affiche que les tâches dont vous êtes le responsable. Une tâche **sans responsable**
+    n'y figure donc pas — vous la trouvez sous **Toutes les tâches**.
 
     Pour les répartir, ouvrez une tâche et complétez **Responsable**. Elle apparaîtra dès lors chez cette
     personne sous Mes tâches.

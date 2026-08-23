@@ -15,8 +15,8 @@ Bovenaan staan twee knoppen:
 - **Alle taken** — alle openstaande taken van uw dossier, ongeacht wie ze opvolgt.
 
 !!! info "Ziet u niets onder Mijn taken?"
-    Taken die uit uw vorige pakket zijn overgezet, hebben meestal **geen verantwoordelijke** — daar was in
-    de oude databank niets voor ingevuld. Ze staan er wel degelijk; u vindt ze onder **Alle taken**.
+    **Mijn taken** toont enkel de taken waarvoor u als verantwoordelijke staat. Een taak zonder
+    verantwoordelijke staat er dus niet bij — die vindt u onder **Alle taken**.
 
     Wilt u ze verdelen, open dan een taak en vul **Verantwoordelijke** in. Vanaf dan verschijnt ze bij die
     persoon onder Mijn taken.

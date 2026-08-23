@@ -1,8 +1,7 @@
 # Travailler avec une fiche
 
-Un client, un lead, un article, une personne de contact — vous les ouvrez sur une **page à part entière**,
-la fiche. Auparavant, c'était une fenêtre qui se superposait à la liste ; depuis août 2026, c'est une
-véritable page avec sa propre adresse.
+Un client, un lead, un article, une personne de contact — vous les ouvrez sur une **page dédiée** :
+la fiche.
 
 Cela fonctionne de la même manière sur **chaque fiche** de Nimble : cette page vaut donc pour tous les
 écrans où vous ouvrez un enregistrement.
@@ -14,13 +13,12 @@ Double-cliquez une ligne dans la liste. Sur le tableau des leads, cliquez sur un
 Pour un nouvel enregistrement, utilisez le bouton en haut de la liste — **Nouvelle relation**,
 **Nouvel article**, et ainsi de suite.
 
-## Ce qui est nouveau
+## Comment fonctionne une fiche
 
 ### Vous pouvez transmettre une fiche
 
-Chaque fiche possède désormais sa propre adresse web. Copiez la barre d'adresse et envoyez-la à un
-collègue : il ouvrira exactement la même fiche. Avec une fenêtre, c'était impossible — il n'y avait pas
-d'adresse à partager.
+Chaque fiche possède sa propre adresse web. Copiez la barre d'adresse et envoyez-la à un collègue :
+il ouvrira exactement la même fiche.
 
 C'est d'ailleurs le critère que nous utilisons pour décider si quelque chose mérite une fiche : *si vous
 ne pouvez pas en faire un lien, ce n'est pas une entité.*
@@ -30,11 +28,10 @@ ne pouvez pas en faire un lien, ce n'est pas une entité.*
 En haut à gauche se trouve **Vers la liste**. Le bouton Précédent de votre navigateur fonctionne
 également et vous ramène à l'endroit de la liste d'où vous veniez.
 
-### Votre travail ne se perd plus sans avertissement
+### Modifications non enregistrées
 
 Si vous avez modifié quelque chose et que vous quittez la page sans enregistrer, votre navigateur vous
-demande d'abord confirmation. L'ancienne fenêtre ne le faisait pas : un clic à côté suffisait à perdre
-votre saisie.
+demande d'abord confirmation.
 
 ### Onglets
 
@@ -61,13 +58,10 @@ En bas à droite.
 - **Annuler** revient en arrière sans conserver.
 - **Supprimer** demande d'abord une confirmation — voir ci-dessous.
 
-!!! warning "Supprimer, c'est archiver, et c'est désormais annoncé"
+!!! warning "Supprimer, c'est archiver"
     Si vous cliquez sur **Supprimer**, la question « Archiver ? » apparaît, avec le nom de
     l'enregistrement. Celui-ci disparaît de la liste et **reste conservé** ; vous le retrouvez dans la
     **Corbeille**.
-
-    Dans l'ancienne fenêtre, cela se faisait sans question : un clic et l'enregistrement quittait la
-    liste. D'où la confirmation.
 
 ![La question de confirmation « Archiver ? » avec le nom de l'enregistrement.](images/fiche-archiveren-bevestiging-fr.png)
 
@@ -83,8 +77,8 @@ distinct par rôle.
 ## Erreurs fréquentes
 
 !!! warning
-    - **Chercher la fiche là où se trouvait la fenêtre.** La fiche remplace la liste, elle ne se
-      superpose plus. Vous quittez donc l'aperçu un instant — le bouton de retour vous y ramène.
+    - **Croire que vous avez perdu l'aperçu.** La fiche occupe l'écran. **Vers la liste** ou le bouton
+      Précédent de votre navigateur vous ramène à la ligne d'où vous veniez.
     - **Quitter en pensant que c'est enregistré.** Enregistrer le fait, partir non. La question de votre
       navigateur est votre dernière chance.
     - **Lire « Supprimer » comme définitif.** Il s'agit d'un archivage. Ce que vous retirez se trouve dans
