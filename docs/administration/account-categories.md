@@ -14,6 +14,8 @@ syndicus … U kiest zelf welke categorieën zinvol zijn voor uw werk.
 - Op een **lead**, in het blok Contact. Zet u de lead om naar klant, dan gaat de categorie mee — u hoeft
   ze dus niet opnieuw te kiezen.
 
+![De lijst met klantcategorieën.](../images/klantcategorieen-lijst.png)
+
 De categorie is puur voor uw eigen indeling: Nimble rekent er niets mee en er hangt geen prijs of korting
 aan. Ze is handig om te filteren en om te zien met wat voor klanten u werkt.
 

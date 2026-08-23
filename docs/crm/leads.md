@@ -18,6 +18,8 @@ Elke kolom is een status uit de pijplijn (Nieuw, Gekwalificeerd, Offerte, Verlor
 kolom is hertaalbaar via **Platformbeheer → Leadstatus**; een status die daar op "Verborgen" staat, mist
 u hier als kolom — tenzij er nog een lead in die status staat.
 
+![Het leadbord met de pijplijnkolommen; kaarten met een verlopen volgende actie zijn gemarkeerd.](../images/leads-bord.png)
+
 - Elke kaart toont: naam, gemeente (of leadnummer als er geen gemeente is), verantwoordelijke en budget.
 - **Sleep** een kaart naar een andere kolom om de status te wijzigen. Klik een kaart om de volledige
   fiche te openen.
@@ -37,6 +39,8 @@ De klassieke tabelweergave, met kolommen **Nummer**, **Naam**, **Status**, **Lea
 **Verantwoordelijke** en **Volgende actie**. Dubbelklik op een rij om de fiche te openen, of gebruik
 **Nieuwe lead** om er een aan te maken. Deze weergave leent zich beter voor filteren, sorteren en
 exporteren dan het bord.
+
+![De leadlijst met de kolommen.](../images/leads-lijst.png)
 
 ## De leadfiche
 
@@ -60,6 +64,8 @@ aan de telefoon te horen krijgt.
 | **Categorie** | Optionele klantcategorie |
 | **Btw-nummer** | Optioneel — zie hieronder |
 
+![Het blok Contact van een leadfiche.](../images/lead-blok-contact.png)
+
 **Gegevens ophalen uit de KBO:** vul het btw-nummer in en klik op **Ophalen**. Nimble vult naam en adres
 automatisch aan vanuit de Kruispuntbank van Ondernemingen (KBO/BCE), in de taal van uw scherm. Wordt er
 niets gevonden, dan verschijnt een melding en blijven de velden zoals u ze zelf invulde.
@@ -75,6 +81,8 @@ niets gevonden, dan verschijnt een melding en blijven de velden zoals u ze zelf 
 | **Budget** | Geschat bedrag |
 | **Urgentie** | Laag / Normaal / Hoog — staat standaard op **Normaal** bij een nieuwe lead |
 
+![Het blok De aanvraag, met het type aanvraag en de omvangvraag die daarbij hoort.](../images/lead-blok-aanvraag.png)
+
 ### Blok Opvolging
 
 | Veld | Opmerking |
@@ -85,6 +93,8 @@ niets gevonden, dan verschijnt een melding en blijven de velden zoals u ze zelf 
 | **Volgende actie / Datum** | Wat de volgende stap is en tegen wanneer |
 | **Verliesreden** | Verschijnt en is **verplicht** zodra de status **Verloren** is |
 | **Heractivatiedatum** | Verschijnt en is **verplicht** zodra de status **On hold** is |
+
+![Het blok Opvolging van een verloren lead: de status staat op Verloren en de Verliesreden is zichtbaar.](../images/lead-blok-opvolging.png)
 
 ### Tabblad Journaal
 

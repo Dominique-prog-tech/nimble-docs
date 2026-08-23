@@ -19,6 +19,8 @@ Chaque colonne est un statut du pipeline (Nouveau, Qualifié, Offre, Perdu …).
 est retraduisible via **Administration → Statut de lead** ; un statut marqué « Masqué » là-bas n'apparaît
 pas ici comme colonne — sauf s'il contient encore un lead.
 
+![Le tableau des leads avec les colonnes du pipeline ; les cartes dont la prochaine action est échue sont marquées.](../images/leads-bord-fr.png)
+
 - Chaque carte affiche : le nom, la commune (ou le numéro de lead s'il n'y a pas de commune), le
   responsable et le budget.
 - **Glissez** une carte vers une autre colonne pour changer le statut. Cliquez une carte pour ouvrir la
@@ -39,6 +41,8 @@ La vue tableau classique, avec les colonnes **Numéro**, **Nom**, **Statut**, **
 **Responsable** et **Prochaine action**. Double-cliquez une ligne pour ouvrir la fiche, ou utilisez
 **Nouveau lead** pour en créer un. Cette vue se prête mieux au filtrage, au tri et à l'export que le
 tableau.
+
+![La liste des leads avec les colonnes.](../images/leads-lijst-fr.png)
 
 ## La fiche du lead
 
@@ -62,6 +66,8 @@ informations au téléphone.
 | **Catégorie** | Catégorie client optionnelle |
 | **Numéro de TVA** | Optionnel — voir ci-dessous |
 
+![Le bloc Contact d'une fiche de lead.](../images/lead-blok-contact-fr.png)
+
 **Récupérer les données depuis la BCE :** saisissez le numéro de TVA et cliquez sur **Récupérer**. Nimble
 complète automatiquement le nom et l'adresse depuis la Banque-Carrefour des Entreprises (KBO/BCE), dans
 la langue de votre écran. Si rien n'est trouvé, un message s'affiche et les champs restent tels que vous
@@ -78,6 +84,8 @@ les avez saisis.
 | **Budget** | Montant estimé |
 | **Urgence** | Faible / Normal / Élevé — réglé par défaut sur **Normal** pour un nouveau lead |
 
+![Le bloc La demande, avec le type de demande et la question de taille correspondante.](../images/lead-blok-aanvraag-fr.png)
+
 ### Bloc Suivi
 
 | Champ | Remarque |
@@ -88,6 +96,8 @@ les avez saisis.
 | **Prochaine action / Date** | Quelle est la prochaine étape et pour quand |
 | **Motif de perte** | Apparaît et devient **obligatoire** dès que le statut est **Perdu** |
 | **Date de réactivation** | Apparaît et devient **obligatoire** dès que le statut est **En attente** |
+
+![Le bloc Suivi d'un lead perdu : le statut est Perdu et le Motif de perte est visible.](../images/lead-blok-opvolging-fr.png)
 
 ### Onglet Journal
 

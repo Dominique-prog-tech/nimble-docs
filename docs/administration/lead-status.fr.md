@@ -7,6 +7,8 @@ Cet écran permet de retraduire le texte des statuts fixes du pipeline de leads 
 1. Cliquez sur **Administration** en bas de la barre latérale.
 2. Dans le groupe **Leads**, cliquez sur la tuile **Statut de lead**.
 
+![La liste des statuts de lead avec les clés fixes et l'ordre sur le tableau.](../images/leadstatus-lijst-fr.png)
+
 ## La liste
 
 | Colonne | Signification |

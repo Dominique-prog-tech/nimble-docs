@@ -20,12 +20,16 @@ Dans la barre latérale, cliquez sur **Stock → Articles**.
 | **Prix de vente** | Prix par unité |
 | **Actif** | Une coche pour les articles que vous utilisez encore |
 
+![La liste des articles avec numéro, nom, famille, unité, stock et prix de vente.](../images/artikelen-lijst-fr.png)
+
 Vous pouvez rechercher, trier, filtrer et exporter comme dans les autres listes. Double-cliquez une ligne
 pour ouvrir l'article.
 
 ## Créer ou modifier un article
 
 Cliquez sur **Nouvel article**, ou double-cliquez une ligne existante.
+
+![La fiche article avec les champs numéro, nom, famille, unité et prix.](../images/artikel-fiche-fr.png)
 
 | Champ | Remarque |
 |---|---|
@@ -47,6 +51,8 @@ Cliquez sur **Nouvel article**, ou double-cliquez une ligne existante.
 
 Cliquez sur **Stock** à droite pour déplier le panneau. Choisissez un article dans la liste et vous voyez
 son état actuel et ses mouvements.
+
+![Le rail Stock déplié à côté de la liste des articles, avec le solde actuel et le grand livre.](../images/artikel-stockrail-fr.png)
 
 !!! warning "Le stock est encore tenu dans votre programme actuel pour le moment"
     Tant que vous travaillez avec les deux programmes, c'est votre **ancien programme** qui tient le stock.

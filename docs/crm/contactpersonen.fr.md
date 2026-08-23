@@ -22,6 +22,8 @@ Cliquez sur **CRM → Personnes de contact** dans la barre latérale.
 | **GSM** et **Téléphone** | Les numéros |
 | **Langue** | La langue de cette personne |
 
+![La liste des contacts avec la colonne Entreprises remplie.](../images/contactpersonen-lijst-fr.png)
+
 La recherche porte sur toutes les colonnes, y compris **Entreprises** — tapez un nom d'entreprise pour voir qui y travaille. Une personne liée à aucune entreprise affiche le message *liée à aucune entreprise* ; vous la retrouvez donc également ici.
 
 - **Nouveau** — cliquez sur **Nouvelle personne de contact**.
@@ -59,6 +61,8 @@ Rue, code postal, commune et pays. Le code postal et la commune sont des listes 
 ### Bloc Entreprises
 
 Vous liez ici la personne aux entreprises où elle travaille.
+
+![Le bloc Entreprises sur une fiche de contact, avec la relation liée, le rôle et l'adresse e-mail.](../images/contactpersoon-blok-bedrijven-fr.png)
 
 | Colonne | Explication |
 |---|---|

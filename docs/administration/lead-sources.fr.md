@@ -16,6 +16,8 @@ Les **sources de leads** indiquent d'où provient un lead : Google, le site web,
 | **Nom (NL)** | Nom néerlandais |
 | **Nom (FR)** | Nom français |
 
+![La liste des sources de leads.](../images/leadbronnen-lijst-fr.png)
+
 Double-cliquez une ligne pour modifier, ou cliquez sur **Nouvelle valeur**.
 
 ## Créer ou modifier une source

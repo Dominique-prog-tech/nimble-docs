@@ -19,6 +19,8 @@ Les **fonctions de contact** sont les titres de fonction que vous pouvez attribu
 | **Nom (NL)** | Nom néerlandais |
 | **Nom (FR)** | Nom français |
 
+![La liste des fonctions de contact, avec code, nom dans les deux langues et ordre.](../images/contactfuncties-lijst-fr.png)
+
 Double-cliquez une ligne pour modifier, ou cliquez sur **Nouvelle valeur**.
 
 ## Créer ou modifier une fonction

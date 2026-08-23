@@ -8,6 +8,8 @@ cela se produit.
 1. Cliquez sur **Administration** en bas de la barre latérale.
 2. Dans le groupe **Leads**, cliquez sur la tuile **Suivi des leads**.
 
+![L'écran de réglages Suivi des leads avec l'interrupteur et le champ Jours.](../images/leadopvolging-scherm-fr.png)
+
 ## Les trois règles
 
 Nimble crée une tâche de suivi dans trois cas. Deux sont fixes, un se règle ici.

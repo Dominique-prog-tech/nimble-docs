@@ -14,6 +14,8 @@ architecte, entrepreneur, syndic … Vous choisissez vous-même les catégories 
 - Sur un **lead**, dans le bloc Contact. Si vous convertissez le lead en client, la catégorie suit — vous
   ne devez donc pas la choisir à nouveau.
 
+![La liste des catégories de clients.](../images/klantcategorieen-lijst-fr.png)
+
 La catégorie sert uniquement à votre propre classement : Nimble n'en calcule rien et aucun prix ou remise
 n'y est lié. Elle est pratique pour filtrer et pour voir avec quel type de clients vous travaillez.
 

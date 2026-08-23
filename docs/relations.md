@@ -18,6 +18,8 @@ Klik in de zijbalk op **CRM → Relaties**.
 | **Type** | Badges Klant / Leverancier |
 | **Aangemaakt** | Wanneer de fiche is aangemaakt |
 
+![De relatielijst met de kolommen Naam, Btw-nummer, Gemeente, Taal en Type.](images/relaties-lijst.png)
+
 - **Zoeken en filteren** — gebruik de rasterzoekfunctie om snel een relatie te vinden.
 - **Exporteren** — exporteer de lijst naar Excel of CSV.
 - **Nieuw** — klik op **Nieuwe relatie**.
@@ -43,6 +45,8 @@ Het tabblad **Fiche** is verdeeld in blokken.
 | **Rechtsvorm** | Keuzelijst (BV, NV, VZW …). Zoek door te typen. |
 | **Btw-nummer** | Ondernemingsnummer, met de knop **Ophalen** ernaast. |
 
+![Het blok Identificatie van een relatiefiche, met naam, rechtsvorm, relatienummer en btw-nummer.](images/relatie-blok-identificatie.png)
+
 #### Gegevens ophalen uit de KBO
 
 Vul het btw-nummer in en klik op **Ophalen**. Naam, straat, nummer, postcode, gemeente en land worden ingevuld met de gegevens uit de Kruispuntbank van Ondernemingen. Bestaat het nummer niet, dan verschijnt een melding en blijft de fiche ongewijzigd.
@@ -55,6 +59,8 @@ Vul het btw-nummer in en klik op **Ophalen**. Naam, straat, nummer, postcode, ge
 | **Postcode** | Zoeklijst — typ een postcode of een gemeentenaam. De gemeente wordt mee ingevuld. |
 | **Gemeente** | Zoeklijst — werkt in de andere richting: kies een gemeente en de postcode volgt. |
 | **Land** | Zoeklijst met de landenlijst. |
+
+![Het blok Adres met straat, nummer, postcode, gemeente en land.](images/relatie-blok-adres.png)
 
 !!! tip "U hoeft er maar één in te vullen"
     Postcode en gemeente vullen elkaar aan. Kies er één en het andere veld volgt vanzelf.
@@ -76,6 +82,8 @@ Vul het btw-nummer in en klik op **Ophalen**. Naam, straat, nummer, postcode, ge
 | **Documenttaal** | Stuurt de taal van offertes en facturen voor deze klant, los van de taal waarin u zelf werkt. Leeg = de standaardtaal van uw bureau. |
 | **Klant** / **Leverancier** | Vink aan wat van toepassing is — beide mag. |
 | **Actief** | Uitvinken verbergt de relatie niet automatisch uit alle lijsten; gebruik dit als statusmarkering. |
+
+![Het blok Classificatie met categorie, bron, documenttaal en de vinkjes Klant, Leverancier en Actief.](images/relatie-blok-classificatie.png)
 
 ### Blok Afkomstig van een lead
 

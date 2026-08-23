@@ -22,6 +22,8 @@ Klik in de zijbalk op **CRM → Contactpersonen**.
 | **Gsm** en **Telefoon** | De nummers |
 | **Taal** | De taal van deze persoon |
 
+![De contactenlijst met de kolom Bedrijven gevuld.](../images/contactpersonen-lijst.png)
+
 De zoekbalk zoekt over alle kolommen, ook over **Bedrijven** — typ een bedrijfsnaam om te zien wie daar werkt. Een persoon die aan geen enkel bedrijf hangt, toont de melding *aan geen bedrijf gekoppeld*; ook die vindt u hier terug.
 
 - **Nieuw** — klik op **Nieuwe contactpersoon**.
@@ -59,6 +61,8 @@ Straat, postcode, gemeente en land. Postcode en gemeente zijn zoeklijsten die el
 ### Blok Bedrijven
 
 Hier koppelt u de persoon aan de bedrijven waar hij werkt.
+
+![Het blok Bedrijven op een contactfiche, met de gekoppelde relatie, de rol en het e-mailadres.](../images/contactpersoon-blok-bedrijven.png)
 
 | Kolom | Uitleg |
 |---|---|

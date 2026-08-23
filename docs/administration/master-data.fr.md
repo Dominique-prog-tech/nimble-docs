@@ -17,6 +17,8 @@ Toutes les listes fonctionnent de la même manière.
 1. Cliquez sur **Administration** en bas de la barre latérale.
 2. Dans le groupe **Projets** ou **Relations**, cliquez sur la tuile souhaitée.
 
+![La liste triable Statut de production, avec l'ordre par ligne.](../images/productiestatus-lijst-fr.png)
+
 ## La liste
 
 | Colonne | Signification |

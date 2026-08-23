@@ -19,12 +19,16 @@ Klik in de zijbalk op **Voorraad → Artikelen**.
 | **Verkoopprijs** | Prijs per eenheid |
 | **Actief** | Een vinkje bij artikelen die u nog gebruikt |
 
+![De artikellijst met nummer, naam, familie, eenheid, stock en verkoopprijs.](../images/artikelen-lijst.png)
+
 U kunt zoeken, sorteren, filteren en exporteren zoals in de andere lijsten. Dubbelklik een rij om het
 artikel te openen.
 
 ## Een artikel aanmaken of bewerken
 
 Klik **Nieuw artikel**, of dubbelklik een bestaande rij.
+
+![De artikelfiche met de velden nummer, naam, familie, eenheid en prijzen.](../images/artikel-fiche.png)
 
 | Veld | Opmerking |
 |---|---|
@@ -46,6 +50,8 @@ Klik **Nieuw artikel**, of dubbelklik een bestaande rij.
 
 Klik rechts op **Stock** om het paneel open te klappen. Kies een artikel in de lijst en u ziet de huidige
 stand en de bewegingen van dat artikel.
+
+![De opengeklapte stockrail naast de artikellijst, met de huidige stand en het grootboek.](../images/artikel-stockrail.png)
 
 !!! warning "De voorraad wordt voorlopig nog in uw huidige pakket bijgehouden"
     Zolang u met beide pakketten werkt, houdt uw **oude pakket** de voorraad bij. Nimble toont hier al het

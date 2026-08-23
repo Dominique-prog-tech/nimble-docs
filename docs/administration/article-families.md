@@ -16,6 +16,8 @@ Met **artikelfamilies** deelt u uw artikelcatalogus in groepen in: families en (
 | **Naam (FR)** | Franstalige naam (optioneel) |
 | **Bovenliggende familie** | De hoofdfamilie waaronder deze subfamilie valt; `—` = zelf een hoofdfamilie |
 
+![De lijst met artikelfamilies.](../images/families-lijst.png)
+
 Dubbelklik op een rij om te bewerken, of klik op **Nieuwe familie**.
 
 ## Een familie aanmaken of bewerken

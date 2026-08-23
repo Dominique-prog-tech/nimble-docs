@@ -8,6 +8,8 @@ wanneer dat gebeurt.
 1. Klik onderaan in de zijbalk op **Platformbeheer**.
 2. Klik in de groep **Leads** op de tegel **Leadopvolging**.
 
+![Het instellingenscherm Leadopvolging met de schakelaar en het dagenveld.](../images/leadopvolging-scherm.png)
+
 ## De drie regels
 
 Nimble maakt een opvolgtaak in drie gevallen. Twee daarvan liggen vast, één stelt u zelf in.

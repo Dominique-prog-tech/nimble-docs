@@ -6,6 +6,8 @@ L'écran **Administration** regroupe tous les paramètres partagés et les donn�
 
 Cliquez sur **Administration** en bas de la barre latérale.
 
+![Le hub Administration avec les groupes de tuiles Entreprise, Articles, Projets, Relations, Ventes et Leads.](../images/platformbeheer-hub-fr.png)
+
 !!! info "Droits"
     Vous ne voyez que les tuiles pour lesquelles vous avez des droits. Si une tuile manque, demandez à votre administrateur d'attribuer le droit correspondant via **Gestion → Rôles**.
 

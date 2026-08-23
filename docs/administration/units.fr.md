@@ -15,6 +15,8 @@ Les **unités de mesure** sont utilisées sur les articles : pièce, mètre, mè
 | **Nom (NL)** | Nom néerlandais (obligatoire) |
 | **Nom (FR)** | Nom français (optionnel) |
 
+![La liste des unités avec code et nom dans les deux langues.](../images/eenheden-lijst-fr.png)
+
 Double-cliquez une ligne pour modifier, ou cliquez sur **Nouvelle unité**.
 
 ## Créer ou modifier une unité

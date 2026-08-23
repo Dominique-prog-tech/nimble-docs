@@ -7,6 +7,8 @@ Op dit scherm hertaalt u de tekst van de vaste pijplijnstatussen van leads (bv. 
 1. Klik onderaan in de zijbalk op **Platformbeheer**.
 2. Klik in de groep **Leads** op de tegel **Leadstatus**.
 
+![De leadstatuslijst met de vaste sleutels en de volgorde op het bord.](../images/leadstatus-lijst.png)
+
 ## De lijst
 
 | Kolom | Betekenis |

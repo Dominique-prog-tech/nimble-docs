@@ -18,6 +18,8 @@ Cliquez sur **CRM → Relations** dans la barre latérale.
 | **Type** | Badges Client / Fournisseur |
 | **Créé le** | Date de création de la fiche |
 
+![La liste des relations avec les colonnes Nom, Numéro de TVA, Commune, Langue et Type.](images/relaties-lijst-fr.png)
+
 - **Rechercher et filtrer** — utilisez la recherche de la grille pour trouver rapidement une relation.
 - **Exporter** — exportez la liste vers Excel ou CSV.
 - **Nouveau** — cliquez sur **Nouvelle relation**.
@@ -43,6 +45,8 @@ L'onglet **Fiche** est divisé en blocs.
 | **Forme juridique** | Liste de choix (SRL, SA, ASBL …). Recherchez en tapant. |
 | **Numéro de TVA** | Numéro d'entreprise, avec le bouton **Récupérer** à côté. |
 
+![Le bloc Identification d'une fiche de relation, avec nom, forme juridique, numéro de relation et numéro de TVA.](images/relatie-blok-identificatie-fr.png)
+
 #### Récupérer les données de la BCE
 
 Saisissez le numéro de TVA et cliquez sur **Récupérer**. Le nom, la rue, le numéro, le code postal, la commune et le pays sont remplis avec les données de la Banque-Carrefour des Entreprises. Si le numéro n'existe pas, un message s'affiche et la fiche reste inchangée.
@@ -55,6 +59,8 @@ Saisissez le numéro de TVA et cliquez sur **Récupérer**. Le nom, la rue, le n
 | **Code postal** | Liste de recherche — tapez un code postal ou un nom de commune. La commune est remplie automatiquement. |
 | **Commune** | Liste de recherche — fonctionne dans l'autre sens : choisissez une commune et le code postal suit. |
 | **Pays** | Liste de recherche avec la liste des pays. |
+
+![Le bloc Adresse avec rue, numéro, code postal, commune et pays.](images/relatie-blok-adres-fr.png)
 
 !!! tip "Un seul suffit"
     Le code postal et la commune se complètent mutuellement. Choisissez-en un et l'autre champ suit tout seul.
@@ -76,6 +82,8 @@ Saisissez le numéro de TVA et cliquez sur **Récupérer**. Le nom, la rue, le n
 | **Langue des documents** | Détermine la langue des devis et factures pour ce client, indépendamment de la langue dans laquelle vous travaillez. Vide = la langue par défaut de votre bureau. |
 | **Client** / **Fournisseur** | Cochez ce qui s'applique — les deux sont possibles. |
 | **Actif** | Décocher ne masque pas automatiquement la relation dans toutes les listes ; utilisez-le comme marqueur de statut. |
+
+![Le bloc Classification avec catégorie, source, langue des documents et les cases Client, Fournisseur et Actif.](images/relatie-blok-classificatie-fr.png)
 
 ### Bloc Issu d'un lead
 

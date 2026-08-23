@@ -16,6 +16,8 @@ Les **familles d'articles** organisent votre catalogue en groupes : familles et 
 | **Nom (FR)** | Nom français (optionnel) |
 | **Famille parente** | La famille principale dont dépend cette sous-famille ; `—` = famille principale |
 
+![La liste des familles d’articles.](../images/families-lijst-fr.png)
+
 Double-cliquez une ligne pour modifier, ou cliquez sur **Nouvelle famille**.
 
 ## Créer ou modifier une famille

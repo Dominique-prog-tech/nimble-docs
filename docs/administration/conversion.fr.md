@@ -14,6 +14,8 @@ Sur l'écran **Conversion**, vous transférez les données du **tenant actif** d
 
 En haut, vous voyez l'état de la connexion Firebird pour le tenant actif :
 
+![L'écran de conversion avec le tenant actif, le contrôle de la source Firebird et le bouton de démarrage.](../images/conversie-scherm-fr.png)
+
 - **Connecté (lecture seule)** — la source est accessible ; le nombre de lignes `CRM_ACCOUNTS` peut s'afficher.
 - **Aucun chemin Firebird** — configurez d'abord le chemin via **Tenants → source Firebird**.
 - **Retester** — relance le test de connexion.

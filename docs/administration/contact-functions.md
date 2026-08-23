@@ -19,6 +19,8 @@
 | **Naam (NL)** | Nederlandstalige naam |
 | **Naam (FR)** | Franstalige naam |
 
+![De lijst met contactfuncties, met code, naam in beide talen en volgorde.](../images/contactfuncties-lijst.png)
+
 Dubbelklik op een rij om te bewerken, of klik op **Nieuwe waarde**.
 
 ## Een functie aanmaken of bewerken

@@ -6,6 +6,8 @@ Op het scherm **Platformbeheer** vindt u alle gedeelde instellingen en stamgegev
 
 Klik onderaan in de zijbalk op **Platformbeheer**.
 
+![De hub Platformbeheer met de tegelgroepen Bedrijf, Artikelen, Projecten, Relaties, Verkoop en Leads.](../images/platformbeheer-hub.png)
+
 !!! info "Rechten"
     U ziet enkel de tegels waarvoor u rechten hebt. Ziet u een tegel niet, vraag dan uw beheerder om het bijbehorende recht toe te kennen via **Beheer → Rollen**.
 

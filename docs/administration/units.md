@@ -15,6 +15,8 @@
 | **Naam (NL)** | Nederlandstalige naam (verplicht) |
 | **Naam (FR)** | Franstalige naam (optioneel) |
 
+![De eenhedenlijst met code en naam in beide talen.](../images/eenheden-lijst.png)
+
 Dubbelklik op een rij om te bewerken, of klik op **Nieuwe eenheid**.
 
 ## Een eenheid aanmaken of bewerken

@@ -16,6 +16,8 @@
 | **Naam (NL)** | Nederlandstalige naam |
 | **Naam (FR)** | Franstalige naam |
 
+![De lijst met leadbronnen.](../images/leadbronnen-lijst.png)
+
 Dubbelklik op een rij om te bewerken, of klik op **Nieuwe waarde**.
 
 ## Een leadbron aanmaken of bewerken

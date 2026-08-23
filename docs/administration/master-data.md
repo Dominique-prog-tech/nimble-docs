@@ -17,6 +17,8 @@ Alle lijsten werken op dezelfde manier.
 1. Klik onderaan in de zijbalk op **Platformbeheer**.
 2. Klik in de groep **Projecten** of **Relaties** op de gewenste tegel.
 
+![De sorteerbare lijst Productiestatus, met de volgorde per rij.](../images/productiestatus-lijst.png)
+
 ## De lijst
 
 | Kolom | Betekenis |
