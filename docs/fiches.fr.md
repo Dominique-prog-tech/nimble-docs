@@ -50,18 +50,23 @@ En haut de la fiche se trouvent deux groupes d'onglets.
     ne s'affichent pas — sinon « Supprimer » serait ambigu : cela supprimerait-il l'enregistrement ou la
     pièce jointe que vous consultez ?
 
-### L'onglet Journal
+### Tâches et Journal ont la même forme
 
-Le journal montre ce qui s'est passé sur cet enregistrement : les notes que vous rédigez et les appels
-téléphoniques que vous consignez. Chaque ligne est une fiche avec l'objet en haut, le texte en dessous
-et la date en bas.
+Sur les deux onglets, chaque ligne est une fiche, avec au-dessus une barre d'outils qui reste visible.
+
+Le **journal** montre ce qui s'est passé sur cet enregistrement : les notes que vous rédigez et les
+appels téléphoniques que vous consignez. **Tâches** montre ce qui doit encore être fait, avec la
+priorité et la date à laquelle ce doit être prêt.
 
 <!-- AFBEELDING: l'onglet Journal avec la barre d'outils, le champ de recherche et trois lignes -->
 
-- En haut se trouvent **+ Note** et **+ Appel**. Cette barre d'outils **reste visible** pendant que vous
-  faites défiler la liste : inutile de remonter pour ajouter quelque chose.
-- À droite se trouve un **champ de recherche**. Il n'apparaît que lorsqu'il y a assez de lignes pour
-  chercher — avec trois notes, chercher n'a pas de sens.
+- En haut se trouvent les **boutons d'ajout** de cet onglet — sur le journal **+ Note** et **+ Appel**,
+  sur les tâches **+ Nouveau**. Cette barre d'outils **reste visible** pendant que vous faites défiler la
+  liste : inutile de remonter pour ajouter quelque chose.
+- Sur **Tâches** figure également **Afficher les tâches terminées**. Par défaut, vous ne voyez que ce qui
+  reste ouvert.
+- Sur le **journal**, un **champ de recherche** figure à droite, pour chercher dans les notes et les
+  appels.
 - **Les sauts de ligne sont conservés.** Si vous rédigez une note de trois lignes, elle se lit comme
   trois lignes.
 - La liste **remplit l'onglet** et défile à l'intérieur, pour que la barre d'outils reste en vue.
