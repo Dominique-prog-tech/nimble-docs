@@ -63,10 +63,25 @@ datum waartegen het klaar hoort te zijn.
   op taken **+ Nieuw**. Die werkbalk **blijft staan** terwijl u door de lijst scrolt, dus u hoeft niet
   terug naar boven om iets toe te voegen.
 - Op **Taken** staat er ook **Toon afgewerkte**. Standaard ziet u enkel wat nog openstaat.
-- Op het **logboek** staat rechts een **zoekvak**, om in de notities en gesprekken te zoeken.
+- Rechts staat een **zoekvak**, op beide tabbladen. Raakt uw zoekterm niets, dan leest u
+  *"Niets gevonden."* en niet een lege lijst — er zijn dus wél regels, uw term raakt ze enkel niet.
 - **Regeleindes blijven staan.** Schrijft u een notitie van drie regels, dan leest ze ook als drie
   regels.
 - De lijst **vult het tabblad** en schuift binnenin, zodat de werkbalk in beeld blijft.
+
+### Het tabblad Bijlagen
+
+Bijlagen krijgen dezelfde werkbalk, maar de lijst is een **tabel**: bestand, omschrijving, grootte en
+datum naast elkaar. Zoeken doet u in de naam én de omschrijving.
+
+<!-- AFBEELDING: het tabblad Bijlagen met de knop + Bijlage, het zoekvak en twee bestanden in de tabel -->
+
+- **+ Bijlage** opent een venster waar u bestanden kiest of ernaartoe sleept. U kunt er **meerdere
+  tegelijk** kiezen; de omschrijving die u meegeeft, geldt dan voor die hele reeks. Wilt u ze apart
+  omschrijven, dan past u dat achteraf per regel aan via het **⋯**-menu.
+- Klikt u op de naam, dan **opent** het bestand. Foto's en PDF's toont uw browser meteen; de rest wordt
+  gedownload.
+- Er geldt een bovengrens van **25 MB per bestand**.
 
 ## Opslaan, annuleren, verwijderen
 

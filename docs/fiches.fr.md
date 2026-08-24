@@ -65,11 +65,26 @@ priorité et la date à laquelle ce doit être prêt.
   liste : inutile de remonter pour ajouter quelque chose.
 - Sur **Tâches** figure également **Afficher les tâches terminées**. Par défaut, vous ne voyez que ce qui
   reste ouvert.
-- Sur le **journal**, un **champ de recherche** figure à droite, pour chercher dans les notes et les
-  appels.
+- À droite se trouve un **champ de recherche**, sur les deux onglets. Si votre terme ne correspond à
+  rien, vous lisez « Rien trouvé. » et non une liste vide — il y a donc bien des lignes, votre terme ne
+  les atteint simplement pas.
 - **Les sauts de ligne sont conservés.** Si vous rédigez une note de trois lignes, elle se lit comme
   trois lignes.
 - La liste **remplit l'onglet** et défile à l'intérieur, pour que la barre d'outils reste en vue.
+
+### L'onglet Pièces jointes
+
+Les pièces jointes reçoivent la même barre d'outils, mais la liste est un **tableau** : fichier,
+description, taille et date côte à côte. La recherche porte sur le nom et sur la description.
+
+<!-- AFBEELDING: l'onglet Pièces jointes avec le bouton + Pièce jointe, le champ de recherche et deux fichiers dans le tableau -->
+
+- **+ Pièce jointe** ouvre une fenêtre où vous choisissez des fichiers ou les y glissez. Vous pouvez en
+  sélectionner **plusieurs à la fois** ; la description que vous indiquez vaut alors pour toute la série.
+  Pour les décrire séparément, ajustez-les ensuite ligne par ligne via le menu **⋯**.
+- Un clic sur le nom **ouvre** le fichier. Les photos et les PDF s'affichent directement dans votre
+  navigateur ; le reste est téléchargé.
+- La limite est de **25 Mo par fichier**.
 
 ## Enregistrer, annuler, supprimer
 
