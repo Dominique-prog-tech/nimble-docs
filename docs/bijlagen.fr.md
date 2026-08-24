@@ -12,10 +12,14 @@ Le fonctionnement est identique partout ; cette page vaut donc pour tous les éc
 2. Cliquez à droite sur le rail **Journal**.
 3. Cliquez en haut sur le nom de l'onglet et choisissez **Pièces jointes**.
 
+<!-- AFBEELDING: le panneau du journal avec le sélecteur d'onglets ouvert, pour situer Pièces jointes parmi les autres -->
+
 ## Ajouter un fichier
 
 Cliquez sur **Ajouter un fichier** et choisissez un ou plusieurs fichiers. Vous pouvez en sélectionner
 plusieurs à la fois : ils sont téléversés l'un après l'autre, puis apparaissent dans la liste.
+
+<!-- AFBEELDING: l'onglet Pièces jointes avec quelques fichiers, dont au moins une photo avec vignette — nécessite des pièces jointes dans le tenant de démo -->
 
 !!! info "25 Mo maximum par fichier"
     Un plan de construction ou une série de photos de chantier tient largement dans cette limite. Si un

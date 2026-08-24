@@ -11,6 +11,8 @@ Klik in de zijbalk op **CRM → Taken**.
 
 Bovenaan staan twee knoppen:
 
+<!-- AFBEELDING: het takenscherm met de schakelaar en een gevulde lijst — vraagt taken in de demo-tenant -->
+
 - **Mijn taken** — de taken waarvoor u de verantwoordelijke bent. Dit is de standaardweergave.
 - **Alle taken** — alle openstaande taken van uw dossier, ongeacht wie ze opvolgt.
 
@@ -52,6 +54,8 @@ Met **Nieuw** maakt u er zelf een aan.
 ## Taken die vanzelf verschijnen
 
 Sommige taken maakt Nimble zelf aan. U herkent ze aan het gekleurde codelabel onder het onderwerp.
+
+<!-- AFBEELDING: een automatisch aangemaakte opvolgtaak met het codelabel zichtbaar -->
 
 | Waar het vandaan komt | Wanneer |
 |---|---|

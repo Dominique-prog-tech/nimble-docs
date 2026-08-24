@@ -7,6 +7,8 @@ La **fiche d'entreprise** contient les données de votre bureau : identité, con
 1. Cliquez sur **Administration** en bas de la barre latérale.
 2. Dans le groupe **Entreprise**, cliquez sur la tuile **Fiche d'entreprise**.
 
+<!-- AFBEELDING: la fiche entreprise avec les cinq cartes (Identité, Contact, Adresse, Banque, Documents & charte) — nécessite une fiche entreprise remplie dans le tenant de démo -->
+
 !!! info "Le nom est géré par ADM One"
     Le **nom** de votre entreprise provient du registre central ADM One et ne peut pas être modifié ici. Si le nom doit changer, contactez ADM.
 
@@ -26,6 +28,8 @@ Lorsqu'une personne remplit le formulaire de contact de votre site web, Nimble e
 lead et vous en avertit par e-mail. Le champ **Leads du site web vers** détermine qui reçoit cet
 avertissement.
 
+<!-- AFBEELDING: la carte Contact avec le champ Leads du site web vers et l'explication en dessous -->
+
 - Indiquez l'adresse de la personne ou de l'équipe qui suit les demandes — une adresse de groupe comme
   `ventes@votreentreprise.be` convient également.
 - Si vous laissez le champ **vide**, l'avertissement part vers l'**e-mail** indiqué plus haut sur cette
@@ -40,6 +44,8 @@ Voir [Leads](../crm/leads.md) pour ce qu'il advient d'une telle demande.
 1. Saisissez votre **numéro de TVA/d'entreprise**.
 2. Cliquez sur **Récupérer**.
 3. Nimble remplit automatiquement l'adresse et les données officielles depuis la Banque-Carrefour des Entreprises (BCE/KBO).
+
+<!-- AFBEELDING: le champ TVA avec le bouton Récupérer, avant et après le clic -->
 
 ## Remplir l'adresse
 

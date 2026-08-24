@@ -30,6 +30,8 @@ Double-cliquez une ligne pour ouvrir le type, ou cliquez sur **Nouveau type**. C
 4. Sous le bloc **Question de taille**, un aperçu montre immédiatement le nom du champ sur la fiche du lead.
 5. Cliquez en bas à droite sur **Enregistrer**. Vous revenez ensuite à la liste.
 
+<!-- AFBEELDING: la page de détail d'un type avec le bloc Question de taille et l'aperçu en dessous -->
+
 !!! tip "Modifications non enregistrées"
     Si vous quittez la page avec des modifications non enregistrées, votre navigateur vous demande d'abord confirmation.
 

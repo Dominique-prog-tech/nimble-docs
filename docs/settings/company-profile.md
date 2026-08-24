@@ -7,6 +7,8 @@ Op de **Bedrijfsfiche** beheert u de eigen gegevens van uw kantoor: identiteit, 
 1. Klik onderaan in de zijbalk op **Platformbeheer**.
 2. Klik in de groep **Bedrijf** op de tegel **Bedrijfsfiche**.
 
+<!-- AFBEELDING: de Bedrijfsfiche met de vijf kaarten (Identiteit, Contact, Adres, Bank, Documenten & huisstijl) — vraagt een ingevulde bedrijfsfiche in de demo-tenant -->
+
 !!! info "Naam wordt door ADM One beheerd"
     De **naam** van uw bedrijf komt uit het centrale ADM One-register en kunt u hier niet wijzigen. Moet de naam aangepast worden, neem dan contact op met ADM.
 
@@ -25,6 +27,8 @@ Op de **Bedrijfsfiche** beheert u de eigen gegevens van uw kantoor: identiteit, 
 Vult iemand het contactformulier op uw website in, dan maakt Nimble daar automatisch een lead van en
 verwittigt u per e-mail. In het veld **Website-leads naar** bepaalt u wie die melding krijgt.
 
+<!-- AFBEELDING: de kaart Contact met het veld Website-leads naar en de uitleg eronder -->
+
 - Vul een adres in van de persoon of de ploeg die aanvragen opvolgt — een groepsadres zoals
   `verkoop@uwbedrijf.be` mag ook.
 - Laat u het veld **leeg**, dan gaat de melding naar het **e-mailadres** hierboven op deze kaart.
@@ -38,6 +42,8 @@ Zie [Leads](../crm/leads.md) voor wat er met zo'n aanvraag gebeurt.
 1. Vul uw **BTW-/ondernemingsnummer** in.
 2. Klik op **Ophalen**.
 3. Nimble vult het adres en de officiële gegevens automatisch in vanuit de Kruispuntbank van Ondernemingen (KBO/BCE).
+
+<!-- AFBEELDING: het btw-veld met de Ophalen-knop, vóór en na klikken -->
 
 ## Adres invullen
 

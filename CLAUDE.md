@@ -127,6 +127,32 @@ begint. Zeven regels die geen enkele controle kan meten — waaronder de twee di
 **Niet hier overschrijven — verwijs ernaar.** Vind je dat een regel bij Nimble anders moet liggen, vul
 dan het gedeelde bestand aan (met erbij wát er misging), zodat CreditSoft en CleanOps het meekrijgen.
 
+### Schermafbeeldingen
+
+Ze worden **automatisch** gemaakt door `adm-nimble/docs/tools/gen-screenshots.mjs`, uit de
+**demo-tenant** — het script weigert op thomadak of bavo, want die dragen echte klantnamen en deze
+site staat publiek. Draaien, vanuit de hoofdmap van `adm-nimble`:
+
+```bash
+node docs/tools/gen-screenshots.mjs [naam-van-een-schot]
+```
+
+De aanmelding komt uit de user-secrets van de Host; er staat geen wachtwoord in het script.
+
+**Waar een beeld nog moet komen, staat een markering ín de pagina:**
+
+```markdown
+<!-- AFBEELDING: wat het beeld moet tonen — en, als het er nog niet is, waaróm niet -->
+```
+
+⚠️ **Niet in een lijst ernaast.** Tot 24/08/2026 stond dit in een `SCREENSHOTS.md` in de wortel.
+Dat werkt alleen voor wie weet dat die lijst bestaat — wie de eindfase doet, opent een pagina. Een
+markering in de tekst verhuist bovendien mee bij het herschrijven en verdwijnt vanzelf zodra het
+beeld er staat. Sinds AppKit 0.274.0 meldt de deploy-poort zo'n apart manifestbestand als bevinding.
+
+Zet in de markering ook de **reden** wanneer een beeld nog niet gemaakt kán worden ("vraagt taken in
+de demo-tenant"). Anders leest een lege plek als achterstand terwijl het een besluit is.
+
 ### De flow
 
 Gebruik **`/adm-toolkit:handleiding-schrijven <scherm>`**. Die loopt de hele procedure af: de source

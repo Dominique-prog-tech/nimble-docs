@@ -30,6 +30,8 @@ Dubbelklik op een rij om het type te openen, of klik op **Nieuw type**. Elk type
 4. Onder het blok **Omvangvraag** ziet u meteen een voorbeeld van hoe het veld op de leadfiche zal heten.
 5. Klik rechtsonder op **Opslaan**. U komt daarna terug in de lijst.
 
+<!-- AFBEELDING: de detailpagina van een type met het blok Omvangvraag en het live voorbeeld eronder -->
+
 !!! tip "Onbewaarde wijzigingen"
     Navigeert u weg met onbewaarde wijzigingen, dan vraagt uw browser eerst of u dat zeker wil.
 

@@ -34,6 +34,8 @@ Statussen kunnen hier niet toegevoegd of verwijderd worden: de pijplijn zelf lig
 Naast de naam stelt u per status ook in hoe hij op het **leadbord** (de kanban-weergave op het
 Leads-scherm) verschijnt:
 
+<!-- AFBEELDING: het bewerkvenster met de Volgorde-spinner en het vinkje Tonen op het bord -->
+
 1. Dubbelklik op de gewenste status.
 2. Stel de **Volgorde op het bord** in — een spinner met de positie van de kolom (laag = meest links).
 3. Vink **Tonen op het bord** aan of uit en klik op **Opslaan**.

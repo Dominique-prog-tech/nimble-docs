@@ -11,6 +11,8 @@ Dans la barre latérale, cliquez sur **CRM → Tâches**.
 
 Deux boutons figurent en haut :
 
+<!-- AFBEELDING: l'écran des tâches avec le sélecteur et une liste remplie — nécessite des tâches dans le tenant de démo -->
+
 - **Mes tâches** — les tâches dont vous êtes le responsable. C'est l'affichage par défaut.
 - **Toutes les tâches** — toutes les tâches ouvertes de votre dossier, quel que soit leur responsable.
 
@@ -52,6 +54,8 @@ Le bouton **Nouveau** vous permet d'en créer une vous-même.
 ## Les tâches qui apparaissent d'elles-mêmes
 
 Certaines tâches sont créées par Nimble. Vous les reconnaissez à l'étiquette de code colorée sous l'objet.
+
+<!-- AFBEELDING: une tâche de suivi créée automatiquement, avec son libellé de code visible -->
 
 | Origine | Quand |
 |---|---|

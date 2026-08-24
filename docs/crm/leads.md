@@ -100,6 +100,8 @@ niets gevonden, dan verschijnt een melding en blijven de velden zoals u ze zelf 
 
 Hier staat alles wat er rond deze lead gebeurd is, in drie lijsten die u bovenaan omschakelt:
 
+<!-- AFBEELDING: de leadfiche met het tabblad Taken open -->
+
 - **Taken** — wat er nog moet gebeuren. Opvolgtaken die Nimble zelf aanmaakt (zie hieronder) staan hier
   ook tussen.
 - **Logboek** — wat er gebeurd is: notities die u zelf toevoegt, telefoongesprekken die u registreert, en
@@ -129,6 +131,8 @@ taken in het **Journaal** van de lead en in het scherm **Taken**.
 
 Vult iemand het contactformulier op uw website in, dan komt die aanvraag rechtstreeks in Nimble terecht —
 u hoeft niets over te typen.
+
+<!-- AFBEELDING: het Logboek van een lead met een binnengekomen website-aanvraag — vraagt een website-lead; die staat niet in de demo-tenant -->
 
 - Er wordt een lead aangemaakt met de leadbron **Website**, in status **Nieuw**.
 - De **volledige inhoud van het formulier** komt in het **Logboek** van die lead te staan, ook de velden

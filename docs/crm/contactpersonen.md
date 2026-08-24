@@ -22,6 +22,8 @@ Klik in de zijbalk op **CRM → Contactpersonen**.
 | **Gsm** en **Telefoon** | De nummers |
 | **Taal** | De taal van deze persoon |
 
+<!-- AFBEELDING: de journaal-rail open met de Taken-tab, naast de contactenlijst -->
+
 ![De contactenlijst met de kolom Bedrijven gevuld.](../images/contactpersonen-lijst.png)
 
 De zoekbalk zoekt over alle kolommen, ook over **Bedrijven** — typ een bedrijfsnaam om te zien wie daar werkt. Een persoon die aan geen enkel bedrijf hangt, toont de melding *aan geen bedrijf gekoppeld*; ook die vindt u hier terug.

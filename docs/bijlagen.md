@@ -12,10 +12,14 @@ Dit werkt overal op dezelfde manier, dus deze pagina geldt voor alle schermen me
 2. Klik rechts op de rail **Journaal**.
 3. Klik bovenaan op de naam van het tabblad en kies **Bijlagen**.
 
+<!-- AFBEELDING: het journaalpaneel met de tabkeuze open, zodat Bijlagen tussen de andere tabbladen staat -->
+
 ## Een bestand toevoegen
 
 Klik op **Bestand toevoegen** en kies een of meer bestanden. U mag er meerdere tegelijk selecteren; ze
 worden na elkaar opgeladen en verschijnen daarna in de lijst.
+
+<!-- AFBEELDING: het tabblad Bijlagen met enkele bestanden, waarvan minstens één foto met miniatuur — vraagt bijlagen in de demo-tenant -->
 
 !!! info "Maximaal 25 MB per bestand"
     Een bouwplan of een reeks werffoto's past daar ruim in. Is een bestand groter, dan krijgt u een melding

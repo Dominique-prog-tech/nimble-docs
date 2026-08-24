@@ -87,6 +87,8 @@ Sur les fiches **Articles**, **Relations** et **Personnes de contact**, Enregist
 de votre **droit de modification**. Sans ce droit, vous pouvez ouvrir et lire la fiche, mais les champs
 sont en lecture seule et seul un bouton de retour vers la liste subsiste.
 
+<!-- AFBEELDING: la même fiche sans droit de modification : champs en gris, seul le bouton retour — nécessite un utilisateur SANS droit de modification, absent du tenant de démo -->
+
 Consulter relève du droit de consultation ; écrire exige le droit de modification. C'est un réglage
 distinct par rôle.
 

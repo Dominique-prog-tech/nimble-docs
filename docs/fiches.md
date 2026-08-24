@@ -85,6 +85,8 @@ Op de fiches van **Artikelen**, **Relaties** en **Contactpersonen** hangen Opsla
 **bewerkrecht**. Hebt u dat niet, dan kunt u de fiche wél openen en lezen, maar staan de velden op
 alleen-lezen en is er enkel een knop terug naar de lijst.
 
+<!-- AFBEELDING: dezelfde fiche zonder bewerkrecht: velden grijs, enkel de terugknop — vraagt een gebruiker ZONDER bewerkrecht, en die heeft de demo-tenant niet -->
+
 Kijken mag met het kijkrecht; schrijven vraagt het bewerkrecht. Dat is een aparte instelling per rol.
 
 ## Veelgemaakte fouten

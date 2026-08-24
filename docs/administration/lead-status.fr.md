@@ -34,6 +34,8 @@ Les statuts ne peuvent pas être ajoutés ou supprimés ici : le pipeline lui-m�
 En plus du nom, vous pouvez également configurer par statut son apparence sur le **tableau de leads**
 (la vue kanban de l'écran Leads) :
 
+<!-- AFBEELDING: la fenêtre d'édition avec le compteur Ordre et la case Afficher sur le tableau -->
+
 1. Double-cliquez sur le statut souhaité.
 2. Réglez l'**Ordre sur le tableau** — un compteur avec la position de la colonne (bas = le plus à gauche).
 3. Cochez ou décochez **Afficher sur le tableau** et cliquez sur **Enregistrer**.

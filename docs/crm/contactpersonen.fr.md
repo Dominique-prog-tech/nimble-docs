@@ -22,6 +22,8 @@ Cliquez sur **CRM → Personnes de contact** dans la barre latérale.
 | **GSM** et **Téléphone** | Les numéros |
 | **Langue** | La langue de cette personne |
 
+<!-- AFBEELDING: le rail du journal ouvert sur l'onglet Tâches, à côté de la liste des contacts -->
+
 ![La liste des contacts avec la colonne Entreprises remplie.](../images/contactpersonen-lijst-fr.png)
 
 La recherche porte sur toutes les colonnes, y compris **Entreprises** — tapez un nom d'entreprise pour voir qui y travaille. Une personne liée à aucune entreprise affiche le message *liée à aucune entreprise* ; vous la retrouvez donc également ici.

@@ -6,6 +6,8 @@ Sur l'écran **Relations**, vous gérez les clients et fournisseurs de votre ent
 
 Cliquez sur **CRM → Relations** dans la barre latérale.
 
+<!-- AFBEELDING: le rail du journal ouvert sur l'onglet Contacts, à côté de la liste des relations -->
+
 ## La liste
 
 | Colonne | Signification |
@@ -89,12 +91,16 @@ Saisissez le numéro de TVA et cliquez sur **Récupérer**. Le nom, la rue, le n
 
 Ce bloc n'apparaît que pour une relation née d'un **lead**, et uniquement si vous êtes autorisé à consulter les leads. Il affiche, en lecture seule : numéro de lead, statut, type de demande, ampleur, budget, timing, urgence, prochaine action avec sa date, et la date de création du lead. Les champs que le lead n'avait pas restent absents.
 
+<!-- AFBEELDING: un client issu d'un lead avec le bloc de provenance complet — nécessite un lead converti, absent du tenant de démo -->
+
 !!! note "Pourquoi pas simplement des champs sur le client ?"
     Le budget, le timing et l'urgence décrivent une demande, pas un client — après le premier devis, ils ne sont plus exacts. Ils restent donc rattachés au lead, mais vous les retrouvez ici sans devoir passer par l'écran des leads.
 
 ### Onglet Personnes de contact
 
 Vous gérez ici qui répond chez ce client. Le nombre figure dans le titre de l'onglet, ce qui vous évite de l'ouvrir pour savoir si quelqu'un y est lié.
+
+<!-- AFBEELDING: l’onglet avec deux personnes liées, rôle et e-mail renseignés -->
 
 | Colonne | Explication |
 |---|---|
