@@ -49,6 +49,22 @@ Bovenaan de fiche staan twee groepen tabbladen.
     — anders zou "Verwijderen" dubbelzinnig zijn: verwijdert dat het record of de bijlage waar u naar
     kijkt?
 
+### Het tabblad Logboek
+
+Het logboek toont wat er gebeurd is bij dit record: notities die u zelf schrijft en telefoongesprekken
+die u registreert. Elke regel is een kaart met het onderwerp bovenaan, de tekst eronder en de datum
+onderaan.
+
+<!-- AFBEELDING: het tabblad Logboek met de werkbalk, het zoekvak en drie regels -->
+
+- Bovenaan staan **+ Notitie** en **+ Oproep**. Die werkbalk **blijft staan** terwijl u door de lijst
+  scrolt, dus u hoeft niet terug naar boven om iets toe te voegen.
+- Rechts staat een **zoekvak**. Dat verschijnt pas wanneer er genoeg regels zijn om in te zoeken — bij
+  drie notities heeft zoeken geen zin.
+- **Regeleindes blijven staan.** Schrijft u een notitie van drie regels, dan leest ze ook als drie
+  regels.
+- De lijst **vult het tabblad** en schuift binnenin, zodat de werkbalk in beeld blijft.
+
 ## Opslaan, annuleren, verwijderen
 
 Onderaan rechts.

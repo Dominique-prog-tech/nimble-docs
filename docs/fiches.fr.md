@@ -50,6 +50,22 @@ En haut de la fiche se trouvent deux groupes d'onglets.
     ne s'affichent pas — sinon « Supprimer » serait ambigu : cela supprimerait-il l'enregistrement ou la
     pièce jointe que vous consultez ?
 
+### L'onglet Journal
+
+Le journal montre ce qui s'est passé sur cet enregistrement : les notes que vous rédigez et les appels
+téléphoniques que vous consignez. Chaque ligne est une fiche avec l'objet en haut, le texte en dessous
+et la date en bas.
+
+<!-- AFBEELDING: l'onglet Journal avec la barre d'outils, le champ de recherche et trois lignes -->
+
+- En haut se trouvent **+ Note** et **+ Appel**. Cette barre d'outils **reste visible** pendant que vous
+  faites défiler la liste : inutile de remonter pour ajouter quelque chose.
+- À droite se trouve un **champ de recherche**. Il n'apparaît que lorsqu'il y a assez de lignes pour
+  chercher — avec trois notes, chercher n'a pas de sens.
+- **Les sauts de ligne sont conservés.** Si vous rédigez une note de trois lignes, elle se lit comme
+  trois lignes.
+- La liste **remplit l'onglet** et défile à l'intérieur, pour que la barre d'outils reste en vue.
+
 ## Enregistrer, annuler, supprimer
 
 En bas à droite.
