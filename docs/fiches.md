@@ -71,8 +71,15 @@ datum waartegen het klaar hoort te zijn.
 
 ### Het tabblad Bijlagen
 
-Bijlagen krijgen dezelfde werkbalk, maar de lijst is een **tabel**: bestand, omschrijving, grootte en
-datum naast elkaar. Zoeken doet u in de naam én de omschrijving.
+Bijlagen krijgen dezelfde werkbalk, maar de lijst is een **tabel**. Zoeken doet u in de naam én de
+omschrijving.
+
+Hoeveel kolommen u ziet, hangt af van de breedte:
+
+- **Op een breed scherm** staan bestand, omschrijving, grootte en datum naast elkaar.
+- **In het smalle journaalpaneel** blijven bestand en omschrijving over; grootte en datum schuiven onder de
+  bestandsnaam. Zo past ook een lange naam als `Vorderingsstaat_project_P2026-0004_augustus (1).xlsx` zonder
+  dat u opzij moet schuiven.
 
 <!-- AFBEELDING: het tabblad Bijlagen met de knop + Bijlage, het zoekvak en twee bestanden in de tabel -->
 

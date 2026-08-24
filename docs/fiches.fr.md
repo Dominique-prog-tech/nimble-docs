@@ -74,8 +74,15 @@ priorité et la date à laquelle ce doit être prêt.
 
 ### L'onglet Pièces jointes
 
-Les pièces jointes reçoivent la même barre d'outils, mais la liste est un **tableau** : fichier,
-description, taille et date côte à côte. La recherche porte sur le nom et sur la description.
+Les pièces jointes reçoivent la même barre d'outils, mais la liste est un **tableau**. La recherche porte
+sur le nom et sur la description.
+
+Le nombre de colonnes dépend de la largeur :
+
+- **Sur un écran large**, fichier, description, taille et date figurent côte à côte.
+- **Dans le panneau étroit du journal**, il reste fichier et description ; la taille et la date passent sous
+  le nom du fichier. Ainsi, même un nom long comme `Vorderingsstaat_project_P2026-0004_augustus (1).xlsx`
+  tient sans défilement latéral.
 
 <!-- AFBEELDING: l'onglet Pièces jointes avec le bouton + Pièce jointe, le champ de recherche et deux fichiers dans le tableau -->
 

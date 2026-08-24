@@ -16,8 +16,13 @@ Le fonctionnement est identique partout ; cette page vaut donc pour tous les éc
 
 ## Ajouter un fichier
 
-Cliquez sur **Ajouter un fichier** et choisissez un ou plusieurs fichiers. Vous pouvez en sélectionner
-plusieurs à la fois : ils sont téléversés l'un après l'autre, puis apparaissent dans la liste.
+Cliquez sur **+ Pièce jointe**. Une fenêtre s'ouvre où vous choisissez des fichiers ou les y glissez. Vous
+pouvez en prendre **plusieurs à la fois**.
+
+Dans cette même fenêtre, vous pouvez indiquer une **description**. Elle vaut pour toute la série téléversée
+en une fois — pour les décrire séparément, ajustez-les ensuite ligne par ligne via le menu **⋯**.
+
+<!-- AFBEELDING: la fenêtre derrière + Pièce jointe, avec la zone de dépôt et le champ Description -->
 
 <!-- AFBEELDING: l'onglet Pièces jointes avec quelques fichiers, dont au moins une photo avec vignette — nécessite des pièces jointes dans le tenant de démo -->
 
@@ -26,7 +31,9 @@ plusieurs à la fois : ils sont téléversés l'un après l'autre, puis apparais
     fichier est plus volumineux, vous recevez un message mentionnant son nom, et les autres fichiers passent
     normalement.
 
-Pour chaque fichier, vous voyez la taille, la date et la personne qui l'a ajouté.
+Pour chaque fichier, vous voyez la **taille** et la **date**. Sur un écran large, elles occupent leurs
+propres colonnes ; dans le panneau étroit du journal, elles passent sous le nom du fichier, de sorte qu'un
+nom long tient également.
 
 ## Ouvrir un fichier
 
@@ -40,7 +47,7 @@ Une photo est en outre précédée d'une vignette, pour la reconnaître dans la 
 
 ## Supprimer un fichier
 
-Cliquez sur la corbeille à droite de la ligne. Le fichier disparaît de la liste.
+Cliquez sur le menu **⋯** à droite de la ligne et choisissez supprimer. Le fichier disparaît de la liste.
 
 !!! warning "Supprimer, c'est archiver"
     Le fichier n'est pas réellement effacé : il reste conservé et disparaît seulement de la vue. C'est

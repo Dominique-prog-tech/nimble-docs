@@ -16,8 +16,13 @@ Dit werkt overal op dezelfde manier, dus deze pagina geldt voor alle schermen me
 
 ## Een bestand toevoegen
 
-Klik op **Bestand toevoegen** en kies een of meer bestanden. U mag er meerdere tegelijk selecteren; ze
-worden na elkaar opgeladen en verschijnen daarna in de lijst.
+Klik op **+ Bijlage**. Er opent een venster waar u bestanden kiest of ze ernaartoe sleept. U mag er
+**meerdere tegelijk** nemen.
+
+In datzelfde venster kunt u een **omschrijving** meegeven. Die geldt voor de hele reeks die u in één keer
+oplaadt — wilt u ze apart omschrijven, dan past u dat achteraf per regel aan via het **⋯**-menu.
+
+<!-- AFBEELDING: het venster achter + Bijlage, met de sleepzone en het veld Omschrijving -->
 
 <!-- AFBEELDING: het tabblad Bijlagen met enkele bestanden, waarvan minstens één foto met miniatuur — vraagt bijlagen in de demo-tenant -->
 
@@ -25,7 +30,8 @@ worden na elkaar opgeladen en verschijnen daarna in de lijst.
     Een bouwplan of een reeks werffoto's past daar ruim in. Is een bestand groter, dan krijgt u een melding
     met de naam erbij en gaan de andere bestanden gewoon door.
 
-Bij elk bestand ziet u de grootte, de datum en wie het heeft toegevoegd.
+Bij elk bestand ziet u de **grootte** en de **datum**. Op een breed scherm staan die in eigen kolommen; in
+het smalle journaalpaneel schuiven ze onder de bestandsnaam, zodat ook een lange naam past.
 
 ## Een bestand openen
 
@@ -39,7 +45,7 @@ moeten openen.
 
 ## Een bestand verwijderen
 
-Klik op het prullenbakje rechts van de regel. Het bestand verdwijnt uit de lijst.
+Klik op het **⋯**-menu rechts van de regel en kies verwijderen. Het bestand verdwijnt uit de lijst.
 
 !!! warning "Verwijderen is archiveren"
     Het bestand wordt niet echt gewist — het blijft bewaard en verdwijnt alleen uit het zicht. Dat is met
