@@ -137,7 +137,9 @@ dans Nimble — vous n'avez rien à recopier.
 
 <!-- AFBEELDING: le Journal d'un lead avec une demande arrivée du site web — nécessite un lead venu du site, absent du tenant de démo -->
 
-- Un lead est créé avec la source **Website**, au statut **Nouveau**.
+- Un lead est créé au statut **Nouveau**. La **source** est le nom de la clé de site web avec laquelle
+  le formulaire a posté — vous voyez ainsi de quel formulaire le lead provient. Voir
+  [Les leads depuis votre site web](leads-webformulier.md).
 - Le **contenu complet du formulaire** est repris dans le **Journal** de ce lead, y compris les champs
   propres à votre formulaire. Ainsi, rien ne se perd.
 - Une **tâche** est ajoutée et un **e-mail** part vers l'adresse configurée dans

@@ -109,6 +109,7 @@ plugins:
                   name: Passer en mode clair
           nav_translations:
             Home: Accueil
+            Leads vanaf uw website: Les leads depuis votre site web
             Lijsten filteren: Filtrer les listes
             Werken met een fiche: Travailler avec une fiche
             Relaties: Relations
@@ -140,6 +141,7 @@ nav:
   - Werken met een fiche: fiches.md
   - CRM:
     - Leads: crm/leads.md
+    - Leads vanaf uw website: crm/leads-webformulier.md
     - Relaties: relations.md
     - Contactpersonen: crm/contactpersonen.md
     - Taken: crm/tasks.md
