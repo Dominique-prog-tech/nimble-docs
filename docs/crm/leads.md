@@ -14,7 +14,8 @@ Bovenaan schakelt u tussen **Bord** en **Lijst** — beide tonen dezelfde leads,
 
 ### Bord
 
-Elke kolom is een status uit de pijplijn (Nieuw, Gekwalificeerd, Offerte, Verloren …). De naam van elke
+Elke kolom is een fase uit uw pijplijn (Nieuw, Gekwalificeerd, Offerte, Verloren …). Welke fases dat zijn,
+stelt u zelf in — zie [Leadfases](../administration/lead-status.md). De naam van elke
 kolom is hertaalbaar via **Platformbeheer → Leadstatus**; een status die daar op "Verborgen" staat, mist
 u hier als kolom — tenzij er nog een lead in die status staat.
 
@@ -92,7 +93,7 @@ niets gevonden, dan verschijnt een melding en blijven de velden zoals u ze zelf 
 | **Leadnummer** | Wordt bij een nieuwe lead automatisch voorgesteld — u mag het overschrijven, maar het veld is verplicht |
 | **Volgende actie / Datum** | Wat de volgende stap is en tegen wanneer |
 | **Verliesreden** | Verschijnt en is **verplicht** zodra de status **Verloren** is |
-| **Heractivatiedatum** | Verschijnt en is **verplicht** zodra de status **On hold** is |
+| **Heractivatiedatum** | Verschijnt en is **verplicht** zodra de fase *gepauzeerd* betekent (standaard: **On hold**) |
 
 ![Het blok Opvolging van een verloren lead: de status staat op Verloren en de Verliesreden is zichtbaar.](../images/lead-blok-opvolging.png)
 
@@ -155,7 +156,7 @@ u hoeft niets over te typen.
 
 ### Onderaan de fiche
 
-- **Opslaan** — bewaart de lead. Is de status Verloren of On hold zonder de bijhorende verplichte
+- **Opslaan** — bewaart de lead. Betekent de fase *verloren* of *gepauzeerd* zonder de bijhorende verplichte
   gegevens, dan blijft de knop uitgeschakeld.
 - **Annuleren** — gaat terug naar de lijst zonder te bewaren.
 - **Omzetten naar klant** — enkel zichtbaar bij een bestaande, nog niet omgezette lead. Maakt van de lead

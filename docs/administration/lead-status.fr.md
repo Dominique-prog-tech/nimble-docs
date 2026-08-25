@@ -1,64 +1,101 @@
-# Statut de lead
+# Phases de lead
 
-Cet écran permet de retraduire le texte des statuts fixes du pipeline de leads (p. ex. Nouveau, Qualifié …). Le **nombre** et la **signification** des statuts sont fixes — vous n'adaptez que le texte affiché.
+Les phases de votre pipeline de vente — les colonnes du tableau des leads. **Vous les composez vous-même** :
+ajoutez une phase, renommez-en une, choisissez l'ordre, ou masquez ce que vous n'utilisez pas.
 
 ## Ouvrir l'écran
 
-1. Cliquez sur **Administration** en bas de la barre latérale.
-2. Dans le groupe **Leads**, cliquez sur la tuile **Statut de lead**.
+1. Cliquez en bas de la barre latérale sur **Gestion de la plateforme**.
+2. Cliquez dans le groupe **Leads** sur la tuile **Phases de lead**.
 
-![La liste des statuts de lead avec les clés fixes et l'ordre sur le tableau.](../images/leadstatus-lijst-fr.png)
+![La liste des phases de lead, leur signification et la phase de départ.](../images/leadstatus-lijst-fr.png)
 
 ## La liste
 
 | Colonne | Signification |
 |---|---|
-| **Clé (fixe)** | Nom technique du statut — non modifiable |
-| **Nom (NL)** | Texte néerlandais affiché pour le statut |
-| **Nom (FR)** | Texte français affiché pour le statut |
-| **Ordre** | Position du statut sur le tableau de leads |
-| **Sur le tableau** | **Visible** ou **Masqué** — détermine si le statut apparaît comme colonne sur le tableau de leads |
+| **Clé (fixe)** | Nom technique — créé lors de l'ajout et inchangé ensuite |
+| **Nom (NL)** et **Nom (FR)** | Ce que l'utilisateur voit |
+| **Ordre** | Position de la colonne sur le tableau (bas = le plus à gauche) |
+| **Signifie** | Ce que cette phase signifie pour Nimble — voir ci-dessous |
+| **Départ** | La phase dans laquelle commence un nouveau lead |
+| **Leads** | Combien de leads s'y trouvent actuellement |
+| **Sur le tableau** | Visible ou masquée |
 
-Double-cliquez une ligne pour modifier le texte.
+Double-cliquez sur une ligne pour l'ouvrir, ou cliquez sur **Nouvelle phase**.
 
-## Adapter le texte
+## Le champ le plus important : ce qu'une phase *signifie*
 
-1. Double-cliquez sur le statut souhaité.
-2. Modifiez le nom dans la **langue de base de votre bureau** — ce champ est obligatoire ; l'autre langue est optionnelle.
-3. Cliquez sur **Enregistrer**.
+Chaque phase reçoit l'une de quatre significations. **C'est elle qui détermine le comportement — pas le nom.**
 
-Les statuts ne peuvent pas être ajoutés ou supprimés ici : le pipeline lui-même est fixe, seul le texte affiché est modifiable.
+| Signification | Ce que Nimble en fait |
+|---|---|
+| **En cours** | Le lead est vivant et compte pour le [suivi](lead-follow-up.md) quotidien |
+| **Gagné** | Phase finale. Plus de suivi. C'est ici qu'arrive un lead que vous convertissez en client |
+| **Perdu** | Phase finale. Plus de suivi |
+| **En pause** | Dort jusqu'à une date ; ce jour-là, le lead réapparaît dans le suivi |
 
-## Ordre et visibilité sur le tableau
+!!! tip "C'est pourquoi vous pouvez créer plusieurs phases finales"
+    Comme c'est la signification qui fait le travail, vous pouvez en avoir deux de même nature. Par exemple
+    **Perdu au concurrent** à côté de **Annulé par le client** — toutes deux avec la signification *Perdu*.
+    Dans vos rapports, vous voyez la différence ; pour le suivi, les deux comptent comme clôturées.
 
-En plus du nom, vous pouvez également configurer par statut son apparence sur le **tableau de leads**
-(la vue kanban de l'écran Leads) :
+!!! warning "Deux exigences sont fixes et ne se désactivent pas"
+    - Une phase qui signifie **Perdu** demande toujours un **motif de perte**.
+    - Une phase qui signifie **En pause** demande toujours une **date de réactivation** — sans cette date,
+      personne ne sait quand le lead revient, et « en pause » veut simplement dire « disparu ».
 
-<!-- AFBEELDING: la fenêtre d'édition avec le compteur Ordre et la case Afficher sur le tableau -->
+## Champs obligatoires par phase
 
-1. Double-cliquez sur le statut souhaité.
-2. Réglez l'**Ordre sur le tableau** — un compteur avec la position de la colonne (bas = le plus à gauche).
-3. Cochez ou décochez **Afficher sur le tableau** et cliquez sur **Enregistrer**.
+Sous **Champs obligatoires pour cette phase**, vous choisissez ce qui doit être rempli avant qu'un lead puisse
+passer à cette phase. Par exemple : un **responsable** à partir de *Qualifié*, pour qu'aucun lead n'avance
+sans que quelqu'un le suive.
 
-**Masquer** un statut retire sa colonne du tableau, mais le statut lui-même continue d'exister
-pleinement : toutes les règles et tous les chiffres (rapports, filtres dans la vue liste) restent
-valables. Seule la colonne disparaît.
+Vous choisissez parmi les champs qui existent sur la fiche du lead ; vous ne pouvez pas en inventer.
 
-!!! tip "Filet de sécurité"
-    Un statut masqué qui contient encore des leads reste malgré tout affiché sur le tableau — avec ces
-    leads dedans. Ainsi, un lead ne disparaît jamais silencieusement de la vue lorsqu'une colonne est
-    masquée. Ce n'est qu'une fois le dernier lead sorti de ce statut que la colonne disparaît réellement.
+## La phase de départ
+
+Exactement une phase est la **phase de départ** : c'est là que commence chaque nouveau lead. Si vous en
+désignez une autre, la précédente est retirée automatiquement — il y en a toujours exactement une.
+
+## Ajouter une phase
+
+1. Cliquez sur **Nouvelle phase**.
+2. Indiquez un **nom** dans votre langue de base (l'autre langue est facultative mais recommandée).
+3. Choisissez ce que la phase **signifie**.
+4. Cliquez sur **Enregistrer**. La phase apparaît en fin de tableau ; avec **Ordre**, vous la placez.
+
+## Masquer ou supprimer
+
+Ce sont deux choses différentes.
+
+**Masquer** retire la colonne du tableau, mais la phase continue d'exister : rapports, filtres et chiffres
+restent valables. Utilisez ceci pour une étape dont vous n'avez pas besoin.
+
+**Supprimer** n'est possible que pour une phase que vous avez **créée vous-même** et qui ne contient **aucun
+lead**. Les neuf phases standard peuvent être renommées et masquées, mais pas supprimées — des leads existants
+portent cette clé.
+
+!!! tip "Soupape de sécurité"
+    Une phase masquée qui contient encore des leads reste malgré tout visible sur le tableau — avec ces leads.
+    Ainsi, un lead ne disparaît jamais silencieusement. Ce n'est qu'une fois le dernier lead sorti que la
+    colonne disparaît réellement.
 
 ## Erreurs fréquentes
 
 !!! warning
-    - **Nom français oublié** — les utilisateurs francophones voient alors l'autre langue en repli.
-    - **Confondre la clé et le nom affiché** — la clé est purement technique et invisible pour les utilisateurs finaux ; modifiez le nom, pas la clé (qui est d'ailleurs en lecture seule).
-    - **Confondre masquer et supprimer** — un statut masqué continue d'exister et compte toujours dans les rapports ; il disparaît uniquement comme colonne du tableau.
+    - **Confondre la signification et le nom.** Une phase que vous appelez « Clôturé » mais qui signifie
+      *En cours* continuera de générer des tâches de suivi. Le nom est pour vous ; la signification est pour
+      Nimble.
+    - **Oublier le nom néerlandais** — les utilisateurs néerlandophones voient alors le texte français en
+      repli.
+    - **Confondre masquer et supprimer** — une phase masquée continue d'exister et compte encore.
+    - **Vouloir désactiver la phase de départ.** Ce n'est pas possible : désignez une *autre* phase comme
+      départ, celle-ci se retire alors d'elle-même.
 
 ## Voir aussi
 
-- [Administration](platform-management.md)
+- [Gestion de la plateforme](platform-management.md)
+- [Suivi des leads](lead-follow-up.md)
 - [Sources de leads](lead-sources.md)
-- [Types de demande](lead-request-types.md)
-- [Leads](../crm/leads.fr.md)
+- [Leads](../crm/leads.md)

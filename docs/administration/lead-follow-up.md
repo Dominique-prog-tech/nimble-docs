@@ -17,8 +17,8 @@ Nimble maakt een opvolgtaak in drie gevallen. Twee daarvan liggen vast, één st
 | Regel | Instelbaar? |
 |---|---|
 | De **volgende actie** van een lead staat op een datum die voorbij is | Nee |
-| Een lead op **On hold** heeft zijn **heractivatiedatum** bereikt | Nee |
-| Een lead zonder geplande volgende actie ligt te lang stil | **Ja** — zie hieronder |
+| Een lead in een **gepauzeerde** fase heeft zijn **heractivatiedatum** bereikt | Nee |
+| Een **lopende** lead zonder geplande volgende actie ligt te lang stil | **Ja** — zie hieronder |
 
 De eerste twee hebben geen instelling nodig: daar heeft iemand zelf een datum gezet. Dan is er niets te
 kiezen — die datum ís de afspraak.

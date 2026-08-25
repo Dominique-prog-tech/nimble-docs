@@ -17,7 +17,7 @@ Nimble crée une tâche de suivi dans trois cas. Deux sont fixes, un se règle i
 | Règle | Réglable ? |
 |---|---|
 | L'**action suivante** d'un lead est prévue à une date dépassée | Non |
-| Un lead **En attente** a atteint sa **date de réactivation** | Non |
+| Un lead dans une phase **en pause** a atteint sa **date de réactivation** | Non |
 | Un lead sans action suivante planifiée reste trop longtemps en plan | **Oui** — voir ci-dessous |
 
 Les deux premières ne nécessitent aucun réglage : quelqu'un y a fixé une date lui-même. Il n'y a alors rien

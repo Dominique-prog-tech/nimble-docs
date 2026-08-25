@@ -125,6 +125,7 @@ plugins:
             Leadbronnen: Sources de leads
             Types aanvraag: Types de demande
             Leadstatus: Statut de lead
+            Leadfases: Phases de lead
             Leadopvolging: Suivi des leads
             Taken: Tâches
             Bijlagen: Pièces jointes
@@ -158,7 +159,7 @@ nav:
     - Contactfuncties: administration/contact-functions.md
     - Leadbronnen: administration/lead-sources.md
     - Types aanvraag: administration/lead-request-types.md
-    - Leadstatus: administration/lead-status.md
+    - Leadfases: administration/lead-status.md
     - Leadopvolging: administration/lead-follow-up.md
   - Beheer:
     - Klantenregister: administration/tenants.md

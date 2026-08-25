@@ -15,7 +15,8 @@ diffère.
 
 ### Tableau
 
-Chaque colonne est un statut du pipeline (Nouveau, Qualifié, Offre, Perdu …). Le nom de chaque colonne
+Chaque colonne est une phase de votre pipeline (Nouveau, Qualifié, Offre, Perdu …). Vous choisissez
+vous-même ces phases — voir [Phases de lead](../administration/lead-status.md). Le nom de chaque colonne
 est retraduisible via **Administration → Statut de lead** ; un statut marqué « Masqué » là-bas n'apparaît
 pas ici comme colonne — sauf s'il contient encore un lead.
 
@@ -30,7 +31,7 @@ pas ici comme colonne — sauf s'il contient encore un lead.
   date de réactivation (En attente) est dépassée. C'est purement visuel — rien n'est enregistré en plus.
 - Cliquez sur l'icône d'information à côté du titre pour un rappel rapide du fonctionnement du tableau.
 
-!!! warning "Perdu et En attente demandent une étape supplémentaire"
+!!! warning "Les phases *perdu* et *en pause* demandent une étape supplémentaire"
     Glisser une carte vers **Perdu** demande d'abord un **motif de perte** ; glisser une carte vers **En
     attente** demande une **date de réactivation**. Sans ces informations, le déplacement n'a pas lieu —
     la carte reste dans sa colonne d'origine.

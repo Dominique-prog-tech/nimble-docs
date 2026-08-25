@@ -1,63 +1,99 @@
-# Leadstatus
+# Leadfases
 
-Op dit scherm hertaalt u de tekst van de vaste pijplijnstatussen van leads (bv. Nieuw, Gekwalificeerd …). Het **aantal** en de **betekenis** van de statussen liggen vast — u past enkel de weergegeven tekst aan.
+De fases van uw verkooppijplijn — de kolommen op het leadbord. **U stelt ze zelf samen**: voeg een eigen fase
+toe, hernoem er een, kies de volgorde, of verberg wat u niet gebruikt.
 
 ## Het scherm openen
 
 1. Klik onderaan in de zijbalk op **Platformbeheer**.
-2. Klik in de groep **Leads** op de tegel **Leadstatus**.
+2. Klik in de groep **Leads** op de tegel **Leadfases**.
 
-![De leadstatuslijst met de vaste sleutels en de volgorde op het bord.](../images/leadstatus-lijst.png)
+![De lijst met leadfases, hun betekenis en de startfase.](../images/leadstatus-lijst.png)
 
 ## De lijst
 
 | Kolom | Betekenis |
 |---|---|
-| **Sleutel (vast)** | Technische naam van de status — niet aanpasbaar |
-| **Naam (NL)** | Nederlandstalige tekst die de status toont |
-| **Naam (FR)** | Franstalige tekst die de status toont |
-| **Volgorde** | Positie van de status op het leadbord |
-| **Op het bord** | **Zichtbaar** of **Verborgen** — bepaalt of de status als kolom op het leadbord staat |
+| **Sleutel (vast)** | Technische naam — wordt bij het aanmaken gemaakt en verandert daarna niet |
+| **Naam (NL)** en **Naam (FR)** | Wat de gebruiker ziet |
+| **Volgorde** | Positie van de kolom op het leadbord (laag = meest links) |
+| **Betekent** | Wat deze fase voor Nimble betekent — zie hieronder |
+| **Start** | De fase waarin een nieuwe lead begint |
+| **Leads** | Hoeveel leads er nu in die fase staan |
+| **Op het bord** | Zichtbaar of verborgen |
 
-Dubbelklik op een rij om de tekst te bewerken.
+Dubbelklik op een rij om ze te openen, of klik op **Nieuwe fase**.
 
-## De tekst aanpassen
+## Het belangrijkste veld: wat een fase *betekent*
 
-1. Dubbelklik op de gewenste status.
-2. Pas de naam aan in de **basistaal van uw kantoor** — dat veld is verplicht; de andere taal is optioneel.
-3. Klik op **Opslaan**.
+Elke fase krijgt één van vier betekenissen. **Die bepaalt het gedrag — niet de naam.**
 
-Statussen kunnen hier niet toegevoegd of verwijderd worden: de pijplijn zelf ligt vast, enkel de weergavetekst is aanpasbaar.
+| Betekenis | Wat Nimble ermee doet |
+|---|---|
+| **Lopend** | De lead leeft nog en telt mee voor de dagelijkse [opvolging](lead-follow-up.md) |
+| **Gewonnen** | Eindfase. Geen opvolging meer. Hier komt een lead terecht die u omzet naar klant |
+| **Verloren** | Eindfase. Geen opvolging meer |
+| **Gepauzeerd** | Slaapt tot een datum; op die dag verschijnt de lead weer in de opvolging |
 
-## Volgorde en zichtbaarheid op het bord
+!!! tip "Daarom kunt u meerdere eindfases maken"
+    Omdat de betekenis het werk doet, mag u er twee van dezelfde soort hebben. Bijvoorbeeld **Verloren aan
+    concurrent** naast **Geannuleerd door klant** — allebei met betekenis *Verloren*. In uw rapportering ziet
+    u het verschil; voor de opvolging tellen ze allebei als afgesloten.
 
-Naast de naam stelt u per status ook in hoe hij op het **leadbord** (de kanban-weergave op het
-Leads-scherm) verschijnt:
+!!! warning "Twee eisen liggen vast en zijn niet uit te zetten"
+    - Een fase die **Verloren** betekent, vraagt altijd een **verliesreden**.
+    - Een fase die **Gepauzeerd** betekent, vraagt altijd een **heractivatiedatum** — zonder die datum weet
+      niemand wanneer de lead terugkomt, en dan betekent "gepauzeerd" gewoon "verdwenen".
 
-<!-- AFBEELDING: het bewerkvenster met de Volgorde-spinner en het vinkje Tonen op het bord -->
+## Verplichte velden per fase
 
-1. Dubbelklik op de gewenste status.
-2. Stel de **Volgorde op het bord** in — een spinner met de positie van de kolom (laag = meest links).
-3. Vink **Tonen op het bord** aan of uit en klik op **Opslaan**.
+Onder **Verplichte velden bij deze fase** kiest u wat ingevuld moet zijn vóór een lead naar die fase mag.
+Bijvoorbeeld: een **verantwoordelijke** vanaf *Gekwalificeerd*, zodat geen enkele lead verder gaat zonder dat
+iemand hem opvolgt.
 
-Een status **verbergen** haalt de kolom van het bord, maar de status zelf blijft volledig bestaan: alle
-regels en cijfers (rapportage, filters in de lijstweergave) blijven kloppen. Enkel de kolom verdwijnt.
+U kiest uit de velden die op de leadfiche bestaan; u kunt er geen verzinnen.
+
+## De startfase
+
+Precies één fase is de **startfase**: daar begint elke nieuwe lead. Duidt u een andere aan, dan gaat de vorige
+vanzelf af — er is er altijd exact één.
+
+## Een fase toevoegen
+
+1. Klik op **Nieuwe fase**.
+2. Geef een **naam** in uw basistaal (de andere taal is optioneel maar aanbevolen).
+3. Kies wat de fase **betekent**.
+4. Klik op **Opslaan**. De fase verschijnt achteraan op het bord; met **Volgorde** zet u ze op haar plaats.
+
+## Verbergen versus verwijderen
+
+Dat zijn twee verschillende dingen.
+
+**Verbergen** haalt de kolom van het bord, maar de fase blijft bestaan: rapportage, filters en cijfers blijven
+kloppen. Gebruik dit voor een stap die u niet nodig hebt.
+
+**Verwijderen** kan alleen bij een fase die u **zelf gemaakt** hebt en waar **geen enkele lead** in staat. De
+negen standaardfases kunt u hernoemen en verbergen, maar niet verwijderen — bestaande leads dragen die
+sleutel.
 
 !!! tip "Veiligheidsklep"
-    Een verborgen status waar op dit moment nog leads in staan, blijft tóch zichtbaar op het bord — met
-    die leads erin. Zo verdwijnt een lead nooit stilletjes uit beeld zodra iemand een kolom verbergt.
-    Pas wanneer de laatste lead uit die status weg is, verdwijnt de kolom ook effectief.
+    Een verborgen fase waar op dit moment nog leads in staan, blijft tóch zichtbaar op het bord — met die
+    leads erin. Zo verdwijnt een lead nooit stilletjes uit beeld. Pas wanneer de laatste lead eruit is,
+    verdwijnt de kolom ook echt.
 
 ## Veelgemaakte fouten
 
 !!! warning
-    - **Franse naam vergeten** — Franstalige gebruikers zien dan de andere taal als terugval.
-    - **Sleutel verwarren met de weergavenaam** — de sleutel is enkel technisch en niet zichtbaar voor eindgebruikers; pas de naam aan, niet de sleutel (die staat trouwens alleen-lezen).
-    - **Verbergen verward met verwijderen** — een verborgen status blijft bestaan en telt nog mee in rapportage; hij verdwijnt enkel als kolom op het bord.
+    - **De betekenis verwarren met de naam.** Een fase die u *"Afgesloten"* noemt maar die *Lopend* betekent,
+      blijft opvolgtaken opleveren. De naam is voor u; de betekenis is voor Nimble.
+    - **Franse naam vergeten** — Franstalige gebruikers zien dan de Nederlandse tekst als terugval.
+    - **Verbergen verward met verwijderen** — een verborgen fase blijft bestaan en telt nog mee.
+    - **De startfase willen uitzetten.** Dat kan niet: duid een ándere fase aan als start, dan gaat deze
+      vanzelf af.
 
 ## Zie ook
 
 - [Platformbeheer](platform-management.md)
+- [Leadopvolging](lead-follow-up.md)
 - [Leadbronnen](lead-sources.md)
-- [Types aanvraag](lead-request-types.md)
 - [Leads](../crm/leads.md)
