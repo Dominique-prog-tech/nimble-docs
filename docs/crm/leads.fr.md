@@ -59,7 +59,8 @@ informations au téléphone.
 
 | Champ | Remarque |
 |---|---|
-| **Nom** | Obligatoire |
+| **Entreprise** | Facultatif. Si vous le remplissez, c'est **elle** qui devient le client lors de la conversion, et la personne en devient le contact. Laissez vide pour un particulier |
+| **Nom** | Obligatoire — la personne qui a pris contact |
 | **Téléphone** | |
 | **E-mail** | Optionnel, mais doit être valide si renseigné — une alerte s'affiche immédiatement en cas d'adresse invalide |
 | **Rue / N°** | |
@@ -164,14 +165,45 @@ dans Nimble — vous n'avez rien à recopier.
 - **Enregistrer** — enregistre le lead. Si le statut est Perdu ou En attente sans les données
   obligatoires correspondantes, le bouton reste désactivé.
 - **Annuler** — revient à la liste sans enregistrer.
-- **Convertir en client** — visible uniquement pour un lead existant, pas encore converti. Transforme le
-  lead en relation (client) ; la fiche affiche ensuite un message confirmant la conversion. Les
-  coordonnées, l'adresse, le numéro de TVA, la catégorie, la **source du lead** et le **responsable**
-  accompagnent la fiche client. Les données de la demande (type de demande, ampleur, budget, timing,
-  urgence, prochaine action) restent sur le lead, mais sont lisibles sur la fiche client dans le bloc
-  **Issu d'un lead** — voir [Relations](../relations.fr.md).
+- **Convertir en client** — visible uniquement pour un lead existant, pas encore converti. Voir
+  [ci-dessous](#convertir-un-lead-en-client).
 - **Supprimer** — uniquement pour un lead existant. Archive le lead dans la corbeille ; rien n'est
   supprimé définitivement.
+
+## Convertir un lead en client
+
+Cliquez sur **Convertir en client**. Ce qui se passe dépend du champ **Entreprise**.
+
+| | Le client devient | Le contact |
+|---|---|---|
+| **Entreprise remplie** | l'entreprise | la personne du champ **Nom**, avec son e-mail et son téléphone |
+| **Entreprise vide** | la personne elle-même | aucun — ce serait une copie du client |
+
+Les coordonnées, l'adresse, le numéro de TVA, la catégorie, la **source du lead** et le **responsable**
+accompagnent la fiche client. Les données de la demande (type de demande, ampleur, budget, timing, urgence,
+prochaine action) restent sur le lead, mais sont lisibles sur la fiche client dans le bloc **Issu d'un
+lead** — voir [Relations](../relations.fr.md). Les **documents** attachés au lead y figurent également.
+
+Les **tâches ouvertes** du lead suivent vers le client. Les tâches terminées restent sur le lead : elles font
+partie de l'historique de la demande.
+
+### Ce client existe-t-il déjà ?
+
+Avant de créer un nouveau client, Nimble vérifie s'il en existe déjà un qui ressemble à ce lead — sur le
+**numéro de TVA**, sur l'**adresse e-mail**, ou sur le **nom et le code postal** ensemble. En cas de
+correspondance, la question vous est posée :
+
+![La fenêtre demandant si ce client existe déjà, avec une correspondance sur le numéro de TVA.](../images/lead-ontdubbelen-fr.png)
+
+- **Lier** — le lead est rattaché à ce client existant. Aucun deuxième client n'est créé ; un nouveau contact
+  l'est, si le lead portait une entreprise.
+- **Créer malgré tout un nouveau client** — vous savez qu'il s'agit d'un autre.
+- **Annuler** — rien ne se passe.
+
+!!! tip "Pourquoi on vous le demande au lieu de vous en empêcher"
+    Deux clients portant le même nom, cela existe : deux implantations, ou le père et le fils. Nimble ne le
+    sait pas et ne décide donc pas à votre place. Le numéro de TVA est normalisé au passage — *BE 0123.456.749*
+    et *BE0123456749* comptent comme le même numéro.
 
 ## Erreurs fréquentes
 
@@ -182,6 +214,8 @@ dans Nimble — vous n'avez rien à recopier.
       avertissement ; corrigez-le avant d'enregistrer.
     - **Numéro de lead vidé sans remplacement** — le champ est obligatoire ; ne laissez pas le champ vide
       après l'avoir écrasé.
+    - **Mettre l'entreprise dans le champ Nom.** Votre client portera alors le nom de la personne qui a
+      appelé. Mettez l'entreprise dans le champ **Entreprise** ; le nom est pour l'humain.
     - **Tenter de convertir deux fois** — si un lead est déjà converti, le bouton **Convertir en client**
       n'est plus visible ; utilisez la fiche client elle-même pour d'autres modifications.
 

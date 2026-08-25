@@ -24,6 +24,8 @@ ajoutez une phase, renommez-en une, choisissez l'ordre, ou masquez ce que vous n
 
 Double-cliquez sur une ligne pour l'ouvrir, ou cliquez sur **Nouvelle phase**.
 
+![La fiche d'une phase : nom, ordre, signification et champs obligatoires.](../images/leadstatus-fiche-fr.png)
+
 ## Le champ le plus important : ce qu'une phase *signifie*
 
 Chaque phase reçoit l'une de quatre significations. **C'est elle qui détermine le comportement — pas le nom.**

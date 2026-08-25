@@ -24,6 +24,8 @@ toe, hernoem er een, kies de volgorde, of verberg wat u niet gebruikt.
 
 Dubbelklik op een rij om ze te openen, of klik op **Nieuwe fase**.
 
+![De fiche van één leadfase: naam, volgorde, betekenis en verplichte velden.](../images/leadstatus-fiche.png)
+
 ## Het belangrijkste veld: wat een fase *betekent*
 
 Elke fase krijgt één van vier betekenissen. **Die bepaalt het gedrag — niet de naam.**

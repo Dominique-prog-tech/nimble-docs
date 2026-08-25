@@ -57,7 +57,8 @@ aan de telefoon te horen krijgt.
 
 | Veld | Opmerking |
 |---|---|
-| **Naam** | Verplicht |
+| **Bedrijf** | Optioneel. Vult u het in, dan wordt **dat** de klant bij het omzetten en wordt de persoon zijn contactpersoon. Laat het leeg voor een particulier |
+| **Naam** | Verplicht — de persoon die contact opnam |
 | **Telefoon** | |
 | **E-mail** | Optioneel, maar moet geldig zijn als u iets invult — u krijgt meteen een melding bij een ongeldig adres |
 | **Straat / Nr** | |
@@ -159,14 +160,44 @@ u hoeft niets over te typen.
 - **Opslaan** — bewaart de lead. Betekent de fase *verloren* of *gepauzeerd* zonder de bijhorende verplichte
   gegevens, dan blijft de knop uitgeschakeld.
 - **Annuleren** — gaat terug naar de lijst zonder te bewaren.
-- **Omzetten naar klant** — enkel zichtbaar bij een bestaande, nog niet omgezette lead. Maakt van de lead
-  een relatie (klant); de fiche toont daarna een melding dat de lead is omgezet. Contactgegevens, adres,
-  btw-nummer, categorie, **leadbron** en **verantwoordelijke** gaan mee naar de klantenfiche. De
-  aanvraaggegevens (type aanvraag, omvang, budget, timing, urgentie, volgende actie) blijven op de lead
-  staan, maar zijn op de klantenfiche leesbaar in het blok **Afkomstig van een lead** — zie
-  [Relaties](../relations.md).
+- **Omzetten naar klant** — enkel zichtbaar bij een bestaande, nog niet omgezette lead. Zie
+  [hieronder](#een-lead-omzetten-naar-klant).
 - **Verwijderen** — enkel bij een bestaande lead. Archiveert de lead naar de prullenbak; niets wordt
   definitief gewist.
+
+## Een lead omzetten naar klant
+
+Klik op **Omzetten naar klant**. Wat er gebeurt, hangt af van het veld **Bedrijf**.
+
+| | De klant wordt | De contactpersoon |
+|---|---|---|
+| **Bedrijf ingevuld** | het bedrijf | de persoon uit het veld **Naam**, met zijn e-mail en telefoon |
+| **Bedrijf leeg** | de persoon zelf | geen — die zou een kopie van de klant zijn |
+
+Contactgegevens, adres, btw-nummer, categorie, **leadbron** en **verantwoordelijke** gaan mee. De
+aanvraaggegevens (type aanvraag, omvang, budget, timing, urgentie, volgende actie) blijven op de lead staan,
+maar zijn op de klantenfiche leesbaar in het blok **Afkomstig van een lead** — zie
+[Relaties](../relations.md). Daar staan ook de **documenten** die aan de lead hingen.
+
+**Openstaande taken** van de lead verhuizen mee naar de klant. Afgewerkte taken blijven bij de lead: die zijn
+geschiedenis van de aanvraag.
+
+### Bestaat die klant al?
+
+Voor Nimble een nieuwe klant aanmaakt, kijkt het na of er al een klant is die op deze lead lijkt — op
+**btw-nummer**, op **e-mailadres**, of op **naam en postcode** samen. Is er een treffer, dan krijgt u de vraag:
+
+![Het venster dat vraagt of deze klant al bestaat, met een treffer op het btw-nummer.](../images/lead-ontdubbelen.png)
+
+- **Koppelen** — de lead wordt aan die bestaande klant gehangen. Er komt geen tweede klant bij; wel een
+  nieuwe contactpersoon als de lead een bedrijf droeg.
+- **Toch een nieuwe klant maken** — u weet dat het een andere is.
+- **Annuleren** — er gebeurt niets.
+
+!!! tip "Waarom u dit gevraagd wordt en niet belet"
+    Twee klanten met dezelfde naam bestaan echt: twee vestigingen, of vader en zoon. Nimble weet dat niet en
+    beslist het dus niet voor u. Het btw-nummer wordt daarbij genormaliseerd — *BE 0123.456.749* en
+    *BE0123456749* gelden als hetzelfde nummer.
 
 ## Veelgemaakte fouten
 
@@ -177,6 +208,8 @@ u hoeft niets over te typen.
       waarschuwing; los ze op vóór u opslaat.
     - **Leadnummer verwijderen zonder vervanging** — het veld is verplicht; laat het lege veld niet staan
       na het overschrijven.
+    - **Het bedrijf in het naamveld zetten.** Dan heet uw klant straks naar de persoon die belde. Zet het
+      bedrijf in het veld **Bedrijf**; de naam is voor de mens.
     - **Twee keer proberen om te zetten** — is een lead al omgezet, dan is de knop **Omzetten naar klant**
       niet meer zichtbaar; gebruik de klantenfiche zelf voor verdere aanpassingen.
 
