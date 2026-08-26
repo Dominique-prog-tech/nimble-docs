@@ -43,7 +43,7 @@ Het tabblad **Fiche** is verdeeld in blokken.
 | Veld | Uitleg |
 |---|---|
 | **Naam** | Verplicht. Bedrijfsnaam of weergavenaam. |
-| **Relatienummer** | Optioneel intern nummer. |
+| **Relatienummer** | Wordt automatisch toegekend (`K0001`, `K0002`, …) wanneer u het leeg laat. Vult u zelf iets in, dan blijft dat staan — bestaande nummers uit uw vorige pakket worden niet overschreven. |
 | **Rechtsvorm** | Keuzelijst (BV, NV, VZW …). Zoek door te typen. |
 | **Btw-nummer** | Ondernemingsnummer, met de knop **Ophalen** ernaast. |
 

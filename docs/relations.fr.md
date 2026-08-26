@@ -43,7 +43,7 @@ L'onglet **Fiche** est divisé en blocs.
 | Champ | Explication |
 |---|---|
 | **Nom** | Obligatoire. Nom d'entreprise ou nom d'affichage. |
-| **Numéro de relation** | Numéro interne optionnel. |
+| **Numéro de relation** | Attribué automatiquement (`K0001`, `K0002`, …) si vous le laissez vide. Si vous saisissez vous-même une valeur, elle est conservée — les numéros existants de votre ancien logiciel ne sont pas écrasés. |
 | **Forme juridique** | Liste de choix (SRL, SA, ASBL …). Recherchez en tapant. |
 | **Numéro de TVA** | Numéro d'entreprise, avec le bouton **Récupérer** à côté. |
 
