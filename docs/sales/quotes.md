@@ -17,11 +17,14 @@ materialen en uren — en volgt daarna op of de klant ze aanvaardt.
 Uw keuze wordt bewaard: opent u het scherm morgen opnieuw, dan staat het op de weergave die u het laatst
 gebruikte.
 
-![Het offertebord met de vier statuskolommen.](../images/offertes-bord.png)
-
 Boven de lijst staat een keuzelijst waarmee u snel afbakent: **Klad**, **Verstuurd**, **Aanvaard**,
 **Geweigerd** of **Verlopen**, telkens met het aantal erachter. Een soort die nergens voorkomt, staat er
 niet bij.
+
+![De offertelijst. Twee verstuurde offertes zijn over hun geldigheidsdatum: de kolom Geldig tot toont in
+het rood hoelang al.](../images/offertes-lijst.png)
+
+![Het offertebord met de vier statuskolommen.](../images/offertes-bord.png)
 
 Dubbelklik een rij of klik een kaart om de offerte te openen.
 

@@ -17,11 +17,14 @@ lignes — travaux, matériaux et heures — puis vous suivez si le client l'acc
 Votre choix est conservé : si vous rouvrez l'écran demain, il se présente dans la vue que vous avez utilisée
 en dernier.
 
-![Le tableau des devis avec ses quatre colonnes de statut.](../images/offertes-bord-fr.png)
-
 Au-dessus de la liste, une liste déroulante permet de restreindre rapidement l'affichage : **Brouillon**,
 **Envoyé**, **Accepté**, **Refusé** ou **Expiré**, chaque fois suivi du nombre. Un type absent de la liste
 n'apparaît pas.
+
+![La liste des devis. Deux devis envoyés ont dépassé leur date de validité : la colonne Valable jusqu'au
+indique en rouge depuis combien de temps.](../images/offertes-lijst-fr.png)
+
+![Le tableau des devis avec ses quatre colonnes de statut.](../images/offertes-bord-fr.png)
 
 Double-cliquez une ligne ou cliquez une carte pour ouvrir le devis.
 
