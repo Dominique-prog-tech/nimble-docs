@@ -56,8 +56,9 @@ son état actuel et ses mouvements.
 
 !!! warning "Le stock est encore tenu dans votre programme actuel pour le moment"
     Tant que vous travaillez avec les deux programmes, c'est votre **ancien programme** qui tient le stock.
-    Nimble affiche déjà le nouveau registre, mais celui-ci ne se remplira qu'au moment du basculement —
-    d'où le 0 partout.
+    Nimble affiche déjà le nouveau registre, mais chez vous il ne se remplira qu'au moment du basculement —
+    les stocks que vous voyez ne viennent donc pas encore de Nimble. (L'image ci-dessus montre bien des
+    chiffres : elle provient d'un environnement de démonstration.)
 
     C'est volontaire : si deux systèmes tiennent le stock en même temps, ils divergent inévitablement, et
     vous ne le constatez qu'au premier inventaire. Il n'y a donc qu'un seul endroit qui fait foi, et c'est
@@ -65,6 +66,17 @@ son état actuel et ses mouvements.
 
     Les écritures ne sont donc pas encore possibles. Lors du basculement, l'état initial sera repris et la
     suite se fera ici.
+
+### Les trois types de mouvement
+
+| Type | Ce qu'il signifie |
+|---|---|
+| **Réception** | Des marchandises entrent — une livraison, une réception. La quantité est positive |
+| **Consommation** | Des marchandises sortent — utilisées sur un bon de travail ou un projet. La quantité est négative |
+| **Correction** | Une rectification manuelle après un inventaire. Le signe dépend du sens |
+
+Le registre n'est **jamais modifié** : une erreur se corrige par un nouveau mouvement, pas en retouchant
+l'ancien. Ce qui s'est passé, et quand, reste ainsi visible.
 
 ## Erreurs fréquentes
 

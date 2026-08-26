@@ -55,13 +55,25 @@ stand en de bewegingen van dat artikel.
 
 !!! warning "De voorraad wordt voorlopig nog in uw huidige pakket bijgehouden"
     Zolang u met beide pakketten werkt, houdt uw **oude pakket** de voorraad bij. Nimble toont hier al het
-    nieuwe stockregister, maar dat vult zich pas bij de overstap — daarom staat er nu overal 0.
+    nieuwe stockregister, maar bij u vult dat zich pas bij de overstap — de standen die u ziet komen dus nog
+    niet uit Nimble. (Op de afbeelding hierboven staan wél cijfers: die komt uit een demo-omgeving.)
 
     Dat is bewust: als twee systemen tegelijk voorraad bijhouden, lopen ze gegarandeerd uit elkaar, en dat
     merkt u pas bij de eerste telling. Er is dus één plek die telt, en dat is voorlopig uw oude pakket.
 
     Boekingen kunnen daarom nog niet gedaan worden. Bij de overstap wordt de beginstand overgenomen en gaat
     het hier verder.
+
+### De drie soorten beweging
+
+| Soort | Wat het betekent |
+|---|---|
+| **Ontvangst** | Goederen komen binnen — een levering, een receptionering. Het aantal is positief |
+| **Verbruik** | Goederen gaan eruit — verwerkt op een werkbon of een project. Het aantal is negatief |
+| **Correctie** | Een handmatige rechtzetting na een telling. Het teken hangt af van de richting |
+
+Het grootboek wordt **nooit gewijzigd**: een fout zet u recht met een nieuwe beweging, niet door de oude aan
+te passen. Zo blijft zichtbaar wat er wanneer gebeurd is.
 
 ## Veelgemaakte fouten
 
