@@ -47,12 +47,20 @@ Cliquez sur **Nouvel article**, ou double-cliquez une ligne existante.
     signifie dix pièces ou dix mètres. D'où l'obligation des deux. Si la famille ou l'unité dont vous avez
     besoin n'existe pas, créez-la d'abord via l'administration.
 
-## Le rail Stock
+## Le journal à côté de la liste
 
-Cliquez sur **Stock** à droite pour déplier le panneau. Choisissez un article dans la liste et vous voyez
-son état actuel et ses mouvements.
+Cliquez sur le rail **Journal** à droite et choisissez un article dans la liste. Le panneau affiche alors le
+dossier de cet article, réparti sur quatre onglets :
 
-![Le rail Stock déplié à côté de la liste des articles, avec le solde actuel et le grand livre.](../images/artikel-stockrail-fr.png)
+- **Stock** — le solde actuel et tous les mouvements de cet article.
+- **Tâches** — ce qu'il reste à faire pour cet article.
+- **Journal** — ce qui s'est passé : notes et rendez-vous.
+- **Pièces jointes** — documents et photos liés à cet article, par exemple une fiche technique. Voir
+  [Pièces jointes](../bijlagen.md).
+
+En haut du panneau figure le nom de l'onglet que vous consultez ; cliquez dessus pour passer à un autre.
+
+![Le journal ouvert à côté de la liste des articles, sur l'onglet Stock.](../images/artikel-journaal-fr.png)
 
 !!! warning "Le stock est encore tenu dans votre programme actuel pour le moment"
     Tant que vous travaillez avec les deux programmes, c'est votre **ancien programme** qui tient le stock.
@@ -76,7 +84,8 @@ son état actuel et ses mouvements.
 | **Correction** | Une rectification manuelle après un inventaire. Le signe dépend du sens |
 
 Le registre n'est **jamais modifié** : une erreur se corrige par un nouveau mouvement, pas en retouchant
-l'ancien. Ce qui s'est passé, et quand, reste ainsi visible.
+l'ancien. Ce qui s'est passé, et quand, reste ainsi visible. Les mouvements se suivent, le plus récent en haut ; un plus
+signifie une entrée, un moins une sortie.
 
 ## Erreurs fréquentes
 

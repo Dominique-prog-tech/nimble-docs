@@ -46,12 +46,21 @@ Klik **Nieuw artikel**, of dubbelklik een bestaande rij.
     "10" tien stuks of tien meter betekent. Vandaar dat beide moeten. Ontbreekt de familie of eenheid die u
     nodig hebt, maak ze dan eerst aan via Platformbeheer.
 
-## De rail Stock
+## Het journaal naast de lijst
 
-Klik rechts op **Stock** om het paneel open te klappen. Kies een artikel in de lijst en u ziet de huidige
-stand en de bewegingen van dat artikel.
+Klik rechts op de rail **Journaal** en kies een artikel in de lijst. Het paneel toont dan de zijkant van dát
+artikel, verdeeld over vier tabbladen:
 
-![De opengeklapte stockrail naast de artikellijst, met de huidige stand en het grootboek.](../images/artikel-stockrail.png)
+- **Stock** — de huidige stand en alle bewegingen van dit artikel.
+- **Taken** — wat er voor dit artikel nog moet gebeuren.
+- **Logboek** — wat er gebeurd is: notities en afspraken.
+- **Bijlagen** — documenten en foto's bij dit artikel, bijvoorbeeld een technische fiche. Zie
+  [Bijlagen](../bijlagen.md).
+
+Bovenaan het paneel staat de naam van het tabblad dat u bekijkt; klik erop om naar een ander over te
+stappen.
+
+![Het journaal open naast de artikellijst, op het tabblad Stock.](../images/artikel-journaal.png)
 
 !!! warning "De voorraad wordt voorlopig nog in uw huidige pakket bijgehouden"
     Zolang u met beide pakketten werkt, houdt uw **oude pakket** de voorraad bij. Nimble toont hier al het
@@ -73,7 +82,8 @@ stand en de bewegingen van dat artikel.
 | **Correctie** | Een handmatige rechtzetting na een telling. Het teken hangt af van de richting |
 
 Het grootboek wordt **nooit gewijzigd**: een fout zet u recht met een nieuwe beweging, niet door de oude aan
-te passen. Zo blijft zichtbaar wat er wanneer gebeurd is.
+te passen. Zo blijft zichtbaar wat er wanneer gebeurd is. De bewegingen staan onder elkaar, met de jongste
+bovenaan; een plus betekent erbij, een min eraf.
 
 ## Veelgemaakte fouten
 
