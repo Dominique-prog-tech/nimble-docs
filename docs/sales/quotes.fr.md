@@ -1,0 +1,127 @@
+# Devis
+
+Un devis est votre proposition de prix à un client. Vous le composez à partir de **blocs** contenant des
+lignes — travaux, matériaux et heures — puis vous suivez si le client l'accepte.
+
+## Ouvrir l'écran
+
+**Ventes → Devis**. En haut à gauche, vous choisissez entre deux vues :
+
+- **Tableau** — les devis répartis en quatre colonnes : Brouillon, Envoyé, Accepté, Refusé. Chaque carte
+  affiche le client, le numéro, le montant et la date. Vous pouvez glisser une carte vers une autre colonne
+  pour changer le statut.
+- **Liste** — les mêmes devis dans un tableau, avec recherche, filtres et export.
+
+![Le tableau des devis avec ses quatre colonnes de statut.](../images/offertes-bord-fr.png)
+
+Double-cliquez une ligne ou cliquez une carte pour ouvrir le devis.
+
+## Un nouveau devis
+
+Cliquez sur **Nouveau devis**. Vous complétez d'abord l'en-tête :
+
+| Champ | Signification |
+|---|---|
+| **Numéro** | Obligatoire. Attribué automatiquement (`OFF-2026-0001`) ; vous pouvez le modifier |
+| **Client** | Obligatoire. À choisir parmi vos [relations](../relations.md) |
+| **Date** | La date de la proposition |
+| **Valable jusqu'au** | Jusqu'à quand votre prix s'applique. Trente jours plus tard par défaut |
+
+!!! info "D'abord enregistrer, ensuite ajouter des lignes"
+    Cliquez sur **Enregistrer** avant de saisir des lignes. Les lignes appartiennent à un devis enregistré ;
+    tant qu'il ne l'est pas, vous voyez le message *Enregistrez d'abord le devis*.
+
+## Blocs et lignes
+
+Un devis est un **document**, pas une liste de courses. Vous répartissez le travail en blocs avec un titre
+— « Travaux préparatoires », « Couverture », « Finitions » — pour que le client lise ce qu'il achète.
+
+- **+ Ajouter un bloc** (en bas) crée un nouveau bloc.
+- Le **nom** du bloc se saisit en haut. Si vous le laissez vide, le devis n'affiche pas de titre.
+- Cocher **sous-total** affiche le total de ce bloc sous les lignes.
+
+Chaque bloc offre deux façons d'ajouter une ligne :
+
+- **+ ligne** — une ligne vide que vous décrivez vous-même.
+- **+ article** — choisissez un article dans votre [catalogue](../inventory/articles.md). La description,
+  l'unité et le prix de vente suivent.
+
+![La fenêtre de sélection d'un article, avec numéro, description, famille et prix.](../images/offerte-artikelzoeker-fr.png)
+
+!!! tip "Recherchez par numéro ou par description"
+    Dans la fenêtre de recherche, saisissez un numéro d'article, une partie de la description, ou les deux.
+    « DIE weekend » trouve l'article `DIE-9002 — Heure installateur — week-end`.
+
+### Les champs d'une ligne
+
+| Champ | Signification |
+|---|---|
+| **Description** | Ce que le client lit. Librement modifiable, même pour un article du catalogue |
+| **+ note** | Une ligne de texte supplémentaire sous la description, par exemple une marque ou une condition |
+| **option** | La ligne figure au devis **avec** son prix mais ne compte **pas** dans le total |
+| **Quantité** | Peut contenir des décimales (0,25 heure). La virgule comme le point fonctionnent |
+| **Unité** | Pièces, heures, mètres — reprise de l'article |
+| **TVA** | Le [code TVA](../administration/vat-codes.md) de cette ligne |
+| **Prix** | Le prix unitaire |
+| **Net** | Quantité × prix, calculé |
+
+Les flèches ↑ et ↓ déplacent une ligne dans son bloc. Le ✕ rouge la supprime.
+
+!!! tip "La TVA de la ligne précédente est reprise"
+    Une nouvelle ligne reçoit le code TVA de la ligne au-dessus. Si vous travaillez en cocontractant, vous
+    ne devez donc pas le choisir sur chaque ligne.
+
+## Les totaux
+
+En haut à droite figure le **total TVA comprise**, y compris lorsque vous faites défiler la page. En bas,
+vous trouvez le détail : hors TVA, le montant de TVA, le total, et séparément **dont options** — ce dernier
+montant n'est *pas* inclus dans le total.
+
+## Le suivi du devis
+
+Les boutons du bas suivent le statut du devis :
+
+| Statut | Ce que vous pouvez faire |
+|---|---|
+| **Brouillon** | **Envoyer** — le devis passe à *Envoyé* |
+| **Envoyé** | **Accepté** ou **Refuser**, selon la réponse du client |
+| **Accepté** ou **Refusé** | Le devis est clôturé et ne peut plus être modifié |
+
+!!! warning "Un devis clôturé ne se modifie pas"
+    Dès que le client a répondu, le document est figé : champs et boutons ne sont plus disponibles. C'est
+    volontaire — le client a reçu un prix, et celui-ci ne doit pas changer en silence.
+
+    Si une modification s'impose malgré tout, cliquez sur **Nouvelle version**. Vous obtenez une copie avec
+    les lignes actuelles, en Brouillon, et un numéro de version de plus. L'ancienne version subsiste, ce qui
+    vous permet de vérifier ce que le client a reçu.
+
+## Versions et variantes
+
+En haut d'un devis appartenant à une série figurent des boutons avec les montants côte à côte :
+
+- Les **versions** (v1, v2, v3) sont des propositions successives pour la même demande. La plus élevée fait
+  foi et porte la mention *actuelle*.
+- Les **variantes** sont des réponses différentes à la même demande — par exemple « A — douche à l'italienne »
+  à côté de « B — baignoire ». Chaque variante a ses propres numéros de version.
+
+![Les boutons de version au-dessus d'un devis, avec le montant par version.](../images/offerte-versies-fr.png)
+
+## Erreurs fréquentes
+
+!!! warning
+    - **Un devis sans codes TVA** calcule 0 % de TVA sur chaque ligne, sans avertissement. Vérifiez que les
+      [codes TVA](../administration/vat-codes.md) sont complétés dans l'administration.
+    - **Vouloir qu'une ligne en option compte dans le total** — ce n'est pas le cas, et c'est voulu. Si vous
+      souhaitez inclure le montant, décochez **option**.
+    - **Vouloir modifier un devis accepté** — créez une nouvelle version plutôt que de retoucher l'ancienne.
+    - **Deux fois le même numéro** — le numéro est attribué automatiquement et doit rester unique. Si vous le
+      modifiez à la main, choisissez-en un qui n'existe pas encore.
+
+## Voir aussi
+
+- [Articles](../inventory/articles.md) — le catalogue d'où proviennent vos lignes
+- [Relations](../relations.md) — vos clients
+- [Codes TVA](../administration/vat-codes.md) — les taux et leur signification sur une facture
+- [Statuts de devis](../administration/quote-status.md) — modifier le texte des quatre statuts
+- [Travailler avec une fiche](../fiches.md) — onglets, enregistrement et archivage
+- [Filtrer les listes](../lijsten-filteren.md) — l'entonnoir et le générateur de filtres

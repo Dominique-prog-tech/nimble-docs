@@ -153,6 +153,10 @@ plugins:
             Voorraad: Stock
             Artikelen: Articles
             Klantcategorieën: Catégories de clients
+            Verkoop: Ventes
+            Offertes: Devis
+            Btw-codes: Codes TVA
+            Offertestatus: Statuts de devis
             # ⚠️ Deze vijf stonden tot 26/08/2026 ONVERTAALD in de Franse navigatie. De Franse pagina's
             # zelf droegen de juiste titel (tenants.fr.md heet "Registre des clients"); alleen het menu-item
             # bleef Nederlands, want een hoofdstuk toevoegen aan nav: dwingt geen regel hier af. Gemeld door
@@ -178,6 +182,8 @@ nav:
     - Contactpersonen: crm/contactpersonen.md
     - Taken: crm/tasks.md
     - Bijlagen: bijlagen.md
+  - Verkoop:
+    - Offertes: sales/quotes.md
   - Voorraad:
     - Artikelen: inventory/articles.md
   - Platformbeheer:
@@ -192,6 +198,8 @@ nav:
     - Types aanvraag: administration/lead-request-types.md
     - Leadfases: administration/lead-status.md
     - Leadopvolging: administration/lead-follow-up.md
+    - Btw-codes: administration/vat-codes.md
+    - Offertestatus: administration/quote-status.md
   - Beheer:
     - Klantenregister: administration/tenants.md
     - Gebruikers: administration/users.md
