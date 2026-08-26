@@ -79,6 +79,10 @@ Op een lijst waarop niet gefilterd is, staat die balk er niet.
 Nimble onthoudt per lijst hoe u ze achterlaat: uw filter, uw kolomvolgorde en uw kolombreedtes. Komt u
 morgen terug op de artikelenlijst, dan staat uw filter er nog.
 
+**Uw zoekterm hoort daar niet bij**: het vak **Zoeken…** begint elke keer leeg. Een filter stelt u bewust
+in en wilt u terugvinden; een zoekterm typt u om één ding op te zoeken, en die zou u de volgende keer
+alleen maar rijen wegnemen zonder dat u eraan denkt.
+
 !!! warning "Per computer, niet per gebruiker"
     Die instellingen worden op **uw computer en in uw browser** bewaard, niet in uw account. Werkt u
     thuis op een andere computer, dan begint die lijst weer blanco. Wist u de gegevens van uw browser,
@@ -89,7 +93,8 @@ morgen terug op de artikelenlijst, dan staat uw filter er nog.
 !!! warning
     - **"De lijst is leeg, er is iets stuk."** Er staat bijna altijd nog een filter aan. Kijk naar de
       balk onder de lijst: staat daar een voorwaarde, klik dan op het kruisje. Precies daarvoor is die
-      balk er.
+      balk er. Ligt het aan uw zoekterm, dan zegt de lijst dat zelf — *Geen resultaat voor "…"* — met
+      een knop **Zoekterm wissen** eronder.
     - **En waar Of bedoeld is.** *Status is Aanvaard **en** status is Verstuurd* geeft nul rijen — geen
       enkele offerte heeft twee statussen tegelijk. U bedoelt **Of**.
     - **Zoeken en filteren door elkaar.** Ze werken samen: staat er een filter én een zoekterm, dan

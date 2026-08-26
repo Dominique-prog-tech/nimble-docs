@@ -84,6 +84,10 @@ Sur une liste non filtrée, cette barre n'apparaît pas.
 Nimble retient, pour chaque liste, l'état dans lequel vous la quittez : votre filtre, l'ordre de vos
 colonnes et leur largeur. Si vous revenez demain sur la liste des articles, votre filtre y est encore.
 
+**Votre terme de recherche n'en fait pas partie** : le champ **Rechercher…** repart vide à chaque fois.
+Un filtre, vous le posez sciemment et vous voulez le retrouver ; un terme de recherche sert à trouver une
+chose précise, et la fois suivante il ne ferait qu'écarter des lignes à votre insu.
+
 !!! warning "Par ordinateur, pas par utilisateur"
     Ces réglages sont conservés sur **votre ordinateur et dans votre navigateur**, pas dans votre
     compte. Si vous travaillez chez vous sur un autre ordinateur, la liste y repart à blanc. Et si vous
@@ -94,7 +98,8 @@ colonnes et leur largeur. Si vous revenez demain sur la liste des articles, votr
 !!! warning
     - **« La liste est vide, quelque chose est cassé. »** Il reste presque toujours un filtre actif.
       Regardez la barre sous la liste : s'il y a une condition, cliquez sur la croix. C'est
-      exactement à cela que sert cette barre.
+      exactement à cela que sert cette barre. Si c'est votre recherche, la liste vous le dit
+      elle-même — *Aucun résultat pour « … »* — avec un bouton **Effacer la recherche** en dessous.
     - **Et là où vous pensiez Ou.** *Le statut est Acceptée **et** le statut est Envoyée* ne donne aucune
       ligne — aucune offre ne porte deux statuts à la fois. Vous vouliez dire **Ou**.
     - **Confondre recherche et filtre.** Les deux se cumulent : si un filtre et un terme de recherche
