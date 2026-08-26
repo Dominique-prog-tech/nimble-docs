@@ -66,6 +66,14 @@ apparues et combien existaient déjà.
   responsable.
 - Sur la fiche du lead elle-même, dans l'onglet **Journal**.
 
+!!! tip "Veillez à ce que chaque lead ait un responsable"
+    Une tâche sans responsable n'apparaît que sous **Toutes les tâches** — celui qui ouvre sa propre liste le
+    matin ne la voit pas. Le suivi a bien tourné, mais le lead reste aussi invisible qu'avant.
+
+    Vous l'imposez via [Phases de lead](lead-status.fr.md) : définissez **Responsable** comme champ
+    obligatoire sur la phase où cela commence à compter — par exemple à partir de *Qualifié*. Dès lors, aucun
+    lead ne peut avancer sans que quelqu'un le suive.
+
 ## Voir aussi
 
 - [Leads](../crm/leads.md)

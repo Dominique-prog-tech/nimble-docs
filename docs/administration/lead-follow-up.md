@@ -65,6 +65,14 @@ al bestonden.
   verantwoordelijke.
 - Op de leadfiche zelf, in het tabblad **Journaal**.
 
+!!! tip "Zorg dat elke lead een verantwoordelijke heeft"
+    Een taak zonder verantwoordelijke staat alleen onder **Alle taken** — wie 's ochtends zijn eigen lijst
+    opent, ziet hem niet. De opvolging is dan wel gelopen, maar de lead blijft even onzichtbaar als daarvoor.
+
+    U dwingt dit af bij [Leadfases](lead-status.md): zet **Verantwoordelijke** als verplicht veld op de fase
+    waar het ertoe begint te doen — bijvoorbeeld vanaf *Gekwalificeerd*. Vanaf dan kan geen enkele lead verder
+    zonder dat iemand hem opvolgt.
+
 ## Zie ook
 
 - [Leads](../crm/leads.md)
