@@ -4,75 +4,94 @@ hide:
   - toc
 ---
 
-<div class="nb-hero" markdown>
+<div class="nb-voorpagina" markdown>
+<div class="nb-voorpagina__tekst" markdown>
 
-# Nimble — Manuel
+# Toute votre entreprise dans un seul dossier
 
-Tout sur votre plateforme ERP : des leads et relations au stock, aux projets et
-à la facturation. Ce manuel évolue avec l'application — ce qui figure ci-dessous
-existe aussi à l'écran.
+De la première demande à la dernière facture. Nimble réunit leads, clients,
+projets, planning, stock et facturation — sans que vous saisissiez deux fois les
+mêmes données.
 
+<div class="nb-knoppen" markdown>
+[Pour commencer](fiches.fr.md){ .nb-knop .nb-knop--vol }
+[Tous les sujets](#veelgezocht){ .nb-knop .nb-knop--rand }
+</div>
+</div>
+<div class="nb-voorpagina__beeld" markdown>
+![Le tableau des leads de Nimble : les demandes par phase, avec leur valeur.](images/leads-bord-fr.png){ .off-glb }
+</div>
 </div>
 
-<div class="grid cards" markdown>
+<div class="nb-pijlers" markdown>
+<div class="nb-pijler" markdown>
+<span class="nb-pijler__merk">:material-arrow-decision-outline:</span>
 
--   :material-arrow-decision-outline:{ .lg .middle } **Leads**
+### De la demande au client
 
-    ---
+Chaque demande sur un tableau, par phase que **vous** composez. Ce qui traîne
+reçoit automatiquement une tâche — et lors de la conversion, Nimble demande si
+ce client existe déjà.
+</div>
+<div class="nb-pijler" markdown>
+<span class="nb-pijler__merk">:material-folder-open-outline:</span>
 
-    Suivre les demandes du premier contact jusqu'au client, avec le tableau des
-    leads et les leads automatiques du site web.
+### Tout auprès du dossier
 
-    [:octicons-arrow-right-24: Leads](crm/leads.md)
+Documents, photos, tâches et l'historique complet se trouvent auprès du client,
+du lead ou du projet lui-même. Plus personne ne doit chercher où quelque chose a
+été rangé.
+</div>
+<div class="nb-pijler" markdown>
+<span class="nb-pijler__merk">:material-account-lock-outline:</span>
 
--   :material-handshake-outline:{ .lg .middle } **Relations**
+### À chacun son rôle
 
-    ---
-
-    Clients et fournisseurs dans une seule liste, avec leurs personnes de
-    contact — une relation peut être les deux à la fois.
-
-    [:octicons-arrow-right-24: Relations](relations.md)
-
--   :material-clipboard-check-outline:{ .lg .middle } **Tâches**
-
-    ---
-
-    Rendre visible ce qui traîne : des tâches sur les projets et relations, avec
-    des rappels via la cloche.
-
-    [:octicons-arrow-right-24: Tâches](crm/tasks.md)
-
--   :material-paperclip:{ .lg .middle } **Pièces jointes**
-
-    ---
-
-    Documents et photos sur un client, un contact, un lead ou un projet — dans
-    le journal, onglet Pièces jointes.
-
-    [:octicons-arrow-right-24: Pièces jointes](bijlagen.md)
-
--   :material-cube-outline:{ .lg .middle } **Articles**
-
-    ---
-
-    Le fichier des articles avec familles et unités ; le registre de stock suit
-    lors de la bascule.
-
-    [:octicons-arrow-right-24: Articles](inventory/articles.md)
-
--   :material-cog-outline:{ .lg .middle } **Administration**
-
-    ---
-
-    Fiche d'entreprise, données de base, listes de choix et paramètres des
-    leads — tout ce que vous configurez une seule fois.
-
-    [:octicons-arrow-right-24: Administration](administration/platform-management.md)
-
+Un commercial qui rédige des devis mais consulte seulement le planning, un chef
+d'équipe qui remplit des bons de travail sans toucher à la facturation. Vous le
+définissez par rôle.
+</div>
 </div>
 
-## Aide dans l'application
+!!! tip "Vous cherchez quelque chose de précis ?"
+    Utilisez le **champ de recherche** en haut à droite. C'est presque toujours plus
+    rapide que de cliquer de page en page — tapez ce que vous cherchez et vous arrivez
+    au bon paragraphe.
 
-Dans Nimble, ouvrez le bouton **?** en haut à droite pour une aide contextuelle
-sur l'écran actif, avec un lien vers le manuel complet.
+    Vous êtes dans Nimble ? Cliquez alors en haut à droite sur **?** pour une explication
+    sur l'écran où vous vous trouvez, avec un lien vers la page complète ici.
+
+## Vous débutez ? Commencez par ces trois-ci
+
+1. **[Travailler avec une fiche](fiches.fr.md)** — chaque écran de Nimble fonctionne de
+   la même façon : une liste où vous cherchez, et une fiche où vous modifiez. Qui
+   maîtrise ce schéma connaît la moitié de l'application.
+2. **[Filtrer les listes](lijsten-filteren.fr.md)** — chercher, filtrer sur une colonne,
+   et conserver votre filtre pour qu'il soit encore là demain.
+3. **[Fiche d'entreprise](settings/company-profile.fr.md)** — vos propres données, à
+   remplir une seule fois. Elles reviennent sur chaque document que vous envoyez.
+
+## Sujets fréquemment consultés { #veelgezocht }
+
+- **[Convertir un lead en client](crm/leads.fr.md#convertir-un-lead-en-client)** — avec la question de savoir si ce client existe déjà
+- **[Leads depuis votre site web](crm/leads-webformulier.fr.md)** — votre formulaire de contact directement dans Nimble
+- **[Adapter les phases de votre tableau](administration/lead-status.fr.md)** — ajouter, renommer ou masquer vos propres phases
+- **[Définir les droits par rôle](administration/roles.fr.md)** — qui peut consulter, qui peut modifier
+- **[Conserver documents et photos](bijlagen.fr.md)** — chez un client, un contact, un lead ou un projet
+- **[Les tâches en souffrance](crm/tasks.fr.md)** — avec des rappels via la cloche
+
+## Les modules
+
+**CRM** — [Leads](crm/leads.fr.md) · [Relations](relations.fr.md) ·
+[Contacts](crm/contactpersonen.fr.md) · [Tâches](crm/tasks.fr.md) ·
+[Pièces jointes](bijlagen.fr.md)
+
+**Stock** — [Articles](inventory/articles.fr.md)
+
+**Configuration** — [Gestion de la plateforme](administration/platform-management.fr.md) ·
+[Données de base](administration/master-data.fr.md) ·
+[Paramètres des leads](administration/lead-status.fr.md)
+
+**Administration** — [Utilisateurs](administration/users.fr.md) ·
+[Rôles](administration/roles.fr.md) · [Corbeille](administration/recycle-bin.fr.md) ·
+[Journal des actions](administration/audit-log.fr.md)

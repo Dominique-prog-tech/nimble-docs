@@ -203,3 +203,107 @@ html {
   opacity: 0.8;
   pointer-events: none;
 }
+
+/* ── Voorpagina ─────────────────────────────────────────────────────────────────────────────────────
+   Sinds 26/08/2026 wordt deze site geïndexeerd, en daarmee is de voorpagina niet enkel een
+   inhoudsopgave maar het eerste wat iemand van Nimble ziet. Vandaar een echte hero mét een
+   schermafbeelding: je toont het product in plaats van het te beschrijven.
+
+   ⚠️ Het beeld komt uit de tenant 'demo'. Dat is geen detail nu de pagina geïndexeerd wordt — een
+   klantnaam op een voorpagina is niet terug te nemen.
+
+   Bedoeld om door de andere docs-sites overgenomen te worden (Dominique, 26/08/2026): CreditSoft en
+   CleanOps nemen dit straks over, dus alles hangt aan --nb-* variabelen en niets aan Nimble-specifieke
+   kleuren. */
+.nb-voorpagina {
+  display: grid;
+  gap: 2.5rem;
+  align-items: center;
+  padding: 1rem 0 2.5rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  margin-bottom: 2.5rem;
+}
+@media screen and (min-width: 60em) {
+  .nb-voorpagina { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 3.5rem; }
+}
+.nb-voorpagina__tekst h1 {
+  font-size: 2.6rem;
+  line-height: 1.1;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin: 0 0 0.9rem;
+  background: linear-gradient(95deg, var(--nb-paars), var(--nb-paars-licht));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.nb-voorpagina__tekst p {
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--md-default-fg-color--light);
+  margin: 0 0 1.6rem;
+}
+.nb-knoppen { display: flex; flex-wrap: wrap; gap: 0.7rem; }
+.md-typeset .nb-knop {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.62rem 1.15rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 0.78rem;
+  text-decoration: none;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.md-typeset .nb-knop--vol {
+  background: var(--nb-paars);
+  color: #fff;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.08), 0 6px 16px -6px var(--nb-paars);
+}
+.md-typeset .nb-knop--vol:hover { transform: translateY(-1px); color: #fff; }
+.md-typeset .nb-knop--rand {
+  border: 1px solid var(--md-default-fg-color--lighter);
+  color: var(--md-default-fg-color);
+}
+.md-typeset .nb-knop--rand:hover { border-color: var(--nb-paars); color: var(--nb-paars); }
+
+/* Het schermbeeld. Lichte kanteling + schaduw, zodat het als een venster leest en niet als een
+   platte illustratie. De rand houdt hem los van de achtergrond in dark mode. */
+.nb-voorpagina__beeld img {
+  width: 100%;
+  border-radius: 0.7rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  box-shadow: 0 2px 4px rgb(0 0 0 / 0.05), 0 22px 48px -18px rgb(0 0 0 / 0.32);
+}
+[data-md-color-scheme="slate"] .nb-voorpagina__beeld img {
+  box-shadow: 0 2px 4px rgb(0 0 0 / 0.3), 0 22px 48px -18px rgb(0 0 0 / 0.7);
+}
+
+/* Drie korte pitches onder de hero — geen navigatie, wel waar het platform voor dient. */
+.nb-pijlers { display: grid; gap: 1.6rem; margin: 0 0 2.5rem; }
+@media screen and (min-width: 50em) {
+  .nb-pijlers { grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+}
+.nb-pijler h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0 0 0.35rem;
+}
+.nb-pijler p {
+  font-size: 0.78rem;
+  line-height: 1.6;
+  color: var(--md-default-fg-color--light);
+  margin: 0;
+}
+.nb-pijler__merk {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 0.55rem;
+  margin-bottom: 0.7rem;
+  background: color-mix(in srgb, var(--nb-paars) 12%, transparent);
+  color: var(--nb-paars);
+}
+.nb-pijler__merk svg { width: 1.15rem; height: 1.15rem; }

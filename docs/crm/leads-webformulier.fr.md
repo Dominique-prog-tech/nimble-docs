@@ -80,7 +80,7 @@ lead.
 ## La même personne qui remplit deux fois
 
 Cela reste **un seul lead**, tant que son lead précédent est en cours : la nouvelle demande arrive comme ligne
-de journal sur le lead existant, avec une tâche. Voir [Leads](leads.md#leads-via-uw-website).
+de journal sur le lead existant, avec une tâche. Voir [Leads](leads.fr.md#leads-via-votre-site-web).
 
 Un double envoi du formulaire lui-même — quelqu'un qui clique deux fois sur *Envoyer* — ne produit également
 qu'un seul lead.
