@@ -34,6 +34,11 @@ Double-cliquez une ligne pour modifier, ou cliquez sur **Nouvelle valeur**.
 
 Ouvrez la source et cliquez sur **Supprimer**. La source est archivée (corbeille) ; les leads existants qui l'utilisent sont conservés.
 
+!!! info "Une source ne peut pas être supprimée : **Website**"
+    Cette source n'a pas de bouton **Supprimer**, et son code n'est pas modifiable. Nimble recherche ce code
+    lui-même quand une demande arrive via votre site web — si la source disparaît, un tel lead ne sait plus
+    d'où il vient. Le **nom**, lui, se modifie librement : mettez-y « Notre site » ou votre nom de domaine.
+
 ## Erreurs fréquentes
 
 !!! warning

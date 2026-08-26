@@ -34,6 +34,11 @@ Dubbelklik op een rij om te bewerken, of klik op **Nieuwe waarde**.
 
 Open de leadbron en klik op **Verwijderen**. De bron wordt gearchiveerd (prullenbak); bestaande leads die ze gebruiken blijven behouden.
 
+!!! info "Eén bron kunt u niet verwijderen: **Website**"
+    Bij die bron staat geen knop **Verwijderen**, en haar code kunt u niet wijzigen. Nimble zoekt die code zelf
+    op wanneer er een aanvraag via uw website binnenkomt — verdwijnt ze, dan weet zo'n lead niet meer waar hij
+    vandaan komt. De **naam** mag u wel aanpassen: zet er gerust "Onze website" of uw domeinnaam.
+
 ## Veelgemaakte fouten
 
 !!! warning
