@@ -153,6 +153,16 @@ plugins:
             Voorraad: Stock
             Artikelen: Articles
             Klantcategorieën: Catégories de clients
+            # ⚠️ Deze vijf stonden tot 26/08/2026 ONVERTAALD in de Franse navigatie. De Franse pagina's
+            # zelf droegen de juiste titel (tenants.fr.md heet "Registre des clients"); alleen het menu-item
+            # bleef Nederlands, want een hoofdstuk toevoegen aan nav: dwingt geen regel hier af. Gemeld door
+            # de creditsoft-docs-sessie, die hetzelfde vond in haar eigen bovenbalk.
+            # De Franse termen komen uit NimbleNav.cs en uit de FR-pagina's — niet uit een eigen vertaling.
+            Klantenregister: Registre des clients
+            Gebruikers: Utilisateurs
+            Rollen: Rôles
+            Prullenbak: Corbeille
+            Actielogboek: Journal d'audit
 
 extra:
   generator: false
