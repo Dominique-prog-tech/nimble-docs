@@ -29,7 +29,10 @@ jobs:
       # ⚠️ Met versienummers, uit requirements.txt. Zonder pin haalt elke bouw binnen wat er die dag nieuw
       # staat, en MkDocs 2.0 schrapt het plugin-systeem waar de tweetaligheid op draait. Zie requirements.txt.
       - run: pip install -r requirements.txt
-      - run: mkdocs build
+      # --strict maakt van een waarschuwing een fout. Zonder die vlag bouwt een gebroken interne link of een
+      # ontbrekende pagina gewoon door: de deploy wordt groen en de handleiding krijgt een dode link. Dat kan
+      # nu veilig, want de plugin-versies liggen vast — 26/08/2026 nagemeten: strict is hier groen.
+      - run: mkdocs build --strict
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
