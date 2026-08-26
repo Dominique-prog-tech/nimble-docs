@@ -1,6 +1,16 @@
 User-agent: *
-Disallow: /
+Allow: /
 
-# Documentatie in opbouw — indexering tijdelijk geblokkeerd.
-# Wanneer de docs grotendeels voltooid zijn, wordt dit vervangen door
-# een Allow-policy en sitemap-verwijzing.
+Sitemap: https://docs.nimble-erp.eu/sitemap.xml
+
+# Indexering vrijgegeven op 26/08/2026. Hier stond "Disallow: /" met de nota
+# "documentatie in opbouw" — die is uitgevoerd zoals ze bedoeld was.
+#
+# ⚠️ Wat hier staat is geen beveiliging. Deze site is en was al publiek: elke
+# pagina was gewoon op te vragen, alleen niet te vinden via een zoekmachine.
+# Wie iets écht wil afschermen, zet het niet op deze site.
+#
+# Om dezelfde reden blijft de afspraak over schermafdrukken onveranderd streng:
+# beelden komen ALTIJD uit de tenant 'demo', nooit uit thomadak of bavo. Dat was
+# al zo toen niemand meekeek, en het weegt nu zwaarder — een geïndexeerd beeld
+# is niet terug te nemen.
