@@ -72,12 +72,6 @@ existe aussi à l'écran.
 
 </div>
 
-## En plein développement
-
-Les projets, ordres de travail, devis et la facturation sont en construction et
-arrivent par chaîne dans la bêta. Dès qu'un écran est publié, son manuel
-apparaît ici.
-
 ## Aide dans l'application
 
 Dans Nimble, ouvrez le bouton **?** en haut à droite pour une aide contextuelle

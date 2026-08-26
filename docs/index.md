@@ -71,12 +71,6 @@ facturatie. Deze handleiding groeit mee — wat hieronder staat, staat ook in de
 
 </div>
 
-## In volle ontwikkeling
-
-Projecten, werkorders, offertes en facturatie zijn in opbouw en komen per keten
-in de beta beschikbaar. Zodra een scherm vrijgegeven is, verschijnt zijn
-handleiding hier.
-
 ## Hulp in de app
 
 In Nimble opent u rechtsboven de **?**-knop voor contextuele hulp bij het
