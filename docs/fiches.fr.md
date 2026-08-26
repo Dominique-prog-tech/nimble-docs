@@ -40,10 +40,10 @@ En haut de la fiche se trouvent deux groupes d'onglets.
 **À gauche**, les données de l'enregistrement lui-même. Sur la plupart des fiches il n'y en a qu'un —
 **Général** ou **Fiche** — sur la fiche de relation il y en a deux, avec **Personnes de contact**.
 
-**À droite**, le journal : **Tâches**, **Journal**, **Pièces jointes**, et sur une relation également
-**Contacts**. Ce sont les éléments rattachés à l'enregistrement.
+**À droite**, le journal : **Tâches**, **Journal** et **Pièces jointes**. Ce sont les éléments rattachés
+à l'enregistrement.
 
-![Une fiche de relation avec à gauche les onglets Fiche et Personnes de contact, à droite Contacts, Tâches, Journal et Pièces jointes.](images/fiche-tabbladen-fr.png)
+![Une fiche de relation avec à gauche les onglets Fiche et Personnes de contact, à droite Tâches, Pièces jointes et Journal.](images/fiche-tabbladen-fr.png)
 
 !!! info "Les boutons disparaissent sur un onglet du journal"
     Enregistrer et Supprimer appartiennent au formulaire. Si vous êtes sur **Pièces jointes**, ces boutons

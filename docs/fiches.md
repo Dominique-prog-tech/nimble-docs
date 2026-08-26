@@ -39,10 +39,10 @@ Bovenaan de fiche staan twee groepen tabbladen.
 **Links** staan de gegevens van het record zelf. Op de meeste fiches is dat er één — **Algemeen** of
 **Fiche** — op de relatiefiche zijn het er twee, met **Contactpersonen** erbij.
 
-**Rechts** staat het journaal: **Taken**, **Logboek**, **Bijlagen**, en op een relatie ook
-**Contacten**. Dat zijn de dingen die aan het record hangen.
+**Rechts** staat het journaal: **Taken**, **Logboek** en **Bijlagen**. Dat zijn de dingen die aan het
+record hangen.
 
-![Een relatiefiche met links de tabbladen Fiche en Contactpersonen, rechts Contacten, Taken, Logboek en Bijlagen.](images/fiche-tabbladen.png)
+![Een relatiefiche met links de tabbladen Fiche en Contactpersonen, rechts Taken, Bijlagen en Logboek.](images/fiche-tabbladen.png)
 
 !!! info "De knoppen verdwijnen op een journaal-tabblad"
     Opslaan en Verwijderen horen bij het formulier. Staat u op **Bijlagen**, dan ziet u die knoppen niet
