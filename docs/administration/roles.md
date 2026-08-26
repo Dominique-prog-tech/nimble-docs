@@ -47,7 +47,10 @@ Zo stelt u de rollen samen die u voor ogen hebt: een verkoper die offertes maakt
     **Neem nooit het laatste beheerrecht weg.** Vinkt u bij de enige rol die rollen mag beheren dat recht uit, dan kan niemand het nog terugzetten — ook u niet. Maak eerst een tweede rol met dat recht aan, of controleer dat u zelf een andere rol met beheerrechten hebt.
 
 !!! info
-    **Een wijziging geldt vanaf de volgende aanmelding.** Iemand die op dit moment werkt, merkt uw aanpassing pas nadat hij zich afmeldt en opnieuw aanmeldt. Vraag de persoon dat te doen wanneer de wijziging dringend is.
+    **Wanneer een wijziging geldt, hangt af van wát u wijzigt.**
+
+    - **Vinkt u een recht aan of uit bij een rol**, dan geldt dat meteen. Wie op dat moment werkt, ziet het na een verversing van zijn scherm — afmelden hoeft niet.
+    - **Geeft u iemand een andere rol**, dan geldt dat pas bij zijn volgende aanmelding. Vraag de persoon zich af te melden en opnieuw aan te melden wanneer het dringend is.
 
 ## Zie ook
 

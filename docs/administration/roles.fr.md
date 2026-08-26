@@ -47,7 +47,10 @@ Sous **Utilisateurs avec ce rôle**, vous voyez qui porte ce rôle aujourd'hui. 
     **Ne retirez jamais le dernier droit d'administration.** Si vous décochez ce droit sur le seul rôle habilité à gérer les rôles, plus personne ne pourra le rétablir — vous non plus. Créez d'abord un second rôle disposant de ce droit, ou vérifiez que vous portez vous-même un autre rôle avec des droits d'administration.
 
 !!! info
-    **Une modification s'applique à la prochaine connexion.** Une personne en train de travailler ne verra votre changement qu'après s'être déconnectée et reconnectée. Demandez-le-lui si la modification est urgente.
+    **Le moment où une modification prend effet dépend de ce que vous modifiez.**
+
+    - **Si vous cochez ou décochez un droit sur un rôle**, cela s'applique immédiatement. Qui travaille à ce moment-là le voit après avoir rafraîchi son écran — inutile de se déconnecter.
+    - **Si vous attribuez un autre rôle à quelqu'un**, cela ne s'applique qu'à sa prochaine connexion. Demandez à la personne de se déconnecter et de se reconnecter si c'est urgent.
 
 ## Voir aussi
 
