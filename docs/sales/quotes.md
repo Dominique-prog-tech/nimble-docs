@@ -7,12 +7,21 @@ materialen en uren — en volgt daarna op of de klant ze aanvaardt.
 
 **Verkoop → Offertes**. U kiest links bovenaan tussen twee weergaven:
 
-- **Bord** — de offertes verdeeld over vier kolommen: Klad, Verstuurd, Aanvaard, Geweigerd. Elke kaart
+- **Lijst** — de offertes in een tabel, met zoeken, filteren en exporteren. Naast **Geldig tot** staat bij
+  een verstuurde offerte waarvan de geldigheid verstreken is in het rood hoelang dat al zo is — *10 dagen*,
+  *2 maanden*. Zo ziet u in één oogopslag wat te lang blijft liggen.
+- **Bord** — dezelfde offertes verdeeld over vier kolommen: Klad, Verstuurd, Aanvaard, Geweigerd. Elke kaart
   toont de klant, het nummer, het bedrag en de datum. U kunt een kaart naar een andere kolom slepen om de
   status te wijzigen.
-- **Lijst** — dezelfde offertes in een tabel, met zoeken, filteren en exporteren.
+
+Uw keuze wordt bewaard: opent u het scherm morgen opnieuw, dan staat het op de weergave die u het laatst
+gebruikte.
 
 ![Het offertebord met de vier statuskolommen.](../images/offertes-bord.png)
+
+Boven de lijst staat een keuzelijst waarmee u snel afbakent: **Klad**, **Verstuurd**, **Aanvaard**,
+**Geweigerd** of **Verlopen**, telkens met het aantal erachter. Een soort die nergens voorkomt, staat er
+niet bij.
 
 Dubbelklik een rij of klik een kaart om de offerte te openen.
 

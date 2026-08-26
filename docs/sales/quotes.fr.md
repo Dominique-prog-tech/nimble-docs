@@ -7,12 +7,21 @@ lignes — travaux, matériaux et heures — puis vous suivez si le client l'acc
 
 **Ventes → Devis**. En haut à gauche, vous choisissez entre deux vues :
 
-- **Tableau** — les devis répartis en quatre colonnes : Brouillon, Envoyé, Accepté, Refusé. Chaque carte
-  affiche le client, le numéro, le montant et la date. Vous pouvez glisser une carte vers une autre colonne
-  pour changer le statut.
-- **Liste** — les mêmes devis dans un tableau, avec recherche, filtres et export.
+- **Liste** — les devis dans un tableau, avec recherche, filtres et export. À côté de **Valable jusqu'au**,
+  un devis envoyé dont la validité est dépassée indique en rouge depuis combien de temps — *10 jours*,
+  *2 mois*. Vous voyez ainsi d'un coup d'œil ce qui traîne.
+- **Tableau** — les mêmes devis répartis en quatre colonnes : Brouillon, Envoyé, Accepté, Refusé. Chaque
+  carte affiche le client, le numéro, le montant et la date. Vous pouvez glisser une carte vers une autre
+  colonne pour changer le statut.
+
+Votre choix est conservé : si vous rouvrez l'écran demain, il se présente dans la vue que vous avez utilisée
+en dernier.
 
 ![Le tableau des devis avec ses quatre colonnes de statut.](../images/offertes-bord-fr.png)
+
+Au-dessus de la liste, une liste déroulante permet de restreindre rapidement l'affichage : **Brouillon**,
+**Envoyé**, **Accepté**, **Refusé** ou **Expiré**, chaque fois suivi du nombre. Un type absent de la liste
+n'apparaît pas.
 
 Double-cliquez une ligne ou cliquez une carte pour ouvrir le devis.
 
