@@ -6,7 +6,7 @@ Op het scherm **Relaties** beheert u de klanten en leveranciers van uw bedrijf. 
 
 Klik in de zijbalk op **CRM → Relaties**.
 
-<!-- AFBEELDING: de journaal-rail open op het tabblad Contacten, naast de relatielijst -->
+![De journaalrail open naast de relatielijst, met de contactpersonen van de gekozen klant.](images/relatielijst-rail.png)
 
 ## De lijst
 
@@ -91,7 +91,7 @@ Vul het btw-nummer in en klik op **Ophalen**. Naam, straat, nummer, postcode, ge
 
 Dit blok verschijnt alleen bij een relatie die uit een **lead** is ontstaan, en alleen als u leads mag inkijken. Het toont, leesbaar en niet wijzigbaar: leadnummer, status, type aanvraag, omvang, budget, timing, urgentie, volgende actie met datum, en wanneer de lead is aangemaakt. Velden die de lead niet had, blijven weg.
 
-<!-- AFBEELDING: een omgezette klant met het volledige herkomstblok — vraagt een lead die naar klant omgezet is; die staat niet in de demo-tenant -->
+![Een klant die uit een lead is ontstaan, met het volledige blok Afkomstig van een lead.](images/relatie-herkomst-lead.png)
 
 !!! note "Waarom niet gewoon velden op de klant?"
     Budget, timing en urgentie beschrijven één aanvraag, geen klant — na de eerste offerte kloppen ze niet meer. Ze blijven daarom bij de lead staan, maar u vindt ze hier terug zonder naar het leadscherm te moeten.
@@ -100,7 +100,7 @@ Dit blok verschijnt alleen bij een relatie die uit een **lead** is ontstaan, en 
 
 Hier beheert u wie er bij deze klant aan de lijn komt. Het aantal staat in de titel van het tabblad, zodat u niet hoeft te openen om te weten of er iemand aan hangt.
 
-<!-- AFBEELDING: het tabblad met twee gekoppelde personen, rol en e-mail ingevuld -->
+![Het tabblad Contactpersonen met twee gekoppelde personen, hun rol en e-mailadres.](images/relatie-contactpersonen.png)
 
 | Kolom | Uitleg |
 |---|---|

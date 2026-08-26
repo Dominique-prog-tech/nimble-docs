@@ -55,7 +55,7 @@ Le bouton **Nouveau** vous permet d'en créer une vous-même.
 
 Certaines tâches sont créées par Nimble. Vous les reconnaissez à l'étiquette de code colorée sous l'objet.
 
-<!-- AFBEELDING: une tâche de suivi créée automatiquement, avec son libellé de code visible -->
+![L'écran des tâches avec une tâche de suivi créée automatiquement.](../images/taak-met-codelabel-fr.png)
 
 | Origine | Quand |
 |---|---|

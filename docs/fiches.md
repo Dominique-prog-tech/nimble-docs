@@ -57,7 +57,7 @@ Het **logboek** toont wat er gebeurd is bij dit record: notities die u zelf schr
 telefoongesprekken die u registreert. **Taken** toont wat er nog moet gebeuren, met de prioriteit en de
 datum waartegen het klaar hoort te zijn.
 
-<!-- AFBEELDING: het tabblad Logboek met de werkbalk, het zoekvak en drie regels -->
+![Het tabblad Logboek met de werkbalk, het zoekvak en de regels.](images/fiche-tab-logboek.png)
 
 - Bovenaan staan de **toevoegknoppen** van dat tabblad — op het logboek **+ Notitie** en **+ Oproep**,
   op taken **+ Nieuw**. Die werkbalk **blijft staan** terwijl u door de lijst scrolt, dus u hoeft niet
@@ -81,7 +81,7 @@ Hoeveel kolommen u ziet, hangt af van de breedte:
   bestandsnaam. Zo past ook een lange naam als `Vorderingsstaat_project_P2026-0004_augustus (1).xlsx` zonder
   dat u opzij moet schuiven.
 
-<!-- AFBEELDING: het tabblad Bijlagen met de knop + Bijlage, het zoekvak en twee bestanden in de tabel -->
+![Het tabblad Bijlagen met de knop + Bijlage en de bestanden in de tabel.](images/fiche-tab-bijlagen.png)
 
 - **+ Bijlage** opent een venster waar u bestanden kiest of ernaartoe sleept. U kunt er **meerdere
   tegelijk** kiezen; de omschrijving die u meegeeft, geldt dan voor die hele reeks. Wilt u ze apart

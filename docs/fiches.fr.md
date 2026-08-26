@@ -58,7 +58,7 @@ Le **journal** montre ce qui s'est passé sur cet enregistrement : les notes que
 appels téléphoniques que vous consignez. **Tâches** montre ce qui doit encore être fait, avec la
 priorité et la date à laquelle ce doit être prêt.
 
-<!-- AFBEELDING: l'onglet Journal avec la barre d'outils, le champ de recherche et trois lignes -->
+![L'onglet Journal avec la barre d'outils, le champ de recherche et les lignes.](images/fiche-tab-logboek-fr.png)
 
 - En haut se trouvent les **boutons d'ajout** de cet onglet — sur le journal **+ Note** et **+ Appel**,
   sur les tâches **+ Nouveau**. Cette barre d'outils **reste visible** pendant que vous faites défiler la
@@ -84,7 +84,7 @@ Le nombre de colonnes dépend de la largeur :
   le nom du fichier. Ainsi, même un nom long comme `Vorderingsstaat_project_P2026-0004_augustus (1).xlsx`
   tient sans défilement latéral.
 
-<!-- AFBEELDING: l'onglet Pièces jointes avec le bouton + Pièce jointe, le champ de recherche et deux fichiers dans le tableau -->
+![L'onglet Pièces jointes avec le bouton + Pièce jointe et les fichiers.](images/fiche-tab-bijlagen-fr.png)
 
 - **+ Pièce jointe** ouvre une fenêtre où vous choisissez des fichiers ou les y glissez. Vous pouvez en
   sélectionner **plusieurs à la fois** ; la description que vous indiquez vaut alors pour toute la série.

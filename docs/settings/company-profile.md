@@ -27,7 +27,7 @@ Op de **Bedrijfsfiche** beheert u de eigen gegevens van uw bedrijf: identiteit, 
 Vult iemand het contactformulier op uw website in, dan maakt Nimble daar automatisch een lead van en
 verwittigt u per e-mail. In het veld **Website-leads naar** bepaalt u wie die melding krijgt.
 
-<!-- AFBEELDING: de kaart Contact met het veld Website-leads naar en de uitleg eronder -->
+![De kaart Contact met het veld Website-leads naar en de uitleg eronder.](../images/bedrijfsfiche-blok-contact.png)
 
 - Vul een adres in van de persoon of de ploeg die aanvragen opvolgt — een groepsadres zoals
   `verkoop@uwbedrijf.be` mag ook.
@@ -43,7 +43,7 @@ Zie [Leads](../crm/leads.md) voor wat er met zo'n aanvraag gebeurt.
 2. Klik op **Ophalen**.
 3. Nimble vult het adres en de officiële gegevens automatisch in vanuit de Kruispuntbank van Ondernemingen (KBO/BCE).
 
-<!-- AFBEELDING: het btw-veld met de Ophalen-knop, vóór en na klikken -->
+![De kaart Identiteit met de naam, het btw-nummer en de knop Ophalen.](../images/bedrijfsfiche-blok-identiteit.png)
 
 ## Adres invullen
 

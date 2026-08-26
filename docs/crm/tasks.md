@@ -55,7 +55,7 @@ Met **Nieuw** maakt u er zelf een aan.
 
 Sommige taken maakt Nimble zelf aan. U herkent ze aan het gekleurde codelabel onder het onderwerp.
 
-<!-- AFBEELDING: een automatisch aangemaakte opvolgtaak met het codelabel zichtbaar -->
+![Het takenscherm met een automatisch aangemaakte opvolgtaak.](../images/taak-met-codelabel.png)
 
 | Waar het vandaan komt | Wanneer |
 |---|---|

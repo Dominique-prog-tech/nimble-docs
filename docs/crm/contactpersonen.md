@@ -22,7 +22,7 @@ Klik in de zijbalk op **CRM → Contactpersonen**.
 | **Gsm** en **Telefoon** | De nummers |
 | **Taal** | De taal van deze persoon |
 
-<!-- AFBEELDING: de journaal-rail open met de Taken-tab, naast de contactenlijst -->
+![De journaalrail open naast de contactenlijst.](../images/contactenlijst-rail.png)
 
 ![De contactenlijst met de kolom Bedrijven gevuld.](../images/contactpersonen-lijst.png)
 

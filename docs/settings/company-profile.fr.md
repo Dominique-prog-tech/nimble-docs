@@ -28,7 +28,7 @@ Lorsqu'une personne remplit le formulaire de contact de votre site web, Nimble e
 lead et vous en avertit par e-mail. Le champ **Leads du site web vers** détermine qui reçoit cet
 avertissement.
 
-<!-- AFBEELDING: la carte Contact avec le champ Leads du site web vers et l'explication en dessous -->
+![La carte Contact avec le champ Leads du site web vers et son explication.](../images/bedrijfsfiche-blok-contact-fr.png)
 
 - Indiquez l'adresse de la personne ou de l'équipe qui suit les demandes — une adresse de groupe comme
   `ventes@votreentreprise.be` convient également.
@@ -45,7 +45,7 @@ Voir [Leads](../crm/leads.md) pour ce qu'il advient d'une telle demande.
 2. Cliquez sur **Récupérer**.
 3. Nimble remplit automatiquement l'adresse et les données officielles depuis la Banque-Carrefour des Entreprises (BCE/KBO).
 
-<!-- AFBEELDING: le champ TVA avec le bouton Récupérer, avant et après le clic -->
+![La carte Identité avec le nom, le numéro de TVA et le bouton Récupérer.](../images/bedrijfsfiche-blok-identiteit-fr.png)
 
 ## Remplir l'adresse
 

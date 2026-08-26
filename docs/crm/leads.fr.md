@@ -105,7 +105,7 @@ les avez saisis.
 
 Vous y trouvez tout ce qui s'est passé autour de ce lead, en trois listes que vous basculez en haut :
 
-<!-- AFBEELDING: la fiche du lead avec l'onglet Tâches ouvert -->
+![La fiche du lead avec l'onglet Tâches ouvert.](../images/lead-tab-taken-fr.png)
 
 - **Tâches** — ce qui doit encore être fait. Les tâches de suivi que Nimble crée lui-même (voir
   ci-dessous) s'y trouvent aussi.
@@ -137,7 +137,7 @@ ces tâches dans le **Journal** du lead et dans l'écran **Tâches**.
 Lorsqu'une personne remplit le formulaire de contact de votre site web, cette demande arrive directement
 dans Nimble — vous n'avez rien à recopier.
 
-<!-- AFBEELDING: le Journal d'un lead avec une demande arrivée du site web — nécessite un lead venu du site, absent du tenant de démo -->
+![Le journal d'un lead arrivé via le site web.](../images/lead-tab-logboek-fr.png)
 
 - Un lead est créé au statut **Nouveau**. La **source** est le nom de la clé de site web avec laquelle
   le formulaire a posté — vous voyez ainsi de quel formulaire le lead provient. Voir

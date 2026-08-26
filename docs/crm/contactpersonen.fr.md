@@ -22,7 +22,7 @@ Cliquez sur **CRM → Personnes de contact** dans la barre latérale.
 | **GSM** et **Téléphone** | Les numéros |
 | **Langue** | La langue de cette personne |
 
-<!-- AFBEELDING: le rail du journal ouvert sur l'onglet Tâches, à côté de la liste des contacts -->
+![Le journal ouvert à côté de la liste des contacts.](../images/contactenlijst-rail-fr.png)
 
 ![La liste des contacts avec la colonne Entreprises remplie.](../images/contactpersonen-lijst-fr.png)
 

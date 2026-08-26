@@ -12,7 +12,7 @@ Le fonctionnement est identique partout ; cette page vaut donc pour tous les éc
 2. Cliquez à droite sur le rail **Journal**.
 3. Cliquez en haut sur le nom de l'onglet et choisissez **Pièces jointes**.
 
-<!-- AFBEELDING: le panneau du journal avec le sélecteur d'onglets ouvert, pour situer Pièces jointes parmi les autres -->
+![La fenêtre derrière + Pièce jointe, avec la zone de dépôt et le champ Description.](images/bijlage-toevoegen-venster-fr.png)
 
 ## Ajouter un fichier
 
@@ -22,7 +22,7 @@ pouvez en prendre **plusieurs à la fois**.
 Dans cette même fenêtre, vous pouvez indiquer une **description**. Elle vaut pour toute la série téléversée
 en une fois — pour les décrire séparément, ajustez-les ensuite ligne par ligne via le menu **⋯**.
 
-<!-- AFBEELDING: la fenêtre derrière + Pièce jointe, avec la zone de dépôt et le champ Description -->
+![L'onglet Pièces jointes avec quelques fichiers, dont une photo avec vignette.](images/fiche-tab-bijlagen-fr.png)
 
 <!-- AFBEELDING: l'onglet Pièces jointes avec quelques fichiers, dont au moins une photo avec vignette — nécessite des pièces jointes dans le tenant de démo -->
 

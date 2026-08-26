@@ -22,9 +22,9 @@ Klik op **+ Bijlage**. Er opent een venster waar u bestanden kiest of ze ernaart
 In datzelfde venster kunt u een **omschrijving** meegeven. Die geldt voor de hele reeks die u in één keer
 oplaadt — wilt u ze apart omschrijven, dan past u dat achteraf per regel aan via het **⋯**-menu.
 
-<!-- AFBEELDING: het venster achter + Bijlage, met de sleepzone en het veld Omschrijving -->
+![Het venster achter + Bijlage, met de sleepzone en het veld Omschrijving.](images/bijlage-toevoegen-venster.png)
 
-<!-- AFBEELDING: het tabblad Bijlagen met enkele bestanden, waarvan minstens één foto met miniatuur — vraagt bijlagen in de demo-tenant -->
+![Het tabblad Bijlagen met enkele bestanden, waaronder een foto met miniatuur.](images/fiche-tab-bijlagen.png)
 
 !!! info "Maximaal 25 MB per bestand"
     Een bouwplan of een reeks werffoto's past daar ruim in. Is een bestand groter, dan krijgt u een melding
