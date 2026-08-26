@@ -1,6 +1,6 @@
 # Administration
 
-L'écran **Administration** regroupe tous les paramètres partagés et les données de base de votre bureau, organisés en tuiles : la fiche d'entreprise, les familles d'articles, les unités et les listes de choix pour les projets et les relations.
+L'écran **Administration** regroupe tous les paramètres partagés et les données de base de votre entreprise, organisés en tuiles : la fiche d'entreprise, les familles d'articles, les unités et les listes de choix pour les projets et les relations.
 
 ## Ouvrir l'écran
 

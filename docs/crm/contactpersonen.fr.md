@@ -53,7 +53,7 @@ La recherche porte sur toutes les colonnes, y compris **Entreprises** — tapez 
 |---|---|
 | **E-mail** | Optionnel, mais s'il est rempli, il doit être valide — le message apparaît pendant la saisie. |
 | **GSM** et **Téléphone** | Texte libre. Le GSM figure en premier, car c'est en pratique le numéro qui est renseigné. |
-| **Langue** | Pour une nouvelle personne, la langue de votre bureau est déjà proposée. |
+| **Langue** | Pour une nouvelle personne, la langue de votre entreprise est déjà proposée. |
 | **Actif** | Décocher est un marqueur de statut, pas une suppression. |
 
 ### Bloc Adresse privée

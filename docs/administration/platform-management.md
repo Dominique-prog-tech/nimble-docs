@@ -1,6 +1,6 @@
 # Platformbeheer
 
-Op het scherm **Platformbeheer** vindt u alle gedeelde instellingen en stamgegevens van uw kantoor, gegroepeerd in tegels: de bedrijfsfiche, artikelfamilies, eenheden en de keuzelijsten voor projecten en relaties.
+Op het scherm **Platformbeheer** vindt u alle gedeelde instellingen en stamgegevens van uw bedrijf, gegroepeerd in tegels: de bedrijfsfiche, artikelfamilies, eenheden en de keuzelijsten voor projecten en relaties.
 
 ## Het scherm openen
 

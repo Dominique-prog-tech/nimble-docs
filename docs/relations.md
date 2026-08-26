@@ -81,7 +81,7 @@ Vul het btw-nummer in en klik op **Ophalen**. Naam, straat, nummer, postcode, ge
 | **Categorie** | Klantcategorie uit **Platformbeheer**. Zoek door te typen. |
 | **Bron** | Hoe deze relatie u leerde kennen. Dezelfde lijst als de **leadbron**, zodat een omgezette lead zijn herkomst behoudt. |
 | **Verantwoordelijke** | Het vaste aanspreekpunt binnen uw team. |
-| **Documenttaal** | Stuurt de taal van offertes en facturen voor deze klant, los van de taal waarin u zelf werkt. Leeg = de standaardtaal van uw bureau. |
+| **Documenttaal** | Stuurt de taal van offertes en facturen voor deze klant, los van de taal waarin u zelf werkt. Leeg = de standaardtaal van uw bedrijf. |
 | **Klant** / **Leverancier** | Vink aan wat van toepassing is — beide mag. |
 | **Actief** | Uitvinken verbergt de relatie niet automatisch uit alle lijsten; gebruik dit als statusmarkering. |
 

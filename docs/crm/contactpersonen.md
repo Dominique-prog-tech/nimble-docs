@@ -53,7 +53,7 @@ De zoekbalk zoekt over alle kolommen, ook over **Bedrijven** — typ een bedrijf
 |---|---|
 | **E-mail** | Optioneel, maar ingevuld moet het geldig zijn — u ziet de melding tijdens het typen. |
 | **Gsm** en **Telefoon** | Vrije tekst. Gsm staat eerst, omdat dat in de praktijk het nummer is dat ingevuld raakt. |
-| **Taal** | Bij een nieuwe persoon staat de taal van uw bureau al voorgesteld. |
+| **Taal** | Bij een nieuwe persoon staat de taal van uw bedrijf al voorgesteld. |
 | **Actief** | Uitvinken is een statusmarkering, geen verwijdering. |
 
 ### Blok Privéadres

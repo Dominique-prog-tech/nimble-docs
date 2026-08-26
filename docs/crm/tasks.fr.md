@@ -11,7 +11,7 @@ Dans la barre latérale, cliquez sur **CRM → Tâches**.
 
 Deux boutons figurent en haut :
 
-<!-- AFBEELDING: l'écran des tâches avec le sélecteur et une liste remplie — nécessite des tâches dans le tenant de démo -->
+![L'écran des tâches, avec le sélecteur entre tâches ouvertes et terminées.](../images/taken-scherm-fr.png)
 
 - **Mes tâches** — les tâches dont vous êtes le responsable. C'est l'affichage par défaut.
 - **Toutes les tâches** — toutes les tâches ouvertes de votre dossier, quel que soit leur responsable.

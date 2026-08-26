@@ -27,7 +27,7 @@ Dubbelklik op een rij om te bewerken, of klik op **Nieuwe waarde**.
 
 1. De **Volgorde** wordt automatisch voorgesteld (laatste + 10); pas ze aan om de waarde te verplaatsen.
 2. Vul de **Code** in.
-3. Vul de naam in de **basistaal van uw kantoor** — dat veld is verplicht; de andere taal is optioneel.
+3. Vul de naam in de **basistaal van uw bedrijf** — dat veld is verplicht; de andere taal is optioneel.
 4. Klik op **Opslaan**.
 
 !!! tip "Stappen van 10"

@@ -22,7 +22,7 @@ Dubbelklik op een rij om het type te openen, of klik op **Nieuw type**. Elk type
 ## Een type aanmaken of bewerken
 
 1. Vul de **Code** in.
-2. Vul de naam in de **basistaal van uw kantoor** — dat veld is verplicht; de andere taal is optioneel.
+2. Vul de naam in de **basistaal van uw bedrijf** — dat veld is verplicht; de andere taal is optioneel.
 3. Stel optioneel de **omvangvraag** in:
      - **Bijschrift (NL)** / **Bijschrift (FR)** — hoe het veld heet op de leadfiche (bv. "Oppervlakte").
      - **Eenheid** — bv. `m²`, `personen`, `lm`.
@@ -30,7 +30,7 @@ Dubbelklik op een rij om het type te openen, of klik op **Nieuw type**. Elk type
 4. Onder het blok **Omvangvraag** ziet u meteen een voorbeeld van hoe het veld op de leadfiche zal heten.
 5. Klik rechtsonder op **Opslaan**. U komt daarna terug in de lijst.
 
-<!-- AFBEELDING: de detailpagina van een type met het blok Omvangvraag en het live voorbeeld eronder -->
+![De lijst met types aanvraag, met hun omvangvraag en eenheid.](../images/aanvraagtypes-lijst.png)
 
 !!! tip "Onbewaarde wijzigingen"
     Navigeert u weg met onbewaarde wijzigingen, dan vraagt uw browser eerst of u dat zeker wil.

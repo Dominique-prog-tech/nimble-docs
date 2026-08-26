@@ -22,7 +22,7 @@ Double-cliquez une ligne pour ouvrir le type, ou cliquez sur **Nouveau type**. C
 ## Créer ou modifier un type
 
 1. Remplissez le **Code**.
-2. Remplissez le nom dans la **langue de base de votre bureau** — ce champ est obligatoire ; l'autre langue est optionnelle.
+2. Remplissez le nom dans la **langue de base de votre entreprise** — ce champ est obligatoire ; l'autre langue est optionnelle.
 3. Configurez optionnellement la **question de taille** :
      - **Libellé (NL)** / **Libellé (FR)** — le nom du champ sur la fiche du lead (p. ex. « Superficie »).
      - **Unité** — p. ex. `m²`, `personnes`, `ml`.
@@ -30,7 +30,7 @@ Double-cliquez une ligne pour ouvrir le type, ou cliquez sur **Nouveau type**. C
 4. Sous le bloc **Question de taille**, un aperçu montre immédiatement le nom du champ sur la fiche du lead.
 5. Cliquez en bas à droite sur **Enregistrer**. Vous revenez ensuite à la liste.
 
-<!-- AFBEELDING: la page de détail d'un type avec le bloc Question de taille et l'aperçu en dessous -->
+![La liste des types de demande, avec leur question de volume et leur unité.](../images/aanvraagtypes-lijst-fr.png)
 
 !!! tip "Modifications non enregistrées"
     Si vous quittez la page avec des modifications non enregistrées, votre navigateur vous demande d'abord confirmation.

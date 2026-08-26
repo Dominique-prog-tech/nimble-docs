@@ -1,13 +1,13 @@
 # Fiche d'entreprise
 
-La **fiche d'entreprise** contient les données de votre bureau : identité, contact, adresse, comptes bancaires et logo. Ces données sont utilisées sur les documents comme les devis et les factures.
+La **fiche d'entreprise** contient les données de votre entreprise : identité, contact, adresse, comptes bancaires et logo. Ces données sont utilisées sur les documents comme les devis et les factures.
 
 ## Ouvrir l'écran
 
 1. Cliquez sur **Administration** en bas de la barre latérale.
 2. Dans le groupe **Entreprise**, cliquez sur la tuile **Fiche d'entreprise**.
 
-<!-- AFBEELDING: la fiche entreprise avec les cinq cartes (Identité, Contact, Adresse, Banque, Documents & charte) — nécessite une fiche entreprise remplie dans le tenant de démo -->
+![La fiche d'entreprise avec les cartes Identité, Contact, Adresse et Banque.](../images/bedrijfsfiche-fr.png)
 
 !!! info "Le nom est géré par ADM One"
     Le **nom** de votre entreprise provient du registre central ADM One et ne peut pas être modifié ici. Si le nom doit changer, contactez ADM.

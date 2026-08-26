@@ -1,13 +1,13 @@
 # Bedrijfsfiche
 
-Op de **Bedrijfsfiche** beheert u de eigen gegevens van uw kantoor: identiteit, contact, adres, bankrekeningen en logo. Deze gegevens worden gebruikt op documenten zoals offertes en facturen.
+Op de **Bedrijfsfiche** beheert u de eigen gegevens van uw bedrijf: identiteit, contact, adres, bankrekeningen en logo. Deze gegevens worden gebruikt op documenten zoals offertes en facturen.
 
 ## Het scherm openen
 
 1. Klik onderaan in de zijbalk op **Platformbeheer**.
 2. Klik in de groep **Bedrijf** op de tegel **Bedrijfsfiche**.
 
-<!-- AFBEELDING: de Bedrijfsfiche met de vijf kaarten (Identiteit, Contact, Adres, Bank, Documenten & huisstijl) — vraagt een ingevulde bedrijfsfiche in de demo-tenant -->
+![De Bedrijfsfiche met de kaarten Identiteit, Contact, Adres en Bank.](../images/bedrijfsfiche.png)
 
 !!! info "Naam wordt door ADM One beheerd"
     De **naam** van uw bedrijf komt uit het centrale ADM One-register en kunt u hier niet wijzigen. Moet de naam aangepast worden, neem dan contact op met ADM.

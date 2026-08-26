@@ -81,7 +81,7 @@ Saisissez le numéro de TVA et cliquez sur **Récupérer**. Le nom, la rue, le n
 | **Catégorie** | Catégorie de client issue de l'**Administration**. Recherchez en tapant. |
 | **Source** | Comment cette relation vous a connu. La même liste que la **source du lead**, afin qu'un lead converti conserve son origine. |
 | **Responsable** | L'interlocuteur fixe au sein de votre équipe. |
-| **Langue des documents** | Détermine la langue des devis et factures pour ce client, indépendamment de la langue dans laquelle vous travaillez. Vide = la langue par défaut de votre bureau. |
+| **Langue des documents** | Détermine la langue des devis et factures pour ce client, indépendamment de la langue dans laquelle vous travaillez. Vide = la langue par défaut de votre entreprise. |
 | **Client** / **Fournisseur** | Cochez ce qui s'applique — les deux sont possibles. |
 | **Actif** | Décocher ne masque pas automatiquement la relation dans toutes les listes ; utilisez-le comme marqueur de statut. |
 

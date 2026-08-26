@@ -24,7 +24,7 @@ Double-cliquez une ligne pour modifier, ou cliquez sur **Nouvelle valeur**.
 
 1. L'**Ordre** est proposé automatiquement (dernier + 10) ; ajustez-le pour déplacer la valeur.
 2. Remplissez le **Code**.
-3. Remplissez le nom dans la **langue de base de votre bureau** — ce champ est obligatoire ; l'autre langue est optionnelle.
+3. Remplissez le nom dans la **langue de base de votre entreprise** — ce champ est obligatoire ; l'autre langue est optionnelle.
 4. Cliquez sur **Enregistrer**.
 
 !!! tip "Pas de 10"

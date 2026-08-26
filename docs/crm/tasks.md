@@ -11,7 +11,7 @@ Klik in de zijbalk op **CRM → Taken**.
 
 Bovenaan staan twee knoppen:
 
-<!-- AFBEELDING: het takenscherm met de schakelaar en een gevulde lijst — vraagt taken in de demo-tenant -->
+![Het takenscherm met de schakelaar tussen open en afgewerkte taken.](../images/taken-scherm.png)
 
 - **Mijn taken** — de taken waarvoor u de verantwoordelijke bent. Dit is de standaardweergave.
 - **Alle taken** — alle openstaande taken van uw dossier, ongeacht wie ze opvolgt.
