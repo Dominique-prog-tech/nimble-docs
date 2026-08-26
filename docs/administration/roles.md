@@ -25,6 +25,22 @@ Met **Rol verwijderen** haalt u een rol weg. Doe dat pas nadat u de gebruikers d
 
 Een recht dat u **uitvinkt**, verbergt het scherm én blokkeert het. De menu-ingang verdwijnt, en wie het adres rechtstreeks intypt komt er evenmin binnen. U hoeft dus niet apart na te denken over "zichtbaar" en "toegankelijk" — dat is één en dezelfde instelling.
 
+## Bekijken of bewerken
+
+Elk gebied van Nimble heeft **twee** rechten, en het verschil telt:
+
+| Recht | Wat het geeft |
+|---|---|
+| **Bekijken** | Het scherm opent en alles is leesbaar. Er staan geen knoppen om iets toe te voegen, te bewaren of te verwijderen |
+| **Bewerken** | Daarbovenop: nieuwe records aanmaken, wijzigingen bewaren, records verwijderen |
+
+**Bewerken vervangt bekijken niet — het komt erbovenop.** Wie mag bewerken, heeft ook het kijkrecht nodig; anders opent het scherm niet.
+
+Zo stelt u de rollen samen die u voor ogen hebt: een verkoper die offertes maakt maar de planning enkel bekijkt, een ploegbaas die werkbonnen invult maar niet aan de facturatie komt, een boekhouder die overal meeleest.
+
+!!! tip "Ziet iemand geen knoppen meer?"
+    Dan draagt zijn rol wel het kijkrecht maar niet het bewerkrecht voor dat gebied. Vink het aan bij **Rechten** en laat de persoon zich opnieuw aanmelden.
+
 ## Veelgemaakte fouten
 
 !!! warning
