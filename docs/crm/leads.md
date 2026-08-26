@@ -171,7 +171,7 @@ Klik op **Omzetten naar klant**. Wat er gebeurt, hangt af van het veld **Bedrijf
 
 | | De klant wordt | De contactpersoon |
 |---|---|---|
-| **Bedrijf ingevuld** | het bedrijf | de persoon uit het veld **Naam**, met zijn e-mail en telefoon |
+| **Bedrijf ingevuld** | het bedrijf | de persoon uit het veld **Naam**, met zijn e-mail en telefoon. Het eerste woord wordt de voornaam, de rest de achternaam |
 | **Bedrijf leeg** | de persoon zelf | geen — die zou een kopie van de klant zijn |
 
 Contactgegevens, adres, btw-nummer, categorie, **leadbron** en **verantwoordelijke** gaan mee. De

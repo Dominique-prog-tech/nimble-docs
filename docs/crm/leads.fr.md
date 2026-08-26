@@ -176,7 +176,7 @@ Cliquez sur **Convertir en client**. Ce qui se passe dépend du champ **Entrepri
 
 | | Le client devient | Le contact |
 |---|---|---|
-| **Entreprise remplie** | l'entreprise | la personne du champ **Nom**, avec son e-mail et son téléphone |
+| **Entreprise remplie** | l'entreprise | la personne du champ **Nom**, avec son e-mail et son téléphone. Le premier mot devient le prénom, le reste le nom |
 | **Entreprise vide** | la personne elle-même | aucun — ce serait une copie du client |
 
 Les coordonnées, l'adresse, le numéro de TVA, la catégorie, la **source du lead** et le **responsable**
