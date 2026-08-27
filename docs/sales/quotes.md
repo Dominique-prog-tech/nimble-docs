@@ -86,8 +86,35 @@ Met de pijltjes ↑ en ↓ verplaatst u een regel binnen zijn blok. Het rode ✕
 ## De totalen
 
 Rechtsboven staat het **totaal inclusief btw**, ook wanneer u naar beneden scrolt. Onderaan vindt u de
-opsplitsing: exclusief btw, het btw-bedrag, het totaal, en apart **waarvan opties** — dat laatste bedrag
-zit *niet* in het totaal.
+opsplitsing: exclusief btw, het btw-bedrag en het totaal.
+
+Staan er optieregels op de offerte, dan komt daar **Opties (incl. btw, niet in het totaal)** onder. Twee
+dingen om te weten bij dat bedrag:
+
+- Het telt **niet** mee in het totaal erboven. Kiest de klant de optie, dan komt het bedrag er nog bij.
+- Het is **inclusief btw**, terwijl de optieregel zelf haar bedrag exclusief btw toont — net als elke
+  andere regel. De twee getallen horen dus te verschillen.
+
+## De offerte afdrukken
+
+Klik op **Afdrukvoorbeeld** onderaan een bewaarde offerte. U ziet het document zoals de klant het krijgt,
+en u kunt het van daaruit downloaden.
+
+<!-- AFBEELDING: het venster Afdrukvoorbeeld met de offerte erin — NIET automatisch te maken: een
+     headless browser heeft geen PDF-viewer en toont "Couldn't load plugin" in plaats van het document.
+     Dit beeld moet met de hand uit een echte browser komen. -->
+
+Bovenaan staan uw eigen gegevens — naam, adres, telefoon, btw-nummer en uw logo. Die komen uit de
+[bedrijfsfiche](../settings/company-profile.md) in het platformbeheer; staat daar nog geen logo, dan
+zet u het daar en komt het vanzelf op elke offerte.
+
+!!! info "De offerte volgt de taal van de klant"
+    Het document wordt opgemaakt in de taal die op de klantenfiche bij **Documenttaal** staat, niet in de
+    taal waarin u zelf werkt. Staat die op Frans, dan krijgt u een Frans document ook al werkt u in het
+    Nederlands. Is het veld leeg, dan volgt de offerte uw eigen taal.
+
+Kopregels en witregels komen op het blad als tussentitel en als witruimte, zonder aantal of bedrag. Per blok
+staat het subtotaal eronder, en onderaan de opsplitsing.
 
 ## De offerte opvolgen
 

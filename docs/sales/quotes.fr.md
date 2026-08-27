@@ -86,8 +86,35 @@ Les flèches ↑ et ↓ déplacent une ligne dans son bloc. Le ✕ rouge la supp
 ## Les totaux
 
 En haut à droite figure le **total TVA comprise**, y compris lorsque vous faites défiler la page. En bas,
-vous trouvez le détail : hors TVA, le montant de TVA, le total, et séparément **dont options** — ce dernier
-montant n'est *pas* inclus dans le total.
+vous trouvez le détail : hors TVA, le montant de TVA et le total.
+
+Si le devis comporte des lignes en option, **Options (TVA comprise, hors total)** s'affiche en dessous. Deux
+choses à savoir sur ce montant :
+
+- Il n'entre **pas** dans le total ci-dessus. Si le client retient l'option, le montant vient s'y ajouter.
+- Il est **TVA comprise**, alors que la ligne en option affiche son montant hors TVA — comme toute autre
+  ligne. Les deux chiffres diffèrent donc, et c'est normal.
+
+## Imprimer le devis
+
+Cliquez sur **Aperçu avant impression** en bas d'un devis enregistré. Vous voyez le document tel que le
+client le recevra, et vous pouvez le télécharger de là.
+
+<!-- AFBEELDING: la fenêtre Aperçu avant impression avec le devis — PAS automatisable : un navigateur
+     headless n'a pas de visionneuse PDF et affiche « Couldn't load plugin » à la place du document.
+     Cette image doit être prise à la main dans un vrai navigateur. -->
+
+En haut figurent vos propres coordonnées — nom, adresse, téléphone, numéro de TVA et votre logo. Elles
+proviennent de la [fiche d'entreprise](../settings/company-profile.md) dans l'administration ; si
+aucun logo n'y est encore chargé, ajoutez-le à cet endroit et il apparaîtra sur chaque devis.
+
+!!! info "Le devis suit la langue du client"
+    Le document est établi dans la langue indiquée sur la fiche client sous **Langue des documents**, et non
+    dans celle où vous travaillez. Si elle est sur le français, vous obtenez un document français même si
+    vous travaillez en néerlandais. Si le champ est vide, le devis suit votre propre langue.
+
+Les lignes de titre et les lignes vides apparaissent sur le document comme intertitre et comme espace, sans
+quantité ni montant. Le sous-total figure sous chaque bloc, et le détail en bas de page.
 
 ## Le suivi du devis
 
