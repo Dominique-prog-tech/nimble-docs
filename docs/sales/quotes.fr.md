@@ -116,6 +116,28 @@ aucun logo n'y est encore chargé, ajoutez-le à cet endroit et il apparaîtra s
 Les lignes de titre et les lignes vides apparaissent sur le document comme intertitre et comme espace, sans
 quantité ni montant. Le sous-total figure sous chaque bloc, et le détail en bas de page.
 
+## Envoyer le devis par e-mail
+
+Cliquez sur **Envoyer par e-mail**. La fenêtre est déjà remplie : l'adresse du client, un objet reprenant
+votre numéro de devis, et un texte d'accompagnement. Le devis y est joint en PDF, avec sa taille.
+
+Tout reste modifiable avant l'envoi. L'e-mail part dans la langue du client, comme le devis lui-même.
+
+!!! info "Brouillon devient automatiquement Envoyé"
+    Si le devis était encore au statut **Brouillon**, il passe automatiquement à **Envoyé** après l'envoi.
+    Vous ne devez donc pas cliquer une seconde fois pour signaler ce que vous venez de faire.
+
+!!! tip "Déjà remis vous-même ? Utilisez Marquer comme envoyé"
+    Si vous avez remis le devis par courrier ou depuis votre propre messagerie, utilisez **Marquer comme
+    envoyé**. Ce bouton ne fait que changer le statut ; il n'envoie rien.
+
+Chaque envoi est repris dans le **journal des actions** : qui a envoyé quel devis à quelle adresse.
+
+!!! warning "Devis trop volumineux"
+    Au-delà de 10 Mo, Nimble refuse d'envoyer. Ce n'est pas une limite arbitraire : au-dessus, le moteur de
+    messagerie écarte la pièce jointe et l'e-mail part sans le devis. Mieux vaut un devis qui ne part pas
+    qu'un devis qui arrive vide.
+
 ## Le suivi du devis
 
 Les boutons du bas suivent le statut du devis :

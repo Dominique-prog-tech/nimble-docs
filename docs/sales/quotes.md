@@ -116,6 +116,28 @@ zet u het daar en komt het vanzelf op elke offerte.
 Kopregels en witregels komen op het blad als tussentitel en als witruimte, zonder aantal of bedrag. Per blok
 staat het subtotaal eronder, en onderaan de opsplitsing.
 
+## De offerte mailen
+
+Klik op **Mailen**. Het venster staat al ingevuld: het e-mailadres van de klant, een onderwerp met uw
+offertenummer, en een begeleidende tekst. De offerte hangt er als PDF aan, met de grootte erbij.
+
+Alles is aanpasbaar vóór u verstuurt. De mail vertrekt in de taal van de klant, net als de offerte zelf.
+
+!!! info "Klad wordt vanzelf Verstuurd"
+    Stond de offerte nog op **Klad**, dan gaat ze na het versturen automatisch naar **Verstuurd**. U hoeft
+    dus geen tweede knop in te drukken om te zeggen wat u net gedaan hebt.
+
+!!! tip "Zelf al bezorgd? Gebruik Markeren als verstuurd"
+    Hebt u de offerte per post of vanuit uw eigen mailprogramma bezorgd, gebruik dan **Markeren als
+    verstuurd**. Die knop zet alleen de status om en stuurt niets.
+
+Elke verzending komt in het **actielogboek**: wie welke offerte naar welk adres gestuurd heeft.
+
+!!! warning "Te grote offerte"
+    Boven 10 MB weigert Nimble te versturen. Dat is geen willekeurige grens: daarboven laat de mailmotor de
+    bijlage weg en vertrekt de mail zónder offerte. Liever een offerte die niet vertrekt dan een die leeg
+    aankomt.
+
 ## De offerte opvolgen
 
 De knoppen onderaan volgen de status van de offerte:
