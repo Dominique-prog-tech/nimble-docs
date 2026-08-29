@@ -14,7 +14,7 @@ Op het scherm **Conversie** zet u de gegevens van de **actieve tenant** over uit
 
 Bovenaan ziet u de status van de Firebird-koppeling voor de actieve tenant:
 
-![Het conversiescherm met de actieve tenant, de Firebird-broncontrole en de startknop.](../images/conversie-scherm.png)
+![Het conversiescherm met de actieve tenant, het blok Legacy Firebird-bron — hier zonder pad ingesteld — en de startknop.](../images/conversie-scherm.png)
 
 - **Verbonden (read-only)** — de bron is bereikbaar; eventueel ziet u het aantal rijen in `CRM_ACCOUNTS`.
 - **Geen Firebird-pad** — stel eerst het Firebird-pad in bij **Tenants → Firebird-bron**.

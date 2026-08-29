@@ -44,7 +44,7 @@ Wilt u toch niets wijzigen, klik dan op **Annuleren** — de lijst blijft dan zo
 
 ### Meerdere voorwaarden
 
-![De Filterbouwer met twee voorwaarden en de En/Of-knop erboven.](images/filterbouwer-twee-voorwaarden.png)
+![De Filterbouwer met twee voorwaarden en de knop En erboven, die u op Of kunt zetten.](images/filterbouwer-twee-voorwaarden.png)
 
 Klik nogmaals op **Voorwaarde toevoegen** voor een tweede regel. Bovenaan staat een knop **En**. Daar
 kiest u hoe de regels samenwerken:
