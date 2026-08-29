@@ -151,6 +151,7 @@ plugins:
             Leadopvolging: Suivi des leads
             Taken: Tâches
             Bijlagen: Pièces jointes
+            Notities: Notes
             Voorraad: Stock
             Artikelen: Articles
             Klantcategorieën: Catégories de clients
@@ -182,6 +183,7 @@ nav:
     - Relaties: relations.md
     - Contactpersonen: crm/contactpersonen.md
     - Taken: crm/tasks.md
+    - Notities: notities.md
     - Bijlagen: bijlagen.md
   - Verkoop:
     - Offertes: sales/quotes.md
