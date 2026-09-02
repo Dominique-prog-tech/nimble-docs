@@ -98,7 +98,9 @@ choses à savoir sur ce montant :
 ## Imprimer le devis
 
 Cliquez sur **Aperçu avant impression** en bas d'un devis enregistré. Vous voyez le document tel que le
-client le recevra, et vous pouvez le télécharger de là.
+client le recevra. La barre d'outils au-dessus du document vous permet de feuilleter les pages, de zoomer et
+d'imprimer. En haut de la fenêtre figurent **Télécharger** — le devis arrive en PDF dans votre dossier de
+téléchargements — et **Envoyer par courriel**.
 
 <!-- AFBEELDING: la fenêtre Aperçu avant impression avec le devis — PAS automatisable : un navigateur
      headless n'a pas de visionneuse PDF et affiche « Couldn't load plugin » à la place du document.

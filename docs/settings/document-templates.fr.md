@@ -50,7 +50,8 @@ toujours, sous les totaux et au-dessus de vos conditions.
 
 **Aperçu avant impression** affiche votre modèle sur un devis d'exemple, avec des données fictives. Vous
 voyez immédiatement quel texte provient d'une variable et lequel est fixe dans votre modèle, sans ouvrir un
-devis réel.
+devis réel. La barre d'outils au-dessus du document vous permet de feuilleter et de zoomer ; **Télécharger**
+enregistre l'aperçu en PDF.
 
 **Rétablir le modèle par défaut** supprime votre propre texte et remet la mise en page standard.
 

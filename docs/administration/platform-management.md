@@ -19,8 +19,21 @@ Klik onderaan in de zijbalk op **Platformbeheer**.
 | **Artikelen** | Artikelfamilies, Eenheden |
 | **Projecten** | Productiestatus, Pipeline-status, Projecttypes |
 | **Relaties** | Klantcategorieën, Contactfuncties |
+| **Verkoop** | Offertestatus, Factuurstatus, Btw-codes, Documentsjablonen |
+| **Leads** | Leadbronnen, Types aanvraag, Leadstatus, Leadopvolging |
 
 Elke tegel opent een beheerscherm. Bovenaan elk scherm brengt **← Terug naar platformbeheer** u terug naar deze hub.
+
+## Een rode melding bovenaan
+
+Bij het starten werkt Nimble de structuur van elke databank bij. Lukt dat voor één databank niet, dan staat
+bovenaan deze pagina een rode melding met de databank, het onderdeel en de reden.
+
+Schermen die op die structuur rekenen, kunnen dan stuklopen — soms pas dagen later, wanneer iemand toevallig
+het juiste scherm opent. Geef de tekst van de melding door aan uw beheerder; die bevat de oorzaak. Zelf hoeft
+u niets te doen.
+
+Staat er geen melding, dan zijn alle databanken bij.
 
 ## Veelgemaakte fouten
 

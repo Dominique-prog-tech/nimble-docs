@@ -48,7 +48,8 @@ totalen en boven uw voorwaarden.
 ## Uw werk nakijken
 
 **Afdrukvoorbeeld** toont uw sjabloon op een voorbeeldofferte met verzonnen gegevens. U ziet meteen welke
-tekst uit een variabele komt en welke vast in uw sjabloon staat, zonder een echte offerte te openen.
+tekst uit een variabele komt en welke vast in uw sjabloon staat, zonder een echte offerte te openen. Met de
+werkbalk boven het document bladert u en zoomt u in; met **Downloaden** bewaart u het voorbeeld als PDF.
 
 **Standaard herstellen** verwijdert uw eigen tekst en zet de standaardopmaak terug.
 

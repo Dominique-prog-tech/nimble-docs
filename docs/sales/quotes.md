@@ -97,8 +97,9 @@ dingen om te weten bij dat bedrag:
 
 ## De offerte afdrukken
 
-Klik op **Afdrukvoorbeeld** onderaan een bewaarde offerte. U ziet het document zoals de klant het krijgt,
-en u kunt het van daaruit downloaden.
+Klik op **Afdrukvoorbeeld** onderaan een bewaarde offerte. U ziet het document zoals de klant het krijgt.
+Met de werkbalk boven het document bladert u door de bladzijden, zoomt u in en drukt u af. Bovenaan het
+venster staan **Downloaden** — de offerte belandt als PDF in uw downloadmap — en **Doorsturen per mail**.
 
 <!-- AFBEELDING: het venster Afdrukvoorbeeld met de offerte erin — NIET automatisch te maken: een
      headless browser heeft geen PDF-viewer en toont "Couldn't load plugin" in plaats van het document.
