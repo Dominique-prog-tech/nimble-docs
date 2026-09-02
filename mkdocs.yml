@@ -204,6 +204,7 @@ nav:
     - Leadopvolging: administration/lead-follow-up.md
     - Btw-codes: administration/vat-codes.md
     - Offertestatus: administration/quote-status.md
+    - Factuurstatus: administration/invoice-status.md
   - Beheer:
     - Klantenregister: administration/tenants.md
     - Gebruikers: administration/users.md
