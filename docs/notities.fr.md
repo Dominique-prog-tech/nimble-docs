@@ -6,11 +6,11 @@ le journal, sur l'onglet **Notes**.
 
 Le fonctionnement est identique partout : cette page vaut donc pour tous les écrans dotés d'un journal.
 
-!!! tip "Notes ou Journal ?"
-    Les deux onglets se côtoient, ce qui prête parfois à confusion. Le **Journal** retient ce qui *s'est
-    passé* — un appel, un e-mail, une modification. Une **note** est ce que vous voulez que quelqu'un *sache*
-    avant de travailler sur cette fiche. Le journal se remplit tout seul ; une note, vous l'écrivez
-    délibérément.
+!!! tip "Notes ou Historique ?"
+    Les deux onglets se côtoient, ce qui prête parfois à confusion. Une **note**, vous l'écrivez vous-même :
+    ce que vous voulez que quelqu'un *sache* avant de travailler sur cette fiche. L'**Historique**, vous ne
+    l'écrivez pas — il retient tout seul qui a modifié quel champ, quand, et de quelle valeur vers quelle
+    autre. Vous ne pouvez rien y ajouter ni rien en supprimer.
 
 ## Ouvrir l'onglet
 

@@ -109,8 +109,9 @@ Vous y trouvez tout ce qui s'est passé autour de ce lead, en trois listes que v
 
 - **Tâches** — ce qui doit encore être fait. Les tâches de suivi que Nimble crée lui-même (voir
   ci-dessous) s'y trouvent aussi.
-- **Journal** — ce qui s'est passé : les notes que vous ajoutez, les appels que vous enregistrez, et le
-  texte complet des demandes arrivées via le site web.
+- **Notes** — ce que vous notez vous-même sur ce lead. Si le lead est arrivé via votre site web, le texte
+  complet de sa demande s'y trouve également.
+- **Historique** — qui a modifié quel champ de ce lead, et quand. En lecture seule.
 - **Pièces jointes** — documents et photos liés à ce lead : un plan envoyé par le client, une photo de la
   situation existante. Voir [Pièces jointes](../bijlagen.fr.md).
 
@@ -137,7 +138,7 @@ ces tâches dans le **Journal** du lead et dans l'écran **Tâches**.
 Lorsqu'une personne remplit le formulaire de contact de votre site web, cette demande arrive directement
 dans Nimble — vous n'avez rien à recopier.
 
-![Le journal d'un lead arrivé via le site web.](../images/lead-tab-logboek-fr.png)
+![L'onglet Notes d'un lead arrivé via le site web, avec le texte complet du formulaire.](../images/lead-tab-notities-fr.png)
 
 - Un lead est créé au statut **Nouveau**. La **source** est le nom de la clé de site web avec laquelle
   le formulaire a posté — vous voyez ainsi de quel formulaire le lead provient. Voir

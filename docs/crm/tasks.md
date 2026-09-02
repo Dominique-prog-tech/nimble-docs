@@ -7,55 +7,56 @@ bij een klant, bij een project. Het is de plek om 's morgens te beginnen.
 
 Klik in de zijbalk op **CRM → Taken**.
 
-## Mijn taken of alle taken
+![Het takenscherm met de filterbalk, de afvinkkolom en de kolom Hangt aan.](../images/taken-scherm.png)
 
-Bovenaan staan twee knoppen:
+## De lijst filteren
 
-![Het takenscherm met de schakelaar tussen open en afgewerkte taken.](../images/taken-scherm.png)
+Bovenaan staan twee filters en een teller.
 
-- **Mijn taken** — de taken waarvoor u de verantwoordelijke bent. Dit is de standaardweergave.
-- **Alle taken** — alle openstaande taken van uw dossier, ongeacht wie ze opvolgt.
+- **Enkel openstaand** — de standaard. Afgewerkte taken blijven buiten beeld.
+    - **Ook afgewerkt** toont ze er weer bij.
+    - **Alle statussen** laat het onderscheid helemaal los.
+- **Iedereen** — of één verantwoordelijke. Zo ziet u enkel wat bij u ligt.
+- De **teller** ernaast zegt hoeveel taken u ziet. Zijn er meer dan duizend, dan leest u
+  bijvoorbeeld *"1.000 van 2.912"* — u ziet dan de eerste duizend.
 
-!!! info "Ziet u niets onder Mijn taken?"
-    **Mijn taken** toont enkel de taken waarvoor u als verantwoordelijke staat. Een taak zonder
-    verantwoordelijke staat er dus niet bij — die vindt u onder **Alle taken**.
-
-    Wilt u ze verdelen, open dan een taak en vul **Verantwoordelijke** in. Vanaf dan verschijnt ze bij die
-    persoon onder Mijn taken.
+!!! info "Ziet u minder dan verwacht?"
+    Kijk naar de twee filters. Een taak zonder verantwoordelijke valt weg zodra u op één persoon filtert,
+    en een afgewerkte taak valt weg onder **Enkel openstaand**.
 
 ## Een taak afwerken
 
-Vink het bolletje links van de taak aan. De taak verdwijnt uit de lijst.
+Klik het vinkje in de eerste kolom, **Klaar**. De taak is meteen afgewerkt.
 
-Bent u te snel geweest, zet dan **Toon afgewerkte** rechtsboven aan: afgewerkte taken komen terug in beeld
-en u kunt het vinkje weghalen.
+Staat de lijst op **Enkel openstaand**, dan verdwijnt ze uit beeld. Was u te snel, zet het filter dan op
+**Ook afgewerkt** en klik het vinkje opnieuw — de taak staat weer open.
 
 ## Een taak openen of aanmaken
 
-Klik een taak om ze te openen. U kunt aanpassen:
+**Dubbelklik** op een taak om ze te openen. U kunt aanpassen:
 
 | Veld | Opmerking |
 |---|---|
-| **Onderwerp** | Wat er moet gebeuren |
+| **Titel** | Wat er moet gebeuren. Verplicht |
 | **Omschrijving** | Vrije tekst met de details |
-| **Van / Tot** | Wanneer u eraan begint en wanneer het klaar moet zijn |
-| **Prioriteit** | Laag, Normaal, Hoog of Dringend — bepaalt de kleur van het label |
+| **Start** en **Vervaldag** | Wanneer u eraan begint en wanneer het klaar moet zijn |
+| **Status** | Open, Bezig, Afgewerkt of Geannuleerd |
+| **Prioriteit** | Laag, Normaal, Hoog of Dringend |
 | **Verantwoordelijke** | Wie de taak opvolgt |
-| **Herinnering** | Wanneer het belletje bovenaan moet afgaan |
 
-Met **Nieuw** maakt u er zelf een aan.
+Onderaan het venster ziet u **Hangt aan**: het project, de relatie of de lead waar de taak bij hoort. Dat
+is alleen ter informatie — waar een taak aan hangt, wijzigt u op de fiche zelf.
 
-!!! warning "Geen Nieuw-knop onder Alle taken"
-    De knop **Nieuw** verschijnt alleen onder **Mijn taken**. In de volledige lijst is niet duidelijk bij
-    wie een nieuwe taak zou horen, dus wordt ze daar niet aangeboden. Schakel terug naar Mijn taken om er
-    een aan te maken — of maak ze aan vanuit het **Journaal** van de lead, klant of het project waar ze bij
-    hoort. Dat laatste heeft de voorkeur: dan hangt de taak meteen aan het juiste dossier.
+Met **Nieuwe taak** maakt u er een aan die aan niets hangt: een losse taak.
+
+!!! tip "Hangt de taak bij een dossier? Maak ze daar aan"
+    Een taak die u vanuit het **Journaal** van een lead, klant of project aanmaakt, hangt meteen aan het
+    juiste dossier. Ze verschijnt daarna gewoon in dit overzicht, met de verwijzing in de kolom
+    **Hangt aan**.
 
 ## Taken die vanzelf verschijnen
 
-Sommige taken maakt Nimble zelf aan. U herkent ze aan het gekleurde codelabel onder het onderwerp.
-
-![Het takenscherm met een automatisch aangemaakte opvolgtaak.](../images/taak-met-codelabel.png)
+Sommige taken maakt Nimble zelf aan.
 
 | Waar het vandaan komt | Wanneer |
 |---|---|
@@ -72,18 +73,30 @@ Zie [Leads](leads.md) voor de details.
 
 ## Het belletje bovenaan
 
-Staat er een herinnering op een taak en is dat moment voorbij, dan verschijnt er een teller bij het
+Staat er een **herinnering** op een taak en is dat moment voorbij, dan verschijnt er een teller bij het
 belletje rechtsboven. Klikken brengt u naar dit scherm.
+
+!!! info "De herinnering zet u op de fiche, niet hier"
+    Het veld **Herinnering** staat in het tabblad **Taken** van het journaal — op de fiche van de lead,
+    de klant of het project. Op dit overzicht kunt u het niet instellen. Een bestaande herinnering blijft
+    wel gewoon staan als u de taak hier bewerkt.
+
+## De lijst meenemen
+
+Rechtsboven staat **Exporteren**: de lijst gaat naar Excel of CSV, met de filters die op dat moment
+aanstaan. Daarnaast staat een **zoekvak** dat over alle kolommen zoekt.
 
 ## Veelgemaakte fouten
 
 !!! warning
-    - **Denken dat er geen taken zijn** omdat Mijn taken leeg is — kijk onder **Alle taken**, zeker in een
-      dossier dat pas is overgezet.
-    - **Zoeken naar Nieuw onder Alle taken** — die knop staat er bewust niet.
-    - **Een afgewerkte taak kwijt zijn** — zet **Toon afgewerkte** aan.
+    - **Denken dat er geen taken zijn** terwijl er op één verantwoordelijke gefilterd staat. Zet het filter
+      op **Iedereen**, zeker in een dossier dat pas is overgezet — daar heeft nog niemand een taak toegewezen.
+    - **Een afgewerkte taak kwijt zijn** — zet het statusfilter op **Ook afgewerkt**.
+    - **Eén keer klikken en denken dat de taak opent.** Een taak opent met een **dubbelklik**; één klik
+      selecteert enkel de rij.
 
 ## Zie ook
 
 - [Leads](leads.md) — waar de automatische opvolgtaken vandaan komen
 - [Relaties](../relations.md) — taken op een klantenfiche
+- [Notities](../notities.md) — wat u zelf noteert bij een record

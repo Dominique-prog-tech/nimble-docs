@@ -29,7 +29,7 @@ Cliquez sur **CRM → Relations** dans la barre latérale.
 - **Journal** — cliquez à droite sur le rail **Journal** pour le côté de la relation sélectionnée. Il comporte quatre onglets :
     - **Contacts** — qui contacter chez ce client. Les adresses e-mail et les numéros sont cliquables, ce qui vous permet d'appeler ou d'écrire sans ouvrir la fiche. Cliquez une carte pour ouvrir la fiche de contact, ou utilisez **Nouvelle personne de contact** pour en lier une directement à ce client.
     - **Tâches** — ce qui doit encore être fait.
-    - **Journal** — ce qui s'est passé : notes et appels.
+    - **Historique** — qui a modifié quel champ de ce client, et quand. En lecture seule.
     - **Pièces jointes** — documents et photos liés à ce client. Voir [Pièces jointes](bijlagen.fr.md).
 
 ## La fiche de relation

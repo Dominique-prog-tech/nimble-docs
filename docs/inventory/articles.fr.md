@@ -54,7 +54,7 @@ dossier de cet article, réparti sur quatre onglets :
 
 - **Stock** — le solde actuel et tous les mouvements de cet article.
 - **Tâches** — ce qu'il reste à faire pour cet article.
-- **Journal** — ce qui s'est passé : notes et rendez-vous.
+- **Historique** — qui a modifié quel champ de cet article, et quand. En lecture seule.
 - **Pièces jointes** — documents et photos liés à cet article, par exemple une fiche technique. Voir
   [Pièces jointes](../bijlagen.md).
 

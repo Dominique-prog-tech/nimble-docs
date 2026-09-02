@@ -59,13 +59,13 @@ De **websitesleutel** geeft u apart mee. Die hoort niet in een e-mail met de res
 | **Naam** | het naam-veld van uw formulier, ongesplitst |
 | **E-mail**, **Telefoon** | de overeenkomstige velden |
 | **Leadbron** | de naam van de websitesleutel |
-| **Logboek** | het bericht, alle formuliervelden, de pagina, het formulier, de taal van de bezoeker |
+| **Notities** | het bericht, alle formuliervelden, de pagina, het formulier, de taal van de bezoeker |
 
 !!! tip "Uw eigen formuliervelden gaan niet verloren"
     Vraagt uw formulier bijvoorbeeld naar het aantal m² of naar hoe iemand u gevonden heeft, dan komen die
-    antwoorden mee in het **Logboek** van de lead. U hoeft uw formulier dus niet aan te passen aan Nimble.
+    antwoorden mee als **notitie** bij de lead. U hoeft uw formulier dus niet aan te passen aan Nimble.
 
-In datzelfde logboek staat ook de **taal waarin de bezoeker het formulier invulde**. Handig om te weten in
+In diezelfde notitie staat ook de **taal waarin de bezoeker het formulier invulde**. Handig om te weten in
 welke taal u terugbelt — de rest van de tekst blijft in uw eigen taal staan.
 
 ## Wie krijgt er bericht?

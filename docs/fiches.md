@@ -39,8 +39,8 @@ Bovenaan de fiche staan twee groepen tabbladen.
 **Links** staan de gegevens van het record zelf. Op de meeste fiches is dat er één — **Algemeen** of
 **Fiche** — op de relatiefiche zijn het er twee, met **Contactpersonen** erbij.
 
-**Rechts** staat het journaal: **Taken**, **Logboek** en **Bijlagen**. Dat zijn de dingen die aan het
-record hangen.
+**Rechts** staat het journaal: **Taken**, **Notities**, **Bijlagen** en **Logboek**. Dat zijn de dingen
+die aan het record hangen.
 
 ![Een relatiefiche met links de tabbladen Fiche en Contactpersonen, rechts Taken, Bijlagen en Logboek.](images/fiche-tabbladen.png)
 
@@ -49,25 +49,41 @@ record hangen.
     — anders zou "Verwijderen" dubbelzinnig zijn: verwijdert dat het record of de bijlage waar u naar
     kijkt?
 
-### Taken en Logboek hebben dezelfde vorm
+### Taken en Notities hebben dezelfde vorm
 
 Op beide tabbladen is elke regel een kaart, met een werkbalk erboven die blijft staan.
 
-Het **logboek** toont wat er gebeurd is bij dit record: notities die u zelf schrijft en
-telefoongesprekken die u registreert. **Taken** toont wat er nog moet gebeuren, met de prioriteit en de
-datum waartegen het klaar hoort te zijn.
+**Notities** is wat u zelf schrijft over dit record. **Taken** toont wat er nog moet gebeuren, met de
+prioriteit en de datum waartegen het klaar hoort te zijn.
 
-![Het tabblad Logboek met de werkbalk, het zoekvak en de regels.](images/fiche-tab-logboek.png)
-
-- Bovenaan staan de **toevoegknoppen** van dat tabblad — op het logboek **+ Notitie** en **+ Oproep**,
-  op taken **+ Nieuw**. Die werkbalk **blijft staan** terwijl u door de lijst scrolt, dus u hoeft niet
-  terug naar boven om iets toe te voegen.
+- Bovenaan staat de **toevoegknop** van dat tabblad — **+ Nieuwe notitie**, **+ Nieuw**. Die werkbalk
+  **blijft staan** terwijl u door de lijst scrolt, dus u hoeft niet terug naar boven om iets toe te voegen.
 - Op **Taken** staat er ook **Toon afgewerkte**. Standaard ziet u enkel wat nog openstaat.
-- Rechts staat een **zoekvak**, op beide tabbladen. Raakt uw zoekterm niets, dan leest u
-  *"Niets gevonden."* en niet een lege lijst — er zijn dus wél regels, uw term raakt ze enkel niet.
-- **Regeleindes blijven staan.** Schrijft u een notitie van drie regels, dan leest ze ook als drie
-  regels.
+- Rechts staat een **zoekvak**. Raakt uw zoekterm niets, dan leest u *"Niets gevonden."* en niet een lege
+  lijst — er zijn dus wél regels, uw term raakt ze enkel niet.
+- **Regeleindes blijven staan.** Schrijft u een notitie van drie regels, dan leest ze ook als drie regels.
 - De lijst **vult het tabblad** en schuift binnenin, zodat de werkbalk in beeld blijft.
+
+### Het tabblad Logboek
+
+Het Logboek is de **geschiedenis van de fiche**: wie welk veld wijzigde, wanneer, en van welke waarde naar
+welke. Onderaan elke reeks staat wie de fiche aanmaakte.
+
+U schrijft er zelf niets in. Er is geen toevoegknop en u kunt niets verwijderen — een geschiedenis waarin
+u kunt schrappen is geen geschiedenis.
+
+<!-- AFBEELDING: het tabblad Logboek met enkele wijzigingsregels — een gekleurd label Gewijzigd of
+     Aangemaakt, de datum, wie het deed, en eronder de velden met hun oude en nieuwe waarde.
+     ⚠️ NIET GEPLAATST op 02/09/2026: het geschoten beeld (fiche-tab-logboek.png) toont ÉÉN aanmaak
+     twee keer, 3 ms uit elkaar. Dat is geen fout in het scherm maar in de data — elke aanmaak via de
+     gewone diensten schrijft twee historiekregels weg. Gemeld aan Dominique. Zodra dat recht is, dit
+     beeld opnieuw schieten en hier plaatsen. -->
+
+- Elke regel begint met een label: **Aangemaakt**, **Gewijzigd** of **Verwijderd**.
+- Daaronder staan de velden die veranderden, met hun waarde ervóór en erna.
+- Wijzigde er veel tegelijk, dan ziet u de eerste vier velden en daaronder **+ n andere velden**.
+- Van de recentste 200 wijzigingen wordt de geschiedenis getoond; is er meer, dan meldt de lijst dat
+  onderaan.
 
 ### Het tabblad Bijlagen
 

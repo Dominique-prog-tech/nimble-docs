@@ -7,9 +7,10 @@ van een leverancier, een waarschuwing voor wie er na u mee werkt. U vindt ze in 
 Dit werkt overal op dezelfde manier, dus deze pagina geldt voor alle schermen met een journaal.
 
 !!! tip "Notities of Logboek?"
-    Ze staan naast elkaar en dat verwart soms. Het **Logboek** houdt bij wát er gebeurd is — een telefoontje,
-    een mail, een wijziging. Een **notitie** is wat u wil dat iemand wéét voor hij met dit record aan de slag
-    gaat. Het logboek groeit vanzelf; een notitie typt u bewust.
+    Ze staan naast elkaar en dat verwart soms. Een **notitie** typt u zelf: wat u wil dat iemand wéét voor
+    hij met dit record aan de slag gaat. Het **Logboek** schrijft u niet — het houdt vanzelf bij wie welk
+    veld wijzigde, wanneer, en van welke waarde naar welke. U kunt er niets aan toevoegen en niets uit
+    verwijderen.
 
 ## Het tabblad openen
 

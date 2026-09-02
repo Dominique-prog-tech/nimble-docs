@@ -29,7 +29,7 @@ Klik in de zijbalk op **CRM → Relaties**.
 - **Journaal** — klik rechts op de rail **Journaal** voor de zijkant van de geselecteerde relatie. Die heeft vier tabbladen:
     - **Contacten** — wie u bij deze klant moet hebben. E-mailadressen en nummers zijn aanklikbaar, zodat u kunt bellen of mailen zonder de fiche te openen. Klik een kaartje om de contactfiche te openen, of gebruik **Nieuwe contactpersoon** om er meteen een aan deze klant te koppelen.
     - **Taken** — wat er nog moet gebeuren.
-    - **Logboek** — wat er gebeurd is: notities en oproepen.
+    - **Logboek** — wie welk veld van deze klant wijzigde, en wanneer. Alleen om te lezen.
     - **Bijlagen** — documenten en foto's bij deze klant. Zie [Bijlagen](bijlagen.md).
 
 ## De relatiefiche

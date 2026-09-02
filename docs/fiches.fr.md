@@ -40,7 +40,7 @@ En haut de la fiche se trouvent deux groupes d'onglets.
 **À gauche**, les données de l'enregistrement lui-même. Sur la plupart des fiches il n'y en a qu'un —
 **Général** ou **Fiche** — sur la fiche de relation il y en a deux, avec **Personnes de contact**.
 
-**À droite**, le journal : **Tâches**, **Journal** et **Pièces jointes**. Ce sont les éléments rattachés
+**À droite**, le journal : **Tâches**, **Notes**, **Pièces jointes** et **Historique**. Ce sont les éléments rattachés
 à l'enregistrement.
 
 ![Une fiche de relation avec à gauche les onglets Fiche et Personnes de contact, à droite Tâches, Pièces jointes et Journal.](images/fiche-tabbladen-fr.png)
@@ -50,26 +50,43 @@ En haut de la fiche se trouvent deux groupes d'onglets.
     ne s'affichent pas — sinon « Supprimer » serait ambigu : cela supprimerait-il l'enregistrement ou la
     pièce jointe que vous consultez ?
 
-### Tâches et Journal ont la même forme
+### Tâches et Notes ont la même forme
 
 Sur les deux onglets, chaque ligne est une fiche, avec au-dessus une barre d'outils qui reste visible.
 
-Le **journal** montre ce qui s'est passé sur cet enregistrement : les notes que vous rédigez et les
-appels téléphoniques que vous consignez. **Tâches** montre ce qui doit encore être fait, avec la
-priorité et la date à laquelle ce doit être prêt.
+**Notes** est ce que vous rédigez vous-même sur cet enregistrement. **Tâches** montre ce qui doit encore
+être fait, avec la priorité et la date à laquelle ce doit être prêt.
 
-![L'onglet Journal avec la barre d'outils, le champ de recherche et les lignes.](images/fiche-tab-logboek-fr.png)
-
-- En haut se trouvent les **boutons d'ajout** de cet onglet — sur le journal **+ Note** et **+ Appel**,
-  sur les tâches **+ Nouveau**. Cette barre d'outils **reste visible** pendant que vous faites défiler la
-  liste : inutile de remonter pour ajouter quelque chose.
+- En haut se trouve le **bouton d'ajout** de cet onglet — **+ Nouvelle note**, **+ Nouveau**. Cette barre
+  d'outils **reste visible** pendant que vous faites défiler la liste : inutile de remonter pour ajouter
+  quelque chose.
 - Sur **Tâches** figure également **Afficher les tâches terminées**. Par défaut, vous ne voyez que ce qui
   reste ouvert.
-- À droite se trouve un **champ de recherche**, sur les deux onglets. Si votre terme ne correspond à
-  rien, vous lisez « Rien trouvé. » et non une liste vide — il y a donc bien des lignes, votre terme ne
-  les atteint simplement pas.
+- À droite se trouve un **champ de recherche**. Si votre terme ne correspond à rien, vous lisez
+  « Rien trouvé. » et non une liste vide — il y a donc bien des lignes, votre terme ne les atteint
+  simplement pas.
 - **Les sauts de ligne sont conservés.** Si vous rédigez une note de trois lignes, elle se lit comme
   trois lignes.
+
+### L'onglet Historique
+
+L'Historique est l'**histoire de la fiche** : qui a modifié quel champ, quand, et de quelle valeur vers
+quelle autre. Tout en bas figure qui a créé la fiche.
+
+Vous n'y écrivez rien vous-même. Il n'y a pas de bouton d'ajout et vous ne pouvez rien supprimer — une
+histoire dans laquelle on peut effacer n'est pas une histoire.
+
+<!-- AFBEELDING: l'onglet Historique avec quelques lignes de modification — une étiquette colorée Modifié
+     ou Créé, la date, l'auteur, et en dessous les champs avec leur ancienne et leur nouvelle valeur.
+     ⚠️ PAS PLACÉE le 02/09/2026 : l'image obtenue montre UNE création deux fois, à 3 ms d'intervalle.
+     Ce n'est pas une erreur de l'écran mais des données. Signalé à Dominique. -->
+
+- Chaque ligne commence par une étiquette : **Créé**, **Modifié** ou **Supprimé**.
+- En dessous figurent les champs qui ont changé, avec leur valeur avant et après.
+- Si beaucoup de champs ont changé en même temps, vous voyez les quatre premiers puis
+  **+ n autres champs**.
+- L'historique affiche les 200 modifications les plus récentes ; s'il y en a davantage, la liste le
+  signale en bas.
 - La liste **remplit l'onglet** et défile à l'intérieur, pour que la barre d'outils reste en vue.
 
 ### L'onglet Pièces jointes

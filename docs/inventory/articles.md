@@ -53,7 +53,7 @@ artikel, verdeeld over vier tabbladen:
 
 - **Stock** — de huidige stand en alle bewegingen van dit artikel.
 - **Taken** — wat er voor dit artikel nog moet gebeuren.
-- **Logboek** — wat er gebeurd is: notities en afspraken.
+- **Logboek** — wie welk veld van dit artikel wijzigde, en wanneer. Alleen om te lezen.
 - **Bijlagen** — documenten en foto's bij dit artikel, bijvoorbeeld een technische fiche. Zie
   [Bijlagen](../bijlagen.md).
 

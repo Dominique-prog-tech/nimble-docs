@@ -34,7 +34,7 @@ De zoekbalk zoekt over alle kolommen, ook over **Bedrijven** — typ een bedrijf
 - **Exporteren** — de lijst naar Excel of CSV.
 - **Journaal** — klik rechts op de rail **Journaal** voor de zijkant van de geselecteerde persoon:
     - **Taken** — wat er voor deze persoon nog moet gebeuren.
-    - **Logboek** — wat er gebeurd is: notities en oproepen.
+    - **Logboek** — wie welk veld van deze persoon wijzigde, en wanneer. Alleen om te lezen.
     - **Bijlagen** — documenten en foto's bij deze persoon. Zie [Bijlagen](../bijlagen.md).
 
 ## De contactfiche

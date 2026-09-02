@@ -58,13 +58,13 @@ explications.
 | **Nom** | le champ nom de votre formulaire, non scindé |
 | **E-mail**, **Téléphone** | les champs correspondants |
 | **Source** | le nom de la clé de site web |
-| **Journal** | le message, tous les champs du formulaire, la page, le formulaire, la langue du visiteur |
+| **Notes** | le message, tous les champs du formulaire, la page, le formulaire, la langue du visiteur |
 
 !!! tip "Vos propres champs de formulaire ne se perdent pas"
     Si votre formulaire demande par exemple le nombre de m² ou comment on vous a connu, ces réponses arrivent
-    dans le **Journal** du lead. Vous ne devez donc pas adapter votre formulaire à Nimble.
+    comme **note** sur le lead. Vous ne devez donc pas adapter votre formulaire à Nimble.
 
-Dans ce même journal figure aussi la **langue dans laquelle le visiteur a rempli le formulaire**. Pratique
+Dans cette même note figure aussi la **langue dans laquelle le visiteur a rempli le formulaire**. Pratique
 pour savoir dans quelle langue rappeler — le reste du texte reste dans votre propre langue.
 
 ## Qui reçoit un avis ?

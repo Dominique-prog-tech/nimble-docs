@@ -34,7 +34,7 @@ La recherche porte sur toutes les colonnes, y compris **Entreprises** — tapez 
 - **Exporter** — la liste vers Excel ou CSV.
 - **Journal** — cliquez à droite sur le rail **Journal** pour le côté de la personne sélectionnée :
     - **Tâches** — ce qui doit encore être fait pour cette personne.
-    - **Journal** — ce qui s'est passé : notes et appels.
+    - **Historique** — qui a modifié quel champ de cette personne, et quand. En lecture seule.
     - **Pièces jointes** — documents et photos liés à cette personne. Voir [Pièces jointes](../bijlagen.fr.md).
 
 ## La fiche de contact

@@ -106,8 +106,9 @@ Hier staat alles wat er rond deze lead gebeurd is, in drie lijsten die u bovenaa
 
 - **Taken** — wat er nog moet gebeuren. Opvolgtaken die Nimble zelf aanmaakt (zie hieronder) staan hier
   ook tussen.
-- **Logboek** — wat er gebeurd is: notities die u zelf toevoegt, telefoongesprekken die u registreert, en
-  de volledige tekst van aanvragen die via de website binnenkwamen.
+- **Notities** — wat u zelf noteert over deze lead. Kwam de lead via uw website, dan staat hier ook de
+  volledige tekst van zijn aanvraag.
+- **Logboek** — wie welk veld van deze lead wijzigde, en wanneer. Alleen om te lezen.
 - **Bijlagen** — documenten en foto's bij deze lead: een plan dat de klant meestuurde, een foto van de
   bestaande situatie. Zie [Bijlagen](../bijlagen.md).
 
@@ -134,7 +135,7 @@ taken in het **Journaal** van de lead en in het scherm **Taken**.
 Vult iemand het contactformulier op uw website in, dan komt die aanvraag rechtstreeks in Nimble terecht —
 u hoeft niets over te typen.
 
-![Het Logboek van een lead die via de website binnenkwam.](../images/lead-tab-logboek.png)
+![Het tabblad Notities van een lead die via de website binnenkwam, met de volledige formuliertekst.](../images/lead-tab-notities.png)
 
 - Er wordt een lead aangemaakt in status **Nieuw**. De **leadbron** is de naam van de websitesleutel
   waarmee het formulier postte — zo ziet u van welk formulier de lead kwam. Zie
