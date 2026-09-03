@@ -173,12 +173,14 @@ plugins:
             Rollen: Rôles
             Prullenbak: Corbeille
             Actielogboek: Journal d'audit
+            Dashboard: Tableau de bord
 
 extra:
   generator: false
 
 nav:
   - Home: index.md
+  - Dashboard: getting-started/dashboard.md
   - Lijsten filteren: lijsten-filteren.md
   - Werken met een fiche: fiches.md
   - CRM:
