@@ -82,6 +82,7 @@ Saisissez le numéro de TVA et cliquez sur **Récupérer**. Le nom, la rue, le n
 | **Source** | Comment cette relation vous a connu. La même liste que la **source du lead**, afin qu'un lead converti conserve son origine. |
 | **Responsable** | L'interlocuteur fixe au sein de votre équipe. |
 | **Langue des documents** | Détermine la langue des devis et factures pour ce client, indépendamment de la langue dans laquelle vous travaillez. Vide = la langue par défaut de votre entreprise. |
+| **Délai de paiement (jours)** | Le nombre de jours dont ce client dispose pour payer. Il détermine l'échéance proposée sur une nouvelle facture. Vide = le standard de votre entreprise, à régler sur la fiche d'entreprise. **0 signifie au comptant** — ce qui n'est pas la même chose que vide. |
 | **Client** / **Fournisseur** | Cochez ce qui s'applique — les deux sont possibles. |
 | **Actif** | Décocher ne masque pas automatiquement la relation dans toutes les listes ; utilisez-le comme marqueur de statut. |
 

@@ -82,6 +82,7 @@ Vul het btw-nummer in en klik op **Ophalen**. Naam, straat, nummer, postcode, ge
 | **Bron** | Hoe deze relatie u leerde kennen. Dezelfde lijst als de **leadbron**, zodat een omgezette lead zijn herkomst behoudt. |
 | **Verantwoordelijke** | Het vaste aanspreekpunt binnen uw team. |
 | **Documenttaal** | Stuurt de taal van offertes en facturen voor deze klant, los van de taal waarin u zelf werkt. Leeg = de standaardtaal van uw bedrijf. |
+| **Betalingstermijn (dagen)** | Het aantal dagen dat deze klant krijgt om te betalen. Het bepaalt de vervaldag die een nieuwe factuur voorstelt. Leeg = de standaard van uw bedrijf, in te stellen op de bedrijfsfiche. **0 betekent contant** — dat is iets anders dan leeg. |
 | **Klant** / **Leverancier** | Vink aan wat van toepassing is — beide mag. |
 | **Actief** | Uitvinken verbergt de relatie niet automatisch uit alle lijsten; gebruik dit als statusmarkering. |
 
