@@ -22,11 +22,14 @@ pas ici comme colonne — sauf s'il contient encore un lead.
 
 ![Le tableau des leads avec les colonnes du pipeline ; les cartes dont la prochaine action est échue sont marquées.](../images/leads-bord-fr.png)
 
-- Chaque carte affiche : le nom, la commune (ou le numéro de lead s'il n'y a pas de commune), le
-  responsable et le budget.
+- Chaque carte affiche : le nom, la commune, le responsable et le budget. En l'absence de commune,
+  cette ligne reste vide.
 - **Glissez** une carte vers une autre colonne pour changer le statut. Cliquez une carte pour ouvrir la
   fiche complète.
-- En bas de chaque colonne figure la somme du budget des leads qu'elle contient.
+- Sous le titre de la colonne figure la somme des budgets encodés. Si tous les leads de cette colonne
+  ne portent pas de budget, le nombre de leads sans budget est indiqué à côté — par exemple
+  **€ 18.500 · 1 sans budget**. Si aucun lead de la colonne ne porte de budget, **budget inconnu**
+  s'affiche à la place d'un montant.
 - Une carte avec un avertissement jaune demande de l'attention : la prochaine action est échue, ou la
   date de réactivation (En attente) est dépassée. C'est purement visuel — rien n'est enregistré en plus.
 - Cliquez sur l'icône d'information à côté du titre pour un rappel rapide du fonctionnement du tableau.

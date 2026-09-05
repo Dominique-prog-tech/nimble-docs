@@ -21,10 +21,14 @@ u hier als kolom — tenzij er nog een lead in die status staat.
 
 ![Het leadbord met de pijplijnkolommen; kaarten met een verlopen volgende actie zijn gemarkeerd.](../images/leads-bord.png)
 
-- Elke kaart toont: naam, gemeente (of leadnummer als er geen gemeente is), verantwoordelijke en budget.
+- Elke kaart toont: naam, gemeente, verantwoordelijke en budget. Ontbreekt de gemeente, dan blijft die
+  regel leeg.
 - **Sleep** een kaart naar een andere kolom om de status te wijzigen. Klik een kaart om de volledige
   fiche te openen.
-- Onderaan elke kolom staat de som van het budget van de leads erin.
+- Onder de kolomtitel staat de som van de budgetten die ingevuld zijn. Dragen niet alle leads in die
+  kolom een budget, dan staat erbij hoeveel er geen hebben — bijvoorbeeld **€ 18.500 · 1 zonder
+  budget**. Draagt niemand in de kolom een budget, dan staat er **budget onbekend** in plaats van een
+  bedrag.
 - Een kaart met een gele waarschuwing heeft aandacht nodig: de volgende actie is verlopen, of de
   heractivatiedatum (On hold) is voorbij. Dit is puur visueel — er wordt niets extra opgeslagen.
 - Klik op het info-icoon naast de titel voor een korte herinnering aan hoe het bord werkt.
