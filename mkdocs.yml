@@ -161,6 +161,8 @@ plugins:
             Klantcategorieën: Catégories de clients
             Werk: Travail
             Projecten: Projets
+            Medewerkers: Collaborateurs
+            Ploegen: Équipes
             Verkoop: Ventes
             Offertes: Devis
             Facturen: Factures
@@ -199,6 +201,8 @@ nav:
     - Facturen: sales/invoices.md
   - Werk:
     - Projecten: work/projects.md
+    - Medewerkers: work/staff.md
+    - Ploegen: work/teams.md
   - Voorraad:
     - Artikelen: inventory/articles.md
   - Platformbeheer:
