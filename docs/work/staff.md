@@ -9,7 +9,7 @@ Klik in de zijbalk op **Werk → Medewerkers**.
 
 ## De lijst
 
-![De lijst Medewerkers met de kolommen Naam, Type, Functie, Telefoon, E-mail en Actief; interne medewerkers en onderaannemers staan door elkaar.](../images/medewerkers-lijst.png)
+![De lijst Medewerkers met de kolommen Naam, Type, Functie, Telefoon, E-mail en Actief; interne medewerkers en onderaannemers staan door elkaar, en rechts staat de dichtgeklapte lade Journaal.](../images/medewerkers-lijst.png)
 
 De lijst toont zes kolommen. In **Type** ziet u het onderscheid dat overal doorwerkt:
 
@@ -23,6 +23,10 @@ De lijst toont zes kolommen. In **Type** ziet u het onderscheid dat overal doorw
 
 Zet **Actief** uit voor wie niet meer meewerkt. De medewerker blijft dan bestaan — zijn uren op oude
 werkbonnen blijven kloppen — maar hij verschijnt niet meer in de keuzelijsten.
+
+Rechts zit de lade **Journaal**. Die hoort bij de medewerker waarop uw cursor staat: klik een rij aan en
+klap de lade uit met de pijl. U vindt er zijn taken, notities, bijlagen en logboek — handig om een
+attest of een contract bij de juiste persoon te bewaren zonder de fiche te openen.
 
 ## De fiche
 

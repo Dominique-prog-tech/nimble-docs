@@ -10,7 +10,7 @@ Dans la barre latérale, cliquez sur **Travail → Collaborateurs**.
 
 ## La liste
 
-![La liste Collaborateurs avec les colonnes Nom, Type, Fonction, Téléphone, E-mail et Actif ; collaborateurs internes et sous-traitants s'y côtoient.](../images/medewerkers-lijst-fr.png)
+![La liste Collaborateurs avec les colonnes Nom, Type, Fonction, Téléphone, E-mail et Actif ; collaborateurs internes et sous-traitants s'y côtoient, et à droite figure le tiroir Journal replié.](../images/medewerkers-lijst-fr.png)
 
 La liste affiche six colonnes. Sous **Type** figure la distinction qui se répercute partout :
 
@@ -24,6 +24,11 @@ La liste affiche six colonnes. Sous **Type** figure la distinction qui se réper
 
 Décochez **Actif** pour qui ne travaille plus avec vous. Le collaborateur continue d'exister — ses heures
 sur d'anciennes fiches de travail restent correctes — mais il n'apparaît plus dans les listes de choix.
+
+À droite se trouve le tiroir **Journal**. Il concerne le collaborateur sur lequel se trouve votre curseur :
+cliquez sur une ligne et ouvrez le tiroir avec la flèche. Vous y trouvez ses tâches, notes, pièces jointes
+et son historique — pratique pour conserver une attestation ou un contrat auprès de la bonne personne sans
+ouvrir la fiche.
 
 ## La fiche
 
