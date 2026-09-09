@@ -163,6 +163,7 @@ plugins:
             Projecten: Projets
             Verkoop: Ventes
             Offertes: Devis
+            Facturen: Factures
             Btw-codes: Codes TVA
             Offertestatus: Statuts de devis
             # ⚠️ Deze vijf stonden tot 26/08/2026 ONVERTAALD in de Franse navigatie. De Franse pagina's
@@ -195,6 +196,7 @@ nav:
     - Bijlagen: bijlagen.md
   - Verkoop:
     - Offertes: sales/quotes.md
+    - Facturen: sales/invoices.md
   - Werk:
     - Projecten: work/projects.md
   - Voorraad:
