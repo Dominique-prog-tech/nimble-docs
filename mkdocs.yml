@@ -159,6 +159,8 @@ plugins:
             Voorraad: Stock
             Artikelen: Articles
             Klantcategorieën: Catégories de clients
+            Werk: Travail
+            Projecten: Projets
             Verkoop: Ventes
             Offertes: Devis
             Btw-codes: Codes TVA
@@ -193,6 +195,8 @@ nav:
     - Bijlagen: bijlagen.md
   - Verkoop:
     - Offertes: sales/quotes.md
+  - Werk:
+    - Projecten: work/projects.md
   - Voorraad:
     - Artikelen: inventory/articles.md
   - Platformbeheer:
