@@ -59,13 +59,16 @@ Zie [Leads](../crm/leads.md) voor wat er met zo'n aanvraag gebeurt.
 
 ## Opslaan
 
-Klik rechtsboven op **Opslaan**. Het logo wordt apart bewaard, meteen bij het uploaden.
+Klik rechtsonder op **Opslaan**. Het logo wordt apart bewaard, meteen bij het uploaden.
+
+Klopt er iets niet aan uw telefoonnummer of aan een van de twee e-mailadressen, dan staat dat er meteen onder het veld — u hoeft niet eerst te klikken. Klikt u toch, dan noemt een balk bovenaan in één regel álle velden die het bewaren nog tegenhouden.
 
 ## Veelgemaakte fouten
 
 !!! warning
     - **Opslaan vergeten** — wijzigingen aan de velden worden pas bewaard na een klik op **Opslaan** (het logo wél meteen).
-    - **Ongeldig e-mailadres** — een gewijzigd e-mailadres moet geldig zijn, anders weigert het scherm op te slaan.
+    - **Ongeldig e-mailadres of telefoonnummer** — leeg laten mag, maar wat u invult moet kloppen; anders weigert het scherm op te slaan.
+    - **Verkeerd adres voor website-leads** — een typfout in dit veld valt nergens op: de aanvragen via uw website komen dan gewoon nooit aan.
     - **Logo te groot** — maximaal 4 MB; verklein de afbeelding eerst.
 
 ## Zie ook

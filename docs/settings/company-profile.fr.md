@@ -61,13 +61,16 @@ Voir [Leads](../crm/leads.md) pour ce qu'il advient d'une telle demande.
 
 ## Enregistrer
 
-Cliquez sur **Enregistrer** en haut à droite. Le logo est sauvegardé à part, dès le téléversement.
+Cliquez sur **Enregistrer** en bas à droite. Le logo est sauvegardé à part, dès le téléversement.
+
+Si votre numéro de téléphone ou l'une des deux adresses e-mail n'est pas correct, le message apparaît aussitôt sous le champ — inutile de cliquer d'abord. Si vous cliquez malgré tout, une barre en haut énumère en une ligne tous les champs qui bloquent encore l'enregistrement.
 
 ## Erreurs fréquentes
 
 !!! warning
     - **Oubli d'enregistrer** — les modifications des champs ne sont sauvegardées qu'après un clic sur **Enregistrer** (le logo, lui, l'est immédiatement).
-    - **Adresse e-mail invalide** — une adresse e-mail modifiée doit être valide, sinon l'écran refuse d'enregistrer.
+    - **Adresse e-mail ou numéro de téléphone invalide** — le champ peut rester vide, mais ce que vous saisissez doit être correct ; sinon l'écran refuse d'enregistrer.
+    - **Mauvaise adresse pour les leads du site web** — une faute de frappe dans ce champ ne se remarque nulle part : les demandes venant de votre site n'arrivent alors jamais.
     - **Logo trop grand** — 4 Mo maximum ; réduisez d'abord l'image.
 
 ## Voir aussi
