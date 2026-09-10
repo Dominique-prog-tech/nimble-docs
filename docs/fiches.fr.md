@@ -43,7 +43,7 @@ En haut de la fiche se trouvent deux groupes d'onglets.
 **À droite**, le journal : **Tâches**, **Notes**, **Pièces jointes** et **Historique**. Ce sont les éléments rattachés
 à l'enregistrement.
 
-![Une fiche de relation avec à gauche les onglets Fiche et Personnes de contact, à droite Tâches, Pièces jointes et Journal.](images/fiche-tabbladen-fr.png)
+![Une fiche de relation avec à gauche les onglets Fiche et Personnes de contact, à droite Tâches, Notes, Pièces jointes et Historique.](images/fiche-tabbladen-fr.png)
 
 !!! info "Les boutons disparaissent sur un onglet du journal"
     Enregistrer et Supprimer appartiennent au formulaire. Si vous êtes sur **Pièces jointes**, ces boutons
@@ -57,7 +57,9 @@ Sur les deux onglets, chaque ligne est une fiche, avec au-dessus une barre d'out
 **Notes** est ce que vous rédigez vous-même sur cet enregistrement. **Tâches** montre ce qui doit encore
 être fait, avec la priorité et la date à laquelle ce doit être prêt.
 
-- En haut se trouve le **bouton d'ajout** de cet onglet — **+ Nouvelle note**, **+ Nouveau**. Cette barre
+- En haut se trouve le **bouton d'ajout** de cet onglet — **Nouveau** sur Tâches, **Note** sur Notes,
+  **Pièce jointe** sur Pièces jointes. Historique n'en a pas : c'est une consultation, vous n'y écrivez
+  rien. Cette barre
   d'outils **reste visible** pendant que vous faites défiler la liste : inutile de remonter pour ajouter
   quelque chose.
 - Sur **Tâches** figure également **Afficher les tâches terminées**. Par défaut, vous ne voyez que ce qui

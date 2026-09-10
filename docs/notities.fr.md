@@ -25,15 +25,15 @@ Le journal est rattaché à *chaque* enregistrement, et deux chemins y mènent :
 
 ## Ajouter une note
 
-Cliquez en haut sur **Nouvelle note**. Une fenêtre s'ouvre avec trois champs :
+Cliquez en haut sur **Note**. Une fenêtre s'ouvre avec trois champs :
 
 | Champ | |
 |---|---|
-| **Titre** | Facultatif. Un intitulé court rend une longue liste plus lisible. |
-| **Note** | Le texte lui-même. Ce champ est obligatoire. Les retours à la ligne sont conservés : une énumération reste une énumération. |
-| **Date** | Le jour *auquel la note se rapporte* — pas celui de la saisie. Laissez-le vide si cela n'a pas d'importance. |
+| **Objet** | Facultatif. Un intitulé court rend une longue liste plus lisible. |
+| **Texte** | Le texte lui-même. Ce champ est obligatoire. Les retours à la ligne sont conservés : une énumération reste une énumération. |
+| **Quand** | Le jour *auquel la note se rapporte* — pas celui de la saisie. Laissez-le vide si cela n'a pas d'importance. |
 
-![La fenêtre Nouvelle note avec les champs Titre, Note et Date, et en bas Enregistrer et Annuler.](images/notitie-toevoegen-venster-fr.png)
+![La fenêtre Note avec les champs Objet, Quand et Texte, et en bas Enregistrer et Annuler.](images/notitie-toevoegen-venster-fr.png)
 
 Cliquez sur **Enregistrer**. La note apparaît en haut de la liste.
 

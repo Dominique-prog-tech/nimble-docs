@@ -12,7 +12,7 @@ ordre.
 
 ## La liste
 
-![La liste Bons de travail avec les colonnes Date, Ordre de travail, Heures, Fin de journée, Travaux supplémentaires et Description ; à droite le tiroir Journal replié.](../images/werkbonnen-lijst-fr.png)
+![La liste Bons de travail avec les colonnes Date, Ordre de travail, Heures, Fin de journée, Suppl. et Description ; à droite le tiroir Journal replié.](../images/werkbonnen-lijst-fr.png)
 
 | Colonne | Ce que c'est |
 |---|---|

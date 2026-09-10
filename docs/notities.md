@@ -24,15 +24,15 @@ Het journaal hangt aan élk record, en er zijn twee wegen naartoe:
 
 ## Een notitie toevoegen
 
-Klik bovenaan op **Nieuwe notitie**. Er opent een venster met drie velden:
+Klik bovenaan op **Notitie**. Er opent een venster met drie velden:
 
 | Veld | |
 |---|---|
-| **Titel** | Optioneel. Een korte kop maakt een lijst met veel notities overzichtelijk. |
-| **Notitie** | De tekst zelf. Dit veld is verplicht. Regeleindes blijven behouden, dus een lijstje blijft een lijstje. |
-| **Datum** | De dag waar de notitie *op slaat* — niet wanneer u ze typte. Laat hem leeg als dat er niet toe doet. |
+| **Onderwerp** | Optioneel. Een korte kop maakt een lijst met veel notities overzichtelijk. |
+| **Tekst** | De tekst zelf. Dit veld is verplicht. Regeleindes blijven behouden, dus een lijstje blijft een lijstje. |
+| **Wanneer** | De dag waar de notitie *op slaat* — niet wanneer u ze typte. Laat hem leeg als dat er niet toe doet. |
 
-![Het venster Nieuwe notitie met de velden Titel, Notitie en Datum, en onderaan Bewaren en Annuleren.](images/notitie-toevoegen-venster.png)
+![Het venster Notitie met de velden Onderwerp, Wanneer en Tekst, en onderaan Bewaren en Annuleren.](images/notitie-toevoegen-venster.png)
 
 Klik **Bewaren**. De notitie verschijnt bovenaan in de lijst.
 

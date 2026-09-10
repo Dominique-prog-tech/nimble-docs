@@ -42,7 +42,7 @@ Bovenaan de fiche staan twee groepen tabbladen.
 **Rechts** staat het journaal: **Taken**, **Notities**, **Bijlagen** en **Logboek**. Dat zijn de dingen
 die aan het record hangen.
 
-![Een relatiefiche met links de tabbladen Fiche en Contactpersonen, rechts Taken, Bijlagen en Logboek.](images/fiche-tabbladen.png)
+![Een relatiefiche met links de tabbladen Fiche en Contactpersonen, rechts Taken, Notities, Bijlagen en Logboek.](images/fiche-tabbladen.png)
 
 !!! info "De knoppen verdwijnen op een journaal-tabblad"
     Opslaan en Verwijderen horen bij het formulier. Staat u op **Bijlagen**, dan ziet u die knoppen niet
@@ -56,7 +56,8 @@ Op beide tabbladen is elke regel een kaart, met een werkbalk erboven die blijft 
 **Notities** is wat u zelf schrijft over dit record. **Taken** toont wat er nog moet gebeuren, met de
 prioriteit en de datum waartegen het klaar hoort te zijn.
 
-- Bovenaan staat de **toevoegknop** van dat tabblad — **+ Nieuwe notitie**, **+ Nieuw**. Die werkbalk
+- Bovenaan staat de **toevoegknop** van dat tabblad — **Nieuw** op Taken, **Notitie** op Notities,
+  **Bijlage** op Bijlagen. Logboek heeft er geen: dat is een naslag, u schrijft er niets in. Die werkbalk
   **blijft staan** terwijl u door de lijst scrolt, dus u hoeft niet terug naar boven om iets toe te voegen.
 - Op **Taken** staat er ook **Toon afgewerkte**. Standaard ziet u enkel wat nog openstaat.
 - Rechts staat een **zoekvak**. Raakt uw zoekterm niets, dan leest u *"Niets gevonden."* en niet een lege
