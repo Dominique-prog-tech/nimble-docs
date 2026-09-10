@@ -75,10 +75,17 @@ u kunt schrappen is geen geschiedenis.
 
 <!-- AFBEELDING: het tabblad Logboek met enkele wijzigingsregels — een gekleurd label Gewijzigd of
      Aangemaakt, de datum, wie het deed, en eronder de velden met hun oude en nieuwe waarde.
-     ⚠️ NIET GEPLAATST op 02/09/2026: het geschoten beeld (fiche-tab-logboek.png) toont ÉÉN aanmaak
-     twee keer, 3 ms uit elkaar. Dat is geen fout in het scherm maar in de data — elke aanmaak via de
-     gewone diensten schrijft twee historiekregels weg. Gemeld aan Dominique. Zodra dat recht is, dit
-     beeld opnieuw schieten en hier plaatsen. -->
+     ⚠️ NIET GEPLAATST op 02/09/2026: het geschoten beeld toonde ÉÉN aanmaak twee keer, 3 ms uit
+     elkaar — geen fout in het scherm maar in de data. Gemeld aan Dominique.
+
+     ✅ DIE FOUT IS WEG (nagemeten 10/09/2026). De dubbele aanmaakregels komen uitsluitend voor op
+     NoteEntity, en de laatste dateert van 02/09 — de dag van de melding zelf. Die entiteit bestaat
+     bovendien niet meer sinds de notities op 05/09 naar de fundering verhuisden. Opgelost door de
+     verhuizing dus, niet door een reparatie.
+
+     Het beeld zelf is op 10/09 weggegooid op vraag van Dominique, samen met zijn generatorstap: het
+     stond negen maanden in geen enkele pagina en meldde zich elke ronde als bevinding. Wil je deze
+     illustratie alsnog, dan kan ze nu wél gemaakt worden — de reden om ze tegen te houden is vervallen. -->
 
 - Elke regel begint met een label: **Aangemaakt**, **Gewijzigd** of **Verwijderd**.
 - Daaronder staan de velden die veranderden, met hun waarde ervóór en erna.
