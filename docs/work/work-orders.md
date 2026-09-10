@@ -12,12 +12,13 @@ Klik in de zijbalk op **Werk → Werkorders**.
 
 ## De lijst
 
-![De lijst Werkorders met de kolommen Nummer, Project, Ploeg, Status en Gepland; vier werkorders op vier verschillende projecten, en rechts de dichtgeklapte lade Journaal.](../images/werkorders-lijst.png)
+![De lijst Werkorders met de kolommen Nummer, Project, Omschrijving, Ploeg, Status en Gepland; vier werkorders op vier verschillende projecten, en rechts de dichtgeklapte lade Journaal.](../images/werkorders-lijst.png)
 
 | Kolom | Wat het is |
 |---|---|
 | **Nummer** | Het kenmerk van de werkorder, bijvoorbeeld WO-2026-004 |
 | **Project** | Het project waar de werkorder onder valt, met nummer en naam |
+| **Omschrijving** | Wat er moet gebeuren — dit onderscheidt twee werkorders op hetzelfde project |
 | **Ploeg** | De ploeg die de werf doet |
 | **Status** | Nog te starten · Bezig · Afgewerkt |
 | **Gepland** | De dag waarop het werk voorzien is |
@@ -79,6 +80,12 @@ Op het tweede tabblad staan zeven punten die vóór de start in orde moeten zijn
 Staan alle zeven aan, dan krijgt de werkorder bovenaan de vermelding **Startklaar** en zegt het scherm dat
 de werf kan starten. Ontbreekt er iets, dan noemt het kader **welk** punt ontbreekt — niet alleen dát er
 iets ontbreekt.
+
+!!! note "Alleen zolang de werf nog moet starten"
+    De vermelding **Startklaar** en de melding erover verschijnen enkel wanneer de status op **Nog te
+    starten** staat — dan is het ook de vraag die u zich stelt. Zodra de werf **Bezig** of **Afgewerkt**
+    is, blijven de zeven vinkjes staan als naslag van wat er vóór de start in orde was, en zegt het scherm
+    dat.
 
 !!! tip "Zeven punten en geen enkel vinkje 'voorbereid'"
     Eén vinkje zou u vertellen dát het niet in orde is, maar niet wát er ontbreekt. Daarom staan de zeven

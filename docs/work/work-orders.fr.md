@@ -12,12 +12,13 @@ Cliquez dans la barre latérale sur **Travail → Ordres de travail**.
 
 ## La liste
 
-![La liste Ordres de travail avec les colonnes Numéro, Projet, Équipe, Statut et Planifié ; quatre ordres de travail sur quatre projets différents, et à droite le tiroir Journal replié.](../images/werkorders-lijst-fr.png)
+![La liste Ordres de travail avec les colonnes Numéro, Projet, Description, Équipe, Statut et Planifié ; quatre ordres de travail sur quatre projets différents, et à droite le tiroir Journal replié.](../images/werkorders-lijst-fr.png)
 
 | Colonne | Ce que c'est |
 |---|---|
 | **Numéro** | La référence de l'ordre de travail, par exemple WO-2026-004 |
 | **Projet** | Le projet dont relève l'ordre de travail, avec son numéro et son nom |
+| **Description** | Ce qui doit être fait — c'est ce qui distingue deux ordres de travail sur un même projet |
 | **Équipe** | L'équipe qui exécute le chantier |
 | **Statut** | À démarrer · En cours · Terminé |
 | **Planifié** | Le jour prévu pour le travail |
@@ -79,6 +80,12 @@ Le deuxième onglet reprend sept points qui doivent être en ordre avant le dém
 Lorsque les sept sont cochés, l'ordre de travail porte en haut la mention **Prêt à démarrer** et l'écran
 indique que le chantier peut commencer. S'il en manque, le cadre nomme **lequel** — pas seulement qu'il en
 manque un.
+
+!!! note "Uniquement tant que le chantier doit encore démarrer"
+    La mention **Prêt à démarrer** et le message qui l'accompagne n'apparaissent que lorsque le statut est
+    **À démarrer** — c'est à ce moment-là que la question se pose. Dès que le chantier est **En cours** ou
+    **Terminé**, les sept cases restent affichées à titre de référence de ce qui était en ordre avant le
+    démarrage, et l'écran l'indique.
 
 !!! tip "Sept points, et aucune case unique « préparé »"
     Une seule case vous dirait *que* ce n'est pas en ordre, mais pas *ce* qui manque. C'est pourquoi les
