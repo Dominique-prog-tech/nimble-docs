@@ -135,6 +135,9 @@ plugins:
           nav_translations:
             Home: Accueil
             Financieel: Finances
+            Inkoop: Achats
+            Binnengekomen documenten: Documents reçus
+            Aankoopfacturen: Factures d'achat
             Aanmaningen: Rappels
             Bankverrichtingen: Opérations bancaires
             Afpunten: Lettrage
@@ -209,6 +212,9 @@ nav:
   - Financieel:
     - Bankverrichtingen: finance/bank.md
     - Afpunten: finance/reconciliation.md
+  - Inkoop:
+    - Binnengekomen documenten: purchasing/peppol-inbox.md
+    - Aankoopfacturen: purchasing/purchase-invoices.md
   - Werk:
     - Projecten: work/projects.md
     - Werkorders: work/work-orders.md
