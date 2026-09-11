@@ -166,6 +166,7 @@ plugins:
             Voorraad: Stock
             Artikelen: Articles
             Klantcategorieën: Catégories de clients
+            Meerwerken: Travaux supplémentaires
             Voorraadstand: État du stock
             Bestellingen: Commandes
             Productiestatus: Statut de production
@@ -225,6 +226,7 @@ nav:
     - Projecten: work/projects.md
     - Werkorders: work/work-orders.md
     - Werkbonnen: work/work-sheets.md
+    - Meerwerken: work/extra-work.md
     - Medewerkers: work/staff.md
     - Ploegen: work/teams.md
   - Voorraad:
