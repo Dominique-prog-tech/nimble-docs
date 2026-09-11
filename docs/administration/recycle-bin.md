@@ -6,6 +6,8 @@ Wat u in Nimble verwijdert, wordt niet vernietigd maar weggelegd. Het komt in de
 
 Klik in de zijbalk op **Beheer** en daarna op **Prullenbak**.
 
+![De prullenbak met verwijderde records en de knop Herstellen.](../images/prullenbak.png)
+
 ## Velden en functies
 
 De lijst toont per verwijderd record drie kolommen:

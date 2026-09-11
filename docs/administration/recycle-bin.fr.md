@@ -6,6 +6,8 @@ Ce que vous supprimez dans Nimble n'est pas détruit mais mis de côté. L'élé
 
 Dans la barre latérale, cliquez sur **Gestion**, puis sur **Corbeille**.
 
+![La corbeille avec les enregistrements supprimés et le bouton Restaurer.](../images/prullenbak-fr.png)
+
 ## Champs et fonctions
 
 La liste affiche trois colonnes par enregistrement supprimé :
