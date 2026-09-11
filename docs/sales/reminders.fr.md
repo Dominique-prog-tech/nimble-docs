@@ -22,16 +22,24 @@ Cliquez dans la barre latérale sur **Ventes → Rappels**.
 | **Dernier rappel** | Annonce que le dossier sera sinon transmis pour recouvrement |
 | **Mise en demeure** | La transmission elle-même, avec les frais à charge du débiteur |
 
-Il n'y en a jamais qu'**un seul** de prêt. Le suivant n'est dû qu'après l'écoulement de l'intervalle, et cet
-intervalle se compte à partir du rappel précédent — pas de la date d'échéance. Un client qui n'a pas payé
-depuis trois mois ne reçoit donc pas trois courriels le même jour.
+Il n'y en a jamais qu'**un seul** de prêt. Le suivant n'est dû qu'après l'écoulement de l'intervalle, compté
+à partir du rappel précédent — pas de la date d'échéance. Un client qui n'a pas payé depuis trois mois ne
+reçoit donc pas trois courriels le même jour.
 
-## Régler l'intervalle
+## Régler les deux intervalles
 
-Sur la **Fiche d'entreprise** figure *Jours entre deux rappels*. Ce même nombre détermine aussi quand le
-**premier** rappel est prêt après la date d'échéance.
+Sur la **Fiche d'entreprise** figurent deux nombres côte à côte :
 
-Si vous le laissez vide, quatorze jours s'appliquent. Vide ne signifie donc pas : pas de rappels.
+| Champ | Ce qu'il détermine |
+|---|---|
+| **Jours après l'échéance avant le premier rappel** | Combien de temps vous laissez le client tranquille après l'échéance |
+| **Jours entre deux rappels** | Le rythme ensuite : entre le premier et le deuxième, et entre chacun des suivants |
+
+Ce sont deux décisions distinctes. Avec un seul nombre, il faudrait arbitrer entre la tolérance et le
+rythme : court signifierait aussitôt presser, long signifierait que le deuxième rappel se fait attendre des
+semaines.
+
+Si vous laissez un champ vide, quatorze jours s'y appliquent. Vide ne signifie donc pas : pas de rappels.
 
 ## Envoyer
 

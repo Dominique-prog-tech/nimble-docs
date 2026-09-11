@@ -24,15 +24,23 @@ Klik in de zijbalk op **Verkoop → Aanmaningen**.
 | **Ingebrekestelling** | De overdracht zelf, met de kosten ten laste van de schuldenaar |
 
 Er staat er altijd maar **één** klaar. De volgende wordt pas verschuldigd nadat het interval verstreken is,
-en dat interval telt vanaf de vorige aanmaning — niet vanaf de vervaldag. Een klant die drie maanden niet
-betaalde, krijgt dus geen drie mails op één dag.
+en dat telt vanaf de vorige aanmaning — niet vanaf de vervaldag. Een klant die drie maanden niet betaalde,
+krijgt dus geen drie mails op één dag.
 
-## Het interval instellen
+## De twee intervallen instellen
 
-Op de **Bedrijfsfiche** staat *Dagen tussen twee aanmaningen*. Hetzelfde getal bepaalt ook wanneer de
-**eerste** aanmaning na de vervaldag klaarstaat.
+Op de **Bedrijfsfiche** staan twee getallen naast elkaar:
 
-Laat u het leeg, dan geldt veertien dagen. Leeg betekent dus niet: geen aanmaningen.
+| Veld | Wat het bepaalt |
+|---|---|
+| **Dagen na de vervaldag vóór de eerste aanmaning** | Hoelang u een klant na de vervaldag met rust laat |
+| **Dagen tussen twee aanmaningen** | Het tempo daarna: tussen de eerste en de tweede, en tussen elke volgende |
+
+Dat zijn twee verschillende beslissingen. Met één getal zou u coulance en tempo tegen elkaar moeten
+afwegen: kort betekent dan meteen ook opjagen, lang betekent dat de tweede herinnering weken op zich laat
+wachten.
+
+Laat u een veld leeg, dan geldt daar veertien dagen. Leeg betekent dus niet: geen aanmaningen.
 
 ## Versturen
 
