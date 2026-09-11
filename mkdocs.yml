@@ -166,6 +166,7 @@ plugins:
             Voorraad: Stock
             Artikelen: Articles
             Klantcategorieën: Catégories de clients
+            Bestellingen: Commandes
             Productiestatus: Statut de production
             Projecttypes: Types de projet
             Pipeline-status: Statut pipeline
@@ -218,6 +219,7 @@ nav:
   - Inkoop:
     - Binnengekomen documenten: purchasing/peppol-inbox.md
     - Aankoopfacturen: purchasing/purchase-invoices.md
+    - Bestellingen: purchasing/purchase-orders.md
   - Werk:
     - Projecten: work/projects.md
     - Werkorders: work/work-orders.md
