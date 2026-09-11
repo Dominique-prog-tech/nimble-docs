@@ -166,6 +166,7 @@ plugins:
             Voorraad: Stock
             Artikelen: Articles
             Klantcategorieën: Catégories de clients
+            Voorraadstand: État du stock
             Bestellingen: Commandes
             Productiestatus: Statut de production
             Projecttypes: Types de projet
@@ -228,6 +229,7 @@ nav:
     - Ploegen: work/teams.md
   - Voorraad:
     - Artikelen: inventory/articles.md
+    - Voorraadstand: inventory/stock-level.md
   - Platformbeheer:
     - Platformbeheer: administration/platform-management.md
     - Bedrijfsfiche: settings/company-profile.md
