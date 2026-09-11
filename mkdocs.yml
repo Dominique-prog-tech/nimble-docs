@@ -134,6 +134,10 @@ plugins:
                   name: Passer en mode clair
           nav_translations:
             Home: Accueil
+            Financieel: Finances
+            Aanmaningen: Rappels
+            Bankverrichtingen: Opérations bancaires
+            Afpunten: Lettrage
             Leads vanaf uw website: Les leads depuis votre site web
             Lijsten filteren: Filtrer les listes
             Werken met een fiche: Travailler avec une fiche
@@ -201,6 +205,10 @@ nav:
   - Verkoop:
     - Offertes: sales/quotes.md
     - Facturen: sales/invoices.md
+    - Aanmaningen: sales/reminders.md
+  - Financieel:
+    - Bankverrichtingen: finance/bank.md
+    - Afpunten: finance/reconciliation.md
   - Werk:
     - Projecten: work/projects.md
     - Werkorders: work/work-orders.md
