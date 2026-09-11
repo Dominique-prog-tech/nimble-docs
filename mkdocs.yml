@@ -166,6 +166,9 @@ plugins:
             Voorraad: Stock
             Artikelen: Articles
             Klantcategorieën: Catégories de clients
+            Productiestatus: Statut de production
+            Projecttypes: Types de projet
+            Pipeline-status: Statut pipeline
             Werk: Travail
             Projecten: Projets
             Werkorders: Ordres de travail
@@ -230,6 +233,9 @@ nav:
     - Artikelfamilies: administration/article-families.md
     - Eenheden: administration/units.md
     - Stamgegevens: administration/master-data.md
+    - Productiestatus: administration/production-statuses.md
+    - Projecttypes: administration/project-types.md
+    - Pipeline-status: administration/pipeline-statuses.md
     - Klantcategorieën: administration/account-categories.md
     - Contactfuncties: administration/contact-functions.md
     - Leadbronnen: administration/lead-sources.md
