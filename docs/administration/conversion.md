@@ -7,8 +7,9 @@ Op het scherm **Conversie** zet u de gegevens van de **actieve tenant** over uit
 
 ## Het scherm openen
 
-1. Kies de juiste tenant via **Beheer → Tenants → Gebruiken**.
-2. Klik in de zijbalk op **Beheer → Conversie**.
+1. Klik onderaan in de zijbalk op **Platformbeheer**.
+2. Kies de juiste tenant via de tegel **Tenants** in de groep **ADM-beheer** → **Gebruiken**.
+3. Ga terug naar **Platformbeheer** en klik in de groep **ADM-beheer** op de tegel **Conversie**.
 
 ## Legacy Firebird-bron
 
@@ -17,7 +18,7 @@ Bovenaan ziet u de status van de Firebird-koppeling voor de actieve tenant:
 ![Het conversiescherm met de actieve tenant, het blok Legacy Firebird-bron — hier zonder pad ingesteld — en de startknop.](../images/conversie-scherm.png)
 
 - **Verbonden (read-only)** — de bron is bereikbaar; eventueel ziet u het aantal rijen in `CRM_ACCOUNTS`.
-- **Geen Firebird-pad** — stel eerst het Firebird-pad in bij **Tenants → Firebird-bron**.
+- **Geen Firebird-pad** — stel eerst het Firebird-pad in bij **Platformbeheer → Tenants → Firebird-bron**.
 - **Opnieuw testen** — herlaadt de verbindingstest.
 
 Nimble leest de legacy **alleen-lezen**. De legacy blijft de enige schrijver zolang de migratie loopt.

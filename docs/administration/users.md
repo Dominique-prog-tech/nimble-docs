@@ -4,7 +4,8 @@ Op dit scherm bepaalt u wie zich mag aanmelden bij Nimble en wat die persoon mag
 
 ## Het scherm openen
 
-Klik in de zijbalk op **Beheer** en daarna op **Gebruikers**.
+1. Klik onderaan in de zijbalk op **Platformbeheer**.
+2. Klik in de groep **ADM-beheer** op de tegel **Gebruikers**.
 
 ## Een gebruiker aanmaken
 

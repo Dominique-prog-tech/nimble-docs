@@ -138,7 +138,7 @@ Opslaan en Verwijderen verschijnen alleen als u het **bewerkrecht** hebt; zonder
 
 ## Gegevens uit de legacy
 
-Heeft u een bestaande Firebird-databank? Via **Beheer → Conversie** importeert u de actieve `CRM_ACCOUNTS` als relaties. De conversie is herhaalbaar: bestaande rijen worden bijgewerkt op basis van de legacy-sleutel, zonder dubbels.
+Heeft u een bestaande Firebird-databank? Via **Platformbeheer → Conversie** importeert u de actieve `CRM_ACCOUNTS` als relaties. De conversie is herhaalbaar: bestaande rijen worden bijgewerkt op basis van de legacy-sleutel, zonder dubbels.
 
 ## Zie ook
 

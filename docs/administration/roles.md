@@ -4,7 +4,8 @@ Een rol is een bundel rechten. U kent een rol toe aan een gebruiker in plaats va
 
 ## Het scherm openen
 
-Klik in de zijbalk op **Beheer** en daarna op **Rollen**.
+1. Klik onderaan in de zijbalk op **Platformbeheer**.
+2. Klik in de groep **Gegevens en toegang** op de tegel **Rollen**.
 
 ## Een rol aanmaken
 

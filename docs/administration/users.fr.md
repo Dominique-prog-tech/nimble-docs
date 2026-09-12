@@ -4,7 +4,8 @@ Cet écran détermine qui peut se connecter à Nimble et ce que cette personne p
 
 ## Ouvrir l'écran
 
-Dans la barre latérale, cliquez sur **Gestion**, puis sur **Utilisateurs**.
+1. Cliquez en bas de la barre latérale sur **Gestion de la plateforme**.
+2. Cliquez dans le groupe **Gestion ADM** sur la tuile **Utilisateurs**.
 
 ## Créer un utilisateur
 

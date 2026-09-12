@@ -147,7 +147,6 @@ plugins:
             Relaties: Relations
             Contactpersonen: Personnes de contact
             Contactfuncties: Fonctions de contact
-            Beheer: Configuration
             Conversie: Conversion
             Platformbeheer: Administration
             Bedrijfsfiche: Fiche d'entreprise
@@ -251,7 +250,6 @@ nav:
     - Btw-codes: administration/vat-codes.md
     - Offertestatus: administration/quote-status.md
     - Factuurstatus: administration/invoice-status.md
-  - Beheer:
     - Klantenregister: administration/tenants.md
     - Gebruikers: administration/users.md
     - Rollen: administration/roles.md

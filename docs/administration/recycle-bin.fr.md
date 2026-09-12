@@ -4,7 +4,8 @@ Ce que vous supprimez dans Nimble n'est pas détruit mais mis de côté. L'élé
 
 ## Ouvrir l'écran
 
-Dans la barre latérale, cliquez sur **Gestion**, puis sur **Corbeille**.
+1. Cliquez en bas de la barre latérale sur **Gestion de la plateforme**.
+2. Cliquez dans le groupe **Données et accès** sur la tuile **Corbeille**.
 
 ![La corbeille avec les enregistrements supprimés et le bouton Restaurer.](../images/prullenbak-fr.png)
 

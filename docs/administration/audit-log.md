@@ -4,7 +4,8 @@ Het actielogboek toont wat er in Nimble gebeurd is: wie zich aanmeldde, wie een 
 
 ## Het scherm openen
 
-Klik in de zijbalk op **Beheer** en daarna op **Actielogboek**.
+1. Klik onderaan in de zijbalk op **Platformbeheer**.
+2. Klik in de groep **Gegevens en toegang** op de tegel **Actielogboek**.
 
 ## Velden en functies
 

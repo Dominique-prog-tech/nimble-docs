@@ -4,7 +4,8 @@ Wat u in Nimble verwijdert, wordt niet vernietigd maar weggelegd. Het komt in de
 
 ## Het scherm openen
 
-Klik in de zijbalk op **Beheer** en daarna op **Prullenbak**.
+1. Klik onderaan in de zijbalk op **Platformbeheer**.
+2. Klik in de groep **Gegevens en toegang** op de tegel **Prullenbak**.
 
 ![De prullenbak met verwijderde records en de knop Herstellen.](../images/prullenbak.png)
 

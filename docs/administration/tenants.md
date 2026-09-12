@@ -7,7 +7,8 @@ Het klantenregister bevat alle klanten die op het Nimble-platform draaien. Elke 
 
 ## Het scherm openen
 
-Klik in de zijbalk op **Beheer** en daarna op **Tenants**.
+1. Klik onderaan in de zijbalk op **Platformbeheer**.
+2. Klik in de groep **ADM-beheer** op de tegel **Tenants**.
 
 ## Een klant aanmaken
 

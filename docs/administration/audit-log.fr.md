@@ -4,7 +4,8 @@ Le journal d'audit montre ce qui s'est passé dans Nimble : qui s'est connecté,
 
 ## Ouvrir l'écran
 
-Dans la barre latérale, cliquez sur **Gestion**, puis sur **Journal d'audit**.
+1. Cliquez en bas de la barre latérale sur **Gestion de la plateforme**.
+2. Cliquez dans le groupe **Données et accès** sur la tuile **Journal d'audit**.
 
 ## Champs et fonctions
 

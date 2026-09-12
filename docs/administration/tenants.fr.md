@@ -7,7 +7,8 @@ Le registre des clients contient tous les clients qui tournent sur la plateforme
 
 ## Ouvrir l'écran
 
-Dans la barre latérale, cliquez sur **Gestion**, puis sur **Tenants**.
+1. Cliquez en bas de la barre latérale sur **Gestion de la plateforme**.
+2. Cliquez dans le groupe **Gestion ADM** sur la tuile **Tenants**.
 
 ## Créer un client
 

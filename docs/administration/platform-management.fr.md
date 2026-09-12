@@ -1,15 +1,15 @@
 # Administration
 
-L'écran **Administration** regroupe tous les paramètres partagés et les données de base de votre entreprise, organisés en tuiles : la fiche d'entreprise, les familles d'articles, les unités et les listes de choix pour les projets et les relations.
+L'écran **Administration** regroupe tous les paramètres partagés et les données de base de votre entreprise, organisés en tuiles : la fiche d'entreprise, les familles d'articles, les unités, les listes de choix pour les projets et les relations, et la gestion des rôles, des données supprimées et du journal d'audit.
 
 ## Ouvrir l'écran
 
 Cliquez sur **Administration** en bas de la barre latérale.
 
-![Le hub Administration avec les groupes de tuiles Entreprise, Articles, Projets, Relations, Ventes et Leads.](../images/platformbeheer-hub-fr.png)
+![Le hub Administration avec les groupes de tuiles Entreprise, Articles, Projets, Relations, Ventes, Leads et Données et accès. En bas figure aussi Gestion ADM ; ce groupe n'est visible que pour les opérateurs ADM.](../images/platformbeheer-hub-fr.png)
 
 !!! info "Droits"
-    Vous ne voyez que les tuiles pour lesquelles vous avez des droits. Si une tuile manque, demandez à votre administrateur d'attribuer le droit correspondant via **Gestion → Rôles**.
+    Vous ne voyez que les tuiles pour lesquelles vous avez des droits. Si une tuile manque, demandez à votre administrateur d'attribuer le droit correspondant via **Gestion de la plateforme → Rôles**.
 
 ## Les groupes
 
@@ -21,6 +21,8 @@ Cliquez sur **Administration** en bas de la barre latérale.
 | **Relations** | Catégories client, Fonctions de contact |
 | **Ventes** | Statuts de devis, Statuts de facture, Codes TVA, Modèles de document |
 | **Leads** | Sources de leads, Types de demande, Statuts de lead, Suivi des leads |
+| **Données et accès** | Rôles, Corbeille, Journal d'audit |
+| **Gestion ADM** | Réservé aux opérateurs ADM — vous ne voyez pas ce groupe |
 
 Chaque tuile ouvre un écran de gestion. En haut de chaque écran, **← Retour à l'administration** vous ramène à ce hub.
 
@@ -38,7 +40,7 @@ En l'absence de message, toutes les bases de données sont à jour.
 ## Erreurs fréquentes
 
 !!! warning
-    - **Aucun tenant choisi** (opérateurs uniquement) — choisissez d'abord un tenant via **Tenants → Utiliser** ; sans tenant actif, vous ne pouvez pas gérer les données de base.
+    - **Aucun tenant choisi** (opérateurs uniquement) — choisissez d'abord un tenant via **Gestion de la plateforme → Tenants → Utiliser** ; sans tenant actif, vous ne pouvez pas gérer les données de base.
     - **Tuile manquante** — il vous manque le droit pour cette partie ; ce n'est pas une erreur de l'application.
 
 ## Voir aussi

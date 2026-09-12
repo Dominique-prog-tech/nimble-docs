@@ -7,8 +7,9 @@ Sur l'écran **Conversion**, vous transférez les données du **tenant actif** d
 
 ## Ouvrir l'écran
 
-1. Choisissez le bon tenant via **Configuration → Tenants → Utiliser**.
-2. Cliquez dans la barre latérale sur **Configuration → Conversion**.
+1. Cliquez en bas de la barre latérale sur **Gestion de la plateforme**.
+2. Choisissez le bon tenant via la tuile **Tenants** du groupe **Gestion ADM** → **Utiliser**.
+3. Revenez à **Gestion de la plateforme** et cliquez dans le groupe **Gestion ADM** sur la tuile **Conversion**.
 
 ## Source Firebird héritée
 
@@ -17,7 +18,7 @@ En haut, vous voyez l'état de la connexion Firebird pour le tenant actif :
 ![L'écran de conversion avec le tenant actif, le bloc Source Firebird héritée — ici sans chemin configuré — et le bouton de démarrage.](../images/conversie-scherm-fr.png)
 
 - **Connecté (lecture seule)** — la source est accessible ; le nombre de lignes `CRM_ACCOUNTS` peut s'afficher.
-- **Aucun chemin Firebird** — configurez d'abord le chemin via **Tenants → source Firebird**.
+- **Aucun chemin Firebird** — configurez d'abord le chemin via **Gestion de la plateforme → Tenants → source Firebird**.
 - **Retester** — relance le test de connexion.
 
 Nimble lit l'héritage en **lecture seule**. L'héritage reste le seul écrivain tant que la migration est en cours.

@@ -138,7 +138,7 @@ Enregistrer et Supprimer n'apparaissent que si vous disposez du **droit de modif
 
 ## Données depuis l'héritage
 
-Vous disposez d'une base Firebird existante ? Via **Configuration → Conversion**, importez les `CRM_ACCOUNTS` actives comme relations. La conversion est répétable : les lignes existantes sont mises à jour via la clé héritée, sans doublons.
+Vous disposez d'une base Firebird existante ? Via **Gestion de la plateforme → Conversion**, importez les `CRM_ACCOUNTS` actives comme relations. La conversion est répétable : les lignes existantes sont mises à jour via la clé héritée, sans doublons.
 
 ## Voir aussi
 
