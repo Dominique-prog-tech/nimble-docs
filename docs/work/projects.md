@@ -101,7 +101,7 @@ ontvangen dan gefactureerd, dan staat onder **Openstaand** *meer ontvangen dan g
 
 Dit blok verschijnt zodra er een werkorder of gewerkte uren op het project staan.
 
-<!-- AFBEELDING: het blok Uitvoering van P2026-001 in de demo — Gewerkte uren 56,5 u, Werkorders 1, Goedgekeurd meerwerk 1 met € 480,00 geschat, en de regel van WO-2026-002 -->
+![Het blok Uitvoering met Gewerkte uren 56,5 u, Werkorders 1 en Goedgekeurd meerwerk 1 met € 480,00 geschat, en daaronder de regel van werkorder WO-2026-002 met datum, status Bezig en omschrijving.](../images/project-blok-uitvoering.png)
 
 | Tegel | Wat ze toont |
 |---|---|
@@ -119,7 +119,7 @@ Daaronder staat elke werkorder met zijn nummer, geplande datum, status en omschr
 De nacalculatie zet de werkelijke kosten van de werf tegenover wat u gefactureerd hebt. Het blok verschijnt
 zodra er kosten of facturen op het project staan.
 
-<!-- AFBEELDING: het blok Nacalculatie van P2026-001 in de demo — de zes tegels, daaronder Geraamde kost, Werkelijke kost en Afwijking, en het oranje kader met de regels over uren zonder uurkost en materiaal zonder aankoopprijs -->
+![Het blok Nacalculatie met de zes tegels Loonkost, Materiaalkost, Opbrengst, Brutowinst, Nog niet gefactureerd en Marge, daaronder Geraamde kost, Werkelijke kost en Afwijking, en het oranje kader over uren zonder uurkost en materiaal zonder aankoopprijs.](../images/project-blok-nacalculatie.png)
 
 | Tegel | Wat ze toont |
 |---|---|

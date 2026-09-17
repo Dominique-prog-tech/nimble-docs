@@ -58,7 +58,7 @@ Klik rechts op de rail **Journaal** en kies een factuur in de lijst. Het paneel 
 
 Krijgt u een factuur op papier of per e-mail, dan brengt u ze zelf in. Klik **Nieuwe aankoopfactuur**.
 
-<!-- AFBEELDING: de fiche Nieuwe aankoopfactuur, kaart Factuurgegevens ingevuld met een demoleverancier (bv. Thermotech Groothandel NV), vóór het bewaren -->
+![De fiche Nieuwe aankoopfactuur met de kaart Factuurgegevens ingevuld: Leverancier Thermotech Groothandel NV, Factuurnummer 2026-4471, Bedrag incl. btw, Datum en Vervaldatum, een leeg veld Nota en onderaan Bewaren en Annuleren.](../images/aankoopfactuur-nieuw-ingevuld.png)
 
 Vul in de kaart **Factuurgegevens** in:
 

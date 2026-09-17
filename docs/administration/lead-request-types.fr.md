@@ -25,7 +25,7 @@ Double-cliquez sur une ligne pour ouvrir le type, ou cliquez sur **Nouveau type*
 
 Un type s'ouvre sur sa propre page, avec sa propre adresse web : copiez la barre d'adresse et votre collègue ouvre exactement ce type. En haut figurent le code et le nom du type, avec à gauche le bouton **Vers la liste**. La fiche a un seul onglet, **Général**, avec deux cartes.
 
-<!-- AFBEELDING: la fiche Type de demande dans le tenant demo (BADK) avec les cartes Identification et Question de taille, la ligne d'aperçu « Sur la fiche du lead : » et en bas Enregistrer, Annuler et Supprimer -->
+![La fiche Type de demande BADK — Rénovation salle de bain avec la carte Identification (Code, Nom NL et FR, Ordre) et la carte Question de taille avec Libellé, Unité m² et la ligne Sur la fiche du lead : Surface (m²), en bas Enregistrer, Annuler et Supprimer.](../images/aanvraagtype-fiche-fr.png)
 
 ### Identification
 

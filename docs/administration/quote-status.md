@@ -8,7 +8,7 @@ De vier statussen van een offerte dragen een tekst die u zelf kunt kiezen. Het *
 1. Klik onderaan in de zijbalk op **Platformbeheer**.
 2. Klik in de groep **Verkoop** op de tegel **Offertestatus**.
 
-<!-- AFBEELDING: de lijst Offertestatus in tenant demo met de vier statussen Klad, Verstuurd, Aanvaard en Geweigerd in beide talen -->
+![De lijst Offertestatus met de kolommen Naam (NL) en Naam (FR) en de vier statussen Klad, Verstuurd, Aanvaard en Geweigerd.](../images/offertestatus-lijst.png)
 
 ## De lijst
 

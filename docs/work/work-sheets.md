@@ -87,7 +87,7 @@ goedgekeurd en gefactureerd worden, en niemand vindt dat terug in een lap tekst.
 
 Vinkt u **Er is meerwerk vastgesteld** aan, dan verschijnen deze velden:
 
-<!-- AFBEELDING: het blok Voortgang en meerwerk op de werkbon van 02/09/2026 op WO-2026-002 in de demo — meerwerk aangevinkt, met Wat houdt het meerwerk in, Stand Goedgekeurd, Geschat bedrag, Beslist op en Beslist door -->
+![Het blok Voortgang en meerwerk met Einde van de dag op Achterstand, een Verwachte vervolgactie, het vinkje Er is meerwerk vastgesteld, Wat houdt het meerwerk in, Stand Goedgekeurd, Geschat bedrag € 480,00, Beslist op en Beslist door.](../images/werkbon-blok-meerwerk.png)
 
 | Veld | Opmerking |
 |---|---|

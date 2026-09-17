@@ -8,7 +8,7 @@ De vier statussen van een factuur dragen een tekst die u zelf kunt kiezen. Het *
 1. Klik onderaan in de zijbalk op **Platformbeheer**.
 2. Klik in de groep **Verkoop** op de tegel **Factuurstatus**.
 
-<!-- AFBEELDING: de lijst Factuurstatus in tenant demo met de vier statussen Klad, Uitgereikt, Betaald en Geannuleerd in beide talen -->
+![De lijst Factuurstatus met de kolommen Naam (NL) en Naam (FR) en de vier statussen Klad, Uitgereikt, Betaald en Geannuleerd.](../images/factuurstatus-lijst.png)
 
 ## De lijst
 

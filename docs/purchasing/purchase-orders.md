@@ -46,7 +46,7 @@ bewaren keert u terug naar de lijst.
 
 ## Regels toevoegen
 
-<!-- AFBEELDING: de fiche van een openstaande demobestelling (status Besteld) met twee regels, de kolommen Nog te komen ingevuld, en de knoppen Receptioneren en Deellevering boeken onderaan -->
+![De fiche van bestelling B2026-0011 met status Besteld: Bestelgegevens met leverancier Ventura Air Systems BV en Verwachte leverdatum, twee regels met de kolom Nog te komen in het oranje, en onderaan Bewaren, Receptioneren, Deellevering boeken, Annuleren en Verwijderen.](../images/bestelling-fiche.png)
 
 Onder de kaart **Regels** staat een rij om een regel toe te voegen. Kies een **Artikel**, vul het **Aantal**
 in en klik **Regel toevoegen**.

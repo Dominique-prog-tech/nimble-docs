@@ -25,7 +25,7 @@ Dubbelklik op een rij om het type te openen, of klik op **Nieuw type**. Met **Ex
 
 Een type opent op een eigen pagina met een eigen webadres: kopieer de adresbalk en uw collega opent precies dat type. Bovenaan staan de code en de naam van het type, met links de knop **Naar de lijst**. De fiche heeft één tabblad, **Algemeen**, met twee kaarten.
 
-<!-- AFBEELDING: de fiche Type aanvraag in tenant demo (BADK — Renovatie badkamer) met de kaarten Identificatie en Omvangvraag, de voorbeeldregel "Op de leadfiche: Oppervlakte (m²)" en onderaan Bewaren, Annuleren en Verwijderen -->
+![De fiche Type aanvraag BADK — Renovatie badkamer met de kaart Identificatie (Code, Naam NL en FR, Volgorde) en de kaart Omvangvraag met Bijschrift, Eenheid m² en de regel Op de leadfiche: Oppervlakte (m²), onderaan Bewaren, Annuleren en Verwijderen.](../images/aanvraagtype-fiche.png)
 
 ### Identificatie
 

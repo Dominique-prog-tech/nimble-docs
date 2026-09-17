@@ -6,7 +6,7 @@ Op het scherm **Platformbeheer** vindt u de gedeelde instellingen en stamgegeven
 
 Klik onderaan in de zijbalk op **Platformbeheer**.
 
-![De hub Platformbeheer met de tegelgroepen Bedrijf, Artikelen, Projecten, Relaties, Verkoop, Leads en Gegevens en toegang. Onderaan staat ook ADM-beheer; die groep is enkel voor ADM-operators zichtbaar.](../images/platformbeheer-hub.png)
+![De hub Platformbeheer met de tegelgroepen Bedrijf, Artikelen, Projecten, Relaties, Verkoop, Leads en Gegevens en toegang. Onderaan staat ook de groep ADM-beheer.](../images/platformbeheer-hub.png)
 
 !!! info "Rechten"
     U ziet enkel de tegels waarvoor u rechten hebt. Ziet u een tegel niet, vraag dan uw beheerder om het bijbehorende recht toe te kennen via **Platformbeheer → Rollen**.

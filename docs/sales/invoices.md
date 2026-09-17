@@ -271,8 +271,7 @@ Trekt u de creditnota af van wat de klant moet betalen, registreer dan twee beta
 2. Op de **creditnota**: een betaling Verrekend. Het bedrag staat al op het negatieve openstaande bedrag.
    Daarna staat de creditnota op **Voldaan**.
 
-<!-- AFBEELDING: het venster Betaling registreren op creditnota CN-2026-0003 in tenant demo, met Betaalwijze
-     Verrekend gekozen en het negatieve bedrag vooringevuld -->
+![Het venster Betaling registreren op creditnota CN-2026-0003: Bedrag € -1.445,84, Datum, Betaalwijze Verrekend, een leeg veld Notitie en onderaan Optekenen en Annuleren.](../images/creditnota-betaling-verrekend.png)
 
 Betaalt u het bedrag van de creditnota integendeel terug aan de klant, registreer dan op de creditnota een
 betaling met de betaalwijze waarmee u terugbetaalde.

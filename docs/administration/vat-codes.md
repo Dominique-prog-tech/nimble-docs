@@ -47,7 +47,7 @@ Er opent een venster **Nieuwe btw-code** of **Btw-code bewerken**.
 Onder de velden herinnert het venster eraan dat tarief en categorie niet hetzelfde zeggen. Klik op
 **Bewaren**, of op **Annuleren** om het venster te sluiten zonder te bewaren.
 
-<!-- AFBEELDING: het venster Btw-code bewerken in tenant demo (code MC) met Volgorde, Code, Tarief (%), Naam (NL), Naam (FR, optioneel), Categorie e-factuur op Medecontractant (AE), de uitlegregel en de knoppen Bewaren, Annuleren en Verwijderen -->
+![Het venster Btw-code bewerken met Volgorde 40, Code MC, Tarief (%) 0,00, Naam (NL) Btw verlegd — medecontractant, Naam (FR, optioneel), Categorie e-factuur op Medecontractant (AE), de uitlegregel eronder en de knoppen Bewaren, Annuleren en Verwijderen.](../images/btw-code-bewerken.png)
 
 ### De categorieën
 

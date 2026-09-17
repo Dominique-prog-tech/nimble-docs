@@ -9,7 +9,7 @@ vous appartient.
 1. Cliquez sur **Administration** en bas de la barre latérale.
 2. Dans le groupe **Ventes**, cliquez sur la tuile **Statut de facture**.
 
-<!-- AFBEELDING: la liste Statut de facture dans le tenant demo avec les quatre statuts Brouillon, Émise, Payée et Annulée dans les deux langues -->
+![La liste Statut de facture avec les colonnes Nom (NL) et Nom (FR) et les quatre statuts Brouillon, Émise, Payée et Annulée.](../images/factuurstatus-lijst-fr.png)
 
 ## La liste
 

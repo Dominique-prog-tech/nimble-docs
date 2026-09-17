@@ -83,7 +83,7 @@ prête (**Au …**) et la personne qui la suit.
 Cliquez sur **Enregistrer**. La tâche apparaît aussi dans l'écran [Tâches](crm/tasks.md), rattachée à cet
 enregistrement.
 
-<!-- AFBEELDING: la fenêtre Nouveau sur l'onglet Tâches d'une fiche de relation dans le tenant demo (p. ex. Vandersteen Bouwprojecten BV), champs vides, interface en français. Il n'existe pas encore de bloc pour cette image dans gen-screenshots.mjs. -->
+![La fenêtre Nouveau avec les champs vides Objet, Assignée à, Priorité sur Normale, Dès le, Au, Rappel et Texte, et en bas Enregistrer et Annuler.](images/relatie-taak-nieuw-fr.png)
 
 ### L'onglet Notes
 
@@ -99,7 +99,7 @@ quelle autre. Tout en bas figure qui a créé la fiche.
 Vous n'y écrivez rien vous-même. Il n'y a pas de bouton d'ajout et vous ne pouvez rien supprimer — une
 histoire dans laquelle on peut effacer n'est pas une histoire.
 
-<!-- AFBEELDING: l'onglet Historique avec quelques lignes de modification — une étiquette colorée Modifié ou Créé, la date, l'auteur, et en dessous les champs avec leur ancienne et leur nouvelle valeur. État de démo : une relation du tenant demo modifiée et enregistrée au moins une fois après sa création. -->
+![L'onglet Historique de la relation Vandersteen Bouwprojecten BV : en haut deux lignes Modifié avec Responsable et Délai de paiement, en dessous Créé avec Code, Nom, E-mail et + 18 autres champs.](images/fiche-tab-logboek-fr.png)
 
 - Chaque ligne commence par une étiquette : **Créé**, **Modifié** ou **Supprimé**.
 - En dessous figurent les champs qui ont changé, avec leur valeur avant et après.

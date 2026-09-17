@@ -13,7 +13,7 @@ geraakt is.
 1. Klik onderaan in de zijbalk op **Platformbeheer**.
 2. Klik in de groep **Gegevens en toegang** op de tegel **Actielogboek**.
 
-<!-- AFBEELDING: het Actielogboek in tenant demo met enkele aanmeldingen en wijzigingen aan offertes, het zoekvak rechtsboven en Exporteren -->
+![Het Actielogboek met de kolommen Tijdstip, Gebruiker, Actie, Samenvatting, Entiteit en Uitkomst; de recentste regels zijn geslaagde aanmeldingen van admin, met rechtsboven Exporteren en het zoekvak.](../images/actielogboek.png)
 
 ## De lijst
 

@@ -104,7 +104,7 @@ ainsi tout de suite. Si l'on a reçu plus que facturé, **Solde ouvert** indique
 
 Ce bloc apparaît dès qu'un ordre de travail ou des heures prestées figurent sur le projet.
 
-<!-- AFBEELDING: le bloc Exécution de P2026-001 dans la démo (FR) — Heures prestées 56,5 h, Ordres de travail 1, Travaux supplémentaires approuvés 1 avec 480,00 € estimé, et la ligne de WO-2026-002 -->
+![Le bloc Exécution avec Heures prestées 56,5 h, Ordres de travail 1 et Travaux supplémentaires approuvés 1 avec 480,00 € estimé, et en dessous la ligne de l'ordre de travail WO-2026-002 avec sa date, le statut En cours et sa description.](../images/project-blok-uitvoering-fr.png)
 
 | Tuile | Ce qu'elle montre |
 |---|---|
@@ -123,7 +123,7 @@ En dessous figure chaque ordre de travail avec son numéro, sa date planifiée, 
 Le post-calcul confronte les coûts réels du chantier à ce que vous avez facturé. Le bloc apparaît dès que
 des coûts ou des factures figurent sur le projet.
 
-<!-- AFBEELDING: le bloc Post-calcul de P2026-001 dans la démo (FR) — les six tuiles, en dessous Coût estimé, Coût réel et Écart, et le cadre orange avec les heures sans coût horaire et le matériel sans prix d'achat -->
+![Le bloc Post-calcul avec les six tuiles Coût salarial, Coût matériel, Produit, Marge brute, Pas encore facturé et Marge, en dessous Coût estimé, Coût réel et Écart, et le cadre orange sur les heures sans coût horaire et le matériel sans prix d'achat.](../images/project-blok-nacalculatie-fr.png)
 
 | Tuile | Ce qu'elle montre |
 |---|---|

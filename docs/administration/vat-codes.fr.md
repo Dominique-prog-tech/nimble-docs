@@ -47,7 +47,7 @@ Une fenêtre **Nouveau code TVA** ou **Modifier le code TVA** s'ouvre.
 Sous les champs, la fenêtre rappelle que le taux et la catégorie ne disent pas la même chose. Cliquez sur
 **Enregistrer**, ou sur **Annuler** pour fermer la fenêtre sans enregistrer.
 
-<!-- AFBEELDING: la fenêtre Modifier le code TVA dans le tenant demo (code MC) avec Ordre, Code, Taux (%), Nom (NL), Nom (FR, optionnel), Catégorie e-facture sur Autoliquidation (AE), la ligne d'explication et les boutons Enregistrer, Annuler et Supprimer -->
+![La fenêtre Modifier le code TVA avec Ordre 40, Code MC, Taux (%) 0,00, Nom (NL), Nom (FR, optionnel) TVA reportée — cocontractant, Catégorie e-facture sur Autoliquidation (AE), la ligne d'explication en dessous et les boutons Enregistrer, Annuler et Supprimer.](../images/btw-code-bewerken-fr.png)
 
 ### Les catégories
 

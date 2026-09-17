@@ -60,7 +60,7 @@ onglets **Tâches**, **Notes**, **Pièces jointes** et **Historique** de cette f
 Vous recevez une facture sur papier ou par courriel ? Saisissez-la vous-même. Cliquez sur **Nouvelle facture
 d'achat**.
 
-<!-- AFBEELDING: la fiche Nouvelle facture d'achat, carte Données de la facture remplie avec un fournisseur de démo (p. ex. Thermotech Groothandel NV), avant l'enregistrement -->
+![La fiche Nouvelle facture d'achat avec la carte Données de la facture remplie : Fournisseur Thermotech Groothandel NV, Numéro de facture 2026-4471, Montant TVAC, Date et Échéance, une Note vide et en bas Enregistrer et Annuler.](../images/aankoopfactuur-nieuw-ingevuld-fr.png)
 
 Complétez la carte **Données de la facture** :
 

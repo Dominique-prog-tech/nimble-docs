@@ -44,7 +44,7 @@ Zie [Leads](../crm/leads.md) voor wat er met zo'n aanvraag gebeurt.
 
 Deze kaart bevat de grenzen die u zelf kiest voor facturatie en voor de marge van projecten.
 
-<!-- AFBEELDING: de kaart Financiële instellingen van de bedrijfsfiche in tenant demo, met betalingstermijn 30, beide aanmaningsvelden leeg (14 (standaard)) en margegrenzen 43 en 40 -->
+![De kaart Financiële instellingen met Standaard betalingstermijn (dagen) op 30, Eerste aanmaning na en Daarna elke leeg met de tip 14 (standaard), Marge groen vanaf 43 en Marge oranje vanaf 40.](../images/bedrijfsfiche-blok-financieel.png)
 
 | Veld | Wat het doet |
 |---|---|

@@ -14,7 +14,7 @@ paiements, livraisons. Vous le consultez lorsque vous voulez comprendre comment 
 2. Dans le groupe **Données et accès**, cliquez sur la tuile **Journal d'audit**. L'écran s'intitule
    **Journal des actions**.
 
-<!-- AFBEELDING: le Journal des actions dans le tenant demo avec quelques connexions et modifications de devis, le champ de recherche en haut à droite et Exporter -->
+![Le Journal des actions avec les colonnes Moment, Utilisateur, Action, Résumé, Entité et Résultat ; les lignes les plus récentes sont des connexions réussies de admin, avec en haut à droite Exporter et le champ de recherche.](../images/actielogboek-fr.png)
 
 ## La liste
 

@@ -31,7 +31,7 @@ Une fenêtre **Nouvelle famille** ou **Modifier la famille** s'ouvre.
 
 S'il manque quelque chose, un message en haut de la fenêtre indique quels champs sont encore vides.
 
-<!-- AFBEELDING: la fenêtre Modifier la famille dans le tenant demo (famille ELEK) avec Code, Nom (NL), Nom (FR, optionnel), Famille parente et les boutons Enregistrer, Annuler et Supprimer -->
+![La fenêtre Modifier la famille avec Code ELEK, Nom (NL) Elektro, Nom (FR, optionnel) Électricité, Famille parente sur famille principale, et les boutons Enregistrer, Annuler et Supprimer.](../images/familie-bewerken-fr.png)
 
 !!! tip "Deux niveaux"
     Seules les familles principales peuvent servir de famille parente. Une sous-famille ne peut pas avoir de sous-familles.

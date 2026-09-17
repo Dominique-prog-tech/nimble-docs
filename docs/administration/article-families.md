@@ -31,7 +31,7 @@ Er opent een venster **Nieuwe familie** of **Familie bewerken**.
 
 Ontbreekt er iets, dan noemt een melding bovenaan het venster welke velden nog leeg zijn.
 
-<!-- AFBEELDING: het venster Familie bewerken in tenant demo (familie ELEK) met Code, Naam (NL), Naam (FR, optioneel), Bovenliggende familie en de knoppen Bewaren, Annuleren en Verwijderen -->
+![Het venster Familie bewerken met Code ELEK, Naam (NL) Elektro, Naam (FR, optioneel) Électricité, Bovenliggende familie op hoofdfamilie, en de knoppen Bewaren, Annuleren en Verwijderen.](../images/familie-bewerken.png)
 
 !!! tip "Twee niveaus"
     Enkel hoofdfamilies zijn kiesbaar als bovenliggende familie. Een subfamilie kan zelf geen subfamilies hebben.

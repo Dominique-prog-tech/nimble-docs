@@ -9,7 +9,7 @@ Uw offerte draagt uw eigen briefhoofd, uw eigen aanhef en uw eigen voorwaarden. 
 
 U hebt er het recht *Documentsjablonen beheren* voor nodig.
 
-<!-- AFBEELDING: het scherm Documentsjablonen in tenant demo — bovenaan Document (Offerte) en Taal (Beide talen) met de knoppen Bewaren, Afdrukvoorbeeld en Standaard herstellen; links de drie vakken, rechts de lijst Variabelen -->
+![Het scherm Documentsjablonen: bovenaan de keuzelijsten Document en Taal met de knoppen Bewaren, Afdrukvoorbeeld en Standaard herstellen; links de vakken Briefhoofd en klantgegevens, Aanhef en Voorwaarden, rechts de lijst Variabelen.](../images/documentsjablonen-scherm.png)
 
 ## Document en taal
 

@@ -10,7 +10,7 @@ ici que vous les définissez.
 
 Le droit *Gérer les modèles de documents* est nécessaire.
 
-<!-- AFBEELDING: l'écran Modèles de documents dans le tenant demo — en haut Document (Devis) et Langue (Les deux langues) avec les boutons Enregistrer, Aperçu avant impression et Rétablir le modèle par défaut ; à gauche les trois champs, à droite la liste Variables -->
+![L'écran Modèles de documents : en haut les listes Document et Langue avec les boutons Enregistrer, Aperçu avant impression et Rétablir le modèle par défaut ; à gauche les champs En-tête et coordonnées du client, Formule d'introduction et Conditions, à droite la liste Variables.](../images/documentsjablonen-scherm-fr.png)
 
 ## Document et langue
 

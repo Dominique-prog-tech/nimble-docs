@@ -6,7 +6,7 @@ L'écran **Administration** regroupe les paramètres partagés et les données d
 
 Cliquez sur **Administration** en bas de la barre latérale.
 
-![Le hub Administration avec les groupes de tuiles Entreprise, Articles, Projets, Relations, Ventes, Leads et Données et accès. En bas figure aussi Gestion ADM ; ce groupe n'est visible que pour les opérateurs ADM.](../images/platformbeheer-hub-fr.png)
+![Le hub Administration avec les groupes de tuiles Entreprise, Articles, Projets, Relations, Ventes, Leads et Données et accès. En bas figure aussi le groupe Gestion ADM.](../images/platformbeheer-hub-fr.png)
 
 !!! info "Droits"
     Vous ne voyez que les tuiles pour lesquelles vous avez des droits. Si une tuile manque, demandez à votre administrateur d'attribuer le droit correspondant via **Administration → Rôles**.

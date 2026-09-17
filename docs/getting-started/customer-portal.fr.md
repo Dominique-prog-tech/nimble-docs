@@ -18,7 +18,7 @@ cours…**, puis le portail apparaît. Votre onglet Nimble reste ouvert.
 Si l'ouverture échoue, le nouvel onglet reste sur Nimble, avec le titre **Portail client**, un message et le
 bouton **Vers la page d'accueil**.
 
-<!-- AFBEELDING: l'écran Portail client dans le tenant demo avec le message « Votre compte n'est pas encore connu dans ADM One. Signalez-le à l'administrateur (synchronisation du registre). » et le bouton Vers la page d'accueil — le compte de la séance photo n'est pas lié à ADM One, le portail lui-même ne peut donc pas être capturé -->
+![L'écran Portail client avec le message « Votre compte n'est pas encore connu dans ADM One. Signalez-le à l'administrateur (synchronisation du registre). » et en dessous le bouton Vers la page d'accueil.](../images/klantenportaal-nog-niet-gekend-fr.png)
 
 | Message | Ce qu'il signifie | Ce que vous faites |
 |---|---|---|

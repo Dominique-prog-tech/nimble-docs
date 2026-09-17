@@ -9,7 +9,7 @@ appartient.
 1. Cliquez sur **Administration** en bas de la barre latérale.
 2. Dans le groupe **Ventes**, cliquez sur la tuile **Statut de devis**.
 
-<!-- AFBEELDING: la liste Statut de devis dans le tenant demo avec les quatre statuts Brouillon, Envoyé, Accepté et Refusé dans les deux langues -->
+![La liste Statut de devis avec les colonnes Nom (NL) et Nom (FR) et les quatre statuts Brouillon, Envoyé, Accepté et Refusé.](../images/offertestatus-lijst-fr.png)
 
 ## La liste
 

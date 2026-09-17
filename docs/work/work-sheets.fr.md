@@ -91,7 +91,7 @@ retrouve cela dans un pavé de texte.
 
 Si vous cochez **Des travaux supplémentaires ont été constatés**, ces champs apparaissent :
 
-<!-- AFBEELDING: le bloc Avancement et travaux supplémentaires sur le bon du 02/09/2026 de WO-2026-002 dans la démo (FR) — case cochée, avec En quoi consistent ces travaux, État Approuvé, Montant estimé, Décidé le et Décidé par -->
+![Le bloc Avancement et travaux supplémentaires avec Fin de journée sur Retard, une Action de suivi attendue, la case Des travaux supplémentaires ont été constatés, En quoi consistent ces travaux, État Approuvé, Montant estimé 480,00 €, Décidé le et Décidé par.](../images/werkbon-blok-meerwerk-fr.png)
 
 | Champ | Remarque |
 |---|---|

@@ -81,7 +81,7 @@ zijn (**Tot …**) en wie ze opvolgt.
 
 Klik **Bewaren**. De taak verschijnt ook op het scherm [Taken](crm/tasks.md), waar ze aan dit record hangt.
 
-<!-- AFBEELDING: het venster Nieuw op het tabblad Taken van een relatiefiche in tenant demo (bv. Vandersteen Bouwprojecten BV), met de velden leeg. Er is nog geen blok voor in gen-screenshots.mjs. -->
+![Het venster Nieuw met de lege velden Onderwerp, Toegewezen aan, Prioriteit op Normaal, Vanaf, Tot, Herinnering en Tekst, en onderaan Bewaren en Annuleren.](images/relatie-taak-nieuw.png)
 
 ### Het tabblad Notities
 
@@ -97,7 +97,7 @@ welke. Onderaan elke reeks staat wie de fiche aanmaakte.
 U schrijft er zelf niets in. Er is geen toevoegknop en u kunt niets verwijderen — een geschiedenis waarin
 u kunt schrappen is geen geschiedenis.
 
-<!-- AFBEELDING: het tabblad Logboek met enkele wijzigingsregels — een gekleurd label Gewijzigd of Aangemaakt, de datum, wie het deed, en eronder de velden met hun oude en nieuwe waarde. Demotoestand: een relatie in tenant demo die na het aanmaken minstens één keer gewijzigd en bewaard is. -->
+![Het tabblad Logboek van de relatie Vandersteen Bouwprojecten BV: bovenaan twee regels Gewijzigd met Verantwoordelijke en Betalingstermijn, daaronder Aangemaakt met Code, Naam, E-mail en + 18 andere velden.](images/fiche-tab-logboek.png)
 
 - Elke regel begint met een label: **Aangemaakt**, **Gewijzigd** of **Verwijderd**.
 - Daaronder staan de velden die veranderden, met hun waarde ervóór en erna.

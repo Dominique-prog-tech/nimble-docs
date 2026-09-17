@@ -18,7 +18,7 @@ klantenportaal…**, waarna het portaal verschijnt. Uw tabblad met Nimble blijft
 Lukt het openen niet, dan blijft het nieuwe tabblad op Nimble staan, met de titel **Klantenportaal**, een
 melding en de knop **Naar de startpagina**.
 
-<!-- AFBEELDING: het scherm Klantenportaal in tenant demo met de melding "Uw account is nog niet gekend in ADM One. Meld dit aan de beheerder (register-synchronisatie)." en de knop Naar de startpagina — de aanmelding van de beeldenronde is niet aan ADM One gekoppeld, dus het portaal zelf kan niet in beeld -->
+![Het scherm Klantenportaal met de melding "Uw account is nog niet gekend in ADM One. Meld dit aan de beheerder (register-synchronisatie)." en daaronder de knop Naar de startpagina.](../images/klantenportaal-nog-niet-gekend.png)
 
 | Melding | Wat het betekent | Wat u doet |
 |---|---|---|
