@@ -134,6 +134,7 @@ plugins:
                   name: Passer en mode clair
           nav_translations:
             Home: Accueil
+            Aan de slag: Premiers pas
             Financieel: Finances
             Inkoop: Achats
             Binnengekomen documenten: Documents reçus
@@ -199,17 +200,23 @@ extra:
 
 nav:
   - Home: index.md
-  - Dashboard: getting-started/dashboard.md
-  - Lijsten filteren: lijsten-filteren.md
-  - Werken met een fiche: fiches.md
+  # Wat op élk scherm hetzelfde werkt, onder één tabblad (17/09/2026, op vraag van Dominique). Lijsten
+  # filteren en Werken met een fiche stonden elk als eigen tabblad in de bovenbalk — vier tabbladen voor
+  # algemene uitleg, en geen plaats meer voor nieuwe hoofdthema's. Notities en Bijlagen stonden onder CRM,
+  # maar gelden voor elk scherm met een journaal, ook projecten. Zelfde opzet als creditsoft-docs.
+  # De bestanden zijn niet verplaatst: de adressen blijven gelijk, dus links vanuit de app werken nog.
+  - Aan de slag:
+    - Dashboard: getting-started/dashboard.md
+    - Lijsten filteren: lijsten-filteren.md
+    - Werken met een fiche: fiches.md
+    - Notities: notities.md
+    - Bijlagen: bijlagen.md
   - CRM:
     - Leads: crm/leads.md
     - Leads vanaf uw website: crm/leads-webformulier.md
     - Relaties: relations.md
     - Contactpersonen: crm/contactpersonen.md
     - Taken: crm/tasks.md
-    - Notities: notities.md
-    - Bijlagen: bijlagen.md
   - Verkoop:
     - Offertes: sales/quotes.md
     - Facturen: sales/invoices.md
