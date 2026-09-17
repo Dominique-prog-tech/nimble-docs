@@ -16,7 +16,7 @@ Bovenaan schakelt u tussen **Bord** en **Lijst** — beide tonen dezelfde leads,
 
 Elke kolom is een fase uit uw pijplijn (Nieuw, Gekwalificeerd, Offerte, Verloren …). Welke fases dat zijn,
 stelt u zelf in — zie [Leadfases](../administration/lead-status.md). De naam van elke
-kolom is hertaalbaar via **Platformbeheer → Leadstatus**; een status die daar op "Verborgen" staat, mist
+kolom is hertaalbaar via **Platformbeheer → Leadfases**; een status die daar op "Verborgen" staat, mist
 u hier als kolom — tenzij er nog een lead in die status staat.
 
 ![Het leadbord met de pijplijnkolommen; kaarten met een verlopen volgende actie zijn gemarkeerd.](../images/leads-bord.png)
@@ -45,14 +45,18 @@ De klassieke tabelweergave, met kolommen **Nummer**, **Naam**, **Status**, **Lea
 **Nieuwe lead** om er een aan te maken. Deze weergave leent zich beter voor filteren, sorteren en
 exporteren dan het bord.
 
+Naast de lijst staat rechts de rail **Journaal**. Selecteer een lead en klik op de rail: u ziet de
+**Taken**, **Notities**, **Bijlagen** en het **Logboek** van die lead zonder de fiche te openen. Op het bord
+is er geen rail.
+
 ![De leadlijst met de kolommen.](../images/leads-lijst.png)
 
 ## De leadfiche
 
-Zowel een dubbelklik op een kaart als op een lijstrij opent dezelfde fiche — een eigen pagina met een
-eigen adres, die u kunt doorsturen. Links staat het tabblad **Fiche**, rechts staan **Taken**,
-**Logboek** en **Bijlagen**. De knoppen onderaan horen bij de fiche; op een journaal-tabblad ziet u ze
-niet. Zie [Werken met een fiche](../fiches.md).
+Een klik op een kaart op het bord en een dubbelklik op een rij in de lijst openen dezelfde fiche — een
+eigen pagina met een eigen adres, die u kunt doorsturen. Links staat het tabblad **Fiche**, rechts staan
+**Taken**, **Notities**, **Bijlagen** en **Logboek**. De knoppen onderaan horen bij de fiche; op een
+journaal-tabblad ziet u ze niet. Zie [Werken met een fiche](../fiches.md).
 
 Het tabblad **Fiche** is opgebouwd in drie blokken — dezelfde volgorde waarin u de informatie doorgaans
 aan de telefoon te horen krijgt.
@@ -63,7 +67,7 @@ aan de telefoon te horen krijgt.
 |---|---|
 | **Bedrijf** | Optioneel. Vult u het in, dan wordt **dat** de klant bij het omzetten en wordt de persoon zijn contactpersoon. Laat het leeg voor een particulier |
 | **Naam** | Verplicht — de persoon die contact opnam |
-| **Telefoon** | |
+| **Telefoon** | Optioneel, maar moet een geldig telefoonnummer zijn als u iets invult |
 | **E-mail** | Optioneel, maar moet geldig zijn als u iets invult — u krijgt meteen een melding bij een ongeldig adres |
 | **Straat / Nr** | |
 | **Postcode / Gemeente** | Typ in een van beide velden en zoek in de lijst; het andere veld vult automatisch aan |
@@ -96,15 +100,15 @@ niets gevonden, dan verschijnt een melding en blijven de velden zoals u ze zelf 
 | **Status** | De pijplijnstatus; verborgen statussen zonder leads verschijnen niet in de lijst |
 | **Verantwoordelijke** | De gebruiker die de lead opvolgt |
 | **Leadnummer** | Wordt bij een nieuwe lead automatisch voorgesteld — u mag het overschrijven, maar het veld is verplicht |
-| **Volgende actie / Datum** | Wat de volgende stap is en tegen wanneer |
+| **Volgende actie** / **Volgende actie tegen** | Wat de volgende stap is en tegen wanneer |
 | **Verliesreden** | Verschijnt en is **verplicht** zodra de status **Verloren** is |
 | **Heractivatiedatum** | Verschijnt en is **verplicht** zodra de fase *gepauzeerd* betekent (standaard: **On hold**) |
 
 ![Het blok Opvolging van een verloren lead: de status staat op Verloren en de Verliesreden is zichtbaar.](../images/lead-blok-opvolging.png)
 
-### Tabblad Journaal
+### De journaal-tabbladen
 
-Hier staat alles wat er rond deze lead gebeurd is, in drie lijsten die u bovenaan omschakelt:
+Rechts bovenaan de fiche staan vier tabbladen met alles wat er rond deze lead gebeurt:
 
 ![De leadfiche met het tabblad Taken open.](../images/lead-tab-taken.png)
 
@@ -112,11 +116,11 @@ Hier staat alles wat er rond deze lead gebeurd is, in drie lijsten die u bovenaa
   ook tussen.
 - **Notities** — wat u zelf noteert over deze lead. Kwam de lead via uw website, dan staat hier ook de
   volledige tekst van zijn aanvraag.
-- **Logboek** — wie welk veld van deze lead wijzigde, en wanneer. Alleen om te lezen.
 - **Bijlagen** — documenten en foto's bij deze lead: een plan dat de klant meestuurde, een foto van de
   bestaande situatie. Zie [Bijlagen](../bijlagen.md).
+- **Logboek** — wie welk veld van deze lead wijzigde, en wanneer. Alleen om te lezen.
 
-Het tabblad verschijnt pas bij een **bestaande** lead — een nieuwe lead heeft nog geen nummer om taken of
+Die tabbladen verschijnen pas bij een **bestaande** lead — een nieuwe lead heeft nog geen nummer om taken of
 notities aan te hangen. Bewaar ze eerst.
 
 ## Automatische opvolging
@@ -144,14 +148,14 @@ u hoeft niets over te typen.
 - Er wordt een lead aangemaakt in status **Nieuw**. De **leadbron** is de naam van de websitesleutel
   waarmee het formulier postte — zo ziet u van welk formulier de lead kwam. Zie
   [Leads vanaf uw website](leads-webformulier.md).
-- De **volledige inhoud van het formulier** komt in het **Logboek** van die lead te staan, ook de velden
-  die enkel op uw eigen formulier voorkomen. Zo gaat er niets verloren.
+- De **volledige inhoud van het formulier** komt als notitie op het tabblad **Notities** van die lead te
+  staan, ook de velden die enkel op uw eigen formulier voorkomen. Zo gaat er niets verloren.
 - Er komt een **taak** bij, en er vertrekt een **e-mail** naar het adres dat u instelde bij
   [Bedrijfsfiche → Website-leads naar](../settings/company-profile.md).
 
 !!! info "Een tweede aanvraag van hetzelfde adres wordt geen tweede lead"
     Vraagt iemand met hetzelfde e-mailadres nog iets, en loopt zijn vorige lead nog, dan komt de nieuwe
-    aanvraag als **logboekregel bij die bestaande lead** — met een taak erbij. Zo staat er geen tweede
+    aanvraag als **notitie bij die bestaande lead** — met een taak erbij. Zo staat er geen tweede
     kaart van dezelfde persoon in uw pijplijn.
 
     Was zijn vorige lead al **gewonnen, verloren of omgezet naar klant**, dan is het wél een nieuwe lead.
@@ -162,13 +166,19 @@ u hoeft niets over te typen.
 
 ### Onderaan de fiche
 
-- **Opslaan** — bewaart de lead. Betekent de fase *verloren* of *gepauzeerd* zonder de bijhorende verplichte
-  gegevens, dan blijft de knop uitgeschakeld.
-- **Annuleren** — gaat terug naar de lijst zonder te bewaren.
+De knoppen staan onderaan rechts, in deze volgorde:
+
+- **Bewaren** — bewaart de lead en brengt u terug naar de lijst. Ontbreekt er nog iets — het leadnummer, de
+  naam, de verliesreden bij een verloren fase, de heractivatiedatum bij een gepauzeerde fase — of is het
+  e-mailadres of telefoonnummer ongeldig, dan zegt een melding bovenaan de fiche welk veld.
 - **Omzetten naar klant** — enkel zichtbaar bij een bestaande, nog niet omgezette lead. Zie
   [hieronder](#een-lead-omzetten-naar-klant).
-- **Verwijderen** — enkel bij een bestaande lead. Archiveert de lead naar de prullenbak; niets wordt
-  definitief gewist.
+- **Annuleren** — gaat terug naar de lijst zonder te bewaren.
+- **Verwijderen** — apart, helemaal rechts, en enkel bij een bestaande lead. Archiveert de lead naar de
+  prullenbak, waar u hem kunt herstellen.
+
+Zonder bewerkrecht ziet u geen **Bewaren**, **Omzetten naar klant** of **Verwijderen**, en heet de knop
+**Naar de lijst**.
 
 ## Een lead omzetten naar klant
 
@@ -209,8 +219,8 @@ Voor Nimble een nieuwe klant aanmaakt, kijkt het na of er al een klant is die op
 !!! warning
     - **Geen verliesreden of heractivatiedatum bij het slepen** — de verplaatsing op het bord gaat dan
       niet door; vul het gevraagde veld in het popupvenster in.
-    - **Ongeldig e-mailadres** — de fiche weigert dan niet meteen op te slaan, maar toont wel een
-      waarschuwing; los ze op vóór u opslaat.
+    - **Ongeldig e-mailadres of telefoonnummer** — de lead wordt dan niet bewaard. De melding bovenaan de
+      fiche noemt het veld; verbeter het en klik opnieuw op **Bewaren**.
     - **Leadnummer verwijderen zonder vervanging** — het veld is verplicht; laat het lege veld niet staan
       na het overschrijven.
     - **Het bedrijf in het naamveld zetten.** Dan heet uw klant straks naar de persoon die belde. Zet het
@@ -223,7 +233,7 @@ Voor Nimble een nieuwe klant aanmaakt, kijkt het na of er al een klant is die op
 - [Bedrijfsfiche](../settings/company-profile.md) — instellen wie website-leads krijgt
 - [Leadbronnen](../administration/lead-sources.md)
 - [Types aanvraag](../administration/lead-request-types.md)
-- [Leadstatus](../administration/lead-status.md)
+- [Leadfases](../administration/lead-status.md)
 - [Relaties](../relations.md)
 - [Lijsten filteren](../lijsten-filteren.md) — de trechterknop, de filterbouwer en de filterbalk
-- [Werken met een fiche](../fiches.md) — eigen adres, tabbladen, opslaan en archiveren
+- [Werken met een fiche](../fiches.md) — eigen adres, tabbladen, bewaren en archiveren

@@ -1,62 +1,106 @@
 # Commandes
 
 Une **commande** consigne ce que vous avez commandé chez un fournisseur et où en est la livraison. Lors de
-la réception, Nimble comptabilise les marchandises dans votre stock — vous ne devez pas le suivre
-séparément.
+la réception, Nimble comptabilise les marchandises dans le stock — vous ne devez pas le suivre séparément.
 
 ## Ouvrir l'écran
 
 Cliquez dans la barre latérale sur **Achats** puis sur **Commandes**.
 
-![La liste des commandes.](../images/bestellingen-lijst-fr.png)
+## La liste
 
-## Créer une commande
-
-Cliquez sur **Nouvelle commande**. Complétez :
-
-| Champ | Remarque |
-|---|---|
-| **Numéro** | Obligatoire et unique. Nimble propose le numéro suivant |
-| **Date de commande** | Obligatoire |
-| **Fournisseur** | Obligatoire — choisissez parmi vos relations |
-| **Date de livraison prévue** | Facultatif, mais utile : vous voyez ainsi si le matériel critique arrive à temps |
-| **Note** | Texte libre, par exemple une référence du fournisseur |
-
-## Ajouter des lignes
-
-En bas se trouve le **sélecteur d'articles**. Choisissez un article, indiquez la quantité et cliquez sur
-**Ajouter une ligne**. Le prix provient du prix d'achat de l'article ; vous pouvez le remplacer ligne par
-ligne si cette livraison a un autre tarif.
-
-Chaque ligne affiche trois nombres :
+![La liste des commandes, avec les colonnes Numéro, Fournisseur, Date de commande et Statut.](../images/bestellingen-lijst-fr.png)
 
 | Colonne | Ce qu'elle indique |
 |---|---|
+| **Numéro** | Votre numéro de commande |
+| **Fournisseur** | Chez qui vous avez commandé |
+| **Date de commande** | Quand vous avez commandé |
+| **Statut** | Où en est la commande — voir [Le statut](#le-statut) |
+
+Double-cliquez une ligne pour ouvrir la commande. Vous pouvez rechercher, trier, filtrer et exporter comme
+dans les autres listes.
+
+Cliquez sur le rail **Journal** à droite et choisissez une commande dans la liste. Le panneau affiche les
+onglets **Tâches**, **Notes**, **Pièces jointes** et **Historique** de cette commande.
+
+!!! info "Pas encore de fournisseur ou d'article ?"
+    L'écran n'affiche alors pas de liste, mais un message qui vous invite à ajouter d'abord un fournisseur
+    et un article. Sans eux, il n'y a rien à commander.
+
+## Créer une commande
+
+Cliquez sur **Nouvelle commande**. Complétez la carte **Données de la commande** :
+
+| Champ | Remarque |
+|---|---|
+| **Numéro** | Obligatoire — vous le choisissez vous-même |
+| **Fournisseur** | Obligatoire — choisissez parmi vos relations marquées comme fournisseur |
+| **Date de commande** | Obligatoire — aujourd'hui par défaut |
+| **Date de livraison prévue** | Quand le fournisseur livre. Vous voyez ainsi si le matériel critique arrive à temps |
+| **Statut** | Une nouvelle commande est en **Brouillon** |
+| **Note** | Accords avec le fournisseur, adresse de livraison, particularités |
+
+Cliquez sur **Enregistrer**. S'il manque un champ obligatoire, le message en haut le cite par son nom. Après
+l'enregistrement, vous revenez à la liste.
+
+## Ajouter des lignes
+
+<!-- AFBEELDING: la fiche d'une commande de démo ouverte (statut Commandé) avec deux lignes, la colonne Encore attendu remplie, et les boutons Réceptionner et Enregistrer une livraison partielle en bas -->
+
+Sous la carte **Lignes** figure une rangée pour ajouter une ligne. Choisissez un **Article**, indiquez la
+**Quantité** et cliquez sur **Ajouter une ligne**.
+
+Si vous laissez le **Prix** vide, Nimble reprend le prix d'achat de l'article. Si cette livraison a un autre
+tarif, indiquez le prix avant d'ajouter la ligne.
+
+| Colonne | Ce qu'elle indique |
+|---|---|
+| **Article** | Numéro et nom de l'article |
 | **Quantité** | Ce que vous avez commandé |
 | **Reçu** | Ce qui est déjà arrivé |
 | **Encore attendu** | Ce qui est encore en route pour cette ligne |
+| **Prix** | Le prix unitaire |
+| **Sous-total** | Quantité fois prix |
+
+Sous les lignes figure le **Total**. La croix en fin de ligne supprime une ligne.
+
+N'oubliez pas d'**enregistrer** : une ligne pas encore enregistrée ne peut pas être réceptionnée.
 
 ## Réceptionner des marchandises
 
-En bas de la fiche se trouvent deux boutons, et la différence compte :
+Sur une commande enregistrée qui n'est ni **Reçu** ni **Annulé**, deux boutons figurent en bas de la fiche.
+La différence compte :
 
 - **Réceptionner** comptabilise en une fois tout ce qui reste ouvert. Utilisez-le quand la livraison est
   complète.
-- **Enregistrer une livraison partielle** ouvre une fenêtre où vous indiquez par ligne ce qui est arrivé.
-  La commande reste ensuite ouverte pour le reste.
+- **Enregistrer une livraison partielle** ouvre la fenêtre **Réception d'une livraison**, où vous indiquez
+  par ligne ce qui est arrivé. La commande reste ensuite ouverte pour le reste.
 
-![La fenêtre pour enregistrer une livraison.](../images/bestelling-ontvangst-fr.png)
+![La fenêtre Réception d'une livraison avec les champs Reçu le et Note, et par ligne Article, Commandé, Reçu, Reçu maintenant et Prix.](../images/bestelling-ontvangst-fr.png)
 
-Dans la fenêtre, indiquez la **date de réception**, éventuellement une note (bon de livraison, chauffeur),
-et par ligne combien est **reçu maintenant**. Cliquez sur **Enregistrer** pour terminer.
+Dans la fenêtre, complétez :
 
-Le **prix** est modifiable : si le fournisseur facture autre chose que ce qui était commandé, adaptez-le
-ici. Si vous le laissez tel quel, c'est le prix de la commande qui s'applique.
+| Champ | Remarque |
+|---|---|
+| **Reçu le** | Aujourd'hui par défaut |
+| **Note** | Bon de livraison, chauffeur, particularités |
+| **Reçu maintenant** | Par ligne. Déjà rempli avec ce qui reste ouvert — adaptez-le s'il en est arrivé moins |
+| **Prix** | Si le fournisseur facture autrement que commandé, adaptez le prix ici. Si vous le laissez tel quel, le prix de la commande s'applique |
 
-!!! warning "Ne mettez pas le statut sur Reçu à la main"
-    C'est le bouton **Réceptionner** qui comptabilise les marchandises dans votre stock, pas le statut. Si
-    vous changez le statut vous-même, il indiquera « Reçu » alors que rien n'est arrivé dans le stock — et
-    vous ne le remarquerez que lorsque le stock ne correspondra plus.
+Cliquez sur **Enregistrer**. Si aucune ligne ne porte de quantité, la fenêtre vous le signale. **Annuler**
+ferme la fenêtre sans rien comptabiliser.
+
+Après l'enregistrement, les marchandises sont dans le stock et le statut s'adapte : **Partiellement livré**
+tant qu'il reste quelque chose d'ouvert, **Reçu** quand tout est arrivé.
+
+### Les livraisons
+
+Dès qu'une réception a eu lieu, la carte **Livraisons** apparaît. Elle indique par ligne reçue la **Date**,
+l'**Article**, la **Quantité** et le **Prix**.
+
+Si une ligne a été livrée à un autre prix que celui commandé, ce prix apparaît en orange. En dessous, un
+message vous invite à le vérifier avant d'approuver la facture d'achat.
 
 ## Le statut
 
@@ -68,8 +112,31 @@ ici. Si vous le laissez tel quel, c'est le prix de la commande qui s'applique.
 | **Reçu** | Tout est arrivé et comptabilisé dans le stock |
 | **Annulé** | N'aura pas lieu |
 
+Dans le champ **Statut**, vous choisissez vous-même uniquement **Brouillon**, **Commandé** ou **Annulé**.
+**Partiellement livré** et **Reçu** découlent de l'enregistrement d'une livraison ; vous ne pouvez pas les
+choisir à la main.
+
+!!! info "Ce qui compte comme en route"
+    Sur l'[état du stock](../inventory/stock-level.md), seul ce qui reste ouvert sur une commande au statut
+    **Commandé** ou **Partiellement livré** est compté. Une commande en **Brouillon** n'est pas encore
+    comptée.
+
+Sur une commande **annulée**, plus rien ne peut être réceptionné.
+
+## Supprimer une commande
+
+Cliquez sur **Supprimer** sur la fiche et confirmez. La commande disparaît de la liste et arrive dans la
+[corbeille](../administration/recycle-bin.md). De là, **Restaurer** la remet en place.
+
 ## Où le stock est visible
 
-Après une réception, vous voyez le résultat sous **Stock → Articles** : ouvrez l'onglet **Stock** à droite
-de la liste. Chaque mouvement y figure avec son origine, vous pouvez donc retrouver quelle commande a
-ajouté quelle quantité.
+Après une réception, vous voyez le résultat sous **Stock → Articles**, dans l'onglet **Stock** de l'article.
+Chaque réception y figure comme *Ontvangst bestelling* suivi du numéro de commande. Voir
+[Articles](../inventory/articles.md).
+
+## Voir aussi
+
+- [État du stock](../inventory/stock-level.md)
+- [Factures d'achat](purchase-invoices.md)
+- [Corbeille](../administration/recycle-bin.md)
+- [Travailler avec une fiche](../fiches.md)

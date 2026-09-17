@@ -1,6 +1,6 @@
 # Platformbeheer
 
-Op het scherm **Platformbeheer** vindt u alle gedeelde instellingen en stamgegevens van uw bedrijf, gegroepeerd in tegels: de bedrijfsfiche, artikelfamilies, eenheden, de keuzelijsten voor projecten en relaties, en het beheer van rollen, verwijderde gegevens en het actielogboek.
+Op het scherm **Platformbeheer** vindt u de gedeelde instellingen en stamgegevens van uw bedrijf, gegroepeerd in tegels: de bedrijfsfiche, artikelfamilies, eenheden, de keuzelijsten voor projecten, relaties, verkoop en leads, en het beheer van rollen en verwijderde gegevens.
 
 ## Het scherm openen
 
@@ -15,21 +15,24 @@ Klik onderaan in de zijbalk op **Platformbeheer**.
 
 | Groep | Tegels |
 |---|---|
-| **Bedrijf** | Bedrijfsfiche |
-| **Artikelen** | Artikelfamilies, Eenheden |
-| **Projecten** | Productiestatus, Pipeline-status, Projecttypes |
-| **Relaties** | Klantcategorieën, Contactfuncties |
-| **Verkoop** | Offertestatus, Factuurstatus, Btw-codes, Documentsjablonen |
-| **Leads** | Leadbronnen, Types aanvraag, Leadstatus, Leadopvolging |
-| **Gegevens en toegang** | Rollen, Prullenbak, Actielogboek |
-| **ADM-beheer** | Enkel voor ADM-operators — u ziet deze groep niet |
+| **Bedrijf** | [Bedrijfsfiche](../settings/company-profile.md) |
+| **Artikelen** | [Artikelfamilies](article-families.md), [Eenheden](units.md) |
+| **Projecten** | [Productiestatus](production-statuses.md), [Pipeline-status](pipeline-statuses.md), [Projecttypes](project-types.md) |
+| **Relaties** | [Klantcategorieën](account-categories.md), [Contactfuncties](contact-functions.md) |
+| **Verkoop** | [Offertestatus](quote-status.md), [Factuurstatus](invoice-status.md), [Btw-codes](vat-codes.md), [Documentsjablonen](../settings/document-templates.md) |
+| **Leads** | [Leadbronnen](lead-sources.md), [Types aanvraag](lead-request-types.md), [Leadfases](lead-status.md), [Leadopvolging](lead-follow-up.md) |
+| **Gegevens en toegang** | [Rollen](roles.md), [Prullenbak](recycle-bin.md), [Actielogboek](audit-log.md) (enkel voor ADM-operators) |
+| **ADM-beheer** | [Tenants](tenants.md), [Gebruikers](users.md), [Conversie](conversion.md) — enkel voor ADM-operators; u ziet deze groep niet |
 
 Elke tegel opent een beheerscherm. Bovenaan elk scherm brengt **← Terug naar platformbeheer** u terug naar deze hub.
+
+Onder **Platformbeheer** staat in de zijbalk ook **Klantenportaal**. Dat is geen tegel maar een aparte ingang; zie [Klantenportaal](../getting-started/customer-portal.md).
 
 ## Een rode melding bovenaan
 
 Bij het starten werkt Nimble de structuur van elke databank bij. Lukt dat voor één databank niet, dan staat
-bovenaan deze pagina een rode melding met de databank, het onderdeel en de reden.
+bovenaan deze pagina een rode melding **Databank-migraties niet doorgelopen**, met de databank, het onderdeel
+en de reden.
 
 Schermen die op die structuur rekenen, kunnen dan stuklopen — soms pas dagen later, wanneer iemand toevallig
 het juiste scherm opent. Geef de tekst van de melding door aan uw beheerder; die bevat de oorzaak. Zelf hoeft
@@ -46,6 +49,5 @@ Staat er geen melding, dan zijn alle databanken bij.
 ## Zie ook
 
 - [Bedrijfsfiche](../settings/company-profile.md)
-- [Artikelfamilies](article-families.md)
-- [Eenheden](units.md)
 - [Stamgegevens (keuzelijsten)](master-data.md)
+- [Klantenportaal](../getting-started/customer-portal.md)

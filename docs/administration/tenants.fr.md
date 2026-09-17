@@ -1,48 +1,72 @@
-# Registre des clients
+# Tenants
 
 !!! info "Pour les opérateurs ADM"
-    Cet écran est réservé aux collaborateurs d'ADM-Concept. En tant que client de Nimble, vous ne le voyez pas dans votre menu.
+    Cet écran est réservé aux collaborateurs d'ADM-Concept. En tant que client de Nimble, vous ne le voyez pas.
 
-Le registre des clients contient tous les clients qui tournent sur la plateforme Nimble. Chaque client dispose de sa propre base de données ; sur cet écran, vous créez un nouveau client et gérez les existants.
+L'écran **Tenants** est le registre de tous les clients qui tournent sur la plateforme Nimble. Chaque client —
+un *tenant* — dispose de sa propre base de données. Vous y créez un nouveau tenant, indiquez pour chaque tenant
+où se trouvent ses données dans l'ancien logiciel, et choisissez le tenant dans lequel vous travaillez
+vous-même.
 
 ## Ouvrir l'écran
 
-1. Cliquez en bas de la barre latérale sur **Gestion de la plateforme**.
-2. Cliquez dans le groupe **Gestion ADM** sur la tuile **Tenants**.
+1. Cliquez sur **Administration** en bas de la barre latérale.
+2. Dans le groupe **Gestion ADM**, cliquez sur la tuile **Tenants**.
 
-## Créer un client
+## Créer un tenant
 
-Complétez en haut **Nouveau tenant** :
+En haut figurent deux champs et un bouton :
 
 | Champ | Ce que vous saisissez |
 |---|---|
-| **Code** | La clé courte de ce client. Elle figure dans le lien de connexion et **ne change plus ensuite** — choisissez-la donc avec soin. |
-| **Nom** | Le nom complet du client, tel qu'il apparaît à l'écran. |
+| **Code** | La clé courte de ce tenant, p. ex. `client-a`. Obligatoire |
+| **Nom** | Le nom complet du client, p. ex. `Client A SA`. Obligatoire |
 
-Cliquez sur **Provision**. Nimble crée le client *et* prépare sa base de données. Pendant l'opération, la mention **En cours…** s'affiche. En cas d'échec, **Échec du provisioning** apparaît avec le motif.
+Cliquez sur **Nouveau tenant**. Nimble crée une base de données propre, prépare sa structure et enregistre le
+tenant. S'il manque le code ou le nom, un message en haut indique quel champ est encore vide.
 
-S'il n'existe encore aucun client, vous lisez **Aucun tenant. Créez-en un ci-dessus.**
+Une fois terminé, un message vert affiche le code et la base de données du nouveau tenant. Si le tenant
+existait déjà, le message le signale ; rien n'est alors écrasé. En cas d'échec, un message rouge commençant par
+**Provisioning mislukt:** indique la raison.
+
+S'il n'existe encore aucun tenant, vous lisez **Aucun tenant pour l'instant. Créez-en un ci-dessus.**
 
 ## La liste
 
-Pour chaque client, vous voyez le **Code**, le **Nom** et s'il est actif. Deux actions :
+| Colonne | Ce que vous voyez ou faites |
+|---|---|
+| **Code** | La clé du tenant |
+| **Nom** | Le nom du client |
+| **Source Firebird (chemin)** | Le chemin vers la base de données de ce client dans l'ancien logiciel, p. ex. `D:\Firebird\client-a.fdb`. Cliquez sur **Enregistrer** dans la même ligne ; un message de confirmation apparaît en haut |
+| *(action)* | **Utiliser →** active ce tenant dans votre propre session |
 
-- **Utiliser →** bascule votre propre session vers ce client, afin de voir ce que voient ses utilisateurs.
-- **Source Firebird (chemin)** indique où se trouve la base de données héritée de ce client. Ce chemin est nécessaire pour la [Conversion](conversion.fr.md). Cliquez sur **Enregistrer** ; en cas de succès, **Source Firebird enregistrée.** s'affiche.
+Le chemin Firebird est nécessaire pour la [Conversion](conversion.md).
+
+## Travailler dans un tenant
+
+- **Utiliser →** fait de ce tenant le tenant actif. Tous les écrans de gestion et les listes affichent ensuite
+  les données de ce client.
+- **Quitter le tenant**, sous la liste, retire le tenant actif. Vous travaillez ensuite sans tenant actif ; les
+  écrans de gestion qui en exigent un restent vides.
+
+Pour reprendre les données de l'ancien logiciel, choisissez d'abord le tenant avec **Utiliser →**, puis
+rendez-vous dans **Administration → Conversion**.
 
 ## Erreurs fréquentes
 
 !!! warning
-    **Le code est figé dès que le client existe.** Il figure dans le lien de connexion utilisé par le client et dans des références ailleurs. Vérifiez-le donc avant de cliquer sur **Provision** — le modifier après revient à recréer le client.
-
-!!! warning
-    **Mettez un client sur inactif plutôt que de le supprimer.** Inactif ferme l'accès sans jeter de données. Un client supprimé emporte son historique.
+    - **Mal choisir le code.** Cet écran ne permet pas de modifier le code d'un tenant existant. Vérifiez-le
+      donc avant de cliquer sur **Nouveau tenant**.
+    - **Saisir le chemin Firebird sans l'enregistrer.** Le chemin ne compte qu'après un clic sur
+      **Enregistrer** dans cette ligne.
 
 !!! tip
-    Après **Utiliser →**, n'oubliez pas de revenir en arrière lorsque vous voulez de nouveau travailler au niveau de la plateforme. Sinon, vous consultez les données d'un seul client en croyant voir l'ensemble.
+    Après **Utiliser →**, n'oubliez pas de choisir **Quitter le tenant** lorsque vous voulez de nouveau
+    travailler au niveau de la plateforme. Sinon, vous consultez les données d'un seul client en croyant voir
+    l'ensemble.
 
 ## Voir aussi
 
-- [Utilisateurs](users.fr.md) — qui peut se connecter chez ce client
-- [Rôles](roles.fr.md) — ce que ces utilisateurs peuvent faire
-- [Conversion](conversion.fr.md) — importer la base de données héritée
+- [Utilisateurs](users.md) — qui peut se connecter à ce tenant
+- [Rôles](roles.md) — ce que ces utilisateurs peuvent faire
+- [Conversion](conversion.md) — importer les données de l'ancien logiciel

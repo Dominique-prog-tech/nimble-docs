@@ -4,7 +4,10 @@ Quel paiement correspond à quelle facture ouverte. Nimble propose ; **vous** co
 
 ## Ouvrir l'écran
 
-Cliquez dans la barre latérale sur **Ventes → Lettrage**.
+Cliquez dans la barre latérale sur **Ventes → Lettrage**. L'écran demande le droit de modifier les factures.
+
+En bas figure **Récupérer à la banque**, comme sur [Opérations bancaires](bank.md) : vous récupérez ainsi
+les nouvelles opérations sans changer d'écran.
 
 ![L'écran Lettrage avec deux propositions : l'une avec la certitude Certain qui désigne la facture F-2026-0011, l'autre avec la certitude Possible pour laquelle aucun poste ouvert n'a été trouvé.](../images/afpunten-voorstel-fr.png)
 
@@ -18,8 +21,10 @@ Cliquez dans la barre latérale sur **Ventes → Lettrage**.
 |---|---|
 | **Certain** | La communication structurée désigne une seule facture. Ce numéro figure sur votre facture et le client l'a repris |
 | **Probable** | Le montant correspond exactement à une seule facture ouverte de ce client |
-| **Possible** | Le montant est la somme de plusieurs factures, ou un paiement partiel |
+| **Possible** | Le montant est la somme de plusieurs factures, ou un paiement partiel — ou Nimble n'a trouvé aucun poste ouvert |
 
+Chaque proposition affiche la contrepartie, la date de valeur, la communication et le montant. En dessous
+figurent les factures sur lesquelles Nimble veut enregistrer ; cliquez un numéro de facture pour l'ouvrir.
 Sous chaque proposition figure **pourquoi** Nimble la propose. Lisez cette phrase pour *Probable* et
 *Possible* — elle dit précisément ce qui n'est pas établi.
 
@@ -35,6 +40,9 @@ où vous cliquez. Si le client solde ainsi la facture, celle-ci passe d'elle-mê
 
 En cas de paiement partiel, le solde reste ouvert, et le paiement suivant de ce client réapparaîtra
 simplement dans cette liste.
+
+Si le montant ne se répartit pas entièrement sur les factures proposées, **Reste :** indique le montant
+restant. Si Nimble n'a trouvé aucune facture, **Enregistrer** est grisé : il n'y a rien sur quoi enregistrer.
 
 ## Sans objet
 

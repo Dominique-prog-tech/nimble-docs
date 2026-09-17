@@ -6,7 +6,7 @@ en suivi, attribué … Vous déterminez vous-même les étapes que parcourt vot
 ## Ouvrir l'écran
 
 1. Cliquez en bas de la barre latérale sur **Administration**.
-2. Cliquez dans le groupe **Projets** sur la tuile **Statut pipeline**.
+2. Cliquez dans le groupe **Projets** sur la tuile **Statuts pipeline**.
 
 ![La liste des statuts pipeline.](../images/pipeline-status-lijst-fr.png)
 
@@ -29,14 +29,13 @@ entreprises n'utilisent pas les deux.
 
 ## Ajouter ou modifier une étape
 
-Cliquez sur **Nouvelle valeur**, ou double-cliquez une ligne existante.
+Cliquez sur **Nouvelle valeur**, ou double-cliquez sur une ligne existante. Une fenêtre s'ouvre avec les champs ci-dessous et les boutons **Enregistrer** et **Annuler** ; pour une valeur existante, **Supprimer** figure aussi à droite. **Exporter**, au-dessus de la liste, récupère la liste dans un fichier.
 
 | Champ | Remarque |
 |---|---|
 | **Ordre** | Détermine la place dans la liste de choix ; le plus petit nombre en haut |
 | **Code** | Votre propre clé courte — obligatoire et unique |
-| **Nom (NL)** | Obligatoire ; c'est ce qui s'affiche sur un écran néerlandophone |
-| **Nom (FR)** | Facultatif ; laisser vide signifie que le nom néerlandais apparaît aussi en français |
+| **Nom (NL)** et **Nom (FR)** | Le nom dans la langue de base de votre entreprise est obligatoire ; l'autre langue porte la mention *optionnel*. Si elle reste vide, le nom dans la langue de base s'affiche |
 
 !!! tip "Suivez le chemin de l'affaire"
     Classez les étapes dans l'ordre où une affaire les parcourt, du premier contact à l'attribution. Le tri
@@ -53,4 +52,4 @@ automatiquement.
 ## Supprimer une étape
 
 **Supprimer** archive l'étape : elle disparaît de la liste de choix, mais les projets qui la portent déjà
-la conservent. Les informations anciennes restent ainsi lisibles. La récupération se fait via la corbeille.
+la conservent. Les informations anciennes restent ainsi lisibles. La récupération se fait via la [corbeille](recycle-bin.md).

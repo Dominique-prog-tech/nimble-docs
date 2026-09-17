@@ -10,6 +10,9 @@ op dat project, en elke werkbon is één werkdag.
 
 Klik in de zijbalk op **Werk → Werkorders**.
 
+Staat er nog geen enkel project, dan vraagt het scherm u eerst een project toe te voegen: een werkorder
+hoort altijd bij een project.
+
 ## De lijst
 
 ![De lijst Werkorders met de kolommen Nummer, Project, Omschrijving, Ploeg, Status en Gepland; vier werkorders op vier verschillende projecten, en rechts de dichtgeklapte lade Journaal.](../images/werkorders-lijst.png)
@@ -32,9 +35,15 @@ zonder de fiche te openen.
 
 ## De fiche
 
-U opent een fiche door op een rij te klikken.
+U opent een fiche door te dubbelklikken op een rij.
 
-![De fiche van werkorder WO-2026-004 met het blok De opdracht, en daaronder het blok Uitvoering met 36 gewerkte uren, 3 werkbonnen en een lijst van de werkbonnen met datum, uren en einde van de dag.](../images/werkorder-fiche.png)
+![De fiche van werkorder WO-2026-004 met bovenaan het nummer en de status Bezig, het blok De opdracht, en daaronder het blok Uitvoering met 36 gewerkte uren, 3 werkbonnen, de tegel Werkbonnen met meerwerk en een lijst van de werkbonnen met datum, uren en einde van de dag.](../images/werkorder-fiche.png)
+
+Bovenaan staat het nummer van de werkorder met zijn status. Links staan de tabbladen **De opdracht** en
+**Werfvoorbereiding**, rechts **Taken**, **Notities**, **Bijlagen** en **Logboek**.
+
+Onderaan staat de knoppenbalk: **Bewaren**, **Werkbon toevoegen**, **Annuleren** en, apart rechts,
+**Verwijderen**. Mag u de werkorder niet wijzigen, dan ziet u enkel **Naar de lijst**.
 
 ### De opdracht
 
@@ -43,27 +52,34 @@ U opent een fiche door op een rij te klikken.
 | **Nummer** | Verplicht. Uw eigen kenmerk voor deze werkorder |
 | **Project** | Verplicht. Het project waar de werkorder onder valt |
 | **Omschrijving** | Wat er moet gebeuren. Dit is wat de werkorder ván het project onderscheidt |
-| **Ploeg** | Wie de werf doet |
+| **Ploeg** | Wie de werf doet. U kiest uit de actieve ploegen |
 | **Gepland op** | De voorziene dag |
 | **Status** | Nog te starten · Bezig · Afgewerkt |
 
+Klikt u **Bewaren** terwijl **Nummer** of **Project** leeg is, dan zegt de fiche bovenaan wat er ontbreekt.
+
 ### Uitvoering
 
-Dit blok vult u **niet** in — het leest van de werkbonnen die onder deze werkorder hangen.
+Dit blok staat op een bewaarde werkorder. U vult het **niet** in — het leest van de werkbonnen die onder
+deze werkorder hangen.
 
-- **Gewerkte uren** is de som van alle uren op alle werkbonnen.
-- **Werkbonnen** is het aantal.
-- **Werkbonnen met meerwerk** telt de dagen waarop de ploeg extra werk vastgesteld heeft, met daaronder
-  hoeveel daarvan nog beslist moeten worden.
+| Tegel | Wat ze toont |
+|---|---|
+| **Gewerkte uren** | De som van alle uren op alle werkbonnen |
+| **Werkbonnen** | Het aantal werkbonnen |
+| **Werkbonnen met meerwerk** | Hoeveel meerwerken er nog beslist moeten worden. Staat er alleen als die er zijn |
+| **Goedgekeurd meerwerk** | Hoeveel meerwerken goedgekeurd zijn, met het geschatte bedrag. Staat er alleen als die er zijn |
 
-Daaronder staat elke werkbon met zijn datum, uren, einde van de dag en omschrijving. Zo ziet u in één
-oogopslag hoe de werf gelopen is.
+Daaronder staat elke werkbon met zijn datum, uren, einde van de dag en omschrijving. Draagt een werkbon
+meerwerk, dan staat er een label met de stand ervan, bijvoorbeeld *Meerwerk · Gefactureerd*. Klik op een
+regel om die werkbon te openen.
 
 **Werkbon toevoegen** maakt een nieuwe werkbon aan die al aan deze werkorder hangt.
 
 ## Werfvoorbereiding
 
-Op het tweede tabblad staan zeven punten die vóór de start in orde moeten zijn.
+Op het tweede tabblad staan zeven punten die vóór de start in orde moeten zijn. Bovenaan leest u hoeveel
+er al in orde zijn, bijvoorbeeld *3 van 7 punten in orde*.
 
 ![Het tabblad Werfvoorbereiding van WO-2026-003: drie van de zeven punten aangevinkt, en een oranje kader dat de vier ontbrekende punten met naam noemt.](../images/werkorder-werfvoorbereiding.png)
 
@@ -96,12 +112,14 @@ iets ontbreekt.
 Dat kan **alleen wanneer er geen werkbonnen onder hangen**. Zijn die er wel, dan weigert Nimble en zegt
 hoeveel het er zijn:
 
-> **Opgelet** — Deze werkorder kan niet verwijderd worden: er hangen nog 3 werkbon(nen) aan, met
+> **Opgelet** — Deze werkorder kan niet verwijderd worden: er hangen nog 3 werkbonnen aan, met
 > gepresteerde uren. Verwijder eerst die werkbonnen.
 
-De reden is dat een werkbon gepresteerde uren draagt. Verdwijnt de werkorder, dan blijven die uren staan
-zonder dat nog iemand ziet bij welke opdracht ze horen — en daar leunen de nacalculatie en de facturatie
-van meerwerk op.
+Hangen er geen werkbonnen onder, dan vraagt Nimble eerst een bevestiging.
+
+De reden voor die weigering is dat een werkbon gepresteerde uren draagt. Verdwijnt de werkorder, dan blijven
+die uren staan zonder dat nog iemand ziet bij welke opdracht ze horen — en daar leunen de nacalculatie en de
+facturatie van meerwerk op.
 
 !!! note "Ook de prullenbak telt mee"
     Een werkbon die u verwijderd hebt, staat in de prullenbak en kan daar weer uit. Daarom telt Nimble die
@@ -110,3 +128,9 @@ van meerwerk op.
 
 Wilt u een afgehandelde werf uit uw dagelijkse lijst? Zet de status op **Afgewerkt** in plaats van de
 werkorder te verwijderen.
+
+## Zie ook
+
+- [Projecten](projects.md) — het project waar een werkorder onder valt
+- [Werkbonnen](work-sheets.md) — de werkdagen onder een werkorder
+- [Ploegen](teams.md) — de ploeg die de werf doet

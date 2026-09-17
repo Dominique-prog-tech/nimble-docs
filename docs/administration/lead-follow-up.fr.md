@@ -8,7 +8,7 @@ cela se produit.
 1. Cliquez sur **Administration** en bas de la barre latérale.
 2. Dans le groupe **Leads**, cliquez sur la tuile **Suivi des leads**.
 
-![L'écran de réglages Suivi des leads avec l'interrupteur et le champ Jours.](../images/leadopvolging-scherm-fr.png)
+![L'écran de réglages Suivi des leads avec la case Suivi automatique activé, le champ Silencieux après (jours) et les boutons Enregistrer et Lancer le suivi maintenant.](../images/leadopvolging-scherm-fr.png)
 
 ## Les trois règles
 
@@ -26,7 +26,8 @@ Les deux premières ne nécessitent aucun réglage : quelqu'un y a fixé une dat
 ## Silencieux après (jours)
 
 Combien de temps un lead sans action suivante planifiée peut rester en plan avant de recevoir une tâche.
-Par défaut **14 jours** ; de 1 à 365 autorisés.
+Par défaut **14 jours** ; de 1 à 365 autorisés. Le champ n'est modifiable que si **Suivi automatique activé**
+est coché.
 
 !!! info "Un lead avec une action suivante ne compte pas"
     Si une action suivante est planifiée — même dans le futur — le lead est planifié et non oublié. Cette
@@ -39,16 +40,15 @@ tranchées rapidement, 30 jours est trop tard. Commencez à 14 et adaptez selon 
 
 ## Suivi automatique activé ou désactivé
 
-Si vous **désactivez** le suivi, Nimble ne crée plus de nouvelles tâches. Les tâches existantes sont
+Cochez ou décochez **Suivi automatique activé** et cliquez sur **Enregistrer**. Si vous **désactivez** le suivi, Nimble ne crée plus de nouvelles tâches. Les tâches existantes sont
 conservées — désactiver ne peut pas faire disparaître du travail déjà attribué à quelqu'un.
 
 ## Lancer le suivi maintenant
 
-Vous lancez ainsi un cycle immédiatement au lieu d'attendre le lendemain matin. Pratique juste après avoir
+Le bouton **Lancer le suivi maintenant** se trouve à côté d'**Enregistrer**. Vous lancez ainsi un cycle immédiatement au lieu d'attendre le lendemain matin. Pratique juste après avoir
 modifié le délai : vous voyez directement combien de tâches cela donne.
 
-Le message affiche trois chiffres : combien de leads ont été examinés, combien de nouvelles tâches sont
-apparues et combien existaient déjà.
+Le message affiche trois chiffres, par exemple *12 leads examinés, 2 nouvelles tâches, 3 existaient déjà.*
 
 !!! info "Enregistrez d'abord"
     Le bouton s'exécute avec ce qui se trouve dans la base de données, pas avec ce qui est à l'écran. Si
@@ -62,17 +62,17 @@ apparues et combien existaient déjà.
 
 ## Où arrivent les tâches
 
-- Dans l'écran **Tâches**, sous **Toutes les tâches** — un lead sans responsable donne une tâche sans
-  responsable.
-- Sur la fiche du lead elle-même, dans l'onglet **Journal**.
+- Dans l'écran **Tâches** (**CRM → Tâches**). Un lead sans responsable donne une tâche sans responsable ;
+  dans le filtre sur le responsable, vous trouvez ces tâches sous **Personne**.
+- Sur la fiche du lead elle-même, dans l'onglet **Tâches**.
 
 !!! tip "Veillez à ce que chaque lead ait un responsable"
-    Une tâche sans responsable n'apparaît que sous **Toutes les tâches** — celui qui ouvre sa propre liste le
-    matin ne la voit pas. Le suivi a bien tourné, mais le lead reste aussi invisible qu'avant.
+    Une tâche sans responsable n'est au nom de personne. Celui qui filtre l'écran **Tâches** sur son propre
+    nom ne la voit pas. Le suivi a bien tourné, mais le lead reste aussi invisible qu'avant.
 
-    Vous l'imposez via [Phases de lead](lead-status.fr.md) : définissez **Responsable** comme champ
-    obligatoire sur la phase où cela commence à compter — par exemple à partir de *Qualifié*. Dès lors, aucun
-    lead ne peut avancer sans que quelqu'un le suive.
+    Vous l'imposez via [Phases de lead](lead-status.md) : définissez **Responsable** comme champ obligatoire
+    sur la phase où cela commence à compter — par exemple à partir de *Qualifié*. Dès lors, aucun lead ne peut
+    avancer sans que quelqu'un le suive.
 
 ## Voir aussi
 

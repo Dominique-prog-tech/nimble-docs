@@ -134,8 +134,8 @@ plugins:
                   name: Passer en mode clair
           nav_translations:
             Home: Accueil
+            Klantenportaal: Portail client
             Aan de slag: Premiers pas
-            Financieel: Finances
             Inkoop: Achats
             Binnengekomen documenten: Documents reçus
             Aankoopfacturen: Factures d'achat
@@ -188,7 +188,7 @@ plugins:
             # bleef Nederlands, want een hoofdstuk toevoegen aan nav: dwingt geen regel hier af. Gemeld door
             # de creditsoft-docs-sessie, die hetzelfde vond in haar eigen bovenbalk.
             # De Franse termen komen uit NimbleNav.cs en uit de FR-pagina's — niet uit een eigen vertaling.
-            Klantenregister: Registre des clients
+            Tenants: Tenants
             Gebruikers: Utilisateurs
             Rollen: Rôles
             Prullenbak: Corbeille
@@ -211,6 +211,7 @@ nav:
     - Werken met een fiche: fiches.md
     - Notities: notities.md
     - Bijlagen: bijlagen.md
+    - Klantenportaal: getting-started/customer-portal.md
   - CRM:
     - Leads: crm/leads.md
     - Leads vanaf uw website: crm/leads-webformulier.md
@@ -221,13 +222,15 @@ nav:
     - Offertes: sales/quotes.md
     - Facturen: sales/invoices.md
     - Aanmaningen: sales/reminders.md
-  - Financieel:
+    # Bankverrichtingen en Afpunten staan in de app onder Verkoop, dus hier ook (17/09/2026). Tot dan
+    # hadden ze een eigen tabblad Financieel dat het app-menu niet kent.
     - Bankverrichtingen: finance/bank.md
     - Afpunten: finance/reconciliation.md
+  # Volgorde van het app-menu (NimbleNav.cs): Bestellingen, Binnengekomen documenten, Aankoopfacturen.
   - Inkoop:
+    - Bestellingen: purchasing/purchase-orders.md
     - Binnengekomen documenten: purchasing/peppol-inbox.md
     - Aankoopfacturen: purchasing/purchase-invoices.md
-    - Bestellingen: purchasing/purchase-orders.md
   - Werk:
     - Projecten: work/projects.md
     - Werkorders: work/work-orders.md
@@ -257,7 +260,7 @@ nav:
     - Btw-codes: administration/vat-codes.md
     - Offertestatus: administration/quote-status.md
     - Factuurstatus: administration/invoice-status.md
-    - Klantenregister: administration/tenants.md
+    - Tenants: administration/tenants.md
     - Gebruikers: administration/users.md
     - Rollen: administration/roles.md
     - Prullenbak: administration/recycle-bin.md

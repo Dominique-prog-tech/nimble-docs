@@ -19,7 +19,7 @@ mêmes données.
 </div>
 </div>
 <div class="nb-voorpagina__beeld" markdown>
-![Le tableau des leads de Nimble : les demandes par phase, avec leur valeur.](images/leads-bord-fr.png){ .off-glb }
+![Le tableau de bord de Nimble : les chiffres clés, ce qui demande votre attention aujourd'hui, et le chiffre d'affaires par mois.](images/dashboard-fr.png){ .off-glb }
 </div>
 </div>
 
@@ -88,7 +88,7 @@ définissez par rôle.
 
 **Stock** — [Articles](inventory/articles.fr.md)
 
-**Configuration** — [Gestion de la plateforme](administration/platform-management.fr.md) ·
+**Configuration** — [Administration](administration/platform-management.fr.md) ·
 [Données de base](administration/master-data.fr.md) ·
 [Paramètres des leads](administration/lead-status.fr.md)
 

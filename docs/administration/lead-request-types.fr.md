@@ -11,38 +11,58 @@ Les **types de demande** indiquent ce qu'un lead demande précisément : une toi
 
 | Colonne | Signification |
 |---|---|
+| **Ordre** | Détermine l'ordre dans les listes de choix (petit = en haut) |
 | **Code** | Code court et unique |
 | **Nom (NL)** | Nom néerlandais |
 | **Nom (FR)** | Nom français |
-| **Question de taille** | Résumé du champ de taille (libellé + unité), ou « — pas demandé — » |
-| **Ordre** | Détermine l'ordre dans les listes de choix |
+| **Question de taille** | Le libellé avec l'unité, p. ex. *Superficie (m²)*, ou « — pas demandé — » |
 
-Double-cliquez une ligne pour ouvrir le type, ou cliquez sur **Nouveau type**. Chaque type a sa propre adresse web : copiez la barre d'adresse et votre collègue ouvre exactement ce type.
+![La liste des types de demande, avec l'ordre en premier et la question de taille en dernier.](../images/aanvraagtypes-lijst-fr.png)
 
-## Créer ou modifier un type
+Double-cliquez sur une ligne pour ouvrir le type, ou cliquez sur **Nouveau type**. **Exporter** récupère la liste dans un fichier.
 
-1. Remplissez le **Code**.
-2. Remplissez le nom dans la **langue de base de votre entreprise** — ce champ est obligatoire ; l'autre langue est optionnelle.
-3. Configurez optionnellement la **question de taille** :
-     - **Libellé (NL)** / **Libellé (FR)** — le nom du champ sur la fiche du lead (p. ex. « Superficie »).
-     - **Unité** — p. ex. `m²`, `personnes`, `ml`.
-     - Laissez le libellé vide si la taille n'a pas de sens pour ce type ; le champ n'apparaît alors pas sur la fiche du lead.
-4. Sous le bloc **Question de taille**, un aperçu montre immédiatement le nom du champ sur la fiche du lead.
-5. Cliquez en bas à droite sur **Enregistrer**. Vous revenez ensuite à la liste.
+## La fiche d'un type
 
-![La liste des types de demande, avec leur question de volume et leur unité.](../images/aanvraagtypes-lijst-fr.png)
+Un type s'ouvre sur sa propre page, avec sa propre adresse web : copiez la barre d'adresse et votre collègue ouvre exactement ce type. En haut figurent le code et le nom du type, avec à gauche le bouton **Vers la liste**. La fiche a un seul onglet, **Général**, avec deux cartes.
+
+<!-- AFBEELDING: la fiche Type de demande dans le tenant demo (BADK) avec les cartes Identification et Question de taille, la ligne d'aperçu « Sur la fiche du lead : » et en bas Enregistrer, Annuler et Supprimer -->
+
+### Identification
+
+| Champ | Ce que vous saisissez |
+|---|---|
+| **Code** | Obligatoire |
+| **Nom (NL)** et **Nom (FR)** | Le nom dans la langue de base de votre entreprise est obligatoire ; l'autre langue porte la mention *optionnel* |
+| **Ordre** | La place dans la liste de choix. Un nouveau type reçoit une proposition en fin de liste |
+
+### Question de taille
+
+| Champ | Ce que vous saisissez |
+|---|---|
+| **Libellé (NL)** / **Libellé (FR)** | Le nom du champ sur la fiche du lead, p. ex. « Superficie » |
+| **Unité** | P. ex. `m²`, `personnes`, `ml` |
+
+Laissez le libellé vide si la taille n'a pas de sens pour ce type ; le champ n'apparaît alors pas sur la fiche du lead.
+
+Sous les champs, vous voyez immédiatement le nom du champ sur la fiche du lead, par exemple **Sur la fiche du lead : Superficie (m²)**.
+
+### Enregistrer
+
+Cliquez en bas sur **Enregistrer**. Vous revenez ensuite à la liste. **Annuler** vous ramène sans enregistrer.
+
+S'il manque quelque chose, un message en haut de la fiche indique quels champs sont encore vides.
 
 !!! tip "Modifications non enregistrées"
-    Si vous quittez la page avec des modifications non enregistrées, votre navigateur vous demande d'abord confirmation.
+    Si vous fermez ou rechargez l'onglet avec des modifications non enregistrées, votre navigateur vous demande d'abord confirmation.
 
 ## Supprimer
 
-Ouvrez le type et cliquez en bas à droite sur **Supprimer**. La question « Archiver ? » apparaît d'abord, avec le nom. Le type est **archivé** (corbeille) ; les leads existants avec ce type sont conservés.
+Ouvrez le type et cliquez en bas, après **Annuler**, sur **Supprimer**. Après confirmation, le type va dans la [corbeille](recycle-bin.md) ; les leads existants avec ce type sont conservés. Vous pouvez le récupérer via la corbeille.
 
 ## Erreurs fréquentes
 
 !!! warning
-    - **Nom français oublié** — les utilisateurs francophones voient alors l'autre langue en repli.
+    - **Nom dans l'autre langue oublié** — les utilisateurs de cette langue voient alors le nom dans la langue de base.
     - **Unité sans libellé** — l'unité n'apparaît que si un libellé est également renseigné.
     - **Supprimer un type encore utilisé** — les leads existants conservent leur type, mais les nouveaux leads ne peuvent plus le choisir.
 
@@ -50,5 +70,5 @@ Ouvrez le type et cliquez en bas à droite sur **Supprimer**. La question « Arc
 
 - [Administration](platform-management.md)
 - [Sources de leads](lead-sources.md)
-- [Statut de lead](lead-status.md)
+- [Phases de lead](lead-status.md)
 - [Leads](../crm/leads.fr.md)

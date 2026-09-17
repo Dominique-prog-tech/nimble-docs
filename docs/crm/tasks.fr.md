@@ -1,13 +1,26 @@
 # Tâches
 
 L'écran **Tâches** rassemble tout ce qui doit encore être fait, pour l'ensemble du logiciel : les tâches
-liées à un lead, à un client, à un projet. C'est l'endroit par lequel commencer le matin.
+liées à un lead, à un client, à un projet, à un ordre de travail, et les tâches libres. C'est l'endroit par lequel commencer le matin.
 
 ## Ouvrir l'écran
 
 Dans la barre latérale, cliquez sur **CRM → Tâches**.
 
 ![L'écran Tâches avec la barre de filtres, la colonne de pointage et la colonne Rattachée à.](../images/taken-scherm-fr.png)
+
+## La liste
+
+| Colonne | Signification |
+|---|---|
+| **Fait** | La coche pour terminer la tâche — voir ci-dessous |
+| **Titre** | Ce qui doit être fait |
+| **Rattachée à** | Ce à quoi la tâche appartient — un lead, une relation, un ordre de travail … —, précédé de son type, par exemple *Lead — …*. Une tâche rattachée à rien affiche *Tâche libre* |
+| **Début** | Quand vous commencez |
+| **Échéance** | Quand ce doit être prêt. Si ce jour est passé et que la tâche est encore ouverte, la date s'affiche en rouge |
+| **Statut** | En cours, En traitement, Terminée ou Annulée |
+| **Priorité** | Basse, Normale, Haute ou Urgente |
+| **Responsable** | Qui assure le suivi |
 
 ## Filtrer la liste
 
@@ -26,33 +39,46 @@ En haut se trouvent deux filtres et un compteur.
 
 ## Terminer une tâche
 
-Cliquez sur la coche dans la première colonne, **Fait**. La tâche est aussitôt terminée.
+Cliquez sur la coche dans la première colonne, **Fait**. La tâche est aussitôt terminée. La coche n'est
+cliquable que si vous pouvez modifier les tâches.
 
 Si la liste est sur **En cours uniquement**, elle disparaît de la vue. Vous avez été trop vite ? Passez le
 filtre sur **Y compris terminées** et recliquez la coche — la tâche est de nouveau ouverte.
 
 ## Ouvrir ou créer une tâche
 
-**Double-cliquez** sur une tâche pour l'ouvrir. Vous pouvez modifier :
+**Double-cliquez** sur une tâche pour l'ouvrir. Une fenêtre **Modifier la tâche** s'ouvre avec ces champs :
 
 | Champ | Remarque |
 |---|---|
 | **Titre** | Ce qui doit être fait. Obligatoire |
 | **Description** | Texte libre avec les détails |
 | **Début** et **Échéance** | Quand vous commencez et quand ce doit être prêt |
-| **Statut** | Ouvert, En cours, Terminé ou Annulé |
-| **Priorité** | Faible, Normale, Élevée ou Urgente |
-| **Responsable** | Qui assure le suivi |
+| **Statut** | En cours, En traitement, Terminée ou Annulée |
+| **Priorité** | Basse, Normale, Haute ou Urgente |
+| **Responsable** | Qui assure le suivi. Choisissez **Personne** pour la laisser libre |
 
-En bas de la fenêtre figure **Rattachée à** : le projet, la relation ou le lead auquel la tâche appartient.
-C'est à titre indicatif — le rattachement se modifie sur la fiche elle-même.
+Sous les champs figure **Rattachée à** : ce à quoi la tâche appartient. C'est à titre indicatif — le
+rattachement ne se modifie pas ici.
+
+En bas figurent **Enregistrer** et **Annuler**, et tout à droite **Supprimer**. Supprimer demande d'abord
+*Supprimer cette tâche ?* — la tâche disparaît alors de cette vue et de la fiche à laquelle elle est
+rattachée.
 
 **Nouvelle tâche** crée une tâche qui n'est rattachée à rien : une tâche libre.
+
+Ouvrir, créer, cocher et supprimer des tâches n'est possible que si vous pouvez modifier les tâches. Sans ce
+droit, vous voyez la liste, mais un double-clic n'ouvre rien et le bouton **Nouvelle tâche** n'apparaît pas.
 
 !!! tip "La tâche concerne un dossier ? Créez-la depuis ce dossier"
     Une tâche créée depuis le **Journal** d'un lead, d'un client ou d'un projet est immédiatement rattachée
     au bon dossier. Elle apparaît ensuite dans cet aperçu, avec la référence dans la colonne
     **Rattachée à**.
+
+!!! info "La fenêtre sur la fiche utilise d'autres mots"
+    Si vous créez une tâche dans l'onglet **Tâches** d'une fiche, les champs s'appellent **Objet**,
+    **Attribuée à**, **Dès le**, **Au** et **Texte**, et il y a aussi un **Rappel**. Voir
+    [Travailler avec une fiche](../fiches.fr.md#longlet-taches).
 
 ## Les tâches qui apparaissent d'elles-mêmes
 

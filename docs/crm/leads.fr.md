@@ -17,7 +17,7 @@ diffère.
 
 Chaque colonne est une phase de votre pipeline (Nouveau, Qualifié, Offre, Perdu …). Vous choisissez
 vous-même ces phases — voir [Phases de lead](../administration/lead-status.md). Le nom de chaque colonne
-est retraduisible via **Administration → Statut de lead** ; un statut marqué « Masqué » là-bas n'apparaît
+est retraduisible via **Administration → Phases de lead** ; un statut marqué « Masqué » là-bas n'apparaît
 pas ici comme colonne — sauf s'il contient encore un lead.
 
 ![Le tableau des leads avec les colonnes du pipeline ; les cartes dont la prochaine action est échue sont marquées.](../images/leads-bord-fr.png)
@@ -46,13 +46,17 @@ La vue tableau classique, avec les colonnes **Numéro**, **Nom**, **Statut**, **
 **Nouveau lead** pour en créer un. Cette vue se prête mieux au filtrage, au tri et à l'export que le
 tableau.
 
+À droite de la liste figure le rail **Journal**. Sélectionnez un lead et cliquez sur le rail : vous voyez
+les **Tâches**, les **Notes**, les **Pièces jointes** et l'**Historique** de ce lead sans ouvrir la fiche.
+Le tableau n'a pas de rail.
+
 ![La liste des leads avec les colonnes.](../images/leads-lijst-fr.png)
 
 ## La fiche du lead
 
-Un double-clic sur une carte comme sur une ligne de la liste ouvre la même fiche — une page à part
-entière, avec sa propre adresse, que vous pouvez transmettre. À gauche l'onglet **Fiche**, à droite
-**Tâches**, **Journal** et **Pièces jointes**. Les boutons du bas appartiennent à la fiche ; sur un
+Un clic sur une carte du tableau et un double-clic sur une ligne de la liste ouvrent la même fiche — une
+page à part entière, avec sa propre adresse, que vous pouvez transmettre. À gauche l'onglet **Fiche**, à
+droite **Tâches**, **Notes**, **Pièces jointes** et **Historique**. Les boutons du bas appartiennent à la fiche ; sur un
 onglet du journal, ils ne s'affichent pas. Voir [Travailler avec une fiche](../fiches.md).
 
 L'onglet **Fiche** est structuré en trois blocs — dans l'ordre où vous recevez généralement ces
@@ -64,7 +68,7 @@ informations au téléphone.
 |---|---|
 | **Entreprise** | Facultatif. Si vous le remplissez, c'est **elle** qui devient le client lors de la conversion, et la personne en devient le contact. Laissez vide pour un particulier |
 | **Nom** | Obligatoire — la personne qui a pris contact |
-| **Téléphone** | |
+| **Téléphone** | Optionnel, mais doit être un numéro de téléphone valide si renseigné |
 | **E-mail** | Optionnel, mais doit être valide si renseigné — une alerte s'affiche immédiatement en cas d'adresse invalide |
 | **Rue / N°** | |
 | **Code postal / Commune** | Tapez dans l'un des deux champs et cherchez dans la liste ; l'autre champ se complète automatiquement |
@@ -98,15 +102,15 @@ les avez saisis.
 | **Statut** | Le statut du pipeline ; les statuts masqués sans lead n'apparaissent pas dans la liste |
 | **Responsable** | L'utilisateur qui suit le lead |
 | **Numéro de lead** | Proposé automatiquement pour un nouveau lead — vous pouvez l'écraser, mais le champ reste obligatoire |
-| **Prochaine action / Date** | Quelle est la prochaine étape et pour quand |
+| **Prochaine action** / **Prochaine action pour le** | Quelle est la prochaine étape et pour quand |
 | **Motif de perte** | Apparaît et devient **obligatoire** dès que le statut est **Perdu** |
 | **Date de réactivation** | Apparaît et devient **obligatoire** dès que le statut est **En attente** |
 
 ![Le bloc Suivi d'un lead perdu : le statut est Perdu et le Motif de perte est visible.](../images/lead-blok-opvolging-fr.png)
 
-### Onglet Journal
+### Les onglets du journal
 
-Vous y trouvez tout ce qui s'est passé autour de ce lead, en trois listes que vous basculez en haut :
+En haut à droite de la fiche, quatre onglets rassemblent tout ce qui se passe autour de ce lead :
 
 ![La fiche du lead avec l'onglet Tâches ouvert.](../images/lead-tab-taken-fr.png)
 
@@ -114,11 +118,11 @@ Vous y trouvez tout ce qui s'est passé autour de ce lead, en trois listes que v
   ci-dessous) s'y trouvent aussi.
 - **Notes** — ce que vous notez vous-même sur ce lead. Si le lead est arrivé via votre site web, le texte
   complet de sa demande s'y trouve également.
-- **Historique** — qui a modifié quel champ de ce lead, et quand. En lecture seule.
 - **Pièces jointes** — documents et photos liés à ce lead : un plan envoyé par le client, une photo de la
   situation existante. Voir [Pièces jointes](../bijlagen.fr.md).
+- **Historique** — qui a modifié quel champ de ce lead, et quand. En lecture seule.
 
-L'onglet n'apparaît que pour un lead **existant** — un nouveau lead n'a pas encore de numéro auquel
+Ces onglets n'apparaissent que pour un lead **existant** — un nouveau lead n'a pas encore de numéro auquel
 rattacher des tâches ou des notes. Enregistrez-le d'abord.
 
 ## Suivi automatique
@@ -146,14 +150,14 @@ dans Nimble — vous n'avez rien à recopier.
 - Un lead est créé au statut **Nouveau**. La **source** est le nom de la clé de site web avec laquelle
   le formulaire a posté — vous voyez ainsi de quel formulaire le lead provient. Voir
   [Les leads depuis votre site web](leads-webformulier.md).
-- Le **contenu complet du formulaire** est repris dans le **Journal** de ce lead, y compris les champs
+- Le **contenu complet du formulaire** est repris comme note dans l'onglet **Notes** de ce lead, y compris les champs
   propres à votre formulaire. Ainsi, rien ne se perd.
 - Une **tâche** est ajoutée et un **e-mail** part vers l'adresse configurée dans
   [Fiche d'entreprise → Leads du site web vers](../settings/company-profile.md).
 
 !!! info "Une deuxième demande de la même adresse ne devient pas un deuxième lead"
     Si quelqu'un utilisant la même adresse e-mail demande encore quelque chose alors que son lead
-    précédent est toujours en cours, la nouvelle demande arrive comme **ligne de journal sur ce lead
+    précédent est toujours en cours, la nouvelle demande arrive comme **note sur ce lead
     existant** — avec une tâche. Vous n'avez donc pas deux cartes de la même personne dans votre
     pipeline.
 
@@ -166,13 +170,20 @@ dans Nimble — vous n'avez rien à recopier.
 
 ### En bas de la fiche
 
-- **Enregistrer** — enregistre le lead. Si le statut est Perdu ou En attente sans les données
-  obligatoires correspondantes, le bouton reste désactivé.
-- **Annuler** — revient à la liste sans enregistrer.
+Les boutons se trouvent en bas à droite, dans cet ordre :
+
+- **Enregistrer** — enregistre le lead et vous ramène à la liste. S'il manque encore quelque chose — le
+  numéro de lead, le nom, le motif de perte pour une phase perdue, la date de réactivation pour une phase en
+  pause — ou si l'adresse e-mail ou le numéro de téléphone n'est pas valide, un message en haut de la fiche
+  indique quel champ.
 - **Convertir en client** — visible uniquement pour un lead existant, pas encore converti. Voir
   [ci-dessous](#convertir-un-lead-en-client).
-- **Supprimer** — uniquement pour un lead existant. Archive le lead dans la corbeille ; rien n'est
-  supprimé définitivement.
+- **Annuler** — revient à la liste sans enregistrer.
+- **Supprimer** — à part, tout à droite, et uniquement pour un lead existant. Archive le lead dans la
+  corbeille, où vous pouvez le restaurer.
+
+Sans droit de modification, vous ne voyez ni **Enregistrer**, ni **Convertir en client**, ni **Supprimer**,
+et le bouton s'appelle **Vers la liste**.
 
 ## Convertir un lead en client
 
@@ -214,8 +225,8 @@ correspondance, la question vous est posée :
 !!! warning
     - **Motif de perte ou date de réactivation manquant lors du glisser-déposer** — le déplacement sur le
       tableau n'a alors pas lieu ; complétez le champ demandé dans la fenêtre contextuelle.
-    - **Adresse e-mail invalide** — la fiche ne refuse pas immédiatement l'enregistrement, mais affiche un
-      avertissement ; corrigez-le avant d'enregistrer.
+    - **Adresse e-mail ou numéro de téléphone invalide** — le lead n'est alors pas enregistré. Le message en
+      haut de la fiche nomme le champ ; corrigez-le et cliquez à nouveau sur **Enregistrer**.
     - **Numéro de lead vidé sans remplacement** — le champ est obligatoire ; ne laissez pas le champ vide
       après l'avoir écrasé.
     - **Mettre l'entreprise dans le champ Nom.** Votre client portera alors le nom de la personne qui a
@@ -228,7 +239,7 @@ correspondance, la question vous est posée :
 - [Fiche d'entreprise](../settings/company-profile.md) — configurer qui reçoit les leads du site web
 - [Sources de leads](../administration/lead-sources.md)
 - [Types de demande](../administration/lead-request-types.md)
-- [Statut de lead](../administration/lead-status.md)
+- [Phases de lead](../administration/lead-status.md)
 - [Relations](../relations.md)
 - [Filtrer les listes](../lijsten-filteren.md) — le bouton entonnoir, le générateur de filtres et la barre de filtre
 - [Travailler avec une fiche](../fiches.md) — adresse propre, onglets, enregistrer et archiver

@@ -7,20 +7,34 @@ Een rol is een bundel rechten. U kent een rol toe aan een gebruiker in plaats va
 1. Klik onderaan in de zijbalk op **Platformbeheer**.
 2. Klik in de groep **Gegevens en toegang** op de tegel **Rollen**.
 
+Het scherm heet **Rollen & rechten**. Het is in drie kolommen verdeeld: **Rollen**, **Rechten** en
+**Gebruikers met deze rol**.
+
+<!-- AFBEELDING: het scherm Rollen & rechten in tenant demo met een zelfgemaakte rol geselecteerd — links de lijst Rollen met Nieuwe rol en Toevoegen, in het midden de rechten met vinkjes per onderdeel en Rechten bewaren, rechts Gebruikers met deze rol met Sofie Maes, Pieter Janssens en Elke Wouters. Te schieten als tenant-beheerder, niet als operator: het operatorbeeld toont de tenantkeuze met echte klantnamen -->
+
+!!! info "Voor ADM-operators: eerst een tenant kiezen"
+    Een operator ziet bovenaan de keuzelijst **Tenant**. Zolang er **— kies een tenant —** staat, verschijnen
+    de kolommen niet. Als beheerder van uw eigen bedrijf ziet u die keuzelijst niet; u werkt meteen in uw
+    eigen omgeving.
+
 ## Een rol aanmaken
 
-1. Kies bovenaan de **Tenant** waarvoor u rollen beheert. Zolang er geen gekozen is, staat er **— kies een tenant —**.
-2. Typ de naam bij **Nieuwe rol** en klik op **Toevoegen**.
+Typ de naam in het veld **Nieuwe rol** onder de lijst **Rollen** en klik op **Toevoegen**. De nieuwe rol
+verschijnt in de lijst.
 
-De nieuwe rol verschijnt in de lijst **Rollen** links.
+## De systeemrol
+
+Eén rol draagt een slotje (🔒): de systeemrol voor het beheer van uw omgeving. Die rol heeft **automatisch
+alle rechten** die u kunt toekennen. U kunt haar rechten niet aanpassen en de rol niet verwijderen; nieuwe
+rechten komen er vanzelf bij.
+
+Wilt u iemand slechts een deel van het beheer geven, maak dan een aparte rol aan.
 
 ## Rechten toekennen
 
-Selecteer een rol in de lijst. Rechts verschijnt **Rechten**: een lijst met vinkvakjes, gegroepeerd per onderdeel van Nimble. Vink aan wat deze rol mag en klik op **Rechten bewaren**. Bij een geslaagde bewaring verschijnt **✓ bewaard**.
-
-Onder **Gebruikers met deze rol** ziet u wie de rol vandaag draagt. Staat daar **Er zijn nog geen gebruikers**, dan is de rol aangemaakt maar nog aan niemand toegekend.
-
-Met **Rol verwijderen** haalt u een rol weg. Doe dat pas nadat u de gebruikers die hem dragen een andere rol gegeven hebt.
+Klik op een rol in de lijst. In het midden verschijnt **Rechten — {naam van de rol}**: vinkjes, gegroepeerd per
+onderdeel van Nimble. Vink aan wat deze rol mag en klik op **Rechten bewaren**. Bij een geslaagde bewaring
+verschijnt **✓ bewaard**.
 
 ## Wat een recht doet
 
@@ -42,10 +56,23 @@ Zo stelt u de rollen samen die u voor ogen hebt: een verkoper die offertes maakt
 !!! tip "Ziet iemand geen knoppen meer?"
     Dan draagt zijn rol wel het kijkrecht maar niet het bewerkrecht voor dat gebied. Vink het aan bij **Rechten** en laat de persoon zich opnieuw aanmelden.
 
+## Gebruikers toewijzen
+
+Rechts, onder **Gebruikers met deze rol**, staan alle gebruikers van uw omgeving met een vinkje ervoor. Achter
+elke naam staan als label de rollen die die persoon nu draagt.
+
+Vink een gebruiker aan om hem deze rol te geven, of vink hem uit om de rol af te nemen. Staat er **Er zijn nog
+geen gebruikers.**, dan zijn er in deze omgeving nog geen gebruikers.
+
+## Een rol verwijderen
+
+Selecteer de rol en klik onder de lijst op **Rol verwijderen**. Die knop staat niet bij de systeemrol. Geef de
+gebruikers die de rol dragen eerst een andere rol.
+
 ## Veelgemaakte fouten
 
 !!! warning
-    **Neem nooit het laatste beheerrecht weg.** Vinkt u bij de enige rol die rollen mag beheren dat recht uit, dan kan niemand het nog terugzetten — ook u niet. Maak eerst een tweede rol met dat recht aan, of controleer dat u zelf een andere rol met beheerrechten hebt.
+    **Neem niet uw eigen laatste beheerrecht weg.** Draagt u een zelfgemaakte rol met het recht om rollen te beheren, en vinkt u dat recht uit, dan kunt u het zelf niet meer terugzetten. Laat dat dan doen door iemand met de systeemrol.
 
 !!! info
     **Wanneer een wijziging geldt, hangt af van wát u wijzigt.**
@@ -55,5 +82,5 @@ Zo stelt u de rollen samen die u voor ogen hebt: een verkoper die offertes maakt
 
 ## Zie ook
 
-- [Gebruikers](users.md) — een rol aan iemand toekennen
-- [Klantenregister](tenants.md) — voor welke klant u rollen beheert
+- [Gebruikers](users.md) — gebruikers aanmaken (voor ADM-operators)
+- [Platformbeheer](platform-management.md)

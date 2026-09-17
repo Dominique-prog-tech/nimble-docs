@@ -1,58 +1,94 @@
 # Conversion
 
-Sur l'écran **Conversion**, vous transférez les données du **tenant actif** depuis la base héritée (Firebird) vers Nimble (PostgreSQL).
+!!! info "Pour les opérateurs ADM"
+    Cet écran est réservé aux collaborateurs d'ADM-Concept. En tant que client de Nimble, vous ne le voyez pas.
 
-!!! warning "Réservé aux opérateurs"
-    Cet écran est destiné aux opérateurs ADM (sans tenant fixe). Les utilisateurs liés à un tenant ne le voient pas.
+Sur l'écran **Conversion**, vous transférez les données du **tenant actif** depuis la base de données de
+l'ancien logiciel (Firebird) vers Nimble (PostgreSQL). Une seule routine convertit tout dans le bon ordre ;
+elle est répétable et ne crée pas de doublons.
 
 ## Ouvrir l'écran
 
-1. Cliquez en bas de la barre latérale sur **Gestion de la plateforme**.
-2. Choisissez le bon tenant via la tuile **Tenants** du groupe **Gestion ADM** → **Utiliser**.
-3. Revenez à **Gestion de la plateforme** et cliquez dans le groupe **Gestion ADM** sur la tuile **Conversion**.
+1. Cliquez sur **Administration** en bas de la barre latérale.
+2. Choisissez le bon tenant : tuile **Tenants** du groupe **Gestion ADM** → **Utiliser →**.
+3. Revenez à **Administration** et cliquez dans le groupe **Gestion ADM** sur la tuile **Conversion**.
+
+En haut figure **Tenant actif :** avec le code du tenant. Si aucun n'est choisi, vous lisez **aucun —
+choisissez-en un d'abord dans Tenants**, avec le message **Choisissez d'abord un tenant (Gestion de la
+plateforme → Tenants → Utiliser) et configurez sa source Firebird.**
+
+![L'écran de conversion pour le tenant demo : le bloc Source Firebird héritée sans chemin, le bouton Convertir ce tenant, puis les blocs Importer les utilisateurs hérités et Générer des données de démonstration.](../images/conversie-scherm-fr.png)
 
 ## Source Firebird héritée
 
-En haut, vous voyez l'état de la connexion Firebird pour le tenant actif :
+Ce bloc indique si Nimble peut lire la base Firebird du tenant actif :
 
-![L'écran de conversion avec le tenant actif, le bloc Source Firebird héritée — ici sans chemin configuré — et le bouton de démarrage.](../images/conversie-scherm-fr.png)
+- **Vérification…** — le test est en cours.
+- **Connecté (lecture seule)** — la source est accessible. Le nombre de lignes de `CRM_ACCOUNTS` suit.
+- **Aucun chemin Firebird configuré pour ce tenant (Tenants → source Firebird).** — configurez d'abord le
+  chemin sur l'écran [Tenants](tenants.md).
+- Un message d'erreur rouge — la source est configurée mais inaccessible.
 
-- **Connecté (lecture seule)** — la source est accessible ; le nombre de lignes `CRM_ACCOUNTS` peut s'afficher.
-- **Aucun chemin Firebird** — configurez d'abord le chemin via **Gestion de la plateforme → Tenants → source Firebird**.
-- **Retester** — relance le test de connexion.
+**Retester** relance le test.
 
-Nimble lit l'héritage en **lecture seule**. L'héritage reste le seul écrivain tant que la migration est en cours.
+Nimble lit la base Firebird en **lecture seule**. L'ancien logiciel reste le seul écrivain tant que la
+migration est en cours.
 
 ## Lancer la conversion
 
-Cliquez sur **Convertir ce tenant**. Nimble exécute tous les éléments de conversion dans le bon ordre.
+Cliquez sur **Convertir ce tenant**. Le bouton ne fonctionne que lorsque la source est **Connecté**. Pendant
+le traitement s'affiche **Conversion en cours…**.
 
 À la fin, vous voyez pour chaque élément :
 
 | Colonne | Signification |
 |---|---|
-| **Élément** | Quelle partie des données (p. ex. Relations / `CRM_ACCOUNTS`) |
+| **Élément** | Quelle partie des données, p. ex. *Relaties (CRM_ACCOUNTS)* ou *Offertes (FIN_SALES_QUOTES_HEADER)* |
 | **Nombre** | Combien de lignes ont été traitées |
-| **Statut** | OK ou Échec (survolez Échec pour le message d'erreur) |
+| **Statut** | **OK** en vert, ou le message d'erreur en rouge |
 
-## Que deviennent les relations ?
+Sous le tableau figure le total : **Terminé — … lignes traitées au total.**
 
-L'élément **Relations (CRM_ACCOUNTS)** convertit les comptes actifs en relations Nimble :
-
-- **Upsert** sur la clé héritée (source + table + id) — répétable, sans doublons.
-- Les relations existantes sont **mises à jour** ; les nouvelles sont ajoutées.
-- Les lignes sans nom utilisable sont ignorées.
+Les éléments comprennent notamment la fiche d'entreprise, les relations, les fournisseurs, les personnes de
+contact, les fonctions de contact, les tâches, rendez-vous et notes, les groupes d'articles et les articles,
+les codes TVA, les devis et leurs lignes, les factures et leurs lignes, les états d'avancement, les factures
+d'achat, les projets avec leurs phases, matériaux et articles, les équipes, et les listes de choix statuts de
+production, statuts pipeline et types de projet.
 
 !!! tip "Répétable"
-    Vous pouvez relancer la conversion après une correction de mapping ou de nouvelles données Firebird. Les identifiants Nimble existants sont conservés.
+    Vous pouvez relancer la conversion, par exemple après de nouvelles données dans Firebird. Aucun doublon
+    n'est créé.
+
+## Importer les utilisateurs hérités
+
+**Importer / synchroniser les utilisateurs** convertit les utilisateurs backoffice actifs de Firebird en
+comptes pour ce tenant.
+
+- Les comptes existants sont synchronisés : nom, rôle et liaison ADM One. Leur mot de passe reste inchangé.
+- Seuls les nouveaux comptes reçoivent un mot de passe temporaire issu des paramètres du serveur.
+- À la fin, vous voyez combien d'utilisateurs ont été créés, mis à jour et ignorés, avec éventuellement une
+  liste de messages.
+
+Ce bouton aussi ne fonctionne que lorsque la source est **Connecté**.
+
+## Générer des données de démonstration
+
+Ce bloc n'apparaît que sur le tenant **demo**. **Générer les données de démonstration** remplit ce tenant avec
+des données fictives mais réalistes : listes de base, articles, relations, personnes de contact, leads,
+collaborateurs et projets. Ce qui existe est conservé. À la fin, un tableau indique par élément combien
+d'enregistrements sont **Nouveaux** et combien sont **Déjà présents**.
 
 ## Erreurs fréquentes
 
 !!! warning
-    - **Aucun tenant choisi** — choisissez d'abord un tenant dans Tenants.
-    - **Aucun chemin Firebird** — configurez la source sur la fiche tenant.
-    - **Connexion échouée** — vérifiez que le serveur Firebird est joignable (dev : port 3052).
+    - **Aucun tenant choisi** — choisissez d'abord un tenant via **Tenants → Utiliser →**.
+    - **Aucun chemin Firebird** — saisissez le chemin du tenant sur l'écran **Tenants** et cliquez sur
+      **Enregistrer**.
+    - **Connexion échouée** — vérifiez que le serveur Firebird est joignable et que le chemin est correct, puis
+      cliquez sur **Retester**.
 
 ## Voir aussi
 
-- [Relations](../relations.md) — l'écran où apparaissent les données importées
+- [Tenants](tenants.md) — choisir le tenant et configurer le chemin Firebird
+- [Utilisateurs](users.md)
+- [Relations](../relations.md) — l'écran où apparaissent les relations importées

@@ -28,16 +28,20 @@ Klik in de zijbalk op **CRM → Contactpersonen**.
 
 De zoekbalk zoekt over alle kolommen, ook over **Bedrijven** — typ een bedrijfsnaam om te zien wie daar werkt. Een persoon die aan geen enkel bedrijf hangt, toont de melding *aan geen bedrijf gekoppeld*; ook die vindt u hier terug.
 
-- **Nieuw** — klik op **Nieuwe contactpersoon**.
+- **Nieuw** — klik op **Nieuwe contactpersoon**. Die knop ziet u enkel als u relaties mag wijzigen.
 - **Bewerken** — **dubbelklik** een rij.
 - **Naar de klant springen** — klik een bedrijfsnaam in de kolom **Bedrijven** aan; de klantenfiche opent meteen.
 - **Exporteren** — de lijst naar Excel of CSV.
 - **Journaal** — klik rechts op de rail **Journaal** voor de zijkant van de geselecteerde persoon:
     - **Taken** — wat er voor deze persoon nog moet gebeuren.
-    - **Logboek** — wie welk veld van deze persoon wijzigde, en wanneer. Alleen om te lezen.
+    - **Notities** — wat u zelf noteert over deze persoon. Zie [Notities](../notities.md).
     - **Bijlagen** — documenten en foto's bij deze persoon. Zie [Bijlagen](../bijlagen.md).
+    - **Logboek** — wie welk veld van deze persoon wijzigde, en wanneer. Alleen om te lezen.
 
 ## De contactfiche
+
+Links staat het tabblad **Algemeen** met de blokken hieronder. Rechts staat het journaal van deze persoon:
+**Taken**, **Notities**, **Bijlagen** en **Logboek** — zie [Werken met een fiche](../fiches.md).
 
 ### Blok Persoon
 
@@ -46,15 +50,15 @@ De zoekbalk zoekt over alle kolommen, ook over **Bedrijven** — typ een bedrijf
 | **Voornaam** | Optioneel. |
 | **Achternaam** | Verplicht. |
 | **Functie** | Keuzelijst; zoek door te typen. Beheerd via **Platformbeheer → Contactfuncties**. |
+| **Actief** | Uitvinken is een statusmarkering, geen verwijdering. |
 
 ### Blok Bereikbaarheid
 
 | Veld | Uitleg |
 |---|---|
 | **E-mail** | Optioneel, maar ingevuld moet het geldig zijn — u ziet de melding tijdens het typen. |
-| **Gsm** en **Telefoon** | Vrije tekst. Gsm staat eerst, omdat dat in de praktijk het nummer is dat ingevuld raakt. |
+| **Gsm** en **Telefoon** | Optioneel, maar ingevuld moet het een geldig telefoonnummer zijn. Gsm staat eerst, omdat dat in de praktijk het nummer is dat ingevuld raakt. |
 | **Taal** | Bij een nieuwe persoon staat de taal van uw bedrijf al voorgesteld. |
-| **Actief** | Uitvinken is een statusmarkering, geen verwijdering. |
 
 ### Blok Privéadres
 
@@ -75,14 +79,14 @@ Hier koppelt u de persoon aan de bedrijven waar hij werkt.
 - **Koppelen** — kies een bedrijf in de zoeklijst en klik op **Koppelen**.
 - **Loskoppelen** — haalt de koppeling weg. De persoon zelf blijft bestaan.
 
-!!! note "Alles gaat pas mee bij Opslaan"
-    Ook koppelingen, rollen en e-mailadressen worden pas weggeschreven wanneer u op **Opslaan** klikt. **Annuleren** laat alles zoals het was — ook de koppelingen.
+!!! note "Alles gaat pas mee bij Bewaren"
+    Ook koppelingen, rollen en e-mailadressen worden pas weggeschreven wanneer u op **Bewaren** klikt. **Annuleren** laat alles zoals het was — ook de koppelingen.
 
 ## Onderaan de fiche
 
-- **Opslaan** — actief zodra er een achternaam staat en alle e-mailadressen geldig zijn.
+- **Bewaren** — bewaart en brengt u terug naar de lijst. Ontbreekt de achternaam, of is een e-mailadres of telefoonnummer ongeldig, dan zegt een melding bovenaan de fiche wat er moet gebeuren. Staat het ongeldige adres bij een bedrijf, dan verwijst de melding naar het blok **Bedrijven**.
 - **Annuleren** — gaat terug naar de lijst zonder te bewaren.
-- **Verwijderen** — alleen bij een bestaande persoon. De fiche wordt **gearchiveerd** naar de **Prullenbak**; de koppelingen met bedrijven blijven bestaan, zodat herstellen de persoon mét zijn bedrijven terugbrengt.
+- **Verwijderen** — alleen bij een bestaande persoon, en alleen als u relaties mag wijzigen. De fiche wordt **gearchiveerd** naar de **Prullenbak**; de koppelingen met bedrijven blijven bestaan, zodat herstellen de persoon mét zijn bedrijven terugbrengt.
 
 ## Veelgemaakte fouten
 
@@ -96,4 +100,4 @@ Hier koppelt u de persoon aan de bedrijven waar hij werkt.
 
 - [Relaties](../relations.md) — de bedrijven waar deze personen aan hangen
 - [Contactfuncties](../administration/contact-functions.md) — de lijst met functietitels
-- [Werken met een fiche](../fiches.md) — eigen adres, tabbladen, opslaan en archiveren
+- [Werken met een fiche](../fiches.md) — eigen adres, tabbladen, bewaren en archiveren

@@ -15,7 +15,6 @@ Cliquez sur **CRM → Relations** dans la barre latérale.
 | **Nom** | Nom d'entreprise ou nom d'affichage |
 | **Numéro de TVA** | Numéro d'entreprise |
 | **Commune** | Code postal et commune réunis |
-| **Responsable** | L'interlocuteur fixe au sein de votre équipe |
 | **Langue** | La langue des documents de cette relation |
 | **Type** | Badges Client / Fournisseur |
 | **Créé le** | Date de création de la fiche |
@@ -26,15 +25,18 @@ Cliquez sur **CRM → Relations** dans la barre latérale.
 - **Exporter** — exportez la liste vers Excel ou CSV.
 - **Nouveau** — cliquez sur **Nouvelle relation**.
 - **Modifier** — **double-cliquez** une ligne pour ouvrir la fiche.
-- **Journal** — cliquez à droite sur le rail **Journal** pour le côté de la relation sélectionnée. Il comporte quatre onglets :
-    - **Contacts** — qui contacter chez ce client. Les adresses e-mail et les numéros sont cliquables, ce qui vous permet d'appeler ou d'écrire sans ouvrir la fiche. Cliquez une carte pour ouvrir la fiche de contact, ou utilisez **Nouvelle personne de contact** pour en lier une directement à ce client.
+- **Journal** — cliquez à droite sur le rail **Journal** pour le côté de la relation sélectionnée. Il comporte cinq onglets :
+    - **Contacts** — qui contacter chez ce client. Les adresses e-mail et les numéros sont cliquables, ce qui vous permet d'appeler ou d'écrire sans ouvrir la fiche. Cliquez une carte pour ouvrir la fiche de contact. Si vous pouvez modifier les relations, **Nouvelle personne de contact** en crée une directement liée à ce client.
     - **Tâches** — ce qui doit encore être fait.
-    - **Historique** — qui a modifié quel champ de ce client, et quand. En lecture seule.
+    - **Notes** — ce que vous notez vous-même sur ce client. Voir [Notes](notities.fr.md).
     - **Pièces jointes** — documents et photos liés à ce client. Voir [Pièces jointes](bijlagen.fr.md).
+    - **Historique** — qui a modifié quel champ de ce client, et quand. En lecture seule.
 
 ## La fiche de relation
 
-La fiche comporte deux onglets : **Fiche** et **Personnes de contact**. Les boutons **Enregistrer**, **Annuler** et **Supprimer** se trouvent sous les onglets et valent pour les deux — vous pouvez donc enregistrer depuis n'importe quel onglet.
+À gauche figurent les onglets **Fiche** et **Personnes de contact**. À droite figure le journal de ce client : **Tâches**, **Notes**, **Pièces jointes** et **Historique** — voir [Travailler avec une fiche](fiches.fr.md).
+
+Les boutons **Enregistrer**, **Annuler** et **Supprimer** se trouvent en bas et valent pour **Fiche** et **Personnes de contact** ensemble — vous pouvez donc enregistrer depuis l'un ou l'autre de ces onglets. Sur un onglet du journal, ils ne s'affichent pas.
 
 L'onglet **Fiche** est divisé en blocs.
 
@@ -71,8 +73,8 @@ Saisissez le numéro de TVA et cliquez sur **Récupérer**. Le nom, la rue, le n
 
 | Champ | Explication |
 |---|---|
-| **E-mail** | Optionnel, mais s'il est rempli, il doit être valide — le message apparaît pendant la saisie. |
-| **Téléphone** | Texte libre. |
+| **E-mail** | Optionnel, mais s'il est rempli, il doit être valide — le message apparaît pendant la saisie. Pour plusieurs adresses, séparez-les par `;` ou `,`. |
+| **Téléphone** | Optionnel, mais s'il est rempli, il doit s'agir d'un numéro de téléphone valide. |
 
 ### Bloc Classification
 
@@ -81,7 +83,7 @@ Saisissez le numéro de TVA et cliquez sur **Récupérer**. Le nom, la rue, le n
 | **Catégorie** | Catégorie de client issue de l'**Administration**. Recherchez en tapant. |
 | **Source** | Comment cette relation vous a connu. La même liste que la **source du lead**, afin qu'un lead converti conserve son origine. |
 | **Responsable** | L'interlocuteur fixe au sein de votre équipe. |
-| **Langue des documents** | Détermine la langue des devis et factures pour ce client, indépendamment de la langue dans laquelle vous travaillez. Vide = la langue par défaut de votre entreprise. |
+| **Langue des documents** | Obligatoire. Détermine la langue des devis, factures et e-mails pour ce client, indépendamment de la langue dans laquelle vous travaillez. |
 | **Délai de paiement (jours)** | Le nombre de jours dont ce client dispose pour payer. Il détermine l'échéance proposée sur une nouvelle facture. Vide = le standard de votre entreprise, à régler sur la fiche d'entreprise. **0 signifie au comptant** — ce qui n'est pas la même chose que vide. |
 | **Client** / **Fournisseur** | Cochez ce qui s'applique — les deux sont possibles. |
 | **Actif** | Décocher ne masque pas automatiquement la relation dans toutes les listes ; utilisez-le comme marqueur de statut. |
@@ -92,6 +94,8 @@ Saisissez le numéro de TVA et cliquez sur **Récupérer**. Le nom, la rue, le n
 
 Ce bloc n'apparaît que pour une relation née d'un **lead**, et uniquement si vous êtes autorisé à consulter les leads. Il affiche, en lecture seule : numéro de lead, statut, type de demande, ampleur, budget, timing, urgence, prochaine action avec sa date, et la date de création du lead. Les champs que le lead n'avait pas restent absents.
 
+Si des documents étaient joints au lead, ils figurent en bas du bloc sous **Documents de la demande**. Cliquez sur un nom pour ouvrir le fichier. Les documents restent conservés sur le lead.
+
 ![Un client issu d'un lead, avec le bloc complet Issu d'un lead.](images/relatie-herkomst-lead-fr.png)
 
 !!! note "Pourquoi pas simplement des champs sur le client ?"
@@ -100,6 +104,8 @@ Ce bloc n'apparaît que pour une relation née d'un **lead**, et uniquement si v
 ### Onglet Personnes de contact
 
 Vous gérez ici qui répond chez ce client. Le nombre figure dans le titre de l'onglet, ce qui vous évite de l'ouvrir pour savoir si quelqu'un y est lié.
+
+Pour une nouvelle relation, vous lisez ici : *Enregistrez d'abord la relation ; vous pourrez ensuite y lier des personnes de contact.*
 
 ![L'onglet Personnes de contact avec deux personnes liées, leur rôle et leur e-mail.](images/relatie-contactpersonen-fr.png)
 
@@ -114,19 +120,19 @@ Vous gérez ici qui répond chez ce client. Le nombre figure dans le titre de l'
 - **Délier** — supprime le lien. La personne elle-même subsiste ; elle peut travailler dans une autre entreprise.
 
 !!! note "Tout est enregistré avec Enregistrer"
-    Les liens et les rôles ne sont écrits qu'au moment où vous cliquez sur **Enregistrer**. **Annuler** laisse tout en l'état.
+    Les liens, les rôles et les adresses e-mail ne sont écrits qu'au moment où vous cliquez sur **Enregistrer**. **Annuler** laisse tout en l'état.
 
 ## En bas de la fiche
 
-- **Enregistrer** — conserve les modifications. Actif uniquement avec un nom rempli et une adresse e-mail valide.
+- **Enregistrer** — conserve les modifications et vous ramène à la liste. S'il manque encore quelque chose — le nom, la langue des documents — ou si une adresse e-mail ou un numéro de téléphone n'est pas valide, un message en haut de la fiche indique ce qu'il faut faire. Si l'adresse non valide est celle d'une personne de contact, le message renvoie à l'onglet **Personnes de contact**.
 - **Annuler** — revient à la liste sans conserver.
 - **Supprimer** — uniquement pour une relation existante, voir ci-dessous.
 
 ## Supprimer
 
-Sur la fiche, cliquez sur **Supprimer**. La question « Archiver ? » apparaît d'abord, avec le nom. Après confirmation, la relation est **archivée** (soft-delete) et arrive dans la **Corbeille**, où vous pouvez la restaurer avant suppression définitive.
+Sur la fiche, cliquez sur **Supprimer**. La question « Archiver ? » apparaît d'abord, avec le nom. Après confirmation, la relation est **archivée** et arrive dans la **Corbeille**, où vous pouvez la restaurer.
 
-Enregistrer et Supprimer n'apparaissent que si vous disposez du **droit de modification** ; sans ce droit, vous pouvez lire la fiche mais pas la modifier.
+Enregistrer et Supprimer n'apparaissent que si vous disposez du **droit de modification** ; sans ce droit, vous pouvez lire la fiche mais pas la modifier, et le bouton en bas s'appelle **Vers la liste**.
 
 ## Erreurs fréquentes
 
@@ -136,14 +142,9 @@ Enregistrer et Supprimer n'apparaissent que si vous disposez du **droit de modif
     - **Confondre la langue des documents avec votre propre langue** — ce champ détermine la langue des documents que le client reçoit, pas celle de votre écran.
     - **Décocher Actif pour supprimer** — c'est **Supprimer** qui sert à cela ; **Actif** n'est qu'un marqueur.
 
-## Données depuis l'héritage
-
-Vous disposez d'une base Firebird existante ? Via **Gestion de la plateforme → Conversion**, importez les `CRM_ACCOUNTS` actives comme relations. La conversion est répétable : les lignes existantes sont mises à jour via la clé héritée, sans doublons.
-
 ## Voir aussi
 
 - [Leads](crm/leads.fr.md) — du premier contact à la conversion en client
 - [Personnes de contact](crm/contactpersonen.fr.md) — les personnes derrière ces entreprises
-- [Conversion](administration/conversion.md) — transfert Firebird → PostgreSQL
 - [Filtrer les listes](lijsten-filteren.md) — le bouton entonnoir, le générateur de filtres et la barre de filtre
 - [Travailler avec une fiche](fiches.md) — adresse propre, onglets, enregistrer et archiver

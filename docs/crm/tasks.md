@@ -1,13 +1,26 @@
 # Taken
 
 Op het scherm **Taken** staat alles wat nog moet gebeuren, uit het hele pakket samen: taken bij een lead,
-bij een klant, bij een project. Het is de plek om 's morgens te beginnen.
+bij een klant, bij een project, bij een werkorder, en losse taken. Het is de plek om 's morgens te beginnen.
 
 ## Het scherm openen
 
 Klik in de zijbalk op **CRM → Taken**.
 
 ![Het takenscherm met de filterbalk, de afvinkkolom en de kolom Hangt aan.](../images/taken-scherm.png)
+
+## De lijst
+
+| Kolom | Betekenis |
+|---|---|
+| **Klaar** | Het vinkje om de taak af te werken — zie hieronder |
+| **Titel** | Wat er moet gebeuren |
+| **Hangt aan** | Waar de taak bij hoort, met het soort ervoor: *Lead — …*, *Relatie — …*, *Werkorder — …*. Een taak die nergens aan hangt, toont *Losse taak* |
+| **Start** | Wanneer u eraan begint |
+| **Vervaldag** | Wanneer het klaar moet zijn. Is die dag voorbij en staat de taak nog open, dan staat de datum in het rood |
+| **Status** | Open, Bezig, Afgewerkt of Geannuleerd |
+| **Prioriteit** | Laag, Normaal, Hoog of Dringend |
+| **Verantwoordelijke** | Wie de taak opvolgt |
 
 ## De lijst filteren
 
@@ -26,14 +39,15 @@ Bovenaan staan twee filters en een teller.
 
 ## Een taak afwerken
 
-Klik het vinkje in de eerste kolom, **Klaar**. De taak is meteen afgewerkt.
+Klik het vinkje in de eerste kolom, **Klaar**. De taak is meteen afgewerkt. Het vinkje is enkel aanklikbaar
+als u taken mag wijzigen.
 
 Staat de lijst op **Enkel openstaand**, dan verdwijnt ze uit beeld. Was u te snel, zet het filter dan op
 **Ook afgewerkt** en klik het vinkje opnieuw — de taak staat weer open.
 
 ## Een taak openen of aanmaken
 
-**Dubbelklik** op een taak om ze te openen. U kunt aanpassen:
+**Dubbelklik** op een taak om ze te openen. Er opent een venster **Taak bewerken** met deze velden:
 
 | Veld | Opmerking |
 |---|---|
@@ -42,17 +56,28 @@ Staat de lijst op **Enkel openstaand**, dan verdwijnt ze uit beeld. Was u te sne
 | **Start** en **Vervaldag** | Wanneer u eraan begint en wanneer het klaar moet zijn |
 | **Status** | Open, Bezig, Afgewerkt of Geannuleerd |
 | **Prioriteit** | Laag, Normaal, Hoog of Dringend |
-| **Verantwoordelijke** | Wie de taak opvolgt |
+| **Verantwoordelijke** | Wie de taak opvolgt. Kies **Niemand** om ze vrij te laten |
 
-Onderaan het venster ziet u **Hangt aan**: het project, de relatie of de lead waar de taak bij hoort. Dat
-is alleen ter informatie — waar een taak aan hangt, wijzigt u op de fiche zelf.
+Onder de velden ziet u **Hangt aan**: waar de taak bij hoort. Dat is alleen ter informatie — waar een taak
+aan hangt, wijzigt u hier niet.
+
+Onderaan staan **Bewaren** en **Annuleren**, en helemaal rechts **Verwijderen**. Verwijderen vraagt eerst
+*Deze taak verwijderen?* — de taak verdwijnt dan uit dit overzicht én van de fiche waar ze aan hangt.
 
 Met **Nieuwe taak** maakt u er een aan die aan niets hangt: een losse taak.
+
+Taken openen, aanmaken, afvinken en verwijderen kan enkel als u taken mag wijzigen. Zonder dat recht ziet u
+de lijst, maar opent een dubbelklik niets en staat er geen knop **Nieuwe taak**.
 
 !!! tip "Hangt de taak bij een dossier? Maak ze daar aan"
     Een taak die u vanuit het **Journaal** van een lead, klant of project aanmaakt, hangt meteen aan het
     juiste dossier. Ze verschijnt daarna gewoon in dit overzicht, met de verwijzing in de kolom
     **Hangt aan**.
+
+!!! info "Het venster op de fiche gebruikt andere woorden"
+    Maakt u een taak aan op het tabblad **Taken** van een fiche, dan heten de velden **Onderwerp**,
+    **Toegewezen aan**, **Vanaf**, **Tot** en **Tekst**, en is er ook een **Herinnering**. Zie
+    [Werken met een fiche](../fiches.md#het-tabblad-taken).
 
 ## Taken die vanzelf verschijnen
 

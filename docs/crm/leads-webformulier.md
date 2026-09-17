@@ -38,7 +38,8 @@ dus met rust.
 
 !!! tip "Een nieuwe sleutelnaam verschijnt vanzelf in uw leadbronnen"
     Komt er een lead binnen via een sleutel waarvan de naam nog niet in uw lijst staat, dan wordt die bron
-    aangemaakt. U vindt en hernoemt ze bij **Platformbeheer → Leadbronnen**.
+    aangemaakt. U vindt en hernoemt ze bij **Platformbeheer → Leadbronnen**. Hernoemt u zo'n bron, dan
+    komen de volgende leads van dat formulier gewoon bij dezelfde bron terecht — er komt geen tweede bij.
 
 ## Voor de bouwer van uw website
 
@@ -79,7 +80,7 @@ Er vertrekt een e-mail naar het adres dat u instelde bij
 
 ## Dezelfde persoon die twee keer invult
 
-Dat blijft **één lead**, zolang zijn vorige lead nog loopt: de nieuwe aanvraag komt als logboekregel bij de
+Dat blijft **één lead**, zolang zijn vorige lead nog loopt: de nieuwe aanvraag komt als notitie bij de
 bestaande, met een taak erbij. Zie [Leads](leads.md#leads-via-uw-website).
 
 Ook een dubbele verzending van het formulier zelf — iemand die twee keer op *Verzenden* klikt — levert maar

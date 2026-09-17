@@ -44,11 +44,18 @@ voyez quel chantier, quelle facture, quel article. Chaque ligne est un lien vers
 | **Sous le stock minimum** | Articles dont le stock est inférieur au minimum défini. À droite figure *stock actuel / minimum* |
 
 Chaque carte affiche cinq lignes. S'il y en a davantage, **et … autres** apparaît en bas — ce bouton déplie
-la liste complète dans la carte.
+la liste complète dans la carte. Le bouton **afficher moins** la replie.
+
+Sur la carte **Sous le stock minimum**, *déjà commandé* figure sous le numéro d'article lorsqu'une commande
+est déjà en route pour cet article. L'article reste sur la carte tant que le stock en rayon est insuffisant.
 
 !!! tip "Une carte vide est aussi une réponse"
     Une carte qui n'a rien à signaler reste affichée, avec une phrase : *Aucune facture n'est en retard.*
     Vous savez ainsi que la vérification a eu lieu, au lieu de vous demander si la carte s'est chargée.
+
+    La carte **Sous le stock minimum** peut aussi indiquer : *Aucun article ne porte encore de stock
+    minimum — rien n'est donc surveillé.* Définissez alors un stock minimum sur la fiche des articles que
+    vous voulez suivre.
 
 ## Comment cela évolue
 
@@ -60,12 +67,17 @@ semaine.](../images/dashboard-grafieken-fr.png)
 
 - **Chiffre d'affaires facturé par mois** — les douze derniers mois, **hors TVA**. La TVA transite par vous
   et n'est pas du chiffre d'affaires. Un mois sans chiffre d'affaires reste dans la série, afin que vous
-  voyiez une période calme au lieu d'un graphique qui se raccourcit.
+  voyiez une période calme au lieu d'un graphique qui se raccourcit. Un mois peut être négatif : les notes
+  de crédit comptent avec leur montant négatif, et les factures en brouillon ne comptent qu'une fois
+  numérotées. Cette explication figure alors sous le graphique.
 - **Marge par projet en cours** — uniquement les projets déjà facturés. Sous le graphique figure chaque
   projet avec son pourcentage. Si vous avez défini des seuils de marge sur la
   [fiche entreprise](../settings/company-profile.md), ce pourcentage se colore en vert, orange ou rouge ;
-  sans seuils, il reste neutre.
+  sans seuils, il reste neutre et une phrase en dessous renvoie à la fiche entreprise.
 - **Heures-homme planifiées par semaine** — les huit semaines à venir, à partir du lundi de cette semaine.
+
+Tout en bas figurent encore deux compteurs : **Projets actifs** et **Ordres de travail ouverts**. Cliquez
+dessus pour ouvrir la liste.
 
 ## Ce qu'un chiffre ne dit pas
 
@@ -77,6 +89,7 @@ complète.
 |---|---|
 | *… projets comportent des heures ou du matériel sans prix de revient* | Renseignez le taux horaire sur la fiche du collaborateur, ou le prix d'achat sur la fiche article |
 | *… travaux supplémentaires approuvés sans montant* | Renseignez le montant estimé sur le travail supplémentaire |
+| *… factures émises ne portent aucun montant* | Vérifiez ces factures. Tant qu'elles ne portent pas de montant, elles comptent pour 0 € dans **Encours clients**, et la carte **Factures échues** indique *Montant inconnu* |
 | *… projet facturé ne porte aucune ligne de coût* | Ce projet ne figure pas dans le graphique des marges. Sans coûts, la marge serait de 100 %, ce qui n'est pas une performance mais une mesure absente |
 | *Des équipes sans membres sont planifiées* | Ajoutez des collaborateurs à l'équipe ; sinon leurs heures ne sont pas comptées |
 

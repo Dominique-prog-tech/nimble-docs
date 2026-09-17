@@ -4,19 +4,37 @@ Un rôle est un ensemble de droits. Vous attribuez un rôle à un utilisateur pl
 
 ## Ouvrir l'écran
 
-1. Cliquez en bas de la barre latérale sur **Gestion de la plateforme**.
-2. Cliquez dans le groupe **Données et accès** sur la tuile **Rôles**.
+1. Cliquez sur **Administration** en bas de la barre latérale.
+2. Dans le groupe **Données et accès**, cliquez sur la tuile **Rôles**.
+
+L'écran s'appelle **Rôles & droits**. Il est divisé en trois colonnes : **Rôles**, **Droits** et
+**Utilisateurs avec ce rôle**.
+
+<!-- AFBEELDING: l'écran Rôles & droits dans le tenant demo avec un rôle personnalisé sélectionné — à gauche la liste Rôles avec Nouveau rôle et Ajouter, au milieu les droits cochés par partie et Enregistrer les droits, à droite Utilisateurs avec ce rôle avec Sofie Maes, Pieter Janssens et Elke Wouters. À prendre en tant qu'administrateur du tenant, pas en tant qu'opérateur : la vue opérateur affiche le choix du tenant avec de vrais noms de clients -->
+
+!!! info "Pour les opérateurs ADM : choisir d'abord un tenant"
+    Un opérateur voit en haut la liste **Tenant**. Tant que **— choisir un tenant —** est affiché, les colonnes
+    n'apparaissent pas. En tant qu'administrateur de votre propre entreprise, vous ne voyez pas cette liste ;
+    vous travaillez directement dans votre propre environnement.
 
 ## Créer un rôle
 
-1. Choisissez en haut le **Tenant** dont vous gérez les rôles. Tant qu'aucun n'est choisi, la mention **— choisissez un tenant —** est affichée.
-2. Saisissez le nom sous **Nouveau rôle** et cliquez sur **Ajouter**.
+Saisissez le nom dans le champ **Nouveau rôle** sous la liste **Rôles** et cliquez sur **Ajouter**. Le nouveau
+rôle apparaît dans la liste.
 
-Le nouveau rôle apparaît dans la liste **Rôles**, à gauche.
+## Le rôle système
+
+Un rôle porte un cadenas (🔒) : le rôle système pour l'administration de votre environnement. Ce rôle possède
+**automatiquement tous les droits** attribuables. Vous ne pouvez pas modifier ses droits ni supprimer le rôle ;
+les nouveaux droits s'y ajoutent d'office.
+
+Pour ne donner qu'une partie de l'administration à quelqu'un, créez un rôle distinct.
 
 ## Attribuer des droits
 
-Sélectionnez un rôle dans la liste. À droite apparaît **Droits** : une liste de cases à cocher, groupées par partie de Nimble. Cochez ce que ce rôle peut faire et cliquez sur **Enregistrer les droits**. En cas de succès, la mention **✓ enregistré** s'affiche.
+Cliquez sur un rôle dans la liste. Au milieu apparaît **Droits — {nom du rôle}** : des cases à cocher, groupées
+par partie de Nimble. Cochez ce que ce rôle peut faire et cliquez sur **Enregistrer les droits**. En cas de
+succès, la mention **✓ enregistré** s'affiche.
 
 ## Ce que fait un droit
 
@@ -38,14 +56,23 @@ Vous composez ainsi les rôles que vous avez en tête : un commercial qui rédig
 !!! tip "Quelqu'un ne voit plus de boutons ?"
     C'est que son rôle porte le droit de consultation mais pas celui de modification pour ce domaine. Cochez-le sous **Droits** et demandez à la personne de se reconnecter.
 
-Sous **Utilisateurs avec ce rôle**, vous voyez qui porte ce rôle aujourd'hui. Si la mention **Il n'y a pas encore d'utilisateurs** apparaît, le rôle existe mais n'est encore attribué à personne.
+## Attribuer des utilisateurs
 
-**Supprimer le rôle** retire un rôle. Ne le faites qu'après avoir donné un autre rôle aux utilisateurs qui le portent.
+À droite, sous **Utilisateurs avec ce rôle**, figurent tous les utilisateurs de votre environnement avec une
+case à cocher. Après chaque nom, des libellés indiquent les rôles que cette personne porte actuellement.
+
+Cochez un utilisateur pour lui donner ce rôle, ou décochez-le pour le lui retirer. Si **Aucun utilisateur pour
+l'instant.** s'affiche, votre environnement n'a pas encore d'utilisateurs.
+
+## Supprimer un rôle
+
+Sélectionnez le rôle et cliquez sous la liste sur **Supprimer le rôle**. Ce bouton n'apparaît pas pour le rôle
+système. Donnez d'abord un autre rôle aux utilisateurs qui portent ce rôle.
 
 ## Erreurs fréquentes
 
 !!! warning
-    **Ne retirez jamais le dernier droit d'administration.** Si vous décochez ce droit sur le seul rôle habilité à gérer les rôles, plus personne ne pourra le rétablir — vous non plus. Créez d'abord un second rôle disposant de ce droit, ou vérifiez que vous portez vous-même un autre rôle avec des droits d'administration.
+    **Ne retirez pas votre propre dernier droit d'administration.** Si vous portez un rôle personnalisé avec le droit de gérer les rôles et que vous décochez ce droit, vous ne pourrez plus le rétablir vous-même. Faites-le alors par quelqu'un qui porte le rôle système.
 
 !!! info
     **Le moment où une modification prend effet dépend de ce que vous modifiez.**
@@ -55,5 +82,5 @@ Sous **Utilisateurs avec ce rôle**, vous voyez qui porte ce rôle aujourd'hui. 
 
 ## Voir aussi
 
-- [Utilisateurs](users.fr.md) — attribuer un rôle à quelqu'un
-- [Registre des clients](tenants.fr.md) — pour quel client vous gérez les rôles
+- [Utilisateurs](users.md) — créer des utilisateurs (pour les opérateurs ADM)
+- [Administration](platform-management.md)

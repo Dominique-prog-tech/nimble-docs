@@ -8,11 +8,13 @@ Dit werkt overal op dezelfde manier, dus deze pagina geldt voor alle schermen me
 
 ## Het tabblad openen
 
-1. Selecteer een rij in de lijst (een klant, een contactpersoon …).
-2. Klik rechts op de rail **Journaal**.
-3. Klik bovenaan op de naam van het tabblad en kies **Bijlagen**.
+Er zijn twee wegen naartoe:
 
-<!-- AFBEELDING: het journaalpaneel met de tabkeuze open, zodat Bijlagen tussen de andere tabbladen staat -->
+- **Op de fiche** — open het record (dubbelklik erop in de lijst) en klik bovenaan rechts op **Bijlagen**.
+- **Vanuit de lijst** — selecteer een rij, klik rechts op de rail **Journaal**, klik bovenaan op de naam van
+  het tabblad en kies **Bijlagen**.
+
+<!-- AFBEELDING: het journaalpaneel naast de relatielijst in tenant demo (Vandersteen Bouwprojecten BV geselecteerd), met de tabkeuze open zodat Bijlagen tussen Contacten, Taken, Notities en Logboek staat -->
 
 ## Een bestand toevoegen
 
@@ -37,8 +39,8 @@ het smalle journaalpaneel schuiven ze onder de bestandsnaam, zodat ook een lange
 
 Klik op de naam.
 
-- **Foto's** openen in een nieuw tabblad, zodat u ze meteen ziet.
-- **Andere bestanden** (pdf, Word, Excel …) worden gedownload en openen in het programma van uw computer.
+- **Wat uw browser zelf kan tonen**, zoals een foto, opent in een nieuw tabblad.
+- **Andere bestanden**, zoals Word of Excel, worden gedownload en openen in het programma van uw computer.
 
 Bij een foto staat er ook een kleine afbeelding voor de naam, zodat u ze in de lijst herkent zonder ze te
 moeten openen.
@@ -54,9 +56,12 @@ Klik op het **⋯**-menu rechts van de regel en kies verwijderen. Het bestand ve
 
 ## Wie ziet welke bijlagen
 
-Er is **geen apart recht** op bijlagen. Wie een klantenfiche mag openen, ziet ook de documenten van die
-klant. Dat is bewust zo: een offerte mogen bekijken maar de getekende versie niet, is geen beveiliging maar
-verwarring.
+Er is **geen apart recht** om bijlagen te bekijken. Wie een klantenfiche mag openen, ziet ook de documenten
+van die klant. Dat is bewust zo: een offerte mogen bekijken maar de getekende versie niet, is geen
+beveiliging maar verwarring.
+
+**Toevoegen, de omschrijving aanpassen en verwijderen** hangen wel aan het bewerkrecht op dat soort record.
+Mag u klanten enkel bekijken, dan ziet u op een klant de knop **+ Bijlage** niet.
 
 ## Veelgemaakte fouten
 

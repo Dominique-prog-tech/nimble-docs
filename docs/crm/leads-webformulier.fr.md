@@ -36,7 +36,9 @@ tranquille.
 
 !!! tip "Un nouveau nom de clé apparaît automatiquement dans vos sources"
     Si un lead arrive via une clé dont le nom ne figure pas encore dans votre liste, cette source est créée.
-    Vous la retrouvez et la renommez sous **Gestion de la plateforme → Sources de leads**.
+    Vous la retrouvez et la renommez sous **Administration → Sources de leads**. Si vous renommez une telle
+    source, les leads suivants de ce formulaire arrivent toujours dans la même source — aucune deuxième
+    source n'est créée.
 
 ## Pour le créateur de votre site web
 
@@ -79,8 +81,8 @@ lead.
 
 ## La même personne qui remplit deux fois
 
-Cela reste **un seul lead**, tant que son lead précédent est en cours : la nouvelle demande arrive comme ligne
-de journal sur le lead existant, avec une tâche. Voir [Leads](leads.fr.md#leads-via-votre-site-web).
+Cela reste **un seul lead**, tant que son lead précédent est en cours : la nouvelle demande arrive comme note
+sur le lead existant, avec une tâche. Voir [Leads](leads.fr.md#leads-via-votre-site-web).
 
 Un double envoi du formulaire lui-même — quelqu'un qui clique deux fois sur *Envoyer* — ne produit également
 qu'un seul lead.

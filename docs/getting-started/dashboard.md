@@ -43,11 +43,18 @@ welke factuur, welk artikel. Elke regel is een link naar het dossier.
 | **Onder minimumvoorraad** | Artikelen waarvan de voorraad onder het ingestelde minimum ligt. Rechts staat *huidige voorraad / minimum* |
 
 Elke kaart toont vijf regels. Zijn er meer, dan staat er onderaan **en nog … andere** — die knop klapt de
-volledige lijst open in de kaart zelf.
+volledige lijst open in de kaart zelf. Met **minder tonen** klapt u ze weer dicht.
+
+Op de kaart **Onder minimumvoorraad** staat onder het artikelnummer *al besteld* wanneer er voor dat artikel
+al een bestelling onderweg is. Het artikel blijft op de kaart staan zolang er te weinig in voorraad ligt.
 
 !!! tip "Een lege kaart is ook een antwoord"
     Een kaart die niets te melden heeft blijft staan, met een zin erin: *Geen enkele factuur staat over
     tijd.* Zo weet u dat er gekeken is, in plaats van dat u zich afvraagt of de kaart wel geladen is.
+
+    Op de kaart **Onder minimumvoorraad** kan ook staan: *Nog geen enkel artikel draagt een
+    minimumvoorraad — er wordt dus niets bewaakt.* Stel dan op de artikelfiche een minimumvoorraad in voor
+    de artikelen die u wilt opvolgen.
 
 ## Hoe het gaat
 
@@ -58,11 +65,16 @@ project als staafdiagram met de percentages eronder, en de ingeplande manuren pe
 
 - **Gefactureerde omzet per maand** — de laatste twaalf maanden, **exclusief btw**. Btw is doorgeefgeld en
   geen omzet. Een maand zonder omzet blijft in de reeks staan, zodat u een stille periode ziet in plaats van
-  dat de grafiek inkort.
+  dat de grafiek inkort. Een maand kan onder nul staan: creditnota's tellen mee met hun negatieve bedrag,
+  en kladfacturen tellen pas mee zodra ze een nummer hebben. In dat geval staat die uitleg onder de grafiek.
 - **Marge per lopend project** — enkel projecten waarop al gefactureerd is. Onder de grafiek staat elk
   project met zijn percentage. Hebt u op de [bedrijfsfiche](../settings/company-profile.md) margegrenzen
-  ingesteld, dan kleurt dat percentage groen, oranje of rood; zonder grenzen blijft het neutraal.
+  ingesteld, dan kleurt dat percentage groen, oranje of rood. Zonder grenzen blijft het neutraal, en staat er
+  een zin onder die naar de bedrijfsfiche verwijst.
 - **Ingeplande manuren per week** — de komende acht weken, vanaf de maandag van deze week.
+
+Helemaal onderaan staan nog twee tellers: **Actieve projecten** en **Open werkorders**. Klik erop om naar de
+lijst te gaan.
 
 ## Wat een cijfer níét zegt
 
@@ -73,6 +85,7 @@ staat, en waarom. Neem ze ernstig: een bedrag zonder die waarschuwing leest als 
 |---|---|
 | *… projecten dragen uren of materiaal zonder kostprijs* | Vul het uurtarief in op de fiche van de medewerker, of de aankoopprijs op de artikelfiche |
 | *… goedgekeurde meerwerken dragen geen bedrag* | Vul het geschatte bedrag in bij het meerwerk |
+| *… uitgereikte facturen dragen geen bedrag* | Controleer die facturen. Zolang ze geen bedrag dragen, tellen ze voor € 0 mee in **Openstaand bij klanten**, en op de kaart **Vervallen facturen** staat *Bedrag onbekend* |
 | *… gefactureerd project draagt nog geen enkele kostregel* | Dat project staat niet in de margegrafiek. Zonder kosten zou de marge 100 % zijn, en dat is geen prestatie maar een ontbrekende meting |
 | *Er staan ploegen zonder leden ingepland* | Voeg medewerkers toe aan de ploeg; hun uren tellen anders niet mee |
 

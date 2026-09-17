@@ -21,7 +21,7 @@ Le journal est rattaché à *chaque* enregistrement, et deux chemins y mènent :
 - **Depuis la liste** — sélectionnez une ligne et cliquez à droite sur le rail **Journal**. Cliquez-y en
   haut sur le nom de l'onglet et choisissez **Notes**.
 
-![La fiche d'un article avec les onglets en haut et l'onglet Notes ouvert, deux notes en dessous.](images/notities-tab-fr.png)
+![La fiche d'un article avec les onglets en haut et l'onglet Notes ouvert : le bouton Note, le champ de recherche et quelques notes en dessous.](images/notities-tab-fr.png)
 
 ## Ajouter une note
 
@@ -29,13 +29,15 @@ Cliquez en haut sur **Note**. Une fenêtre s'ouvre avec trois champs :
 
 | Champ | |
 |---|---|
-| **Objet** | Facultatif. Un intitulé court rend une longue liste plus lisible. |
-| **Texte** | Le texte lui-même. Ce champ est obligatoire. Les retours à la ligne sont conservés : une énumération reste une énumération. |
-| **Quand** | Le jour *auquel la note se rapporte* — pas celui de la saisie. Laissez-le vide si cela n'a pas d'importance. |
+| **Objet** | Obligatoire. Un intitulé court, pour retrouver la note dans une longue liste. |
+| **Quand** | Le moment *auquel la note se rapporte*. Le champ est déjà rempli avec la date et l'heure actuelles ; adaptez-le si la note concerne un autre moment. |
+| **Texte** | Le texte lui-même. Les retours à la ligne sont conservés : une énumération reste une énumération. |
 
-![La fenêtre Note avec les champs Objet, Quand et Texte, et en bas Enregistrer et Annuler.](images/notitie-toevoegen-venster-fr.png)
+![La fenêtre Note avec le champ obligatoire Objet, Quand avec la date du jour, et Texte, et en bas Enregistrer et Annuler.](images/notitie-toevoegen-venster-fr.png)
 
-Cliquez sur **Enregistrer**. La note apparaît en haut de la liste.
+Cliquez sur **Enregistrer**. La liste est triée sur cette date, la plus récente en haut.
+
+À droite dans la barre d'outils se trouve le champ **Rechercher dans les notes…**.
 
 !!! note "Pourquoi une date distincte"
     Si un client appelle le vendredi à propos d'une livraison de la semaine précédente, la date de la note
@@ -44,7 +46,7 @@ Cliquez sur **Enregistrer**. La note apparaît en haut de la liste.
 
 ## Modifier ou supprimer une note
 
-Sous chaque note figurent **Modifier** et **Supprimer**. Modifier rouvre la même fenêtre.
+Si vous pouvez modifier les notes, vous pouvez adapter ou supprimer une note existante.
 
 !!! warning "Supprimer, c'est archiver"
     La note n'est pas réellement effacée : elle est conservée et disparaît seulement de la vue. C'est
@@ -56,6 +58,9 @@ Sous chaque note figurent **Modifier** et **Supprimer**. Modifier rouvre la mêm
 Contrairement aux pièces jointes, il existe **bien un droit distinct** sur les notes : *Voir les notes* et
 *Modifier les notes*. Pouvoir consulter un article ne donne donc pas automatiquement accès à ce qu'un collègue
 y a noté. Votre administrateur règle cela au niveau des rôles.
+
+Avec uniquement *Voir les notes*, vous lisez les notes, mais vous ne voyez pas le bouton **Note** et vous ne
+pouvez rien adapter ni supprimer.
 
 ## Erreurs fréquentes
 

@@ -12,28 +12,32 @@ Les **unités de mesure** sont utilisées sur les articles : pièce, mètre, mè
 | Colonne | Signification |
 |---|---|
 | **Code** | Code court (p. ex. `st`, `m`, `kg`) |
-| **Nom (NL)** | Nom néerlandais (obligatoire) |
-| **Nom (FR)** | Nom français (optionnel) |
+| **Nom (NL)** | Nom néerlandais |
+| **Nom (FR)** | Nom français |
 
-![La liste des unités avec code et nom dans les deux langues.](../images/eenheden-lijst-fr.png)
+![La liste des unités avec code et nom dans les deux langues, et en haut les boutons Nouvelle unité et Exporter.](../images/eenheden-lijst-fr.png)
 
-Double-cliquez une ligne pour modifier, ou cliquez sur **Nouvelle unité**.
+Double-cliquez sur une ligne pour la modifier, ou cliquez sur **Nouvelle unité**. **Exporter** récupère la liste dans un fichier.
 
 ## Créer ou modifier une unité
 
-1. Remplissez le **Code** et le **Nom (NL)** — les deux sont obligatoires.
-2. Remplissez optionnellement le **Nom (FR)** ; il s'affiche pour les utilisateurs francophones.
-3. Cliquez sur **Enregistrer**.
+Une fenêtre **Nouvelle unité** ou **Modifier l'unité** s'ouvre.
+
+1. Remplissez le **Code** — obligatoire.
+2. Remplissez le nom dans la **langue de base de votre entreprise** — obligatoire. L'autre langue porte la mention **optionnel**, par exemple **Nom (FR, optionnel)**.
+3. Cliquez sur **Enregistrer**, ou sur **Annuler** pour fermer la fenêtre sans enregistrer.
+
+S'il manque quelque chose, un message en haut de la fenêtre indique quels champs sont encore vides.
 
 ## Supprimer
 
-Ouvrez l'unité et cliquez sur **Supprimer**. L'unité est archivée (corbeille) ; les articles existants qui l'utilisent sont conservés.
+Ouvrez l'unité et cliquez à droite dans la fenêtre sur **Supprimer**. Après confirmation, l'unité va dans la [corbeille](recycle-bin.md) ; les articles existants qui l'utilisent sont conservés. Vous pouvez la récupérer via la corbeille.
 
 ## Erreurs fréquentes
 
 !!! warning
     - **Codes en double** — gardez les codes courts et uniques ; deux unités de même signification rendent les listes d'articles confuses.
-    - **Unité standard supprimée** — pas de panique : recréez-la simplement avec le même code.
+    - **Unité standard supprimée** — récupérez-la via la corbeille.
 
 ## Voir aussi
 

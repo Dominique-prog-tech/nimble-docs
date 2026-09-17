@@ -8,7 +8,7 @@ wanneer dat gebeurt.
 1. Klik onderaan in de zijbalk op **Platformbeheer**.
 2. Klik in de groep **Leads** op de tegel **Leadopvolging**.
 
-![Het instellingenscherm Leadopvolging met de schakelaar en het dagenveld.](../images/leadopvolging-scherm.png)
+![Het instellingenscherm Leadopvolging met het vinkje Automatische opvolging aan, het veld Stil na (dagen) en de knoppen Bewaren en Opvolging nu draaien.](../images/leadopvolging-scherm.png)
 
 ## De drie regels
 
@@ -26,7 +26,8 @@ kiezen — die datum ís de afspraak.
 ## Stil na (dagen)
 
 Hoe lang een lead zonder geplande volgende actie mag blijven liggen voor hij een taak krijgt. Standaard
-**14 dagen**; toegelaten van 1 tot 365.
+**14 dagen**; toegelaten van 1 tot 365. Het veld is enkel invulbaar wanneer **Automatische opvolging aan**
+aangevinkt is.
 
 !!! info "Een lead met een volgende actie telt niet mee"
     Staat er een volgende actie gepland — ook een in de toekomst — dan is de lead ingepland en niet
@@ -39,21 +40,20 @@ te laat. Begin bij 14 en pas aan wat u in de praktijk ziet.
 
 ## Automatische opvolging aan of uit
 
-Zet u de opvolging **uit**, dan maakt Nimble geen nieuwe taken meer aan. Taken die er al staan, blijven
+Vink **Automatische opvolging aan** aan of uit en klik op **Bewaren**. Zet u de opvolging **uit**, dan maakt Nimble geen nieuwe taken meer aan. Taken die er al staan, blijven
 gewoon staan — uitzetten mag geen werk laten verdwijnen dat al aan iemand toegewezen is.
 
 ## Opvolging nu draaien
 
-Hiermee draait u meteen een ronde in plaats van tot morgenochtend te wachten. Handig net nadat u de termijn
+De knop **Opvolging nu draaien** staat naast **Bewaren**. Hiermee draait u meteen een ronde in plaats van tot morgenochtend te wachten. Handig net nadat u de termijn
 gewijzigd hebt: u ziet direct hoeveel taken dat oplevert.
 
-De melding toont drie getallen: hoeveel leads bekeken zijn, hoeveel nieuwe taken er kwamen, en hoeveel er
-al bestonden.
+De melding toont drie getallen, bijvoorbeeld *12 leads bekeken, 2 nieuwe taken, 3 bestonden al.*
 
-!!! info "Sla eerst op"
+!!! info "Bewaar eerst"
     De knop draait met wat er in de databank staat, niet met wat er op het scherm staat. Wijzigt u de
     termijn en klikt u meteen op **Opvolging nu draaien**, dan draait hij nog met de vorige waarde. Klik
-    eerst op **Opslaan**.
+    eerst op **Bewaren**.
 
 !!! info "U krijgt nooit twee keer dezelfde herinnering"
     Staat een taak al open voor een lead, dan komt er geen tweede bij — ook niet als u de ronde tien keer
@@ -61,13 +61,14 @@ al bestonden.
 
 ## Waar de taken terechtkomen
 
-- In het scherm **Taken**, onder **Alle taken** — een lead zonder verantwoordelijke levert een taak zonder
-  verantwoordelijke.
-- Op de leadfiche zelf, in het tabblad **Journaal**.
+- In het scherm **Taken** (**CRM → Taken**). Een lead zonder verantwoordelijke levert een taak zonder
+  verantwoordelijke; in de filter op verantwoordelijke vindt u die taken onder **Niemand**.
+- Op de leadfiche zelf, in het tabblad **Taken**.
 
 !!! tip "Zorg dat elke lead een verantwoordelijke heeft"
-    Een taak zonder verantwoordelijke staat alleen onder **Alle taken** — wie 's ochtends zijn eigen lijst
-    opent, ziet hem niet. De opvolging is dan wel gelopen, maar de lead blijft even onzichtbaar als daarvoor.
+    Een taak zonder verantwoordelijke staat bij niemand op naam. Wie in het scherm **Taken** filtert op zijn
+    eigen naam, ziet hem niet. De opvolging is dan wel gelopen, maar de lead blijft even onzichtbaar als
+    daarvoor.
 
     U dwingt dit af bij [Leadfases](lead-status.md): zet **Verantwoordelijke** als verplicht veld op de fase
     waar het ertoe begint te doen — bijvoorbeeld vanaf *Gekwalificeerd*. Vanaf dan kan geen enkele lead verder

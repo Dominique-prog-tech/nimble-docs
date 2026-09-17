@@ -8,23 +8,45 @@ toe, hernoem er een, kies de volgorde, of verberg wat u niet gebruikt.
 1. Klik onderaan in de zijbalk op **Platformbeheer**.
 2. Klik in de groep **Leads** op de tegel **Leadfases**.
 
-![De lijst met leadfases, hun betekenis en de startfase.](../images/leadstatus-lijst.png)
+![De lijst met leadfases, hun betekenis, de startfase, het aantal leads en of ze op het bord staan.](../images/leadstatus-lijst.png)
 
 ## De lijst
 
 | Kolom | Betekenis |
 |---|---|
-| **Sleutel (vast)** | Technische naam — wordt bij het aanmaken gemaakt en verandert daarna niet |
 | **Naam (NL)** en **Naam (FR)** | Wat de gebruiker ziet |
 | **Volgorde** | Positie van de kolom op het leadbord (laag = meest links) |
-| **Betekent** | Wat deze fase voor Nimble betekent — zie hieronder |
-| **Start** | De fase waarin een nieuwe lead begint |
+| **Betekent** | Wat deze fase voor Nimble betekent: Lopend, Gewonnen, Verloren of Gepauzeerd — zie hieronder |
+| **Start** | Het label **Start** staat bij de fase waarin een nieuwe lead begint |
 | **Leads** | Hoeveel leads er nu in die fase staan |
-| **Op het bord** | Zichtbaar of verborgen |
+| **Op het bord** | **Zichtbaar** of **Verborgen** |
 
-Dubbelklik op een rij om ze te openen, of klik op **Nieuwe fase**.
+Dubbelklik op een rij om de fase te openen, of klik op **Nieuwe fase**. Met **Exporteren** haalt u de lijst binnen in een bestand.
 
-![De fiche van één leadfase: naam, volgorde, betekenis en verplichte velden.](../images/leadstatus-fiche.png)
+## De fiche van een fase
+
+Een fase opent op een eigen pagina. Bovenaan staan de naam van de fase en het aantal leads erin, met links de
+knop **Naar de lijst**. De fiche heeft één tabblad, **Algemeen**, met twee kaarten.
+
+![De fiche van een leadfase die Verloren betekent: naam, volgorde, betekenis, verplichte velden en de vaste eis van een verliesreden.](../images/leadstatus-fiche.png)
+
+### Naam en volgorde
+
+| Veld | Wat u invult |
+|---|---|
+| **Naam (NL)** en **Naam (FR)** | De naam in de basistaal van uw bedrijf is verplicht; de andere taal draagt het label *optioneel* |
+| **Volgorde op het bord** | Een getal van 0 tot 99; laag staat links |
+| **Tonen op het bord** | Vink uit om de fase te verbergen — zie [Verbergen versus verwijderen](#verbergen-versus-verwijderen) |
+
+### Wat deze fase betekent
+
+| Veld | Wat u invult |
+|---|---|
+| **Betekenis** | Verplicht: *Lopend — de lead leeft nog*, *Gewonnen — eindfase*, *Verloren — eindfase* of *Gepauzeerd — tot een datum* |
+| **Startfase van een nieuwe lead** | Vink aan om deze fase de startfase te maken |
+| **Verplichte velden bij deze fase** | Wat ingevuld moet zijn vóór een lead naar deze fase mag |
+
+Klik onderaan op **Bewaren**; u komt daarna terug in de lijst. Met **Annuleren** gaat u terug zonder te bewaren.
 
 ## Het belangrijkste veld: wat een fase *betekent*
 
@@ -47,25 +69,28 @@ Elke fase krijgt één van vier betekenissen. **Die bepaalt het gedrag — niet 
     - Een fase die **Gepauzeerd** betekent, vraagt altijd een **heractivatiedatum** — zonder die datum weet
       niemand wanneer de lead terugkomt, en dan betekent "gepauzeerd" gewoon "verdwenen".
 
+    De fiche toont die eis zodra u een van beide betekenissen kiest.
+
 ## Verplichte velden per fase
 
 Onder **Verplichte velden bij deze fase** kiest u wat ingevuld moet zijn vóór een lead naar die fase mag.
-Bijvoorbeeld: een **verantwoordelijke** vanaf *Gekwalificeerd*, zodat geen enkele lead verder gaat zonder dat
-iemand hem opvolgt.
+U kiest uit deze velden van de leadfiche: **Verantwoordelijke**, **Budget**, **Timing**, **Type aanvraag**,
+**Telefoon**, **E-mail** en **Volgende actie**.
 
-U kiest uit de velden die op de leadfiche bestaan; u kunt er geen verzinnen.
+Bijvoorbeeld: een **Verantwoordelijke** vanaf *Gekwalificeerd*, zodat geen enkele lead verder gaat zonder dat
+iemand hem opvolgt.
 
 ## De startfase
 
 Precies één fase is de **startfase**: daar begint elke nieuwe lead. Duidt u een andere aan, dan gaat de vorige
-vanzelf af — er is er altijd exact één.
+vanzelf af — er is er altijd exact één. Op de huidige startfase kunt u het vinkje daarom niet uitzetten.
 
 ## Een fase toevoegen
 
 1. Klik op **Nieuwe fase**.
 2. Geef een **naam** in uw basistaal (de andere taal is optioneel maar aanbevolen).
 3. Kies wat de fase **betekent**.
-4. Klik op **Opslaan**. De fase verschijnt achteraan op het bord; met **Volgorde** zet u ze op haar plaats.
+4. Klik op **Bewaren**. De fase krijgt een volgorde achteraan op het bord; met **Volgorde op het bord** zet u ze op haar plaats.
 
 ## Verbergen versus verwijderen
 
@@ -74,9 +99,13 @@ Dat zijn twee verschillende dingen.
 **Verbergen** haalt de kolom van het bord, maar de fase blijft bestaan: rapportage, filters en cijfers blijven
 kloppen. Gebruik dit voor een stap die u niet nodig hebt.
 
-**Verwijderen** kan alleen bij een fase die u **zelf gemaakt** hebt en waar **geen enkele lead** in staat. De
-negen standaardfases kunt u hernoemen en verbergen, maar niet verwijderen — bestaande leads dragen die
-sleutel.
+**Verwijderen** kan alleen bij een fase die u **zelf gemaakt** hebt, waar **geen enkele lead** in staat en die
+niet de startfase is. De knop **Verwijderen** staat enkel op de fiche van een fase die u zelf maakte; staan er
+nog leads in of is het de startfase, dan weigert Nimble met een melding. Ook leads in de prullenbak tellen mee. Na bevestiging is de fase echt weg:
+ze komt niet in de prullenbak en is niet terug te halen.
+
+De standaardfases kunt u hernoemen en verbergen, maar niet verwijderen — bestaande leads dragen ze. Hun fiche
+zegt dat ook: **Standaardfase: u kunt ze hernoemen en verbergen, maar niet verwijderen.**
 
 !!! tip "Veiligheidsklep"
     Een verborgen fase waar op dit moment nog leads in staan, blijft tóch zichtbaar op het bord — met die
@@ -88,8 +117,9 @@ sleutel.
 !!! warning
     - **De betekenis verwarren met de naam.** Een fase die u *"Afgesloten"* noemt maar die *Lopend* betekent,
       blijft opvolgtaken opleveren. De naam is voor u; de betekenis is voor Nimble.
-    - **Franse naam vergeten** — Franstalige gebruikers zien dan de Nederlandse tekst als terugval.
-    - **Verbergen verward met verwijderen** — een verborgen fase blijft bestaan en telt nog mee.
+    - **Naam in de andere taal vergeten** — gebruikers in die taal zien dan de naam in de basistaal.
+    - **Verbergen verward met verwijderen** — een verborgen fase blijft bestaan en telt nog mee. Een
+      verwijderde fase is definitief weg.
     - **De startfase willen uitzetten.** Dat kan niet: duid een ándere fase aan als start, dan gaat deze
       vanzelf af.
 

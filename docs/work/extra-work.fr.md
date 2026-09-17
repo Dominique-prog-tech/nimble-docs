@@ -8,30 +8,34 @@ Il existe pour une seule raison : **un travail supplémentaire qui traîne est e
 
 ## Ouvrir l'écran
 
-Cliquez dans la barre latérale sur **Travail** puis sur **Travaux supplémentaires**.
+Cliquez dans la barre latérale sur **Travail → Travaux supplémentaires**.
 
-![L'écran des travaux supplémentaires avec les quatre statuts.](../images/meerwerken-fr.png)
+![L'écran des travaux supplémentaires avec en haut les quatre tuiles, en dessous l'avertissement sur le plus ancien travail non décidé, et la liste avec les colonnes Date, Projet, Ordre de travail, Quoi, Statut, Jours ouverts et Estimé.](../images/meerwerken-fr.png)
 
-## Les quatre statuts
+## Les quatre états
 
-| Statut | Signification |
+| État | Signification |
 |---|---|
 | **Signalé** | L'équipe l'a constaté. Rien n'est encore décidé — c'est le cas qui demande de l'attention |
 | **Approuvé** | Le client est d'accord. Cela peut être exécuté et facturé |
 | **Refusé** | Le client n'est pas d'accord. Le travail n'est pas facturé |
 | **Facturé** | Repris sur une facture. La boucle est bouclée |
 
-Chaque statut a sa propre tuile en haut, même lorsqu'elle est à zéro. Vous voyez ainsi d'un coup d'œil
-combien attendent et pour quel montant.
+Chaque état a sa propre tuile en haut avec le nombre, même lorsqu'il est à zéro :
+
+- **Signalé · à décider**
+- **Approuvé**, avec le montant estimé qui peut encore être facturé
+- **Facturé · repris sur une facture**
+- **Refusé · client pas d'accord — ne pas facturer**
+
+Si un travail approuvé ne porte pas de montant, une ligne sous les tuiles indique que le montant est donc
+sous-évalué.
 
 ## L'avertissement en haut
 
-Si un travail signalé traîne suffisamment longtemps, une bande apparaît avec la durée. Ce n'est pas un
-message d'erreur mais un pense-bête : tant que rien n'est décidé, le travail se poursuit peut-être sans que
-personne ne le facture.
-
-La colonne **Jours ouverts** ne compte que pour **Signalé**. Dès qu'une décision est prise — approuvé,
-refusé ou facturé — le compteur s'arrête et un tiret apparaît.
+Si un travail signalé n'est pas encore décidé, une bande indique depuis combien de jours le plus ancien
+attend. Ce n'est pas un message d'erreur mais un pense-bête : tant que rien n'est décidé, le travail se
+poursuit peut-être sans que personne ne le facture.
 
 ## Les colonnes
 
@@ -40,8 +44,13 @@ refusé ou facturé — le compteur s'arrête et un tiret apparaît.
 | **Date** | Quand cela a été signalé sur le bon de travail |
 | **Projet** et **Ordre de travail** | D'où cela provient |
 | **Quoi** | La description donnée par l'équipe |
+| **Statut** | L'état : Signalé, Approuvé, Refusé ou Facturé |
 | **Jours ouverts** | Depuis combien de temps c'est sans décision |
 | **Estimé** | Le montant évalué par l'équipe ou le chef de chantier |
+
+La colonne **Jours ouverts** ne compte que pour **Signalé**. Dès qu'une décision est prise — approuvé,
+refusé ou facturé — le compteur s'arrête et un tiret apparaît. Au-delà de 14 jours, le nombre de jours
+s'affiche en rouge.
 
 !!! warning "Estimé n'est pas un montant de facture"
     Le montant dans cette liste est une estimation du chantier. Ce que vous facturez réellement, vous le
@@ -49,8 +58,10 @@ refusé ou facturé — le compteur s'arrête et un tiret apparaît.
 
 ## La décision se prend sur le bon de travail
 
-Cet écran est un **aperçu** : il montre ce qui attend et depuis combien de temps. L'approbation ou le refus
-se fait sur le bon de travail lui-même, où figurent aussi la description et le montant.
+Cet écran est un **aperçu** : il montre ce qui attend et depuis combien de temps. Double-cliquez sur une
+ligne pour ouvrir le bon de travail. C'est là que vous mettez l'état sur **Approuvé** ou **Refusé**, et que
+vous indiquez quand et par qui la décision a été prise. Voir
+[Bons de travail](work-sheets.md).
 
 Il reste ainsi un seul endroit où un travail supplémentaire est décrit et décidé, et un seul endroit où
 vous voyez ce qui reste ouvert.

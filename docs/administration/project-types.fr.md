@@ -20,14 +20,13 @@ et pour voir comment votre travail se répartit.
 
 ## Ajouter ou modifier un type
 
-Cliquez sur **Nouvelle valeur**, ou double-cliquez une ligne existante.
+Cliquez sur **Nouvelle valeur**, ou double-cliquez sur une ligne existante. Une fenêtre s'ouvre avec les champs ci-dessous et les boutons **Enregistrer** et **Annuler** ; pour une valeur existante, **Supprimer** figure aussi à droite. **Exporter**, au-dessus de la liste, récupère la liste dans un fichier.
 
 | Champ | Remarque |
 |---|---|
 | **Ordre** | Détermine la place dans la liste de choix ; le plus petit nombre en haut |
 | **Code** | Votre propre clé courte — obligatoire et unique |
-| **Nom (NL)** | Obligatoire ; c'est ce qui s'affiche sur un écran néerlandophone |
-| **Nom (FR)** | Facultatif ; laisser vide signifie que le nom néerlandais apparaît aussi en français |
+| **Nom (NL)** et **Nom (FR)** | Le nom dans la langue de base de votre entreprise est obligatoire ; l'autre langue porte la mention *optionnel*. Si elle reste vide, le nom dans la langue de base s'affiche |
 
 !!! tip "Gardez la liste courte"
     Quatre à six types suffisent généralement. Une longue liste signifie le plus souvent que deux
@@ -44,4 +43,4 @@ L'inverse est vrai aussi. Si vous ajoutez plus tard un premier type, le champ r�
 ## Supprimer un type
 
 **Supprimer** archive le type : il disparaît de la liste de choix, mais les projets qui le portent déjà le
-conservent. Les informations anciennes restent ainsi lisibles. La récupération se fait via la corbeille.
+conservent. Les informations anciennes restent ainsi lisibles. La récupération se fait via la [corbeille](recycle-bin.md).

@@ -21,26 +21,28 @@
 
 ![De lijst met contactfuncties, met code, naam in beide talen en volgorde.](../images/contactfuncties-lijst.png)
 
-Dubbelklik op een rij om te bewerken, of klik op **Nieuwe waarde**.
+Dubbelklik op een rij om ze te bewerken, of klik op **Nieuwe waarde**. Met **Exporteren** haalt u de lijst binnen in een bestand.
 
 ## Een functie aanmaken of bewerken
 
-1. De **Volgorde** wordt automatisch voorgesteld (laatste + 10); pas ze aan om de waarde te verplaatsen.
-2. Vul de **Code** in.
-3. Vul de naam in de **basistaal van uw bedrijf** — dat veld is verplicht; de andere taal is optioneel.
-4. Klik op **Opslaan**.
+Er opent een venster **Nieuwe waarde** of **Bewerken**.
+
+1. De **Volgorde** wordt automatisch voorgesteld (hoogste + 10); pas ze aan om de waarde te verplaatsen.
+2. Vul de **Code** in — verplicht.
+3. Vul de naam in de **basistaal van uw bedrijf** in — verplicht. De andere taal draagt het label **optioneel**.
+4. Klik op **Bewaren**, of op **Annuleren** om het venster te sluiten zonder te bewaren.
 
 !!! tip "Stappen van 10"
     De volgorde springt standaard met 10 (10, 20, 30 …). Zo kunt u later makkelijk een waarde tussenvoegen zonder alles te hernummeren.
 
 ## Verwijderen
 
-Open de functie en klik op **Verwijderen**. De functie wordt gearchiveerd (prullenbak); bestaande contactpersonen die ze gebruiken behouden hun functie.
+Open de functie en klik rechts in het venster op **Verwijderen**. Na bevestiging komt de functie in de [prullenbak](recycle-bin.md); bestaande contactpersonen die ze gebruiken behouden hun functie. Terughalen kan via de prullenbak.
 
 ## Veelgemaakte fouten
 
 !!! warning
-    - **Franse naam vergeten** — Franstalige gebruikers zien dan de andere taal als terugval.
+    - **Franse naam vergeten** — Franstalige gebruikers zien dan de naam in de basistaal.
     - **Een functie per klant aanmaken** — dat hoort niet hier maar in het veld **Rol** op de koppeling met dat bedrijf. Deze lijst blijft zo kort en bruikbaar.
     - **Functies verwijderen die nog in gebruik zijn** — bestaande contactpersonen behouden hun functie, maar nieuwe kunnen ze niet meer kiezen.
 

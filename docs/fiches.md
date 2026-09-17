@@ -45,25 +45,49 @@ die aan het record hangen.
 ![Een relatiefiche met links de tabbladen Fiche en Contactpersonen, rechts Taken, Notities, Bijlagen en Logboek.](images/fiche-tabbladen.png)
 
 !!! info "De knoppen verdwijnen op een journaal-tabblad"
-    Opslaan en Verwijderen horen bij het formulier. Staat u op **Bijlagen**, dan ziet u die knoppen niet
+    Bewaren en Verwijderen horen bij het formulier. Staat u op **Bijlagen**, dan ziet u die knoppen niet
     — anders zou "Verwijderen" dubbelzinnig zijn: verwijdert dat het record of de bijlage waar u naar
     kijkt?
 
-### Taken en Notities hebben dezelfde vorm
+### De werkbalk van een journaal-tabblad
 
-Op beide tabbladen is elke regel een kaart, met een werkbalk erboven die blijft staan.
+Elk journaal-tabblad heeft bovenaan een werkbalk die **blijft staan** terwijl u door de lijst scrolt. U hoeft
+dus niet terug naar boven om iets toe te voegen.
 
-**Notities** is wat u zelf schrijft over dit record. **Taken** toont wat er nog moet gebeuren, met de
-prioriteit en de datum waartegen het klaar hoort te zijn.
+| Tabblad | In de werkbalk |
+|---|---|
+| **Taken** | **Nieuw**, en rechts het vinkje **Toon afgewerkte**. Standaard ziet u enkel wat nog openstaat |
+| **Notities** | **Notitie**, en rechts het zoekvak **Zoeken in de notities…** |
+| **Bijlagen** | **+ Bijlage**, en een zoekvak |
+| **Logboek** | Niets: het Logboek is een naslag, u schrijft er niets in |
 
-- Bovenaan staat de **toevoegknop** van dat tabblad — **Nieuw** op Taken, **Notitie** op Notities,
-  **Bijlage** op Bijlagen. Logboek heeft er geen: dat is een naslag, u schrijft er niets in. Die werkbalk
-  **blijft staan** terwijl u door de lijst scrolt, dus u hoeft niet terug naar boven om iets toe te voegen.
-- Op **Taken** staat er ook **Toon afgewerkte**. Standaard ziet u enkel wat nog openstaat.
-- Rechts staat een **zoekvak**. Raakt uw zoekterm niets, dan leest u *"Niets gevonden."* en niet een lege
-  lijst — er zijn dus wél regels, uw term raakt ze enkel niet.
-- **Regeleindes blijven staan.** Schrijft u een notitie van drie regels, dan leest ze ook als drie regels.
-- De lijst **vult het tabblad** en schuift binnenin, zodat de werkbalk in beeld blijft.
+De knoppen om toe te voegen ziet u enkel als u het record mag wijzigen.
+
+### Het tabblad Taken
+
+Elke taak is een kaart met de titel, de omschrijving, de prioriteit, de datum waartegen ze klaar hoort te
+zijn (**Tot …**) en wie ze opvolgt.
+
+**Nieuw** opent een venster met deze velden:
+
+| Veld | |
+|---|---|
+| **Onderwerp** | Wat er moet gebeuren. Verplicht |
+| **Toegewezen aan** | Wie de taak opvolgt |
+| **Prioriteit** | Staat standaard op **Normaal** |
+| **Vanaf** en **Tot** | Wanneer u eraan begint en wanneer het klaar moet zijn |
+| **Herinnering** | Een datum en uur. Op dat moment verschijnt de taak bij het belletje bovenaan in de app — er wordt geen e-mail verstuurd |
+| **Tekst** | De details |
+
+Klik **Bewaren**. De taak verschijnt ook op het scherm [Taken](crm/tasks.md), waar ze aan dit record hangt.
+
+<!-- AFBEELDING: het venster Nieuw op het tabblad Taken van een relatiefiche in tenant demo (bv. Vandersteen Bouwprojecten BV), met de velden leeg. Er is nog geen blok voor in gen-screenshots.mjs. -->
+
+### Het tabblad Notities
+
+Notities is wat u zelf schrijft over dit record. Elke notitie is een kaart met het onderwerp, de tekst en de
+datum. **Regeleindes blijven staan**: een notitie van drie regels leest ook als drie regels. Zie
+[Notities](notities.md).
 
 ### Het tabblad Logboek
 
@@ -73,19 +97,7 @@ welke. Onderaan elke reeks staat wie de fiche aanmaakte.
 U schrijft er zelf niets in. Er is geen toevoegknop en u kunt niets verwijderen — een geschiedenis waarin
 u kunt schrappen is geen geschiedenis.
 
-<!-- AFBEELDING: het tabblad Logboek met enkele wijzigingsregels — een gekleurd label Gewijzigd of
-     Aangemaakt, de datum, wie het deed, en eronder de velden met hun oude en nieuwe waarde.
-     ⚠️ NIET GEPLAATST op 02/09/2026: het geschoten beeld toonde ÉÉN aanmaak twee keer, 3 ms uit
-     elkaar — geen fout in het scherm maar in de data. Gemeld aan Dominique.
-
-     ✅ DIE FOUT IS WEG (nagemeten 10/09/2026). De dubbele aanmaakregels komen uitsluitend voor op
-     NoteEntity, en de laatste dateert van 02/09 — de dag van de melding zelf. Die entiteit bestaat
-     bovendien niet meer sinds de notities op 05/09 naar de fundering verhuisden. Opgelost door de
-     verhuizing dus, niet door een reparatie.
-
-     Het beeld zelf is op 10/09 weggegooid op vraag van Dominique, samen met zijn generatorstap: het
-     stond negen maanden in geen enkele pagina en meldde zich elke ronde als bevinding. Wil je deze
-     illustratie alsnog, dan kan ze nu wél gemaakt worden — de reden om ze tegen te houden is vervallen. -->
+<!-- AFBEELDING: het tabblad Logboek met enkele wijzigingsregels — een gekleurd label Gewijzigd of Aangemaakt, de datum, wie het deed, en eronder de velden met hun oude en nieuwe waarde. Demotoestand: een relatie in tenant demo die na het aanmaken minstens één keer gewijzigd en bewaard is. -->
 
 - Elke regel begint met een label: **Aangemaakt**, **Gewijzigd** of **Verwijderd**.
 - Daaronder staan de velden die veranderden, met hun waarde ervóór en erna.
@@ -110,17 +122,21 @@ Hoeveel kolommen u ziet, hangt af van de breedte:
 - **+ Bijlage** opent een venster waar u bestanden kiest of ernaartoe sleept. U kunt er **meerdere
   tegelijk** kiezen; de omschrijving die u meegeeft, geldt dan voor die hele reeks. Wilt u ze apart
   omschrijven, dan past u dat achteraf per regel aan via het **⋯**-menu.
-- Klikt u op de naam, dan **opent** het bestand. Foto's en PDF's toont uw browser meteen; de rest wordt
-  gedownload.
+- Klikt u op de naam, dan **opent** het bestand. Een foto toont uw browser meteen; andere bestanden kunnen
+  ook als download binnenkomen. Zie [Bijlagen](bijlagen.md).
 - Er geldt een bovengrens van **25 MB per bestand**.
 
-## Opslaan, annuleren, verwijderen
+## Bewaren, annuleren, verwijderen
 
-Onderaan rechts.
+De knoppen staan onderaan rechts, in deze volgorde:
 
-- **Opslaan** bewaart en brengt u terug naar de lijst. U krijgt een korte bevestiging in beeld.
-- **Annuleren** gaat terug zonder te bewaren.
-- **Verwijderen** vraagt eerst een bevestiging — zie hieronder.
+1. **Bewaren** bewaart en brengt u terug naar de lijst. U krijgt een korte bevestiging in beeld.
+2. De acties die bij die fiche horen, zoals **Omzetten naar klant** op een lead.
+3. **Annuleren** gaat terug naar de lijst zonder te bewaren.
+4. **Verwijderen** staat apart, helemaal rechts. Het vraagt eerst een bevestiging — zie hieronder.
+
+Ontbreekt er nog iets verplichts wanneer u op **Bewaren** klikt, dan verschijnt bovenaan de fiche een melding
+die zegt welk veld. Verplichte velden herkent u aan het rode sterretje.
 
 !!! warning "Verwijderen is archiveren"
     Klikt u op **Verwijderen**, dan verschijnt de vraag *"Archiveren?"* met de naam van het record erbij.
@@ -130,9 +146,9 @@ Onderaan rechts.
 
 ## Wie mag wijzigen
 
-Op de fiches van **Artikelen**, **Relaties** en **Contactpersonen** hangen Opslaan en Verwijderen aan uw
-**bewerkrecht**. Hebt u dat niet, dan kunt u de fiche wél openen en lezen, maar staan de velden op
-alleen-lezen en is er enkel een knop terug naar de lijst.
+Op de fiches hangen Bewaren en Verwijderen aan uw **bewerkrecht** — onder meer bij **Leads**, **Relaties**,
+**Contactpersonen** en **Artikelen**. Hebt u dat niet, dan kunt u de fiche wél openen en lezen, maar ziet u
+geen **Bewaren** en geen **Verwijderen**. In de plaats van **Annuleren** staat dan **Naar de lijst**.
 
 <!-- AFBEELDING: dezelfde fiche zonder bewerkrecht: velden grijs, enkel de terugknop — vraagt een gebruiker ZONDER bewerkrecht, en die heeft de demo-tenant niet -->
 
@@ -143,7 +159,7 @@ Kijken mag met het kijkrecht; schrijven vraagt het bewerkrecht. Dat is een apart
 !!! warning
     - **Denken dat u het overzicht kwijt bent.** De fiche neemt het scherm over. **Naar de lijst** of de
       terugknop van uw browser brengt u terug op de rij waar u vandaan kwam.
-    - **Wegklikken en denken dat het bewaard is.** Opslaan doet dat, weggaan niet. De vraag van uw
+    - **Wegklikken en denken dat het bewaard is.** Bewaren doet dat, weggaan niet. De vraag van uw
       browser is uw laatste kans.
     - **"Verwijderen" lezen als definitief.** Het is archiveren. Wat u weghaalt, staat in de Prullenbak.
 

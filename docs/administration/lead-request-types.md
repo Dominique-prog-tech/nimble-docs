@@ -11,38 +11,58 @@
 
 | Kolom | Betekenis |
 |---|---|
+| **Volgorde** | Bepaalt de volgorde in de keuzelijsten (laag = bovenaan) |
 | **Code** | Korte, unieke code |
 | **Naam (NL)** | Nederlandstalige naam |
 | **Naam (FR)** | Franstalige naam |
-| **Omvangvraag** | Samenvatting van het omvangveld (bijschrift + eenheid), of "— niet gevraagd —" |
-| **Volgorde** | Bepaalt de volgorde in de keuzelijsten |
+| **Omvangvraag** | Het bijschrift met de eenheid, bv. *Oppervlakte (m²)*, of "— niet gevraagd —" |
 
-Dubbelklik op een rij om het type te openen, of klik op **Nieuw type**. Elk type heeft zijn eigen webadres: kopieer de adresbalk en uw collega opent precies dat type.
+![De lijst met types aanvraag, met de volgorde vooraan en de omvangvraag achteraan.](../images/aanvraagtypes-lijst.png)
 
-## Een type aanmaken of bewerken
+Dubbelklik op een rij om het type te openen, of klik op **Nieuw type**. Met **Exporteren** haalt u de lijst binnen in een bestand.
 
-1. Vul de **Code** in.
-2. Vul de naam in de **basistaal van uw bedrijf** — dat veld is verplicht; de andere taal is optioneel.
-3. Stel optioneel de **omvangvraag** in:
-     - **Bijschrift (NL)** / **Bijschrift (FR)** — hoe het veld heet op de leadfiche (bv. "Oppervlakte").
-     - **Eenheid** — bv. `m²`, `personen`, `lm`.
-     - Laat het bijschrift leeg als omvang voor dit type geen betekenis heeft; het veld verschijnt dan niet op de leadfiche.
-4. Onder het blok **Omvangvraag** ziet u meteen een voorbeeld van hoe het veld op de leadfiche zal heten.
-5. Klik rechtsonder op **Opslaan**. U komt daarna terug in de lijst.
+## De fiche van een type
 
-![De lijst met types aanvraag, met hun omvangvraag en eenheid.](../images/aanvraagtypes-lijst.png)
+Een type opent op een eigen pagina met een eigen webadres: kopieer de adresbalk en uw collega opent precies dat type. Bovenaan staan de code en de naam van het type, met links de knop **Naar de lijst**. De fiche heeft één tabblad, **Algemeen**, met twee kaarten.
+
+<!-- AFBEELDING: de fiche Type aanvraag in tenant demo (BADK — Renovatie badkamer) met de kaarten Identificatie en Omvangvraag, de voorbeeldregel "Op de leadfiche: Oppervlakte (m²)" en onderaan Bewaren, Annuleren en Verwijderen -->
+
+### Identificatie
+
+| Veld | Wat u invult |
+|---|---|
+| **Code** | Verplicht |
+| **Naam (NL)** en **Naam (FR)** | De naam in de basistaal van uw bedrijf is verplicht; de andere taal draagt het label *optioneel* |
+| **Volgorde** | De plaats in de keuzelijst. Een nieuw type krijgt een voorstel achteraan |
+
+### Omvangvraag
+
+| Veld | Wat u invult |
+|---|---|
+| **Bijschrift (NL)** / **Bijschrift (FR)** | Hoe het veld heet op de leadfiche, bv. "Oppervlakte" |
+| **Eenheid** | Bv. `m²`, `personen`, `lm` |
+
+Laat het bijschrift leeg als omvang voor dit type geen betekenis heeft; het veld verschijnt dan niet op de leadfiche.
+
+Onder de velden ziet u meteen hoe het veld op de leadfiche zal heten, bijvoorbeeld **Op de leadfiche: Oppervlakte (m²)**.
+
+### Bewaren
+
+Klik onderaan op **Bewaren**. U komt daarna terug in de lijst. Met **Annuleren** gaat u terug zonder te bewaren.
+
+Ontbreekt er iets, dan noemt een melding bovenaan de fiche welke velden nog leeg zijn.
 
 !!! tip "Onbewaarde wijzigingen"
-    Navigeert u weg met onbewaarde wijzigingen, dan vraagt uw browser eerst of u dat zeker wil.
+    Sluit of herlaadt u het tabblad met onbewaarde wijzigingen, dan vraagt uw browser eerst of u dat zeker wil.
 
 ## Verwijderen
 
-Open het type en klik rechtsonder op **Verwijderen**. Er verschijnt eerst de vraag *"Archiveren?"* met de naam erbij. Het type wordt **gearchiveerd** (prullenbak); bestaande leads met dit type blijven behouden.
+Open het type en klik onderaan, na **Annuleren**, op **Verwijderen**. Na bevestiging komt het type in de [prullenbak](recycle-bin.md); bestaande leads met dit type blijven behouden. Terughalen kan via de prullenbak.
 
 ## Veelgemaakte fouten
 
 !!! warning
-    - **Franse naam vergeten** — Franstalige gebruikers zien dan de andere taal als terugval.
+    - **Naam in de andere taal vergeten** — gebruikers in die taal zien dan de naam in de basistaal.
     - **Eenheid zonder bijschrift** — de eenheid verschijnt enkel wanneer er ook een bijschrift is ingevuld.
     - **Types verwijderen die nog in gebruik zijn** — bestaande leads behouden hun type, maar nieuwe leads kunnen het niet meer kiezen.
 
@@ -50,5 +70,5 @@ Open het type en klik rechtsonder op **Verwijderen**. Er verschijnt eerst de vra
 
 - [Platformbeheer](platform-management.md)
 - [Leadbronnen](lead-sources.md)
-- [Leadstatus](lead-status.md)
+- [Leadfases](lead-status.md)
 - [Leads](../crm/leads.md)

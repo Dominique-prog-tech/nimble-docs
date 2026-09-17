@@ -6,7 +6,7 @@ architecte, entrepreneur, syndic … Vous choisissez vous-même les catégories 
 ## Ouvrir l'écran
 
 1. Cliquez sur **Administration** en bas de la barre latérale.
-2. Dans le groupe **Relations**, cliquez sur la tuile **Catégories de clients**.
+2. Dans le groupe **Relations**, cliquez sur la tuile **Catégories client**.
 
 ## Où la catégorie est utilisée
 
@@ -21,14 +21,13 @@ n'y est lié. Elle est pratique pour filtrer et pour voir avec quel type de clie
 
 ## Ajouter ou modifier une catégorie
 
-Cliquez sur **Nouvelle valeur**, ou double-cliquez une ligne existante.
+Cliquez sur **Nouvelle valeur**, ou double-cliquez sur une ligne existante. Une fenêtre s'ouvre avec les champs ci-dessous et les boutons **Enregistrer** et **Annuler** ; pour une valeur existante, **Supprimer** figure aussi à droite. **Exporter**, au-dessus de la liste, récupère la liste dans un fichier.
 
 | Champ | Remarque |
 |---|---|
 | **Ordre** | Détermine la place dans la liste de choix ; le plus petit chiffre en haut |
 | **Code** | Votre propre clé courte — obligatoire et unique |
-| **Nom (NL)** | Obligatoire ; c'est ce qui s'affiche sur un écran néerlandophone |
-| **Nom (FR)** | Facultatif ; laissé vide, le nom néerlandais apparaît aussi en français |
+| **Nom (NL)** et **Nom (FR)** | Le nom dans la langue de base de votre entreprise est obligatoire ; l'autre langue porte la mention *optionnel*. Si elle reste vide, le nom dans la langue de base s'affiche |
 
 !!! info "L'ordre détermine la liste de choix"
     Placez en haut les catégories que vous utilisez le plus souvent. Cela évite de faire défiler à chaque
@@ -37,7 +36,7 @@ Cliquez sur **Nouvelle valeur**, ou double-cliquez une ligne existante.
 ## Supprimer une catégorie
 
 **Supprimer** archive la catégorie : elle disparaît des listes de choix, mais les clients qui la portent
-déjà la conservent. Les anciennes informations restent ainsi lisibles. La corbeille permet de la
+déjà la conservent. Les anciennes informations restent ainsi lisibles. La [corbeille](recycle-bin.md) permet de la
 récupérer.
 
 ## Erreurs fréquentes

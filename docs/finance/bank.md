@@ -5,13 +5,13 @@ koppelt u één keer in het klantenportaal.
 
 ## Het scherm openen
 
-Klik in de zijbalk op **Verkoop → Bankverrichtingen**.
+Klik in de zijbalk op **Verkoop → Bankverrichtingen**. Het scherm vraagt het recht om facturen te bewerken.
 
 ![De lijst Bankverrichtingen met de kolommen Valutadatum, Tegenpartij, Mededeling en Bedrag; er staan een inkomende betaling, twee uitgaande en één domiciliëring in afwachting.](../images/bank-lijst.png)
 
 ## Ophalen bij de bank
 
-**Ophalen bij de bank** vraagt op wat er sinds de vorige keer bij kwam. Nimble onthoudt waar ze gebleven
+**Ophalen bij de bank** (onderaan het scherm) vraagt op wat er sinds de vorige keer bij kwam. Nimble onthoudt waar ze gebleven
 was, dus u haalt nooit twee keer hetzelfde binnen.
 
 Komt er niets, dan staat er *"Er kwam niets nieuws binnen."* Dat betekent dat de bank niets nieuws had —
@@ -31,16 +31,24 @@ niet dat er iets misging.
 | **Bedrag** | Negatief en in het rood = geld dat wegging |
 
 Naast het bedrag staat **Inkomend** of **Uitgaand**. Dat woord staat er met opzet bij: een rij die enkel
-`-89,90` toont, leest bij vluchtig kijken als 89,90.
+`-89,90` toont, leest bij vluchtig kijken als 89,90. Heeft de bank de verrichting nog niet definitief
+geboekt, dan staat er ook **In afwachting bij de bank**.
+
+Helemaal rechts ziet u of de rij nog iets van u vraagt: **Nog te doen** of **Afgehandeld**.
+
+Vink **Enkel wat nog te doen is** aan om de afgehandelde verrichtingen te verbergen.
 
 ## Een verrichting afhandelen
 
-Niet elke verrichting hoort bij een factuur. Loon, huur, een bankkost: die zet u met **Afhandelen** uit de
-lijst, zonder dat er iets geboekt wordt. Vergist u zich, dan zet **Terug openzetten** de rij er weer in.
+Niet elke verrichting hoort bij een factuur. Loon, huur, een bankkost: die zet u met **Afhandelen** op
+**Afgehandeld**, zonder dat er iets geboekt wordt. De rij verdwijnt dan ook van het scherm Afpunten. Hier
+blijft ze staan, tenzij **Enkel wat nog te doen is** aangevinkt is. Vergist u zich, dan zet **Terug
+openzetten** de rij weer op Nog te doen.
 
 !!! warning "Een verrichting in afwachting kunt u niet afhandelen"
     Zolang de bank ze niet definitief geboekt heeft, kan ze nog wijzigen of verdwijnen. Ze afhandelen zou
-    haar verbergen op het moment dat ze wél vastligt. U ziet daarom geen knop maar de reden.
+    haar verbergen op het moment dat ze wél vastligt. U ziet daarom geen knop maar de reden: *Wacht tot de
+    bank ze definitief boekt*.
 
 ## Het verschil met Afpunten
 

@@ -4,55 +4,60 @@ Les quatre statuts d'une facture portent un libellé que vous choisissez vous-m�
 et leur **signification** sont fixes — le comportement de l'écran de facturation en dépend — mais leur nom
 vous appartient.
 
-!!! info "Les factures elles-mêmes sont encore en préparation"
-    Vous pouvez déjà vérifier et adapter ces libellés, afin qu'ils soient corrects dès l'ouverture de l'écran
-    de facturation. Ils ne sont aujourd'hui visibles nulle part en dehors de cet écran.
-
 ## Ouvrir l'écran
 
-**Administration → Statuts de facture**.
+1. Cliquez sur **Administration** en bas de la barre latérale.
+2. Dans le groupe **Ventes**, cliquez sur la tuile **Statut de facture**.
 
-## Ce que vous pouvez adapter
+<!-- AFBEELDING: la liste Statut de facture dans le tenant demo avec les quatre statuts Brouillon, Émise, Payée et Annulée dans les deux langues -->
+
+## La liste
+
+La liste affiche pour chaque statut le **Nom (NL)** et le **Nom (FR)**. Il n'y a pas de bouton pour ajouter un
+statut : les quatre statuts sont fixes. **Exporter** récupère la liste dans un fichier.
 
 | Statut | Libellé par défaut | Quand une facture s'y trouve |
 |---|---|---|
-| Draft | **Brouillon** | Vous êtes en train de l'établir |
-| Sent | **Émise** | Le numéro est attribué ; elle est ouverte |
-| Paid | **Payée** | Le paiement est arrivé et rapproché |
-| Cancelled | **Annulée** | Elle est retirée et ne compte plus |
+| Brouillon | **Brouillon** | Vous êtes en train de l'établir ; elle n'a pas encore de numéro |
+| Émise | **Émise** | Vous avez cliqué sur **Finaliser** : le numéro est attribué et la facture est ouverte |
+| Payée | **Payée** | Les paiements enregistrés couvrent le montant total. Si un paiement disparaît, elle revient à Émise |
+| Annulée | **Annulée** | Elle a été retirée et ne compte plus |
 
-Vous complétez pour chaque statut un **Nom (NL)** et un **Nom (FR)**. Ce libellé apparaîtra dans la colonne
-de statut de la liste des factures et sur la facture elle-même.
+## Adapter un libellé
 
-!!! warning "Émise n'est pas la même chose qu'envoyée"
-    Ce statut indique que le **numéro de facture est attribué** — pas que le document est chez le client.
-    Cela, vous l'enregistrez séparément avec **Marquer comme envoyée** sur la fiche de la facture. Jusqu'en
-    septembre 2026, il était écrit ici « Envoyée », ce qui était faux : une facture s'appelait envoyée dès que
-    vous cliquiez sur *Finaliser*, même si elle était encore sur votre bureau.
+1. Double-cliquez sur le statut. Une fenêtre **Modifier** s'ouvre.
+2. Remplissez le **Nom (NL)** et le **Nom (FR)**. Le nom dans la langue de base de votre entreprise est
+   obligatoire ; l'autre langue porte la mention *optionnel*.
+3. Cliquez sur **Enregistrer**, ou sur **Annuler** pour fermer la fenêtre sans enregistrer.
 
-## La trace d'envoi
-
-Sur la fiche d'une facture émise se trouve le bouton **Marquer comme envoyée**. Vous y notez quand la facture
-est partie, à qui, et par quelle voie — imprimée et postée, par e-mail, ou via Peppol.
-
-Pourquoi c'est séparé : la plupart des factures partent en dehors de l'application. Dans votre ancien système,
-277 des 306 sont sorties ainsi. Sans cet enregistrement, il n'y a pas de date à partir de laquelle compter un
-rappel, et le statut ne dit rien sur l'endroit où se trouve le document.
-
-!!! note "Un enregistrement, pas une preuve"
-    Nimble n'envoie encore rien lui-même. Ce que vous notez ici est ce que *vous* savez — l'application ne
-    vérifie pas si l'e-mail est arrivé ni si le réseau Peppol a accepté la facture.
+Ce libellé apparaît dans la colonne Statut de la liste des factures et à côté du numéro sur la fiche de la
+facture.
 
 !!! tip "Utilisez vos propres mots"
-    Si vous appelez une facture envoyée « En cours » en interne, écrivez-le. L'application suit votre
-    vocabulaire, pas l'inverse.
+    Si en interne vous appelez une facture émise « Ouverte », inscrivez-le. L'application suit votre
+    vocabulaire, et non l'inverse.
 
 !!! warning "Complétez les deux langues"
-    Si le champ français reste vide, l'application se rabat sur le néerlandais. Un utilisateur francophone
-    verra alors « Klad » au milieu de textes français — cela se lit comme une erreur de traduction alors
-    qu'il s'agit d'un champ vide.
+    Si le champ de l'autre langue reste vide, l'application se rabat sur la langue de base. Un utilisateur
+    francophone verra alors « Klad » au milieu d'écrans par ailleurs en français — cela se lit comme une erreur
+    de traduction alors qu'il s'agit d'un champ vide.
+
+## Émise n'est pas envoyée
+
+Le statut **Émise** indique que le **numéro de facture est attribué** — pas que le document est chez le client.
+
+Vous enregistrez cela séparément avec le bouton **Marquer comme envoyée** sur la fiche d'une facture émise.
+Vous y notez quand la facture est partie, à qui, et par quel moyen — imprimée et postée, par e-mail, ou via
+Peppol. Sans cet enregistrement, il n'y a pas de date à partir de laquelle compter un rappel.
+
+!!! note "Un enregistrement, pas un envoi"
+    **Marquer comme envoyée** n'envoie rien. Ce que vous y notez est ce que *vous* savez — l'application ne
+    vérifie pas si l'e-mail est arrivé ni si le réseau Peppol a accepté la facture.
+
+Voir [Factures](../sales/invoices.md) pour tout le parcours d'une facture.
 
 ## Voir aussi
 
-- [Statuts de devis](quote-status.fr.md) — le même écran, pour les devis
-- [Administration](platform-management.fr.md)
+- [Factures](../sales/invoices.md)
+- [Statut de devis](quote-status.md) — le même écran, pour les devis
+- [Administration](platform-management.md)

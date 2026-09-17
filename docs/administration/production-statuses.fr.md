@@ -6,9 +6,9 @@ matériel, en cours, réceptionné … Vous déterminez vous-même les étapes d
 ## Ouvrir l'écran
 
 1. Cliquez en bas de la barre latérale sur **Administration**.
-2. Cliquez dans le groupe **Projets** sur la tuile **Statut de production**.
+2. Cliquez dans le groupe **Projets** sur la tuile **Statuts de production**.
 
-![La liste des statuts de production, avec un carré coloré par étape.](../images/productiestatus-lijst-fr.png)
+![La liste des statuts de production, avec un carré coloré et son code de couleur par étape.](../images/productiestatus-lijst-fr.png)
 
 ## Où le statut est utilisé
 
@@ -17,15 +17,14 @@ matériel, en cours, réceptionné … Vous déterminez vous-même les étapes d
 
 ## Ajouter ou modifier une étape
 
-Cliquez sur **Nouvelle valeur**, ou double-cliquez une ligne existante.
+Cliquez sur **Nouvelle valeur**, ou double-cliquez sur une ligne existante. Une fenêtre s'ouvre avec les champs ci-dessous et les boutons **Enregistrer** et **Annuler** ; pour une valeur existante, **Supprimer** figure aussi à droite. **Exporter**, au-dessus de la liste, récupère la liste dans un fichier.
 
 | Champ | Remarque |
 |---|---|
 | **Ordre** | Détermine la place dans la liste de choix ; le plus petit nombre en haut |
 | **Code** | Votre propre clé courte — obligatoire et unique |
-| **Nom (NL)** | Obligatoire ; c'est ce qui s'affiche sur un écran néerlandophone |
-| **Nom (FR)** | Facultatif ; laisser vide signifie que le nom néerlandais apparaît aussi en français |
-| **Couleur** | Facultatif ; choisissez une tuile du palet ou cliquez sur **Aucune couleur** |
+| **Nom (NL)** et **Nom (FR)** | Le nom dans la langue de base de votre entreprise est obligatoire ; l'autre langue porte la mention *optionnel*. Si elle reste vide, le nom dans la langue de base s'affiche |
+| **Couleur** | Facultatif ; choisissez une case de la palette ou cliquez sur **Aucune couleur** en bas de la palette |
 
 !!! tip "Classez les étapes dans l'ordre du travail"
     Utilisez l'ordre du déroulement — préparation, exécution, réception. La liste de choix se lit alors
@@ -33,7 +32,7 @@ Cliquez sur **Nouvelle valeur**, ou double-cliquez une ligne existante.
 
 ## La couleur
 
-![La fenêtre de modification avec le palet de couleurs.](../images/productiestatus-bewerken-fr.png)
+![La fenêtre de modification avec le palette de couleurs.](../images/productiestatus-bewerken-fr.png)
 
 La couleur apparaît sous forme de carré coloré devant le statut dans la **liste des projets**. Vous voyez
 ainsi d'un coup d'œil où en est chaque projet, sans lire chaque ligne.
@@ -56,4 +55,4 @@ automatiquement.
 ## Supprimer une étape
 
 **Supprimer** archive l'étape : elle disparaît de la liste de choix, mais les projets qui la portent déjà
-la conservent. Les informations anciennes restent ainsi lisibles. La récupération se fait via la corbeille.
+la conservent. Les informations anciennes restent ainsi lisibles. La récupération se fait via la [corbeille](recycle-bin.md).

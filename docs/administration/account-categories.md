@@ -21,14 +21,13 @@ aan. Ze is handig om te filteren en om te zien met wat voor klanten u werkt.
 
 ## Een categorie toevoegen of wijzigen
 
-Klik **Nieuwe waarde**, of dubbelklik een bestaande rij.
+Klik op **Nieuwe waarde**, of dubbelklik op een bestaande rij. Er opent een venster met onderstaande velden en de knoppen **Bewaren** en **Annuleren**; bij een bestaande waarde staat rechts ook **Verwijderen**. Met **Exporteren** boven de lijst haalt u de lijst binnen in een bestand.
 
 | Veld | Opmerking |
 |---|---|
 | **Volgorde** | Bepaalt de plaats in de keuzelijst; laagste getal bovenaan |
 | **Code** | Uw eigen korte sleutel — verplicht en uniek |
-| **Naam (NL)** | Verplicht; dit is wat men ziet op een Nederlandstalig scherm |
-| **Naam (FR)** | Optioneel; leeg laten betekent dat de Nederlandse naam ook in het Frans verschijnt |
+| **Naam (NL)** en **Naam (FR)** | De naam in de basistaal van uw bedrijf is verplicht; de andere taal draagt het label *optioneel*. Blijft die leeg, dan verschijnt de naam in de basistaal |
 
 !!! info "Volgorde bepaalt de keuzelijst"
     Zet de categorieën die u het vaakst gebruikt bovenaan. Dat scheelt scrollen bij elke nieuwe klant.
@@ -36,7 +35,7 @@ Klik **Nieuwe waarde**, of dubbelklik een bestaande rij.
 ## Een categorie verwijderen
 
 **Verwijderen** archiveert de categorie: ze verdwijnt uit de keuzelijsten, maar klanten die ze al dragen
-houden ze gewoon. Zo blijft oude informatie leesbaar. Terughalen kan via de prullenbak.
+houden ze gewoon. Zo blijft oude informatie leesbaar. Terughalen kan via de [prullenbak](recycle-bin.md).
 
 ## Veelgemaakte fouten
 

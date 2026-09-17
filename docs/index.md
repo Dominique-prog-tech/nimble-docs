@@ -19,7 +19,7 @@ keer intypt.
 </div>
 </div>
 <div class="nb-voorpagina__beeld" markdown>
-![Het leadbord van Nimble: aanvragen per fase, met hun waarde.](images/leads-bord.png){ .off-glb }
+![Het dashboard van Nimble: de kerncijfers, wat er vandaag aandacht vraagt, en de omzet per maand.](images/dashboard.png){ .off-glb }
 </div>
 </div>
 

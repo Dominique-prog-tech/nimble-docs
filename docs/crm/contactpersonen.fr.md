@@ -28,16 +28,21 @@ Cliquez sur **CRM → Personnes de contact** dans la barre latérale.
 
 La recherche porte sur toutes les colonnes, y compris **Entreprises** — tapez un nom d'entreprise pour voir qui y travaille. Une personne liée à aucune entreprise affiche le message *liée à aucune entreprise* ; vous la retrouvez donc également ici.
 
-- **Nouveau** — cliquez sur **Nouvelle personne de contact**.
+- **Nouveau** — cliquez sur **Nouvelle personne de contact**. Ce bouton n'apparaît que si vous pouvez modifier les relations.
 - **Modifier** — **double-cliquez** une ligne.
 - **Aller au client** — cliquez un nom d'entreprise dans la colonne **Entreprises** ; la fiche client s'ouvre directement.
 - **Exporter** — la liste vers Excel ou CSV.
 - **Journal** — cliquez à droite sur le rail **Journal** pour le côté de la personne sélectionnée :
     - **Tâches** — ce qui doit encore être fait pour cette personne.
-    - **Historique** — qui a modifié quel champ de cette personne, et quand. En lecture seule.
+    - **Notes** — ce que vous notez vous-même sur cette personne. Voir [Notes](../notities.fr.md).
     - **Pièces jointes** — documents et photos liés à cette personne. Voir [Pièces jointes](../bijlagen.fr.md).
+    - **Historique** — qui a modifié quel champ de cette personne, et quand. En lecture seule.
 
 ## La fiche de contact
+
+À gauche figure l'onglet **Général** avec les blocs ci-dessous. À droite figure le journal de cette
+personne : **Tâches**, **Notes**, **Pièces jointes** et **Historique** — voir
+[Travailler avec une fiche](../fiches.fr.md).
 
 ### Bloc Personne
 
@@ -46,15 +51,15 @@ La recherche porte sur toutes les colonnes, y compris **Entreprises** — tapez 
 | **Prénom** | Optionnel. |
 | **Nom de famille** | Obligatoire. |
 | **Fonction** | Liste de choix ; recherchez en tapant. Gérée via **Administration → Fonctions de contact**. |
+| **Actif** | Décocher est un marqueur de statut, pas une suppression. |
 
 ### Bloc Coordonnées
 
 | Champ | Explication |
 |---|---|
 | **E-mail** | Optionnel, mais s'il est rempli, il doit être valide — le message apparaît pendant la saisie. |
-| **GSM** et **Téléphone** | Texte libre. Le GSM figure en premier, car c'est en pratique le numéro qui est renseigné. |
+| **GSM** et **Téléphone** | Optionnels, mais s'ils sont remplis, il doit s'agir d'un numéro de téléphone valide. Le GSM figure en premier, car c'est en pratique le numéro qui est renseigné. |
 | **Langue** | Pour une nouvelle personne, la langue de votre entreprise est déjà proposée. |
-| **Actif** | Décocher est un marqueur de statut, pas une suppression. |
 
 ### Bloc Adresse privée
 
@@ -80,9 +85,9 @@ Vous liez ici la personne aux entreprises où elle travaille.
 
 ## En bas de la fiche
 
-- **Enregistrer** — actif dès qu'un nom de famille est saisi et que toutes les adresses e-mail sont valides.
+- **Enregistrer** — conserve et vous ramène à la liste. Si le nom de famille manque, ou si une adresse e-mail ou un numéro de téléphone n'est pas valide, un message en haut de la fiche indique ce qu'il faut faire. Si l'adresse non valide est liée à une entreprise, le message renvoie au bloc **Entreprises**.
 - **Annuler** — revient à la liste sans conserver.
-- **Supprimer** — uniquement pour une personne existante. La fiche est **archivée** dans la **Corbeille** ; les liens avec les entreprises subsistent, si bien que la restauration ramène la personne avec ses entreprises.
+- **Supprimer** — uniquement pour une personne existante, et uniquement si vous pouvez modifier les relations. La fiche est **archivée** dans la **Corbeille** ; les liens avec les entreprises subsistent, si bien que la restauration ramène la personne avec ses entreprises.
 
 ## Erreurs fréquentes
 

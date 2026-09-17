@@ -1,60 +1,100 @@
 # Gebruikers
 
-Op dit scherm bepaalt u wie zich mag aanmelden bij Nimble en wat die persoon mag doen. U maakt hier nieuwe gebruikers aan, wijst rollen toe en helpt iemand weer op weg wanneer het aanmelden mislukt.
+!!! info "Voor ADM-operators"
+    Dit scherm is voorbehouden aan medewerkers van ADM-Concept. Als klant van Nimble ziet u het niet.
+
+Op dit scherm beheert u de aanmeldingen van Nimble, over alle tenants heen. U maakt gebruikers aan, wijst ze
+toe aan een tenant, kiest hun rol en helpt iemand weer op weg wanneer het aanmelden mislukt.
+
+Een gebruiker met een tenant komt na het aanmelden automatisch en enkel in zijn eigen tenant. Een gebruiker
+zonder tenant is een operator: die mag van tenant wisselen en het beheer doen.
 
 ## Het scherm openen
 
 1. Klik onderaan in de zijbalk op **Platformbeheer**.
 2. Klik in de groep **ADM-beheer** op de tegel **Gebruikers**.
 
-## Een gebruiker aanmaken
-
-Klik op **Nieuwe gebruiker** en vul in:
-
-| Veld | Wat u invult |
-|---|---|
-| **Gebruikersnaam** | Het e-mailadres waarmee de persoon zich aanmeldt, bijvoorbeeld `jan@klant.be`. |
-| **Weergavenaam** | De naam die in het scherm verschijnt, bijvoorbeeld `Jan Tester`. |
-| **Wachtwoord** | U zet zelf een wachtwoord, of u laat het leeg en stuurt achteraf een reset-link. |
-| **Tenant** | De klant waartoe deze gebruiker behoort. Kiest u **— Operator (geen) —**, dan hoort de gebruiker bij geen enkele klant en werkt hij over het platform heen. |
-| **Rol** | Bepaalt de rechten. Een gebruiker heeft er precies één. |
-
-Klik op **Gebruiker aanmaken** om te bewaren.
-
 ## De lijst
 
-Per gebruiker ziet u de **Gebruiker**, de **Naam**, de **Rol** en de **Status**:
+| Kolom | Wat u ziet |
+|---|---|
+| **Gebruiker** | De gebruikersnaam waarmee de persoon zich aanmeldt |
+| **Naam** | De weergavenaam |
+| **Tenant** | De tenant waartoe de gebruiker behoort, of **operator** |
+| **ADM One** | **Gekoppeld** of **Niet gekoppeld** aan het centrale ADM One-register |
+| **Rol** | De rol, als keuzelijst — zie hieronder |
+| **Status** | **Actief**, **Gedeactiveerd** of **Vergrendeld** |
+| *(acties)* | De knop **⋯** met de acties voor die gebruiker |
 
 - **Actief** — de gebruiker kan zich aanmelden.
 - **Gedeactiveerd** — het account bestaat nog, maar aanmelden lukt niet.
 - **Vergrendeld** — er waren te veel mislukte aanmeldpogingen na elkaar.
 
-Uw eigen rij is gemarkeerd met **— jijzelf —**.
+Uw eigen rij draagt **— jijzelf —** in plaats van de knop **⋯**; op uw eigen account zijn de acties
+uitgeschakeld.
+
+Boven de lijst staan **Koppelingen controleren**, **Nieuwe gebruiker**, **Exporteren** en een zoekvak.
+
+## Een gebruiker aanmaken
+
+Klik op **Nieuwe gebruiker**. Er opent een venster:
+
+| Veld | Wat u invult |
+|---|---|
+| **Gebruikersnaam** | De naam waarmee de persoon zich aanmeldt, meestal het e-mailadres, bv. `jan@klant.be` |
+| **Weergavenaam** | De naam die in het scherm verschijnt, bv. `Jan Tester` |
+| **Wachtwoord** | Het eerste wachtwoord |
+| **Tenant** | De klant waartoe deze gebruiker behoort. **— Operator (geen) —** maakt een operator |
+| **Rol** | **Gebruiker** of **Beheerder** |
+
+Klik op **Gebruiker aanmaken**. Die knop werkt pas wanneer **Gebruikersnaam** en **Wachtwoord** ingevuld
+zijn. Met **Annuleren** sluit u het venster.
+
+## De rol wijzigen
+
+Kies in de kolom **Rol** een andere rol uit de keuzelijst. De wijziging geldt vanaf de volgende aanmelding
+van die gebruiker. Uw eigen rol kunt u hier niet wijzigen.
+
+Draagt iemand een rol die dit scherm niet beheert, dan staat er geen keuzelijst maar een label met de naam
+van die rol.
+
+Welke rechten een rol geeft, stelt u in bij [Rollen](roles.md).
 
 ## De acties
 
-Achteraan elke rij staan de acties die op die gebruiker van toepassing zijn:
+Klik op **⋯** in de rij van de gebruiker:
 
-- **Wachtwoord** — u stelt zelf een nieuw wachtwoord in.
-- **Tijdelijk** — Nimble genereert een tijdelijk wachtwoord dat u met **Kopiëren** naar het klembord haalt en doorgeeft.
-- **Reset-link** — u krijgt een herstel-link die de gebruiker zelf een wachtwoord laat kiezen.
-- **Ontgrendelen** — heft een vergrendeling na mislukte aanmeldpogingen op.
-- **Deactiveren** / **Activeren** — sluit iemand uit of laat hem weer binnen.
+- **Wachtwoord** — u stelt zelf een nieuw wachtwoord in. De gebruiker kan er meteen mee aanmelden.
+- **Tijdelijk** — Nimble maakt een leesbaar tijdelijk wachtwoord dat u met **Kopiëren** naar het klembord
+  haalt en doorgeeft.
+- **Reset-link** — u krijgt een herstel-link die de gebruiker zelf een wachtwoord laat kiezen. De link werkt
+  één keer.
+- **Koppelen** — enkel bij een gebruiker die nog niet aan ADM One gekoppeld is.
+- **Ontgrendelen** — enkel bij een vergrendelde gebruiker; heft de vergrendeling op.
+- **Deactiveren** / **Activeren** — sluit iemand uit of laat hem weer binnen. Deactiveren vraagt eerst een
+  bevestiging; lopende sessies van die gebruiker vervallen meteen.
 
-Met **Koppelingen controleren** gaat u na of de gebruikers van deze klant correct verbonden zijn met het centrale register. Per rij ziet u dan **Gekoppeld** of **Niet gekoppeld**, met de knop **Koppelen** waar dat nog moet gebeuren.
+Er is geen actie om een gebruiker te verwijderen. Wie vertrekt, deactiveert u.
+
+## Koppelingen controleren
+
+**Koppelingen controleren** vraagt aan ADM One of elke opgeslagen koppeling daar echt bestaat. Onder de lijst
+verschijnt daarna een melding met de uitkomst. Een gebruiker die nog niet gekoppeld is, koppelt u met
+**⋯ → Koppelen**.
 
 ## Veelgemaakte fouten
 
 !!! warning
-    **Verwijder geen gebruiker die vertrekt — deactiveer hem.** Een verwijderde gebruiker neemt zijn spoor mee: u ziet achteraf niet meer wie wat gewijzigd heeft. **Deactiveren** houdt die geschiedenis intact en sluit de toegang even goed af.
-
-!!! warning
-    **Uzelf deactiveren kan niet.** Nimble laat dat bewust niet toe — u zou zich daarna niet meer kunnen aanmelden om het terug te draaien.
+    - **Een tenant-gebruiker als operator aanmaken.** Kiest u **— Operator (geen) —**, dan ziet die persoon
+      alle tenants. Kies bij een klantmedewerker altijd de juiste tenant.
+    - **Een wachtwoord via e-mail doorgeven.** Geef een wachtwoord of reset-link liefst door via een ander
+      kanaal, waar u de persoon herkent.
 
 !!! tip
-    Een tijdelijk wachtwoord of een reset-link is maar één keer zichtbaar. Kopieer hem meteen en geef hem door via een kanaal waar u de persoon herkent — niet in een openbare groepschat.
+    Een tijdelijk wachtwoord of een reset-link toont Nimble maar één keer. Kopieer hem meteen.
 
 ## Zie ook
 
 - [Rollen](roles.md) — wat een rol precies toestaat
+- [Tenants](tenants.md) — de klanten waaraan u gebruikers toewijst
 - [Actielogboek](audit-log.md) — wie heeft wat gedaan

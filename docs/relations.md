@@ -15,7 +15,6 @@ Klik in de zijbalk op **CRM → Relaties**.
 | **Naam** | Bedrijfsnaam of weergavenaam |
 | **Btw-nummer** | Ondernemingsnummer |
 | **Gemeente** | Postcode en gemeente samen |
-| **Verantwoordelijke** | Het vaste aanspreekpunt binnen uw team |
 | **Taal** | De documenttaal van deze relatie |
 | **Type** | Badges Klant / Leverancier |
 | **Aangemaakt** | Wanneer de fiche is aangemaakt |
@@ -26,15 +25,18 @@ Klik in de zijbalk op **CRM → Relaties**.
 - **Exporteren** — exporteer de lijst naar Excel of CSV.
 - **Nieuw** — klik op **Nieuwe relatie**.
 - **Bewerken** — **dubbelklik** een rij om de fiche te openen.
-- **Journaal** — klik rechts op de rail **Journaal** voor de zijkant van de geselecteerde relatie. Die heeft vier tabbladen:
-    - **Contacten** — wie u bij deze klant moet hebben. E-mailadressen en nummers zijn aanklikbaar, zodat u kunt bellen of mailen zonder de fiche te openen. Klik een kaartje om de contactfiche te openen, of gebruik **Nieuwe contactpersoon** om er meteen een aan deze klant te koppelen.
+- **Journaal** — klik rechts op de rail **Journaal** voor de zijkant van de geselecteerde relatie. Die heeft vijf tabbladen:
+    - **Contacten** — wie u bij deze klant moet hebben. E-mailadressen en nummers zijn aanklikbaar, zodat u kunt bellen of mailen zonder de fiche te openen. Klik een kaartje om de contactfiche te openen. Mag u relaties wijzigen, dan maakt **Nieuwe contactpersoon** er meteen een aan die aan deze klant gekoppeld is.
     - **Taken** — wat er nog moet gebeuren.
-    - **Logboek** — wie welk veld van deze klant wijzigde, en wanneer. Alleen om te lezen.
+    - **Notities** — wat u zelf noteert over deze klant. Zie [Notities](notities.md).
     - **Bijlagen** — documenten en foto's bij deze klant. Zie [Bijlagen](bijlagen.md).
+    - **Logboek** — wie welk veld van deze klant wijzigde, en wanneer. Alleen om te lezen.
 
 ## De relatiefiche
 
-De fiche heeft twee tabbladen: **Fiche** en **Contactpersonen**. De knoppen **Opslaan**, **Annuleren** en **Verwijderen** staan onder de tabbladen en gelden voor allebei — u kunt dus bewaren vanaf welk tabblad u ook staat.
+Links staan de tabbladen **Fiche** en **Contactpersonen**. Rechts staat het journaal van deze klant: **Taken**, **Notities**, **Bijlagen** en **Logboek** — zie [Werken met een fiche](fiches.md).
+
+De knoppen **Bewaren**, **Annuleren** en **Verwijderen** staan onderaan en gelden voor **Fiche** en **Contactpersonen** samen — u kunt dus bewaren vanaf welk van die twee tabbladen u ook staat. Op een journaal-tabblad ziet u ze niet.
 
 Het tabblad **Fiche** is verdeeld in blokken.
 
@@ -71,8 +73,8 @@ Vul het btw-nummer in en klik op **Ophalen**. Naam, straat, nummer, postcode, ge
 
 | Veld | Uitleg |
 |---|---|
-| **E-mail** | Optioneel, maar ingevuld moet het een geldig adres zijn — u ziet de melding tijdens het typen. |
-| **Telefoon** | Vrije tekst. |
+| **E-mail** | Optioneel, maar ingevuld moet het een geldig adres zijn — u ziet de melding tijdens het typen. Wilt u meerdere adressen, scheid ze dan met `;` of `,`. |
+| **Telefoon** | Optioneel, maar ingevuld moet het een geldig telefoonnummer zijn. |
 
 ### Blok Classificatie
 
@@ -81,7 +83,7 @@ Vul het btw-nummer in en klik op **Ophalen**. Naam, straat, nummer, postcode, ge
 | **Categorie** | Klantcategorie uit **Platformbeheer**. Zoek door te typen. |
 | **Bron** | Hoe deze relatie u leerde kennen. Dezelfde lijst als de **leadbron**, zodat een omgezette lead zijn herkomst behoudt. |
 | **Verantwoordelijke** | Het vaste aanspreekpunt binnen uw team. |
-| **Documenttaal** | Stuurt de taal van offertes en facturen voor deze klant, los van de taal waarin u zelf werkt. Leeg = de standaardtaal van uw bedrijf. |
+| **Documenttaal** | Verplicht. Stuurt de taal van offertes, facturen en mails voor deze klant, los van de taal waarin u zelf werkt. |
 | **Betalingstermijn (dagen)** | Het aantal dagen dat deze klant krijgt om te betalen. Het bepaalt de vervaldag die een nieuwe factuur voorstelt. Leeg = de standaard van uw bedrijf, in te stellen op de bedrijfsfiche. **0 betekent contant** — dat is iets anders dan leeg. |
 | **Klant** / **Leverancier** | Vink aan wat van toepassing is — beide mag. |
 | **Actief** | Uitvinken verbergt de relatie niet automatisch uit alle lijsten; gebruik dit als statusmarkering. |
@@ -92,6 +94,8 @@ Vul het btw-nummer in en klik op **Ophalen**. Naam, straat, nummer, postcode, ge
 
 Dit blok verschijnt alleen bij een relatie die uit een **lead** is ontstaan, en alleen als u leads mag inkijken. Het toont, leesbaar en niet wijzigbaar: leadnummer, status, type aanvraag, omvang, budget, timing, urgentie, volgende actie met datum, en wanneer de lead is aangemaakt. Velden die de lead niet had, blijven weg.
 
+Hingen er documenten aan de lead, dan staan ze onderaan het blok onder **Documenten uit de aanvraag**. Klik op een naam om het bestand te openen. De documenten blijven bij de lead bewaard.
+
 ![Een klant die uit een lead is ontstaan, met het volledige blok Afkomstig van een lead.](images/relatie-herkomst-lead.png)
 
 !!! note "Waarom niet gewoon velden op de klant?"
@@ -100,6 +104,8 @@ Dit blok verschijnt alleen bij een relatie die uit een **lead** is ontstaan, en 
 ### Tabblad Contactpersonen
 
 Hier beheert u wie er bij deze klant aan de lijn komt. Het aantal staat in de titel van het tabblad, zodat u niet hoeft te openen om te weten of er iemand aan hangt.
+
+Bij een nieuwe relatie staat hier: *Bewaar de relatie eerst; daarna kunt u er contactpersonen aan koppelen.*
 
 ![Het tabblad Contactpersonen met twee gekoppelde personen, hun rol en e-mailadres.](images/relatie-contactpersonen.png)
 
@@ -113,20 +119,20 @@ Hier beheert u wie er bij deze klant aan de lijn komt. Het aantal staat in de ti
 - **Koppelen** — kies onderaan een persoon in de zoeklijst en klik op **Koppelen**.
 - **Loskoppelen** — haalt de koppeling weg. De persoon zelf blijft bestaan; hij kan bij een ander bedrijf werken.
 
-!!! note "Alles gaat pas mee bij Opslaan"
-    Ook koppelingen en rollen worden pas weggeschreven wanneer u op **Opslaan** klikt. **Annuleren** laat alles zoals het was.
+!!! note "Alles gaat pas mee bij Bewaren"
+    Ook koppelingen, rollen en e-mailadressen worden pas weggeschreven wanneer u op **Bewaren** klikt. **Annuleren** laat alles zoals het was.
 
 ## Onderaan de fiche
 
-- **Opslaan** — bewaart de wijzigingen. Alleen actief met een ingevulde naam en een geldig e-mailadres.
+- **Bewaren** — bewaart de wijzigingen en brengt u terug naar de lijst. Ontbreekt er nog iets — de naam, de documenttaal — of is een e-mailadres of telefoonnummer ongeldig, dan zegt een melding bovenaan de fiche wat er moet gebeuren. Staat het ongeldige adres bij een contactpersoon, dan verwijst de melding naar het tabblad **Contactpersonen**.
 - **Annuleren** — gaat terug naar de lijst zonder te bewaren.
 - **Verwijderen** — alleen bij een bestaande relatie, zie hieronder.
 
 ## Verwijderen
 
-Op de fiche klikt u op **Verwijderen**. U krijgt eerst de vraag *"Archiveren?"* met de naam erbij. Bevestigt u, dan wordt de relatie **gearchiveerd** (soft-delete) en belandt ze in de **Prullenbak**, waar u ze kunt herstellen vóór definitieve verwijdering.
+Op de fiche klikt u op **Verwijderen**. U krijgt eerst de vraag *"Archiveren?"* met de naam erbij. Bevestigt u, dan wordt de relatie **gearchiveerd** en belandt ze in de **Prullenbak**, waar u ze kunt herstellen.
 
-Opslaan en Verwijderen verschijnen alleen als u het **bewerkrecht** hebt; zonder dat recht kunt u de fiche lezen maar niet wijzigen.
+Bewaren en Verwijderen verschijnen alleen als u het **bewerkrecht** hebt; zonder dat recht kunt u de fiche lezen maar niet wijzigen, en heet de knop onderaan **Naar de lijst**.
 
 ## Veelgemaakte fouten
 
@@ -136,14 +142,9 @@ Opslaan en Verwijderen verschijnen alleen als u het **bewerkrecht** hebt; zonder
     - **Documenttaal verwarren met uw eigen taal** — dit veld bepaalt de taal van de documenten die de klant krijgt, niet de taal van uw scherm.
     - **Actief uitvinken om iets te verwijderen** — daarvoor dient **Verwijderen**; **Actief** is enkel een markering.
 
-## Gegevens uit de legacy
-
-Heeft u een bestaande Firebird-databank? Via **Platformbeheer → Conversie** importeert u de actieve `CRM_ACCOUNTS` als relaties. De conversie is herhaalbaar: bestaande rijen worden bijgewerkt op basis van de legacy-sleutel, zonder dubbels.
-
 ## Zie ook
 
 - [Leads](crm/leads.md) — van eerste contact tot omzetting naar klant
 - [Contactpersonen](crm/contactpersonen.md) — de mensen achter deze bedrijven
-- [Conversie](administration/conversion.md) — Firebird → PostgreSQL overzetten
 - [Lijsten filteren](lijsten-filteren.md) — de trechterknop, de filterbouwer en de filterbalk
-- [Werken met een fiche](fiches.md) — eigen adres, tabbladen, opslaan en archiveren
+- [Werken met een fiche](fiches.md) — eigen adres, tabbladen, bewaren en archiveren

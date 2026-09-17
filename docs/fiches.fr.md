@@ -50,25 +50,46 @@ En haut de la fiche se trouvent deux groupes d'onglets.
     ne s'affichent pas — sinon « Supprimer » serait ambigu : cela supprimerait-il l'enregistrement ou la
     pièce jointe que vous consultez ?
 
-### Tâches et Notes ont la même forme
+### La barre d'outils d'un onglet du journal
 
-Sur les deux onglets, chaque ligne est une fiche, avec au-dessus une barre d'outils qui reste visible.
+Chaque onglet du journal a en haut une barre d'outils qui **reste visible** pendant que vous faites défiler
+la liste. Inutile de remonter pour ajouter quelque chose.
 
-**Notes** est ce que vous rédigez vous-même sur cet enregistrement. **Tâches** montre ce qui doit encore
-être fait, avec la priorité et la date à laquelle ce doit être prêt.
+| Onglet | Dans la barre d'outils |
+|---|---|
+| **Tâches** | **Nouveau**, et à droite la case **Afficher les terminées**. Par défaut, vous ne voyez que ce qui reste ouvert |
+| **Notes** | **Note**, et à droite le champ **Rechercher dans les notes…** |
+| **Pièces jointes** | **+ Pièce jointe**, et un champ de recherche |
+| **Historique** | Rien : l'Historique est une consultation, vous n'y écrivez rien |
 
-- En haut se trouve le **bouton d'ajout** de cet onglet — **Nouveau** sur Tâches, **Note** sur Notes,
-  **Pièce jointe** sur Pièces jointes. Historique n'en a pas : c'est une consultation, vous n'y écrivez
-  rien. Cette barre
-  d'outils **reste visible** pendant que vous faites défiler la liste : inutile de remonter pour ajouter
-  quelque chose.
-- Sur **Tâches** figure également **Afficher les tâches terminées**. Par défaut, vous ne voyez que ce qui
-  reste ouvert.
-- À droite se trouve un **champ de recherche**. Si votre terme ne correspond à rien, vous lisez
-  « Rien trouvé. » et non une liste vide — il y a donc bien des lignes, votre terme ne les atteint
-  simplement pas.
-- **Les sauts de ligne sont conservés.** Si vous rédigez une note de trois lignes, elle se lit comme
-  trois lignes.
+Vous ne voyez les boutons d'ajout que si vous pouvez modifier l'enregistrement.
+
+### L'onglet Tâches
+
+Chaque tâche est une carte avec le titre, la description, la priorité, la date à laquelle elle doit être
+prête (**Au …**) et la personne qui la suit.
+
+**Nouveau** ouvre une fenêtre avec ces champs :
+
+| Champ | |
+|---|---|
+| **Objet** | Ce qui doit être fait. Obligatoire |
+| **Attribuée à** | La personne qui suit la tâche |
+| **Priorité** | Réglée par défaut sur **Normale** |
+| **Dès le** et **Au** | Quand vous commencez et quand ce doit être prêt |
+| **Rappel** | Une date et une heure. À ce moment, la tâche apparaît sous la cloche en haut de l'application — aucun e-mail n'est envoyé |
+| **Texte** | Les détails |
+
+Cliquez sur **Enregistrer**. La tâche apparaît aussi dans l'écran [Tâches](crm/tasks.md), rattachée à cet
+enregistrement.
+
+<!-- AFBEELDING: la fenêtre Nouveau sur l'onglet Tâches d'une fiche de relation dans le tenant demo (p. ex. Vandersteen Bouwprojecten BV), champs vides, interface en français. Il n'existe pas encore de bloc pour cette image dans gen-screenshots.mjs. -->
+
+### L'onglet Notes
+
+Notes est ce que vous rédigez vous-même sur cet enregistrement. Chaque note est une carte avec l'objet, le
+texte et la date. **Les sauts de ligne sont conservés** : une note de trois lignes se lit comme trois
+lignes. Voir [Notes](notities.fr.md).
 
 ### L'onglet Historique
 
@@ -78,10 +99,7 @@ quelle autre. Tout en bas figure qui a créé la fiche.
 Vous n'y écrivez rien vous-même. Il n'y a pas de bouton d'ajout et vous ne pouvez rien supprimer — une
 histoire dans laquelle on peut effacer n'est pas une histoire.
 
-<!-- AFBEELDING: l'onglet Historique avec quelques lignes de modification — une étiquette colorée Modifié
-     ou Créé, la date, l'auteur, et en dessous les champs avec leur ancienne et leur nouvelle valeur.
-     ⚠️ PAS PLACÉE le 02/09/2026 : l'image obtenue montre UNE création deux fois, à 3 ms d'intervalle.
-     Ce n'est pas une erreur de l'écran mais des données. Signalé à Dominique. -->
+<!-- AFBEELDING: l'onglet Historique avec quelques lignes de modification — une étiquette colorée Modifié ou Créé, la date, l'auteur, et en dessous les champs avec leur ancienne et leur nouvelle valeur. État de démo : une relation du tenant demo modifiée et enregistrée au moins une fois après sa création. -->
 
 - Chaque ligne commence par une étiquette : **Créé**, **Modifié** ou **Supprimé**.
 - En dessous figurent les champs qui ont changé, avec leur valeur avant et après.
@@ -89,7 +107,6 @@ histoire dans laquelle on peut effacer n'est pas une histoire.
   **+ n autres champs**.
 - L'historique affiche les 200 modifications les plus récentes ; s'il y en a davantage, la liste le
   signale en bas.
-- La liste **remplit l'onglet** et défile à l'intérieur, pour que la barre d'outils reste en vue.
 
 ### L'onglet Pièces jointes
 
@@ -108,17 +125,21 @@ Le nombre de colonnes dépend de la largeur :
 - **+ Pièce jointe** ouvre une fenêtre où vous choisissez des fichiers ou les y glissez. Vous pouvez en
   sélectionner **plusieurs à la fois** ; la description que vous indiquez vaut alors pour toute la série.
   Pour les décrire séparément, ajustez-les ensuite ligne par ligne via le menu **⋯**.
-- Un clic sur le nom **ouvre** le fichier. Les photos et les PDF s'affichent directement dans votre
-  navigateur ; le reste est téléchargé.
+- Un clic sur le nom **ouvre** le fichier. Une photo s'affiche directement dans votre navigateur ;
+  d'autres fichiers peuvent arriver en téléchargement. Voir [Pièces jointes](bijlagen.fr.md).
 - La limite est de **25 Mo par fichier**.
 
 ## Enregistrer, annuler, supprimer
 
-En bas à droite.
+Les boutons se trouvent en bas à droite, dans cet ordre :
 
-- **Enregistrer** conserve et vous ramène à la liste. Une brève confirmation s'affiche.
-- **Annuler** revient en arrière sans conserver.
-- **Supprimer** demande d'abord une confirmation — voir ci-dessous.
+1. **Enregistrer** conserve et vous ramène à la liste. Une brève confirmation s'affiche.
+2. Les actions propres à cette fiche, comme **Convertir en client** sur un lead.
+3. **Annuler** revient à la liste sans conserver.
+4. **Supprimer** se trouve à part, tout à droite. Il demande d'abord une confirmation — voir ci-dessous.
+
+S'il manque encore une donnée obligatoire lorsque vous cliquez sur **Enregistrer**, un message en haut de la
+fiche indique quel champ. Les champs obligatoires portent un astérisque rouge.
 
 !!! warning "Supprimer, c'est archiver"
     Si vous cliquez sur **Supprimer**, la question « Archiver ? » apparaît, avec le nom de
@@ -129,9 +150,10 @@ En bas à droite.
 
 ## Qui peut modifier
 
-Sur les fiches **Articles**, **Relations** et **Personnes de contact**, Enregistrer et Supprimer dépendent
-de votre **droit de modification**. Sans ce droit, vous pouvez ouvrir et lire la fiche, mais les champs
-sont en lecture seule et seul un bouton de retour vers la liste subsiste.
+Sur les fiches, Enregistrer et Supprimer dépendent de votre **droit de modification** — entre autres pour
+les **Leads**, les **Relations**, les **Personnes de contact** et les **Articles**. Sans ce droit, vous pouvez
+ouvrir et lire la fiche, mais vous ne voyez ni **Enregistrer** ni **Supprimer**. À la place d'**Annuler**
+figure **Vers la liste**.
 
 <!-- AFBEELDING: la même fiche sans droit de modification : champs en gris, seul le bouton retour — nécessite un utilisateur SANS droit de modification, absent du tenant de démo -->
 

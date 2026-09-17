@@ -8,11 +8,14 @@ Le fonctionnement est identique partout ; cette page vaut donc pour tous les éc
 
 ## Ouvrir l'onglet
 
-1. Sélectionnez une ligne dans la liste (un client, une personne de contact …).
-2. Cliquez à droite sur le rail **Journal**.
-3. Cliquez en haut sur le nom de l'onglet et choisissez **Pièces jointes**.
+Deux chemins y mènent :
 
-![La fenêtre derrière + Pièce jointe, avec la zone de dépôt et le champ Description.](images/bijlage-toevoegen-venster-fr.png)
+- **Sur la fiche** — ouvrez l'enregistrement (double-cliquez dessus dans la liste) et cliquez en haut à
+  droite sur **Pièces jointes**.
+- **Depuis la liste** — sélectionnez une ligne, cliquez à droite sur le rail **Journal**, cliquez en haut
+  sur le nom de l'onglet et choisissez **Pièces jointes**.
+
+<!-- AFBEELDING: le panneau du journal à côté de la liste des relations dans le tenant demo (Vandersteen Bouwprojecten BV sélectionnée), avec le choix d'onglet ouvert pour que Pièces jointes figure parmi Contacts, Tâches, Notes et Historique, interface en français -->
 
 ## Ajouter un fichier
 
@@ -22,9 +25,9 @@ pouvez en prendre **plusieurs à la fois**.
 Dans cette même fenêtre, vous pouvez indiquer une **description**. Elle vaut pour toute la série téléversée
 en une fois — pour les décrire séparément, ajustez-les ensuite ligne par ligne via le menu **⋯**.
 
-![L'onglet Pièces jointes avec quelques fichiers, dont une photo avec vignette.](images/fiche-tab-bijlagen-fr.png)
+![La fenêtre derrière + Pièce jointe, avec la zone de dépôt et le champ Description.](images/bijlage-toevoegen-venster-fr.png)
 
-<!-- AFBEELDING: l'onglet Pièces jointes avec quelques fichiers, dont au moins une photo avec vignette — nécessite des pièces jointes dans le tenant de démo -->
+![L'onglet Pièces jointes avec quelques fichiers, dont une photo avec vignette.](images/fiche-tab-bijlagen-fr.png)
 
 !!! info "25 Mo maximum par fichier"
     Un plan de construction ou une série de photos de chantier tient largement dans cette limite. Si un
@@ -39,8 +42,8 @@ nom long tient également.
 
 Cliquez sur son nom.
 
-- Les **photos** s'ouvrent dans un nouvel onglet, pour les voir immédiatement.
-- Les **autres fichiers** (pdf, Word, Excel …) sont téléchargés et s'ouvrent dans le programme de votre
+- **Ce que votre navigateur peut afficher lui-même**, comme une photo, s'ouvre dans un nouvel onglet.
+- Les **autres fichiers**, comme Word ou Excel, sont téléchargés et s'ouvrent dans le programme de votre
   ordinateur.
 
 Une photo est en outre précédée d'une vignette, pour la reconnaître dans la liste sans devoir l'ouvrir.
@@ -56,9 +59,13 @@ Cliquez sur le menu **⋯** à droite de la ligne et choisissez supprimer. Le fi
 
 ## Qui voit quelles pièces jointes
 
-Il n'existe **pas de droit distinct** pour les pièces jointes. Qui peut ouvrir une fiche client voit aussi
-les documents de ce client. C'est délibéré : pouvoir consulter une offre mais pas sa version signée n'est
-pas une sécurité, c'est une confusion.
+Il n'existe **pas de droit distinct** pour consulter les pièces jointes. Qui peut ouvrir une fiche client
+voit aussi les documents de ce client. C'est délibéré : pouvoir consulter une offre mais pas sa version
+signée n'est pas une sécurité, c'est une confusion.
+
+**Ajouter, modifier la description et supprimer** dépendent en revanche du droit de modification sur ce type
+d'enregistrement. Si vous pouvez uniquement consulter les clients, vous ne voyez pas le bouton
+**+ Pièce jointe** sur un client.
 
 ## Erreurs fréquentes
 

@@ -14,33 +14,35 @@ Les **fonctions de contact** sont les titres de fonction que vous pouvez attribu
 
 | Colonne | Signification |
 |---|---|
-| **Ordre** | Détermine l'ordre dans les listes de choix (bas = en haut) |
+| **Ordre** | Détermine l'ordre dans les listes de choix (petit = en haut) |
 | **Code** | Code court et unique |
 | **Nom (NL)** | Nom néerlandais |
 | **Nom (FR)** | Nom français |
 
 ![La liste des fonctions de contact, avec code, nom dans les deux langues et ordre.](../images/contactfuncties-lijst-fr.png)
 
-Double-cliquez une ligne pour modifier, ou cliquez sur **Nouvelle valeur**.
+Double-cliquez sur une ligne pour la modifier, ou cliquez sur **Nouvelle valeur**. **Exporter** récupère la liste dans un fichier.
 
 ## Créer ou modifier une fonction
 
-1. L'**Ordre** est proposé automatiquement (dernier + 10) ; ajustez-le pour déplacer la valeur.
-2. Remplissez le **Code**.
-3. Remplissez le nom dans la **langue de base de votre entreprise** — ce champ est obligatoire ; l'autre langue est optionnelle.
-4. Cliquez sur **Enregistrer**.
+Une fenêtre **Nouvelle valeur** ou **Modifier** s'ouvre.
+
+1. L'**Ordre** est proposé automatiquement (le plus élevé + 10) ; ajustez-le pour déplacer la valeur.
+2. Remplissez le **Code** — obligatoire.
+3. Remplissez le nom dans la **langue de base de votre entreprise** — obligatoire. L'autre langue porte la mention **optionnel**.
+4. Cliquez sur **Enregistrer**, ou sur **Annuler** pour fermer la fenêtre sans enregistrer.
 
 !!! tip "Pas de 10"
     L'ordre progresse par défaut de 10 en 10 (10, 20, 30 …). Vous pouvez ainsi insérer facilement une valeur plus tard sans tout renuméroter.
 
 ## Supprimer
 
-Ouvrez la fonction et cliquez sur **Supprimer**. La fonction est archivée (corbeille) ; les personnes de contact existantes conservent leur fonction.
+Ouvrez la fonction et cliquez à droite dans la fenêtre sur **Supprimer**. Après confirmation, la fonction va dans la [corbeille](recycle-bin.md) ; les personnes de contact existantes conservent leur fonction. Vous pouvez la récupérer via la corbeille.
 
 ## Erreurs fréquentes
 
 !!! warning
-    - **Nom français oublié** — les utilisateurs francophones voient alors l'autre langue en repli.
+    - **Nom français oublié** — les utilisateurs francophones voient alors le nom dans la langue de base.
     - **Créer une fonction par client** — cela n'a pas sa place ici mais dans le champ **Rôle** sur le lien avec cette entreprise. Cette liste reste ainsi courte et utilisable.
     - **Supprimer une fonction encore utilisée** — les personnes de contact existantes conservent leur fonction, mais les nouvelles ne peuvent plus la choisir.
 

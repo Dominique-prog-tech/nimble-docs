@@ -20,7 +20,7 @@ Het journaal hangt aan élk record, en er zijn twee wegen naartoe:
 - **Vanuit de lijst** — selecteer een rij en klik rechts op de rail **Journaal**. Klik daar bovenaan op de
   naam van het tabblad en kies **Notities**.
 
-![De fiche van een artikel met bovenaan de tabbladen en het tabblad Notities open, met twee notities eronder.](images/notities-tab.png)
+![De fiche van een artikel met bovenaan de tabbladen en het tabblad Notities open: de knop Notitie, het zoekvak en enkele notities eronder.](images/notities-tab.png)
 
 ## Een notitie toevoegen
 
@@ -28,13 +28,15 @@ Klik bovenaan op **Notitie**. Er opent een venster met drie velden:
 
 | Veld | |
 |---|---|
-| **Onderwerp** | Optioneel. Een korte kop maakt een lijst met veel notities overzichtelijk. |
-| **Tekst** | De tekst zelf. Dit veld is verplicht. Regeleindes blijven behouden, dus een lijstje blijft een lijstje. |
-| **Wanneer** | De dag waar de notitie *op slaat* — niet wanneer u ze typte. Laat hem leeg als dat er niet toe doet. |
+| **Onderwerp** | Verplicht. Een korte kop, zodat u de notitie terugvindt in een lange lijst. |
+| **Wanneer** | Het moment waar de notitie *op slaat*. Het veld staat al ingevuld met de datum en het uur van nu; pas het aan als de notitie over een ander moment gaat. |
+| **Tekst** | De tekst zelf. Regeleindes blijven behouden, dus een lijstje blijft een lijstje. |
 
-![Het venster Notitie met de velden Onderwerp, Wanneer en Tekst, en onderaan Bewaren en Annuleren.](images/notitie-toevoegen-venster.png)
+![Het venster Notitie met het verplichte veld Onderwerp, Wanneer met de datum van vandaag, en Tekst, en onderaan Bewaren en Annuleren.](images/notitie-toevoegen-venster.png)
 
-Klik **Bewaren**. De notitie verschijnt bovenaan in de lijst.
+Klik **Bewaren**. De lijst staat op die datum, de recentste bovenaan.
+
+Rechts in de werkbalk staat het zoekvak **Zoeken in de notities…**.
 
 !!! note "Waarom een aparte datum"
     Belt een klant op vrijdag over een levering van de week daarvoor, dan is de datum van de notitie die
@@ -43,7 +45,7 @@ Klik **Bewaren**. De notitie verschijnt bovenaan in de lijst.
 
 ## Een notitie aanpassen of verwijderen
 
-Onder elke notitie staan **Bewerken** en **Verwijderen**. Bewerken opent hetzelfde venster.
+Wie notities mag bewerken, kan een bestaande notitie aanpassen of verwijderen.
 
 !!! warning "Verwijderen is archiveren"
     De notitie wordt niet echt gewist — ze blijft bewaard en verdwijnt alleen uit het zicht. Dat is met
@@ -55,6 +57,9 @@ Onder elke notitie staan **Bewerken** en **Verwijderen**. Bewerken opent hetzelf
 Anders dan bij bijlagen is er **wel een apart recht** op notities: *Notities bekijken* en *Notities
 bewerken*. Wie een artikel mag zien, ziet daarmee dus niet automatisch wat een collega erover genoteerd
 heeft. Uw beheerder stelt dat in bij de rollen.
+
+Met enkel *Notities bekijken* leest u de notities, maar ziet u de knop **Notitie** niet en kunt u niets
+aanpassen of verwijderen.
 
 ## Veelgemaakte fouten
 
