@@ -1,8 +1,9 @@
 # Actielogboek
 
-!!! info "Voor ADM-operators"
-    Dit scherm is vandaag enkel zichtbaar voor medewerkers van ADM-Concept. Als klant van Nimble ziet u de
-    tegel niet.
+!!! info "Wie ziet dit scherm, en hoeveel ervan"
+    De tegel staat er voor wie het recht **Actielogboek bekijken** heeft; bij de standaardinstelling is dat
+    een beheerder. U ziet daarbij **enkel de regels van uw eigen bedrijf**. Medewerkers van ADM-Concept die u
+    ondersteunen, zien de regels van alle klanten — daarmee gaan zij een melding na.
 
 Het actielogboek toont wie wat wanneer deed in Nimble: aanmeldingen, wijzigingen, statuswijzigingen,
 betalingen, leveringen. U raadpleegt het wanneer u wilt nagaan hoe een gegeven in zijn huidige toestand

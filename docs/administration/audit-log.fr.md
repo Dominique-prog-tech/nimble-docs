@@ -1,8 +1,10 @@
 # Journal d'audit
 
-!!! info "Pour les opérateurs ADM"
-    Cet écran n'est aujourd'hui visible que pour les collaborateurs d'ADM-Concept. En tant que client de
-    Nimble, vous ne voyez pas la tuile.
+!!! info "Qui voit cet écran, et quelle partie"
+    La tuile apparaît pour qui possède le droit **Voir le journal d'audit** ; par défaut, il s'agit d'un
+    administrateur. Vous ne voyez alors que **les lignes de votre propre entreprise**. Les collaborateurs
+    d'ADM-Concept qui vous assistent voient les lignes de tous les clients — c'est ainsi qu'ils examinent un
+    signalement.
 
 Le journal montre qui a fait quoi, et quand, dans Nimble : connexions, modifications, changements de statut,
 paiements, livraisons. Vous le consultez lorsque vous voulez comprendre comment une donnée est arrivée dans son
