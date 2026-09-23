@@ -1,6 +1,6 @@
 # Prullenbak
 
-Wat u in Nimble verwijdert, wordt niet vernietigd maar weggelegd. Het komt in de prullenbak terecht en blijft daar herstelbaar. Op dit scherm zet u een record terug op zijn plaats.
+Wat u in Nimble verwijdert **of archiveert**, wordt niet vernietigd maar weggelegd. Het komt in de prullenbak terecht en blijft daar herstelbaar. Op dit scherm zet u een record terug op zijn plaats.
 
 ## Het scherm openen
 
@@ -17,7 +17,7 @@ De lijst toont per verwijderd record drie kolommen:
 |---|---|
 | **Type** | Om wat voor record het gaat, bv. *Leads*, *Offertes* of *Btw-codes* |
 | **Naam** | De omschrijving waaraan u het record herkent |
-| **Verwijderd op** | Datum en uur waarop het weggelegd is |
+| **Verwijderd op** | Datum en uur waarop het weggelegd is — ook voor wat u gearchiveerd hebt |
 
 Filter per kolom om de lijst te beperken, bijvoorbeeld tot één type. Met **Exporteren** haalt u de lijst
 binnen in een bestand. Is er niets verwijderd, dan staat er **De prullenbak is leeg.**
@@ -30,6 +30,11 @@ artikelfamilies, eenheden, productiestatus, pipeline-status, projecttypes, klant
 leadbronnen, types aanvraag en btw-codes.
 
 Een [leadfase](lead-status.md) die u verwijdert, komt **niet** in de prullenbak: die is meteen definitief weg.
+
+!!! info
+    **Op de aankoopfactuur heet de knop *Archiveren*, niet *Verwijderen*.** Dat is bewust: de factuur blijft
+    bestaan. Ze komt wel op dezelfde plaats terecht als alles wat u verwijdert — hier in de prullenbak — en u
+    zet ze op dezelfde manier terug.
 
 ## Een record herstellen
 

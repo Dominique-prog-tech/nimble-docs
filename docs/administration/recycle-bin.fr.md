@@ -1,6 +1,6 @@
 # Corbeille
 
-Ce que vous supprimez dans Nimble n'est pas détruit mais mis de côté. L'élément arrive dans la corbeille et y reste restaurable. Sur cet écran, vous remettez un enregistrement à sa place.
+Ce que vous supprimez **ou archivez** dans Nimble n'est pas détruit mais mis de côté. L'élément arrive dans la corbeille et y reste restaurable. Sur cet écran, vous remettez un enregistrement à sa place.
 
 ## Ouvrir l'écran
 
@@ -17,7 +17,7 @@ La liste affiche trois colonnes par enregistrement supprimé :
 |---|---|
 | **Type** | De quel type d'enregistrement il s'agit, p. ex. *Leads*, *Devis* ou *Codes TVA* |
 | **Nom** | La description à laquelle vous reconnaissez l'enregistrement |
-| **Supprimé le** | La date et l'heure de la mise de côté |
+| **Supprimé le** | La date et l'heure de la mise de côté — également pour ce que vous avez archivé |
 
 Filtrez par colonne pour limiter la liste, par exemple à un seul type. **Exporter** récupère la liste dans un
 fichier. Si rien n'a été supprimé, la mention **La corbeille est vide.** s'affiche.
@@ -31,6 +31,11 @@ catégories client, fonctions de contact, sources de leads, types de demande et 
 
 Une [phase de lead](lead-status.md) que vous supprimez ne va **pas** dans la corbeille : elle disparaît
 définitivement.
+
+!!! info
+    **Sur la facture d'achat, le bouton s'appelle *Archiver*, pas *Supprimer*.** C'est voulu : la facture
+    continue d'exister. Elle arrive toutefois au même endroit que tout ce que vous supprimez — ici, dans la
+    corbeille — et vous la restaurez de la même manière.
 
 ## Restaurer un enregistrement
 
