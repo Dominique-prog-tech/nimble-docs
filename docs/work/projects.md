@@ -165,6 +165,36 @@ Staat er een aanvaarde offerte op het project, dan volgen nog drie bedragen:
 Hier staan de offertes en facturen van dit project, met nummer, datum, status en bedrag. Een creditnota
 draagt een eigen label. Klik op een nummer om het document te openen.
 
+### Tabblad Overdracht
+
+Op dit tabblad legt u vast wanneer verkoop het dossier aan de projectleiding overdroeg. Dat is het begin
+van de uitvoering, zoals het tabblad Oplevering hieronder het einde vastlegt.
+
+**Overgedragen op** is de datum waarop de projectleiding het dossier overnam. Vanaf die datum is zij
+verantwoordelijk. Blijft het veld leeg, dan geldt het dossier als nog niet overgedragen.
+
+**Overgedragen aan** noteert wie het dossier overneemt. Het is een vrij tekstveld: de projectleider hoeft
+dus niet als medewerker in de app te staan.
+
+In **Afspraken of reden** zet u wat er bij de overdracht is afgesproken. Ging het dossier terug naar
+verkoop omdat er iets ontbrak, zet dan hier waarom. Zo staat bij het dossier zelf wat er misging.
+
+!!! warning
+    **Een tweede terugsturing overschrijft de eerste.** Het veld draagt één tekst, geen geschiedenis. Wilt
+    u een verloop bijhouden, zet dan de vorige reden erbij in plaats van hem te vervangen.
+
+#### Wat er klaar moet zijn
+
+Ontbreekt de **klant** of het **werfadres** (straat en gemeente), dan staat er bovenaan een melding. Zonder
+die twee kan de projectleider niets plannen: er is geen opdrachtgever en geen plaats om naartoe te gaan.
+
+De velden blijven wel invulbaar. Dat is met opzet: een dossier dat u vroeger al hebt overgedragen, kan zo
+alsnog zijn datum krijgen zonder dat u eerst een adres moet verzinnen.
+
+!!! info
+    De postcode en het land tellen niet mee voor deze melding. Bij bestaande dossiers staan die velden vaak
+    leeg terwijl het adres wel bruikbaar is.
+
 ### Tabblad Oplevering
 
 Op dit tabblad legt u vast wanneer de werf opgeleverd is, en wat er nog moet gebeuren.

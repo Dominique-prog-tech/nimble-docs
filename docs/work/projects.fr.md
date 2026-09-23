@@ -170,6 +170,38 @@ S'il y a un devis accepté sur le projet, trois montants suivent :
 Ici figurent les devis et les factures de ce projet, avec numéro, date, statut et montant. Une note de
 crédit porte sa propre étiquette. Cliquez sur un numéro pour ouvrir le document.
 
+### Onglet Transmission
+
+Cet onglet consigne le moment où les ventes ont transmis le dossier à la direction de projet. C'est le
+début de l'exécution, tout comme l'onglet Réception ci-dessous en consigne la fin.
+
+**Transmis le** est la date à laquelle la direction de projet a repris le dossier. À partir de cette date,
+c'est elle qui en est responsable. Si le champ reste vide, le dossier est considéré comme non transmis.
+
+**Transmis à** indique qui reprend le dossier. Il s'agit d'un champ libre : le chef de projet ne doit donc
+pas nécessairement figurer comme collaborateur dans l'application.
+
+Dans **Accords ou motif**, vous notez ce qui a été convenu lors de la transmission. Si le dossier est
+retourné aux ventes parce qu'il manquait quelque chose, indiquez-en ici la raison. Ainsi, ce qui n'allait
+pas figure auprès du dossier lui-même.
+
+!!! warning
+    **Un second retour écrase le premier.** Le champ ne porte qu'un seul texte, pas d'historique. Si vous
+    souhaitez conserver un suivi, ajoutez le motif précédent au lieu de le remplacer.
+
+#### Ce qui doit être prêt
+
+S'il manque le **client** ou l'**adresse de chantier** (rue et commune), un message apparaît en haut. Sans
+ces deux éléments, le chef de projet ne peut rien planifier : il n'y a ni donneur d'ordre, ni lieu où se
+rendre.
+
+Les champs restent toutefois modifiables. C'est voulu : un dossier que vous avez transmis auparavant peut
+ainsi recevoir sa date sans que vous deviez inventer une adresse.
+
+!!! info
+    Le code postal et le pays n'entrent pas en compte pour ce message. Dans les dossiers existants, ces
+    champs sont souvent vides alors que l'adresse reste utilisable.
+
 ### Onglet Réception
 
 Sur cet onglet, vous enregistrez la date de réception du chantier et ce qui doit encore être fait.
