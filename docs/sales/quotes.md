@@ -269,6 +269,24 @@ aanvaarden of weigeren. Onbewaarde wijzigingen worden eerst bewaard.
 Een aanvaarde offerte wisselt niet van status, ook niet op het bord. Een geweigerde wel: die zet u
 terug met **Markeren als verstuurd**.
 
+### Het antwoord van de klant vastleggen
+
+Klikt u **Markeren als aanvaard** of **Weigeren**, of sleept u een kaart op het bord naar **Aanvaard** of
+**Geweigerd**, dan vraagt Nimble eerst drie dingen:
+
+| Veld | Wat u invult |
+|---|---|
+| **Datum van de beslissing** | De dag waarop de klant besliste. Staat op vandaag; belde de klant maandag en noteert u het woensdag, zet dan maandag |
+| **Wie bij de klant** | Wie ja of nee zei. Niet verplicht |
+| **Reden** | Enkel bij weigeren: waarom, als u het weet. Niet verplicht |
+
+Daarna staat onder de melding bovenaan de offerte bijvoorbeeld *Aanvaard op 22/09/2026 door Jan Peeters —
+genoteerd door een medewerker.* Beslist de klant online, dan staat er *online, door de klant*. **Annuleren**
+laat de offerte zoals ze was; op het bord springt de kaart terug.
+
+Zet u een geweigerde offerte terug met **Markeren als verstuurd**, dan vervalt die weigering. Het Logboek
+bewaart wat er eerder stond.
+
 ## Factureren
 
 Op een aanvaarde offerte maakt **Factureren** een kladfactuur met de regels van de offerte, en opent die

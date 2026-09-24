@@ -275,6 +275,25 @@ l'accepter ou le refuser. Les modifications non enregistrées sont d'abord enreg
 Un devis accepté ne change pas de statut, pas même sur le tableau. Un devis refusé, si : remettez-le avec
 **Marquer comme envoyé**.
 
+
+### Enregistrer la réponse du client
+
+Si vous cliquez sur **Marquer comme accepté** ou **Refuser**, ou si vous faites glisser une carte du tableau
+vers **Accepté** ou **Refusé**, Nimble vous demande d'abord trois choses :
+
+| Champ | Ce que vous indiquez |
+|---|---|
+| **Date de la décision** | Le jour où le client a décidé. Aujourd'hui par défaut ; si le client a appelé lundi et que vous le notez mercredi, indiquez lundi |
+| **Qui chez le client** | La personne qui a dit oui ou non. Facultatif |
+| **Motif** | Uniquement pour un refus : pourquoi, si vous le savez. Facultatif |
+
+Ensuite, sous le message en haut du devis, figure par exemple *Accepté le 22/09/2026 par Jan Peeters — noté
+par un collaborateur.* Si le client décide en ligne, vous lisez *en ligne, par le client*. **Annuler** laisse
+le devis tel quel ; sur le tableau, la carte revient à sa place.
+
+Si vous remettez un devis refusé avec **Marquer comme envoyé**, ce refus est annulé. Le Journal conserve ce
+qui figurait auparavant.
+
 ## Facturer
 
 Sur un devis accepté, **Facturer** crée un brouillon de facture avec les lignes du devis et l'ouvre
