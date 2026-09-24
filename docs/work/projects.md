@@ -18,6 +18,7 @@ Klik in de zijbalk op **Werk → Projecten**.
 | **Naam** | Waar het project over gaat |
 | **Klant** | De relatie waarvoor u werkt |
 | **Status** | **Actief**, **In wacht** of **Afgerond** |
+| **Verantwoordelijke** | Wie het project opvolgt. Filter op uw eigen naam om uw projecten te zien |
 | **Startdatum** / **Einde** | Wanneer het werk loopt |
 | **Projecttype** | Wat voor werk het is, bijvoorbeeld Nieuwbouw |
 | **Productiestatus** | Waar het werk op de werf staat. Het gekleurde blokje ervoor is de kleur die uw bedrijf aan die status gaf |
@@ -63,6 +64,7 @@ Onderaan staat de knoppenbalk: **Bewaren**, **Projectdossier**, **Annuleren** en
 | **Nummer** | Verplicht. Het projectnummer waarmee offertes en facturen naar deze werf verwijzen |
 | **Naam** | Verplicht. Waar het project over gaat, in één zin |
 | **Klant** | De relatie waarvoor u werkt. Kies uit de lijst; met het kruisje maakt u het veld weer leeg |
+| **Verantwoordelijke** | Wie het project opvolgt. Kies uit de gebruikers van uw bedrijf. Dit is ook wie het dossier bij de overdracht overneemt |
 | **Omschrijving** | Ruimte voor wat er precies afgesproken is |
 | **Status** | Waar het project staat: **Actief**, **In wacht** of **Afgerond** |
 | **Productiestatus** | Waar het werk staat op de werf, bijvoorbeeld **In uitvoering**. Dit staat los van de status |
@@ -71,6 +73,7 @@ Onderaan staat de knoppenbalk: **Bewaren**, **Projectdossier**, **Annuleren** en
 | **Startdatum** / **Einddatum** | Wanneer het werk loopt |
 | **Werf** | Naam of aanduiding van de werf, wanneer die anders heet dan het project |
 | **Straat**, **Postcode**, **Gemeente** | Het adres van de werf. Typ in **Postcode** en kies uit de lijst; **Gemeente** vult mee aan |
+| **Werfcontact** | Het aanspreekpunt op de werf. Kies uit de contactpersonen van al uw relaties, dus ook van een architect of aannemer. Achter de naam staat bij welke relatie de persoon hoort |
 
 **Productiestatus**, **Projecttype** en **Pipeline-status** staan er alleen wanneer uw bedrijf waarden in
 die keuzelijst heeft.
@@ -176,8 +179,12 @@ van de uitvoering, zoals het tabblad Oplevering hieronder het einde vastlegt.
 **Overgedragen op** is de datum waarop de projectleiding het dossier overnam. Vanaf die datum is zij
 verantwoordelijk. Blijft het veld leeg, dan geldt het dossier als nog niet overgedragen.
 
-**Overgedragen aan** noteert wie het dossier overneemt. Het is een vrij tekstveld: de projectleider hoeft
-dus niet als medewerker in de app te staan.
+**Overgedragen aan** is wie het dossier overneemt. Dat is de **Verantwoordelijke** van het project: het is
+hetzelfde veld als op het tabblad Algemeen. Kiest u hier iemand, dan staat die persoon daar ook.
+
+Werd hier vroeger een naam getypt, dan ziet u die onder het veld als **Vroeger
+ingevuld**. Die tekst gaat niet verloren, maar u kunt hem niet meer wijzigen. Kies de persoon uit de lijst
+om het veld opnieuw in te vullen.
 
 In **Afspraken of reden** zet u wat er bij de overdracht is afgesproken. Ging het dossier terug naar
 verkoop omdat er iets ontbrak, zet dan hier waarom. Zo staat bij het dossier zelf wat er misging.

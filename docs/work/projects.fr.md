@@ -19,6 +19,7 @@ Dans la barre latérale, cliquez sur **Travail → Projets**.
 | **Nom** | L'objet du projet |
 | **Client** | La relation pour laquelle vous travaillez |
 | **Statut** | **Actif**, **En attente** ou **Terminé** |
+| **Responsable** | Qui suit le projet. Filtrez sur votre nom pour voir vos projets |
 | **Date de début** / **Fin** | La période d'exécution |
 | **Type de projet** | Le type de travail, par exemple une construction neuve |
 | **Statut de production** | Où en est le travail sur le chantier. Le carré de couleur devant est la couleur que votre entreprise a donnée à ce statut |
@@ -64,6 +65,7 @@ droite, **Supprimer**. La barre reste en place pendant que vous faites défiler 
 | **Numéro** | Obligatoire. Le numéro de projet auquel les devis et les factures renvoient |
 | **Nom** | Obligatoire. L'objet du projet, en une phrase |
 | **Client** | La relation pour laquelle vous travaillez. Choisissez dans la liste ; la croix vide le champ |
+| **Responsable** | Qui suit le projet. Choisissez parmi les utilisateurs de votre entreprise. C'est aussi la personne qui reprend le dossier lors de la transmission |
 | **Description** | De la place pour ce qui a été convenu précisément |
 | **Statut** | Où en est le projet : **Actif**, **En attente** ou **Terminé** |
 | **Statut de production** | Où en est le travail sur le chantier, par exemple **En cours**. C'est indépendant du statut |
@@ -72,6 +74,7 @@ droite, **Supprimer**. La barre reste en place pendant que vous faites défiler 
 | **Date de début** / **Date de fin** | La période d'exécution |
 | **Chantier** | Nom ou désignation du chantier, lorsqu'il porte un autre nom que le projet |
 | **Rue**, **Code postal**, **Commune** | L'adresse du chantier. Tapez dans **Code postal** et choisissez dans la liste ; **Commune** se complète |
+| **Contact chantier** | L'interlocuteur sur le chantier. Choisissez parmi les personnes de contact de toutes vos relations, donc aussi d'un architecte ou d'un entrepreneur. Derrière le nom figure la relation à laquelle la personne appartient |
 
 **Statut de production**, **Type de projet** et **Statut pipeline** n'apparaissent que si votre entreprise
 a des valeurs dans cette liste de choix.
@@ -182,8 +185,12 @@ début de l'exécution, tout comme l'onglet Réception ci-dessous en consigne la
 **Transmis le** est la date à laquelle la direction de projet a repris le dossier. À partir de cette date,
 c'est elle qui en est responsable. Si le champ reste vide, le dossier est considéré comme non transmis.
 
-**Transmis à** indique qui reprend le dossier. Il s'agit d'un champ libre : le chef de projet ne doit donc
-pas nécessairement figurer comme collaborateur dans l'application.
+**Transmis à** est la personne qui reprend le dossier. C'est le **Responsable** du projet : il s'agit du
+même champ que dans l'onglet Général. Si vous choisissez quelqu'un ici, cette personne y figure aussi.
+
+Si un nom a été tapé ici auparavant, vous le voyez sous le champ comme **Saisi
+auparavant**. Ce texte n'est pas perdu, mais vous ne pouvez plus le modifier. Choisissez la personne dans la
+liste pour compléter le champ.
 
 Dans **Accords ou motif**, vous notez ce qui a été convenu lors de la transmission. Si le dossier est
 retourné aux ventes parce qu'il manquait quelque chose, indiquez-en ici la raison. Ainsi, ce qui n'allait
