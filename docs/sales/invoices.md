@@ -172,8 +172,9 @@ bewerken.
 ze **op slot**: velden en regels zijn niet aan te passen. Dat is niet ongedaan te maken. Een fout op een
 uitgereikte factuur corrigeert u met een creditnota.
 
-Omdat het niet terug te draaien is, vraagt Nimble eerst **Factuur definitief maken?**, met de klant en het
-bedrag erbij. Pas wanneer u daar opnieuw op **Definitief maken** klikt, krijgt de factuur haar nummer.
+Omdat het niet terug te draaien is, vraagt Nimble eerst om bevestiging. De vraag noemt de klant en het
+bedrag, zegt wat er vastligt en dat het daarna niet meer ongedaan te maken is. Pas wanneer u daar opnieuw op
+**Definitief maken** klikt, krijgt de factuur haar nummer.
 **Annuleren** laat ze in klad.
 
 Nimble weigert en zegt waarom, wanneer:

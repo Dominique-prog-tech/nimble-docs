@@ -175,8 +175,9 @@ boutons demandent le droit de modifier les factures.
 **verrouillée** : les champs et les lignes ne sont pas modifiables. Cette étape est irréversible. Une erreur
 sur une facture émise se corrige par une note de crédit.
 
-Comme c'est irréversible, Nimble demande d'abord **Finaliser la facture ?**, avec le client et le montant.
-La facture ne reçoit son numéro que lorsque vous cliquez à nouveau sur **Finaliser**. **Annuler** la laisse
+Comme c'est irréversible, Nimble demande d'abord une confirmation. La question indique le client et le
+montant, précise ce qui est figé et que l'action est ensuite irréversible. La facture ne reçoit son numéro que
+lorsque vous cliquez à nouveau sur **Finaliser**. **Annuler** la laisse
 en brouillon.
 
 Nimble refuse, en indiquant pourquoi, lorsque :
