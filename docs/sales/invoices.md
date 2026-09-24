@@ -226,7 +226,7 @@ Klik op **Betaling registreren**. Het venster vraagt:
 
 | Veld | Inhoud |
 |---|---|
-| **Bedrag** | Staat al op wat er openstaat. Pas het aan bij een deelbetaling |
+| **Bedrag** | Staat al op wat er openstaat, min een creditnota die nog niet verrekend is. Pas het aan bij een deelbetaling |
 | **Datum** | De dag waarop het geld binnenkwam, niet de dag waarop u het intikt |
 | **Betaalwijze** | **Overschrijving**, **Contant**, **Kaart / Bancontact** of **Verrekend** |
 | **Notitie** | Bijvoorbeeld een bankreferentie of "deel 1 van 2" |
@@ -269,8 +269,16 @@ Een creditnota heft de factuur niet op en wordt **niet vanzelf** van haar openst
 factuur blijft haar volle bedrag tonen, en de creditnota toont een negatief openstaand bedrag. Zo ziet u dat
 er nog iets te regelen valt.
 
-Trekt u de creditnota af van wat de klant moet betalen, registreer dan twee betalingen met betaalwijze
-**Verrekend**:
+Zolang een creditnota niet verrekend is, staat ze onder het openstaande bedrag van de factuur, bijvoorbeeld
+*Creditnota CN-2026-0003 van € 1.445,84 is nog niet verrekend.* Klikt u **Betaling registreren**, dan stelt
+Nimble het openstaande bedrag **min** die creditnota voor: wat de klant nog werkelijk moet betalen.
+
+Trekt u de creditnota af van wat de klant moet betalen, klik dan naast die melding op **Verrekenen**. Nimble
+registreert dan in één keer de twee betalingen met betaalwijze **Verrekend**, één op de factuur en één op
+de creditnota, voor het kleinste van de twee openstaande bedragen. Verrekenen is terug te draaien: verwijder
+dan de twee betalingen.
+
+Dezelfde twee betalingen kunt u ook zelf registreren:
 
 1. Op de **factuur**: een betaling ter waarde van de creditnota. Het openstaande bedrag van de factuur daalt
    met dat bedrag.

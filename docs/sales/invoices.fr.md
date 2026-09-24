@@ -230,7 +230,7 @@ Cliquez sur **Enregistrer un paiement**. La fenêtre demande :
 
 | Champ | Contenu |
 |---|---|
-| **Montant** | Déjà rempli avec le solde ouvert. Adaptez-le pour un paiement partiel |
+| **Montant** | Déjà rempli avec le solde ouvert, moins une note de crédit pas encore compensée. Adaptez-le pour un paiement partiel |
 | **Date** | Le jour où l'argent est arrivé, pas celui où vous le saisissez |
 | **Mode de paiement** | **Virement**, **Espèces**, **Carte / Bancontact** ou **Compensé** |
 | **Note** | Par exemple une référence bancaire ou « partie 1 sur 2 » |
@@ -275,8 +275,17 @@ Une note de crédit n'annule pas la facture et n'est **pas déduite automatiquem
 facture continue d'afficher son montant complet, et la note de crédit un solde ouvert négatif. Vous voyez
 ainsi qu'il reste quelque chose à régler.
 
-Pour déduire la note de crédit de ce que le client doit payer, enregistrez deux paiements avec le mode
-**Compensé** :
+Tant qu'une note de crédit n'est pas compensée, elle figure sous le solde ouvert de la facture, par exemple
+*La note de crédit CN-2026-0003 de 1 445,84 € n'est pas encore compensée.* Si vous cliquez sur
+**Enregistrer un paiement**, Nimble propose le solde ouvert **moins** cette note de crédit : ce que le client
+doit encore réellement payer.
+
+Pour déduire la note de crédit de ce que le client doit payer, cliquez sur **Compenser** à côté de ce
+message. Nimble enregistre alors en une fois les deux paiements avec le mode **Compensé**, un sur la facture
+et un sur la note de crédit, pour le plus petit des deux soldes ouverts. La compensation est réversible :
+supprimez alors les deux paiements.
+
+Vous pouvez aussi enregistrer vous-même ces deux mêmes paiements :
 
 1. Sur la **facture** : un paiement du montant de la note de crédit. Le solde ouvert de la facture diminue
    d'autant.
