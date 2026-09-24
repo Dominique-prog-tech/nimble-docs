@@ -81,35 +81,24 @@ une ligne pour ouvrir ce bon.
 
 ## Préparation du chantier
 
-Le deuxième onglet reprend sept points qui doivent être en ordre avant le démarrage. En haut, vous lisez
-combien sont déjà en ordre, par exemple *3 points sur 7 en ordre*.
+La préparation appartient au **projet**, pas à l'ordre de travail : vous cochez les points sur la fiche du
+projet, onglet **Préparation** (voir [Projets](projects.md)). Si un projet a deux ordres de travail, ils
+partagent cette même préparation.
 
-![L'onglet Préparation du chantier de WO-2026-003 : trois des sept points cochés, et un cadre orange qui nomme les quatre points manquants.](../images/werkorder-werfvoorbereiding-fr.png)
+Le deuxième onglet de l'ordre de travail affiche ces points, avec leur état. S'il manque quelque chose, le cadre
+indique **quel** point manque — et pas seulement qu'il manque quelque chose. Le lien en bas vous mène à la
+préparation du projet.
 
-| Point | De quoi il s'agit |
-|---|---|
-| **Technique** | Dossier lu, risques connus |
-| **Client** | Date de démarrage confirmée, personne de contact connue |
-| **Équipe** | Affectée et briefée |
-| **Matériel** | Commandé, livré ou prêt à charger |
-| **Équipement** | Camionnette, grue, échafaudage, nacelle |
-| **Sécurité** | Risques et mesures |
-| **Administratif** | Permis, accès, parking |
+<!-- AFBEELDING: werkorder-werfvoorbereiding-fr.png toont nog de zeven vinkjes van vóór 24/09/2026 — opnieuw te maken. -->
 
-Lorsque les sept sont cochés, l'ordre de travail porte en haut la mention **Prêt à démarrer** et l'écran
-indique que le chantier peut commencer. S'il en manque, le cadre nomme **lequel** — pas seulement qu'il en
-manque un.
+Lorsque tous les points obligatoires du projet sont cochés, l'ordre de travail porte en haut la mention
+**Prêt à démarrer** et l'écran indique que le chantier peut démarrer. Si le projet n'a pas encore de
+préparation, le chantier n'est pas prêt.
 
 !!! note "Uniquement tant que le chantier doit encore démarrer"
     La mention **Prêt à démarrer** et le message qui l'accompagne n'apparaissent que lorsque le statut est
-    **À démarrer** — c'est à ce moment-là que la question se pose. Dès que le chantier est **En cours** ou
-    **Terminé**, les sept cases restent affichées à titre de référence de ce qui était en ordre avant le
-    démarrage, et l'écran l'indique.
-
-!!! tip "Sept points, et aucune case unique « préparé »"
-    Une seule case vous dirait *que* ce n'est pas en ordre, mais pas *ce* qui manque. C'est pourquoi les
-    sept figurent séparément : vous pouvez confier le chantier à quelqu'un d'autre et cette personne voit
-    immédiatement par où commencer.
+    **À démarrer** — c'est alors la question que vous vous posez. Dès que le chantier est **En cours** ou
+    **Terminé**, les points restent affichés comme référence de ce qui était en ordre avant le démarrage.
 
 ## Supprimer un ordre de travail
 

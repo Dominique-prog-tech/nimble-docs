@@ -78,34 +78,24 @@ regel om die werkbon te openen.
 
 ## Werfvoorbereiding
 
-Op het tweede tabblad staan zeven punten die vóór de start in orde moeten zijn. Bovenaan leest u hoeveel
-er al in orde zijn, bijvoorbeeld *3 van 7 punten in orde*.
+De voorbereiding hoort bij het **project**, niet bij de werkorder: afvinken doet u op de projectfiche, tabblad
+**Voorbereiding** (zie [Projecten](projects.md)). Heeft een project twee werkorders, dan delen ze die ene
+voorbereiding.
 
-![Het tabblad Werfvoorbereiding van WO-2026-003: drie van de zeven punten aangevinkt, en een oranje kader dat de vier ontbrekende punten met naam noemt.](../images/werkorder-werfvoorbereiding.png)
+Op het tweede tabblad van de werkorder ziet u die punten, met hun stand. Ontbreekt er iets, dan noemt het
+kader **welk** punt ontbreekt — niet alleen dát er iets ontbreekt. Met de link onderaan gaat u naar de
+voorbereiding van het project.
 
-| Punt | Waarover het gaat |
-|---|---|
-| **Technisch** | Dossier gelezen, risico's gekend |
-| **Klant** | Startdatum bevestigd, contactpersoon gekend |
-| **Ploeg** | Toegewezen en gebrieft |
-| **Materiaal** | Besteld, geleverd of klaar om te laden |
-| **Materieel** | Camionette, kraan, stelling, hoogtewerker |
-| **Veiligheid** | Risico's en maatregelen |
-| **Administratief** | Vergunningen, toegang, parking |
+<!-- AFBEELDING: werkorder-werfvoorbereiding.png toont nog de zeven vinkjes van vóór 24/09/2026 — opnieuw te maken. -->
 
-Staan alle zeven aan, dan krijgt de werkorder bovenaan de vermelding **Startklaar** en zegt het scherm dat
-de werf kan starten. Ontbreekt er iets, dan noemt het kader **welk** punt ontbreekt — niet alleen dát er
-iets ontbreekt.
+Zijn alle verplichte punten van het project afgevinkt, dan krijgt de werkorder bovenaan de vermelding
+**Startklaar** en zegt het scherm dat de werf kan starten. Heeft het project nog geen voorbereiding, dan is de
+werf niet startklaar.
 
 !!! note "Alleen zolang de werf nog moet starten"
     De vermelding **Startklaar** en de melding erover verschijnen enkel wanneer de status op **Nog te
     starten** staat — dan is het ook de vraag die u zich stelt. Zodra de werf **Bezig** of **Afgewerkt**
-    is, blijven de zeven vinkjes staan als naslag van wat er vóór de start in orde was, en zegt het scherm
-    dat.
-
-!!! tip "Zeven punten en geen enkel vinkje 'voorbereid'"
-    Eén vinkje zou u vertellen dát het niet in orde is, maar niet wát er ontbreekt. Daarom staan de zeven
-    apart: u kan de werf overdragen aan iemand anders en die ziet meteen waar hij moet beginnen.
+    is, blijven de punten staan als naslag van wat er vóór de start in orde was, en zegt het scherm dat.
 
 ## Een werkorder verwijderen
 
