@@ -49,7 +49,7 @@ Onderaan staat de knoppenbalk: **Bewaren**, **Werkbon toevoegen**, **Annuleren**
 
 | Veld | Opmerking |
 |---|---|
-| **Nummer** | Verplicht. Uw eigen kenmerk voor deze werkorder |
+| **Nummer** | Verplicht. Nimble stelt het volgende nummer voor, zoals *WO-2026-0001*; u mag het overschrijven |
 | **Project** | Verplicht. Het project waar de werkorder onder valt |
 | **Omschrijving** | Wat er moet gebeuren. Dit is wat de werkorder ván het project onderscheidt |
 | **Ploeg** | Wie de werf doet. U kiest uit de actieve ploegen |

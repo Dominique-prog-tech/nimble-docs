@@ -51,7 +51,7 @@ liste**.
 
 | Champ | Remarque |
 |---|---|
-| **Numéro** | Obligatoire. Votre propre référence pour cet ordre de travail |
+| **Numéro** | Obligatoire. Nimble propose le numéro suivant, comme *WO-2026-0001* ; vous pouvez le modifier |
 | **Projet** | Obligatoire. Le projet dont relève l'ordre de travail |
 | **Description** | Ce qui doit être fait. C'est ce qui distingue l'ordre de travail du projet |
 | **Équipe** | Qui exécute le chantier. Vous choisissez parmi les équipes actives |
