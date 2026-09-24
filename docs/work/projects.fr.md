@@ -89,6 +89,9 @@ Ils apparaissent sur un projet enregistré, et les trois derniers uniquement s'i
 
 ![Le bloc Financier de P2026-001 : Convenu 4 933,24 € provenant des devis acceptés, Facturé 0,00 € soit 0 % du montant convenu, Reste à facturer 4 933,24 € et Solde ouvert 0,00 €.](../images/project-financieel-fr.png)
 
+Tous les montants de ce bloc sont **TVA incluse**, afin que vous puissiez les comparer à vos factures
+et à vos paiements.
+
 | Montant | Ce qu'il représente |
 |---|---|
 | **Convenu** | Le total des devis acceptés pour ce projet |
@@ -121,7 +124,8 @@ En dessous figure chaque ordre de travail avec son numéro, sa date planifiée, 
 #### Le bloc Post-calcul
 
 Le post-calcul confronte les coûts réels du chantier à ce que vous avez facturé. Le bloc apparaît dès que
-des coûts ou des factures figurent sur le projet.
+des coûts ou des factures figurent sur le projet. Tous les montants y sont **hors TVA** : la TVA n'est
+pas un produit.
 
 ![Le bloc Post-calcul avec les six tuiles Coût salarial, Coût matériel, Produit, Marge brute, Pas encore facturé et Marge, en dessous Coût estimé, Coût réel et Écart, et le cadre orange sur les heures sans coût horaire et le matériel sans prix d'achat.](../images/project-blok-nacalculatie-fr.png)
 

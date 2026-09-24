@@ -86,6 +86,8 @@ op een bewaard project, en de laatste drie enkel wanneer er iets te tonen is.
 
 ![Het blok Financieel van P2026-001: Afgesproken € 4.933,24 uit aanvaarde offertes, Gefactureerd € 0,00 oftewel 0% van het afgesproken bedrag, Nog te factureren € 4.933,24 en Openstaand € 0,00.](../images/project-financieel.png)
 
+Alle bedragen in dit blok zijn **inclusief btw**, zodat u ze naast uw facturen en betalingen kunt leggen.
+
 | Bedrag | Wat het is |
 |---|---|
 | **Afgesproken** | Het totaal van de aanvaarde offertes voor dit project |
@@ -117,7 +119,8 @@ Daaronder staat elke werkorder met zijn nummer, geplande datum, status en omschr
 #### Het blok Nacalculatie
 
 De nacalculatie zet de werkelijke kosten van de werf tegenover wat u gefactureerd hebt. Het blok verschijnt
-zodra er kosten of facturen op het project staan.
+zodra er kosten of facturen op het project staan. Alle bedragen zijn hier **exclusief btw**: btw is geen
+opbrengst.
 
 ![Het blok Nacalculatie met de zes tegels Loonkost, Materiaalkost, Opbrengst, Brutowinst, Nog niet gefactureerd en Marge, daaronder Geraamde kost, Werkelijke kost en Afwijking, en het oranje kader over uren zonder uurkost en materiaal zonder aankoopprijs.](../images/project-blok-nacalculatie.png)
 
