@@ -61,7 +61,7 @@ Onderaan staat de knoppenbalk: **Bewaren**, **Projectdossier**, **Annuleren** en
 
 | Veld | Opmerking |
 |---|---|
-| **Nummer** | Verplicht. Het projectnummer waarmee offertes en facturen naar deze werf verwijzen |
+| **Nummer** | Verplicht. Het projectnummer waarmee offertes en facturen naar deze werf verwijzen. Heeft uw bedrijf een [projectnummering](../settings/company-profile.md#projectnummering), dan staat er bij een nieuw project al een voorstel dat u mag overschrijven |
 | **Naam** | Verplicht. Waar het project over gaat, in één zin |
 | **Klant** | De relatie waarvoor u werkt. Kies uit de lijst; met het kruisje maakt u het veld weer leeg |
 | **Verantwoordelijke** | Wie het project opvolgt. Kies uit de gebruikers van uw bedrijf. Dit is ook wie het dossier bij de overdracht overneemt |

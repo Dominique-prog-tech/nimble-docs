@@ -64,6 +64,25 @@ Twee combinaties weigert het scherm bij het bewaren:
 
 Zie [Aanmaningen](../sales/reminders.md) voor wat er met de aanmaningstermijnen gebeurt.
 
+## Projectnummering
+
+Hier kiest u of Nimble een nummer voorstelt voor een nieuw project, en in welke vorm.
+
+| Veld | Wat het doet |
+|---|---|
+| **Voorvoegsel** | De letters vóór elk projectnummer, bijvoorbeeld PRJ. Laat u het leeg, dan stelt Nimble geen nummer voor en typt u het zelf |
+| **Jaartal** | Het jaar in het nummer, met 4 cijfers (2026) of 2 cijfers (26) |
+| **Scheidingsteken** | Een streepje tussen voorvoegsel, jaar en volgnummer, of niets |
+| **Volgnummer** | Het aantal cijfers van het volgnummer: 3 (001) of 4 (0001) |
+
+Onder de velden ziet u meteen hoe een nummer eruitziet, bijvoorbeeld **PRJ-2026-001** of **PRJ26001**.
+
+Het volgnummer begint elk jaar opnieuw bij 1. Een voorgesteld nummer kunt u altijd overschrijven. Bestaat
+het volgende nummer al, dan slaat Nimble het over. Projecten die al een nummer hebben, behouden het.
+
+Werkt u met het nummer van het stuk waaruit het project ontstaat, zoals een offerte of een bestelbon, laat
+het voorvoegsel dan leeg.
+
 ## Gegevens ophalen uit de KBO
 
 1. Vul uw **BTW / ondernemingsnr.** in.

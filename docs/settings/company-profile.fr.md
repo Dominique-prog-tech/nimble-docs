@@ -67,6 +67,25 @@ L'écran refuse deux combinaisons à l'enregistrement :
 
 Voir [Rappels](../sales/reminders.md) pour ce qu'il advient des délais de rappel.
 
+## Numérotation des projets
+
+Vous choisissez ici si Nimble propose un numéro pour un nouveau projet, et sous quelle forme.
+
+| Champ | Ce qu'il fait |
+|---|---|
+| **Préfixe** | Les lettres devant chaque numéro de projet, par exemple PRJ. Si vous le laissez vide, Nimble ne propose pas de numéro et vous le tapez vous-même |
+| **Année** | L'année dans le numéro, en 4 chiffres (2026) ou en 2 chiffres (26) |
+| **Séparateur** | Un tiret entre le préfixe, l'année et le numéro d'ordre, ou rien |
+| **Numéro d'ordre** | Le nombre de chiffres du numéro d'ordre : 3 (001) ou 4 (0001) |
+
+Sous les champs, vous voyez directement à quoi ressemble un numéro, par exemple **PRJ-2026-001** ou **PRJ26001**.
+
+Le numéro d'ordre recommence à 1 chaque année. Vous pouvez toujours modifier un numéro proposé. Si le numéro
+suivant existe déjà, Nimble le saute. Les projets qui ont déjà un numéro le conservent.
+
+Si vous utilisez le numéro de la pièce dont naît le projet, comme un devis ou un bon de commande, laissez le
+préfixe vide.
+
 ## Récupérer les données depuis la BCE
 
 1. Saisissez votre **TVA / n° d'entreprise**.
