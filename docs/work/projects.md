@@ -245,6 +245,23 @@ waarschuwing, geen grendel.
 Wilt u het project toch uitdrukkelijk vrijgeven, vink dan **Toch vrijgeven om te factureren** aan en vul bij
 **Waarom** de reden in. Die reden komt in het logboek van het project. Zonder reden telt de vrijgave niet.
 
+## Factureren in regie
+
+Werk dat niet in een offerte zat, factureert u volgens de gewerkte uren. Klik op **Factureren in regie**. Het
+venster toont de uren van de werkbonnen van dit project die nog op geen enkele factuur staan: **één regel per
+werkbon en per uurartikel**, met de datum en de werkorder erin, bijvoorbeeld *24/09/2026 — WO-2026-0001 —
+Werkuur installateur*, het aantal uren, de prijs en het totaal.
+
+- De prijs komt uit het **uurartikel** van de medewerker (zie [Medewerkers](staff.md)), en anders uit het
+  standaard-uurartikel in de [bedrijfsgegevens](../settings/company-profile.md).
+- Heeft iemand geen van beide, of heeft het uurartikel geen verkoopprijs, dan zegt het venster wie of wat, en
+  maakt Nimble nog geen factuur. Vul het aan en probeer opnieuw.
+- Vink de regels aan die u wilt factureren en klik op **Klad-factuur maken**. U komt op een klad-factuur die u
+  nog kunt nakijken; de btw staat op het tarief van de aanvaarde offerte van het project.
+
+Uren die op een factuur staan, komen niet meer terug in het venster. Verwijdert u de regel of de klad-factuur,
+dan staan die uren weer open.
+
 ## Het projectdossier
 
 Met de knop **Projectdossier** opent u een afdrukvoorbeeld van het project, dat u als PDF kunt bewaren. Het

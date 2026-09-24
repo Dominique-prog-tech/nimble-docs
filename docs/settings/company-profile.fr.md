@@ -55,6 +55,7 @@ Cette carte contient les seuils que vous choisissez vous-même pour la facturati
 | **Ensuite tous les (jours)** | Le délai entre le premier et le deuxième rappel, et entre chacun des suivants. Vide signifie quatorze jours — et non : pas de rappels. |
 | **Marge verte à partir de (%)** | À partir de cette marge, un projet s'affiche en vert sur la fiche de projet. |
 | **Marge orange à partir de (%)** | À partir de cette marge, un projet s'affiche en orange. En dessous, c'est rouge. |
+| **Article horaire standard (régie)** | L'article horaire pour la facturation en régie, pour chaque collaborateur sans article horaire propre. Vide = chaque collaborateur a besoin de son propre article horaire, sinon Nimble bloque la facture en régie |
 
 Si vous laissez les deux champs de marge vides, la fiche de projet ne se colore pas. Nimble n'avance alors
 rien sur vos seuils.

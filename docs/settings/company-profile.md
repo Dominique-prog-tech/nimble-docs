@@ -53,6 +53,7 @@ Deze kaart bevat de grenzen die u zelf kiest voor facturatie en voor de marge va
 | **Daarna elke (dagen)** | De tijd tussen de eerste en de tweede herinnering, en tussen elke volgende. Leeg betekent veertien dagen — niet: geen aanmaningen. |
 | **Marge groen vanaf (%)** | Vanaf deze marge kleurt een project groen op de projectfiche. |
 | **Marge oranje vanaf (%)** | Vanaf deze marge kleurt een project oranje. Daaronder is het rood. |
+| **Standaard-uurartikel (regie)** | Het uurartikel voor facturatie in regie, voor elke medewerker zonder eigen uurartikel. Leeg = elke medewerker heeft een eigen uurartikel nodig, anders houdt Nimble de regiefactuur tegen |
 
 Laat u beide margevelden leeg, dan kleurt de projectfiche niet. Nimble zegt dan niets over uw grenzen.
 

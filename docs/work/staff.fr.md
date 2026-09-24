@@ -46,6 +46,7 @@ Vous ouvrez une fiche en double-cliquant sur une ligne.
 | **Téléphone** | Vide est permis. Si vous saisissez quelque chose, ce doit être un numéro valide |
 | **E-mail** | Vide est permis. Si vous saisissez quelque chose, ce doit être une adresse valide |
 | **Coût horaire** | Voir ci-dessous — ce champ mérite votre attention |
+| **Article horaire (régie)** | L'article avec le prix de vente horaire utilisé pour facturer ses heures en régie, par exemple *Werkuur installateur*. Vide = l'article horaire standard des [données de l'entreprise](../settings/company-profile.md). À ne pas confondre avec le coût horaire : celui-ci est ce qu'une heure coûte, l'article est ce qu'une heure coûte au client |
 | **Actif** | Voir ci-dessous |
 
 Si le téléphone ou l'e-mail n'est pas valide, cela s'affiche en haut à côté du nom. Si vous cliquez alors

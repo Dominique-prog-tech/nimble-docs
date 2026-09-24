@@ -43,6 +43,7 @@ Links staat het tabblad **Algemeen**, rechts **Taken**, **Notities**, **Bijlagen
 | **Telefoon** | Leeg mag. Vult u iets in, dan moet het een geldig telefoonnummer zijn |
 | **E-mail** | Leeg mag. Vult u iets in, dan moet het een geldig adres zijn |
 | **Uurkost** | Zie hieronder — dit veld verdient aandacht |
+| **Uurartikel (regie)** | Het artikel met de verkoopprijs per uur waarmee zijn uren in regie gefactureerd worden, bijvoorbeeld *Werkuur installateur*. Leeg = het standaard-uurartikel uit de [bedrijfsgegevens](../settings/company-profile.md). Niet te verwarren met de uurkost: dat is wat een uur kost, dit is wat een uur de klant kost |
 | **Actief** | Zie hieronder |
 
 Is het telefoonnummer of het e-mailadres ongeldig, dan staat dat bovenaan naast de naam. Klikt u dan op

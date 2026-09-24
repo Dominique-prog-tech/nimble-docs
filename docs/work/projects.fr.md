@@ -256,6 +256,23 @@ Pour autoriser malgré tout la facturation de façon explicite, cochez **Autoris
 facturation** et indiquez le motif sous **Pourquoi**. Ce motif figure dans l'historique du projet. Sans
 motif, l'autorisation ne compte pas.
 
+## Facturer en régie
+
+Le travail qui ne figurait pas dans un devis se facture selon les heures prestées. Cliquez sur **Facturer en
+régie**. La fenêtre affiche les heures des bons de travail de ce projet qui ne figurent encore sur aucune
+facture : **une ligne par bon de travail et par article horaire**, avec la date et l'ordre de travail, par
+exemple *24/09/2026 — WO-2026-0001 — Werkuur installateur*, le nombre d'heures, le prix et le total.
+
+- Le prix provient de l'**article horaire** du collaborateur (voir [Collaborateurs](staff.md)), sinon de
+  l'article horaire standard des [données de l'entreprise](../settings/company-profile.md).
+- Si quelqu'un n'a ni l'un ni l'autre, ou si l'article horaire n'a pas de prix de vente, la fenêtre indique qui
+  ou quoi, et Nimble ne crée pas encore de facture. Complétez et réessayez.
+- Cochez les lignes à facturer et cliquez sur **Créer un brouillon de facture**. Vous arrivez sur un brouillon
+  que vous pouvez encore vérifier ; la TVA suit le taux du devis accepté du projet.
+
+Les heures qui figurent sur une facture ne reviennent plus dans la fenêtre. Si vous supprimez la ligne ou le
+brouillon, ces heures redeviennent ouvertes.
+
 ## Le dossier de projet
 
 Le bouton **Dossier de projet** ouvre un aperçu avant impression du projet, que vous pouvez enregistrer en
