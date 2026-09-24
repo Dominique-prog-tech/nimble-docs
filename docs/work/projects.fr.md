@@ -206,6 +206,20 @@ ainsi recevoir sa date sans que vous deviez inventer une adresse.
     Le code postal et le pays n'entrent pas en compte pour ce message. Dans les dossiers existants, ces
     champs sont souvent vides alors que l'adresse reste utilisable.
 
+### Onglet Préparation
+
+Ici figure ce qui doit être prêt avant le début du chantier. Un nouveau projet reçoit la **liste standard** de
+votre entreprise ; pour un projet existant, ajoutez-la avec **Ajouter la liste standard**.
+
+- Cochez un point dès qu'il est en ordre. Nimble note la date.
+- Choisissez pour chaque point un **Responsable** : la personne qui s'en charge.
+- Avec **Ajouter un point**, vous ajoutez un point propre, obligatoire ou non. Le ✕ rouge supprime un point
+  qui ne concerne pas ce projet.
+
+En haut figure l'avancement, par exemple *3 sur 7 points obligatoires cochés*. Le projet est **prêt à
+démarrer** lorsque tous les points obligatoires sont cochés. Un projet sans aucun point n'est pas prêt : rien
+n'a encore été préparé.
+
 ### Onglet Réception
 
 Sur cet onglet, vous enregistrez la date de réception du chantier et ce qui doit encore être fait.

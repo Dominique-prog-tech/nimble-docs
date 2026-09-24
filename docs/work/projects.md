@@ -198,6 +198,20 @@ alsnog zijn datum krijgen zonder dat u eerst een adres moet verzinnen.
     De postcode en het land tellen niet mee voor deze melding. Bij bestaande dossiers staan die velden vaak
     leeg terwijl het adres wel bruikbaar is.
 
+### Tabblad Voorbereiding
+
+Hier staat wat er klaar moet zijn vóór de werf start. Een nieuw project krijgt de **standaardlijst** van uw
+bedrijf; bij een bestaand project voegt u ze toe met **Standaardlijst toevoegen**.
+
+- Vink een punt af zodra het in orde is. Nimble noteert de datum.
+- Kies per punt een **Verantwoordelijke**: wie ervoor zorgt.
+- Met **Punt toevoegen** zet u er een eigen punt bij, verplicht of niet. Met het rode ✕ schrapt u een punt
+  dat voor dit project niet geldt.
+
+Bovenaan staat hoever het project is, bijvoorbeeld *3 van 7 verplichte punten afgevinkt*. Het project is
+**startklaar** wanneer alle verplichte punten afgevinkt zijn. Een project zonder één punt is niet startklaar:
+dan is er nog niets voorbereid.
+
 ### Tabblad Oplevering
 
 Op dit tabblad legt u vast wanneer de werf opgeleverd is, en wat er nog moet gebeuren.
