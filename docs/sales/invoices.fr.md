@@ -160,7 +160,7 @@ Les boutons affichés dépendent du statut et de vos droits. De gauche à droite
 | **Remettre en ouverte** | Payée | Remet la facture sur Émise |
 | **Annuler** | Brouillon | Abandonne vos modifications |
 | **Vers la liste** | Émise et Payée | Vous ramène à la liste ; il n'y a rien à enregistrer |
-| **Supprimer** | Brouillon sans numéro | Supprime le brouillon, après confirmation |
+| **Supprimer** | Brouillon sans numéro | Met le brouillon dans la corbeille, après confirmation. Vous pouvez l'y restaurer |
 
 Toute personne autorisée à consulter les factures peut utiliser l'aperçu avant impression. Les autres
 boutons demandent le droit de modifier les factures.

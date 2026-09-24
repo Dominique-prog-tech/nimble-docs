@@ -157,7 +157,7 @@ Welke knoppen er staan, hangt af van de status en van uw rechten. Van links naar
 | **Terug naar openstaand** | Betaald | Zet de factuur terug op Uitgereikt |
 | **Annuleren** | Klad | Laat uw wijzigingen vallen |
 | **Naar de lijst** | Uitgereikt en Betaald | Brengt u terug naar de lijst; er valt niets te bewaren |
-| **Verwijderen** | Klad zonder nummer | Verwijdert de klad, na bevestiging |
+| **Verwijderen** | Klad zonder nummer | Zet de klad in de Prullenbak, na bevestiging. Daar kunt u ze terugzetten |
 
 Afdrukvoorbeeld kan iedereen die facturen mag bekijken. Alle andere knoppen vragen het recht om facturen te
 bewerken.
