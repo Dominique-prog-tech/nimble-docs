@@ -85,7 +85,7 @@ Vous liez ici la personne aux entreprises où elle travaille.
 
 ## En bas de la fiche
 
-- **Enregistrer** — conserve et vous ramène à la liste. Si le nom de famille manque, ou si une adresse e-mail ou un numéro de téléphone n'est pas valide, un message en haut de la fiche indique ce qu'il faut faire. Si l'adresse non valide est liée à une entreprise, le message renvoie au bloc **Entreprises**.
+- **Enregistrer** — conserve ; vous restez sur la fiche. Si le nom de famille manque, ou si une adresse e-mail ou un numéro de téléphone n'est pas valide, un message en haut de la fiche indique ce qu'il faut faire. Si l'adresse non valide est liée à une entreprise, le message renvoie au bloc **Entreprises**.
 - **Annuler** — revient à la liste sans conserver.
 - **Supprimer** — uniquement pour une personne existante, et uniquement si vous pouvez modifier les relations. La fiche est **archivée** dans la **Corbeille** ; les liens avec les entreprises subsistent, si bien que la restauration ramène la personne avec ses entreprises.
 

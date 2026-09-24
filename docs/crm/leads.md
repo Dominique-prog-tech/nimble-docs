@@ -168,7 +168,7 @@ u hoeft niets over te typen.
 
 De knoppen staan onderaan rechts, in deze volgorde:
 
-- **Bewaren** — bewaart de lead en brengt u terug naar de lijst. Ontbreekt er nog iets — het leadnummer, de
+- **Bewaren** — bewaart de lead; u blijft op de fiche. Ontbreekt er nog iets — het leadnummer, de
   naam, de verliesreden bij een verloren fase, de heractivatiedatum bij een gepauzeerde fase — of is het
   e-mailadres of telefoonnummer ongeldig, dan zegt een melding bovenaan de fiche welk veld.
 - **Omzetten naar klant** — enkel zichtbaar bij een bestaande, nog niet omgezette lead. Zie
@@ -196,6 +196,9 @@ maar zijn op de klantenfiche leesbaar in het blok **Afkomstig van een lead** —
 
 **Openstaande taken** van de lead verhuizen mee naar de klant. Afgewerkte taken blijven bij de lead: die zijn
 geschiedenis van de aanvraag.
+
+Na het omzetten opent Nimble meteen de **fiche van de nieuwe klant**, zodat u verder kunt met een offerte.
+Koppelt u de lead aan een bestaande klant (zie hieronder), dan opent de fiche van die klant.
 
 ### Bestaat die klant al?
 

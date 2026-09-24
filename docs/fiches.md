@@ -130,7 +130,8 @@ Hoeveel kolommen u ziet, hangt af van de breedte:
 
 De knoppen staan onderaan rechts, in deze volgorde:
 
-1. **Bewaren** bewaart en brengt u terug naar de lijst. U krijgt een korte bevestiging in beeld.
+1. **Bewaren** bewaart, en u blijft op de fiche. U krijgt een korte bevestiging in beeld. Een nieuw record
+   heeft vanaf dan zijn eigen adres, zodat u er meteen mee verder kunt.
 2. De acties die bij die fiche horen, zoals **Omzetten naar klant** op een lead.
 3. **Annuleren** gaat terug naar de lijst zonder te bewaren.
 4. **Verwijderen** staat apart, helemaal rechts. Het vraagt eerst een bevestiging — zie hieronder.

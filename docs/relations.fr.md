@@ -124,7 +124,7 @@ Pour une nouvelle relation, vous lisez ici : *Enregistrez d'abord la relation ; 
 
 ## En bas de la fiche
 
-- **Enregistrer** — conserve les modifications et vous ramène à la liste. S'il manque encore quelque chose — le nom, la langue des documents — ou si une adresse e-mail ou un numéro de téléphone n'est pas valide, un message en haut de la fiche indique ce qu'il faut faire. Si l'adresse non valide est celle d'une personne de contact, le message renvoie à l'onglet **Personnes de contact**.
+- **Enregistrer** — conserve les modifications ; vous restez sur la fiche. S'il manque encore quelque chose — le nom, la langue des documents — ou si une adresse e-mail ou un numéro de téléphone n'est pas valide, un message en haut de la fiche indique ce qu'il faut faire. Si l'adresse non valide est celle d'une personne de contact, le message renvoie à l'onglet **Personnes de contact**.
 - **Annuler** — revient à la liste sans conserver.
 - **Supprimer** — uniquement pour une relation existante, voir ci-dessous.
 

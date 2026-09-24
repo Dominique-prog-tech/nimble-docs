@@ -42,7 +42,7 @@ Cliquez sur **Nouvelle commande**. Complétez la carte **Données de la commande
 | **Note** | Accords avec le fournisseur, adresse de livraison, particularités |
 
 Cliquez sur **Enregistrer**. S'il manque un champ obligatoire, le message en haut le cite par son nom. Après
-l'enregistrement, vous revenez à la liste.
+l'enregistrement, vous restez sur la fiche.
 
 ## Ajouter des lignes
 

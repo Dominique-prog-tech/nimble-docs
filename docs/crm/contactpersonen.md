@@ -84,7 +84,7 @@ Hier koppelt u de persoon aan de bedrijven waar hij werkt.
 
 ## Onderaan de fiche
 
-- **Bewaren** — bewaart en brengt u terug naar de lijst. Ontbreekt de achternaam, of is een e-mailadres of telefoonnummer ongeldig, dan zegt een melding bovenaan de fiche wat er moet gebeuren. Staat het ongeldige adres bij een bedrijf, dan verwijst de melding naar het blok **Bedrijven**.
+- **Bewaren** — bewaart; u blijft op de fiche. Ontbreekt de achternaam, of is een e-mailadres of telefoonnummer ongeldig, dan zegt een melding bovenaan de fiche wat er moet gebeuren. Staat het ongeldige adres bij een bedrijf, dan verwijst de melding naar het blok **Bedrijven**.
 - **Annuleren** — gaat terug naar de lijst zonder te bewaren.
 - **Verwijderen** — alleen bij een bestaande persoon, en alleen als u relaties mag wijzigen. De fiche wordt **gearchiveerd** naar de **Prullenbak**; de koppelingen met bedrijven blijven bestaan, zodat herstellen de persoon mét zijn bedrijven terugbrengt.
 

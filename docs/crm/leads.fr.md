@@ -172,7 +172,7 @@ dans Nimble — vous n'avez rien à recopier.
 
 Les boutons se trouvent en bas à droite, dans cet ordre :
 
-- **Enregistrer** — enregistre le lead et vous ramène à la liste. S'il manque encore quelque chose — le
+- **Enregistrer** — enregistre le lead ; vous restez sur la fiche. S'il manque encore quelque chose — le
   numéro de lead, le nom, le motif de perte pour une phase perdue, la date de réactivation pour une phase en
   pause — ou si l'adresse e-mail ou le numéro de téléphone n'est pas valide, un message en haut de la fiche
   indique quel champ.
@@ -201,6 +201,10 @@ lead** — voir [Relations](../relations.fr.md). Les **documents** attachés au 
 
 Les **tâches ouvertes** du lead suivent vers le client. Les tâches terminées restent sur le lead : elles font
 partie de l'historique de la demande.
+
+Après la conversion, Nimble ouvre directement la **fiche du nouveau client**, pour que vous puissiez
+continuer avec un devis. Si vous liez le lead à un client existant (voir ci-dessous), c'est la fiche de ce
+client qui s'ouvre.
 
 ### Ce client existe-t-il déjà ?
 

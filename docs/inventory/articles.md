@@ -54,8 +54,8 @@ De fiche heeft drie kaarten.
 
 **Omschrijving** — langere tekst, bijvoorbeeld voor op een offerte.
 
-Klik **Bewaren**. Ontbreekt er een verplicht veld, dan noemt de melding bovenaan het veld bij naam. Na het
-bewaren keert u terug naar de lijst.
+Klik **Bewaren**. Ontbreekt er een verplicht veld, dan noemt de melding bovenaan het veld bij naam. U blijft
+na het bewaren op de fiche.
 
 !!! info "Familie en eenheid zijn verplicht"
     Een artikel zonder familie is in geen enkele lijst terug te vinden, en zonder eenheid weet niemand of

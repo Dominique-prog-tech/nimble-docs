@@ -55,7 +55,7 @@ La fiche comporte trois cartes.
 **Description** — texte plus long, par exemple pour un devis.
 
 Cliquez sur **Enregistrer**. S'il manque un champ obligatoire, le message en haut le cite par son nom. Après
-l'enregistrement, vous revenez à la liste.
+l'enregistrement, vous restez sur la fiche.
 
 !!! info "La famille et l'unité sont obligatoires"
     Un article sans famille est introuvable dans toute liste, et sans unité personne ne sait si « 10 »

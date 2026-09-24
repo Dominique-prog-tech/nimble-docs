@@ -41,8 +41,8 @@ Klik **Nieuwe bestelling**. Vul in de kaart **Bestelgegevens** in:
 | **Status** | Een nieuwe bestelling staat op **Klad** |
 | **Notitie** | Afspraken met de leverancier, leveradres, bijzonderheden |
 
-Klik **Bewaren**. Ontbreekt er een verplicht veld, dan noemt de melding bovenaan het veld bij naam. Na het
-bewaren keert u terug naar de lijst.
+Klik **Bewaren**. Ontbreekt er een verplicht veld, dan noemt de melding bovenaan het veld bij naam. U blijft
+na het bewaren op de fiche.
 
 ## Regels toevoegen
 

@@ -133,7 +133,8 @@ Le nombre de colonnes dépend de la largeur :
 
 Les boutons se trouvent en bas à droite, dans cet ordre :
 
-1. **Enregistrer** conserve et vous ramène à la liste. Une brève confirmation s'affiche.
+1. **Enregistrer** conserve, et vous restez sur la fiche. Une brève confirmation s'affiche. Un nouvel
+   enregistrement a dès lors sa propre adresse, pour que vous puissiez continuer directement.
 2. Les actions propres à cette fiche, comme **Convertir en client** sur un lead.
 3. **Annuler** revient à la liste sans conserver.
 4. **Supprimer** se trouve à part, tout à droite. Il demande d'abord une confirmation — voir ci-dessous.
