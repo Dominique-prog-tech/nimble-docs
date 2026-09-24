@@ -58,7 +58,7 @@ Klik op **Nieuwe offerte**. U vult eerst het blok **Offertegegevens** in:
 |---|---|
 | **Nummer** | Verplicht. Wordt automatisch toegekend (`OFF-2026-0001`); u mag het aanpassen. Het moet uniek blijven |
 | **Klant** | Verplicht. Kies uit uw [relaties](../relations.md) |
-| **Project** | Optioneel. Hangt de offerte aan een project, dan hoort ze bij het dossier van dat project |
+| **Project** | Optioneel. Hangt de offerte aan een project, dan hoort ze bij het dossier van dat project. Het geldt voor alle versies en varianten van de offerte, en u kunt het ook na het aanvaarden nog kiezen of wijzigen |
 | **Datum** | Verplicht. De datum van het voorstel; staat standaard op vandaag |
 | **Geldig tot** | Optioneel. Tot wanneer uw prijs geldt |
 
@@ -163,6 +163,7 @@ Welke knoppen er staan, hangt af van de status van de offerte en van uw rechten.
 | **Online intrekken** | Zodra de offerte online staat | Haalt de online versie weg |
 | **Markeren als verstuurd** | Klad en Geweigerd | Zet enkel de status om; er vertrekt niets |
 | **Markeren als aanvaard** · **Weigeren** | Verstuurd | Legt het antwoord van de klant vast |
+| **Project maken** | Aanvaard, zonder project | Opent een nieuw project met de klant en het werfadres van de offerte al ingevuld. Bij het bewaren hangt de offerte, met al haar versies, aan dat project |
 | **Factureren** | Aanvaard | Maakt een kladfactuur met de regels van de offerte |
 | **Nieuwe versie** | Aanvaard, Geweigerd en Vervangen | Maakt een bewerkbare kopie |
 | **Annuleren** | Klad en Verstuurd | Laat uw wijzigingen vallen |

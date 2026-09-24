@@ -59,7 +59,7 @@ Cliquez sur **Nouveau devis**. Vous complétez d'abord le bloc **Données du dev
 |---|---|
 | **Numéro** | Obligatoire. Attribué automatiquement (`OFF-2026-0001`) ; vous pouvez le modifier. Il doit rester unique |
 | **Client** | Obligatoire. À choisir parmi vos [relations](../relations.md) |
-| **Projet** | Facultatif. Si le devis se rattache à un projet, il fait partie du dossier de ce projet |
+| **Projet** | Facultatif. Si le devis se rattache à un projet, il fait partie du dossier de ce projet. Il vaut pour toutes les versions et variantes du devis, et vous pouvez encore le choisir ou le modifier après l'acceptation |
 | **Date** | Obligatoire. La date de la proposition ; aujourd'hui par défaut |
 | **Valable jusqu'au** | Facultatif. Jusqu'à quand votre prix s'applique |
 
@@ -165,6 +165,7 @@ Les boutons affichés dépendent du statut du devis et de vos droits. De gauche 
 | **Retirer la version en ligne** | Dès que le devis est en ligne | Supprime la version en ligne |
 | **Marquer comme envoyé** | Brouillon et Refusé | Change uniquement le statut ; rien n'est envoyé |
 | **Marquer comme accepté** · **Refuser** | Envoyé | Enregistre la réponse du client |
+| **Créer un projet** | Accepté, sans projet | Ouvre un nouveau projet avec le client et l'adresse du chantier du devis déjà remplis. À l'enregistrement, le devis et toutes ses versions sont rattachés à ce projet |
 | **Facturer** | Accepté | Crée un brouillon de facture avec les lignes du devis |
 | **Nouvelle version** | Accepté, Refusé et Remplacé | Crée une copie modifiable |
 | **Annuler** | Brouillon et Envoyé | Abandonne vos modifications |
