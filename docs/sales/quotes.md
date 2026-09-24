@@ -263,6 +263,9 @@ aanvaarden of weigeren. Onbewaarde wijzigingen worden eerst bewaard.
     Klad, één versienummer hoger en dertig dagen geldig. De oude versie blijft bestaan, zodat u kunt nakijken
     wat de klant gekregen heeft.
 
+    Het nummer volgt op de hoogste versie, ook als die gearchiveerd is: haar nummer wordt niet opnieuw
+    gebruikt. Na `…-v2` en een gearchiveerde v3 krijgt u dus `…-v4`.
+
 Een aanvaarde offerte wisselt niet van status, ook niet op het bord. Een geweigerde wel: die zet u
 terug met **Markeren als verstuurd**.
 

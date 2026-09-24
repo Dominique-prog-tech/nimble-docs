@@ -269,6 +269,9 @@ l'accepter ou le refuser. Les modifications non enregistrées sont d'abord enreg
     les lignes actuelles, en Brouillon, avec un numéro de version de plus et une validité de trente jours.
     L'ancienne version subsiste, ce qui vous permet de vérifier ce que le client a reçu.
 
+    Le numéro suit la version la plus élevée, même archivée : son numéro n'est pas réutilisé. Après
+    `…-v2` et une v3 archivée, vous obtenez donc `…-v4`.
+
 Un devis accepté ne change pas de statut, pas même sur le tableau. Un devis refusé, si : remettez-le avec
 **Marquer comme envoyé**.
 
