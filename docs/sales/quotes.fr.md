@@ -25,10 +25,10 @@ temps.](../images/offertes-lijst-fr.png)
 | **Date** | La date de la proposition |
 | **Valable jusqu'au** | Jusqu'à quand le prix s'applique. Si un devis envoyé a dépassé cette date, la durée du dépassement s'affiche en rouge — *10 jours*, *2 mois* |
 | **Montant** | Le total TVA comprise |
-| **Statut** | Brouillon, Envoyé, Accepté ou Refusé |
+| **Statut** | Brouillon, Envoyé, Accepté, Refusé ou Remplacé |
 
 À côté des boutons de vue, une liste déroulante permet de restreindre rapidement l'affichage : **Brouillon**,
-**Envoyé**, **Accepté**, **Refusé** ou **Échus**, chaque fois suivi du nombre. Un choix qui ne concerne aucun
+**Envoyé**, **Accepté**, **Refusé**, **Remplacé** ou **Échus**, chaque fois suivi du nombre. Un choix qui ne concerne aucun
 devis n'apparaît pas. À droite figurent **Nouveau devis**, **Exporter** et le champ de recherche.
 
 **Double-cliquez** une ligne pour ouvrir le devis.
@@ -43,6 +43,9 @@ jointes et l'historique du devis sélectionné dans la liste, sans l'ouvrir.
 Le tableau répartit les mêmes devis sur quatre colonnes : **Brouillon**, **Envoyé**, **Accepté** et
 **Refusé**. Chaque carte affiche le client, le numéro, le montant, la date et la date de validité. Si la
 validité d'un devis envoyé est dépassée, la carte indique *Validité dépassée*.
+
+Une version **remplacée** n'apparaît pas sur le tableau : il montre ce qui reste à faire. Vous la trouvez
+dans la liste, avec le choix **Remplacé**.
 
 - **Cliquez** une carte pour ouvrir le devis.
 - **Glissez** une carte vers une autre colonne pour changer le statut. Si ce changement n'est pas permis,
@@ -163,9 +166,9 @@ Les boutons affichés dépendent du statut du devis et de vos droits. De gauche 
 | **Marquer comme envoyé** | Brouillon et Refusé | Change uniquement le statut ; rien n'est envoyé |
 | **Marquer comme accepté** · **Refuser** | Envoyé | Enregistre la réponse du client |
 | **Facturer** | Accepté | Crée un brouillon de facture avec les lignes du devis |
-| **Nouvelle version** | Accepté et Refusé | Crée une copie modifiable |
+| **Nouvelle version** | Accepté, Refusé et Remplacé | Crée une copie modifiable |
 | **Annuler** | Brouillon et Envoyé | Abandonne vos modifications |
-| **Supprimer** | Toujours | Après confirmation, place le devis dans la corbeille |
+| **Supprimer** | Brouillon, Envoyé et Refusé | Après confirmation, place le devis dans la corbeille. Un devis accepté, remplacé ou facturé ne peut pas être supprimé |
 
 Toute personne autorisée à consulter les devis peut utiliser l'aperçu avant impression. Les autres boutons
 demandent le droit de modifier les devis.
@@ -254,6 +257,7 @@ l'accepter ou le refuser. Les modifications non enregistrées sont d'abord enreg
 | **Envoyé** | Encore modifier, ou enregistrer la réponse avec **Marquer comme accepté** ou **Refuser** |
 | **Accepté** | **Facturer**, ou créer une **Nouvelle version** |
 | **Refusé** | **Marquer comme envoyé** si le client revient, ou créer une **Nouvelle version** |
+| **Remplacé** | Plus rien : une version plus récente du même devis a été acceptée. Elle reste conservée pour vérifier ce que le client a reçu auparavant |
 
 !!! warning "Un devis accepté ou refusé est clôturé"
     Dès que le client a répondu, le document est figé. En haut figure *Ce devis est clôturé et ne peut plus
@@ -290,6 +294,22 @@ Devis. Cliquez-en un pour ouvrir ce devis ; celui que vous consultez est mis en 
   l'italienne » à côté de « B — baignoire ». Chaque variante a ses propres numéros de version, et donc sa
   propre mention *actuelle*.
 
+Chaque bouton indique aussi le statut de cette version.
+
+### Lorsqu'une nouvelle version est acceptée
+
+Il n'y a qu'un seul accord valable par devis. Lorsqu'une nouvelle version est acceptée — avec le bouton, ou
+par le client en ligne — la version acceptée précédente de la même variante passe à **Remplacé**. Elle reste
+conservée, mais ne compte plus dans le montant *Convenu* du projet, et ne peut pas être facturée.
+
+!!! warning "Si une version précédente est déjà facturée, une nouvelle ne peut pas être acceptée"
+    Nimble refuse alors avec le message *La version … de ce devis a déjà été facturée.* Une modification
+    après facturation passe par des [travaux supplémentaires](../work/extra-work.md) ou une note de crédit,
+    pas par une nouvelle version — sinon vous facturez deux fois le même travail.
+
+    Si le client accepte une telle version en ligne, elle n'est pas appliquée. Vous la retrouvez dans le
+    journal d'audit sous *Acceptation bloquée*.
+
 ![Les boutons de version au-dessus d'un devis, avec le montant par version et la mention actuelle sur la plus récente.](../images/offerte-versies-fr.png)
 
 ## Erreurs fréquentes
@@ -300,6 +320,9 @@ Devis. Cliquez-en un pour ouvrir ce devis ; celui que vous consultez est mis en 
     - **Vouloir qu'une ligne en option compte dans le total** — ce n'est pas le cas, et c'est voulu. Si vous
       souhaitez inclure le montant, décochez **option**.
     - **Vouloir modifier un devis accepté** — créez une nouvelle version plutôt que de retoucher l'ancienne.
+    - **Vouloir supprimer un devis accepté** — ce n'est pas possible : le client l'a accepté. S'il n'est
+      plus correct, créez une nouvelle version ; l'ancienne devient *Remplacé* dès que la nouvelle est
+      acceptée.
     - **Deux fois le même numéro** — si vous modifiez le numéro à la main, choisissez-en un qui n'existe pas
       encore.
 

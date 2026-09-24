@@ -24,10 +24,10 @@ offertes zijn over hun geldigheidsdatum: de kolom Geldig tot toont in het rood h
 | **Datum** | De datum van het voorstel |
 | **Geldig tot** | Tot wanneer de prijs geldt. Is een verstuurde offerte over die datum, dan staat er in het rood hoelang al — *10 dagen*, *2 maanden* |
 | **Bedrag** | Het totaal inclusief btw |
-| **Status** | Klad, Verstuurd, Aanvaard of Geweigerd |
+| **Status** | Klad, Verstuurd, Aanvaard, Geweigerd of Vervangen |
 
 Naast de weergaveknoppen staat een keuzelijst om snel af te bakenen: **Klad**, **Verstuurd**, **Aanvaard**,
-**Geweigerd** of **Verlopen**, telkens met het aantal erachter. Een keuze die nergens voorkomt, staat er
+**Geweigerd**, **Vervangen** of **Verlopen**, telkens met het aantal erachter. Een keuze die nergens voorkomt, staat er
 niet bij. Rechts staan **Nieuwe offerte**, **Exporteren** en het zoekveld.
 
 **Dubbelklik** een rij om de offerte te openen.
@@ -42,6 +42,9 @@ bijlagen en het logboek van de offerte die u in de lijst aangeklikt hebt, zonder
 Het bord verdeelt dezelfde offertes over vier kolommen: **Klad**, **Verstuurd**, **Aanvaard** en
 **Geweigerd**. Elke kaart toont de klant, het nummer, het bedrag, de datum en tot wanneer de offerte geldig
 is. Is de geldigheid van een verstuurde offerte verstreken, dan staat er *Geldigheid verstreken*.
+
+Een **vervangen** versie staat niet op het bord: het bord toont wat nog moet gebeuren. U vindt ze in de
+lijst, met de keuze **Vervangen**.
 
 - **Klik** een kaart om de offerte te openen.
 - **Sleep** een kaart naar een andere kolom om de status te wijzigen. Mag die wissel niet, dan leest u
@@ -161,9 +164,9 @@ Welke knoppen er staan, hangt af van de status van de offerte en van uw rechten.
 | **Markeren als verstuurd** | Klad en Geweigerd | Zet enkel de status om; er vertrekt niets |
 | **Markeren als aanvaard** · **Weigeren** | Verstuurd | Legt het antwoord van de klant vast |
 | **Factureren** | Aanvaard | Maakt een kladfactuur met de regels van de offerte |
-| **Nieuwe versie** | Aanvaard en Geweigerd | Maakt een bewerkbare kopie |
+| **Nieuwe versie** | Aanvaard, Geweigerd en Vervangen | Maakt een bewerkbare kopie |
 | **Annuleren** | Klad en Verstuurd | Laat uw wijzigingen vallen |
-| **Verwijderen** | Altijd | Verplaatst de offerte na bevestiging naar de prullenbak |
+| **Verwijderen** | Klad, Verstuurd en Geweigerd | Verplaatst de offerte na bevestiging naar de prullenbak. Een aanvaarde, vervangen of gefactureerde offerte kan niet weg |
 
 Afdrukvoorbeeld kan iedereen die offertes mag bekijken. Alle andere knoppen vragen het recht om offertes te
 bewerken.
@@ -248,6 +251,7 @@ aanvaarden of weigeren. Onbewaarde wijzigingen worden eerst bewaard.
 | **Verstuurd** | Nog aanpassen, of het antwoord vastleggen met **Markeren als aanvaard** of **Weigeren** |
 | **Aanvaard** | **Factureren**, of een **Nieuwe versie** maken |
 | **Geweigerd** | **Markeren als verstuurd** als de klant toch terugkomt, of een **Nieuwe versie** maken |
+| **Vervangen** | Niets meer: een nieuwere versie van dezelfde offerte is aanvaard. Ze blijft bewaard om na te kijken wat de klant eerder kreeg |
 
 !!! warning "Een aanvaarde of geweigerde offerte is afgesloten"
     Zodra de klant geantwoord heeft, staat het document vast. Bovenaan staat *Deze offerte is afgesloten en
@@ -283,6 +287,22 @@ elkaar. Klik er één aan om naar die offerte te gaan; de offerte die u bekijkt,
 - **Varianten** zijn verschillende antwoorden op dezelfde vraag — bijvoorbeeld "A — inloopdouche" naast
   "B — ligbad". Elke variant heeft haar eigen versienummers, en dus haar eigen *actueel*.
 
+Elke knop toont ook de status van die versie.
+
+### Wanneer een nieuwe versie aanvaard wordt
+
+Er is maar één geldig akkoord per offerte. Wordt een nieuwe versie aanvaard — met de knop, of door de klant
+online — dan springt de vorige aanvaarde versie van dezelfde variant op **Vervangen**. Ze blijft bestaan,
+maar telt niet meer mee in het bedrag *Afgesproken* op het project, en ze kan niet gefactureerd worden.
+
+!!! warning "Is een vorige versie al gefactureerd, dan kan een nieuwe niet aanvaard worden"
+    Nimble weigert dan met de melding *Versie … van deze offerte is al gefactureerd.* Een wijziging na de
+    facturatie hoort in een [meerwerk](../work/extra-work.md) of een creditnota, niet in een nieuwe versie —
+    anders factureert u hetzelfde werk twee keer.
+
+    Aanvaardt de klant zo'n versie online, dan wordt dat niet toegepast. U vindt het terug in het
+    actielogboek als *Aanvaarding tegengehouden*.
+
 ![De versieknoppen boven een offerte, met de bedragen per versie en de vermelding actueel bij de hoogste.](../images/offerte-versies.png)
 
 ## Veelgemaakte fouten
@@ -294,6 +314,8 @@ elkaar. Klik er één aan om naar die offerte te gaan; de offerte die u bekijkt,
       bedrag wél in het totaal, haal dan het vinkje **optie** weg.
     - **Een aanvaarde offerte willen aanpassen** — maak een nieuwe versie in plaats van de oude te
       wijzigen.
+    - **Een aanvaarde offerte willen verwijderen** — dat kan niet: de klant heeft ze aanvaard. Klopt ze
+      niet meer, maak dan een nieuwe versie; de oude wordt *Vervangen* zodra de nieuwe aanvaard is.
     - **Twee keer hetzelfde nummer** — past u het nummer met de hand aan, kies dan iets dat nog niet
       bestaat.
 
