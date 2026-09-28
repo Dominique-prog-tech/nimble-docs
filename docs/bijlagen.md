@@ -14,7 +14,7 @@ Er zijn twee wegen naartoe:
 - **Vanuit de lijst** — selecteer een rij, klik rechts op de rail **Journaal**, klik bovenaan op de naam van
   het tabblad en kies **Bijlagen**.
 
-<!-- AFBEELDING: het journaalpaneel naast de relatielijst in tenant demo (Vandersteen Bouwprojecten BV geselecteerd), met de tabkeuze open zodat Bijlagen tussen Contacten, Taken, Notities en Logboek staat -->
+![De relatielijst met Vandersteen Bouwprojecten BV geselecteerd en rechts het journaalpaneel; de tabkeuze bovenaan het paneel staat open met Contacten, Taken, Notities, Bijlagen en Logboek.](images/relatielijst-rail-tabkeuze.png)
 
 ## Een bestand toevoegen
 

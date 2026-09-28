@@ -103,7 +103,8 @@ factuur afgetrokken: zonder verrekening zou de aanmaning geld vragen dat de klan
 
 <!-- AFBEELDING: een aanmaningskaart met de rode uitleg over een onverrekende creditnota en de knoppen
      Versturen… en Alleen optekenen grijs — in tenant demo bestaat die toestand nog niet: F-2026-0012 heeft een
-     onverrekende creditnota, maar is nog niet aan de beurt -->
+     onverrekende creditnota, maar is pas aan de beurt vanaf 11/10/2026
+     (14 dagen na de vervaldag van 27/09) — nagemeten 28/09 -->
 
 Zo verrekent u:
 

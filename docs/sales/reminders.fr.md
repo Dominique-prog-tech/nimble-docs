@@ -103,7 +103,8 @@ plus.
 
 <!-- AFBEELDING: une carte de rappel avec l'explication rouge sur une note de crédit non compensée et les
      boutons Envoyer… et Enregistrer seulement grisés — cet état n'existe pas encore dans le tenant demo :
-     F-2026-0012 a une note de crédit non compensée, mais n'est pas encore à échéance -->
+     F-2026-0012 a une note de crédit non compensée, mais n'est à son tour qu'à partir du 11/10/2026
+     (14 jours après l'échéance du 27/09) — mesuré le 28/09 -->
 
 Pour compenser :
 

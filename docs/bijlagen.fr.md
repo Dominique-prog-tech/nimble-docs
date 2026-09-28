@@ -15,7 +15,7 @@ Deux chemins y mènent :
 - **Depuis la liste** — sélectionnez une ligne, cliquez à droite sur le rail **Journal**, cliquez en haut
   sur le nom de l'onglet et choisissez **Pièces jointes**.
 
-<!-- AFBEELDING: le panneau du journal à côté de la liste des relations dans le tenant demo (Vandersteen Bouwprojecten BV sélectionnée), avec le choix d'onglet ouvert pour que Pièces jointes figure parmi Contacts, Tâches, Notes et Historique, interface en français -->
+![La liste des relations avec Vandersteen Bouwprojecten BV sélectionnée et à droite le panneau du journal ; le choix d'onglet en haut du panneau est ouvert avec Contacts, Tâches, Notes, Pièces jointes et Historique.](images/relatielijst-rail-tabkeuze-fr.png)
 
 ## Ajouter un fichier
 

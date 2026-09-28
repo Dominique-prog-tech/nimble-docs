@@ -89,7 +89,7 @@ Le deuxième onglet de l'ordre de travail affiche ces points, avec leur état. S
 indique **quel** point manque — et pas seulement qu'il manque quelque chose. Le lien en bas vous mène à la
 préparation du projet.
 
-<!-- AFBEELDING: werkorder-werfvoorbereiding-fr.png toont nog de zeven vinkjes van vóór 24/09/2026 — opnieuw te maken. -->
+![L'onglet Préparation du chantier de l'ordre de travail WO-2026-003, statut À démarrer : les sept points obligatoires du projet, trois cochés et quatre ouverts, un cadre rouge qui nomme les quatre points manquants, et en bas le lien Vers la préparation du projet. Les points gardent la langue du tenant — ici le néerlandais.](../images/werkorder-werfvoorbereiding-fr.png)
 
 Lorsque tous les points obligatoires du projet sont cochés, l'ordre de travail porte en haut la mention
 **Prêt à démarrer** et l'écran indique que le chantier peut démarrer. Si le projet n'a pas encore de
