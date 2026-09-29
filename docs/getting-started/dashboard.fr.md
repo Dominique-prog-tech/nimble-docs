@@ -25,6 +25,11 @@ En haut figurent quatre **montants**. Cliquez sur une tuile pour ouvrir le modul
 | **Encours clients** | Ce que vos clients doivent encore payer. Derrière le montant figure la part dépassant l'échéance |
 | **Travaux suppl. à facturer** | Travaux supplémentaires approuvés qui doivent encore figurer sur une facture |
 
+!!! info "Deux chiffres réservés au droit sur les prix de revient"
+    **Travaux en cours** et le graphique **Marge par projet en cours** ne sont visibles qu'avec le droit *Voir
+    les marges et prix de revient*. Sans ce droit, trois chiffres clés figurent en haut et le graphique des
+    marges n'apparaît pas.
+
 !!! info "Un projet en avance n'en masque pas un autre"
     **Carnet de commandes** et **Travaux en cours** sont calculés par projet, puis additionnés. Un projet
     que vous avez facturé au-delà de ce qui avait été accepté ne réduit donc pas le carnet de commandes —

@@ -24,6 +24,10 @@ Bovenaan staan vier **bedragen**. Klik een tegel om naar de bijhorende module te
 | **Openstaand bij klanten** | Wat uw klanten nog moeten betalen. Achter het bedrag staat hoeveel daarvan over de vervaldag is |
 | **Meerwerk te factureren** | Goedgekeurd meerwerk dat nog op een factuur moet |
 
+!!! info "Twee cijfers enkel met het recht op kostprijzen"
+    **Onderhanden werk** en de grafiek **Marge per lopend project** ziet u enkel met het recht *Marges en
+    kostprijzen bekijken*. Zonder dat recht staan er bovenaan drie kerncijfers en ontbreekt de margegrafiek.
+
 !!! info "Een project dat vóór ligt, verbergt geen ander"
     **Orderboek** en **Onderhanden werk** worden per project berekend en pas daarna opgeteld. Een project
     waarop u méér gefactureerd hebt dan er aanvaard was, maakt het orderboek dus niet kleiner — anders zou
