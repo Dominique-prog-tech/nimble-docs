@@ -9,8 +9,8 @@ Op de **Bedrijfsfiche** beheert u de eigen gegevens van uw bedrijf: identiteit, 
 
 ![De Bedrijfsfiche met de kaarten Identiteit, Adres, Contact, Bank, Financiële instellingen en Documenten & huisstijl, en rechtsonder de knop Bewaren.](../images/bedrijfsfiche.png)
 
-!!! info "Naam wordt door ADM One beheerd"
-    De **naam** van uw bedrijf komt uit het centrale ADM One-register en kunt u hier niet wijzigen. Moet de naam aangepast worden, neem dan contact op met ADM.
+!!! info "De naam staat op uw offertes en facturen"
+    De **naam** van uw bedrijf vult u hier zelf in. Hij staat bovenaan elke offerte en factuur. Het veld is verplicht en telt hoogstens 60 tekens.
 
 Staat er **Nog geen bedrijfsfiche voor deze tenant.**, klik dan op **Bedrijfsfiche aanmaken**. De kaarten verschijnen daarna en u kunt ze invullen.
 
@@ -18,7 +18,7 @@ Staat er **Nog geen bedrijfsfiche voor deze tenant.**, klik dan op **Bedrijfsfic
 
 | Kaart | Velden |
 |---|---|
-| **Identiteit** | Naam (alleen-lezen), BTW / ondernemingsnr. met de knop **Ophalen**, FSMA-nummer |
+| **Identiteit** | Naam (verplicht), BTW / ondernemingsnr. met de knop **Ophalen**, FSMA-nummer |
 | **Contact** | Telefoon, Fax, E-mail, Website, **Website-leads naar** |
 | **Financiële instellingen** | Standaard betalingstermijn (dagen), Eerste aanmaning na (dagen), Daarna elke (dagen), Marge groen vanaf (%), Marge oranje vanaf (%) |
 | **Adres** | Straat, Nr., Bus, Postcode, Gemeente, Land |

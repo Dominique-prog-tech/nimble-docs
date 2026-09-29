@@ -9,8 +9,8 @@ La **fiche d'entreprise** contient les données de votre entreprise : identité,
 
 ![La fiche d'entreprise avec les cartes Identité, Adresse, Contact, Banque, Paramètres financiers et Documents et charte graphique, et en bas à droite le bouton Enregistrer.](../images/bedrijfsfiche-fr.png)
 
-!!! info "Le nom est géré par ADM One"
-    Le **nom** de votre entreprise provient du registre central ADM One et ne peut pas être modifié ici. Si le nom doit changer, contactez ADM.
+!!! info "Le nom figure sur vos devis et factures"
+    Vous indiquez vous-même le **nom** de votre entreprise ici. Il figure en tête de chaque devis et facture. Le champ est obligatoire et compte 60 caractères au maximum.
 
 Si l'écran affiche **Aucune fiche d'entreprise pour ce tenant.**, cliquez sur **Créer la fiche d'entreprise**. Les cartes apparaissent ensuite et vous pouvez les remplir.
 
@@ -18,7 +18,7 @@ Si l'écran affiche **Aucune fiche d'entreprise pour ce tenant.**, cliquez sur *
 
 | Carte | Champs |
 |---|---|
-| **Identité** | Nom (lecture seule), TVA / n° d'entreprise avec le bouton **Récupérer**, Numéro FSMA |
+| **Identité** | Nom (obligatoire), TVA / n° d'entreprise avec le bouton **Récupérer**, Numéro FSMA |
 | **Contact** | Téléphone, Fax, E-mail, Site web, **Leads du site web vers** |
 | **Paramètres financiers** | Délai de paiement par défaut (jours), Premier rappel après (jours), Ensuite tous les (jours), Marge verte à partir de (%), Marge orange à partir de (%) |
 | **Adresse** | Rue, N°, Boîte, Code postal, Commune, Pays |
