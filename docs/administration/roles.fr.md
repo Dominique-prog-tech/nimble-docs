@@ -10,8 +10,6 @@ Un rôle est un ensemble de droits. Vous attribuez un rôle à un utilisateur pl
 L'écran s'appelle **Rôles & droits**. Il est divisé en trois colonnes : **Rôles**, **Droits** et
 **Utilisateurs avec ce rôle**.
 
-<!-- AFBEELDING: l'écran Rôles & droits dans le tenant demo avec un rôle personnalisé sélectionné — à gauche la liste Rôles avec Nouveau rôle et Ajouter, au milieu les droits cochés par partie et Enregistrer les droits, à droite Utilisateurs avec ce rôle avec Sofie Maes, Pieter Janssens et Elke Wouters. À prendre en tant qu'administrateur du tenant, pas en tant qu'opérateur : la vue opérateur affiche le choix du tenant avec de vrais noms de clients -->
-
 !!! info "Pour les opérateurs ADM : choisir d'abord un tenant"
     Un opérateur voit en haut la liste **Tenant**. Tant que **— choisir un tenant —** est affiché, les colonnes
     n'apparaissent pas. En tant qu'administrateur de votre propre entreprise, vous ne voyez pas cette liste ;

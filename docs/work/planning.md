@@ -7,7 +7,7 @@ werf door ze naar een dag te slepen.
 
 Klik in de zijbalk op **Werk → Planning**.
 
-<!-- AFBEELDING: het planbord van een week: bovenaan de vier tellers, links Nog in te plannen, rechts per ploeg de dagen met werven -->
+![Het planbord van een week: bovenaan de tellers, links Nog in te plannen, rechts per ploeg de dagen met werven.](../images/planbord.png)
 
 ## De tellers bovenaan
 

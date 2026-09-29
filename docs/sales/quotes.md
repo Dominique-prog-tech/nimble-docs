@@ -182,10 +182,6 @@ Klik op **Afdrukvoorbeeld**. U ziet het document zoals de klant het krijgt. Met 
 document bladert u door de bladzijden, zoomt u in en drukt u af. Bovenaan het venster staan **Downloaden**
 — de offerte belandt als PDF in uw downloadmap — en **Doorsturen per mail**.
 
-<!-- AFBEELDING: het venster Afdrukvoorbeeld met de offerte erin — NIET automatisch te maken: een
-     headless browser heeft geen PDF-viewer en toont "Couldn't load plugin" in plaats van het document.
-     Dit beeld moet met de hand uit een echte browser komen. -->
-
 Bovenaan het document staan uw eigen gegevens — naam, adres, telefoon, btw-nummer en uw logo. Die komen uit
 de [bedrijfsfiche](../settings/company-profile.md) in het platformbeheer. Briefhoofd, aanhef en voorwaarden
 stelt u in bij [Documentsjablonen](../settings/document-templates.md).

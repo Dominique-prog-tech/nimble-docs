@@ -101,11 +101,6 @@ vertrekken. Op de kaart staat in het rood:
 **Versturen…** en **Alleen optekenen** staan dan grijs. Een creditnota wordt namelijk niet vanzelf van de
 factuur afgetrokken: zonder verrekening zou de aanmaning geld vragen dat de klant niet meer verschuldigd is.
 
-<!-- AFBEELDING: een aanmaningskaart met de rode uitleg over een onverrekende creditnota en de knoppen
-     Versturen… en Alleen optekenen grijs — in tenant demo bestaat die toestand nog niet: F-2026-0012 heeft een
-     onverrekende creditnota, maar is pas aan de beurt vanaf 11/10/2026
-     (14 dagen na de vervaldag van 27/09) — nagemeten 28/09 -->
-
 Zo verrekent u:
 
 1. Open de factuur (klik het nummer op de kaart) en klik op **Betaling registreren**. Vul het bedrag van de

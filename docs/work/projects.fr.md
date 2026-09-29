@@ -233,7 +233,7 @@ n'a encore été préparé.
 Vous trouvez ici le matériel de ce projet, en deux listes qui occupent chacune la moitié de l'onglet et défilent
 chacune séparément.
 
-<!-- AFBEELDING: l'onglet Matériel avec en haut la liste de matériel (titres, lignes et leur statut) et en bas les articles du projet -->
+![L'onglet Matériel de P2026-001 : en haut la Liste de matériel avec titres, lignes et leur statut, en bas les Articles du projet avec leur fournisseur.](../images/project-materiaal-fr.png)
 
 #### Liste de matériel
 
@@ -316,7 +316,7 @@ motif, l'autorisation ne compte pas.
 
 Vous trouvez ici les pièces jointes de ce projet, classées en dossiers.
 
-<!-- AFBEELDING: l'onglet Documents avec à gauche l'arborescence des dossiers et à droite les pièces jointes du dossier choisi -->
+![L'onglet Documents de P2026-001 : à gauche les dossiers, avec Foto's tijdens choisi ; à droite les pièces jointes de ce dossier.](../images/project-documenten-fr.png)
 
 À gauche figure l'arborescence. **Toutes les pièces jointes** montre tout, **Sans dossier** ce qui n'est encore
 dans aucun dossier ; derrière chaque dossier figure le nombre de pièces jointes qu'il contient. Choisissez un

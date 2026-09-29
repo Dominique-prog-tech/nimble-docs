@@ -101,11 +101,6 @@ La carte affiche en rouge :
 automatiquement de la facture : sans compensation, le rappel réclamerait de l'argent que le client ne doit
 plus.
 
-<!-- AFBEELDING: une carte de rappel avec l'explication rouge sur une note de crédit non compensée et les
-     boutons Envoyer… et Enregistrer seulement grisés — cet état n'existe pas encore dans le tenant demo :
-     F-2026-0012 a une note de crédit non compensée, mais n'est à son tour qu'à partir du 11/10/2026
-     (14 jours après l'échéance du 27/09) — mesuré le 28/09 -->
-
 Pour compenser :
 
 1. Ouvrez la facture (cliquez le numéro sur la carte) et cliquez sur **Enregistrer un paiement**. Saisissez

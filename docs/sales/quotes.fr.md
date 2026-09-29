@@ -185,10 +185,6 @@ d'outils au-dessus du document vous permet de feuilleter les pages, de zoomer et
 fenêtre figurent **Télécharger** — le devis arrive en PDF dans votre dossier de téléchargements — et
 **Envoyer par courriel**.
 
-<!-- AFBEELDING: la fenêtre Aperçu avant impression avec le devis — PAS automatisable : un navigateur
-     headless n'a pas de visionneuse PDF et affiche « Couldn't load plugin » à la place du document.
-     Cette image doit être prise à la main dans un vrai navigateur. -->
-
 En haut du document figurent vos propres coordonnées — nom, adresse, téléphone, numéro de TVA et votre logo.
 Elles proviennent de la [fiche d'entreprise](../settings/company-profile.md) dans l'administration.
 L'en-tête, la formule d'appel et les conditions se règlent dans les

@@ -7,8 +7,6 @@ sur cet écran, vous en faites une facture d'achat.
 
 Cliquez dans la barre latérale sur **Achats → Documents reçus**.
 
-<!-- AFBEELDING: la liste Documents reçus avec au moins deux documents — possible seulement quand la boîte de démo contient des documents ; elle est vide aujourd'hui -->
-
 ## La liste
 
 | Colonne | Ce qu'elle indique |

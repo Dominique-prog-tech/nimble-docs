@@ -225,7 +225,7 @@ dan is er nog niets voorbereid.
 Hier staat het materiaal voor dit project, in twee lijsten die elk de helft van het tabblad krijgen en elk
 apart scrollen.
 
-<!-- AFBEELDING: het tabblad Materiaal met bovenaan de materiaallijst (titels, regels en hun status) en onderaan de projectartikelen -->
+![Het tabblad Materiaal van P2026-001: bovenaan de Materiaallijst met titels, regels en hun status, onderaan de Projectartikelen met hun leverancier.](../images/project-materiaal.png)
 
 #### Materiaallijst
 
@@ -304,7 +304,7 @@ Wilt u het project toch uitdrukkelijk vrijgeven, vink dan **Toch vrijgeven om te
 
 Hier staan de bijlagen van dit project, in mappen.
 
-<!-- AFBEELDING: het tabblad Documenten met links de mappenboom en rechts de bijlagen van de gekozen map -->
+![Het tabblad Documenten van P2026-001: links de mappen, met Foto's tijdens gekozen; rechts de bijlagen in die map.](../images/project-documenten.png)
 
 Links staat de mappenboom. **Alle bijlagen** toont alles, **Zonder map** wat nog in geen map zit; achter elke
 map staat hoeveel bijlagen erin zitten. Kies een map, dan ziet u rechts enkel haar bijlagen. Wat u oplaadt

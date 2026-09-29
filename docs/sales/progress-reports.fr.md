@@ -10,7 +10,7 @@ Cliquez dans la barre latérale sur **Ventes → États d'avancement** pour tous
 Les états d'un projet figurent sur la fiche projet, onglet **États d'avancement**. Cet onglet apparaît pour un
 projet avec un devis accepté.
 
-<!-- AFBEELDING: la liste États d'avancement avec les colonnes Date de l'état, Projet, Client, N°, Statut et Montant de cet état -->
+![La liste États d'avancement avec deux états de P2026-001 : un approuvé et un soumis.](../images/vorderingsstaten-lijst-fr.png)
 
 ## Un nouvel état
 
@@ -28,7 +28,7 @@ que cet état a figé. Sinon, l'onglet indique quel état est encore ouvert.
 
 ## Compléter les postes
 
-<!-- AFBEELDING: un état d'avancement avec le tableau des postes, trois postes complétés et en bas le bloc des totaux -->
+![Un état d'avancement soumis : par poste le devis, l'état précédent, cet état et le cumul, et en bas le bloc des totaux.](../images/vorderingsstaat-fr.png)
 
 Par poste, vous indiquez combien a été exécuté **au total**, jusqu'à cet état inclus — pas seulement pour
 cette période :

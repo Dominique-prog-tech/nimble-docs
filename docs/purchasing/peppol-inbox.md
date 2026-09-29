@@ -7,8 +7,6 @@ scherm maakt u er een aankoopfactuur van.
 
 Klik in de zijbalk op **Inkoop → Binnengekomen documenten**.
 
-<!-- AFBEELDING: de lijst Binnengekomen documenten met minstens twee documenten — kan pas wanneer de demo-inbox documenten bevat; vandaag is ze leeg -->
-
 ## De lijst
 
 | Kolom | Wat het zegt |

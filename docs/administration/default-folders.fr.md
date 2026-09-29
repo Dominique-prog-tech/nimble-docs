@@ -9,7 +9,7 @@ exemple *Devis*, *Plans* et *Photos avant*.
 1. Cliquez en bas de la barre latérale sur **Administration**.
 2. Dans le groupe **Projets**, cliquez sur la tuile **Dossiers standard**.
 
-<!-- AFBEELDING: l'écran Dossiers standard avec l'arborescence et les boutons Sous-dossier, Modifier et Supprimer -->
+![L'écran Dossiers standard avec les dossiers du modèle, Uitvoeringsplannen sous Plannen, et les boutons Sous-dossier, Modifier et Supprimer.](../images/standaardmappen-fr.png)
 
 ## Ajouter un dossier
 

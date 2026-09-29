@@ -9,7 +9,7 @@ bijvoorbeeld *Offertes*, *Plannen* en *Foto's voor*.
 1. Klik onderaan in de zijbalk op **Platformbeheer**.
 2. Klik in de groep **Projecten** op de tegel **Standaardmappen**.
 
-<!-- AFBEELDING: het scherm Standaardmappen met de boom van mappen en de knoppen Submap, Bewerken en Verwijderen -->
+![Het scherm Standaardmappen met de mappen van het sjabloon, Uitvoeringsplannen onder Plannen, en de knoppen Submap, Bewerken en Verwijderen.](../images/standaardmappen.png)
 
 ## Een map toevoegen
 

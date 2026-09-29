@@ -10,8 +10,6 @@ Een rol is een bundel rechten. U kent een rol toe aan een gebruiker in plaats va
 Het scherm heet **Rollen & rechten**. Het is in drie kolommen verdeeld: **Rollen**, **Rechten** en
 **Gebruikers met deze rol**.
 
-<!-- AFBEELDING: het scherm Rollen & rechten in tenant demo met een zelfgemaakte rol geselecteerd — links de lijst Rollen met Nieuwe rol en Toevoegen, in het midden de rechten met vinkjes per onderdeel en Rechten bewaren, rechts Gebruikers met deze rol met Sofie Maes, Pieter Janssens en Elke Wouters. Te schieten als tenant-beheerder, niet als operator: het operatorbeeld toont de tenantkeuze met echte klantnamen -->
-
 !!! info "Voor ADM-operators: eerst een tenant kiezen"
     Een operator ziet bovenaan de keuzelijst **Tenant**. Zolang er **— kies een tenant —** staat, verschijnen
     de kolommen niet. Als beheerder van uw eigen bedrijf ziet u die keuzelijst niet; u werkt meteen in uw

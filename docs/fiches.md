@@ -151,7 +151,7 @@ Op de fiches hangen Bewaren en Verwijderen aan uw **bewerkrecht** — onder meer
 **Contactpersonen** en **Artikelen**. Hebt u dat niet, dan kunt u de fiche wél openen en lezen, maar ziet u
 geen **Bewaren** en geen **Verwijderen**. In de plaats van **Annuleren** staat dan **Naar de lijst**.
 
-<!-- AFBEELDING: dezelfde fiche zonder bewerkrecht: velden grijs, enkel de terugknop — vraagt een gebruiker ZONDER bewerkrecht, en die heeft de demo-tenant niet -->
+De velden staan dan grijs: u leest ze, maar u kunt er niets in wijzigen.
 
 Kijken mag met het kijkrecht; schrijven vraagt het bewerkrecht. Dat is een aparte instelling per rol.
 

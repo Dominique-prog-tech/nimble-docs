@@ -7,7 +7,7 @@ planifiez un chantier en le faisant glisser vers un jour.
 
 Cliquez dans la barre latérale sur **Travail → Planning**.
 
-<!-- AFBEELDING: le planning d'une semaine : en haut les quatre compteurs, à gauche À planifier, à droite les jours par équipe avec les chantiers -->
+![Le planning d'une semaine : en haut les compteurs, à gauche À planifier, à droite les jours par équipe avec les chantiers.](../images/planbord-fr.png)
 
 ## Les compteurs en haut
 

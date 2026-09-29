@@ -9,7 +9,7 @@ Klik in de zijbalk op **Verkoop → Vorderingsstaten** voor alle staten over de 
 project staan op de projectfiche, op het tabblad **Vorderingsstaten**. Dat tabblad verschijnt bij een project
 met een aanvaarde offerte.
 
-<!-- AFBEELDING: de lijst Vorderingsstaten met de kolommen Datum van de staat, Project, Klant, Nr., Status en Bedrag deze staat -->
+![De lijst Vorderingsstaten met twee staten van P2026-001: een goedgekeurde en een ingediende.](../images/vorderingsstaten-lijst.png)
 
 ## Een nieuwe staat
 
@@ -26,7 +26,7 @@ Anders zegt het tabblad welke staat nog openstaat.
 
 ## De posten invullen
 
-<!-- AFBEELDING: een vorderingsstaat met de posttabel, drie posten ingevuld en onderaan het totaalblok -->
+![Een ingediende vorderingsstaat: per post de offerte, de vorige staat, deze staat en het cumulatief, en onderaan het totaalblok.](../images/vorderingsstaat.png)
 
 Per post vult u in hoeveel er **in totaal** uitgevoerd is, tot en met deze staat — niet enkel deze periode:
 
