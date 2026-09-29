@@ -298,6 +298,8 @@ Kan het niet, dan staat de knop grijs en staat de reden ernaast:
 - *Deze offerte is al gefactureerd.*
 - *Deze offerte bevat geen enkele factureerbare regel.* — bijvoorbeeld wanneer er enkel optieregels op
   staan.
+- *Dit project wordt per vorderingsstaat gefactureerd.* — het resterende werk factureert u via een volgende
+  staat; zie [Vorderingsstaten](progress-reports.md).
 
 ## Versies en varianten
 

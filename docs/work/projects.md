@@ -44,8 +44,9 @@ fiche te openen.
 
 U opent een fiche door te dubbelklikken op een rij.
 
-Bovenaan staan links de tabbladen **Algemeen** en **Oplevering**, en rechts **Taken**, **Notities**,
-**Bijlagen** en **Logboek**.
+Bovenaan staan links de tabbladen **Algemeen**, **Overdracht**, **Voorbereiding** en **Oplevering** — en
+**Vorderingsstaten** bij een project met een aanvaarde offerte — en rechts **Taken**, **Notities**, **Bijlagen**
+en **Logboek**.
 
 Onderaan staat de knoppenbalk: **Bewaren**, **Projectdossier**, **Annuleren** en, apart rechts,
 **Verwijderen**. De balk blijft staan terwijl u door de fiche scrolt.
@@ -265,6 +266,12 @@ waarschuwing, geen grendel.
 
 Wilt u het project toch uitdrukkelijk vrijgeven, vink dan **Toch vrijgeven om te factureren** aan en vul bij
 **Waarom** de reden in. Die reden komt in het logboek van het project. Zonder reden telt de vrijgave niet.
+
+### Tabblad Vorderingsstaten
+
+Bij een project met een aanvaarde offerte factureert u hier naar gelang van de uitvoering. Het tabblad toont de
+staten van dit project, nieuwste eerst; **Nieuwe vorderingsstaat** maakt de volgende. Hoe u een staat invult,
+laat goedkeuren en factureert, leest u in [Vorderingsstaten](../sales/progress-reports.md).
 
 ## Factureren in regie
 

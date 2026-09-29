@@ -181,6 +181,7 @@ plugins:
             Verkoop: Ventes
             Offertes: Devis
             Facturen: Factures
+            Vorderingsstaten: États d'avancement
             Btw-codes: Codes TVA
             Offertestatus: Statuts de devis
             # ⚠️ Deze vijf stonden tot 26/08/2026 ONVERTAALD in de Franse navigatie. De Franse pagina's
@@ -221,6 +222,7 @@ nav:
   - Verkoop:
     - Offertes: sales/quotes.md
     - Facturen: sales/invoices.md
+    - Vorderingsstaten: sales/progress-reports.md
     - Aanmaningen: sales/reminders.md
     # Bankverrichtingen en Afpunten staan in de app onder Verkoop, dus hier ook (17/09/2026). Tot dan
     # hadden ze een eigen tabblad Financieel dat het app-menu niet kent.
@@ -236,6 +238,7 @@ nav:
     - Werkorders: work/work-orders.md
     - Werkbonnen: work/work-sheets.md
     - Meerwerken: work/extra-work.md
+    - Planning: work/planning.md
     - Medewerkers: work/staff.md
     - Ploegen: work/teams.md
   - Voorraad:

@@ -305,6 +305,8 @@ Si ce n'est pas possible, le bouton est grisé et la raison figure à côté :
 - *Ce devis a déjà été facturé.*
 - *Ce devis ne contient aucune ligne facturable.* — par exemple lorsqu'il ne contient que des lignes en
   option.
+- *Ce projet est facturé par état d'avancement.* — le travail restant se facture via un état suivant ; voir
+  [États d'avancement](progress-reports.md).
 
 ## Versions et variantes
 

@@ -1,0 +1,77 @@
+# Planning
+
+Le **planning** montre qui est où, et quand : par équipe et par jour, les chantiers, semaine par semaine. Vous
+planifiez un chantier en le faisant glisser vers un jour.
+
+## Ouvrir l'écran
+
+Cliquez dans la barre latérale sur **Travail → Planning**.
+
+<!-- AFBEELDING: le planning d'une semaine : en haut les quatre compteurs, à gauche À planifier, à droite les jours par équipe avec les chantiers -->
+
+## Les compteurs en haut
+
+| Compteur | Ce qu'il indique |
+|---|---|
+| **Jours d'équipe planifiés** | Combien de jours d'équipe sont planifiés cette semaine, et sur combien de chantiers |
+| **Jours-homme planifiés** | Ces mêmes jours multipliés par le nombre de membres de chaque équipe — avec l'effectif actuel |
+| **Pas prêt à démarrer** | Les chantiers qui démarrent dans un jour ou sont en retard, alors que leur préparation n'est pas terminée |
+| **Ne tient pas** | Les chantiers qui portent plus de travail que leur journée n'en compte |
+
+Si **Pas prêt à démarrer** ou **Ne tient pas** dépasse zéro, les chantiers concernés figurent en dessous.
+
+Si une équipe n'a pas de membres, ou si un chantier n'a pas encore d'équipe, il n'est pas compté dans les
+jours-homme. L'écran le signale alors sous les compteurs : le chiffre est alors sous-évalué. Complétez les
+membres sur la [fiche d'équipe](teams.md).
+
+## Le tableau
+
+Chaque ligne est une équipe ; la ligne du haut **Non attribué** contient les chantiers qui n'ont pas encore
+d'équipe. Chaque colonne est un jour. Avec **◀ Semaine précédente**, **Aujourd'hui** et **Semaine suivante ▶**,
+vous naviguez ; **Afficher le week-end** ajoute le samedi et le dimanche.
+
+Un chantier figure comme carte sur son jour, avec sa durée. S'il s'étend sur plusieurs jours, les jours
+suivants indiquent *suite de* avec le jour de début. La petite barre en bas d'un jour montre le **taux de
+remplissage** de ce jour ; si elle devient rouge, il y a plus de travail que le jour n'en compte.
+
+## Planifier un chantier
+
+À gauche figure **À planifier** : les projets vendus ou en cours qui n'ont pas encore de planning, et les blocs
+préparés. Avec **Rechercher un projet…**, vous retrouvez rapidement un projet.
+
+- **Glisser :** faites glisser un chantier vers un jour, sur la ligne de la bonne équipe. Si vous le déposez
+  **sur** un autre chantier, il se place avant celui-ci ; dans l'espace libre d'un jour, il se place à la fin.
+  L'ordre d'une journée est l'ordre du travail.
+- **Cliquer :** cliquez un chantier, puis cliquez un jour. Cela fonctionne aussi avec un doigt sur une tablette.
+- **Remettre en attente :** faites glisser un bloc vers **À planifier** pour le remettre en attente, sans jour.
+
+### Préparer un bloc
+
+Si vous savez déjà combien de temps dure un chantier, mais pas encore quand, cliquez sur **Préparer un bloc**
+près du projet. Le bloc figure alors sous **À planifier** avec sa durée, jusqu'à ce que vous le placiez sur un
+jour.
+
+## Ouvrir un bloc
+
+Cliquez sur l'icône d'une carte pour ouvrir le **Bloc de planning** :
+
+| Champ | Signification |
+|---|---|
+| **Projet** | Le chantier. Vide = un **bloc libre**, par exemple pour de l'entretien ou une formation |
+| **Équipe** | Qui l'exécute. Vide = **Non attribué** |
+| **Jour** | Le jour de début. Vide = préparé, sans jour |
+| **Durée (jours)** | La durée du travail, aussi en demi-journées |
+| **m²** | La surface, à titre indicatif |
+| **Ordre de travail** | L'ordre de travail du projet auquel ce bloc appartient |
+
+**Bloc libre** en haut du tableau crée directement un bloc sans projet.
+
+!!! note "Des jours, pas des heures"
+    Le planning compte en jours. Nimble ne fixe pas combien d'heures compte une journée d'équipe ; un bloc d'une
+    demi-journée remplit donc une demi-journée, quelle que soit l'heure.
+
+## Voir aussi
+
+- [Projets](projects.md) — les chantiers que vous planifiez, avec leur préparation
+- [Ordres de travail](work-orders.md) — le travail sur un projet
+- [Équipes](teams.md) — qui fait partie d'une équipe, et donc combien de jours-homme compte un jour d'équipe

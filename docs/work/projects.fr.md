@@ -45,7 +45,8 @@ et l'historique de ce projet, sans ouvrir la fiche.
 
 Vous ouvrez une fiche en double-cliquant sur une ligne.
 
-En haut figurent à gauche les onglets **Général** et **Réception**, et à droite **Tâches**, **Notes**,
+En haut figurent à gauche les onglets **Général**, **Transmission**, **Préparation** et **Réception** — et
+**États d'avancement** pour un projet avec un devis accepté — et à droite **Tâches**, **Notes**,
 **Pièces jointes** et **Historique**.
 
 En bas se trouve la barre de boutons : **Enregistrer**, **Dossier de projet**, **Annuler** et, à part à
@@ -276,6 +277,12 @@ un avertissement, pas un verrou.
 Pour autoriser malgré tout la facturation de façon explicite, cochez **Autoriser malgré tout la
 facturation** et indiquez le motif sous **Pourquoi**. Ce motif figure dans l'historique du projet. Sans
 motif, l'autorisation ne compte pas.
+
+### Onglet États d'avancement
+
+Pour un projet avec un devis accepté, vous facturez ici au fur et à mesure de l'exécution. L'onglet montre les
+états de ce projet, du plus récent au plus ancien ; **Nouvel état d'avancement** crée le suivant. Comment
+compléter un état, le faire approuver et le facturer : voir [États d'avancement](../sales/progress-reports.md).
 
 ## Facturer en régie
 
