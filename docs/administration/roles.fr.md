@@ -26,6 +26,10 @@ Un rôle porte un cadenas (🔒) : le rôle système pour l'administration de vo
 **automatiquement tous les droits** attribuables. Vous ne pouvez pas modifier ses droits ni supprimer le rôle ;
 les nouveaux droits s'y ajoutent d'office.
 
+Le dernier utilisateur ayant le rôle système ne peut pas se retirer ce rôle lui-même : l'écran refuse, explique
+pourquoi et laisse la case cochée. Attention : l'écran compte qui porte le rôle, pas qui est encore actif. Si le seul
+autre administrateur est désactivé, donnez d'abord le rôle à quelqu'un d'autre.
+
 Pour ne donner qu'une partie de l'administration à quelqu'un, créez un rôle distinct.
 
 ## Attribuer des droits

@@ -26,6 +26,10 @@ Eén rol draagt een slotje (🔒): de systeemrol voor het beheer van uw omgeving
 alle rechten** die u kunt toekennen. U kunt haar rechten niet aanpassen en de rol niet verwijderen; nieuwe
 rechten komen er vanzelf bij.
 
+De laatste gebruiker met de systeemrol kan die rol niet bij zichzelf weghalen: het scherm weigert, zegt waarom en
+laat het vinkje staan. Let op: het scherm telt wie de rol draagt, niet wie nog actief is. Is de enige andere
+beheerder gedeactiveerd, geef de rol dan eerst aan iemand anders.
+
 Wilt u iemand slechts een deel van het beheer geven, maak dan een aparte rol aan.
 
 ## Rechten toekennen
