@@ -25,16 +25,17 @@ Cliquez sur **CRM → Relations** dans la barre latérale.
 - **Exporter** — exportez la liste vers Excel ou CSV.
 - **Nouveau** — cliquez sur **Nouvelle relation**.
 - **Modifier** — **double-cliquez** une ligne pour ouvrir la fiche.
-- **Journal** — cliquez à droite sur le rail **Journal** pour le côté de la relation sélectionnée. Il comporte cinq onglets :
+- **Journal** — cliquez à droite sur le rail **Journal** pour le côté de la relation sélectionnée. Il comporte six onglets :
     - **Contacts** — qui contacter chez ce client. Les adresses e-mail et les numéros sont cliquables, ce qui vous permet d'appeler ou d'écrire sans ouvrir la fiche. Cliquez une carte pour ouvrir la fiche de contact. Si vous pouvez modifier les relations, **Nouvelle personne de contact** en crée une directement liée à ce client.
     - **Tâches** — ce qui doit encore être fait.
     - **Notes** — ce que vous notez vous-même sur ce client. Voir [Notes](notities.fr.md).
     - **Pièces jointes** — documents et photos liés à ce client. Voir [Pièces jointes](bijlagen.fr.md).
+    - **E-mails** — ce qui a été envoyé à ce client, comme les rappels. Cliquez sur un e-mail pour le lire.
     - **Historique** — qui a modifié quel champ de ce client, et quand. En lecture seule.
 
 ## La fiche de relation
 
-À gauche figurent les onglets **Fiche** et **Personnes de contact**. À droite figure le journal de ce client : **Tâches**, **Notes**, **Pièces jointes** et **Historique** — voir [Travailler avec une fiche](fiches.fr.md).
+À gauche figurent les onglets **Fiche** et **Personnes de contact**. À droite figure le journal de ce client : **Tâches**, **Notes**, **Pièces jointes**, **E-mails** et **Historique** — voir [Travailler avec une fiche](fiches.fr.md).
 
 Les boutons **Enregistrer**, **Annuler** et **Supprimer** se trouvent en bas et valent pour **Fiche** et **Personnes de contact** ensemble — vous pouvez donc enregistrer depuis l'un ou l'autre de ces onglets. Sur un onglet du journal, ils ne s'affichent pas.
 

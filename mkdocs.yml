@@ -171,6 +171,7 @@ plugins:
             Bestellingen: Commandes
             Productiestatus: Statut de production
             Projecttypes: Types de projet
+            Standaardmappen: Dossiers standard
             Pipeline-status: Statut pipeline
             Werk: Travail
             Projecten: Projets
@@ -253,6 +254,7 @@ nav:
     - Stamgegevens: administration/master-data.md
     - Productiestatus: administration/production-statuses.md
     - Projecttypes: administration/project-types.md
+    - Standaardmappen: administration/default-folders.md
     - Pipeline-status: administration/pipeline-statuses.md
     - Klantcategorieën: administration/account-categories.md
     - Contactfuncties: administration/contact-functions.md

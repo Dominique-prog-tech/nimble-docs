@@ -44,9 +44,9 @@ fiche te openen.
 
 U opent een fiche door te dubbelklikken op een rij.
 
-Bovenaan staan links de tabbladen **Algemeen**, **Overdracht**, **Voorbereiding** en **Oplevering** — en
-**Vorderingsstaten** bij een project met een aanvaarde offerte — en rechts **Taken**, **Notities**, **Bijlagen**
-en **Logboek**.
+Bovenaan staan links de tabbladen **Algemeen**, **Overdracht**, **Voorbereiding**, **Materiaal**,
+**Oplevering** en **Documenten** — en **Vorderingsstaten** bij een project met een aanvaarde offerte — en rechts
+**Taken**, **Notities**, **Bijlagen**, **Mails** en **Logboek**.
 
 Onderaan staat de knoppenbalk: **Bewaren**, **Projectdossier**, **Annuleren** en, apart rechts,
 **Verwijderen**. De balk blijft staan terwijl u door de fiche scrolt.
@@ -220,6 +220,39 @@ Bovenaan staat hoever het project is, bijvoorbeeld *3 van 7 verplichte punten af
 **startklaar** wanneer alle verplichte punten afgevinkt zijn. Een project zonder één punt is niet startklaar:
 dan is er nog niets voorbereid.
 
+### Tabblad Materiaal
+
+Hier staat het materiaal voor dit project, in twee lijsten die elk de helft van het tabblad krijgen en elk
+apart scrollen.
+
+<!-- AFBEELDING: het tabblad Materiaal met bovenaan de materiaallijst (titels, regels en hun status) en onderaan de projectartikelen -->
+
+#### Materiaallijst
+
+Een regel is wat er nodig is: een omschrijving, een aantal en een eenheid, met eventueel een uitgebreide
+omschrijving eronder. Met **Titel toevoegen** zet u er een kop tussen, bijvoorbeeld *Afbraakwerken*.
+
+Elke regel heeft een **status**: waar het materiaal op dit moment is.
+
+| Status | Betekenis |
+|---|---|
+| **Te bestellen** | Nog niets besteld |
+| **In bestelling** | Besteld, nog niet binnen |
+| **In magazijn** | Binnen, ligt klaar in het magazijn |
+| **Op de werf** | Geleverd op de werf |
+
+- **Nieuwe regel** voegt een regel toe; dubbelklik op een regel om ze te wijzigen of te verwijderen.
+- Vink regels aan om hun status in één keer te wijzigen: kies de status en klik **Status zetten**.
+- Sleep een regel aan het handvat links om de volgorde te wijzigen.
+- **Overnemen uit offerte** zet de regels van de aanvaarde offerte van dit project in de lijst — zonder opties
+  en witregels. U kunt het gerust opnieuw doen: wat er al staat, komt er niet nog eens bij.
+
+#### Projectartikelen
+
+Onderaan staan de artikelen uit uw catalogus die voor dit project nodig zijn. Klik **Artikel toevoegen**, zoek
+het artikel op code of omschrijving en kies het. Daarna vult u het aantal in, de **Leverancier**, en of het
+**Besteld** is en een **Stockartikel**.
+
 ### Tabblad Oplevering
 
 Op dit tabblad legt u vast wanneer de werf opgeleverd is, en wat er nog moet gebeuren.
@@ -267,11 +300,37 @@ waarschuwing, geen grendel.
 Wilt u het project toch uitdrukkelijk vrijgeven, vink dan **Toch vrijgeven om te factureren** aan en vul bij
 **Waarom** de reden in. Die reden komt in het logboek van het project. Zonder reden telt de vrijgave niet.
 
+### Tabblad Documenten
+
+Hier staan de bijlagen van dit project, in mappen.
+
+<!-- AFBEELDING: het tabblad Documenten met links de mappenboom en rechts de bijlagen van de gekozen map -->
+
+Links staat de mappenboom. **Alle bijlagen** toont alles, **Zonder map** wat nog in geen map zit; achter elke
+map staat hoeveel bijlagen erin zitten. Kies een map, dan ziet u rechts enkel haar bijlagen. Wat u oplaadt
+terwijl een map gekozen is, komt in die map.
+
+- **Nieuwe map** maakt een map op het hoogste niveau, **Submap** een map onder de gekozen map. Met
+  **Hernoemen** wijzigt u de naam.
+- **Verwijderen** kan enkel bij een lege map: zonder submappen en zonder bijlagen.
+- Een bijlage in een andere map zetten doet u via het menu achteraan de regel.
+- Een nieuw project krijgt de [standaardmappen](../administration/default-folders.md) van uw bedrijf. Op een
+  bestaand project vult **Standaardmappen invoegen** aan wat ontbreekt.
+
+De mappen bestaan enkel op de projectfiche. In het journaal rechts, bij **Bijlagen**, staan dezelfde bijlagen in
+één lijst, zonder mappen.
+
 ### Tabblad Vorderingsstaten
 
 Bij een project met een aanvaarde offerte factureert u hier naar gelang van de uitvoering. Het tabblad toont de
 staten van dit project, nieuwste eerst; **Nieuwe vorderingsstaat** maakt de volgende. Hoe u een staat invult,
 laat goedkeuren en factureert, leest u in [Vorderingsstaten](../sales/progress-reports.md).
+
+### Mails in het journaal
+
+Rechts bij **Mails** staan de mails van dit project: de offertes en facturen die gemaild zijn, en de
+antwoorden. Klik een mail om ze te lezen. Van mails uit het vorige programma kan het zijn dat enkel wie,
+wanneer en het onderwerp bewaard zijn; dat zegt het venster dan.
 
 ## Factureren in regie
 

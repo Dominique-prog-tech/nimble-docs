@@ -25,16 +25,17 @@ Klik in de zijbalk op **CRM → Relaties**.
 - **Exporteren** — exporteer de lijst naar Excel of CSV.
 - **Nieuw** — klik op **Nieuwe relatie**.
 - **Bewerken** — **dubbelklik** een rij om de fiche te openen.
-- **Journaal** — klik rechts op de rail **Journaal** voor de zijkant van de geselecteerde relatie. Die heeft vijf tabbladen:
+- **Journaal** — klik rechts op de rail **Journaal** voor de zijkant van de geselecteerde relatie. Die heeft zes tabbladen:
     - **Contacten** — wie u bij deze klant moet hebben. E-mailadressen en nummers zijn aanklikbaar, zodat u kunt bellen of mailen zonder de fiche te openen. Klik een kaartje om de contactfiche te openen. Mag u relaties wijzigen, dan maakt **Nieuwe contactpersoon** er meteen een aan die aan deze klant gekoppeld is.
     - **Taken** — wat er nog moet gebeuren.
     - **Notities** — wat u zelf noteert over deze klant. Zie [Notities](notities.md).
     - **Bijlagen** — documenten en foto's bij deze klant. Zie [Bijlagen](bijlagen.md).
+    - **Mails** — wat er naar deze klant gemaild is, zoals aanmaningen. Klik een mail om ze te lezen.
     - **Logboek** — wie welk veld van deze klant wijzigde, en wanneer. Alleen om te lezen.
 
 ## De relatiefiche
 
-Links staan de tabbladen **Fiche** en **Contactpersonen**. Rechts staat het journaal van deze klant: **Taken**, **Notities**, **Bijlagen** en **Logboek** — zie [Werken met een fiche](fiches.md).
+Links staan de tabbladen **Fiche** en **Contactpersonen**. Rechts staat het journaal van deze klant: **Taken**, **Notities**, **Bijlagen**, **Mails** en **Logboek** — zie [Werken met een fiche](fiches.md).
 
 De knoppen **Bewaren**, **Annuleren** en **Verwijderen** staan onderaan en gelden voor **Fiche** en **Contactpersonen** samen — u kunt dus bewaren vanaf welk van die twee tabbladen u ook staat. Op een journaal-tabblad ziet u ze niet.
 

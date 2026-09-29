@@ -45,9 +45,9 @@ et l'historique de ce projet, sans ouvrir la fiche.
 
 Vous ouvrez une fiche en double-cliquant sur une ligne.
 
-En haut figurent à gauche les onglets **Général**, **Transmission**, **Préparation** et **Réception** — et
-**États d'avancement** pour un projet avec un devis accepté — et à droite **Tâches**, **Notes**,
-**Pièces jointes** et **Historique**.
+En haut figurent à gauche les onglets **Général**, **Transmission**, **Préparation**, **Matériel**,
+**Réception** et **Documents** — et **États d'avancement** pour un projet avec un devis accepté — et à droite
+**Tâches**, **Notes**, **Pièces jointes**, **E-mails** et **Historique**.
 
 En bas se trouve la barre de boutons : **Enregistrer**, **Dossier de projet**, **Annuler** et, à part à
 droite, **Supprimer**. La barre reste en place pendant que vous faites défiler la fiche.
@@ -228,6 +228,40 @@ En haut figure l'avancement, par exemple *3 sur 7 points obligatoires cochés*. 
 démarrer** lorsque tous les points obligatoires sont cochés. Un projet sans aucun point n'est pas prêt : rien
 n'a encore été préparé.
 
+### Onglet Matériel
+
+Vous trouvez ici le matériel de ce projet, en deux listes qui occupent chacune la moitié de l'onglet et défilent
+chacune séparément.
+
+<!-- AFBEELDING: l'onglet Matériel avec en haut la liste de matériel (titres, lignes et leur statut) et en bas les articles du projet -->
+
+#### Liste de matériel
+
+Une ligne est ce qui est nécessaire : une description, une quantité et une unité, avec éventuellement une
+description détaillée en dessous. Avec **Ajouter un titre**, vous insérez un titre, par exemple *Démolition*.
+
+Chaque ligne a un **statut** : l'endroit où se trouve le matériel à ce moment.
+
+| Statut | Signification |
+|---|---|
+| **À commander** | Rien n'a encore été commandé |
+| **En commande** | Commandé, pas encore reçu |
+| **En magasin** | Reçu, prêt au magasin |
+| **Sur chantier** | Livré sur le chantier |
+
+- **Nouvelle ligne** ajoute une ligne ; double-cliquez sur une ligne pour la modifier ou la supprimer.
+- Cochez des lignes pour modifier leur statut en une fois : choisissez le statut et cliquez sur **Définir le
+  statut**.
+- Faites glisser une ligne par la poignée à gauche pour modifier l'ordre.
+- **Reprendre du devis** place les lignes du devis accepté de ce projet dans la liste — sans les options ni les
+  lignes vides. Vous pouvez le refaire sans crainte : ce qui y figure déjà n'est pas ajouté une seconde fois.
+
+#### Articles du projet
+
+En bas figurent les articles de votre catalogue nécessaires pour ce projet. Cliquez sur **Ajouter un article**,
+recherchez l'article par code ou description et choisissez-le. Indiquez ensuite la quantité, le
+**Fournisseur**, et s'il est **Commandé** et s'il s'agit d'un **Article en stock**.
+
 ### Onglet Réception
 
 Sur cet onglet, vous enregistrez la date de réception du chantier et ce qui doit encore être fait.
@@ -278,11 +312,38 @@ Pour autoriser malgré tout la facturation de façon explicite, cochez **Autoris
 facturation** et indiquez le motif sous **Pourquoi**. Ce motif figure dans l'historique du projet. Sans
 motif, l'autorisation ne compte pas.
 
+### Onglet Documents
+
+Vous trouvez ici les pièces jointes de ce projet, classées en dossiers.
+
+<!-- AFBEELDING: l'onglet Documents avec à gauche l'arborescence des dossiers et à droite les pièces jointes du dossier choisi -->
+
+À gauche figure l'arborescence. **Toutes les pièces jointes** montre tout, **Sans dossier** ce qui n'est encore
+dans aucun dossier ; derrière chaque dossier figure le nombre de pièces jointes qu'il contient. Choisissez un
+dossier : à droite, vous ne voyez plus que ses pièces jointes. Ce que vous chargez pendant qu'un dossier est
+choisi va dans ce dossier.
+
+- **Nouveau dossier** crée un dossier au niveau principal, **Sous-dossier** un dossier sous le dossier choisi.
+  **Renommer** en modifie le nom.
+- **Supprimer** n'est possible que pour un dossier vide : sans sous-dossiers ni pièces jointes.
+- Pour placer une pièce jointe dans un autre dossier, utilisez le menu en fin de ligne.
+- Un nouveau projet reçoit les [dossiers standard](../administration/default-folders.fr.md) de votre entreprise.
+  Sur un projet existant, **Insérer les dossiers standard** complète ce qui manque.
+
+Les dossiers n'existent que sur la fiche de projet. Dans le journal à droite, sous **Pièces jointes**, les mêmes
+pièces jointes figurent dans une seule liste, sans dossiers.
+
 ### Onglet États d'avancement
 
 Pour un projet avec un devis accepté, vous facturez ici au fur et à mesure de l'exécution. L'onglet montre les
 états de ce projet, du plus récent au plus ancien ; **Nouvel état d'avancement** crée le suivant. Comment
 compléter un état, le faire approuver et le facturer : voir [États d'avancement](../sales/progress-reports.md).
+
+### E-mails dans le journal
+
+À droite, sous **E-mails**, figurent les e-mails de ce projet : les devis et factures envoyés, et les réponses.
+Cliquez sur un e-mail pour le lire. Pour les e-mails de l'ancien programme, il se peut que seuls l'expéditeur,
+la date et l'objet aient été conservés ; la fenêtre le signale alors.
 
 ## Facturer en régie
 
