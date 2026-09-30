@@ -40,6 +40,8 @@ commence ce jour-là. Un jour férié est grisé sur le tableau, avec son nom so
 momentanément pas récupérer les jours fériés, un message s'affiche au-dessus du tableau et ce jour compte comme
 un jour ouvrable.
 
+![Le tableau de planning d'une semaine avec un jour férié : ce jour est grisé, avec le nom du jour férié sous la date.](../images/planbord-feestdag-fr.png)
+
 ## Planifier un chantier
 
 À gauche figure **À planifier** : les projets vendus ou en cours qui n'ont pas encore de planning, et les blocs

@@ -39,6 +39,8 @@ Zaterdag, zondag en de **wettelijke feestdagen** slaat ze over, tenzij de werf e
 staat getint op het bord, met haar naam onder de datum. Kan Nimble de feestdagen even niet ophalen, dan staat
 er een melding boven het bord en telt die dag als gewone werkdag.
 
+![Het planbord in een week met een feestdag: die dag is getint, met de naam van de feestdag onder de datum.](../images/planbord-feestdag.png)
+
 ## Een werf inplannen
 
 Links staat **Nog in te plannen**: verkochte of lopende projecten die nog geen planning hebben, en klaargezette
