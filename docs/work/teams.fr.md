@@ -9,9 +9,9 @@ Dans la barre latérale, cliquez sur **Travail → Équipes**.
 
 ## La liste
 
-![La liste Équipes avec trois colonnes : Nom, Membres et Actif. Ploeg dakwerken n'a aucun membre, Ploeg sanitair en a quatre et Ploeg verwarming deux.](../images/ploegen-lijst-fr.png)
+![La liste Équipes avec trois colonnes : Nom, Membres et Actif. Devant chaque nom figure la couleur de l'équipe. Ploeg dakwerken n'a aucun membre, Ploeg sanitair en a quatre et Ploeg verwarming deux.](../images/ploegen-lijst-fr.png)
 
-La liste est courte : **Nom**, le nombre de **Membres** et **Actif**.
+La liste est courte : **Nom** (précédé de la couleur de l'équipe), le nombre de **Membres** et **Actif**.
 
 - **Nouvelle équipe** ouvre une fenêtre vide.
 - Les trois boutons à côté de Rechercher sont le filtre, le sélecteur de colonnes et **Exporter**.
@@ -24,13 +24,14 @@ ci-dessus, c'est le cas de Ploeg dakwerken.
 Les équipes n'ont pas de fiche distincte. Vous double-cliquez sur une ligne — ou cliquez sur **Nouvelle
 équipe** — et travaillez dans une fenêtre.
 
-![La fenêtre Modifier l'équipe de Ploeg sanitair avec le nom, quatre membres sous forme d'étiquettes, la case Actif et les boutons Enregistrer, Annuler et Supprimer.](../images/ploeg-bewerken-fr.png)
+![La fenêtre Modifier l'équipe de Ploeg sanitair avec le nom, quatre membres sous forme d'étiquettes, la case Actif, la palette de couleurs et les boutons Enregistrer, Annuler et Supprimer.](../images/ploeg-bewerken-fr.png)
 
 | Champ | Remarque |
 |---|---|
 | **Nom** | Obligatoire. Nommez l'équipe d'après ce qu'elle fait, non d'après qui la compose — ainsi le nom reste juste en cas de changement |
 | **Membres (collaborateurs)** | Choisissez parmi les collaborateurs actifs. Chaque membre figure comme étiquette dans le champ ; la croix l'en retire |
 | **Actif** | Voir ci-dessous |
+| **Couleur dans le planning** | Cliquez une couleur dans la palette. Elle figure comme trait devant la ligne de l'équipe sur le [tableau de planning](planning.md), et devant le nom dans cette liste et dans l'onglet Planning d'un projet. **Aucune couleur** la retire |
 
 En bas de la fenêtre figurent **Enregistrer**, **Annuler** et, pour une équipe existante, à part à droite,
 **Supprimer**.

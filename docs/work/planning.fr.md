@@ -27,7 +27,8 @@ membres sur la [fiche d'équipe](teams.md).
 ## Le tableau
 
 Chaque ligne est une équipe ; la ligne du haut **Non attribué** contient les chantiers qui n'ont pas encore
-d'équipe. Chaque colonne est un jour. Avec **◀ Semaine précédente**, **Aujourd'hui** et **Semaine suivante ▶**,
+d'équipe. Un trait de couleur devant le nom est la couleur que vous avez donnée à l'équipe sur la
+[fiche équipe](teams.md). Chaque colonne est un jour. Avec **◀ Semaine précédente**, **Aujourd'hui** et **Semaine suivante ▶**,
 vous naviguez ; **Afficher le week-end** ajoute le samedi et le dimanche.
 
 Un chantier figure comme carte sur son jour, avec sa durée. S'il s'étend sur plusieurs jours, les jours

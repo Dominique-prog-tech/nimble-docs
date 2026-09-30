@@ -26,7 +26,8 @@ scherm zegt dat dan onder de tellers: het getal staat dan te laag. Vul de leden 
 
 ## Het bord
 
-Elke rij is een ploeg; de bovenste rij **Niet toegewezen** houdt werven die nog geen ploeg hebben. Elke kolom
+Elke rij is een ploeg; de bovenste rij **Niet toegewezen** houdt werven die nog geen ploeg hebben. Een
+gekleurde streep voor de naam is de kleur die u de ploeg gaf op de [ploegenfiche](teams.md). Elke kolom
 is een dag. Met **◀ Vorige week**, **Vandaag** en **Volgende week ▶** bladert u; **Weekend tonen** voegt
 zaterdag en zondag toe.
 

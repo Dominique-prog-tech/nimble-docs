@@ -9,9 +9,9 @@ Klik in de zijbalk op **Werk → Ploegen**.
 
 ## De lijst
 
-![De lijst Ploegen met drie kolommen: Naam, Leden en Actief. Ploeg dakwerken heeft nul leden, Ploeg sanitair vier en Ploeg verwarming twee.](../images/ploegen-lijst.png)
+![De lijst Ploegen met drie kolommen: Naam, Leden en Actief. Voor elke naam staat de kleur van de ploeg. Ploeg dakwerken heeft nul leden, Ploeg sanitair vier en Ploeg verwarming twee.](../images/ploegen-lijst.png)
 
-De lijst is kort: **Naam**, het aantal **Leden** en **Actief**.
+De lijst is kort: **Naam** (met de kleur van de ploeg ervoor), het aantal **Leden** en **Actief**.
 
 - **Nieuwe ploeg** opent een leeg venster.
 - De drie knoppen naast Zoeken zijn de filter, de kolomkiezer en **Exporteren**.
@@ -24,13 +24,14 @@ is dat het geval bij Ploeg dakwerken.
 Ploegen heeft geen aparte fiche. U dubbelklikt op een rij — of klikt op **Nieuwe ploeg** — en werkt in een
 venster.
 
-![Het venster Ploeg bewerken van Ploeg sanitair met de naam, vier leden als etiketten, het vinkje Actief en de knoppen Bewaren, Annuleren en Verwijderen.](../images/ploeg-bewerken.png)
+![Het venster Ploeg bewerken van Ploeg sanitair met de naam, vier leden als etiketten, het vinkje Actief, het kleurpalet en de knoppen Bewaren, Annuleren en Verwijderen.](../images/ploeg-bewerken.png)
 
 | Veld | Opmerking |
 |---|---|
 | **Naam** | Verplicht. Noem de ploeg naar wat ze doet, niet naar wie erin zit — dan blijft de naam kloppen als er iemand wisselt |
 | **Leden (medewerkers)** | Kies uit de actieve medewerkers. Elk lid staat als etiket in het vak; met het kruisje haalt u iemand er weer uit |
 | **Actief** | Zie hieronder |
+| **Kleur op het planbord** | Klik een kleur in het palet. Ze staat als streep voor de rij van de ploeg op het [planbord](planning.md), en voor de naam in deze lijst en op het tabblad Planning van een project. Met **Geen kleur** haalt u ze weg |
 
 Onderaan het venster staan **Bewaren**, **Annuleren** en, bij een bestaande ploeg, apart rechts
 **Verwijderen**.
