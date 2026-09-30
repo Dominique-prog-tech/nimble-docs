@@ -10,7 +10,7 @@ Klik in de zijbalk op **Werk → Projecten**.
 
 ## De lijst
 
-![De projectenlijst met de kolommen Nummer, Naam, Klant, Status, Startdatum, Einde, Projecttype, Productiestatus met een gekleurd blokje, en Pipeline-status; rechts de dichtgeklapte lade Journaal.](../images/projecten-lijst.png)
+![De projectenlijst met de kolommen Nummer, Naam, Klant, Status, Verantwoordelijke, Startdatum, Einde, Budget (excl. btw), Besteld, Projecttype, Productiestatus met een gekleurd blokje, en Pipeline-status; rechts de dichtgeklapte lade Journaal.](../images/projecten-lijst.png)
 
 | Kolom | Wat het is |
 |---|---|
@@ -20,6 +20,8 @@ Klik in de zijbalk op **Werk → Projecten**.
 | **Status** | **Actief**, **In wacht** of **Afgerond** |
 | **Verantwoordelijke** | Wie het project opvolgt. Filter op uw eigen naam om uw projecten te zien |
 | **Startdatum** / **Einde** | Wanneer het werk loopt |
+| **Budget (excl. btw)** | Het budget van het project, zonder btw. Leeg wanneer er geen budget is ingevuld |
+| **Besteld** | Het vinkje **Besteld** van de fiche. Filter erop om te zien welke projecten nog niet besteld zijn |
 | **Projecttype** | Wat voor werk het is, bijvoorbeeld Nieuwbouw |
 | **Productiestatus** | Waar het werk op de werf staat. Het gekleurde blokje ervoor is de kleur die uw bedrijf aan die status gaf |
 | **Pipeline-status** | Waar de zaak commercieel staat |
@@ -58,7 +60,7 @@ Onderaan staat de knoppenbalk: **Bewaren**, **Projectdossier**, **Annuleren** en
 
 ### Tabblad Algemeen
 
-![De projectfiche P2026-001 op het tabblad Algemeen: links nummer, naam, klant en omschrijving, rechts status, productiestatus, projecttype, pipeline-status, de datums en het werfadres.](../images/project-fiche.png)
+![De projectfiche P2026-001 op het tabblad Algemeen: links nummer, naam, klant en omschrijving, rechts status, productiestatus, projecttype, pipeline-status, de datums, het budget, het vinkje Besteld en het werfadres.](../images/project-fiche.png)
 
 | Veld | Opmerking |
 |---|---|
@@ -72,14 +74,18 @@ Onderaan staat de knoppenbalk: **Bewaren**, **Projectdossier**, **Annuleren** en
 | **Projecttype** | Wat voor werk het is, bijvoorbeeld **Nieuwbouw** |
 | **Pipeline-status** | Waar de zaak commercieel staat — niet waar het werk staat |
 | **Startdatum** / **Einddatum** | Wanneer het werk loopt |
+| **Budget (excl. btw)** | Het budget van het project, zonder btw. Laat het leeg wanneer er geen budget is |
+| **Besteld** | Vink aan wanneer het project besteld is |
 | **Werf** | Naam of aanduiding van de werf, wanneer die anders heet dan het project |
 | **Straat**, **Postcode**, **Gemeente** | Het adres van de werf. Typ in **Postcode** en kies uit de lijst; **Gemeente** vult mee aan |
+| **Land** | Het land van de werf. Typ een deel van de naam en kies uit de lijst |
 | **Werfcontact** | Het aanspreekpunt op de werf. Kies uit de contactpersonen van al uw relaties, dus ook van een architect of aannemer. Achter de naam staat bij welke relatie de persoon hoort |
 
 **Productiestatus**, **Projecttype** en **Pipeline-status** staan er alleen wanneer uw bedrijf waarden in
 die keuzelijst heeft.
 
-Het werfadres is optioneel. Ligt de werf op het adres van de klant, dan mag u die velden leeg laten.
+Het werfadres is optioneel. Kiest u een **klant** terwijl het werfadres nog leeg is, dan neemt de fiche het adres
+van de klant over, het land inbegrepen. Een werfadres dat al ingevuld is, blijft staan.
 
 Klikt u **Bewaren** terwijl **Nummer** of **Naam** leeg is, dan zegt de fiche bovenaan wat er ontbreekt.
 

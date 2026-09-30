@@ -11,7 +11,7 @@ Dans la barre latérale, cliquez sur **Travail → Projets**.
 
 ## La liste
 
-![La liste des projets avec les colonnes Numéro, Nom, Client, Statut, Date de début, Fin, Type de projet, Statut de production avec un carré de couleur, et Statut pipeline ; à droite le tiroir Journal replié.](../images/projecten-lijst-fr.png)
+![La liste des projets avec les colonnes Numéro, Nom, Client, Statut, Responsable, Date de début, Fin, Budget (HTVA), Commandé, Type de projet, Statut de production avec un carré de couleur, et Statut pipeline ; à droite le tiroir Journal replié.](../images/projecten-lijst-fr.png)
 
 | Colonne | Ce que c'est |
 |---|---|
@@ -21,6 +21,8 @@ Dans la barre latérale, cliquez sur **Travail → Projets**.
 | **Statut** | **Actif**, **En attente** ou **Terminé** |
 | **Responsable** | Qui suit le projet. Filtrez sur votre nom pour voir vos projets |
 | **Date de début** / **Fin** | La période d'exécution |
+| **Budget (HTVA)** | Le budget du projet, hors TVA. Vide lorsqu'aucun budget n'a été saisi |
+| **Commandé** | La case **Commandé** de la fiche. Filtrez dessus pour voir quels projets ne sont pas encore commandés |
 | **Type de projet** | Le type de travail, par exemple une construction neuve |
 | **Statut de production** | Où en est le travail sur le chantier. Le carré de couleur devant est la couleur que votre entreprise a donnée à ce statut |
 | **Statut pipeline** | Où en est l'affaire sur le plan commercial |
@@ -59,7 +61,7 @@ droite, **Supprimer**. La barre reste en place pendant que vous faites défiler 
 
 ### Onglet Général
 
-![La fiche du projet P2026-001 sur l'onglet Général : à gauche le numéro, le nom, le client et la description, à droite le statut, le statut de production, le type de projet, le statut pipeline, les dates et l'adresse du chantier.](../images/project-fiche-fr.png)
+![La fiche du projet P2026-001 sur l'onglet Général : à gauche le numéro, le nom, le client et la description, à droite le statut, le statut de production, le type de projet, le statut pipeline, les dates, le budget, la case Commandé et l'adresse du chantier.](../images/project-fiche-fr.png)
 
 | Champ | Remarque |
 |---|---|
@@ -73,15 +75,18 @@ droite, **Supprimer**. La barre reste en place pendant que vous faites défiler 
 | **Type de projet** | Le type de travail |
 | **Statut pipeline** | Où en est l'affaire sur le plan commercial — pas où en est le travail |
 | **Date de début** / **Date de fin** | La période d'exécution |
+| **Budget (HTVA)** | Le budget du projet, hors TVA. Laissez-le vide lorsqu'il n'y a pas de budget |
+| **Commandé** | Cochez lorsque le projet est commandé |
 | **Chantier** | Nom ou désignation du chantier, lorsqu'il porte un autre nom que le projet |
 | **Rue**, **Code postal**, **Commune** | L'adresse du chantier. Tapez dans **Code postal** et choisissez dans la liste ; **Commune** se complète |
+| **Pays** | Le pays du chantier. Tapez une partie du nom et choisissez dans la liste |
 | **Contact chantier** | L'interlocuteur sur le chantier. Choisissez parmi les personnes de contact de toutes vos relations, donc aussi d'un architecte ou d'un entrepreneur. Derrière le nom figure la relation à laquelle la personne appartient |
 
 **Statut de production**, **Type de projet** et **Statut pipeline** n'apparaissent que si votre entreprise
 a des valeurs dans cette liste de choix.
 
-L'adresse du chantier est facultative. Si le chantier se trouve à l'adresse du client, vous pouvez
-laisser ces champs vides.
+L'adresse du chantier est facultative. Si vous choisissez un **client** alors que l'adresse du chantier est encore
+vide, la fiche reprend l'adresse du client, pays compris. Une adresse de chantier déjà remplie reste inchangée.
 
 Si vous cliquez sur **Enregistrer** alors que **Numéro** ou **Nom** est vide, la fiche indique en haut ce
 qui manque.
