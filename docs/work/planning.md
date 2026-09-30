@@ -55,7 +55,8 @@ blokken. Met **Zoek project…** vindt u een project snel terug.
 ### Een blok klaarzetten
 
 Weet u al hoelang een werf duurt, maar nog niet wanneer, klik dan op **Blok klaarzetten** bij het project. Het
-blok staat dan bij **Nog in te plannen** met zijn duur, tot u het op een dag zet.
+blok staat dan bij **Nog in te plannen** met zijn duur, tot u het op een dag zet. Dat kan ook vanuit het project
+zelf, op het tabblad [Planning](projects.md#tabblad-planning) van de projectfiche.
 
 ## Een blok openen
 

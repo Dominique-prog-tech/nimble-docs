@@ -48,7 +48,7 @@ et l'historique de ce projet, sans ouvrir la fiche.
 
 Vous ouvrez une fiche en double-cliquant sur une ligne.
 
-En haut figurent à gauche les onglets **Général**, **Transmission**, **Préparation**, **Matériel**,
+En haut figurent à gauche les onglets **Général**, **Transmission**, **Préparation**, **Planning**, **Matériel**,
 **Réception** et **Documents** — et **États d'avancement** pour un projet avec un devis accepté — et à droite
 **Tâches**, **Notes**, **Pièces jointes**, **E-mails** et **Historique**.
 
@@ -233,6 +233,28 @@ votre entreprise ; pour un projet existant, ajoutez-la avec **Ajouter la liste s
 En haut figure l'avancement, par exemple *3 sur 7 points obligatoires cochés*. Le projet est **prêt à
 démarrer** lorsque tous les points obligatoires sont cochés. Un projet sans aucun point n'est pas prêt : rien
 n'a encore été préparé.
+
+### Onglet Planning
+
+Ici figurent les blocs de ce projet, les mêmes que sur le [tableau de planning](planning.md). Chaque ligne indique
+le **Jour**, jusqu'à quand le bloc dure (**Jusqu'au**, en jours ouvrables : le week-end et les jours fériés ne
+comptent pas), la **Durée**, l'**Équipe**, la **Description** et l'**Ordre de travail**. Cliquez sur une date pour
+ouvrir cette semaine dans le planning.
+
+![L'onglet Planning d'un projet : en haut la période planifiée et le nombre de jours d'équipe, en dessous un bloc avec jour, équipe et ordre de travail, et un bloc préparé sans jour.](../images/project-planning-fr.png)
+
+- Avec **Ajouter un bloc**, vous préparez un bloc pour ce projet. Laissez le **Jour** vide si vous ne savez pas
+  encore quand : le bloc figure alors dans **À planifier** sur le tableau de planning, avec sa durée, jusqu'à ce
+  que vous le placiez sur un jour.
+- Double-cliquez sur une ligne pour ajuster ou supprimer le bloc, dans la même fenêtre que sur le tableau de
+  planning. Le projet y est fixé.
+
+En haut figurent la période planifiée du projet, le total de jours d'équipe et le nombre de blocs encore
+préparés. La **Date de début** et la **Date de fin** de l'onglet Général ne s'y adaptent pas automatiquement :
+vous les remplissez vous-même.
+
+Vous ne voyez cet onglet que si vous pouvez consulter le planning ; ajouter ou modifier des blocs demande le droit
+de modifier le planning.
 
 ### Onglet Matériel
 

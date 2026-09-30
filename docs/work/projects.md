@@ -47,7 +47,7 @@ fiche te openen.
 
 U opent een fiche door te dubbelklikken op een rij.
 
-Bovenaan staan links de tabbladen **Algemeen**, **Overdracht**, **Voorbereiding**, **Materiaal**,
+Bovenaan staan links de tabbladen **Algemeen**, **Overdracht**, **Voorbereiding**, **Planning**, **Materiaal**,
 **Oplevering** en **Documenten** — en **Vorderingsstaten** bij een project met een aanvaarde offerte — en rechts
 **Taken**, **Notities**, **Bijlagen**, **Mails** en **Logboek**.
 
@@ -226,6 +226,26 @@ bedrijf; bij een bestaand project voegt u ze toe met **Standaardlijst toevoegen*
 Bovenaan staat hoever het project is, bijvoorbeeld *3 van 7 verplichte punten afgevinkt*. Het project is
 **startklaar** wanneer alle verplichte punten afgevinkt zijn. Een project zonder één punt is niet startklaar:
 dan is er nog niets voorbereid.
+
+### Tabblad Planning
+
+Hier staan de blokken van dit project, dezelfde als op het [planbord](planning.md). Elke rij toont de **Dag**,
+tot wanneer het blok loopt (**Tot**, in werkdagen: weekend en feestdagen tellen niet mee), de **Duur**, de
+**Ploeg**, de **Omschrijving** en de **Werkorder**. Klik op een datum om die week op het planbord te openen.
+
+![Het tabblad Planning van een project: bovenaan de geplande periode en het aantal ploegdagen, daaronder een blok met dag, ploeg en werkorder, en een klaargezet blok zonder dag.](../images/project-planning.png)
+
+- Met **Blok toevoegen** zet u een blok voor dit project klaar. Laat de **Dag** leeg als u nog niet weet
+  wanneer: het blok staat dan op het planbord bij **Nog in te plannen**, met zijn duur, tot u het op een dag zet.
+- Dubbelklik op een rij om het blok bij te stellen of te verwijderen, in hetzelfde venster als op het planbord.
+  Het project ligt hier vast.
+
+Bovenaan staat van wanneer tot wanneer het project gepland is, hoeveel ploegdagen het samen telt en hoeveel
+blokken nog klaargezet staan. De **Startdatum** en **Einddatum** op het tabblad Algemeen passen zich daar niet
+vanzelf aan: die vult u zelf in.
+
+Het tabblad ziet u enkel wanneer u de planning mag bekijken; blokken toevoegen of wijzigen vraagt het recht
+om de planning te bewerken.
 
 ### Tabblad Materiaal
 

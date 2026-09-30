@@ -57,7 +57,8 @@ préparés. Avec **Rechercher un projet…**, vous retrouvez rapidement un proje
 
 Si vous savez déjà combien de temps dure un chantier, mais pas encore quand, cliquez sur **Préparer un bloc**
 près du projet. Le bloc figure alors sous **À planifier** avec sa durée, jusqu'à ce que vous le placiez sur un
-jour.
+jour. C'est aussi possible depuis le projet lui-même, dans l'onglet [Planning](projects.md#onglet-planning) de la
+fiche du projet.
 
 ## Ouvrir un bloc
 
