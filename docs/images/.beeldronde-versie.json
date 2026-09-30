@@ -3,8 +3,6 @@
   "volledig": true,
   "datum": "2026-09-30",
   "beelden": 214,
-  "commit": "4a42a2ed223b0f17001f96258da1d5f3ae3a638a",
-  "vuil": [
-    "src/Host/Nimble.Host.Web/release.json"
-  ]
+  "commit": "1a2bc8992591104de2d2347fe355f43363cded81",
+  "vuil": []
 }
