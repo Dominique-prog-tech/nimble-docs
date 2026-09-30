@@ -37,7 +37,7 @@ Double-cliquez sur une ligne pour la modifier, ou cliquez sur **Nouvelle valeur*
 Une fenêtre **Nouvelle valeur** ou **Modifier** s'ouvre.
 
 1. L'**Ordre** est proposé automatiquement (le plus élevé + 10) ; adaptez-le pour déplacer la valeur.
-2. Remplissez le **Code** — obligatoire.
+2. Remplissez le **Code** — obligatoire et unique. Si le code existe déjà, même pour une valeur dans la [corbeille](recycle-bin.md), Nimble indique à quelle valeur il appartient.
 3. Remplissez le nom dans la **langue de base de votre entreprise** — obligatoire. L'autre langue porte la mention **optionnel**, par exemple **Nom (FR, optionnel)**.
 4. Uniquement pour les statuts de production : choisissez une **Couleur** dans la palette, ou **Aucune couleur**.
 5. Cliquez sur **Enregistrer**, ou sur **Annuler** pour fermer la fenêtre sans enregistrer.

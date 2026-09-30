@@ -25,7 +25,7 @@ Dubbelklik op een rij om ze te bewerken, of klik op **Nieuwe waarde**. Met **Exp
 Er opent een venster **Nieuwe waarde** of **Bewerken**.
 
 1. De **Volgorde** wordt automatisch voorgesteld (hoogste + 10); pas ze aan om de waarde te verplaatsen.
-2. Vul de **Code** in — verplicht.
+2. Vul de **Code** in — verplicht en uniek. Bestaat de code al, ook bij een waarde in de [prullenbak](recycle-bin.md), dan zegt Nimble bij welke waarde ze hoort.
 3. Vul de naam in de **basistaal van uw bedrijf** in — verplicht. De andere taal draagt het label **optioneel**.
 4. Klik op **Bewaren**, of op **Annuleren** om het venster te sluiten zonder te bewaren.
 
