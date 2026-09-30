@@ -11,7 +11,7 @@ Dans la barre latérale, cliquez sur **Travail → Projets**.
 
 ## La liste
 
-![La liste des projets avec les colonnes Numéro, Nom, Client, Statut, Responsable, Date de début, Fin, Budget (HTVA), Commandé, Type de projet, Statut de production avec un carré de couleur, et Statut pipeline ; à droite le tiroir Journal replié.](../images/projecten-lijst-fr.png)
+![La liste des projets avec les colonnes Numéro, Nom, Client, Statut, Responsable, Date de début, Fin, Type de projet et Statut de production avec un carré de couleur ; les colonnes plus à droite s'affichent en faisant défiler ; à droite le tiroir Journal replié.](../images/projecten-lijst-fr.png)
 
 | Colonne | Ce que c'est |
 |---|---|
@@ -21,13 +21,14 @@ Dans la barre latérale, cliquez sur **Travail → Projets**.
 | **Statut** | **Actif**, **En attente** ou **Terminé** |
 | **Responsable** | Qui suit le projet. Filtrez sur votre nom pour voir vos projets |
 | **Date de début** / **Fin** | La période d'exécution |
-| **Budget (HTVA)** | Le budget du projet, hors TVA. Vide lorsqu'aucun budget n'a été saisi |
-| **Commandé** | La case **Commandé** de la fiche. Filtrez dessus pour voir quels projets ne sont pas encore commandés |
 | **Type de projet** | Le type de travail, par exemple une construction neuve |
 | **Statut de production** | Où en est le travail sur le chantier. Le carré de couleur devant est la couleur que votre entreprise a donnée à ce statut |
 | **Statut pipeline** | Où en est l'affaire sur le plan commercial |
+| **Budget (HTVA)** | Le budget du projet, hors TVA. Vide lorsqu'aucun budget n'a été saisi |
+| **Commandé** | La case **Commandé** de la fiche. Filtrez dessus pour voir quels projets ne sont pas encore commandés |
 
-Les trois dernières colonnes n'apparaissent que si votre entreprise a des valeurs dans cette liste de choix.
+**Type de projet**, **Statut de production** et **Statut pipeline** n'apparaissent que si votre entreprise a des
+valeurs dans cette liste de choix.
 Ces listes se gèrent sous **Administration**.
 
 - **Nouveau projet** ouvre une fiche vide.

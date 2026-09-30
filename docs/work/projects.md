@@ -10,7 +10,7 @@ Klik in de zijbalk op **Werk → Projecten**.
 
 ## De lijst
 
-![De projectenlijst met de kolommen Nummer, Naam, Klant, Status, Verantwoordelijke, Startdatum, Einde, Budget (excl. btw), Besteld, Projecttype, Productiestatus met een gekleurd blokje, en Pipeline-status; rechts de dichtgeklapte lade Journaal.](../images/projecten-lijst.png)
+![De projectenlijst met de kolommen Nummer, Naam, Klant, Status, Verantwoordelijke, Startdatum, Einde, Projecttype en Productiestatus met een gekleurd blokje; de kolommen verder rechts ziet u door opzij te schuiven; rechts de dichtgeklapte lade Journaal.](../images/projecten-lijst.png)
 
 | Kolom | Wat het is |
 |---|---|
@@ -20,13 +20,14 @@ Klik in de zijbalk op **Werk → Projecten**.
 | **Status** | **Actief**, **In wacht** of **Afgerond** |
 | **Verantwoordelijke** | Wie het project opvolgt. Filter op uw eigen naam om uw projecten te zien |
 | **Startdatum** / **Einde** | Wanneer het werk loopt |
-| **Budget (excl. btw)** | Het budget van het project, zonder btw. Leeg wanneer er geen budget is ingevuld |
-| **Besteld** | Het vinkje **Besteld** van de fiche. Filter erop om te zien welke projecten nog niet besteld zijn |
 | **Projecttype** | Wat voor werk het is, bijvoorbeeld Nieuwbouw |
 | **Productiestatus** | Waar het werk op de werf staat. Het gekleurde blokje ervoor is de kleur die uw bedrijf aan die status gaf |
 | **Pipeline-status** | Waar de zaak commercieel staat |
+| **Budget (excl. btw)** | Het budget van het project, zonder btw. Leeg wanneer er geen budget is ingevuld |
+| **Besteld** | Het vinkje **Besteld** van de fiche. Filter erop om te zien welke projecten nog niet besteld zijn |
 
-De laatste drie kolommen verschijnen alleen wanneer uw bedrijf waarden in die keuzelijst heeft. Die lijsten
+**Projecttype**, **Productiestatus** en **Pipeline-status** verschijnen alleen wanneer uw bedrijf waarden in die
+keuzelijst heeft. Die lijsten
 beheert u onder **Platformbeheer**.
 
 - **Nieuw project** opent een lege fiche.
