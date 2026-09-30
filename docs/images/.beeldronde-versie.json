@@ -1,6 +1,10 @@
 {
-  "versie": "0.5.58",
+  "versie": "0.5.60",
   "volledig": true,
   "datum": "2026-09-30",
-  "beelden": 214
+  "beelden": 214,
+  "commit": "4a42a2ed223b0f17001f96258da1d5f3ae3a638a",
+  "vuil": [
+    "src/Host/Nimble.Host.Web/release.json"
+  ]
 }
