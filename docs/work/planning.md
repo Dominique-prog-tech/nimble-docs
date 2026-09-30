@@ -34,6 +34,11 @@ Een werf staat als kaart op haar dag, met haar duur. Loopt ze over meer dagen, d
 *loopt door van* met de startdag. Het balkje onderaan een dag toont **hoe vol die dag is**; wordt het rood, dan
 staat er meer werk op dan de dag telt.
 
+Een duur telt in **werkdagen**: een werf van drie dagen vanaf vrijdag loopt door op maandag en dinsdag.
+Zaterdag, zondag en de **wettelijke feestdagen** slaat ze over, tenzij de werf er zelf op begint. Een feestdag
+staat getint op het bord, met haar naam onder de datum. Kan Nimble de feestdagen even niet ophalen, dan staat
+er een melding boven het bord en telt die dag als gewone werkdag.
+
 ## Een werf inplannen
 
 Links staat **Nog in te plannen**: verkochte of lopende projecten die nog geen planning hebben, en klaargezette

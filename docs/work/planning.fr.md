@@ -34,6 +34,12 @@ Un chantier figure comme carte sur son jour, avec sa durée. S'il s'étend sur p
 suivants indiquent *suite de* avec le jour de début. La petite barre en bas d'un jour montre le **taux de
 remplissage** de ce jour ; si elle devient rouge, il y a plus de travail que le jour n'en compte.
 
+Une durée se compte en **jours ouvrables** : un chantier de trois jours à partir du vendredi se poursuit le
+lundi et le mardi. Le samedi, le dimanche et les **jours fériés légaux** sont sautés, sauf si le chantier
+commence ce jour-là. Un jour férié est grisé sur le tableau, avec son nom sous la date. Si Nimble ne peut
+momentanément pas récupérer les jours fériés, un message s'affiche au-dessus du tableau et ce jour compte comme
+un jour ouvrable.
+
 ## Planifier un chantier
 
 À gauche figure **À planifier** : les projets vendus ou en cours qui n'ont pas encore de planning, et les blocs
