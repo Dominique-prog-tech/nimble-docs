@@ -26,8 +26,9 @@ scherm zegt dat dan onder de tellers: het getal staat dan te laag. Vul de leden 
 
 ## Het bord
 
-Elke rij is een ploeg; de bovenste rij **Niet toegewezen** houdt werven die nog geen ploeg hebben. Een
-gekleurde streep voor de naam is de kleur die u de ploeg gaf op de [ploegenfiche](teams.md). Elke kolom
+Elke rij is een ploeg; de bovenste rij **Niet toegewezen** houdt werven die nog geen ploeg hebben. Onder de naam
+staan de leden van de ploeg. De kleur die u de ploeg gaf op de [ploegenfiche](teams.md) staat als streep voor de
+naam en kleurt de hele rij licht mee, zodat u ook op een groot scherm ziet welke rij van welke ploeg is. Elke kolom
 is een dag. Met **◀ Vorige week**, **Vandaag** en **Volgende week ▶** bladert u; **Weekend tonen** voegt
 zaterdag en zondag toe.
 
@@ -54,6 +55,8 @@ blokken. Met **Zoek project…** vindt u een project snel terug.
   dan komt ze ervóór; in de lege ruimte van een dag komt ze achteraan. De volgorde op een dag is de volgorde
   van het werk.
 - **Klikken:** klik een werf aan en klik dan een dag. Dat werkt ook met een vinger op een tablet.
+- **Een vakje aanklikken:** klik op een vakje zonder eerst een werf aan te klikken, dan opent het
+  **Planningsblok** met die ploeg en die dag al ingevuld. Kies het project, of laat het leeg voor een vrij blok.
 - **Terugzetten:** sleep een blok terug naar **Nog in te plannen** om het weer klaar te zetten, zonder dag.
 
 ### Een blok klaarzetten

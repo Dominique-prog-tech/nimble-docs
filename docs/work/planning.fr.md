@@ -27,8 +27,9 @@ membres sur la [fiche d'équipe](teams.md).
 ## Le tableau
 
 Chaque ligne est une équipe ; la ligne du haut **Non attribué** contient les chantiers qui n'ont pas encore
-d'équipe. Un trait de couleur devant le nom est la couleur que vous avez donnée à l'équipe sur la
-[fiche équipe](teams.md). Chaque colonne est un jour. Avec **◀ Semaine précédente**, **Aujourd'hui** et **Semaine suivante ▶**,
+d'équipe. Sous le nom figurent les membres de l'équipe. La couleur que vous avez donnée à l'équipe sur la
+[fiche équipe](teams.md) apparaît comme un trait devant le nom et teinte légèrement toute la ligne, pour voir aussi
+sur un grand écran quelle ligne appartient à quelle équipe. Chaque colonne est un jour. Avec **◀ Semaine précédente**, **Aujourd'hui** et **Semaine suivante ▶**,
 vous naviguez ; **Afficher le week-end** ajoute le samedi et le dimanche.
 
 Un chantier figure comme carte sur son jour, avec sa durée. En haut de la carte figure le **nom du chantier** ;
@@ -55,6 +56,8 @@ préparés. Avec **Rechercher un projet…**, vous retrouvez rapidement un proje
   **sur** un autre chantier, il se place avant celui-ci ; dans l'espace libre d'un jour, il se place à la fin.
   L'ordre d'une journée est l'ordre du travail.
 - **Cliquer :** cliquez un chantier, puis cliquez un jour. Cela fonctionne aussi avec un doigt sur une tablette.
+- **Cliquer une case :** cliquez une case sans avoir d'abord cliqué un chantier : le **Bloc de planning** s'ouvre
+  avec cette équipe et ce jour déjà remplis. Choisissez le projet, ou laissez-le vide pour un bloc libre.
 - **Remettre en attente :** faites glisser un bloc vers **À planifier** pour le remettre en attente, sans jour.
 
 ### Préparer un bloc
