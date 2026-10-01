@@ -1,8 +1,10 @@
 {
-  "versie": "0.5.60",
+  "versie": "0.5.61",
   "volledig": true,
-  "datum": "2026-09-30",
+  "datum": "2026-10-01",
   "beelden": 214,
-  "commit": "1a2bc8992591104de2d2347fe355f43363cded81",
-  "vuil": []
+  "commit": "499e63c96be18e70248d5a7207186e33cf784ac4",
+  "vuil": [
+    "src/Host/Nimble.Host.Web/release.json"
+  ]
 }
