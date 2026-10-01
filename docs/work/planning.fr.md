@@ -31,9 +31,12 @@ d'équipe. Un trait de couleur devant le nom est la couleur que vous avez donné
 [fiche équipe](teams.md). Chaque colonne est un jour. Avec **◀ Semaine précédente**, **Aujourd'hui** et **Semaine suivante ▶**,
 vous naviguez ; **Afficher le week-end** ajoute le samedi et le dimanche.
 
-Un chantier figure comme carte sur son jour, avec sa durée. S'il s'étend sur plusieurs jours, les jours
-suivants indiquent *suite de* avec le jour de début. La petite barre en bas d'un jour montre le **taux de
-remplissage** de ce jour ; si elle devient rouge, il y a plus de travail que le jour n'en compte.
+Un chantier figure comme carte sur son jour, avec sa durée. En haut de la carte figure le **nom du chantier** ;
+s'il n'est pas rempli, le nom du projet. En dessous figurent ce qui se fait et dans quelle commune. Le numéro du
+projet apparaît lorsque vous survolez la carte avec la souris. Si un chantier s'étend sur plusieurs jours, les
+jours suivants indiquent *suite de* avec le jour de début. La petite barre en bas d'un jour montre le **taux de
+remplissage** de ce jour ; si elle devient rouge, il y a plus de travail que le jour n'en compte. Un jour ouvrable où une équipe n'a encore rien est **hachuré
+en gris** : vous voyez ainsi d'un coup d'œil où il reste de la place.
 
 Une durée se compte en **jours ouvrables** : un chantier de trois jours à partir du vendredi se poursuit le
 lundi et le mardi. Le samedi, le dimanche et les **jours fériés légaux** sont sautés, sauf si le chantier
@@ -71,8 +74,12 @@ Cliquez sur l'icône d'une carte pour ouvrir le **Bloc de planning** :
 | **Équipe** | Qui l'exécute. Vide = **Non attribué** |
 | **Jour** | Le jour de début. Vide = préparé, sans jour |
 | **Durée (jours)** | La durée du travail, aussi en demi-journées |
-| **m²** | La surface, à titre indicatif |
 | **Ordre de travail** | L'ordre de travail du projet auquel ce bloc appartient |
+| **Description** | Ce qui se fait sur ce bloc, par exemple une phase. Obligatoire pour un bloc libre |
+| **Note** | Une remarque pour l'équipe ou le planificateur |
+
+Avec **Vers le projet**, vous ouvrez la fiche du projet. Avec Ctrl-clic (Cmd-clic sur un Mac), elle s'ouvre
+dans un nouvel onglet, et le tableau reste affiché.
 
 **Bloc libre** en haut du tableau crée directement un bloc sans projet.
 

@@ -31,9 +31,12 @@ gekleurde streep voor de naam is de kleur die u de ploeg gaf op de [ploegenfiche
 is een dag. Met **◀ Vorige week**, **Vandaag** en **Volgende week ▶** bladert u; **Weekend tonen** voegt
 zaterdag en zondag toe.
 
-Een werf staat als kaart op haar dag, met haar duur. Loopt ze over meer dagen, dan staat op de volgende dagen
+Een werf staat als kaart op haar dag, met haar duur. Bovenaan de kaart staat de **werfnaam**; is die niet
+ingevuld, dan de projectnaam. Daaronder staat wat er gebeurt en in welke gemeente. Het projectnummer ziet u
+wanneer u met de muis over de kaart gaat. Loopt een werf over meer dagen, dan staat op de volgende dagen
 *loopt door van* met de startdag. Het balkje onderaan een dag toont **hoe vol die dag is**; wordt het rood, dan
-staat er meer werk op dan de dag telt.
+staat er meer werk op dan de dag telt. Een werkdag waarop een ploeg nog niets heeft, is **grijs gearceerd**: zo
+ziet u in één oogopslag waar er nog plaats is.
 
 Een duur telt in **werkdagen**: een werf van drie dagen vanaf vrijdag loopt door op maandag en dinsdag.
 Zaterdag, zondag en de **wettelijke feestdagen** slaat ze over, tenzij de werf er zelf op begint. Een feestdag
@@ -69,8 +72,12 @@ Klik op het pictogram van een kaart om het **Planningsblok** te openen:
 | **Ploeg** | Wie het doet. Leeg = **Niet toegewezen** |
 | **Dag** | De startdag. Leeg = klaargezet, nog zonder dag |
 | **Duur (dagen)** | Hoelang het werk duurt, ook in halve dagen |
-| **m²** | De oppervlakte, als richtwaarde |
 | **Werkorder** | De werkorder van het project waar dit blok bij hoort |
+| **Omschrijving** | Wat er op dit blok gebeurt, bijvoorbeeld een fase. Verplicht bij een vrij blok |
+| **Notitie** | Een opmerking voor de ploeg of de planner |
+
+Met **Naar het project** opent u de projectfiche. Met Ctrl-klik (Cmd-klik op een Mac) opent ze in een nieuw
+tabblad, zodat het bord blijft staan.
 
 **Vrij blok** bovenaan het bord maakt meteen een blok zonder project.
 
