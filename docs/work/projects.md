@@ -57,8 +57,6 @@ Met **Bord** naast de titel ziet u dezelfde projecten als kaarten, met een kolom
 - Een kaart toont bovenaan de werfnaam (of, als die leeg is, de projectnaam), daaronder het projectnummer en de
   klant. Klik een kaart om het project te openen.
 - **Sleep** een kaart naar een andere kolom om de status van het project te wijzigen.
-- Een **overgezet** project draagt *Overgezet — status volgt de conversie*. Zijn status komt nog uit de conversie,
-  dus het schuift niet mee.
 - Met **Zoek project…** vindt u een project op nummer, naam, werfnaam, klant of gemeente. Een kolom toont
   hoogstens 50 kaarten; voor de rest gebruikt u het zoekvak of de lijst.
 
