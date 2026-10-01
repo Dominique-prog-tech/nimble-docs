@@ -32,6 +32,7 @@ valeurs dans cette liste de choix.
 Ces listes se gèrent sous **Administration**.
 
 - **Nouveau projet** ouvre une fiche vide.
+- Avec **Liste** et **Tableau** à côté du titre, vous passez de cette liste au [tableau](#le-tableau).
 - **Rechercher** filtre sur tout ce qui figure dans la liste.
 - Les trois boutons à côté de Rechercher sont le filtre, le sélecteur de colonnes et **Exporter**.
 - En bas, vous choisissez le nombre de lignes par page.
@@ -43,6 +44,24 @@ et l'historique de ce projet, sans ouvrir la fiche.
 !!! tip "Un projet sans date de fin"
     La colonne **Fin** peut rester vide. Cela se produit pour un projet **En attente** : une date de début
     est convenue, mais pas encore de fin. Dès que le planning est fixé, vous complétez la date.
+
+## Le tableau
+
+Avec **Tableau** à côté du titre, vous voyez les mêmes projets sous forme de cartes, avec une colonne par statut.
+Votre choix entre **Liste** et **Tableau** est conservé.
+
+![Le tableau des projets : une colonne par statut de production avec le nombre de projets dans l'en-tête, et pour chaque projet une carte avec le nom du chantier, le numéro du projet et le client.](../images/projecten-bord-fr.png)
+
+- Les colonnes sont les **statuts de production** de votre entreprise, dans leur ordre. Si votre entreprise
+  n'utilise pas de statut de production, le tableau affiche le **statut de pipeline**. Les projets sans statut
+  figurent dans la dernière colonne, **Sans statut**.
+- Une carte affiche en haut le nom du chantier (ou, s'il est vide, le nom du projet), puis le numéro du projet et
+  le client. Cliquez une carte pour ouvrir le projet.
+- **Glissez** une carte vers une autre colonne pour changer le statut du projet.
+- Un projet **repris** porte *Repris — le statut suit la reprise*. Son statut vient encore de la reprise, il ne se
+  déplace donc pas.
+- Avec **Rechercher un projet…**, vous retrouvez un projet par numéro, nom, nom du chantier, client ou commune.
+  Une colonne affiche au maximum 50 cartes ; pour le reste, utilisez la recherche ou la liste.
 
 ## La fiche de projet
 

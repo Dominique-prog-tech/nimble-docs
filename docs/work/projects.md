@@ -31,6 +31,7 @@ keuzelijst heeft. Die lijsten
 beheert u onder **Platformbeheer**.
 
 - **Nieuw project** opent een lege fiche.
+- Met **Lijst** en **Bord** naast de titel wisselt u tussen deze lijst en het [bord](#het-bord).
 - Met **Zoeken** filtert u op alles wat in de lijst staat.
 - De drie knoppen naast Zoeken zijn de filter, de kolomkiezer en **Exporteren**.
 - Onderaan kiest u hoeveel rijen u per pagina wil zien.
@@ -42,6 +43,24 @@ fiche te openen.
 !!! tip "Een project zonder einddatum"
     De kolom **Einde** mag leeg blijven. Dat komt voor bij een project dat op **In wacht** staat: er is
     een startdatum afgesproken, maar nog geen einde. Zodra de planning vastligt, vult u de datum aan.
+
+## Het bord
+
+Met **Bord** naast de titel ziet u dezelfde projecten als kaarten, met een kolom per status. Uw keuze tussen
+**Lijst** en **Bord** blijft bewaard.
+
+![Het projectbord: een kolom per productiestatus met het aantal projecten in de kop, en per project een kaart met de werfnaam, het projectnummer en de klant.](../images/projecten-bord.png)
+
+- De kolommen zijn de **productiestatussen** van uw bedrijf, in hun volgorde. Gebruikt uw bedrijf geen
+  productiestatus, dan toont het bord de **pipeline-status**. Projecten zonder status staan in de laatste kolom,
+  **Zonder status**.
+- Een kaart toont bovenaan de werfnaam (of, als die leeg is, de projectnaam), daaronder het projectnummer en de
+  klant. Klik een kaart om het project te openen.
+- **Sleep** een kaart naar een andere kolom om de status van het project te wijzigen.
+- Een **overgezet** project draagt *Overgezet — status volgt de conversie*. Zijn status komt nog uit de conversie,
+  dus het schuift niet mee.
+- Met **Zoek project…** vindt u een project op nummer, naam, werfnaam, klant of gemeente. Een kolom toont
+  hoogstens 50 kaarten; voor de rest gebruikt u het zoekvak of de lijst.
 
 ## De projectfiche
 
