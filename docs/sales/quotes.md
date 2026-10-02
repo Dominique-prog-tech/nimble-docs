@@ -164,7 +164,7 @@ Welke knoppen er staan, hangt af van de status van de offerte en van uw rechten.
 | **Online voorleggen** | Klad en Verstuurd | Zet de offerte online, zodat de klant ze kan aanvaarden of weigeren |
 | **Online intrekken** | Zodra de offerte online staat | Haalt de online versie weg |
 | **Markeren als verstuurd** | Klad en Geweigerd | Zet enkel de status om; er vertrekt niets |
-| **Markeren als aanvaard** · **Weigeren** | Verstuurd | Legt het antwoord van de klant vast |
+| **Markeren als aanvaard** · **Weigeren** | Verstuurd | Legt het antwoord van de klant vast. Hangt de offerte nog aan geen project, dan maakt Nimble er bij het aanvaarden een aan — zie *Aanvaard werk hangt aan een project* hieronder |
 | **Project maken** | Aanvaard, zonder project | Opent een nieuw project met de klant en het werfadres van de offerte al ingevuld. Bij het bewaren hangt de offerte, met al haar versies, aan dat project |
 | **Factureren** | Aanvaard | Maakt een kladfactuur met de regels van de offerte |
 | **Nieuwe versie** | Aanvaard, Geweigerd en Vervangen | Maakt een bewerkbare kopie |
@@ -239,6 +239,7 @@ aanvaarden of weigeren. Onbewaarde wijzigingen worden eerst bewaard.
 - Ligt **Geldig tot** in het verleden, dan weigert Nimble de offerte online te zetten en leest u waarom.
 - Aanvaardt of weigert de klant online, dan past Nimble de status van de offerte aan. Hebt u de offerte
   intussen zelf al op Aanvaard of Geweigerd gezet, dan blijft uw beslissing staan.
+- Aanvaardt de klant online een offerte zonder project, dan maakt Nimble er een aan, zoals hieronder beschreven.
 
 **Online intrekken** haalt de pagina weg. De link werkt dan niet meer.
 
@@ -285,6 +286,22 @@ laat de offerte zoals ze was; op het bord springt de kaart terug.
 
 Zet u een geweigerde offerte terug met **Markeren als verstuurd**, dan vervalt die weigering. Het Logboek
 bewaart wat er eerder stond.
+
+## Aanvaard werk hangt aan een project
+
+Een aanvaarde offerte hoort bij een project: het orderboek, de planning en de nacalculatie rekenen per project.
+Aanvaardt u een offerte zonder project — met **Markeren als aanvaard**, op het bord, of doordat de klant ze online
+aanvaardt — dan maakt Nimble er zelf een aan:
+
+| | Wat het nieuwe project krijgt |
+|---|---|
+| **Nummer** | Het volgende nummer uit uw projectreeks. Hebt u geen projectreeks ingesteld, dan het offertenummer |
+| **Naam** | De eerste regel van de notitie van de offerte. Is die leeg, dan de klantnaam en het offertenummer |
+| **Klant** en **werfadres** | De klant van de offerte en zijn adres |
+
+Hangt een andere versie of variant van dezelfde offerte al aan een project, dan komt de offerte bij dát project.
+Nimble meldt aan welk project de offerte nu hangt. Vul daarna op de projectfiche aan wat nog ontbreekt: het echte
+werfadres, de verantwoordelijke, de fase.
 
 ## Factureren
 

@@ -167,7 +167,7 @@ Les boutons affichés dépendent du statut du devis et de vos droits. De gauche 
 | **Proposer en ligne** | Brouillon et Envoyé | Met le devis en ligne, pour que le client puisse l'accepter ou le refuser |
 | **Retirer la version en ligne** | Dès que le devis est en ligne | Supprime la version en ligne |
 | **Marquer comme envoyé** | Brouillon et Refusé | Change uniquement le statut ; rien n'est envoyé |
-| **Marquer comme accepté** · **Refuser** | Envoyé | Enregistre la réponse du client |
+| **Marquer comme accepté** · **Refuser** | Envoyé | Enregistre la réponse du client. Si le devis n'est lié à aucun projet, Nimble en crée un lors de l'acceptation — voir *Le travail accepté est lié à un projet* ci-dessous |
 | **Créer un projet** | Accepté, sans projet | Ouvre un nouveau projet avec le client et l'adresse du chantier du devis déjà remplis. À l'enregistrement, le devis et toutes ses versions sont rattachés à ce projet |
 | **Facturer** | Accepté | Crée un brouillon de facture avec les lignes du devis |
 | **Nouvelle version** | Accepté, Refusé et Remplacé | Crée une copie modifiable |
@@ -246,6 +246,7 @@ l'accepter ou le refuser. Les modifications non enregistrées sont d'abord enreg
   pourquoi.
 - Si le client accepte ou refuse en ligne, Nimble adapte le statut du devis. Si vous avez entre-temps déjà
   mis le devis sur Accepté ou Refusé, votre décision est conservée.
+- Si le client accepte en ligne un devis sans projet, Nimble en crée un, comme décrit ci-dessous.
 
 **Retirer la version en ligne** supprime la page. Le lien ne fonctionne plus.
 
@@ -293,6 +294,22 @@ le devis tel quel ; sur le tableau, la carte revient à sa place.
 
 Si vous remettez un devis refusé avec **Marquer comme envoyé**, ce refus est annulé. Le Journal conserve ce
 qui figurait auparavant.
+
+## Le travail accepté est lié à un projet
+
+Un devis accepté appartient à un projet : le carnet de commandes, le planning et le post-calcul se calculent par
+projet. Si vous acceptez un devis sans projet — avec **Marquer comme accepté**, sur le tableau, ou parce que le client
+l'accepte en ligne — Nimble en crée un lui-même :
+
+| | Ce que reçoit le nouveau projet |
+|---|---|
+| **Numéro** | Le numéro suivant de votre série de projets. Si vous n'avez pas défini de série, le numéro du devis |
+| **Nom** | La première ligne de la note du devis. Si elle est vide, le nom du client et le numéro du devis |
+| **Client** et **adresse du chantier** | Le client du devis et son adresse |
+
+Si une autre version ou variante du même devis est déjà liée à un projet, le devis rejoint ce projet. Nimble indique
+à quel projet le devis est lié. Complétez ensuite sur la fiche du projet ce qui manque encore : la vraie
+adresse du chantier, le responsable, la phase.
 
 ## Facturer
 
