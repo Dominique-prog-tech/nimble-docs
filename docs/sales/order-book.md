@@ -13,7 +13,7 @@ scherm.
 U heeft het recht nodig om facturen te bekijken.
 
 ![Het orderboek: bovenaan het bedrag en het aantal projecten, daaronder de grafiek per maand met de staven Aanvaard
-en Gefactureerd en de lijn Orderboek, en onderaan de lijst per project.](../images/orderboek.png "Het orderboek per maand")
+en Gefactureerd en de lijn Orderboek, en onderaan de lijst per project.](../images/orderboek.png)
 
 ## Bovenaan
 

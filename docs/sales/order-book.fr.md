@@ -13,7 +13,7 @@ Cliquez dans la barre latérale sur **Ventes → Carnet de commandes**. Sur le t
 Vous avez besoin du droit de consulter les factures.
 
 ![Le carnet de commandes : en haut le montant et le nombre de projets, en dessous le graphique par mois avec les
-barres Accepté et Facturé et la ligne Carnet de commandes, et en bas la liste par projet.](../images/orderboek-fr.png "Le carnet de commandes par mois")
+barres Accepté et Facturé et la ligne Carnet de commandes, et en bas la liste par projet.](../images/orderboek-fr.png)
 
 ## En haut
 
