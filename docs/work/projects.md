@@ -57,6 +57,8 @@ Met **Bord** naast de titel ziet u dezelfde projecten als kaarten, met een kolom
 - Een kaart toont bovenaan de werfnaam (of, als die leeg is, de projectnaam), daaronder het projectnummer en de
   klant. Klik een kaart om het project te openen.
 - **Sleep** een kaart naar een andere kolom om de status van het project te wijzigen.
+- Met de dubbele pijl rechts in de kolomkop klapt u een kolom **in**: ze wordt een smalle strook met haar naam en het
+  aantal kaarten. Klik de pijl opnieuw om ze uit te klappen. Welke kolommen ingeklapt zijn, onthoudt Nimble per gebruiker.
 - Met **Zoek project…** vindt u een project op nummer, naam, werfnaam, klant of gemeente. Een kolom toont
   hoogstens 50 kaarten; voor de rest gebruikt u het zoekvak of de lijst.
 

@@ -50,6 +50,9 @@ dans la liste, avec le choix **Remplacé**.
 - **Cliquez** une carte pour ouvrir le devis.
 - **Glissez** une carte vers une autre colonne pour changer le statut. Si ce changement n'est pas permis,
   vous lisez pourquoi et la carte reste en place.
+- Avec la double flèche à droite de l'en-tête, vous **repliez** une colonne : elle devient une bande étroite avec son nom
+  et le nombre de cartes. Cliquez à nouveau sur la flèche pour la déplier. Nimble retient par utilisateur les colonnes
+  repliées.
 
 ## Un nouveau devis
 

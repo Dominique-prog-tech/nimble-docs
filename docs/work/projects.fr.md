@@ -58,6 +58,9 @@ Votre choix entre **Liste** et **Tableau** est conservé.
 - Une carte affiche en haut le nom du chantier (ou, s'il est vide, le nom du projet), puis le numéro du projet et
   le client. Cliquez une carte pour ouvrir le projet.
 - **Glissez** une carte vers une autre colonne pour changer le statut du projet.
+- Avec la double flèche à droite de l'en-tête, vous **repliez** une colonne : elle devient une bande étroite avec son nom
+  et le nombre de cartes. Cliquez à nouveau sur la flèche pour la déplier. Nimble retient par utilisateur les colonnes
+  repliées.
 - Avec **Rechercher un projet…**, vous retrouvez un projet par numéro, nom, nom du chantier, client ou commune.
   Une colonne affiche au maximum 50 cartes ; pour le reste, utilisez la recherche ou la liste.
 

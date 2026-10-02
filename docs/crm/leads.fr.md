@@ -26,6 +26,9 @@ pas ici comme colonne — sauf s'il contient encore un lead.
   cette ligne reste vide.
 - **Glissez** une carte vers une autre colonne pour changer le statut. Cliquez une carte pour ouvrir la
   fiche complète.
+- Avec la double flèche à droite de l'en-tête, vous **repliez** une colonne : elle devient une bande étroite avec son nom
+  et le nombre de cartes. Cliquez à nouveau sur la flèche pour la déplier. Nimble retient par utilisateur les colonnes
+  repliées.
 - Sous le titre de la colonne figure la somme des budgets encodés. Si tous les leads de cette colonne
   ne portent pas de budget, le nombre de leads sans budget est indiqué à côté — par exemple
   **€ 18.500 · 1 sans budget**. Si aucun lead de la colonne ne porte de budget, **budget inconnu**

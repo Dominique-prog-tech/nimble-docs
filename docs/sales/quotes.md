@@ -49,6 +49,8 @@ lijst, met de keuze **Vervangen**.
 - **Klik** een kaart om de offerte te openen.
 - **Sleep** een kaart naar een andere kolom om de status te wijzigen. Mag die wissel niet, dan leest u
   waarom en blijft de kaart staan.
+- Met de dubbele pijl rechts in de kolomkop klapt u een kolom **in**: ze wordt een smalle strook met haar naam en het
+  aantal kaarten. Klik de pijl opnieuw om ze uit te klappen. Welke kolommen ingeklapt zijn, onthoudt Nimble per gebruiker.
 
 ## Een nieuwe offerte
 
