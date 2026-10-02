@@ -20,7 +20,7 @@ En haut figurent quatre **montants**. Cliquez sur une tuile pour ouvrir le modul
 
 | Chiffre clé | Ce qu'il signifie |
 |---|---|
-| **Carnet de commandes** | Travail accepté par le client qu'il vous reste à facturer. La somme de vos devis acceptés moins ce qui est déjà facturé, par projet |
+| **Carnet de commandes** | Travail accepté par le client qu'il vous reste à facturer, hors TVA. La somme de vos devis acceptés moins ce qui est déjà facturé, par projet. La tuile ouvre le [carnet de commandes](../sales/order-book.md), avec son évolution et la liste par projet |
 | **Travaux en cours** | Coûts engagés et pas encore facturés : heures et matériel investis dans des chantiers dont la facture reste à venir |
 | **Encours clients** | Ce que vos clients doivent encore payer. Derrière le montant figure la part dépassant l'échéance |
 | **Travaux suppl. à facturer** | Travaux supplémentaires approuvés qui doivent encore figurer sur une facture |

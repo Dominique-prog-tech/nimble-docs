@@ -183,6 +183,7 @@ plugins:
             Offertes: Devis
             Facturen: Factures
             Vorderingsstaten: États d'avancement
+            Orderboek: Carnet de commandes
             Btw-codes: Codes TVA
             Offertestatus: Statuts de devis
             # ⚠️ Deze vijf stonden tot 26/08/2026 ONVERTAALD in de Franse navigatie. De Franse pagina's
@@ -222,6 +223,7 @@ nav:
     - Taken: crm/tasks.md
   - Verkoop:
     - Offertes: sales/quotes.md
+    - Orderboek: sales/order-book.md
     - Facturen: sales/invoices.md
     - Vorderingsstaten: sales/progress-reports.md
     - Aanmaningen: sales/reminders.md

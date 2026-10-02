@@ -19,7 +19,7 @@ Bovenaan staan vier **bedragen**. Klik een tegel om naar de bijhorende module te
 
 | Kerncijfer | Wat het betekent |
 |---|---|
-| **Orderboek** | Werk dat de klant aanvaard heeft en dat u nog moet factureren. De som van uw aanvaarde offertes min wat er al gefactureerd is, per project |
+| **Orderboek** | Werk dat de klant aanvaard heeft en dat u nog moet factureren, exclusief btw. De som van uw aanvaarde offertes min wat er al gefactureerd is, per project. De tegel opent het [orderboek](../sales/order-book.md), met het verloop en de lijst per project |
 | **Onderhanden werk** | Kosten die u gemaakt heeft en nog niet aangerekend: uren en materiaal die op werven zitten waarvoor de factuur nog moet volgen |
 | **Openstaand bij klanten** | Wat uw klanten nog moeten betalen. Achter het bedrag staat hoeveel daarvan over de vervaldag is |
 | **Meerwerk te factureren** | Goedgekeurd meerwerk dat nog op een factuur moet |
