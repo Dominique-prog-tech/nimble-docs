@@ -112,7 +112,7 @@ Si la BCE ne trouve aucune entreprise pour ce numéro, l'écran affiche **Aucune
 
 Cliquez sur **Enregistrer** en bas à droite. Le logo est sauvegardé à part, dès le téléversement.
 
-Cette fiche n'a pas de bouton Annuler. Si vous ne voulez pas garder vos modifications, cliquez en haut sur **← Retour à l'administration**. Si vous fermez ou rechargez l'onglet avec des modifications non enregistrées, votre navigateur vous demande d'abord confirmation.
+Cette fiche n'a pas de bouton Annuler. Si vous ne voulez pas garder vos modifications, cliquez en haut sur **← Retour à l'administration** et choisissez **Quitter** quand Nimble vous demande si vous partez sans enregistrer. Si vous fermez ou rechargez l'onglet avec des modifications non enregistrées, c'est votre navigateur qui le demande.
 
 Si votre numéro de téléphone ou l'une des deux adresses e-mail n'est pas correct, le message apparaît aussitôt sous le champ — inutile de cliquer d'abord. Si vous cliquez malgré tout, une barre en haut énumère en une ligne tous les champs qui bloquent encore l'enregistrement.
 

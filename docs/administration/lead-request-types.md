@@ -53,7 +53,7 @@ Klik onderaan op **Bewaren**. U komt daarna terug in de lijst. Met **Annuleren**
 Ontbreekt er iets, dan noemt een melding bovenaan de fiche welke velden nog leeg zijn.
 
 !!! tip "Onbewaarde wijzigingen"
-    Sluit of herlaadt u het tabblad met onbewaarde wijzigingen, dan vraagt uw browser eerst of u dat zeker wil.
+    Klikt u weg met onbewaarde wijzigingen, dan vraagt Nimble eerst of u zonder bewaren wilt vertrekken. Sluit of herlaadt u het tabblad, dan vraagt uw browser het.
 
 ## Verwijderen
 

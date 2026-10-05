@@ -30,8 +30,10 @@ En haut à gauche se trouve **Vers la liste**. Le bouton Précédent de votre na
 
 ### Modifications non enregistrées
 
-Si vous avez modifié quelque chose et que vous quittez la page sans enregistrer, votre navigateur vous
-demande d'abord confirmation.
+Si vous avez modifié quelque chose et que vous quittez la page sans enregistrer — par la barre latérale, le bouton
+retour de la fiche ou de votre navigateur — Nimble demande d'abord : *« Vos modifications ne sont pas enregistrées.
+Quitter quand même ? »* Avec **Rester**, vous restez sur la fiche et vos modifications sont conservées ; avec
+**Quitter**, vous continuez sans enregistrer. Si vous fermez ou rechargez l'onglet, c'est votre navigateur qui le demande.
 
 ### Onglets
 

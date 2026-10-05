@@ -53,7 +53,7 @@ Cliquez en bas sur **Enregistrer**. Vous revenez ensuite à la liste. **Annuler*
 S'il manque quelque chose, un message en haut de la fiche indique quels champs sont encore vides.
 
 !!! tip "Modifications non enregistrées"
-    Si vous fermez ou rechargez l'onglet avec des modifications non enregistrées, votre navigateur vous demande d'abord confirmation.
+    Si vous quittez la page avec des modifications non enregistrées, Nimble vous demande d'abord si vous partez sans enregistrer. Si vous fermez ou rechargez l'onglet, c'est votre navigateur qui le demande.
 
 ## Supprimer
 

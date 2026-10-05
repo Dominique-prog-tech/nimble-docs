@@ -109,7 +109,7 @@ Vindt de KBO geen onderneming voor dat nummer, dan meldt het scherm **Geen onder
 
 Klik rechtsonder op **Bewaren**. Het logo wordt apart bewaard, meteen bij het uploaden.
 
-Deze fiche heeft geen knop Annuleren. Wilt u uw wijzigingen niet bewaren, klik dan bovenaan op **← Terug naar platformbeheer**. Sluit of herlaadt u het tabblad met onbewaarde wijzigingen, dan vraagt uw browser eerst of u dat zeker wilt.
+Deze fiche heeft geen knop Annuleren. Wilt u uw wijzigingen niet bewaren, klik dan bovenaan op **← Terug naar platformbeheer** en kies **Weggaan** bij de vraag of u zonder bewaren wilt vertrekken. Sluit of herlaadt u het tabblad met onbewaarde wijzigingen, dan vraagt uw browser het.
 
 Klopt er iets niet aan uw telefoonnummer of aan een van de twee e-mailadressen, dan staat dat er meteen onder het veld — u hoeft niet eerst te klikken. Klikt u toch, dan noemt een balk bovenaan in één regel álle velden die het bewaren nog tegenhouden.
 

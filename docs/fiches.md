@@ -29,8 +29,10 @@ terug op de plek in de lijst waar u vandaan kwam.
 
 ### Onbewaarde wijzigingen
 
-Hebt u iets gewijzigd en navigeert u weg zonder te bewaren, dan vraagt uw browser eerst of u dat zeker
-wil.
+Hebt u iets gewijzigd en klikt u weg zonder te bewaren — in de zijbalk, op de terugknop van de fiche of van uw
+browser — dan vraagt Nimble eerst: *"Uw wijzigingen zijn niet bewaard. Toch weggaan?"* Met **Blijven** blijft u op de
+fiche en staan uw wijzigingen er nog; met **Weggaan** gaat u verder zonder te bewaren. Sluit of herlaadt u het tabblad,
+dan vraagt uw browser het.
 
 ### Tabbladen
 
