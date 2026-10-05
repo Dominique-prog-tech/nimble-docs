@@ -88,7 +88,7 @@ droite, **Supprimer**. La barre reste en place pendant que vous faites défiler 
 |---|---|
 | **Numéro** | Obligatoire. Le numéro de projet auquel les devis et les factures renvoient. Si votre entreprise a une [numérotation des projets](../settings/company-profile.md#numerotation-des-projets), un nouveau projet porte déjà une proposition que vous pouvez modifier |
 | **Nom** | Obligatoire. L'objet du projet, en une phrase |
-| **Client** | La relation pour laquelle vous travaillez. Choisissez dans la liste ; la croix vide le champ |
+| **Client** | La relation pour laquelle vous travaillez. Choisissez dans la liste ; la croix vide le champ. Le bouton **Vers la fiche client** en dessous ouvre la fiche de ce client |
 | **Responsable** | Qui suit le projet. Choisissez parmi les utilisateurs de votre entreprise. C'est aussi la personne qui reprend le dossier lors de la transmission |
 | **Description** | De la place pour ce qui a été convenu précisément |
 | **Statut** | Où en est le projet : **Actif**, **En attente** ou **Terminé** |
