@@ -96,6 +96,12 @@ Zie [Leads](leads.md) voor de details.
     Staat zo'n taak al open, dan komt er geen tweede bij. Werkt u ze af en blijft de lead daarna opnieuw
     liggen, dan volgt er wél een nieuwe.
 
+## Het getal bij Taken in de zijbalk
+
+Bij **Taken** in de zijbalk staat een getal: zoveel van uw open taken vervallen vandaag of zijn al vervallen, of
+hebben vandaag of eerder een herinnering. Enkel taken die aan u toegewezen zijn, tellen mee. Werkt u een taak af,
+dan zakt het getal meteen.
+
 ## Het belletje bovenaan
 
 Staat er een **herinnering** op een taak en is dat moment voorbij, dan verschijnt er een teller bij het

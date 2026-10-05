@@ -97,6 +97,12 @@ Voir [Leads](leads.fr.md) pour les détails.
     Si une telle tâche est déjà ouverte, il n'y en a pas de deuxième. Si vous la terminez et que le lead
     reste ensuite de nouveau en plan, une nouvelle tâche suit bien.
 
+## Le nombre près de Tâches dans la barre latérale
+
+Près de **Tâches** dans la barre latérale figure un nombre : vos tâches ouvertes qui arrivent à échéance aujourd'hui
+ou sont déjà échues, ou dont le rappel tombe aujourd'hui ou plus tôt. Seules les tâches qui vous sont attribuées
+comptent. Quand vous terminez une tâche, le nombre baisse aussitôt.
+
 ## La cloche en haut
 
 Si une tâche porte un **rappel** et que ce moment est passé, un compteur apparaît près de la cloche en haut
