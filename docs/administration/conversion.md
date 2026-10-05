@@ -58,6 +58,11 @@ de keuzelijsten productiestatus, pipeline-status en projecttypes.
     U mag de conversie gerust opnieuw starten, bijvoorbeeld na nieuwe gegevens in Firebird. Er ontstaan geen
     dubbels.
 
+!!! warning "Een klant die al in Nimble werkt"
+    Een volledige conversie zet bestaande gegevens opnieuw op de waarde uit Firebird: wat de klant intussen in Nimble
+    aanpaste (fasen, datums, statussen, planning), wordt overschreven. Voor zo'n klant is de conversie **vergrendeld**:
+    er staat een melding boven de knop, de knop is uitgeschakeld en Nimble converteert niets.
+
 ## Legacy-gebruikers importeren
 
 Met **Importeer / synchroniseer gebruikers** zet u de actieve backoffice-gebruikers uit Firebird om naar

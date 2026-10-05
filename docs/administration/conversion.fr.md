@@ -59,6 +59,11 @@ production, statuts pipeline et types de projet.
     Vous pouvez relancer la conversion, par exemple après de nouvelles données dans Firebird. Aucun doublon
     n'est créé.
 
+!!! warning "Un client qui travaille déjà dans Nimble"
+    Une conversion complète remet les données existantes à la valeur de Firebird : ce que le client a modifié entre-temps
+    dans Nimble (phases, dates, statuts, planning) est écrasé. Pour un tel client, la conversion est **verrouillée** :
+    un message s'affiche au-dessus du bouton, le bouton est désactivé et Nimble ne convertit rien.
+
 ## Importer les utilisateurs hérités
 
 **Importer / synchroniser les utilisateurs** convertit les utilisateurs backoffice actifs de Firebird en
