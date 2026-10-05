@@ -47,6 +47,7 @@ Links staat het tabblad **Algemeen** met de blokken hieronder. Rechts staat het 
 
 | Veld | Uitleg |
 |---|---|
+| **Aanspreking** | Keuzelijst (de heer, mevrouw …). Beheerd via **Platformbeheer → Aansprekingen**. |
 | **Voornaam** | Optioneel. |
 | **Achternaam** | Verplicht. |
 | **Functie** | Keuzelijst; zoek door te typen. Beheerd via **Platformbeheer → Contactfuncties**. |

@@ -9,6 +9,7 @@ Sous **Administration**, vous gérez aussi les listes de choix triables qui appa
 | [Types de projet](project-types.md) | Projets | Classification des projets (rénovation, neuf …) |
 | [Catégories client](account-categories.md) | Relations | Classification des clients (particulier, architecte …) |
 | [Fonctions de contact](contact-functions.md) | Relations | Titres de fonction sur les personnes de contact |
+| [Formules d'appel](contact-salutations.md) | Relations | Formules d'appel sur les personnes de contact |
 | [Sources de leads](lead-sources.md) | Leads | L'origine d'un lead |
 
 Ces six listes fonctionnent de la même manière.

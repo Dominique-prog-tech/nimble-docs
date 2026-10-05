@@ -48,6 +48,7 @@ personne : **Tâches**, **Notes**, **Pièces jointes** et **Historique** — voi
 
 | Champ | Explication |
 |---|---|
+| **Formule d'appel** | Liste de choix (monsieur, madame …). Gérée via **Administration → Formules d'appel**. |
 | **Prénom** | Optionnel. |
 | **Nom de famille** | Obligatoire. |
 | **Fonction** | Liste de choix ; recherchez en tapant. Gérée via **Administration → Fonctions de contact**. |

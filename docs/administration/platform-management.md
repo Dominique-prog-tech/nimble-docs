@@ -18,7 +18,7 @@ Klik onderaan in de zijbalk op **Platformbeheer**.
 | **Bedrijf** | [Bedrijfsfiche](../settings/company-profile.md) |
 | **Artikelen** | [Artikelfamilies](article-families.md), [Eenheden](units.md) |
 | **Projecten** | [Productiestatus](production-statuses.md), [Pipeline-status](pipeline-statuses.md), [Projecttypes](project-types.md), [Standaardmappen](default-folders.md) |
-| **Relaties** | [Klantcategorieën](account-categories.md), [Contactfuncties](contact-functions.md) |
+| **Relaties** | [Klantcategorieën](account-categories.md), [Contactfuncties](contact-functions.md), [Aansprekingen](contact-salutations.md) |
 | **Verkoop** | [Offertestatus](quote-status.md), [Factuurstatus](invoice-status.md), [Btw-codes](vat-codes.md), [Documentsjablonen](../settings/document-templates.md) |
 | **Leads** | [Leadbronnen](lead-sources.md), [Types aanvraag](lead-request-types.md), [Leadfases](lead-status.md), [Leadopvolging](lead-follow-up.md) |
 | **Gegevens en toegang** | [Rollen](roles.md), [Prullenbak](recycle-bin.md), [Actielogboek](audit-log.md) (enkel voor ADM-operators) |

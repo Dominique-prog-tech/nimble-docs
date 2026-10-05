@@ -9,6 +9,7 @@ Onder **Platformbeheer** beheert u ook de sorteerbare keuzelijsten die overal in
 | [Projecttypes](project-types.md) | Projecten | Indeling van projecten (renovatie, nieuwbouw …) |
 | [Klantcategorieën](account-categories.md) | Relaties | Indeling van klanten (particulier, architect …) |
 | [Contactfuncties](contact-functions.md) | Relaties | Functietitels op contactpersonen |
+| [Aansprekingen](contact-salutations.md) | Relaties | Aansprekingen op contactpersonen |
 | [Leadbronnen](lead-sources.md) | Leads | Waar een lead vandaan komt |
 
 Deze zes lijsten werken op dezelfde manier.

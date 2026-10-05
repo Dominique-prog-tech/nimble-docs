@@ -148,6 +148,7 @@ plugins:
             Relaties: Relations
             Contactpersonen: Personnes de contact
             Contactfuncties: Fonctions de contact
+            Aansprekingen: Formules d'appel
             Conversie: Conversion
             Platformbeheer: Administration
             Bedrijfsfiche: Fiche d'entreprise
@@ -260,6 +261,7 @@ nav:
     - Pipeline-status: administration/pipeline-statuses.md
     - Klantcategorieën: administration/account-categories.md
     - Contactfuncties: administration/contact-functions.md
+    - Aansprekingen: administration/contact-salutations.md
     - Leadbronnen: administration/lead-sources.md
     - Types aanvraag: administration/lead-request-types.md
     - Leadfases: administration/lead-status.md
