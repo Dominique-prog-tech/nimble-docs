@@ -25,6 +25,7 @@ Klik in de zijbalk op **Werk → Projecten**.
 | **Pipeline-status** | Waar de zaak commercieel staat |
 | **Budget (excl. btw)** | Het budget van het project, zonder btw. Leeg wanneer er geen budget is ingevuld |
 | **Besteld** | Het vinkje **Besteld** van de fiche. Filter erop om te zien welke projecten nog niet besteld zijn |
+| **Aangemaakt** | De dag waarop het project is aangemaakt. Sorteer erop om de jongste projecten bovenaan te zetten |
 
 **Projecttype**, **Productiestatus** en **Pipeline-status** verschijnen alleen wanneer uw bedrijf waarden in die
 keuzelijst heeft. Die lijsten

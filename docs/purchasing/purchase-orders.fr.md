@@ -51,8 +51,18 @@ l'enregistrement, vous restez sur la fiche.
 Sous la carte **Lignes** figure une rangée pour ajouter une ligne. Choisissez un **Article**, indiquez la
 **Quantité** et cliquez sur **Ajouter une ligne**.
 
-Si vous laissez le **Prix** vide, Nimble reprend le prix d'achat de l'article. Si cette livraison a un autre
-tarif, indiquez le prix avant d'ajouter la ligne.
+Dès que vous choisissez un article, Nimble remplit le **Prix** :
+
+- **Si le fournisseur de cette commande livre l'article**, c'est son prix. Son code figure entre parenthèses
+  après le nom de l'article, pour que vous voyiez dans la liste de choix sous quel numéro il le connaît.
+- **Si l'article n'a pas de fournisseur**, c'est le prix d'achat de l'article.
+- **Si l'article a d'autres fournisseurs, mais pas celui-ci**, le prix reste vide : Nimble ne connaît pas le
+  prix de ce fournisseur. Saisissez-le vous-même.
+
+Les fournisseurs d'un article et leurs prix figurent dans l'onglet **Fournisseurs** de la
+[fiche article](../inventory/articles.md#fournisseurs-dun-article). Si cette livraison a un autre tarif,
+adaptez le prix avant d'ajouter la ligne. Si vous choisissez un autre fournisseur alors qu'un article est
+déjà choisi, le prix proposé s'adapte.
 
 | Colonne | Ce qu'elle indique |
 |---|---|

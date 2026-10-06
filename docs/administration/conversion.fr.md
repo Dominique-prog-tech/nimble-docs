@@ -17,7 +17,7 @@ En haut figure **Tenant actif :** avec le code du tenant. Si aucun n'est choisi,
 choisissez-en un d'abord dans Tenants**, avec le message **Choisissez d'abord un tenant (Gestion de la
 plateforme → Tenants → Utiliser) et configurez sa source Firebird.**
 
-![L'écran de conversion pour le tenant demo : le bloc Source Firebird héritée sans chemin, le bouton Convertir ce tenant, puis les blocs Importer les utilisateurs hérités et Générer des données de démonstration.](../images/conversie-scherm-fr.png)
+![L'écran de conversion pour le tenant demo : le bloc Source Firebird héritée sans chemin, le bouton Convertir ce tenant, puis les blocs Importer les utilisateurs hérités, Mettre à jour les dates de création, Reprendre les fournisseurs par article et Générer des données de démonstration.](../images/conversie-scherm-fr.png)
 
 ## Source Firebird héritée
 
@@ -50,7 +50,7 @@ le traitement s'affiche **Conversion en cours…**.
 Sous le tableau figure le total : **Terminé — … lignes traitées au total.**
 
 Les éléments comprennent notamment la fiche d'entreprise, les relations, les fournisseurs, les personnes de
-contact, les fonctions de contact, les tâches, rendez-vous et notes, les groupes d'articles et les articles,
+contact, les fonctions de contact, les tâches, rendez-vous et notes, les groupes d'articles et les articles avec leur fournisseur, leur fabricant et leur code EAN,
 les codes TVA, les devis et leurs lignes, les factures et leurs lignes, les états d'avancement, les factures
 d'achat, les projets avec leurs phases, matériaux et articles, les équipes, et les listes de choix statuts de
 production, statuts pipeline et types de projet.
@@ -62,7 +62,9 @@ production, statuts pipeline et types de projet.
 !!! warning "Un client qui travaille déjà dans Nimble"
     Une conversion complète remet les données existantes à la valeur de Firebird : ce que le client a modifié entre-temps
     dans Nimble (phases, dates, statuts, planning) est écrasé. Pour un tel client, la conversion est **verrouillée** :
-    un message s'affiche au-dessus du bouton, le bouton est désactivé et Nimble ne convertit rien.
+    un message s'affiche au-dessus du bouton, le bouton est désactivé et Nimble ne convertit rien. Les blocs
+    **Mettre à jour les dates de création** et **Reprendre les fournisseurs par article** ci-dessous
+    fonctionnent bien : ils n'écrasent rien de ce que le client a configuré dans Nimble.
 
 ## Importer les utilisateurs hérités
 
@@ -75,6 +77,48 @@ comptes pour ce tenant.
   liste de messages.
 
 Ce bouton aussi ne fonctionne que lorsque la source est **Connecté**.
+
+## Mettre à jour les dates de création
+
+Ce bloc reprend de Firebird la date de création des projets et articles convertis. Rien d'autre ne change, et
+ce qui a été créé dans Nimble n'est pas touché.
+
+1. Cliquez sur **Vérifier**. Nimble se contente de lire et montre par élément (**Projets**, **Articles**) ce qui
+   se passerait. En dessous figure par exemple *639 dates de création changeraient. Rien n'a encore été écrit.*
+2. Si la vérification a trouvé quelque chose à modifier, **Mettre à jour** s'active. Cliquez dessus.
+3. Cliquez ensuite à nouveau sur **Vérifier** : tout doit alors figurer sous **Déjà corrects**.
+
+| Colonne | Signification |
+|---|---|
+| **Convertis** | Combien de projets ou d'articles viennent de Firebird |
+| **À modifier** / **Modifiés** | Combien de dates de création changeraient, ou après **Mettre à jour** : ont changé |
+| **Déjà corrects** | Combien correspondent déjà à Firebird |
+| **Source sans date** | Firebird ne connaît pas de date pour cet enregistrement ; il reste tel quel |
+| **Absents de la source** | Firebird ne contient pas (plus) cet enregistrement ; il reste tel quel |
+
+Chaque fiche dont la date change reçoit une ligne **Modifié** dans son historique.
+
+## Reprendre les fournisseurs par article
+
+Ce bloc associe le fournisseur de Firebird à chaque article qui n'a **pas encore** de fournisseur dans Nimble.
+Le prix retenu est le prix d'achat actuel dans Nimble, de sorte que le prix de revient d'aucun article ne
+change. Les articles qui ont déjà un fournisseur ne sont pas touchés.
+
+1. Cliquez sur **Vérifier**. Nimble se contente de lire et montre ce qui se passerait.
+2. S'il y a quelque chose à associer, **Associer** s'active. Cliquez dessus.
+3. Cliquez ensuite à nouveau sur **Vérifier** : tout doit alors figurer sous **Avait déjà un fournisseur**.
+
+| Colonne | Signification |
+|---|---|
+| **Avec fournisseur dans la source** | Combien d'articles ont un fournisseur dans Firebird |
+| **À associer** / **Associés** | Combien d'articles recevraient un fournisseur, ou après **Associer** : en ont reçu un |
+| **Avait déjà un fournisseur** | Articles qui ont déjà un fournisseur dans Nimble ; ils restent tels quels |
+| **Article absent de Nimble** | L'article de Firebird n'existe pas dans Nimble |
+| **Fournisseur absent de Nimble** | Le fournisseur de Firebird n'existe pas comme relation dans Nimble |
+
+La conversion complète ci-dessus associe aussi les fournisseurs, mais avec le prix et le code de Firebird.
+Voir [Articles](../inventory/articles.md#fournisseurs-dun-article) pour ce que signifie un fournisseur sur un
+article.
 
 ## Générer des données de démonstration
 

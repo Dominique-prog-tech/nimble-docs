@@ -26,6 +26,7 @@ Dans la barre latérale, cliquez sur **Travail → Projets**.
 | **Statut pipeline** | Où en est l'affaire sur le plan commercial |
 | **Budget (HTVA)** | Le budget du projet, hors TVA. Vide lorsqu'aucun budget n'a été saisi |
 | **Commandé** | La case **Commandé** de la fiche. Filtrez dessus pour voir quels projets ne sont pas encore commandés |
+| **Créé le** | Le jour où le projet a été créé. Triez dessus pour placer les projets les plus récents en haut |
 
 **Type de projet**, **Statut de production** et **Statut pipeline** n'apparaissent que si votre entreprise a des
 valeurs dans cette liste de choix.

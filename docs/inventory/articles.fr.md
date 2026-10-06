@@ -18,8 +18,9 @@ Dans la barre latérale, cliquez sur **Stock → Articles**.
 | **Stock** | Le stock actuel — voir la remarque ci-dessous |
 | **Prix de vente** | Prix par unité. Vide si aucun prix n'est renseigné |
 | **Actif** | Une coche pour les articles que vous utilisez encore |
+| **Créé le** | Le jour où l'article a été créé |
 
-![La liste des articles avec les colonnes Numéro, Nom, Famille, Unité, Stock, Prix de vente et Actif, et en haut la liste de choix Toutes les familles.](../images/artikelen-lijst-fr.png)
+![La liste des articles avec les colonnes Numéro, Nom, Famille, Unité, Stock, Prix de vente, Actif et Créé le, et en haut la liste de choix Toutes les familles.](../images/artikelen-lijst-fr.png)
 
 La liste de choix **Toutes les familles** en haut limite la liste aux articles d'une seule famille. Vous
 pouvez aussi rechercher, trier, filtrer et exporter comme dans les autres listes. Double-cliquez une ligne
@@ -29,9 +30,9 @@ pour ouvrir l'article.
 
 Cliquez sur **Nouvel article**, ou double-cliquez une ligne existante.
 
-![La fiche article avec les cartes Général, Prix et stock et Description, et à droite les onglets Stock, Tâches, Notes, Pièces jointes et Historique.](../images/artikel-fiche-fr.png)
+![La fiche de l'article SAN-1001 sur l'onglet Général, avec les cartes Général (dont Fabricant et Code EAN), Prix et stock et Description. Le prix d'achat est verrouillé et indique qu'il suit le fournisseur préféré.](../images/artikel-fiche-fr.png)
 
-La fiche comporte trois cartes.
+La fiche comporte deux onglets propres : **Général** et **Fournisseurs**. L'onglet **Général** contient trois cartes.
 
 **Général**
 
@@ -41,6 +42,8 @@ La fiche comporte trois cartes.
 | **Nom** | Obligatoire |
 | **Famille** | Obligatoire — gérée via [Familles d'articles](../administration/article-families.md) |
 | **Unité** | Obligatoire — gérée via [Unités](../administration/units.md) |
+| **Fabricant** | La marque ou le fabricant de l'article |
+| **Code EAN** | Le code-barres de l'article |
 | **Actif** | Décochez pour les articles que vous n'utilisez plus ; ils restent visibles sur les anciens documents |
 
 **Prix et stock**
@@ -48,7 +51,7 @@ La fiche comporte trois cartes.
 | Champ | Remarque |
 |---|---|
 | **Prix de vente** | Ce que paie le client |
-| **Prix d'achat** | Ce que vous payez vous-même. Nimble le propose sur une nouvelle ligne de commande |
+| **Prix d'achat** | Le prix de revient de l'article : c'est avec lui que calculent le pré- et le post-calcul d'un projet et la marge du tableau de bord. Si l'article a des fournisseurs, c'est le prix du **fournisseur préféré** et vous le modifiez dans l'onglet **Fournisseurs** — le champ indique alors de quel fournisseur il s'agit. Sans fournisseur, vous le saisissez vous-même ici |
 | **Stock minimum** | En dessous de cette quantité, l'article apparaît dans l'[état du stock](stock-level.md) comme à recommander. Laissez vide pour ne pas suivre l'article — vide n'est pas zéro |
 | **Stock cible** | Niveau jusqu'auquel réapprovisionner. Laissez vide pour compléter jusqu'au minimum |
 
@@ -68,6 +71,39 @@ l'enregistrement, vous restez sur la fiche.
 
 À droite de la fiche figurent les onglets **Stock**, **Tâches**, **Notes**, **Pièces jointes** et
 **Historique** — les mêmes que dans le journal à côté de la liste.
+
+## Fournisseurs d'un article
+
+Vous pouvez acheter un article chez plus d'un fournisseur, chacun avec son propre numéro d'article et son
+propre prix. Vous l'enregistrez dans l'onglet **Fournisseurs** de la fiche. Pour un nouvel article,
+enregistrez d'abord la fiche ; l'onglet apparaît ensuite.
+
+![L'onglet Fournisseurs de l'article SAN-1001 avec deux fournisseurs : Sanitair Depot België BV avec le code SD-1001 à 112,00 € comme préféré, et Thermotech Groothandel NV avec le code TT-1001 à 118,50 €.](../images/artikel-leveranciers-fr.png)
+
+| Colonne | Ce que c'est |
+|---|---|
+| **Fournisseur** | Une relation marquée comme fournisseur |
+| **Code chez le fournisseur** | Le numéro d'article qu'utilise ce fournisseur. Il figure à côté de l'article lorsque vous créez une commande |
+| **Prix d'achat** | Ce que coûte cet article chez ce fournisseur, hors TVA |
+| **Préféré** | Le fournisseur chez qui vous achetez habituellement. Son prix est le prix d'achat de l'article |
+
+Voici comment procéder :
+
+1. Choisissez un fournisseur en bas dans **— cherchez un fournisseur —** et cliquez sur **Ajouter**. Le
+   premier fournisseur devient aussitôt le préféré.
+2. Saisissez le **code** et le **prix d'achat**.
+3. Pour acheter chez un autre fournisseur, cochez **Préféré** chez ce fournisseur. Le prix d'achat de
+   l'onglet Général suit.
+4. Cliquez sur **Enregistrer**. Les fournisseurs sont enregistrés avec le reste de la fiche ; avec
+   **Annuler**, tout reste tel quel.
+
+**Supprimer** sur une ligne retire un fournisseur. Si vous retirez tous les fournisseurs, le dernier prix
+d'achat reste en place et vous le saisissez à nouveau vous-même dans l'onglet Général.
+
+!!! info "Exactement un fournisseur préféré"
+    Si un article a des fournisseurs, exactement un doit être le préféré : son prix est le prix de revient.
+    Si vous supprimez le fournisseur préféré, Nimble n'en choisit pas un autre lui-même — le message en haut
+    vous demande d'indiquer un **Fournisseur préféré** avant d'enregistrer.
 
 ## Supprimer un article
 
@@ -129,11 +165,14 @@ haut ; un plus signifie une entrée, un moins une sortie.
       alors lisible sur l'existant.
     - **Indiquer un minimum de 0 pour ne pas suivre un article** — laissez alors le champ vide. Avec 0,
       Nimble suit bien l'article.
+    - **Chercher le prix d'achat dans l'onglet Général** alors que l'article a des fournisseurs — vous le
+      modifiez alors chez le fournisseur préféré dans l'onglet **Fournisseurs**.
 
 ## Voir aussi
 
 - [État du stock](stock-level.md)
-- [Commandes](../purchasing/purchase-orders.md)
+- [Commandes](../purchasing/purchase-orders.md) — le prix d'une ligne de commande vient du fournisseur
+- [Relations](../relations.md) — un fournisseur est une relation cochée Fournisseur
 - [Familles d'articles](../administration/article-families.md)
 - [Unités](../administration/units.md)
 - [Filtrer les listes](../lijsten-filteren.md) — le bouton entonnoir, le générateur de filtres et la barre de filtre

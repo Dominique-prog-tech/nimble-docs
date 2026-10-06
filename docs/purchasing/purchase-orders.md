@@ -51,8 +51,18 @@ na het bewaren op de fiche.
 Onder de kaart **Regels** staat een rij om een regel toe te voegen. Kies een **Artikel**, vul het **Aantal**
 in en klik **Regel toevoegen**.
 
-Laat u **Prijs** leeg, dan neemt Nimble de aankoopprijs van het artikel. Is deze levering anders geprijsd,
-vul de prijs dan in vóór u de regel toevoegt.
+Zodra u een artikel kiest, vult Nimble de **Prijs** in:
+
+- **Levert de leverancier van deze bestelling het artikel**, dan staat er zijn prijs. Zijn code staat tussen
+  haakjes achter de naam van het artikel, zodat u in de keuzelijst ziet onder welk nummer hij het kent.
+- **Heeft het artikel geen leveranciers**, dan staat er de aankoopprijs van het artikel.
+- **Heeft het artikel andere leveranciers, maar niet deze**, dan blijft de prijs leeg: Nimble kent de prijs
+  van deze leverancier niet. Vul ze zelf in.
+
+De leveranciers van een artikel en hun prijzen staan op het tabblad **Leveranciers** van de
+[artikelfiche](../inventory/articles.md#leveranciers-van-een-artikel). Is deze levering anders geprijsd, pas
+de prijs dan aan vóór u de regel toevoegt. Kiest u een andere leverancier terwijl er al een artikel gekozen
+staat, dan past de voorgestelde prijs zich aan.
 
 | Kolom | Wat het zegt |
 |---|---|

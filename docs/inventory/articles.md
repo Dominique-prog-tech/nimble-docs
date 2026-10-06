@@ -18,8 +18,9 @@ Klik in de zijbalk op **Voorraad → Artikelen**.
 | **Stock** | De huidige voorraad — zie de opmerking onderaan |
 | **Verkoopprijs** | Prijs per eenheid. Leeg wanneer er geen prijs is ingevuld |
 | **Actief** | Een vinkje bij artikelen die u nog gebruikt |
+| **Aangemaakt** | De dag waarop het artikel is aangemaakt |
 
-![De artikellijst met de kolommen Nummer, Naam, Familie, Eenheid, Stock, Verkoopprijs en Actief, en bovenaan de keuzelijst Alle families.](../images/artikelen-lijst.png)
+![De artikellijst met de kolommen Nummer, Naam, Familie, Eenheid, Stock, Verkoopprijs, Actief en Aangemaakt, en bovenaan de keuzelijst Alle families.](../images/artikelen-lijst.png)
 
 Met de keuzelijst **Alle families** bovenaan toont u enkel de artikelen van één familie. U kunt ook
 zoeken, sorteren, filteren en exporteren zoals in de andere lijsten. Dubbelklik een rij om het artikel te
@@ -29,9 +30,9 @@ openen.
 
 Klik **Nieuw artikel**, of dubbelklik een bestaande rij.
 
-![De artikelfiche met de kaarten Algemeen, Prijzen en voorraad en Omschrijving, en rechts de tabbladen Stock, Taken, Notities, Bijlagen en Logboek.](../images/artikel-fiche.png)
+![De artikelfiche van SAN-1001 op het tabblad Algemeen, met de kaarten Algemeen (waarin Fabrikant en EAN-code), Prijzen en voorraad en Omschrijving. De aankoopprijs staat vast met de uitleg dat ze de voorkeursleverancier volgt.](../images/artikel-fiche.png)
 
-De fiche heeft drie kaarten.
+De fiche heeft twee eigen tabbladen: **Algemeen** en **Leveranciers**. Op **Algemeen** staan drie kaarten.
 
 **Algemeen**
 
@@ -41,6 +42,8 @@ De fiche heeft drie kaarten.
 | **Naam** | Verplicht |
 | **Familie** | Verplicht — beheerd via [Artikelfamilies](../administration/article-families.md) |
 | **Eenheid** | Verplicht — beheerd via [Eenheden](../administration/units.md) |
+| **Fabrikant** | Het merk of de fabrikant van het artikel |
+| **EAN-code** | De streepjescode van het artikel |
 | **Actief** | Zet dit uit voor artikelen die u niet meer gebruikt; ze blijven bestaan op oude documenten |
 
 **Prijzen en voorraad**
@@ -48,7 +51,7 @@ De fiche heeft drie kaarten.
 | Veld | Opmerking |
 |---|---|
 | **Verkoopprijs** | Wat de klant betaalt |
-| **Aankoopprijs** | Wat u zelf betaalt. Nimble stelt ze voor op een nieuwe bestelregel |
+| **Aankoopprijs** | De kostprijs van het artikel: ermee rekenen de voor- en nacalculatie van een project en de marge op het dashboard. Heeft het artikel leveranciers, dan is dit de prijs van de **voorkeursleverancier** en wijzigt u ze op het tabblad **Leveranciers** — het veld zegt dan welke leverancier het is. Zonder leveranciers vult u ze hier zelf in |
 | **Minimumvoorraad** | Onder dit aantal verschijnt het artikel op de [Voorraadstand](stock-level.md) als bij te bestellen. Laat leeg om het artikel niet op te volgen — leeg is iets anders dan nul |
 | **Streefvoorraad** | Tot hier wordt er aangevuld wanneer u bijbestelt. Laat leeg om tot het minimum aan te vullen |
 
@@ -68,6 +71,39 @@ na het bewaren op de fiche.
 
 Rechts op de fiche staan de tabbladen **Stock**, **Taken**, **Notities**, **Bijlagen** en **Logboek** —
 dezelfde als in het journaal naast de lijst.
+
+## Leveranciers van een artikel
+
+Een artikel kunt u bij meer dan één leverancier kopen, elk met zijn eigen artikelnummer en zijn eigen prijs.
+Dat legt u vast op het tabblad **Leveranciers** van de fiche. Bij een nieuw artikel bewaart u eerst de fiche;
+daarna verschijnt het tabblad.
+
+![Het tabblad Leveranciers van artikel SAN-1001 met twee leveranciers: Sanitair Depot België BV met code SD-1001 aan € 112,00 als voorkeur, en Thermotech Groothandel NV met code TT-1001 aan € 118,50.](../images/artikel-leveranciers.png)
+
+| Kolom | Wat het is |
+|---|---|
+| **Leverancier** | Een relatie die als leverancier is aangeduid |
+| **Code bij de leverancier** | Het artikelnummer dat deze leverancier gebruikt. Het staat bij het artikel wanneer u een bestelling maakt |
+| **Aankoopprijs** | Wat dit artikel bij deze leverancier kost, excl. btw |
+| **Voorkeur** | De leverancier bij wie u gewoonlijk koopt. Zijn prijs is de aankoopprijs van het artikel |
+
+Zo werkt u ermee:
+
+1. Kies onderaan een leverancier in **— zoek een leverancier —** en klik **Toevoegen**. De eerste leverancier
+   wordt meteen de voorkeur.
+2. Vul de **code** en de **aankoopprijs** in.
+3. Wilt u bij een andere leverancier kopen, vink dan bij die leverancier **Voorkeur** aan. De aankoopprijs op
+   het tabblad Algemeen volgt mee.
+4. Klik **Bewaren**. De leveranciers worden samen met de rest van de fiche bewaard; met **Annuleren** blijft
+   alles zoals het was.
+
+Met **Verwijderen** op een regel haalt u een leverancier weg. Haalt u alle leveranciers weg, dan blijft de
+laatste aankoopprijs staan en vult u ze weer zelf in op het tabblad Algemeen.
+
+!!! info "Precies één voorkeursleverancier"
+    Heeft een artikel leveranciers, dan moet er precies één de voorkeur hebben: zijn prijs is de kostprijs.
+    Verwijdert u de voorkeursleverancier, dan kiest Nimble niet zelf een andere — de melding bovenaan vraagt
+    u een **Voorkeursleverancier** aan te duiden voor u bewaart.
 
 ## Een artikel verwijderen
 
@@ -128,11 +164,14 @@ bovenaan; een plus betekent erbij, een min eraf.
       het leesbaar op wat er al was.
     - **Een minimum van 0 invullen om een artikel niet op te volgen** — laat het veld dan leeg. Met 0 volgt
       Nimble het artikel wél op.
+    - **De aankoopprijs zoeken op het tabblad Algemeen** terwijl het artikel leveranciers heeft — u wijzigt
+      ze dan bij de voorkeursleverancier op het tabblad **Leveranciers**.
 
 ## Zie ook
 
 - [Voorraadstand](stock-level.md)
-- [Bestellingen](../purchasing/purchase-orders.md)
+- [Bestellingen](../purchasing/purchase-orders.md) — de prijs op een bestelregel komt van de leverancier
+- [Relaties](../relations.md) — een leverancier is een relatie met het vinkje Leverancier
 - [Artikelfamilies](../administration/article-families.md)
 - [Eenheden](../administration/units.md)
 - [Lijsten filteren](../lijsten-filteren.md) — de trechterknop, de filterbouwer en de filterbalk
