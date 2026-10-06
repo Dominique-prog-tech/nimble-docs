@@ -79,9 +79,9 @@ Vul het btw-nummer in en klik op **Ophalen**. Naam, straat, nummer, postcode, ge
 | **Telefoon** | Optioneel, maar ingevuld moet het een geldig telefoonnummer zijn. |
 | **Gsm** | Een tweede nummer. Optioneel, met dezelfde regel als **Telefoon**. |
 
-!!! note "Overgezet uit uw vorige pakket"
-    Had een relatie in uw vorige pakket twee nummers, dan staat het eerste bij **Telefoon** en het tweede bij **Gsm**.
-    De **opmerkingen** van de relatie vindt u terug als een notitie *Opmerkingen* op het tabblad **Notities**.
+!!! note "Opmerkingen bij een relatie"
+    Op het tabblad **Notities** kan een notitie *Opmerkingen* staan: de vrije opmerkingen die bij deze relatie
+    bekend zijn.
 
 ### Blok Classificatie
 

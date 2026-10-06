@@ -37,9 +37,7 @@ Lorsqu'un fournisseur vous crédite un montant, il s'agit d'une **note de crédi
 d'achat du type **Note de crédit**. Son montant figure dans la liste avec un signe moins, de sorte que chaque total
 de vos achats est juste d'office. Sur la fiche, vous voyez le montant tel qu'il figure sur la pièce, sans signe moins.
 
-Une note de crédit arrivée via Peppol devient automatiquement une note de crédit lors du traitement. Les notes de
-crédit de votre logiciel précédent y figuraient comme facture au montant négatif ; ADM-Concept les convertit lors du
-passage.
+Une note de crédit arrivée via Peppol devient automatiquement une note de crédit lors du traitement.
 
 ### Les trois statuts
 

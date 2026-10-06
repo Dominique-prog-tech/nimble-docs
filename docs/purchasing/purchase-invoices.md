@@ -37,8 +37,7 @@ Crediteert een leverancier u een bedrag, dan is dat een **creditnota**. In Nimbl
 soort **Creditnota**. Haar bedrag staat in de lijst met een minteken, zodat elk totaal over uw aankopen vanzelf
 klopt. Op de fiche ziet u het bedrag zoals het op het stuk staat, zonder minteken.
 
-Een creditnota die via Peppol binnenkomt, wordt bij het verwerken vanzelf een creditnota. De creditnota's uit uw
-vorige pakket stonden daar als factuur met een negatief bedrag; ADM-Concept zet ze bij de overstap om.
+Een creditnota die via Peppol binnenkomt, wordt bij het verwerken vanzelf een creditnota.
 
 ### De drie statussen
 
