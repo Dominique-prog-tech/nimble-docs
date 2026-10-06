@@ -17,7 +17,7 @@ Bovenaan staat **Actieve tenant:** met de code van de tenant. Is er geen gekozen
 eerst één bij Tenants**, met de melding **Kies eerst een tenant (Platformbeheer → Tenants → Gebruiken) en stel
 zijn Firebird-bron in.**
 
-![Het conversiescherm voor tenant demo: het blok Legacy Firebird-bron zonder pad, de knop Converteer deze tenant, en daaronder de blokken Legacy-gebruikers importeren, Aanmaakdatums bijwerken, Leveranciers per artikel overnemen, Relatiegegevens aanvullen en Demo-gegevens genereren.](../images/conversie-scherm.png)
+![Het conversiescherm voor tenant demo: het blok Legacy Firebird-bron zonder pad, de knop Converteer deze tenant, en daaronder de blokken Legacy-gebruikers importeren, Aanmaakdatums bijwerken, Leveranciers per artikel overnemen, Relatiegegevens aanvullen, Aankoopcreditnota's markeren en Demo-gegevens genereren.](../images/conversie-scherm.png)
 
 ## Legacy Firebird-bron
 
@@ -62,8 +62,8 @@ de keuzelijsten productiestatus, pipeline-status en projecttypes.
     Een volledige conversie zet bestaande gegevens opnieuw op de waarde uit Firebird: wat de klant intussen in Nimble
     aanpaste (fasen, datums, statussen, planning), wordt overschreven. Voor zo'n klant is de conversie **vergrendeld**:
     er staat een melding boven de knop, de knop is uitgeschakeld en Nimble converteert niets. De blokken
-    **Aanmaakdatums bijwerken**, **Leveranciers per artikel overnemen** en **Relatiegegevens aanvullen** hieronder
-    werken wél: ze overschrijven niets wat de klant in Nimble instelde.
+    **Aanmaakdatums bijwerken**, **Leveranciers per artikel overnemen**, **Relatiegegevens aanvullen** en
+    **Aankoopcreditnota's markeren** hieronder werken wél: ze overschrijven niets wat de klant in Nimble instelde.
 
 ## Legacy-gebruikers importeren
 
@@ -142,6 +142,24 @@ Firebird het laatst gewijzigd werd.
 
 Staat de gsm al als telefoonnummer op de relatie, dan wordt ze niet nog eens ingevuld. Een notitie die u in Nimble
 verwijderde, komt niet terug. Elke relatie waarvan de website of gsm verandert, krijgt een regel in haar logboek.
+
+## Aankoopcreditnota's markeren
+
+Uw vorige pakket bewaarde een creditnota van een leverancier als aankoopfactuur met een **negatief bedrag**. Dit
+blok geeft elke overgezette aankoopfactuur met een negatief bedrag de soort **Creditnota**. Het bedrag, de
+goedkeuring en de betaalstatus blijven zoals ze zijn. Het blok leest enkel Nimble, niet de Firebird-databank.
+
+1. Klik **Nakijken**. Nimble telt wat er zou gebeuren.
+2. Is er iets te markeren, dan gaat **Markeren** aan. Klik erop.
+3. Klik daarna opnieuw **Nakijken**: alles hoort dan onder **Al creditnota** te staan.
+
+| Kolom | Betekenis |
+|---|---|
+| **Overgezette aankoopfacturen** | Hoeveel aankoopfacturen uit Firebird komen |
+| **Te markeren** / **Gemarkeerd** | Hoeveel er een negatief bedrag hebben en nog als factuur staan, of na **Markeren**: gemarkeerd zijn |
+| **Al creditnota** | Negatieve stukken die al de soort Creditnota hebben |
+
+Een volledige conversie zet de soort voortaan zelf. Zie [Aankoopfacturen](../purchasing/purchase-invoices.md#creditnotas).
 
 ## Demo-gegevens genereren
 

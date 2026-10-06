@@ -31,6 +31,7 @@ spaties en koppeltekens spelen daarbij geen rol, hoofdletters evenmin. Enkel rel
 gemarkeerd zijn, komen in aanmerking.
 
 Lukt het, dan verschijnt de factuur bij [Aankoopfacturen](purchase-invoices.md) met *Wacht op goedkeuring*.
+Is het document een **creditnota**, dan wordt het een aankoopfactuur van de soort *Creditnota*.
 In haar **Nota** staat aan welke leverancier en op welk btw-nummer ze gekoppeld werd. Het document verdwijnt
 uit deze lijst.
 
@@ -56,12 +57,18 @@ Het scherm maakt geen factuur en zegt waarom wanneer:
     Kon ADM One de verwerking niet bevestigen, dan staat de factuur er wél, maar blijft het document in deze
     lijst. De melding zegt dat. Een tweede poging maakt geen tweede factuur.
 
+## Enkel uw eigen documenten
+
+U ziet enkel de documenten die voor uw bedrijf bestemd zijn. Is uw omgeving nog niet aan uw bedrijf in ADM One
+gekoppeld, dan staat er bovenaan een melding en blijft de lijst leeg: zonder die koppeling is niet uit te maken
+welke documenten van u zijn. Neem dan contact op met ADM-Concept.
+
 ## Wanneer ADM One niet bereikbaar is
 
 Dan toont het scherm geen lijst, maar een kader met de melding dat ADM One op dit moment niet bereikbaar is
 en de knop **Opnieuw proberen**.
 
-Een lege lijst betekent dus altijd dat er niets binnenkwam. Staat het kader er, dan weet u niet wat er
+Een lege lijst zonder melding erboven betekent dus dat er niets binnenkwam. Staat het kader er, dan weet u niet wat er
 binnenkwam: sluit uw dag dan niet af op dit scherm.
 
 ## Zie ook

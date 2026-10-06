@@ -1,6 +1,6 @@
 # Aankoopfacturen
 
-Wat uw leveranciers u aanrekenen. Een factuur wordt pas betaalbaar nadat iemand ze goedkeurt.
+Wat uw leveranciers u aanrekenen, en wat ze u crediteren. Een factuur wordt pas betaalbaar nadat iemand ze goedkeurt.
 
 ## Het scherm openen
 
@@ -8,7 +8,7 @@ Klik in de zijbalk op **Inkoop → Aankoopfacturen**.
 
 ## De lijst
 
-![De lijst Aankoopfacturen met de kolommen Factuurnummer, Leverancier, Datum, Vervaldatum, Bedrag, Herkomst en Status, en achteraan de knoppen Goedkeuren en Intrekken; twee facturen wachten op goedkeuring en één is goedgekeurd om te betalen.](../images/aankoopfacturen-lijst.png)
+![De lijst Aankoopfacturen met de kolommen Factuurnummer, Leverancier, Datum, Vervaldatum, Bedrag, Soort, Herkomst en Status, en achteraan de knoppen Goedkeuren en Intrekken; twee facturen wachten op goedkeuring en één is goedgekeurd om te betalen.](../images/aankoopfacturen-lijst.png)
 
 | Kolom | Wat het zegt |
 |---|---|
@@ -16,7 +16,8 @@ Klik in de zijbalk op **Inkoop → Aankoopfacturen**.
 | **Leverancier** | Van wie de factuur komt |
 | **Datum** | De factuurdatum |
 | **Vervaldatum** | Wanneer ze betaald moet zijn |
-| **Bedrag** | Het totaal, btw inbegrepen |
+| **Bedrag** | Het totaal, btw inbegrepen. Een creditnota staat er met een minteken |
+| **Soort** | **Factuur** of **Creditnota** — zie hieronder |
 | **Herkomst** | Waar de factuur vandaan komt — zie hieronder |
 | **Status** | Waar de factuur staat in de goedkeuring |
 
@@ -29,6 +30,15 @@ openen. U kunt zoeken, sorteren, filteren en exporteren zoals in de andere lijst
 |---|---|
 | **Peppol** | Binnengekomen via het netwerk en verwerkt op het scherm [Binnengekomen documenten](peppol-inbox.md). Klik op het woord om het originele document te openen zoals de leverancier het stuurde |
 | **Ingebracht** | Met de hand ingebracht, of overgezet uit uw vorige pakket |
+
+### Creditnota's
+
+Crediteert een leverancier u een bedrag, dan is dat een **creditnota**. In Nimble is dat een aankoopfactuur van de
+soort **Creditnota**. Haar bedrag staat in de lijst met een minteken, zodat elk totaal over uw aankopen vanzelf
+klopt. Op de fiche ziet u het bedrag zoals het op het stuk staat, zonder minteken.
+
+Een creditnota die via Peppol binnenkomt, wordt bij het verwerken vanzelf een creditnota. De creditnota's uit uw
+vorige pakket stonden daar als factuur met een negatief bedrag; ADM-Concept zet ze bij de overstap om.
 
 ### De drie statussen
 
@@ -66,9 +76,10 @@ Vul in de kaart **Factuurgegevens** in:
 |---|---|
 | **Leverancier** | Verplicht — kies uit uw relaties die als leverancier gemarkeerd zijn |
 | **Factuurnummer** | Verplicht — het nummer van de leverancier |
-| **Bedrag incl. btw** | Verplicht — groter dan nul |
+| **Bedrag incl. btw** | Verplicht — groter dan nul, zoals het op het stuk staat. Ook bij een creditnota: Nimble zet er zelf het minteken voor |
 | **Datum** | Verplicht — staat standaard op vandaag |
 | **Vervaldatum** | Neem ze over van de factuur |
+| **Soort** | **Factuur** of **Creditnota**. Staat standaard op Factuur |
 | **Nota** | Vrije tekst |
 
 Klik **Bewaren**. Ontbreekt er een verplicht veld, dan noemt de melding bovenaan het veld bij naam. Na het
@@ -89,7 +100,8 @@ Een nieuwe factuur staat op *Wacht op goedkeuring* en heeft als herkomst *Ingebr
 ## De fiche
 
 Dubbelklik een factuur in de lijst om haar fiche te openen. Bovenaan staan het factuurnummer en de
-leverancier. Komt de factuur uit Peppol, dan staat er ook het label **Peppol**.
+leverancier. Komt de factuur uit Peppol, dan staat er ook het label **Peppol**; is het een creditnota, het
+label **Creditnota**.
 
 Links staat het tabblad **Algemeen**, met dezelfde velden als bij het inbrengen. Rechts staan **Taken**,
 **Notities**, **Bijlagen** en **Logboek**. Zie [Werken met een fiche](../fiches.md).

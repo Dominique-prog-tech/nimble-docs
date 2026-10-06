@@ -17,7 +17,7 @@ En haut figure **Tenant actif :** avec le code du tenant. Si aucun n'est choisi,
 choisissez-en un d'abord dans Tenants**, avec le message **Choisissez d'abord un tenant (Gestion de la
 plateforme → Tenants → Utiliser) et configurez sa source Firebird.**
 
-![L'écran de conversion pour le tenant demo : le bloc Source Firebird héritée sans chemin, le bouton Convertir ce tenant, puis les blocs Importer les utilisateurs hérités, Mettre à jour les dates de création, Reprendre les fournisseurs par article, Compléter les données des relations et Générer des données de démonstration.](../images/conversie-scherm-fr.png)
+![L'écran de conversion pour le tenant demo : le bloc Source Firebird héritée sans chemin, le bouton Convertir ce tenant, puis les blocs Importer les utilisateurs hérités, Mettre à jour les dates de création, Reprendre les fournisseurs par article, Compléter les données des relations, Marquer les notes de crédit d'achat et Générer des données de démonstration.](../images/conversie-scherm-fr.png)
 
 ## Source Firebird héritée
 
@@ -63,8 +63,9 @@ production, statuts pipeline et types de projet.
     Une conversion complète remet les données existantes à la valeur de Firebird : ce que le client a modifié entre-temps
     dans Nimble (phases, dates, statuts, planning) est écrasé. Pour un tel client, la conversion est **verrouillée** :
     un message s'affiche au-dessus du bouton, le bouton est désactivé et Nimble ne convertit rien. Les blocs
-    **Mettre à jour les dates de création**, **Reprendre les fournisseurs par article** et **Compléter les données
-    des relations** ci-dessous fonctionnent bien : ils n'écrasent rien de ce que le client a configuré dans Nimble.
+    **Mettre à jour les dates de création**, **Reprendre les fournisseurs par article**, **Compléter les données
+    des relations** et **Marquer les notes de crédit d'achat** ci-dessous fonctionnent bien : ils n'écrasent rien de
+    ce que le client a configuré dans Nimble.
 
 ## Importer les utilisateurs hérités
 
@@ -143,6 +144,24 @@ relation dans Firebird.
 Si le GSM figure déjà comme numéro de téléphone sur la relation, il n'est pas rempli une seconde fois. Une note que
 vous avez supprimée dans Nimble ne revient pas. Chaque relation dont le site web ou le GSM change reçoit une ligne
 dans son historique.
+
+## Marquer les notes de crédit d'achat
+
+Votre ancien logiciel enregistrait une note de crédit d'un fournisseur comme facture d'achat au **montant
+négatif**. Ce bloc donne à chaque facture d'achat convertie au montant négatif le type **Note de crédit**. Le
+montant, l'approbation et le statut de paiement ne changent pas. Le bloc ne lit que Nimble, pas la base Firebird.
+
+1. Cliquez sur **Vérifier**. Nimble compte ce qui se passerait.
+2. S'il y a quelque chose à marquer, **Marquer** s'active. Cliquez dessus.
+3. Cliquez ensuite à nouveau sur **Vérifier** : tout doit alors figurer sous **Déjà note de crédit**.
+
+| Colonne | Signification |
+|---|---|
+| **Factures d'achat converties** | Combien de factures d'achat viennent de Firebird |
+| **À marquer** / **Marquées** | Combien ont un montant négatif et figurent encore comme facture, ou après **Marquer** : ont été marquées |
+| **Déjà note de crédit** | Pièces négatives qui ont déjà le type Note de crédit |
+
+Une conversion complète attribue désormais le type elle-même. Voir [Factures d'achat](../purchasing/purchase-invoices.md#notes-de-credit).
 
 ## Générer des données de démonstration
 

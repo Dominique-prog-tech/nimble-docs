@@ -1,6 +1,6 @@
 # Factures d'achat
 
-Ce que vos fournisseurs vous facturent. Une facture ne devient payable qu'après approbation.
+Ce que vos fournisseurs vous facturent, et ce qu'ils vous créditent. Une facture ne devient payable qu'après approbation.
 
 ## Ouvrir l'écran
 
@@ -8,7 +8,7 @@ Cliquez dans la barre latérale sur **Achats → Factures d'achat**.
 
 ## La liste
 
-![La liste Factures d'achat avec les colonnes Numéro de facture, Fournisseur, Date, Échéance, Montant, Origine et Statut, et en fin de ligne les boutons Approuver et Retirer ; deux factures sont en attente d'approbation et une est approuvée au paiement.](../images/aankoopfacturen-lijst-fr.png)
+![La liste Factures d'achat avec les colonnes Numéro de facture, Fournisseur, Date, Échéance, Montant, Type, Origine et Statut, et en fin de ligne les boutons Approuver et Retirer ; deux factures sont en attente d'approbation et une est approuvée au paiement.](../images/aankoopfacturen-lijst-fr.png)
 
 | Colonne | Ce qu'elle indique |
 |---|---|
@@ -16,7 +16,8 @@ Cliquez dans la barre latérale sur **Achats → Factures d'achat**.
 | **Fournisseur** | De qui vient la facture |
 | **Date** | La date de la facture |
 | **Échéance** | La date à laquelle elle doit être payée |
-| **Montant** | Le total, TVA comprise |
+| **Montant** | Le total, TVA comprise. Une note de crédit y figure avec un signe moins |
+| **Type** | **Facture** ou **Note de crédit** — voir ci-dessous |
 | **Origine** | D'où vient la facture — voir ci-dessous |
 | **Statut** | Où en est l'approbation |
 
@@ -29,6 +30,16 @@ facture. Vous pouvez rechercher, trier, filtrer et exporter comme dans les autre
 |---|---|
 | **Peppol** | Arrivée par le réseau et traitée sur l'écran [Documents reçus](peppol-inbox.md). Cliquez sur le mot pour ouvrir le document original tel que le fournisseur l'a envoyé |
 | **Saisie** | Saisie à la main, ou reprise de votre logiciel précédent |
+
+### Notes de crédit
+
+Lorsqu'un fournisseur vous crédite un montant, il s'agit d'une **note de crédit**. Dans Nimble, c'est une facture
+d'achat du type **Note de crédit**. Son montant figure dans la liste avec un signe moins, de sorte que chaque total
+de vos achats est juste d'office. Sur la fiche, vous voyez le montant tel qu'il figure sur la pièce, sans signe moins.
+
+Une note de crédit arrivée via Peppol devient automatiquement une note de crédit lors du traitement. Les notes de
+crédit de votre logiciel précédent y figuraient comme facture au montant négatif ; ADM-Concept les convertit lors du
+passage.
 
 ### Les trois statuts
 
@@ -68,9 +79,10 @@ Complétez la carte **Données de la facture** :
 |---|---|
 | **Fournisseur** | Obligatoire — choisissez parmi vos relations marquées comme fournisseur |
 | **Numéro de facture** | Obligatoire — le numéro du fournisseur |
-| **Montant TVAC** | Obligatoire — supérieur à zéro |
+| **Montant TVAC** | Obligatoire — supérieur à zéro, tel qu'il figure sur la pièce. Aussi pour une note de crédit : Nimble ajoute lui-même le signe moins |
 | **Date** | Obligatoire — aujourd'hui par défaut |
 | **Échéance** | Reprenez-la de la facture |
+| **Type** | **Facture** ou **Note de crédit**. Par défaut : Facture |
 | **Note** | Texte libre |
 
 Cliquez sur **Enregistrer**. S'il manque un champ obligatoire, le message en haut le cite par son nom. Après
@@ -91,7 +103,8 @@ Une nouvelle facture est *En attente d'approbation* et son origine est *Saisie*.
 ## La fiche
 
 Double-cliquez une facture dans la liste pour ouvrir sa fiche. En haut figurent le numéro de facture et le
-fournisseur. Si la facture vient de Peppol, l'étiquette **Peppol** y figure aussi.
+fournisseur. Si la facture vient de Peppol, l'étiquette **Peppol** y figure aussi ; s'il s'agit d'une note de
+crédit, l'étiquette **Note de crédit**.
 
 À gauche se trouve l'onglet **Général**, avec les mêmes champs que lors de la saisie. À droite figurent
 **Tâches**, **Notes**, **Pièces jointes** et **Historique**. Voir [Travailler avec une fiche](../fiches.md).

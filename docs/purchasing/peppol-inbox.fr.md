@@ -32,7 +32,8 @@ relations marquées comme fournisseur sont prises en compte.
 
 En cas de succès, la facture apparaît dans [Factures d'achat](purchase-invoices.md) avec la mention *En
 attente d'approbation*. Sa **Note** indique à quel fournisseur et sur quel numéro de TVA elle a été liée. Le
-document disparaît de cette liste.
+document disparaît de cette liste. Si le document est une **note de crédit**, il devient une facture d'achat du
+type *Note de crédit*.
 
 L'écran ne crée pas de facture et en donne la raison lorsque :
 
@@ -56,12 +57,18 @@ L'écran ne crée pas de facture et en donne la raison lorsque :
     Si ADM One n'a pas pu confirmer le traitement, la facture existe bien, mais le document reste dans cette
     liste. Le message l'indique. Une deuxième tentative ne crée pas de deuxième facture.
 
+## Uniquement vos propres documents
+
+Vous ne voyez que les documents destinés à votre entreprise. Si votre environnement n'est pas encore lié à votre
+entreprise dans ADM One, un message figure en haut et la liste reste vide : sans ce lien, impossible de savoir quels
+documents vous appartiennent. Contactez alors ADM-Concept.
+
 ## Quand ADM One est injoignable
 
 L'écran n'affiche alors pas de liste, mais un cadre indiquant qu'ADM One est actuellement injoignable, avec
 le bouton **Réessayer**.
 
-Une liste vide signifie donc toujours que rien n'est arrivé. Si le cadre est affiché, vous ne savez pas ce
+Une liste vide sans message au-dessus signifie donc que rien n'est arrivé. Si le cadre est affiché, vous ne savez pas ce
 qui est arrivé : ne clôturez pas votre journée sur cet écran.
 
 ## Voir aussi
