@@ -75,7 +75,14 @@ Saisissez le numéro de TVA et cliquez sur **Récupérer**. Le nom, la rue, le n
 | Champ | Explication |
 |---|---|
 | **E-mail** | Optionnel, mais s'il est rempli, il doit être valide — le message apparaît pendant la saisie. Pour plusieurs adresses, séparez-les par `;` ou `,`. |
+| **Site web** | Optionnel. Texte libre, par exemple `www.entreprise.be`. |
 | **Téléphone** | Optionnel, mais s'il est rempli, il doit s'agir d'un numéro de téléphone valide. |
+| **GSM** | Un deuxième numéro. Optionnel, avec la même règle que **Téléphone**. |
+
+!!! note "Repris de votre ancien logiciel"
+    Si une relation avait deux numéros dans votre ancien logiciel, le premier figure sous **Téléphone** et le second
+    sous **GSM**. Les **remarques** de la relation se retrouvent sous la forme d'une note *Opmerkingen* dans l'onglet
+    **Notes**.
 
 ### Bloc Classification
 

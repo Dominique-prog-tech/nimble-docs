@@ -17,7 +17,7 @@ Bovenaan staat **Actieve tenant:** met de code van de tenant. Is er geen gekozen
 eerst één bij Tenants**, met de melding **Kies eerst een tenant (Platformbeheer → Tenants → Gebruiken) en stel
 zijn Firebird-bron in.**
 
-![Het conversiescherm voor tenant demo: het blok Legacy Firebird-bron zonder pad, de knop Converteer deze tenant, en daaronder de blokken Legacy-gebruikers importeren, Aanmaakdatums bijwerken, Leveranciers per artikel overnemen en Demo-gegevens genereren.](../images/conversie-scherm.png)
+![Het conversiescherm voor tenant demo: het blok Legacy Firebird-bron zonder pad, de knop Converteer deze tenant, en daaronder de blokken Legacy-gebruikers importeren, Aanmaakdatums bijwerken, Leveranciers per artikel overnemen, Relatiegegevens aanvullen en Demo-gegevens genereren.](../images/conversie-scherm.png)
 
 ## Legacy Firebird-bron
 
@@ -49,7 +49,7 @@ Na afloop ziet u per onderdeel:
 
 Onder de tabel staat het totaal: **Klaar — … rijen verwerkt in totaal.**
 
-De onderdelen omvatten onder meer de bedrijfsfiche, relaties, leveranciers, contactpersonen, contactfuncties,
+De onderdelen omvatten onder meer de bedrijfsfiche, relaties met hun website, gsm en opmerkingen, leveranciers, contactpersonen, contactfuncties,
 taken, afspraken en notities, artikelgroepen en artikelen met hun leverancier, fabrikant en EAN-code, btw-codes, offertes en offerteregels, facturen en
 factuurregels, vorderingsstaten, inkoopfacturen, projecten met hun fases, materialen en artikelen, ploegen, en
 de keuzelijsten productiestatus, pipeline-status en projecttypes.
@@ -62,8 +62,8 @@ de keuzelijsten productiestatus, pipeline-status en projecttypes.
     Een volledige conversie zet bestaande gegevens opnieuw op de waarde uit Firebird: wat de klant intussen in Nimble
     aanpaste (fasen, datums, statussen, planning), wordt overschreven. Voor zo'n klant is de conversie **vergrendeld**:
     er staat een melding boven de knop, de knop is uitgeschakeld en Nimble converteert niets. De blokken
-    **Aanmaakdatums bijwerken** en **Leveranciers per artikel overnemen** hieronder werken wél: ze overschrijven
-    niets wat de klant in Nimble instelde.
+    **Aanmaakdatums bijwerken**, **Leveranciers per artikel overnemen** en **Relatiegegevens aanvullen** hieronder
+    werken wél: ze overschrijven niets wat de klant in Nimble instelde.
 
 ## Legacy-gebruikers importeren
 
@@ -119,6 +119,29 @@ die al een leverancier hebben, blijven onaangeroerd.
 De volledige conversie hierboven koppelt de leveranciers ook, maar met de prijs en de code uit Firebird.
 Zie [Artikelen](../inventory/articles.md#leveranciers-van-een-artikel) voor wat een leverancier op een artikel
 betekent.
+
+## Relatiegegevens aanvullen
+
+Dit blok neemt voor de overgezette relaties de **website**, de **gsm** en de **opmerkingen** over uit Firebird, maar
+enkel waar Nimble nog niets heeft. Een veld dat al ingevuld is, blijft zoals het is, ook als Firebird iets anders
+zegt. De opmerkingen worden een notitie *Opmerkingen* op de relatie, gedateerd op de dag waarop de relatie in
+Firebird het laatst gewijzigd werd.
+
+1. Klik **Nakijken**. Nimble leest enkel en toont per gegeven (**Website**, **Gsm**, **Opmerkingen**) wat er zou
+   gebeuren.
+2. Is er iets aan te vullen, dan gaat **Aanvullen** aan. Klik erop.
+3. Klik daarna opnieuw **Nakijken**: alles hoort dan onder **Al ingevuld** te staan.
+
+| Kolom | Betekenis |
+|---|---|
+| **In de bron** | Hoeveel relaties dit gegeven in Firebird hebben |
+| **Aan te vullen** / **Aangevuld** | Hoeveel er zouden worden ingevuld, of na **Aanvullen**: ingevuld zijn |
+| **Al ingevuld** | Nimble heeft al een waarde of al een notitie; die blijft zoals ze is |
+| **Relatie niet in Nimble** | De relatie uit Firebird bestaat niet in Nimble |
+| **Bron zonder datum** | Enkel bij de opmerkingen: Firebird kent geen wijzigingsdatum, dus komt er geen notitie |
+
+Staat de gsm al als telefoonnummer op de relatie, dan wordt ze niet nog eens ingevuld. Een notitie die u in Nimble
+verwijderde, komt niet terug. Elke relatie waarvan de website of gsm verandert, krijgt een regel in haar logboek.
 
 ## Demo-gegevens genereren
 

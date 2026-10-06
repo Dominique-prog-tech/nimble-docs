@@ -17,7 +17,7 @@ En haut figure **Tenant actif :** avec le code du tenant. Si aucun n'est choisi,
 choisissez-en un d'abord dans Tenants**, avec le message **Choisissez d'abord un tenant (Gestion de la
 plateforme → Tenants → Utiliser) et configurez sa source Firebird.**
 
-![L'écran de conversion pour le tenant demo : le bloc Source Firebird héritée sans chemin, le bouton Convertir ce tenant, puis les blocs Importer les utilisateurs hérités, Mettre à jour les dates de création, Reprendre les fournisseurs par article et Générer des données de démonstration.](../images/conversie-scherm-fr.png)
+![L'écran de conversion pour le tenant demo : le bloc Source Firebird héritée sans chemin, le bouton Convertir ce tenant, puis les blocs Importer les utilisateurs hérités, Mettre à jour les dates de création, Reprendre les fournisseurs par article, Compléter les données des relations et Générer des données de démonstration.](../images/conversie-scherm-fr.png)
 
 ## Source Firebird héritée
 
@@ -49,7 +49,7 @@ le traitement s'affiche **Conversion en cours…**.
 
 Sous le tableau figure le total : **Terminé — … lignes traitées au total.**
 
-Les éléments comprennent notamment la fiche d'entreprise, les relations, les fournisseurs, les personnes de
+Les éléments comprennent notamment la fiche d'entreprise, les relations avec leur site web, leur GSM et leurs remarques, les fournisseurs, les personnes de
 contact, les fonctions de contact, les tâches, rendez-vous et notes, les groupes d'articles et les articles avec leur fournisseur, leur fabricant et leur code EAN,
 les codes TVA, les devis et leurs lignes, les factures et leurs lignes, les états d'avancement, les factures
 d'achat, les projets avec leurs phases, matériaux et articles, les équipes, et les listes de choix statuts de
@@ -63,8 +63,8 @@ production, statuts pipeline et types de projet.
     Une conversion complète remet les données existantes à la valeur de Firebird : ce que le client a modifié entre-temps
     dans Nimble (phases, dates, statuts, planning) est écrasé. Pour un tel client, la conversion est **verrouillée** :
     un message s'affiche au-dessus du bouton, le bouton est désactivé et Nimble ne convertit rien. Les blocs
-    **Mettre à jour les dates de création** et **Reprendre les fournisseurs par article** ci-dessous
-    fonctionnent bien : ils n'écrasent rien de ce que le client a configuré dans Nimble.
+    **Mettre à jour les dates de création**, **Reprendre les fournisseurs par article** et **Compléter les données
+    des relations** ci-dessous fonctionnent bien : ils n'écrasent rien de ce que le client a configuré dans Nimble.
 
 ## Importer les utilisateurs hérités
 
@@ -119,6 +119,30 @@ change. Les articles qui ont déjà un fournisseur ne sont pas touchés.
 La conversion complète ci-dessus associe aussi les fournisseurs, mais avec le prix et le code de Firebird.
 Voir [Articles](../inventory/articles.md#fournisseurs-dun-article) pour ce que signifie un fournisseur sur un
 article.
+
+## Compléter les données des relations
+
+Ce bloc reprend de Firebird le **site web**, le **GSM** et les **remarques** des relations converties, mais
+uniquement là où Nimble n'a encore rien. Un champ déjà rempli reste tel quel, même si Firebird indique autre chose.
+Les remarques deviennent une note *Opmerkingen* sur la relation, datée du jour de la dernière modification de la
+relation dans Firebird.
+
+1. Cliquez sur **Vérifier**. Nimble se contente de lire et montre, par donnée (**Site web**, **GSM**,
+   **Remarques**), ce qui se passerait.
+2. S'il y a quelque chose à compléter, **Compléter** s'active. Cliquez dessus.
+3. Cliquez ensuite à nouveau sur **Vérifier** : tout doit alors figurer sous **Déjà remplis**.
+
+| Colonne | Signification |
+|---|---|
+| **Dans la source** | Combien de relations ont cette donnée dans Firebird |
+| **À compléter** / **Complétés** | Combien seraient remplies, ou après **Compléter** : l'ont été |
+| **Déjà remplis** | Nimble a déjà une valeur ou déjà une note ; elle reste telle quelle |
+| **Relation absente de Nimble** | La relation de Firebird n'existe pas dans Nimble |
+| **Source sans date** | Uniquement pour les remarques : Firebird ne connaît pas de date de modification, il n'y a donc pas de note |
+
+Si le GSM figure déjà comme numéro de téléphone sur la relation, il n'est pas rempli une seconde fois. Une note que
+vous avez supprimée dans Nimble ne revient pas. Chaque relation dont le site web ou le GSM change reçoit une ligne
+dans son historique.
 
 ## Générer des données de démonstration
 

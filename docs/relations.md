@@ -75,7 +75,13 @@ Vul het btw-nummer in en klik op **Ophalen**. Naam, straat, nummer, postcode, ge
 | Veld | Uitleg |
 |---|---|
 | **E-mail** | Optioneel, maar ingevuld moet het een geldig adres zijn — u ziet de melding tijdens het typen. Wilt u meerdere adressen, scheid ze dan met `;` of `,`. |
+| **Website** | Optioneel. Vrije tekst, bijvoorbeeld `www.bedrijf.be`. |
 | **Telefoon** | Optioneel, maar ingevuld moet het een geldig telefoonnummer zijn. |
+| **Gsm** | Een tweede nummer. Optioneel, met dezelfde regel als **Telefoon**. |
+
+!!! note "Overgezet uit uw vorige pakket"
+    Had een relatie in uw vorige pakket twee nummers, dan staat het eerste bij **Telefoon** en het tweede bij **Gsm**.
+    De **opmerkingen** van de relatie vindt u terug als een notitie *Opmerkingen* op het tabblad **Notities**.
 
 ### Blok Classificatie
 
