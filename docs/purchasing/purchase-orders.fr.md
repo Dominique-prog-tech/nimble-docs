@@ -9,13 +9,14 @@ Cliquez dans la barre latérale sur **Achats** puis sur **Commandes**.
 
 ## La liste
 
-![La liste des commandes, avec les colonnes Numéro, Fournisseur, Date de commande et Statut.](../images/bestellingen-lijst-fr.png)
+![La liste des commandes, avec les colonnes Numéro, Fournisseur, Date de commande, Total HTVA et Statut.](../images/bestellingen-lijst-fr.png)
 
 | Colonne | Ce qu'elle indique |
 |---|---|
 | **Numéro** | Votre numéro de commande |
 | **Fournisseur** | Chez qui vous avez commandé |
 | **Date de commande** | Quand vous avez commandé |
+| **Total HTVA** | Quantité × prix, additionnés sur les lignes. Si *incomplet* s'affiche, au moins une ligne n'a pas de prix — complétez-le sur la commande |
 | **Statut** | Où en est la commande — voir [Le statut](#le-statut) |
 
 Double-cliquez une ligne pour ouvrir la commande. Vous pouvez rechercher, trier, filtrer et exporter comme

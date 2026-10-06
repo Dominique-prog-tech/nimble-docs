@@ -9,13 +9,14 @@ Klik in de zijbalk op **Inkoop** en daarna op **Bestellingen**.
 
 ## De lijst
 
-![De lijst met bestellingen, met de kolommen Nummer, Leverancier, Besteldatum en Status.](../images/bestellingen-lijst.png)
+![De lijst met bestellingen, met de kolommen Nummer, Leverancier, Besteldatum, Totaal excl. btw en Status.](../images/bestellingen-lijst.png)
 
 | Kolom | Wat het zegt |
 |---|---|
 | **Nummer** | Uw bestelnummer |
 | **Leverancier** | Bij wie u bestelde |
 | **Besteldatum** | Wanneer u bestelde |
+| **Totaal excl. btw** | Aantal × prijs, opgeteld over de regels. Staat er *onvolledig*, dan heeft minstens één regel geen prijs — vul die in op de bestelling |
 | **Status** | Hoever de bestelling staat — zie [De status](#de-status) |
 
 Dubbelklik een rij om de bestelling te openen. U kunt zoeken, sorteren, filteren en exporteren zoals in de
