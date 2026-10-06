@@ -17,7 +17,7 @@ Bovenaan staat **Actieve tenant:** met de code van de tenant. Is er geen gekozen
 eerst één bij Tenants**, met de melding **Kies eerst een tenant (Platformbeheer → Tenants → Gebruiken) en stel
 zijn Firebird-bron in.**
 
-![Het conversiescherm voor tenant demo: het blok Legacy Firebird-bron zonder pad, de knop Converteer deze tenant, en daaronder de blokken Legacy-gebruikers importeren, Aanmaakdatums bijwerken, Leveranciers per artikel overnemen, Relatiegegevens aanvullen, Aankoopcreditnota's markeren en Demo-gegevens genereren.](../images/conversie-scherm.png)
+![Het bovenste deel van het conversiescherm voor tenant demo: het blok Legacy Firebird-bron zonder pad, de knop Converteer deze tenant, en daaronder de blokken Legacy-gebruikers importeren en Aanmaakdatums bijwerken. De andere blokken volgen lager op het scherm.](../images/conversie-scherm.png)
 
 ## Legacy Firebird-bron
 

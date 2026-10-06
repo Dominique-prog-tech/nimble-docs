@@ -17,7 +17,7 @@ En haut figure **Tenant actif :** avec le code du tenant. Si aucun n'est choisi,
 choisissez-en un d'abord dans Tenants**, avec le message **Choisissez d'abord un tenant (Gestion de la
 plateforme → Tenants → Utiliser) et configurez sa source Firebird.**
 
-![L'écran de conversion pour le tenant demo : le bloc Source Firebird héritée sans chemin, le bouton Convertir ce tenant, puis les blocs Importer les utilisateurs hérités, Mettre à jour les dates de création, Reprendre les fournisseurs par article, Compléter les données des relations, Marquer les notes de crédit d'achat et Générer des données de démonstration.](../images/conversie-scherm-fr.png)
+![Le haut de l'écran de conversion pour le tenant demo : le bloc Source Firebird héritée sans chemin, le bouton Convertir ce tenant, puis les blocs Importer les utilisateurs hérités et Mettre à jour les dates de création. Les autres blocs suivent plus bas à l'écran.](../images/conversie-scherm-fr.png)
 
 ## Source Firebird héritée
 
