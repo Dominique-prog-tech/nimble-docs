@@ -236,7 +236,7 @@ alsnog zijn datum krijgen zonder dat u eerst een adres moet verzinnen.
 ### Tabblad Voorbereiding
 
 Hier staat wat er klaar moet zijn vóór de werf start. Een nieuw project krijgt de **standaardlijst** van uw
-bedrijf; bij een bestaand project voegt u ze toe met **Standaardlijst toevoegen**.
+bedrijf, die u beheert op [Werfvoorbereiding](../administration/site-preparation.md); bij een bestaand project voegt u ze toe met **Standaardlijst toevoegen**.
 
 - Vink een punt af zodra het in orde is. Nimble noteert de datum.
 - Kies per punt een **Verantwoordelijke**: wie ervoor zorgt.
@@ -246,6 +246,8 @@ bedrijf; bij een bestaand project voegt u ze toe met **Standaardlijst toevoegen*
 Bovenaan staat hoever het project is, bijvoorbeeld *3 van 7 verplichte punten afgevinkt*. Het project is
 **startklaar** wanneer alle verplichte punten afgevinkt zijn. Een project zonder één punt is niet startklaar:
 dan is er nog niets voorbereid.
+
+De open punten van alle projecten samen ziet u op [Openstaande punten](open-points.md).
 
 ### Tabblad Planning
 
@@ -335,6 +337,8 @@ In de lijst zet u een punt klaar met **Afvinken**; in de kolom **Klaar** staat d
 verwijdert u een punt. Afgevinkte punten staan onderaan, in het grijs.
 
 Een vervallen datum staat in het rood. In het beeld hierboven is dat het geval bij twee punten.
+
+De open punten van alle projecten samen ziet u op [Openstaande punten](open-points.md).
 
 #### Facturatievrijgave
 

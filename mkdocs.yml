@@ -173,6 +173,7 @@ plugins:
             Productiestatus: Statut de production
             Projecttypes: Types de projet
             Standaardmappen: Dossiers standard
+            Werfvoorbereiding: Préparation du chantier
             Pipeline-status: Statut pipeline
             Werk: Travail
             Projecten: Projets
@@ -180,6 +181,7 @@ plugins:
             Werkbonnen: Bons de travail
             Medewerkers: Collaborateurs
             Ploegen: Équipes
+            Openstaande punten: Points ouverts
             Verkoop: Ventes
             Offertes: Devis
             Facturen: Factures
@@ -242,6 +244,7 @@ nav:
     - Werkorders: work/work-orders.md
     - Werkbonnen: work/work-sheets.md
     - Meerwerken: work/extra-work.md
+    - Openstaande punten: work/open-points.md
     - Planning: work/planning.md
     - Medewerkers: work/staff.md
     - Ploegen: work/teams.md
@@ -257,6 +260,7 @@ nav:
     - Stamgegevens: administration/master-data.md
     - Productiestatus: administration/production-statuses.md
     - Projecttypes: administration/project-types.md
+    - Werfvoorbereiding: administration/site-preparation.md
     - Standaardmappen: administration/default-folders.md
     - Pipeline-status: administration/pipeline-statuses.md
     - Klantcategorieën: administration/account-categories.md

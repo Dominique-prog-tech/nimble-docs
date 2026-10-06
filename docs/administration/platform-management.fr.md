@@ -17,7 +17,7 @@ Cliquez sur **Administration** en bas de la barre latérale.
 |---|---|
 | **Entreprise** | [Fiche d'entreprise](../settings/company-profile.md) |
 | **Articles** | [Familles d'articles](article-families.md), [Unités de mesure](units.md) |
-| **Projets** | [Statuts de production](production-statuses.md), [Statuts pipeline](pipeline-statuses.md), [Types de projet](project-types.md), [Dossiers standard](default-folders.md) |
+| **Projets** | [Statuts de production](production-statuses.md), [Statuts pipeline](pipeline-statuses.md), [Types de projet](project-types.md), [Préparation du chantier](site-preparation.md), [Dossiers standard](default-folders.md) |
 | **Relations** | [Catégories client](account-categories.md), [Fonctions de contact](contact-functions.md), [Formules d'appel](contact-salutations.md) |
 | **Ventes** | [Statut de devis](quote-status.md), [Statut de facture](invoice-status.md), [Codes TVA](vat-codes.md), [Modèles de documents](../settings/document-templates.md) |
 | **Leads** | [Sources de leads](lead-sources.md), [Types de demande](lead-request-types.md), [Phases de lead](lead-status.md), [Suivi des leads](lead-follow-up.md) |

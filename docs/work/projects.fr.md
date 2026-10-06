@@ -244,7 +244,7 @@ ainsi recevoir sa date sans que vous deviez inventer une adresse.
 ### Onglet Préparation
 
 Ici figure ce qui doit être prêt avant le début du chantier. Un nouveau projet reçoit la **liste standard** de
-votre entreprise ; pour un projet existant, ajoutez-la avec **Ajouter la liste standard**.
+votre entreprise, que vous gérez dans [Préparation du chantier](../administration/site-preparation.md) ; pour un projet existant, ajoutez-la avec **Ajouter la liste standard**.
 
 - Cochez un point dès qu'il est en ordre. Nimble note la date.
 - Choisissez pour chaque point un **Responsable** : la personne qui s'en charge.
@@ -254,6 +254,8 @@ votre entreprise ; pour un projet existant, ajoutez-la avec **Ajouter la liste s
 En haut figure l'avancement, par exemple *3 sur 7 points obligatoires cochés*. Le projet est **prêt à
 démarrer** lorsque tous les points obligatoires sont cochés. Un projet sans aucun point n'est pas prêt : rien
 n'a encore été préparé.
+
+Les points ouverts de tous les projets figurent ensemble dans [Points ouverts](open-points.md).
 
 ### Onglet Planning
 
@@ -347,6 +349,8 @@ Dans la liste, vous marquez un point comme fait avec **Cocher** ; la colonne **T
 date. La croix supprime un point. Les points cochés figurent en bas, en gris.
 
 Une date dépassée s'affiche en rouge. Sur l'image ci-dessus, c'est le cas pour deux points.
+
+Les points ouverts de tous les projets figurent ensemble dans [Points ouverts](open-points.md).
 
 #### Autorisation de facturation
 
