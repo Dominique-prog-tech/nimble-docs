@@ -62,7 +62,7 @@ Vous définissez vous-même le texte des statuts dans [Statuts de facture](../ad
 
 Cliquez sur **Facture à partir d'un devis**. Dans la fenêtre, choisissez sous **Devis** un devis accepté qui
 n'a pas encore été facturé, puis cliquez sur **Créer**. Nimble crée un brouillon de facture avec les lignes
-du devis et l'ouvre.
+du devis et l'ouvre. Le projet et **Votre référence** du devis suivent.
 
 Si aucun devis n'est prêt, la fenêtre l'indique : seul un devis accepté qui n'a pas encore été facturé
 figure dans la liste.
@@ -87,6 +87,7 @@ fonctionnement des quatre derniers est décrit dans [Travailler avec une fiche](
 | **Numéro** | Sur un brouillon figure *— recevra un numéro lors de la finalisation* |
 | **Client** | Obligatoire. Pour qui est la facture |
 | **Projet** | Facultatif. Si la facture se rattache à un projet, elle compte dans la situation financière de ce projet |
+| **Votre référence** | La référence du client : son numéro de bon de commande, son dossier ou son chantier. Elle est reprise du devis ; une note de crédit la reprend de sa facture. Elle figure sur la facture près des dates, et la facture électronique la porte comme référence du client. Vous pouvez encore la compléter ou la modifier sur une facture émise — elle y est enregistrée aussitôt |
 | **Date** | Obligatoire. La date de facture ; aujourd'hui pour une nouvelle facture |
 | **Date de la prestation** | Quand le travail a été livré ou achevé. Vide = identique à la date de facture |
 | **Date d'échéance** | Quand vous attendez le paiement. Lorsque vous choisissez un client, Nimble la propose |
@@ -120,6 +121,12 @@ Le solde ouvert n'apparaît que sur une facture numérotée.
 Par ligne, vous voyez l'article ou la description, la quantité, l'unité, le code TVA, le prix unitaire et le
 sous-total. Les lignes de titre reprises d'un devis n'ont pas de montant. En bas figurent le total hors TVA,
 la TVA par taux et le total TVA comprise, avec la mention légale du code TVA en dessous.
+
+!!! info "Comment la TVA est calculée"
+    Nimble calcule la TVA une fois par taux : sur la somme des lignes à ce taux, arrondie au cent. C'est
+    aussi le calcul de la norme européenne pour les factures électroniques. Les factures et devis établis
+    auparavant calculaient la TVA par ligne et gardent leurs montants — une facture émise ne change jamais. Une
+    note de crédit calcule comme la facture qu'elle corrige.
 
 Sur un brouillon, vous pouvez encore adapter les lignes :
 
@@ -211,14 +218,30 @@ Si vous transmettez la facture une nouvelle fois, utilisez **Envoyée à nouveau
 ### La facture électronique
 
 **Facture électronique (Peppol)** construit la version électronique de la facture, au format exigé par Peppol
-et les autorités. La fenêtre affiche le fichier, avec le bouton **Télécharger le fichier**. Déposez-le via
-votre logiciel comptable ou un portail.
+et les autorités. Cela prend quelques secondes : la facture y est aussi jointe en PDF, telle que le client la
+reçoit.
+
+La fenêtre affiche en haut **Télécharger**, et en dessous les totaux du fichier. Ils sont toujours égaux à
+ceux de la facture : s'il y a un cent d'écart, le fichier n'est pas construit. Déposez le fichier via votre
+logiciel comptable ou un portail.
+
+Une facture électronique doit porter une référence du client. Nimble prend **Votre référence** ; si ce champ
+est vide, le code du projet.
 
 Le fichier n'est pas construit, et vous lisez pourquoi, lorsque :
 
-- votre numéro d'entreprise manque dans la [fiche d'entreprise](../settings/company-profile.md) ;
-- le client n'a pas de numéro d'entreprise — Peppol s'adresse aux entreprises ;
-- des lignes n'ont pas de code TVA. Vous lisez alors de quel montant il s'agit.
+- votre numéro d'entreprise, votre pays ou — pour une facture — votre IBAN manque dans la
+  [fiche d'entreprise](../settings/company-profile.md) ;
+- le client n'a pas de numéro de TVA ou d'entreprise — Peppol s'adresse aux entreprises ;
+- le pays du client manque. Complétez-le sur la [fiche de relation](../relations.md) ;
+- la facture n'a pas de **Votre référence** et n'est liée à aucun projet. Complétez **Votre référence** — c'est
+  encore possible sur une facture émise ;
+- des lignes n'ont pas de code TVA ou pas de prix. Pour une ligne sans code TVA, vous lisez de quel montant il
+  s'agit ;
+- le client a un numéro de TVA étranger. Peppol ne l'atteint alors pas via un numéro d'entreprise belge, et
+  Nimble ne connaît pas encore d'autre adresse Peppol ;
+- la facture calcule encore la TVA par ligne (voir *Comment la TVA est calculée* plus haut) et la norme
+  européenne donne donc un autre total. La facture elle-même reste valable ; transmettez-la alors en PDF.
 
 !!! tip "La facture électronique refuse un régime de TVA deviné"
     Un régime de TVA deviné sur une facture électronique est une erreur qui n'apparaît que chez votre

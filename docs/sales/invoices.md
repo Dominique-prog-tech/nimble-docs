@@ -61,7 +61,7 @@ De tekst van de statussen stelt u zelf in onder [Factuurstatus](../administratio
 
 Klik op **Factuur uit offerte**. In het venster kiest u bij **Offerte** een aanvaarde offerte die nog niet
 gefactureerd is, en klikt u op **Aanmaken**. Nimble maakt een kladfactuur met de regels van de offerte en
-opent ze.
+opent ze. Het project en **Uw referentie** van de offerte gaan mee.
 
 Staat er geen enkele offerte klaar, dan leest u dat in het venster: alleen een aanvaarde offerte die nog
 niet gefactureerd is, komt in de lijst.
@@ -86,6 +86,7 @@ laatste vier werken, leest u in [Werken met een fiche](../fiches.md).
 | **Nummer** | Op een klad staat *— krijgt een nummer bij Definitief maken* |
 | **Klant** | Verplicht. Voor wie de factuur is |
 | **Project** | Optioneel. Hangt de factuur aan een project, dan telt ze mee in het financiële overzicht van dat project |
+| **Uw referentie** | Het kenmerk van de klant: zijn bestelbonnummer, dossier of werf. Komt mee uit de offerte; een creditnota neemt het over van haar factuur. Het staat op de factuur bij de datums, en de e-factuur draagt het als referentie van de klant. U kunt het ook op een uitgereikte factuur nog invullen of wijzigen — daar wordt het meteen bewaard |
 | **Datum** | Verplicht. De factuurdatum; bij een nieuwe factuur staat ze op vandaag |
 | **Datum van levering** | Wanneer het werk geleverd of voltooid is. Leeg = gelijk aan de factuurdatum |
 | **Vervaldatum** | Wanneer u het geld verwacht. Kiest u een klant, dan stelt Nimble ze voor |
@@ -119,6 +120,12 @@ Het openstaande bedrag komt pas bij een factuur met een nummer.
 Per regel ziet u het artikel of de omschrijving, het aantal, de eenheid, de btw-code, de eenheidsprijs en
 het subtotaal. Kopregels uit een offerte staan er zonder bedrag. Onderaan staan het totaal exclusief btw, de
 btw per tarief en het totaal inclusief btw, met de wettelijke vermelding van de btw-code eronder.
+
+!!! info "Hoe de btw gerekend wordt"
+    Nimble rekent de btw één keer per tarief: over de som van de regels aan dat tarief, afgerond op de cent.
+    Zo rekent ook de Europese norm voor e-facturen. Facturen en offertes die vroeger gemaakt zijn, rekenden de
+    btw per regel en houden hun bedragen — een uitgereikte factuur verandert nooit. Een creditnota rekent zoals
+    de factuur die ze corrigeert.
 
 Op een klad kunt u de regels nog aanpassen:
 
@@ -207,14 +214,29 @@ Bezorgt u de factuur later nog eens, gebruik dan **Opnieuw verstuurd**.
 ### De e-factuur
 
 **E-factuur (Peppol)** bouwt de elektronische versie van de factuur, in het formaat dat Peppol en de overheid
-vragen. Het venster toont het bestand, met de knop **Bestand downloaden**. Dien het in via uw
+vragen. Dat duurt enkele seconden: de factuur gaat er ook als PDF in mee, zoals de klant ze krijgt.
+
+Het venster toont bovenaan **Downloaden**, en daaronder de totalen van het bestand. Die zijn altijd gelijk aan
+die van de factuur: wijkt er één cent af, dan wordt het bestand niet gebouwd. Dien het bestand in via uw
 boekhoudpakket of een portaal.
+
+Een e-factuur moet een referentie van de klant dragen. Nimble neemt **Uw referentie**; is dat veld leeg, dan
+de code van het project.
 
 Het bestand wordt niet gebouwd, en u leest waarom, wanneer:
 
-- uw ondernemingsnummer ontbreekt in de [bedrijfsfiche](../settings/company-profile.md);
-- de klant geen ondernemingsnummer heeft — Peppol is voor bedrijven onderling;
-- er regels zonder btw-code op staan. U leest dan over welk bedrag het gaat.
+- uw ondernemingsnummer, uw land of — bij een factuur — uw IBAN ontbreekt in de
+  [bedrijfsfiche](../settings/company-profile.md);
+- de klant geen btw- of ondernemingsnummer heeft — Peppol is voor bedrijven onderling;
+- het land van de klant ontbreekt. Vul het in op de [relatiefiche](../relations.md);
+- de factuur geen **Uw referentie** heeft en aan geen project hangt. Vul **Uw referentie** in — dat kan ook
+  nog op een uitgereikte factuur;
+- er regels zonder btw-code of zonder prijs op staan. Bij een regel zonder btw-code leest u over welk bedrag
+  het gaat;
+- de klant een buitenlands btw-nummer heeft. Peppol bereikt hem dan niet via een Belgisch
+  ondernemingsnummer, en een ander Peppol-adres kent Nimble nog niet;
+- de factuur de btw nog per regel rekent (zie *Hoe de btw gerekend wordt* hierboven) en de Europese norm
+  daardoor een ander totaal geeft. De factuur zelf blijft geldig; bezorg ze dan als PDF.
 
 !!! tip "De e-factuur weigert een geraden btw-regime"
     Een geraden btw-regime op een elektronische factuur is een fout die pas bij uw boekhouder opvalt. Vul de

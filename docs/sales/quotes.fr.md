@@ -65,6 +65,7 @@ Cliquez sur **Nouveau devis**. Vous complétez d'abord le bloc **Données du dev
 | **Projet** | Facultatif. Si le devis se rattache à un projet, il fait partie du dossier de ce projet. Il vaut pour toutes les versions et variantes du devis, et vous pouvez encore le choisir ou le modifier après l'acceptation |
 | **Date** | Obligatoire. La date de la proposition ; aujourd'hui par défaut |
 | **Valable jusqu'au** | Facultatif. Jusqu'à quand votre prix s'applique |
+| **Votre référence** | Facultatif. La référence du client : son numéro de bon de commande, son dossier ou son chantier. Elle figure sur le devis près des dates et suit vers la facture. Vous pouvez encore la compléter après l'acceptation — le client envoie souvent son bon de commande avec son accord. Sur un devis accepté, elle est enregistrée aussitôt |
 
 Cliquez ensuite sur **Enregistrer**.
 
@@ -144,6 +145,11 @@ Sous les blocs figure le détail :
 - **Total TVAC**.
 - En dessous, la mention légale liée à un code TVA, comme le texte en cas d'autoliquidation. Cette mention
   figure aussi sur le document.
+
+!!! info "Comment la TVA est calculée"
+    Nimble calcule la TVA une fois par taux : sur la somme des lignes à ce taux, arrondie au cent. C'est aussi
+    le calcul de la norme européenne pour les factures électroniques, et ainsi devis et facture restent égaux
+    au cent près. Les devis établis auparavant calculaient la TVA par ligne et gardent leurs montants.
 
 Si un code TVA applique 0 % sans mention légale, un avertissement s'affiche. Vérifiez alors : en cas
 d'autoliquidation, de livraison intracommunautaire ou d'exportation, le motif doit figurer sur le document.
@@ -314,7 +320,7 @@ adresse du chantier, le responsable, la phase.
 ## Facturer
 
 Sur un devis accepté, **Facturer** crée un brouillon de facture avec les lignes du devis et l'ouvre
-aussitôt. Le numéro de facture n'est attribué qu'à la finalisation — voir [Factures](invoices.md).
+aussitôt. Le projet et **Votre référence** suivent. Le numéro de facture n'est attribué qu'à la finalisation — voir [Factures](invoices.md).
 
 Si ce n'est pas possible, le bouton est grisé et la raison figure à côté :
 

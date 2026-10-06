@@ -63,6 +63,7 @@ Klik op **Nieuwe offerte**. U vult eerst het blok **Offertegegevens** in:
 | **Project** | Optioneel. Hangt de offerte aan een project, dan hoort ze bij het dossier van dat project. Het geldt voor alle versies en varianten van de offerte, en u kunt het ook na het aanvaarden nog kiezen of wijzigen |
 | **Datum** | Verplicht. De datum van het voorstel; staat standaard op vandaag |
 | **Geldig tot** | Optioneel. Tot wanneer uw prijs geldt |
+| **Uw referentie** | Optioneel. Het kenmerk van de klant: zijn bestelbonnummer, dossier of werf. Het staat op de offerte bij de datums en gaat mee naar de factuur. U kunt het ook na het aanvaarden nog invullen — de klant stuurt zijn bestelbon vaak samen met zijn akkoord. Op een aanvaarde offerte wordt het meteen bewaard |
 
 Klik daarna op **Bewaren**.
 
@@ -141,6 +142,11 @@ Onder de blokken staat de opsplitsing:
 - **Totaal incl. btw**.
 - Daaronder de wettelijke vermelding die bij een btw-code hoort, zoals de tekst bij verlegde btw. Die
   vermelding staat ook op het document.
+
+!!! info "Hoe de btw gerekend wordt"
+    Nimble rekent de btw één keer per tarief: over de som van de regels aan dat tarief, afgerond op de cent.
+    Zo rekent ook de Europese norm voor e-facturen, en zo blijven offerte en factuur tot op de cent gelijk.
+    Offertes die vroeger gemaakt zijn, rekenden de btw per regel en houden hun bedragen.
 
 Rekent een btw-code 0 % zonder wettelijke vermelding, dan staat er een waarschuwing. Kijk dan na of dat
 klopt: bij verlegde btw, een intracommunautaire levering of uitvoer hoort de reden op het document te staan.
@@ -306,7 +312,7 @@ werfadres, de verantwoordelijke, de fase.
 ## Factureren
 
 Op een aanvaarde offerte maakt **Factureren** een kladfactuur met de regels van de offerte, en opent die
-meteen. Het factuurnummer komt pas wanneer u de factuur definitief maakt — zie [Facturen](invoices.md).
+meteen. Het project en **Uw referentie** gaan mee. Het factuurnummer komt pas wanneer u de factuur definitief maakt — zie [Facturen](invoices.md).
 
 Kan het niet, dan staat de knop grijs en staat de reden ernaast:
 
