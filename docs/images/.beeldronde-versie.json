@@ -1,8 +1,8 @@
 {
-  "versie": "0.5.80",
+  "versie": "0.5.81",
   "volledig": true,
-  "datum": "2026-10-06",
+  "datum": "2026-10-07",
   "beelden": 224,
-  "commit": "1771840307147a8f39092df042a3b0147f48950d",
+  "commit": "2e3bc679cfa5e1329f9ecb2a6c06c805c87bf49a",
   "vuil": []
 }
