@@ -7,12 +7,14 @@ La **fiche d'entreprise** contient les données de votre entreprise : identité,
 1. Cliquez sur **Administration** en bas de la barre latérale.
 2. Dans le groupe **Entreprise**, cliquez sur la tuile **Fiche d'entreprise**.
 
-![La fiche d'entreprise avec les cartes Identité, Adresse, Contact, Banque, Paramètres financiers et Documents et charte graphique, et en bas à droite le bouton Enregistrer.](../images/bedrijfsfiche-fr.png)
+![La fiche d'entreprise avec en haut les onglets Données de l'entreprise et Historique, les cartes Identité, Adresse, Contact, Banque, Paramètres financiers et Documents et charte graphique, et en bas à droite le bouton Enregistrer.](../images/bedrijfsfiche-fr.png)
 
 !!! info "Le nom figure sur vos devis et factures"
     Vous indiquez vous-même le **nom** de votre entreprise ici. Il figure en tête de chaque devis et facture. Le champ est obligatoire et compte 60 caractères au maximum.
 
 Si l'écran affiche **Aucune fiche d'entreprise pour ce tenant.**, cliquez sur **Créer la fiche d'entreprise**. Les cartes apparaissent ensuite et vous pouvez les remplir.
+
+La fiche a deux onglets : **Données de l'entreprise** avec les cartes ci-dessous, et à droite l'**[Historique](#historique)**.
 
 ## Les cartes
 
@@ -20,7 +22,7 @@ Si l'écran affiche **Aucune fiche d'entreprise pour ce tenant.**, cliquez sur *
 |---|---|
 | **Identité** | Nom (obligatoire), TVA / n° d'entreprise avec le bouton **Récupérer**, Numéro FSMA |
 | **Contact** | Téléphone, Fax, E-mail, Site web, **Leads du site web vers** |
-| **Paramètres financiers** | Délai de paiement par défaut (jours), Premier rappel après (jours), Ensuite tous les (jours), Marge verte à partir de (%), Marge orange à partir de (%) |
+| **Paramètres financiers** | Délai de paiement par défaut (jours), Premier rappel après (jours), Ensuite tous les (jours), Marge verte à partir de (%), Marge orange à partir de (%), Article horaire standard (régie), Enregistrer le temps de déplacement, Article pour le déplacement (régie) |
 | **Adresse** | Rue, N°, Boîte, Code postal, Commune, Pays |
 | **Banque** | IBAN, BIC, Compte — et un second compte : IBAN (2), BIC (2), Compte (2) |
 | **Documents et charte graphique** | Logo |
@@ -46,7 +48,7 @@ Voir [Leads](../crm/leads.md) pour ce qu'il advient d'une telle demande.
 
 Cette carte contient les seuils que vous choisissez vous-même pour la facturation et pour la marge des projets.
 
-![La carte Paramètres financiers avec Délai de paiement par défaut (jours) à 30, Premier rappel après et Ensuite tous les vides avec l'indication 14 (par défaut), Marge verte à partir de 43, Marge orange à partir de 40 et Article horaire standard (régie) sur Werkuur installateur.](../images/bedrijfsfiche-blok-financieel-fr.png)
+![La carte Paramètres financiers avec Délai de paiement par défaut (jours) à 30, Premier rappel après et Ensuite tous les vides avec l'indication 14 (par défaut), Marge verte à partir de 43, Marge orange à partir de 40, Article horaire standard (régie) sur Werkuur installateur, Enregistrer le temps de déplacement non coché et Article pour le déplacement (régie) vide.](../images/bedrijfsfiche-blok-financieel-fr.png)
 
 | Champ | Ce qu'il fait |
 |---|---|
@@ -56,6 +58,8 @@ Cette carte contient les seuils que vous choisissez vous-même pour la facturati
 | **Marge verte à partir de (%)** | À partir de cette marge, un projet s'affiche en vert sur la fiche de projet. |
 | **Marge orange à partir de (%)** | À partir de cette marge, un projet s'affiche en orange. En dessous, c'est rouge. |
 | **Article horaire standard (régie)** | L'article horaire pour la facturation en régie, pour chaque collaborateur sans article horaire propre. Vide = chaque collaborateur a besoin de son propre article horaire, sinon Nimble bloque la facture en régie |
+| **Enregistrer le temps de déplacement** | Coché, le bon de travail demande aussi, par personne, les heures de déplacement. Elles comptent comme coût du projet et figurent à part dans le post-calcul. Voir [Bons de travail](../work/work-sheets.md) |
+| **Article pour le déplacement (régie)** | L'article au prix duquel le déplacement est facturé en régie, sur une ligne distincte. Vide (*— ne pas facturer le déplacement —*) : le déplacement n'apparaît pas sur une facture en régie, et la proposition indique combien d'heures cela représente |
 
 Si vous laissez les deux champs de marge vides, la fiche de projet ne se colore pas. Nimble n'avance alors
 rien sur vos seuils.
@@ -115,6 +119,13 @@ Cliquez sur **Enregistrer** en bas à droite. Le logo est sauvegardé à part, d
 Cette fiche n'a pas de bouton Annuler. Si vous ne voulez pas garder vos modifications, cliquez en haut sur **← Retour à l'administration** et choisissez **Quitter** quand Nimble vous demande si vous partez sans enregistrer. Si vous fermez ou rechargez l'onglet avec des modifications non enregistrées, c'est votre navigateur qui le demande.
 
 Si votre numéro de téléphone ou l'une des deux adresses e-mail n'est pas correct, le message apparaît aussitôt sous le champ — inutile de cliquer d'abord. Si vous cliquez malgré tout, une barre en haut énumère en une ligne tous les champs qui bloquent encore l'enregistrement.
+
+## Historique
+
+L'onglet **Historique** montre qui a modifié quoi sur la fiche d'entreprise, et quand : par champ l'ancienne
+et la nouvelle valeur. Une référence y figure avec son nom, par exemple l'article horaire standard avec le nom
+de l'article. L'historique se relit chaque fois que vous ouvrez l'onglet, donc aussi juste après
+l'enregistrement.
 
 ## Erreurs fréquentes
 

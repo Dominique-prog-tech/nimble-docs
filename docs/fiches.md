@@ -102,7 +102,10 @@ u kunt schrappen is geen geschiedenis.
 ![Het tabblad Logboek van de relatie Vandersteen Bouwprojecten BV: bovenaan twee regels Gewijzigd met Verantwoordelijke en Betalingstermijn, daaronder Aangemaakt met Code, Naam, E-mail en + 18 andere velden.](images/fiche-tab-logboek.png)
 
 - Elke regel begint met een label: **Aangemaakt**, **Gewijzigd** of **Verwijderd**.
-- Daaronder staan de velden die veranderden, met hun waarde ervóór en erna.
+- Daaronder staan de velden die veranderden, met hun waarde ervóór en erna. Verwijst een veld naar iets
+  anders — een werkorder, een leverancier, een medewerker, een bijlage — dan staat er de naam of het nummer
+  ervan.
+- Het Logboek leest opnieuw telkens u het tabblad opent: wat u net bewaarde, staat er meteen bij.
 - Wijzigde er veel tegelijk, dan ziet u de eerste vier velden en daaronder **+ n andere velden**.
 - Van de recentste 200 wijzigingen wordt de geschiedenis getoond; is er meer, dan meldt de lijst dat
   onderaan.

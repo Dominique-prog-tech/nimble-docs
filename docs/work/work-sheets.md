@@ -31,6 +31,21 @@ altijd bij een werkorder.
 Rechts zit de lade **Journaal**, bij de werkbon waarop uw cursor staat: taken, notities, bijlagen en
 logboek zonder de fiche te openen.
 
+### Lopende klokken
+
+Start een ploeg in de mobiele app de klok, dan staat er boven de lijst een kaart **Lopende klokken**. Loopt
+er geen klok, dan is de kaart er niet.
+
+Per klok ziet u:
+
+- de werf en de werkorder;
+- **Werk** of **Verplaatsing**, sinds wanneer en hoelang al, bijvoorbeeld *Werk sinds 08:30 (2 u 10 min)*;
+- wie de klok startte, voor hoeveel personen, en hun namen.
+
+Een klok die sinds een vorige dag loopt of langer dan 16 uur, draagt **Vergeten?** en staat bovenaan. Die
+klok blokkeert het tekenen van de werkbon van die dag. Mag u werkbonnen bewerken, dan sluit u ze af met
+**Afsluiten…**: zie [Een vergeten klok afsluiten](#een-vergeten-klok-afsluiten).
+
 ## De fiche
 
 U opent een fiche door te dubbelklikken op een rij.
@@ -43,6 +58,44 @@ en **Logboek**.
 
 Onderaan staat de knoppenbalk: **Bewaren**, **Afdrukvoorbeeld**, **Annuleren** en, apart rechts,
 **Verwijderen**. Mag u de werkbon niet wijzigen, dan ziet u enkel **Naar de lijst**.
+
+### De klok van de ploeg
+
+Loopt er een klok op deze werkorder voor deze dag, dan staat er bovenaan de fiche een band: werk of
+verplaatsing sinds wanneer, wie de klok startte en voor wie. Stopt de ploeg de klok, dan komen de uren —
+afgerond op het kwartier — op deze werkbon. Tekenen kan pas na stop.
+
+#### Een vergeten klok afsluiten
+
+Een klok die sinds een vorige dag loopt of langer dan 16 uur, draagt **Vergeten?**. U sluit ze af op de band
+of in de kaart **Lopende klokken** van de lijst:
+
+1. Klik **Afsluiten…**.
+2. Vul het **Einduur** in: wanneer de ploeg werkelijk stopte.
+3. Klik **Afsluiten**.
+
+De uren komen afgerond op het kwartier op de werkbon van die dag, per persoon. De melding zegt hoeveel, voor
+wie en tot wanneer, bijvoorbeeld *8,5 u werk op de werkbon gezet voor 2 personen (tot 15:49)*. Minder dan
+een kwartier telt niet mee.
+
+Het venster weigert een einduur vóór het begin van de klok, een einduur dat later ligt dan nu, en een einduur
+meer dan 16 uur na het begin. Een langere dag past u daarna aan op de werkbon zelf.
+
+!!! warning "Eerst bewaren"
+    Staan er op de werkbon nog onbewaarde wijzigingen, dan kan **Afsluiten…** niet: afsluiten zet uren op
+    deze werkbon. Bewaar of annuleer eerst.
+
+### De handtekening van de klant
+
+Laat de ploeg de klant tekenen in de mobiele app, dan staat bovenaan de fiche het blok **Ondertekend door de
+klant**: wie tekende en wanneer, wie de werkbon voorlegde, de opmerking van de klant en de handtekening
+zelf. De link **Getekende werkbon (PDF)** opent het blad zoals de klant het tekende.
+
+Een getekende werkbon ligt vast: de klant tekende voor wat er staat. Enkel de opvolging van het meerwerk —
+de stand, wanneer en door wie beslist — kan nog wijzigen.
+
+Klopt er toch iets niet, dan klikt u **Handtekening intrekken**. De werkbon is daarna weer te bewerken en de
+klant moet opnieuw tekenen. De getekende PDF blijft bij de bijlagen.
 
 ### De werkdag
 
@@ -65,6 +118,11 @@ Het **Totaal** onderaan is de som, en dat is meteen het totaal van de werkbon.
 
 Deze uren zijn de bron van de nacalculatie op het project: ze worden vermenigvuldigd met de **Uurkost**
 van de medewerker.
+
+Staat **Reistijd registreren** aan op de [Bedrijfsfiche](../settings/company-profile.md), dan staat er bij
+het toevoegen ook een vinkje **Verplaatsing**: de uren zijn dan reistijd en geen werk op de werf. Zo'n
+regel draagt het label *Verplaatsing*. Reistijd telt mee als kost voor het project, staat apart in de
+nacalculatie en gaat bij facturatie in regie naar het artikel voor reistijd.
 
 ### Voortgang en meerwerk
 
@@ -117,7 +175,10 @@ Op een bewaarde werkbon kunt u het materiaal daarom niet meer wijzigen. De fiche
 ## Het blad laten aftekenen
 
 **Afdrukvoorbeeld** geeft u de werkbon als document: het blad dat de ploeg op de werf laat aftekenen. De
-bestandsnaam draagt het werkordernummer en de datum.
+bestandsnaam draagt het werkordernummer en de datum. Reistijd staat er per persoon bij als *verplaatsing*:
+de klant tekent ook voor die uren.
+
+Is de werkbon getekend, dan staat de handtekening van de klant op het blad.
 
 Dat werkt alleen op een **bewaarde** bon.
 
@@ -125,6 +186,8 @@ Dat werkt alleen op een **bewaarde** bon.
 
 **Verwijderen** vraagt eerst een bevestiging. De werkbon gaat naar de prullenbak, en het verbruikte
 materiaal wordt terug op de voorraad geboekt.
+
+Een getekende werkbon heeft geen knop **Verwijderen**: trek eerst de handtekening in.
 
 Is de werkbon al eens verwijderd en hersteld, dan weigert Nimble een tweede keer: het verbruik kan niet
 nog eens teruggeboekt worden. U krijgt dan een melding, en zet de voorraad zelf recht met een correctie.

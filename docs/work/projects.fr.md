@@ -162,7 +162,7 @@ pas un produit.
 
 | Tuile | Ce qu'elle montre |
 |---|---|
-| **Coût salarial** | Les heures des bons de travail multipliées par le **Coût horaire** de chaque collaborateur, avec en dessous le nombre d'heures |
+| **Coût salarial** | Les heures des bons de travail multipliées par le **Coût horaire** de chaque collaborateur, avec en dessous le nombre d'heures. S'il y a du déplacement, la part figure aussi en dessous : *dont 6 h de déplacement* |
 | **Coût matériel** | Le matériel consommé, au prix d'achat actuel de l'article |
 | **Produit** | Ce qui a été facturé, hors TVA |
 | **Marge brute** | Le produit moins le coût salarial et le coût matériel |
@@ -409,6 +409,11 @@ exemple *24/09/2026 — WO-2026-0001 — Werkuur installateur*, le nombre d'heur
   l'article horaire standard des [données de l'entreprise](../settings/company-profile.md).
 - Si quelqu'un n'a ni l'un ni l'autre, ou si l'article horaire n'a pas de prix de vente, la fenêtre indique qui
   ou quoi, et Nimble ne crée pas encore de facture. Complétez et réessayez.
+- Le **déplacement** (les lignes d'heures marquées *Déplacement* sur le bon de travail) reçoit sa propre ligne
+  au prix de l'**article pour le déplacement** des [données de l'entreprise](../settings/company-profile.md),
+  jamais au prix de l'article horaire du travail. Si aucun article pour le déplacement n'est défini, le
+  déplacement n'apparaît pas sur la facture et la fenêtre indique combien d'heures cela représente. Cela ne
+  bloque pas la facture.
 - Cochez les lignes à facturer et cliquez sur **Créer un brouillon de facture**. Vous arrivez sur un brouillon
   que vous pouvez encore vérifier ; la TVA suit le taux du devis accepté du projet.
 

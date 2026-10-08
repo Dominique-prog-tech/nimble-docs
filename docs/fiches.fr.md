@@ -104,7 +104,11 @@ histoire dans laquelle on peut effacer n'est pas une histoire.
 ![L'onglet Historique de la relation Vandersteen Bouwprojecten BV : en haut deux lignes Modifié avec Responsable et Délai de paiement, en dessous Créé avec Code, Nom, E-mail et + 18 autres champs.](images/fiche-tab-logboek-fr.png)
 
 - Chaque ligne commence par une étiquette : **Créé**, **Modifié** ou **Supprimé**.
-- En dessous figurent les champs qui ont changé, avec leur valeur avant et après.
+- En dessous figurent les champs qui ont changé, avec leur valeur avant et après. Si un champ renvoie à
+  autre chose — un ordre de travail, un fournisseur, un collaborateur, une pièce jointe —, c'est son nom ou
+  son numéro qui y figure.
+- L'Historique se relit chaque fois que vous ouvrez l'onglet : ce que vous venez d'enregistrer y figure
+  aussitôt.
 - Si beaucoup de champs ont changé en même temps, vous voyez les quatre premiers puis
   **+ n autres champs**.
 - L'historique affiche les 200 modifications les plus récentes ; s'il y en a davantage, la liste le

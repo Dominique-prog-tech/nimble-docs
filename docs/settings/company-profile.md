@@ -7,12 +7,14 @@ Op de **Bedrijfsfiche** beheert u de eigen gegevens van uw bedrijf: identiteit, 
 1. Klik onderaan in de zijbalk op **Platformbeheer**.
 2. Klik in de groep **Bedrijf** op de tegel **Bedrijfsfiche**.
 
-![De Bedrijfsfiche met de kaarten Identiteit, Adres, Contact, Bank, Financiële instellingen en Documenten & huisstijl, en rechtsonder de knop Bewaren.](../images/bedrijfsfiche.png)
+![De Bedrijfsfiche met bovenaan de tabbladen Bedrijfsgegevens en Logboek, de kaarten Identiteit, Adres, Contact, Bank, Financiële instellingen en Documenten & huisstijl, en rechtsonder de knop Bewaren.](../images/bedrijfsfiche.png)
 
 !!! info "De naam staat op uw offertes en facturen"
     De **naam** van uw bedrijf vult u hier zelf in. Hij staat bovenaan elke offerte en factuur. Het veld is verplicht en telt hoogstens 60 tekens.
 
 Staat er **Nog geen bedrijfsfiche voor deze tenant.**, klik dan op **Bedrijfsfiche aanmaken**. De kaarten verschijnen daarna en u kunt ze invullen.
+
+De fiche heeft twee tabbladen: **Bedrijfsgegevens** met de kaarten hieronder, en rechts het **[Logboek](#logboek)**.
 
 ## De kaarten
 
@@ -20,7 +22,7 @@ Staat er **Nog geen bedrijfsfiche voor deze tenant.**, klik dan op **Bedrijfsfic
 |---|---|
 | **Identiteit** | Naam (verplicht), BTW / ondernemingsnr. met de knop **Ophalen**, FSMA-nummer |
 | **Contact** | Telefoon, Fax, E-mail, Website, **Website-leads naar** |
-| **Financiële instellingen** | Standaard betalingstermijn (dagen), Eerste aanmaning na (dagen), Daarna elke (dagen), Marge groen vanaf (%), Marge oranje vanaf (%) |
+| **Financiële instellingen** | Standaard betalingstermijn (dagen), Eerste aanmaning na (dagen), Daarna elke (dagen), Marge groen vanaf (%), Marge oranje vanaf (%), Standaard-uurartikel (regie), Reistijd registreren, Artikel voor reistijd (regie) |
 | **Adres** | Straat, Nr., Bus, Postcode, Gemeente, Land |
 | **Bank** | IBAN, BIC, Rekening — en een tweede rekening: IBAN (2), BIC (2), Rekening (2) |
 | **Documenten & huisstijl** | Logo |
@@ -44,7 +46,7 @@ Zie [Leads](../crm/leads.md) voor wat er met zo'n aanvraag gebeurt.
 
 Deze kaart bevat de grenzen die u zelf kiest voor facturatie en voor de marge van projecten.
 
-![De kaart Financiële instellingen met Standaard betalingstermijn (dagen) op 30, Eerste aanmaning na en Daarna elke leeg met de tip 14 (standaard), Marge groen vanaf 43, Marge oranje vanaf 40 en Standaard-uurartikel (regie) op Werkuur installateur.](../images/bedrijfsfiche-blok-financieel.png)
+![De kaart Financiële instellingen met Standaard betalingstermijn (dagen) op 30, Eerste aanmaning na en Daarna elke leeg met de tip 14 (standaard), Marge groen vanaf 43, Marge oranje vanaf 40, Standaard-uurartikel (regie) op Werkuur installateur, Reistijd registreren niet aangevinkt en Artikel voor reistijd (regie) leeg.](../images/bedrijfsfiche-blok-financieel.png)
 
 | Veld | Wat het doet |
 |---|---|
@@ -54,6 +56,8 @@ Deze kaart bevat de grenzen die u zelf kiest voor facturatie en voor de marge va
 | **Marge groen vanaf (%)** | Vanaf deze marge kleurt een project groen op de projectfiche. |
 | **Marge oranje vanaf (%)** | Vanaf deze marge kleurt een project oranje. Daaronder is het rood. |
 | **Standaard-uurartikel (regie)** | Het uurartikel voor facturatie in regie, voor elke medewerker zonder eigen uurartikel. Leeg = elke medewerker heeft een eigen uurartikel nodig, anders houdt Nimble de regiefactuur tegen |
+| **Reistijd registreren** | Aangevinkt vraagt de werkbon per persoon ook de uren verplaatsing. Ze tellen mee als kost voor het project en staan apart in de nacalculatie. Zie [Werkbonnen](../work/work-sheets.md) |
+| **Artikel voor reistijd (regie)** | Het artikel waartegen reistijd in regie gefactureerd wordt, als eigen regel. Leeg (*— reistijd niet aanrekenen —*): reistijd komt niet op een regiefactuur, en het voorstel zegt hoeveel uren dat zijn |
 
 Laat u beide margevelden leeg, dan kleurt de projectfiche niet. Nimble zegt dan niets over uw grenzen.
 
@@ -112,6 +116,12 @@ Klik rechtsonder op **Bewaren**. Het logo wordt apart bewaard, meteen bij het up
 Deze fiche heeft geen knop Annuleren. Wilt u uw wijzigingen niet bewaren, klik dan bovenaan op **← Terug naar platformbeheer** en kies **Weggaan** bij de vraag of u zonder bewaren wilt vertrekken. Sluit of herlaadt u het tabblad met onbewaarde wijzigingen, dan vraagt uw browser het.
 
 Klopt er iets niet aan uw telefoonnummer of aan een van de twee e-mailadressen, dan staat dat er meteen onder het veld — u hoeft niet eerst te klikken. Klikt u toch, dan noemt een balk bovenaan in één regel álle velden die het bewaren nog tegenhouden.
+
+## Logboek
+
+Het tabblad **Logboek** toont wie wat wijzigde op de bedrijfsfiche, en wanneer: per veld de oude en de nieuwe
+waarde. Een verwijzing staat er met haar naam, bijvoorbeeld het standaard-uurartikel met de naam van het
+artikel. Het logboek leest opnieuw telkens u het tabblad opent, dus ook meteen na het bewaren.
 
 ## Veelgemaakte fouten
 

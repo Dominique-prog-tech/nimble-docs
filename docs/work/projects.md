@@ -157,7 +157,7 @@ opbrengst.
 
 | Tegel | Wat ze toont |
 |---|---|
-| **Loonkost** | De uren op de werkbonnen maal de **Uurkost** van elke medewerker, met eronder het aantal uren |
+| **Loonkost** | De uren op de werkbonnen maal de **Uurkost** van elke medewerker, met eronder het aantal uren. Zit er reistijd bij, dan staat eronder ook hoeveel: *waarvan 6 u reistijd* |
 | **Materiaalkost** | Het verbruikte materiaal, aan de huidige aankoopprijs van het artikel |
 | **Opbrengst** | Wat er gefactureerd is, zonder btw |
 | **Brutowinst** | Opbrengst min loonkost en materiaalkost |
@@ -394,6 +394,10 @@ Werkuur installateur*, het aantal uren, de prijs en het totaal.
   standaard-uurartikel in de [bedrijfsgegevens](../settings/company-profile.md).
 - Heeft iemand geen van beide, of heeft het uurartikel geen verkoopprijs, dan zegt het venster wie of wat, en
   maakt Nimble nog geen factuur. Vul het aan en probeer opnieuw.
+- **Reistijd** (de urenregels met *Verplaatsing* op de werkbon) krijgt een eigen regel tegen het **artikel voor
+  reistijd** uit de [bedrijfsgegevens](../settings/company-profile.md), nooit tegen het uurartikel van het werk.
+  Is er geen artikel voor reistijd ingesteld, dan komt reistijd niet op de factuur en zegt het venster hoeveel
+  uren dat zijn. Dat houdt de factuur niet tegen.
 - Vink de regels aan die u wilt factureren en klik op **Klad-factuur maken**. U komt op een klad-factuur die u
   nog kunt nakijken; de btw staat op het tarief van de aanvaarde offerte van het project.
 

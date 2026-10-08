@@ -32,6 +32,21 @@ relève toujours d'un ordre de travail.
 À droite se trouve le tiroir **Journal**, pour le bon sur lequel se trouve votre curseur : tâches, notes,
 pièces jointes et historique sans ouvrir la fiche.
 
+### Chronomètres en cours
+
+Lorsqu'une équipe lance le chronomètre dans l'application mobile, une carte **Chronomètres en cours** apparaît
+au-dessus de la liste. Si aucun chronomètre ne tourne, la carte n'est pas là.
+
+Pour chaque chronomètre, vous voyez :
+
+- le chantier et l'ordre de travail ;
+- **Travail** ou **Déplacement**, depuis quand et depuis combien de temps, par exemple *Travail depuis 08:30 (2 h 10 min)* ;
+- qui a lancé le chronomètre, pour combien de personnes, et leurs noms.
+
+Un chronomètre qui tourne depuis un jour précédent ou plus de 16 heures porte **Oublié ?** et figure en haut.
+Il bloque la signature du bon de travail de ce jour. Si vous pouvez modifier les bons de travail, vous le
+clôturez avec **Clôturer…** : voir [Clôturer un chronomètre oublié](#cloturer-un-chronometre-oublie).
+
 ## La fiche
 
 Vous ouvrez une fiche en double-cliquant sur une ligne.
@@ -44,6 +59,46 @@ relève cet ordre. À gauche se trouve l'onglet **La journée de travail**, à d
 
 En bas se trouve la barre de boutons : **Enregistrer**, **Aperçu avant impression**, **Annuler** et, à part
 à droite, **Supprimer**. Si vous ne pouvez pas modifier le bon, vous ne voyez que **Vers la liste**.
+
+### Le chronomètre de l'équipe
+
+Si un chronomètre tourne sur cet ordre de travail pour ce jour, une bande apparaît en haut de la fiche :
+travail ou déplacement depuis quand, qui l'a lancé et pour qui. Lorsque l'équipe arrête le chronomètre, les
+heures — arrondies au quart d'heure — sont ajoutées à ce bon de travail. La signature n'est possible qu'après
+l'arrêt.
+
+#### Clôturer un chronomètre oublié
+
+Un chronomètre qui tourne depuis un jour précédent ou plus de 16 heures porte **Oublié ?**. Vous le clôturez
+sur la bande ou dans la carte **Chronomètres en cours** de la liste :
+
+1. Cliquez sur **Clôturer…**.
+2. Indiquez l'**Heure de fin** : quand l'équipe s'est réellement arrêtée.
+3. Cliquez sur **Clôturer**.
+
+Les heures sont ajoutées, arrondies au quart d'heure, au bon de travail de ce jour, par personne. Le message
+indique combien, pour qui et jusqu'à quand, par exemple *8,5 h de travail ajoutées au bon de travail pour 2
+personnes (jusqu'à 15:49)*. Moins d'un quart d'heure ne compte pas.
+
+La fenêtre refuse une heure de fin antérieure au début du chronomètre, une heure de fin postérieure à
+maintenant, et une heure de fin plus de 16 heures après le début. Une journée plus longue se corrige ensuite
+sur le bon de travail lui-même.
+
+!!! warning "Enregistrer d'abord"
+    S'il reste des modifications non enregistrées sur le bon de travail, **Clôturer…** n'est pas possible : la
+    clôture ajoute des heures à ce bon. Enregistrez ou annulez d'abord.
+
+### La signature du client
+
+Lorsque l'équipe fait signer le client dans l'application mobile, le bloc **Signé par le client** apparaît en
+haut de la fiche : qui a signé et quand, qui a présenté le bon, la remarque du client et la signature
+elle-même. Le lien **Bon de travail signé (PDF)** ouvre la feuille telle que le client l'a signée.
+
+Un bon de travail signé est verrouillé : le client a signé ce qui y figure. Seul le suivi des travaux
+supplémentaires — l'état, quand et par qui la décision a été prise — peut encore changer.
+
+Si quelque chose ne va pas, cliquez sur **Retirer la signature**. Le bon redevient modifiable et le client
+doit signer à nouveau. Le PDF signé reste dans les pièces jointes.
 
 ### La journée de travail
 
@@ -67,6 +122,12 @@ Le **Total** en bas est la somme, et c'est aussi le total du bon de travail.
 
 Ces heures sont la source du post-calcul sur le projet : elles sont multipliées par le **Coût horaire** du
 collaborateur.
+
+Si **Enregistrer le temps de déplacement** est activé sur la [Fiche d'entreprise](../settings/company-profile.md),
+une case **Déplacement** apparaît aussi à l'ajout : les heures sont alors du temps de déplacement et non du
+travail sur chantier. Une telle ligne porte l'étiquette *Déplacement*. Le déplacement compte comme coût pour
+le projet, figure à part dans le post-calcul et, en facturation en régie, va vers l'article pour le
+déplacement.
 
 ### Avancement et travaux supplémentaires
 
@@ -122,7 +183,10 @@ Sur un bon enregistré, vous ne pouvez donc plus modifier le matériel. La fiche
 ## Faire signer la feuille
 
 L'**Aperçu avant impression** vous donne le bon sous forme de document : la feuille que l'équipe fait
-signer sur le chantier. Le nom du fichier reprend le numéro de l'ordre de travail et la date.
+signer sur le chantier. Le nom du fichier reprend le numéro de l'ordre de travail et la date. Le temps de
+déplacement y figure par personne comme *déplacement* : le client signe aussi pour ces heures.
+
+Si le bon de travail est signé, la signature du client figure sur la feuille.
 
 Cela ne fonctionne que sur un bon **enregistré**.
 
@@ -130,6 +194,8 @@ Cela ne fonctionne que sur un bon **enregistré**.
 
 **Supprimer** demande d'abord une confirmation. Le bon va dans la corbeille, et le matériel consommé est
 remis en stock.
+
+Un bon de travail signé n'a pas de bouton **Supprimer** : retirez d'abord la signature.
 
 Si le bon a déjà été supprimé puis restauré, Nimble refuse une seconde fois : la consommation ne peut pas
 être contre-passée deux fois. Vous recevez alors un message, et vous corrigez le stock vous-même.

@@ -10,7 +10,7 @@ ici que vous les définissez.
 
 Le droit *Gérer les modèles de documents* est nécessaire.
 
-![L'écran Modèles de documents : en haut les listes Document et Langue avec les boutons Enregistrer, Aperçu avant impression et Rétablir le modèle par défaut ; à gauche les champs En-tête et coordonnées du client, Formule d'introduction et Conditions, à droite la liste Variables.](../images/documentsjablonen-scherm-fr.png)
+![L'écran Modèles de documents avec les onglets Modèle et Historique : en haut les listes Document et Langue avec les boutons Enregistrer, Aperçu avant impression et Rétablir le modèle par défaut ; à gauche les champs En-tête et coordonnées du client, Formule d'introduction et Conditions, à droite la liste Variables.](../images/documentsjablonen-scherm-fr.png)
 
 ## Document et langue
 
@@ -91,6 +91,14 @@ devis réel.
 
 Si la langue est sur *Les deux langues*, l'aperçu suit la langue dans laquelle vous utilisez Nimble.
 **Télécharger** enregistre l'aperçu en PDF.
+
+## Historique
+
+L'écran a deux onglets : **Modèle** et, à droite, **Historique**. L'historique montre l'évolution du document
+et de la langue choisis en haut : qui a enregistré et quand, par champ l'ancien et le nouveau texte, et quand
+quelqu'un a rétabli le modèle par défaut. Ce qui avait été enregistré avant un tel rétablissement y reste.
+
+L'historique se relit chaque fois que vous ouvrez l'onglet, donc aussi juste après l'enregistrement.
 
 ## Erreurs fréquentes
 

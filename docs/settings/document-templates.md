@@ -9,7 +9,7 @@ Uw offerte draagt uw eigen briefhoofd, uw eigen aanhef en uw eigen voorwaarden. 
 
 U hebt er het recht *Documentsjablonen beheren* voor nodig.
 
-![Het scherm Documentsjablonen: bovenaan de keuzelijsten Document en Taal met de knoppen Bewaren, Afdrukvoorbeeld en Standaard herstellen; links de vakken Briefhoofd en klantgegevens, Aanhef en Voorwaarden, rechts de lijst Variabelen.](../images/documentsjablonen-scherm.png)
+![Het scherm Documentsjablonen met de tabbladen Sjabloon en Logboek: bovenaan de keuzelijsten Document en Taal met de knoppen Bewaren, Afdrukvoorbeeld en Standaard herstellen; links de vakken Briefhoofd en klantgegevens, Aanhef en Voorwaarden, rechts de lijst Variabelen.](../images/documentsjablonen-scherm.png)
 
 ## Document en taal
 
@@ -88,6 +88,14 @@ en welke vast in uw sjabloon staat, zonder een echte offerte te openen.
 
 Staat de taal op *Beide talen*, dan volgt het voorbeeld de taal waarin u Nimble gebruikt. Met **Downloaden**
 bewaart u het voorbeeld als PDF.
+
+## Logboek
+
+Het scherm heeft twee tabbladen: **Sjabloon** en rechts **Logboek**. Het logboek toont de geschiedenis van het
+document en de taal die u bovenaan koos: wie wanneer bewaarde, per vak de oude en de nieuwe tekst, en wanneer
+iemand de standaard herstelde. Ook wat vóór zo'n herstel bewaard was, blijft er staan.
+
+Het logboek leest opnieuw telkens u het tabblad opent, dus ook meteen na het bewaren.
 
 ## Veelgemaakte fouten
 
