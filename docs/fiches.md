@@ -29,8 +29,8 @@ terug op de plek in de lijst waar u vandaan kwam.
 
 ### Onbewaarde wijzigingen
 
-Hebt u iets gewijzigd en klikt u weg zonder te bewaren — in de zijbalk, op de terugknop van de fiche of van uw
-browser — dan vraagt Nimble eerst: *"Uw wijzigingen zijn niet bewaard. Toch weggaan?"* Met **Blijven** blijft u op de
+Hebt u iets gewijzigd en klikt u weg zonder te bewaren — in de zijbalk, op **Annuleren**, op de terugknop van de fiche
+of van uw browser — dan vraagt Nimble eerst: *"Uw wijzigingen zijn niet bewaard. Toch weggaan?"* Met **Blijven** blijft u op de
 fiche en staan uw wijzigingen er nog; met **Weggaan** gaat u verder zonder te bewaren. Sluit of herlaadt u het tabblad,
 dan vraagt uw browser het.
 
@@ -151,7 +151,8 @@ De knoppen staan onderaan rechts, in deze volgorde:
 1. **Bewaren** bewaart, en u blijft op de fiche. U krijgt een korte bevestiging in beeld. Een nieuw record
    heeft vanaf dan zijn eigen adres, zodat u er meteen mee verder kunt.
 2. De acties die bij die fiche horen, zoals **Omzetten naar klant** op een lead.
-3. **Annuleren** gaat terug naar de lijst zonder te bewaren.
+3. **Annuleren** gaat terug naar de lijst zonder te bewaren. Is er nog iets niet bewaard, dan vraagt Nimble eerst
+   of u toch wilt weggaan.
 4. **Verwijderen** staat apart, helemaal rechts. Het vraagt eerst een bevestiging — zie hieronder.
 
 Ontbreekt er nog iets verplichts wanneer u op **Bewaren** klikt, dan verschijnt bovenaan de fiche een melding

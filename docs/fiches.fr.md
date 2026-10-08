@@ -30,8 +30,8 @@ En haut à gauche se trouve **Vers la liste**. Le bouton Précédent de votre na
 
 ### Modifications non enregistrées
 
-Si vous avez modifié quelque chose et que vous quittez la page sans enregistrer — par la barre latérale, le bouton
-retour de la fiche ou de votre navigateur — Nimble demande d'abord : *« Vos modifications ne sont pas enregistrées.
+Si vous avez modifié quelque chose et que vous quittez la page sans enregistrer — par la barre latérale, **Annuler**, le
+bouton retour de la fiche ou de votre navigateur — Nimble demande d'abord : *« Vos modifications ne sont pas enregistrées.
 Quitter quand même ? »* Avec **Rester**, vous restez sur la fiche et vos modifications sont conservées ; avec
 **Quitter**, vous continuez sans enregistrer. Si vous fermez ou rechargez l'onglet, c'est votre navigateur qui le demande.
 
@@ -156,7 +156,8 @@ Les boutons se trouvent en bas à droite, dans cet ordre :
 1. **Enregistrer** conserve, et vous restez sur la fiche. Une brève confirmation s'affiche. Un nouvel
    enregistrement a dès lors sa propre adresse, pour que vous puissiez continuer directement.
 2. Les actions propres à cette fiche, comme **Convertir en client** sur un lead.
-3. **Annuler** revient à la liste sans conserver.
+3. **Annuler** revient à la liste sans conserver. Si quelque chose n'est pas encore enregistré, Nimble vous
+   demande d'abord si vous voulez quitter quand même.
 4. **Supprimer** se trouve à part, tout à droite. Il demande d'abord une confirmation — voir ci-dessous.
 
 S'il manque encore une donnée obligatoire lorsque vous cliquez sur **Enregistrer**, un message en haut de la

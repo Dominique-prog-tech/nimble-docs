@@ -1,8 +1,12 @@
 {
-  "versie": "0.5.86",
+  "versie": "0.5.87",
   "volledig": true,
   "datum": "2026-10-08",
   "beelden": 230,
-  "commit": "4e11ac40ab47daf401c41c46b4a1f26920393d8a",
-  "vuil": []
+  "commit": "a6adf52f3e8dd28070dc396905b0c00fe4152c0c",
+  "vuil": [
+    "src/Host/Nimble.Host.Web/handleiding/fr/fiches.md",
+    "src/Host/Nimble.Host.Web/handleiding/nl/fiches.md",
+    "src/Host/Nimble.Host.Web/release.json"
+  ]
 }
