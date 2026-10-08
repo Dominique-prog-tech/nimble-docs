@@ -40,7 +40,7 @@ Boven de lijst staan:
 - **Exporteren**, de filterknoppen en het zoekveld.
 
 **Dubbelklik** een rij om de factuur te openen. Rechts van de lijst staat de smalle balk **Journaal**: klap
-ze open voor de taken, notities, bijlagen en het logboek van de factuur die u in de lijst aangeklikt hebt.
+ze open voor de taken, notities, bijlagen, mails en het logboek van de factuur die u in de lijst aangeklikt hebt.
 
 ### De statussen
 
@@ -76,8 +76,9 @@ U kunt een aanvaarde offerte ook factureren vanaf de offerte zelf, met **Facture
 Bovenaan staan het nummer en de status. Bij een uitgereikte factuur staat er **op slot** naast; bij een
 creditnota het label **Creditnota**.
 
-De fiche heeft de tabbladen **Algemeen**, **Taken**, **Notities**, **Bijlagen** en **Logboek**. Hoe die
-laatste vier werken, leest u in [Werken met een fiche](../fiches.md).
+De fiche heeft de tabbladen **Algemeen**, **Taken**, **Notities**, **Bijlagen**, **Mails** en **Logboek**. Hoe
+die laatste vijf werken, leest u in [Werken met een fiche](../fiches.md). Bij **Mails** staan de
+[aanmaningen](reminders.md) die u voor deze factuur verstuurde.
 
 ### Het blok Factuurgegevens
 

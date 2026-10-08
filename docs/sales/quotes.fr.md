@@ -34,7 +34,7 @@ devis n'apparaît pas. À droite figurent **Nouveau devis**, **Exporter** et le 
 **Double-cliquez** une ligne pour ouvrir le devis.
 
 À droite de la liste se trouve la barre étroite **Journal**. Dépliez-la pour voir les tâches, notes, pièces
-jointes et l'historique du devis sélectionné dans la liste, sans l'ouvrir.
+jointes, e-mails et l'historique du devis sélectionné dans la liste, sans l'ouvrir.
 
 ### Tableau
 
@@ -81,8 +81,8 @@ enregistrer, *Non enregistré* s'affiche à côté du numéro.
 En haut figurent le numéro, le client et la date. En haut à droite figure le **Total TVAC** ; il reste
 visible lorsque vous faites défiler la page.
 
-La fiche comporte les onglets **Devis**, **Tâches**, **Notes**, **Pièces jointes** et **Historique**. Le
-fonctionnement des quatre derniers est décrit dans [Travailler avec une fiche](../fiches.md).
+La fiche comporte les onglets **Devis**, **Tâches**, **Notes**, **Pièces jointes**, **E-mails** et
+**Historique**. Le fonctionnement des cinq derniers est décrit dans [Travailler avec une fiche](../fiches.md).
 
 Si le devis a été envoyé par e-mail ou proposé en ligne, le bloc Données du devis comporte des lignes
 supplémentaires :
@@ -214,23 +214,36 @@ Transmettez ce texte lorsque vous demandez de l'aide.
 Cliquez sur **Envoyer par e-mail**. Si vous avez des modifications non enregistrées, Nimble vous demande
 d'abord d'enregistrer : ce que vous envoyez doit aussi figurer dans le dossier.
 
-La fenêtre **Envoyer le devis par e-mail** est déjà remplie :
+La fenêtre **Envoyer le devis par e-mail** est déjà remplie avec le mail de votre [modèle de
+mail](../settings/mail-templates.md) *Devis*, avec les données de ce devis :
 
 | Champ | Contenu |
 |---|---|
+| **De** | L'expéditeur du modèle de mail, ou votre expéditeur par défaut — voir [Expéditeurs de mail](../settings/mail-senders.md) |
 | **À** | Obligatoire. L'adresse e-mail du client |
-| **Objet** | Obligatoire. Avec votre numéro de devis |
-| **Message** | Un texte d'accompagnement, modifiable |
+| **Objet** | Obligatoire. Issu du modèle de mail, avec votre numéro de devis |
+| **Texte** | Le mail tel qu'il partira |
 | **Pièce jointe** | Le devis en PDF, avec sa taille |
 
-Tout reste modifiable avant de cliquer sur **Envoyer**. L'e-mail part dans la langue du client, comme le
-devis lui-même.
+![La fenêtre Envoyer le devis par e-mail : en haut De, en dessous les champs À et Objet, puis le texte du mail avec le bouton Modifier le texte — en néerlandais, car ce client est néerlandophone — et en bas la pièce jointe et les boutons Envoyer et Annuler.](../images/offerte-mailvenster-fr.png)
 
-Après l'envoi, trois choses se produisent :
+Vous modifiez **À** et **Objet** directement. Pour adapter aussi le texte, cliquez sur **Modifier le texte** :
+le mail passe dans un éditeur. Ce que vous y changez ne vaut que pour ce mail — le modèle de mail reste tel
+quel. L'e-mail part dans la langue du client, comme le devis lui-même.
+
+Si le modèle de mail contient le lien vers le devis en ligne, le client reçoit ce lien dans le mail :
+
+- Si le devis est déjà en ligne, c'est ce lien-là.
+- S'il n'est pas encore en ligne, ou si le lien est expiré, la fenêtre indique : *Cet e-mail contient le lien
+  vers le devis en ligne. À l'envoi, Nimble met le devis en ligne.* Cela se fait seulement quand vous cliquez
+  sur **Envoyer**, et uniquement si le lien figure encore dans le mail.
+
+Après l'envoi, quatre choses se produisent :
 
 - Si le devis était en **Brouillon**, il passe automatiquement à **Envoyé**.
 - Une copie du PDF envoyé est ajoutée aux **Pièces jointes** du devis, avec l'adresse.
 - La fiche affiche **Envoyé le**, avec la date et l'adresse.
+- Le mail lui-même figure sous **E-mails** sur le devis, tel qu'il est parti.
 
 !!! tip "Déjà remis vous-même ? Utilisez Marquer comme envoyé"
     Si vous avez remis le devis par courrier ou depuis votre propre messagerie, utilisez **Marquer comme
@@ -245,7 +258,9 @@ Après l'envoi, trois choses se produisent :
 Avec **Proposer en ligne**, Nimble publie le devis sur une page à part. Le client peut l'y consulter et
 l'accepter ou le refuser. Les modifications non enregistrées sont d'abord enregistrées.
 
-- Le lien figure ensuite sur la fiche sous **Proposé en ligne**. Transmettez-le vous-même.
+- Le lien figure ensuite sur la fiche sous **Proposé en ligne**. Transmettez-le vous-même, ou placez la
+  variable `{{online_link}}` dans votre [modèle de mail](../settings/mail-templates.md#le-lien-vers-le-devis-en-ligne) :
+  le client reçoit alors le lien dans le mail.
 - Le lien est valable jusqu'à la date indiquée sous **Valable jusqu'au**. Sans date, il est valable trente
   jours.
 - Si **Valable jusqu'au** est dans le passé, Nimble refuse de mettre le devis en ligne et vous lisez

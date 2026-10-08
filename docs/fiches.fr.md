@@ -42,10 +42,11 @@ En haut de la fiche se trouvent deux groupes d'onglets.
 **À gauche**, les données de l'enregistrement lui-même. Sur la plupart des fiches il n'y en a qu'un —
 **Général** ou **Fiche** — sur la fiche de relation il y en a deux, avec **Personnes de contact**.
 
-**À droite**, le journal : **Tâches**, **Notes**, **Pièces jointes** et **Historique**. Ce sont les éléments rattachés
-à l'enregistrement.
+**À droite**, le journal : **Tâches**, **Notes**, **Pièces jointes** et **Historique** — et sur une relation,
+un projet, un devis, une facture et un bon de travail aussi **E-mails**. Ce sont les éléments rattachés à
+l'enregistrement.
 
-![Une fiche de relation avec à gauche les onglets Fiche et Personnes de contact, à droite Tâches, Notes, Pièces jointes et Historique.](images/fiche-tabbladen-fr.png)
+![Une fiche de relation avec à gauche les onglets Fiche et Personnes de contact, à droite Tâches, Notes, Pièces jointes, E-mails et Historique.](images/fiche-tabbladen-fr.png)
 
 !!! info "Les boutons disparaissent sur un onglet du journal"
     Enregistrer et Supprimer appartiennent au formulaire. Si vous êtes sur **Pièces jointes**, ces boutons
@@ -134,6 +135,19 @@ Le nombre de colonnes dépend de la largeur :
 - Un clic sur le nom **ouvre** le fichier. Une photo s'affiche directement dans votre navigateur ;
   d'autres fichiers peuvent arriver en téléchargement. Voir [Pièces jointes](bijlagen.fr.md).
 - La limite est de **25 Mo par fichier**.
+
+### L'onglet E-mails
+
+Sous **E-mails** figurent les e-mails de cet enregistrement, du plus récent au plus ancien : l'objet, la date
+et le destinataire — ou l'expéditeur, pour un e-mail reçu. Cliquez sur un e-mail pour le lire, avec **De**,
+**À** et le texte.
+
+- Sur un **devis**, une **facture** et un **bon de travail**, ce sont les e-mails que vous avez envoyés depuis
+  Nimble : le devis, les [rappels](sales/reminders.fr.md) et le bon de travail signé, tels qu'ils sont partis.
+- Sur une **relation** et un **projet**, ce sont les e-mails de l'archive de votre entreprise.
+
+Cet onglet sert uniquement à la lecture. Pour envoyer un e-mail, partez du document lui-même, avec le texte de
+vos [modèles de mail](settings/mail-templates.fr.md).
 
 ## Enregistrer, annuler, supprimer
 

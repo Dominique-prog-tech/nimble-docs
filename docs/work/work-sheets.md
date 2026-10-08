@@ -28,8 +28,8 @@ altijd bij een werkorder.
 - **Nieuwe werkbon** opent een lege fiche.
 - De drie knoppen naast Zoeken zijn de filter, de kolomkiezer en **Exporteren**.
 
-Rechts zit de lade **Journaal**, bij de werkbon waarop uw cursor staat: taken, notities, bijlagen en
-logboek zonder de fiche te openen.
+Rechts zit de lade **Journaal**, bij de werkbon waarop uw cursor staat: taken, notities, bijlagen, mails
+en logboek zonder de fiche te openen.
 
 ### Lopende klokken
 
@@ -53,8 +53,8 @@ U opent een fiche door te dubbelklikken op een rij.
 ![De fiche van een werkbon: bovenaan het werkordernummer met de datum en een link naar het project, daaronder de blokken De werkdag, Uren per medewerker, Voortgang en meerwerk en Verbruikt materiaal.](../images/werkbon-fiche.png)
 
 Bovenaan staat het werkordernummer met de datum, en daaronder een link naar het **project** waar die
-werkorder onder valt. Links staat het tabblad **De werkdag**, rechts **Taken**, **Notities**, **Bijlagen**
-en **Logboek**.
+werkorder onder valt. Links staat het tabblad **De werkdag**, rechts **Taken**, **Notities**, **Bijlagen**,
+**Mails** en **Logboek**.
 
 Onderaan staat de knoppenbalk: **Bewaren**, **Afdrukvoorbeeld**, **Annuleren** en, apart rechts,
 **Verwijderen**. Mag u de werkbon niet wijzigen, dan ziet u enkel **Naar de lijst**.
@@ -96,6 +96,10 @@ de stand, wanneer en door wie beslist — kan nog wijzigen.
 
 Klopt er toch iets niet, dan klikt u **Handtekening intrekken**. De werkbon is daarna weer te bewerken en de
 klant moet opnieuw tekenen. De getekende PDF blijft bij de bijlagen.
+
+In de app kan de ploeg de getekende werkbon ook naar de klant mailen, met **Mail naar de klant**. Die mail
+vertrekt met de tekst en de afzender van het [mailsjabloon](../settings/mail-templates.md) *Getekende werkbon*,
+in de taal van de klant, en staat daarna bij **Mails** op de werkbon.
 
 ### De werkdag
 

@@ -30,7 +30,7 @@ relève toujours d'un ordre de travail.
 - Les trois boutons à côté de Rechercher sont le filtre, le sélecteur de colonnes et **Exporter**.
 
 À droite se trouve le tiroir **Journal**, pour le bon sur lequel se trouve votre curseur : tâches, notes,
-pièces jointes et historique sans ouvrir la fiche.
+pièces jointes, e-mails et historique sans ouvrir la fiche.
 
 ### Chronomètres en cours
 
@@ -55,7 +55,7 @@ Vous ouvrez une fiche en double-cliquant sur une ligne.
 
 En haut figurent le numéro de l'ordre de travail et la date, et en dessous un lien vers le **projet** dont
 relève cet ordre. À gauche se trouve l'onglet **La journée de travail**, à droite **Tâches**, **Notes**,
-**Pièces jointes** et **Historique**.
+**Pièces jointes**, **E-mails** et **Historique**.
 
 En bas se trouve la barre de boutons : **Enregistrer**, **Aperçu avant impression**, **Annuler** et, à part
 à droite, **Supprimer**. Si vous ne pouvez pas modifier le bon, vous ne voyez que **Vers la liste**.
@@ -99,6 +99,10 @@ supplémentaires — l'état, quand et par qui la décision a été prise — pe
 
 Si quelque chose ne va pas, cliquez sur **Retirer la signature**. Le bon redevient modifiable et le client
 doit signer à nouveau. Le PDF signé reste dans les pièces jointes.
+
+Dans l'application, l'équipe peut aussi envoyer le bon signé au client, avec **Envoyer au client**. Ce mail
+part avec le texte et l'expéditeur du [modèle de mail](../settings/mail-templates.md) *Bon de travail signé*,
+dans la langue du client, et figure ensuite sous **E-mails** sur le bon de travail.
 
 ### La journée de travail
 

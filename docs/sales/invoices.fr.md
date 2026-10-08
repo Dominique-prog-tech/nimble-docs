@@ -40,7 +40,7 @@ Au-dessus de la liste figurent :
 - **Exporter**, les boutons de filtre et le champ de recherche.
 
 **Double-cliquez** une ligne pour ouvrir la facture. À droite de la liste se trouve la barre étroite
-**Journal** : dépliez-la pour voir les tâches, notes, pièces jointes et l'historique de la facture
+**Journal** : dépliez-la pour voir les tâches, notes, pièces jointes, e-mails et l'historique de la facture
 sélectionnée dans la liste.
 
 ### Les statuts
@@ -77,8 +77,9 @@ Vous pouvez aussi facturer un devis accepté depuis le devis lui-même, avec **F
 En haut figurent le numéro et le statut. Une facture émise porte en plus la mention **verrouillée** ; une
 note de crédit l'étiquette **Note de crédit**.
 
-La fiche comporte les onglets **Général**, **Tâches**, **Notes**, **Pièces jointes** et **Historique**. Le
-fonctionnement des quatre derniers est décrit dans [Travailler avec une fiche](../fiches.md).
+La fiche comporte les onglets **Général**, **Tâches**, **Notes**, **Pièces jointes**, **E-mails** et
+**Historique**. Le fonctionnement des cinq derniers est décrit dans [Travailler avec une fiche](../fiches.md).
+Sous **E-mails** figurent les [rappels](reminders.md) envoyés pour cette facture.
 
 ### Le bloc Données de la facture
 

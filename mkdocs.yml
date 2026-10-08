@@ -153,6 +153,8 @@ plugins:
             Platformbeheer: Administration
             Bedrijfsfiche: Fiche d'entreprise
             Documentsjablonen: Modèles de documents
+            Mailsjablonen: Modèles de mail
+            Mailafzenders: Expéditeurs de mail
             Artikelfamilies: Familles d'articles
             Eenheden: Unités de mesure
             Stamgegevens: Données de base
@@ -255,6 +257,8 @@ nav:
     - Platformbeheer: administration/platform-management.md
     - Bedrijfsfiche: settings/company-profile.md
     - Documentsjablonen: settings/document-templates.md
+    - Mailsjablonen: settings/mail-templates.md
+    - Mailafzenders: settings/mail-senders.md
     - Artikelfamilies: administration/article-families.md
     - Eenheden: administration/units.md
     - Stamgegevens: administration/master-data.md

@@ -379,8 +379,9 @@ laat goedkeuren en factureert, leest u in [Vorderingsstaten](../sales/progress-r
 
 ### Mails in het journaal
 
-Rechts bij **Mails** staan de mails van dit project: de offertes en facturen die gemaild zijn, en de
-antwoorden. Klik een mail om ze te lezen. Van mails uit het vorige programma kan het zijn dat enkel wie,
+Rechts bij **Mails** staan de mails van dit project uit het archief: de offertes en facturen die gemaild
+zijn, en de antwoorden. Een offerte, aanmaning of getekende werkbon die u vanuit Nimble mailt, staat bij
+**Mails** op die offerte, factuur of werkbon zelf. Klik een mail om ze te lezen. Van mails uit het vorige programma kan het zijn dat enkel wie,
 wanneer en het onderwerp bewaard zijn; dat zegt het venster dan.
 
 ## Factureren in regie

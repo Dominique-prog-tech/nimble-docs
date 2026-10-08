@@ -66,18 +66,22 @@ Laat u een veld leeg, dan geldt daar veertien dagen. Leeg betekent dus niet: gee
 
 ## Versturen
 
-**Versturen…** opent het venster **Aanmaning versturen** met:
+**Versturen…** opent het venster **Aanmaning versturen** met de mail uit het [mailsjabloon](../settings/mail-templates.md)
+van die stap — elke stap heeft een eigen sjabloon:
 
+- **Van** — de afzender van dat sjabloon, of uw standaardafzender;
 - **Aan** — het e-mailadres van de klant;
-- **Onderwerp** — met het factuurnummer;
-- **Bericht** — een voorstel van tekst dat past bij de stap, in de taal van de klant.
+- **Onderwerp** — uit het sjabloon, met het factuurnummer;
+- **Tekst** — de mail zoals ze vertrekt, in de taal van de klant.
 
-Die tekst past u aan voor u verstuurt — wie zijn klant kent, schrijft de eerste herinnering anders. Klik op
-**Versturen en optekenen**. Nimble verstuurt de mail en tekent op dát de aanmaning vertrokken is, met de
-datum. Dat is wat de volgende stap uitstelt.
+Wie zijn klant kent, schrijft de eerste herinnering anders. Met **Tekst aanpassen** zet u de mail in een
+editor; wat u daar wijzigt, geldt enkel voor deze aanmaning. Wilt u het voor elke aanmaning anders, pas dan
+het sjabloon aan. Klik op **Versturen en optekenen**. Nimble verstuurt de mail en tekent op dát de aanmaning
+vertrokken is, met de datum. Dat is wat de volgende stap uitstelt. De mail staat daarna bij **Mails** op de
+factuur.
 
 !!! warning "De factuur gaat niet mee als bijlage"
-    Verwijs in uw tekst naar het factuurnummer. Het staat standaard al in het voorstel.
+    Verwijs in uw tekst naar het factuurnummer. Het staat standaard al in de tekst.
 
 Heeft de klant geen e-mailadres, dan staat **Versturen…** grijs en leest u: *Deze klant heeft geen
 e-mailadres. Verstuur de aanmaning buiten Nimble en teken ze hier op.*

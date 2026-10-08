@@ -394,7 +394,9 @@ compléter un état, le faire approuver et le facturer : voir [États d'avanceme
 
 ### E-mails dans le journal
 
-À droite, sous **E-mails**, figurent les e-mails de ce projet : les devis et factures envoyés, et les réponses.
+À droite, sous **E-mails**, figurent les e-mails de ce projet issus de l'archive : les devis et factures
+envoyés, et les réponses. Un devis, un rappel ou un bon de travail signé que vous envoyez depuis Nimble
+figure sous **E-mails** sur ce devis, cette facture ou ce bon de travail lui-même.
 Cliquez sur un e-mail pour le lire. Pour les e-mails de l'ancien programme, il se peut que seuls l'expéditeur,
 la date et l'objet aient été conservés ; la fenêtre le signale alors.
 

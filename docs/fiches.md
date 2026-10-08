@@ -41,10 +41,11 @@ Bovenaan de fiche staan twee groepen tabbladen.
 **Links** staan de gegevens van het record zelf. Op de meeste fiches is dat er één — **Algemeen** of
 **Fiche** — op de relatiefiche zijn het er twee, met **Contactpersonen** erbij.
 
-**Rechts** staat het journaal: **Taken**, **Notities**, **Bijlagen** en **Logboek**. Dat zijn de dingen
-die aan het record hangen.
+**Rechts** staat het journaal: **Taken**, **Notities**, **Bijlagen** en **Logboek** — en op een relatie,
+een project, een offerte, een factuur en een werkbon ook **Mails**. Dat zijn de dingen die aan het record
+hangen.
 
-![Een relatiefiche met links de tabbladen Fiche en Contactpersonen, rechts Taken, Notities, Bijlagen en Logboek.](images/fiche-tabbladen.png)
+![Een relatiefiche met links de tabbladen Fiche en Contactpersonen, rechts Taken, Notities, Bijlagen, Mails en Logboek.](images/fiche-tabbladen.png)
 
 !!! info "De knoppen verdwijnen op een journaal-tabblad"
     Bewaren en Verwijderen horen bij het formulier. Staat u op **Bijlagen**, dan ziet u die knoppen niet
@@ -130,6 +131,18 @@ Hoeveel kolommen u ziet, hangt af van de breedte:
 - Klikt u op de naam, dan **opent** het bestand. Een foto toont uw browser meteen; andere bestanden kunnen
   ook als download binnenkomen. Zie [Bijlagen](bijlagen.md).
 - Er geldt een bovengrens van **25 MB per bestand**.
+
+### Het tabblad Mails
+
+Bij **Mails** staan de mails van dit record, nieuwste eerst: het onderwerp, de datum en aan wie — of van wie,
+bij een mail die binnenkwam. Klik een mail om ze te lezen, met **Van**, **Aan** en de tekst.
+
+- Op een **offerte**, een **factuur** en een **werkbon** zijn dat de mails die u vanuit Nimble verstuurde: de
+  offerte, de [aanmaningen](sales/reminders.md) en de getekende werkbon, zoals ze vertrokken.
+- Op een **relatie** en een **project** zijn dat de mails uit het archief van uw bedrijf.
+
+Het tabblad is enkel om te lezen. Een mail versturen doet u vanuit het stuk zelf, met de tekst uit uw
+[mailsjablonen](settings/mail-templates.md).
 
 ## Bewaren, annuleren, verwijderen
 

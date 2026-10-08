@@ -33,7 +33,7 @@ niet bij. Rechts staan **Nieuwe offerte**, **Exporteren** en het zoekveld.
 **Dubbelklik** een rij om de offerte te openen.
 
 Rechts van de lijst staat de smalle balk **Journaal**. Klapt u die open, dan ziet u de taken, notities,
-bijlagen en het logboek van de offerte die u in de lijst aangeklikt hebt, zonder ze te openen.
+bijlagen, mails en het logboek van de offerte die u in de lijst aangeklikt hebt, zonder ze te openen.
 
 ### Bord
 
@@ -79,8 +79,8 @@ dan staat *Niet bewaard* naast het nummer.
 Bovenaan staan het nummer, de klant en de datum. Rechtsboven staat het **Totaal incl. btw**; dat blijft
 staan wanneer u naar beneden scrolt.
 
-De fiche heeft de tabbladen **Offerte**, **Taken**, **Notities**, **Bijlagen** en **Logboek**. Hoe die
-laatste vier werken, leest u in [Werken met een fiche](../fiches.md).
+De fiche heeft de tabbladen **Offerte**, **Taken**, **Notities**, **Bijlagen**, **Mails** en **Logboek**. Hoe
+die laatste vijf werken, leest u in [Werken met een fiche](../fiches.md).
 
 Is de offerte gemaild of online voorgelegd, dan staan er in het blok Offertegegevens extra regels:
 
@@ -209,23 +209,36 @@ oorzaak. Geef die tekst door wanneer u hulp vraagt.
 Klik op **Mailen**. Hebt u nog onbewaarde wijzigingen, dan vraagt Nimble u eerst te bewaren: wat u mailt,
 moet ook in het dossier staan.
 
-Het venster **Offerte mailen** staat al ingevuld:
+Het venster **Offerte mailen** staat al ingevuld met de mail uit uw [mailsjabloon](../settings/mail-templates.md)
+*Offerte*, met de gegevens van deze offerte:
 
 | Veld | Inhoud |
 |---|---|
+| **Van** | De afzender van het mailsjabloon, of uw standaardafzender — zie [Mailafzenders](../settings/mail-senders.md) |
 | **Aan** | Verplicht. Het e-mailadres van de klant |
-| **Onderwerp** | Verplicht. Met uw offertenummer erin |
-| **Bericht** | Een begeleidende tekst, aan te passen |
+| **Onderwerp** | Verplicht. Uit het mailsjabloon, met uw offertenummer erin |
+| **Tekst** | De mail zoals ze vertrekt |
 | **Bijlage** | De offerte als PDF, met de grootte erbij |
 
-Alles is aanpasbaar vóór u op **Versturen** klikt. De mail vertrekt in de taal van de klant, net als de
-offerte zelf.
+![Het venster Offerte mailen: bovenaan Van, daaronder de velden Aan en Onderwerp, dan de tekst van de mail met de knop Tekst aanpassen, en onderaan de bijlage en de knoppen Versturen en Annuleren.](../images/offerte-mailvenster.png)
 
-Na het versturen gebeuren er drie dingen:
+**Aan** en **Onderwerp** past u rechtstreeks aan. Wilt u ook de tekst aanpassen, klik dan op **Tekst
+aanpassen**: de mail komt in een editor. Wat u daar wijzigt, geldt enkel voor deze mail — het mailsjabloon
+blijft zoals het is. De mail vertrekt in de taal van de klant, net als de offerte zelf.
+
+Staat in het mailsjabloon de link naar de online offerte, dan krijgt de klant die link in de mail:
+
+- Staat de offerte al online, dan is het die link.
+- Staat ze nog niet online, of is de link vervallen, dan meldt het venster: *Deze mail bevat de link naar de
+  online offerte. Bij het versturen zet Nimble de offerte online.* Dat gebeurt pas wanneer u op
+  **Versturen** klikt, en enkel als de link dan nog in de mail staat.
+
+Na het versturen gebeuren er vier dingen:
 
 - Stond de offerte op **Klad**, dan gaat ze vanzelf naar **Verstuurd**.
 - Een kopie van de verstuurde PDF komt bij de **Bijlagen** van de offerte, met het adres erbij.
 - Op de fiche verschijnt **Verstuurd op**, met datum en adres.
+- De mail zelf staat bij **Mails** op de offerte, zoals ze vertrok.
 
 !!! tip "Zelf al bezorgd? Gebruik Markeren als verstuurd"
     Hebt u de offerte per post of vanuit uw eigen mailprogramma bezorgd, gebruik dan **Markeren als
@@ -240,7 +253,9 @@ Na het versturen gebeuren er drie dingen:
 Met **Online voorleggen** zet Nimble de offerte op een eigen pagina. De klant kan ze daar bekijken en
 aanvaarden of weigeren. Onbewaarde wijzigingen worden eerst bewaard.
 
-- De link staat daarna op de fiche bij **Online voorgelegd**. Stuur ze zelf door.
+- De link staat daarna op de fiche bij **Online voorgelegd**. Stuur ze zelf door, of zet de variabele
+  `{{online_link}}` in uw [mailsjabloon](../settings/mail-templates.md#de-link-naar-de-online-offerte): dan
+  krijgt de klant de link in de mail.
 - De link geldt tot de datum bij **Geldig tot**. Staat daar niets, dan geldt ze dertig dagen.
 - Ligt **Geldig tot** in het verleden, dan weigert Nimble de offerte online te zetten en leest u waarom.
 - Aanvaardt of weigert de klant online, dan past Nimble de status van de offerte aan. Hebt u de offerte

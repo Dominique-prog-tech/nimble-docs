@@ -65,18 +65,21 @@ Si vous laissez un champ vide, quatorze jours s'y appliquent. Vide ne signifie d
 
 ## Envoyer
 
-**Envoyer…** ouvre la fenêtre **Envoyer un rappel** avec :
+**Envoyer…** ouvre la fenêtre **Envoyer un rappel** avec le mail du [modèle de mail](../settings/mail-templates.md)
+de cette étape — chaque étape a son propre modèle :
 
+- **De** — l'expéditeur de ce modèle, ou votre expéditeur par défaut ;
 - **À** — l'adresse e-mail du client ;
-- **Objet** — avec le numéro de facture ;
-- **Message** — une proposition de texte adaptée à l'étape, dans la langue du client.
+- **Objet** — issu du modèle, avec le numéro de facture ;
+- **Texte** — le mail tel qu'il partira, dans la langue du client.
 
-Vous adaptez ce texte avant l'envoi — qui connaît son client rédige autrement son premier rappel. Cliquez
-sur **Envoyer et enregistrer**. Nimble envoie l'e-mail et enregistre que le rappel est parti, avec la date.
-C'est ce qui décale l'étape suivante.
+Qui connaît son client rédige autrement son premier rappel. **Modifier le texte** place le mail dans un
+éditeur ; ce que vous y changez ne vaut que pour ce rappel. Pour le changer pour chaque rappel, adaptez le
+modèle. Cliquez sur **Envoyer et enregistrer**. Nimble envoie l'e-mail et enregistre que le rappel est parti,
+avec la date. C'est ce qui décale l'étape suivante. Le mail figure ensuite sous **E-mails** sur la facture.
 
 !!! warning "La facture n'est pas jointe"
-    Faites référence au numéro de facture dans votre texte. Il figure déjà par défaut dans la proposition.
+    Faites référence au numéro de facture dans votre texte. Il figure déjà par défaut dans le texte.
 
 Si le client n'a pas d'adresse e-mail, **Envoyer…** est grisé et vous lisez : *Ce client n'a pas d'adresse
 e-mail. Envoyez le rappel en dehors de Nimble et enregistrez-le ici.*
