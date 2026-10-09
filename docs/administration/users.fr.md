@@ -77,6 +77,13 @@ Cliquez sur **⋯** dans la ligne de l'utilisateur :
 
 Il n'y a pas d'action pour supprimer un utilisateur. Quelqu'un qui s'en va, vous le désactivez.
 
+## Mot de passe oublié
+
+Quiconque a perdu son mot de passe ne doit pas passer par vous. L'écran de connexion propose **Mot de passe oublié ?** :
+après avoir saisi l'adresse e-mail, un e-mail arrive avec un lien pour choisir soi-même un nouveau mot de passe. Le lien
+est valable une heure et ne fonctionne qu'une seule fois. Nimble donne toujours la même réponse, même pour une adresse
+sans compte, et n'envoie rien à un utilisateur désactivé.
+
 ## Vérifier les liaisons
 
 **Vérifier les liaisons** demande à ADM One si chaque liaison enregistrée y existe réellement. Un message avec

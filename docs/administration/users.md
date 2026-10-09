@@ -76,6 +76,13 @@ Klik op **⋯** in de rij van de gebruiker:
 
 Er is geen actie om een gebruiker te verwijderen. Wie vertrekt, deactiveert u.
 
+## Wachtwoord vergeten
+
+Wie het wachtwoord kwijt is, hoeft niet bij u aan te kloppen. Op het aanmeldscherm staat **Wachtwoord vergeten?**:
+na het invullen van het e-mailadres volgt een mail met een link om zelf een nieuw wachtwoord te kiezen. De link is
+één uur geldig en werkt één keer. Nimble geeft altijd hetzelfde antwoord, ook voor een adres dat geen account heeft, en
+stuurt niets naar een gedeactiveerde gebruiker.
+
 ## Koppelingen controleren
 
 **Koppelingen controleren** vraagt aan ADM One of elke opgeslagen koppeling daar echt bestaat. Onder de lijst
