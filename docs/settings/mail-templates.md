@@ -1,6 +1,7 @@
 # Mailsjablonen
 
-Nimble verstuurt voor u de mail bij een offerte, de aanmaningen en de getekende werkbon. Hier bepaalt u
+Nimble verstuurt voor u de mail bij een offerte, de aanmaningen, de getekende werkbon en de melding van een toegewezen
+taak. Hier bepaalt u
 van welk adres die mails vertrekken, en per taal het onderwerp en de tekst.
 
 ## Het scherm openen
@@ -24,6 +25,7 @@ Bovenaan kiest u het **Sjabloon**:
 | **Aanmaning — laatste herinnering** | Idem, voor de derde stap |
 | **Aanmaning — ingebrekestelling (incasso)** | Idem, voor de aankondiging van de incasso |
 | **Getekende werkbon** | Wanneer de ploegbaas de getekende werkbon vanuit de app naar de klant mailt |
+| **Taak toegewezen** | Wanneer iemand een taak toegewezen krijgt — enkel als dat aanstaat op de [Bedrijfsfiche](company-profile.md#mail-bij-het-toewijzen-van-een-taak) |
 
 Elke stap van de aanmaningen heeft een eigen sjabloon: een eerste herinnering schrijft u anders dan een
 ingebrekestelling.
@@ -59,9 +61,9 @@ enkel de variabelen die in het gekozen sjabloon werken.
 
 | Variabele | Wat er in de mail komt | Sjablonen |
 |---|---|---|
-| `{{klant}}` | Naam van de klant | Alle |
+| `{{klant}}` | Naam van de klant | Offerte, aanmaningen, getekende werkbon |
 | `{{nummer}}` | Nummer van de offerte of factuur | Offerte, aanmaningen |
-| `{{datum}}` | Datum van het document | Alle |
+| `{{datum}}` | Datum van het document | Offerte, aanmaningen, getekende werkbon |
 | `{{geldig_tot}}` | Geldig tot | Offerte |
 | `{{bedrag}}` | Bedrag | Offerte, aanmaningen |
 | `{{vervaldag}}` | Vervaldag | Aanmaningen |
@@ -69,9 +71,17 @@ enkel de variabelen die in het gekozen sjabloon werken.
 | `{{werkorder}}` | Werkorder | Getekende werkbon |
 | `{{project}}` | Project | Getekende werkbon |
 | `{{getekend_door}}` | Wie tekende | Getekende werkbon |
-| `{{afzender}}` | Naam van wie verstuurt | Alle |
+| `{{afzender}}` | Naam van wie verstuurt | Offerte, aanmaningen, getekende werkbon |
 | `{{bedrijf}}` | Uw bedrijfsnaam | Alle |
 | `{{online_link}}` | Een link naar de online offerte | Offerte |
+| `{{ontvanger}}` | Wie de taak krijgt | Taak toegewezen |
+| `{{taak}}` | Het onderwerp van de taak | Taak toegewezen |
+| `{{taak_omschrijving}}` | De omschrijving van de taak | Taak toegewezen |
+| `{{taak_begin}}` | De begindatum van de taak | Taak toegewezen |
+| `{{taak_vervaldag}}` | De vervaldag van de taak | Taak toegewezen |
+| `{{taak_bij}}` | Waar de taak bij hoort (project, relatie, lead) | Taak toegewezen |
+| `{{toegewezen_door}}` | Wie de taak toewees, of Nimble bij een automatische taak | Taak toegewezen |
+| `{{taak_link}}` | Een link naar de takenlijst in Nimble | Taak toegewezen |
 
 ### De link naar de online offerte
 
@@ -115,7 +125,8 @@ mail zoals ze vertrekt, met de echte gegevens. Met **Tekst aanpassen** past u ze
 het sjabloon zelf verandert daar niet door. Zie [De offerte mailen](../sales/quotes.md#de-offerte-mailen) en
 [Aanmaningen](../sales/reminders.md#versturen).
 
-De getekende werkbon vertrekt vanuit de app, zonder venster: daar geldt het sjabloon zoals het is.
+De getekende werkbon vertrekt vanuit de app, zonder venster: daar geldt het sjabloon zoals het is. Ook de melding van een
+toegewezen taak vertrekt zonder venster, in de taal van wie de taak krijgt — niet die van een klant.
 
 ## Veelgemaakte fouten
 

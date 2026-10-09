@@ -112,6 +112,13 @@ belletje rechtsboven. Klikken brengt u naar dit scherm.
     de klant of het project. Op dit overzicht kunt u het niet instellen. Een bestaande herinnering blijft
     wel gewoon staan als u de taak hier bewerkt.
 
+
+## Een mail bij een nieuwe taak
+
+Staat het aan op de [Bedrijfsfiche](../settings/company-profile.md#mail-bij-het-toewijzen-van-een-taak), dan krijgt wie een
+taak toegewezen krijgt een mail met een link naar dit scherm — ook bij een taak die Nimble zelf aanmaakt. Een taak die u
+zichzelf geeft, stuurt geen mail. Standaard staat het uit.
+
 ## De lijst meenemen
 
 Rechtsboven staat **Exporteren**: de lijst gaat naar Excel of CSV, met de filters die op dat moment

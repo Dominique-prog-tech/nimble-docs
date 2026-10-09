@@ -21,7 +21,7 @@ La fiche a deux onglets : **Données de l'entreprise** avec les cartes ci-dessou
 | Carte | Champs |
 |---|---|
 | **Identité** | Nom (obligatoire), TVA / n° d'entreprise avec le bouton **Récupérer**, Numéro FSMA |
-| **Contact** | Téléphone, Fax, E-mail, Site web, **Leads du site web vers** |
+| **Contact** | Téléphone, Fax, E-mail, Site web, **Leads du site web vers**, **E-mail lors de l'attribution d'une tâche** |
 | **Paramètres financiers** | Délai de paiement par défaut (jours), Premier rappel après (jours), Ensuite tous les (jours), Marge verte à partir de (%), Marge orange à partir de (%), Article horaire standard (régie), Enregistrer le temps de déplacement, Article pour le déplacement (régie) |
 | **Adresse** | Rue, N°, Boîte, Code postal, Commune, Pays |
 | **Banque** | IBAN, BIC, Compte — et un second compte : IBAN (2), BIC (2), Compte (2) |
@@ -43,6 +43,19 @@ avertissement.
   donc rien ne se perd — mais vous ne le voyez qu'en consultant Nimble.
 
 Voir [Leads](../crm/leads.md) pour ce qu'il advient d'une telle demande.
+
+
+## E-mail lors de l'attribution d'une tâche
+
+Si **E-mail lors de l'attribution d'une tâche** est activé, la personne à qui une tâche est attribuée reçoit un e-mail :
+la tâche, ce à quoi elle se rapporte, la date de début et l'échéance, et un lien vers [Tâches](../crm/tasks.md).
+
+- Cela vaut pour chaque nouvelle attribution, aussi pour une tâche que Nimble crée lui-même, comme le suivi d'un lead.
+- Une tâche que vous vous attribuez n'envoie pas d'e-mail.
+- L'e-mail suit la langue de la personne qui reçoit la tâche.
+- Vous adaptez le texte dans [Modèles de mail](mail-templates.md), modèle **Tâche attribuée**.
+
+Par défaut, l'option est **désactivée**.
 
 ## Paramètres financiers
 

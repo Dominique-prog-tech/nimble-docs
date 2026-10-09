@@ -113,6 +113,13 @@ Si une tâche porte un **rappel** et que ce moment est passé, un compteur appar
     du projet. Vous ne pouvez pas le régler depuis cet aperçu. Un rappel existant reste bien en place si
     vous modifiez la tâche ici.
 
+
+## Un e-mail pour une nouvelle tâche
+
+Si c'est activé dans la [Fiche entreprise](../settings/company-profile.md#e-mail-lors-de-lattribution-dune-tache), la
+personne à qui une tâche est attribuée reçoit un e-mail avec un lien vers cet écran — aussi pour une tâche que Nimble crée
+lui-même. Une tâche que vous vous attribuez n'envoie pas d'e-mail. Par défaut, c'est désactivé.
+
 ## Emporter la liste
 
 En haut à droite figure **Exporter** : la liste part vers Excel ou CSV, avec les filtres actifs à ce

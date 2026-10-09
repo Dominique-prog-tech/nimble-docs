@@ -21,7 +21,7 @@ De fiche heeft twee tabbladen: **Bedrijfsgegevens** met de kaarten hieronder, en
 | Kaart | Velden |
 |---|---|
 | **Identiteit** | Naam (verplicht), BTW / ondernemingsnr. met de knop **Ophalen**, FSMA-nummer |
-| **Contact** | Telefoon, Fax, E-mail, Website, **Website-leads naar** |
+| **Contact** | Telefoon, Fax, E-mail, Website, **Website-leads naar**, **Mail bij het toewijzen van een taak** |
 | **Financiële instellingen** | Standaard betalingstermijn (dagen), Eerste aanmaning na (dagen), Daarna elke (dagen), Marge groen vanaf (%), Marge oranje vanaf (%), Standaard-uurartikel (regie), Reistijd registreren, Artikel voor reistijd (regie) |
 | **Adres** | Straat, Nr., Bus, Postcode, Gemeente, Land |
 | **Bank** | IBAN, BIC, Rekening — en een tweede rekening: IBAN (2), BIC (2), Rekening (2) |
@@ -41,6 +41,19 @@ verwittigt u per e-mail. In het veld **Website-leads naar** bepaalt u wie die me
   er gaat niets verloren — maar u ziet ze pas wanneer u in Nimble kijkt.
 
 Zie [Leads](../crm/leads.md) voor wat er met zo'n aanvraag gebeurt.
+
+
+## Mail bij het toewijzen van een taak
+
+Staat **Mail bij het toewijzen van een taak** aan, dan krijgt wie een taak toegewezen krijgt een mail: de taak, waar ze bij
+hoort, de begin- en vervaldag en een link naar [Taken](../crm/tasks.md).
+
+- Het geldt voor elke nieuwe toewijzing, ook voor een taak die Nimble zelf aanmaakt, zoals de opvolging van een lead.
+- Wie zichzelf een taak geeft, krijgt geen mail.
+- De mail volgt de taal van wie de taak krijgt.
+- De tekst past u aan op [Mailsjablonen](mail-templates.md), sjabloon **Taak toegewezen**.
+
+Standaard staat het **uit**.
 
 ## Financiële instellingen
 

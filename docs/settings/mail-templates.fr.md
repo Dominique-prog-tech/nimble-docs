@@ -1,6 +1,7 @@
 # Modèles de mail
 
-Nimble envoie pour vous le mail d'un devis, les rappels et le bon de travail signé. C'est ici que vous
+Nimble envoie pour vous le mail d'un devis, les rappels, le bon de travail signé et l'avis d'une tâche attribuée. C'est ici
+que vous
 déterminez l'adresse depuis laquelle ces mails partent, et pour chaque langue l'objet et le texte.
 
 ## Ouvrir l'écran
@@ -24,6 +25,7 @@ En haut, vous choisissez le **Modèle** :
 | **Rappel — dernier rappel** | Idem, pour la troisième étape |
 | **Rappel — mise en demeure (recouvrement)** | Idem, pour l'annonce du recouvrement |
 | **Bon de travail signé** | Quand le chef d'équipe envoie le bon de travail signé au client depuis l'application |
+| **Tâche attribuée** | Quand une tâche est attribuée à quelqu'un — uniquement si c'est activé dans la [Fiche entreprise](company-profile.md#e-mail-lors-de-lattribution-dune-tache) |
 
 Chaque étape des rappels a son propre modèle : un premier rappel ne s'écrit pas comme une mise en demeure.
 
@@ -58,9 +60,9 @@ montre que les variables qui fonctionnent dans le modèle choisi.
 
 | Variable | Ce qui figure dans le mail | Modèles |
 |---|---|---|
-| `{{klant}}` | Nom du client | Tous |
+| `{{klant}}` | Nom du client | Devis, rappels, bon de travail signé |
 | `{{nummer}}` | Numéro du devis ou de la facture | Devis, rappels |
-| `{{datum}}` | Date du document | Tous |
+| `{{datum}}` | Date du document | Devis, rappels, bon de travail signé |
 | `{{geldig_tot}}` | Valable jusqu'au | Devis |
 | `{{bedrag}}` | Montant | Devis, rappels |
 | `{{vervaldag}}` | Échéance | Rappels |
@@ -68,9 +70,17 @@ montre que les variables qui fonctionnent dans le modèle choisi.
 | `{{werkorder}}` | Ordre de travail | Bon de travail signé |
 | `{{project}}` | Projet | Bon de travail signé |
 | `{{getekend_door}}` | Signataire | Bon de travail signé |
-| `{{afzender}}` | Nom de la personne qui envoie | Tous |
+| `{{afzender}}` | Nom de la personne qui envoie | Devis, rappels, bon de travail signé |
 | `{{bedrijf}}` | Nom de votre entreprise | Tous |
 | `{{online_link}}` | Un lien vers le devis en ligne | Devis |
+| `{{ontvanger}}` | Destinataire de la tâche | Tâche attribuée |
+| `{{taak}}` | L'objet de la tâche | Tâche attribuée |
+| `{{taak_omschrijving}}` | La description de la tâche | Tâche attribuée |
+| `{{taak_begin}}` | La date de début de la tâche | Tâche attribuée |
+| `{{taak_vervaldag}}` | L'échéance de la tâche | Tâche attribuée |
+| `{{taak_bij}}` | Ce à quoi la tâche se rapporte (projet, relation, lead) | Tâche attribuée |
+| `{{toegewezen_door}}` | Qui a attribué la tâche, ou Nimble pour une tâche automatique | Tâche attribuée |
+| `{{taak_link}}` | Un lien vers la liste des tâches dans Nimble | Tâche attribuée |
 
 ### Le lien vers le devis en ligne
 
@@ -114,7 +124,8 @@ qu'il partira, avec les vraies données. **Modifier le texte** vous permet encor
 — le modèle lui-même ne change pas. Voir [Envoyer le devis par e-mail](../sales/quotes.md#envoyer-le-devis-par-e-mail)
 et [Rappels](../sales/reminders.md#envoyer).
 
-Le bon de travail signé part de l'application, sans fenêtre : le modèle s'applique tel quel.
+Le bon de travail signé part de l'application, sans fenêtre : le modèle s'applique tel quel. L'avis d'une
+tâche attribuée part lui aussi sans fenêtre, dans la langue de la personne qui reçoit la tâche — pas celle d'un client.
 
 ## Erreurs fréquentes
 
