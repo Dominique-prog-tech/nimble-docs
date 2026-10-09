@@ -64,7 +64,7 @@ personne : **Tâches**, **Notes**, **Pièces jointes** et **Historique** — voi
 
 ### Bloc Adresse privée
 
-Rue, code postal, commune et pays. Le code postal et la commune sont des listes de recherche qui se complètent. Ce bloc reste généralement vide pour quelqu'un que vous joignez à une adresse professionnelle ; il est surtout utile pour les clients particuliers.
+Rue, code postal, commune et pays. Dans le champ **Code postal**, vous cherchez par code postal ou par nom de commune ; la commune se remplit toute seule. Pour une adresse hors de Belgique, vous tapez le code postal vous-même. Ce bloc reste généralement vide pour quelqu'un que vous joignez à une adresse professionnelle ; il est surtout utile pour les clients particuliers.
 
 ### Bloc Entreprises
 

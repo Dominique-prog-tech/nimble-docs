@@ -72,7 +72,7 @@ aan de telefoon te horen krijgt.
 | **Telefoon** | Optioneel, maar moet een geldig telefoonnummer zijn als u iets invult |
 | **E-mail** | Optioneel, maar moet geldig zijn als u iets invult — u krijgt meteen een melding bij een ongeldig adres |
 | **Straat / Nr** | |
-| **Postcode / Gemeente** | Typ in een van beide velden en zoek in de lijst; het andere veld vult automatisch aan |
+| **Postcode / Gemeente** | Typ in **Postcode** een postcode of een gemeentenaam en kies uit de lijst; de gemeente vult automatisch aan |
 | **Categorie** | Optionele klantcategorie |
 | **Btw-nummer** | Optioneel — zie hieronder |
 

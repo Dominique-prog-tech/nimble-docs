@@ -61,14 +61,14 @@ Vul het btw-nummer in en klik op **Ophalen**. Naam, straat, nummer, postcode, ge
 | Veld | Uitleg |
 |---|---|
 | **Straat** en **Nr** | Vrije tekst. |
-| **Postcode** | Zoeklijst — typ een postcode of een gemeentenaam. De gemeente wordt mee ingevuld. |
-| **Gemeente** | Zoeklijst — werkt in de andere richting: kies een gemeente en de postcode volgt. |
+| **Postcode** | Zoeklijst — typ een postcode of een gemeentenaam. De gemeente wordt mee ingevuld. Staat bij **Land** een ander land dan België, dan typt u de postcode gewoon zelf in. |
+| **Gemeente** | Volgt uit de postcode. U kunt ze daarna nog aanpassen, bijvoorbeeld naar een deelgemeente. |
 | **Land** | Zoeklijst met de landenlijst. |
 
 ![Het blok Adres met straat, nummer, postcode, gemeente en land.](images/relatie-blok-adres.png)
 
-!!! tip "U hoeft er maar één in te vullen"
-    Postcode en gemeente vullen elkaar aan. Kies er één en het andere veld volgt vanzelf.
+!!! tip "Zoek in het veld Postcode, ook op naam"
+    Kent u de postcode niet, typ dan de gemeentenaam in het veld **Postcode** — bijvoorbeeld *Roesel* — en kies *8800 Roeselare*. De gemeente staat dan meteen juist.
 
 ### Blok Contact
 
@@ -145,7 +145,7 @@ Bewaren en Verwijderen verschijnen alleen als u het **bewerkrecht** hebt; zonder
 
 !!! warning
     - **Categorie of bron leeg laten** — beide zijn optioneel, maar zonder ingevulde waarden kunt u later niet rapporteren per klantsoort of per kanaal.
-    - **Postcode en gemeente los van elkaar aanpassen** — gebruik de zoeklijsten; handmatig overtypen kan een combinatie opleveren die niet bestaat.
+    - **Postcode en gemeente los van elkaar aanpassen** — kies de postcode uit de lijst, dan volgt de gemeente. Wie de gemeente apart overtypt, kan een combinatie maken die niet bestaat.
     - **Documenttaal verwarren met uw eigen taal** — dit veld bepaalt de taal van de documenten die de klant krijgt, niet de taal van uw scherm.
     - **Actief uitvinken om iets te verwijderen** — daarvoor dient **Verwijderen**; **Actief** is enkel een markering.
 

@@ -113,7 +113,7 @@ Vindt de KBO geen onderneming voor dat nummer, dan meldt het scherm **Geen onder
 ## Adres invullen
 
 - Typ in het veld **Postcode** — kies uit de lijst; de gemeente wordt automatisch ingevuld.
-- Of zoek in het veld **Gemeente** op naam; de postcode volgt vanzelf.
+- U kunt in het veld **Postcode** ook op gemeentenaam zoeken. Staat bij **Land** een ander land dan België, dan typt u de postcode zelf in.
 - Kies het **Land** uit de lijst.
 
 ## Logo instellen

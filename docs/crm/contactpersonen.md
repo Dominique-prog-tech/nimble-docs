@@ -63,7 +63,7 @@ Links staat het tabblad **Algemeen** met de blokken hieronder. Rechts staat het 
 
 ### Blok Privéadres
 
-Straat, postcode, gemeente en land. Postcode en gemeente zijn zoeklijsten die elkaar aanvullen. Dit blok blijft meestal leeg voor iemand die u op een bedrijfsadres bereikt; het is vooral nuttig bij particuliere klanten.
+Straat, postcode, gemeente en land. In het veld **Postcode** zoekt u op postcode of gemeentenaam; de gemeente vult zich vanzelf in. Bij een adres buiten België typt u de postcode zelf. Dit blok blijft meestal leeg voor iemand die u op een bedrijfsadres bereikt; het is vooral nuttig bij particuliere klanten.
 
 ### Blok Bedrijven
 

@@ -74,7 +74,7 @@ informations au téléphone.
 | **Téléphone** | Optionnel, mais doit être un numéro de téléphone valide si renseigné |
 | **E-mail** | Optionnel, mais doit être valide si renseigné — une alerte s'affiche immédiatement en cas d'adresse invalide |
 | **Rue / N°** | |
-| **Code postal / Commune** | Tapez dans l'un des deux champs et cherchez dans la liste ; l'autre champ se complète automatiquement |
+| **Code postal / Commune** | Tapez dans **Code postal** un code postal ou un nom de commune et choisissez dans la liste ; la commune se complète automatiquement |
 | **Catégorie** | Catégorie client optionnelle |
 | **Numéro de TVA** | Optionnel — voir ci-dessous |
 

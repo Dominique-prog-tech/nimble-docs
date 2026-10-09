@@ -116,7 +116,7 @@ Si la BCE ne trouve aucune entreprise pour ce numéro, l'écran affiche **Aucune
 ## Remplir l'adresse
 
 - Tapez dans le champ **Code postal** — choisissez dans la liste ; la commune se remplit automatiquement.
-- Ou cherchez dans le champ **Commune** par nom ; le code postal suit.
+- Vous pouvez aussi chercher par nom de commune dans le champ **Code postal**. Si **Pays** indique un autre pays que la Belgique, vous tapez le code postal vous-même.
 - Choisissez le **Pays** dans la liste.
 
 ## Définir le logo

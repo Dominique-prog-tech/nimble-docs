@@ -100,7 +100,7 @@ droite, **Supprimer**. La barre reste en place pendant que vous faites défiler 
 | **Budget (HTVA)** | Le budget du projet, hors TVA. Laissez-le vide lorsqu'il n'y a pas de budget |
 | **Commandé** | Cochez lorsque le projet est commandé |
 | **Chantier** | Nom ou désignation du chantier, lorsqu'il porte un autre nom que le projet |
-| **Rue**, **Code postal**, **Commune** | L'adresse du chantier. Tapez dans **Code postal** et choisissez dans la liste ; **Commune** se complète |
+| **Rue**, **Code postal**, **Commune** | L'adresse du chantier. Tapez dans **Code postal** un code postal ou un nom de commune et choisissez dans la liste ; **Commune** se complète. Si le chantier est hors de Belgique, vous tapez le code postal vous-même |
 | **Pays** | Le pays du chantier. Tapez une partie du nom et choisissez dans la liste |
 | **Contact chantier** | L'interlocuteur sur le chantier. Choisissez parmi les personnes de contact de toutes vos relations, donc aussi d'un architecte ou d'un entrepreneur. Derrière le nom figure la relation à laquelle la personne appartient |
 

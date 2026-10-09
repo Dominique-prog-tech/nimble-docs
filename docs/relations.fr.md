@@ -61,14 +61,14 @@ Saisissez le numéro de TVA et cliquez sur **Récupérer**. Le nom, la rue, le n
 | Champ | Explication |
 |---|---|
 | **Rue** et **N°** | Texte libre. |
-| **Code postal** | Liste de recherche — tapez un code postal ou un nom de commune. La commune est remplie automatiquement. |
-| **Commune** | Liste de recherche — fonctionne dans l'autre sens : choisissez une commune et le code postal suit. |
+| **Code postal** | Liste de recherche — tapez un code postal ou un nom de commune. La commune est remplie automatiquement. Si **Pays** indique un autre pays que la Belgique, vous tapez simplement le code postal vous-même. |
+| **Commune** | Découle du code postal. Vous pouvez encore l'adapter ensuite, par exemple pour une section de commune. |
 | **Pays** | Liste de recherche avec la liste des pays. |
 
 ![Le bloc Adresse avec rue, numéro, code postal, commune et pays.](images/relatie-blok-adres-fr.png)
 
-!!! tip "Un seul suffit"
-    Le code postal et la commune se complètent mutuellement. Choisissez-en un et l'autre champ suit tout seul.
+!!! tip "Cherchez dans le champ Code postal, aussi par nom"
+    Vous ne connaissez pas le code postal ? Tapez le nom de la commune dans le champ **Code postal** — par exemple *Roesel* — et choisissez *8800 Roeselare*. La commune est alors correcte d'emblée.
 
 ### Bloc Contact
 
@@ -144,7 +144,7 @@ Enregistrer et Supprimer n'apparaissent que si vous disposez du **droit de modif
 
 !!! warning
     - **Laisser la catégorie ou la source vide** — les deux sont optionnelles, mais sans valeurs vous ne pourrez pas rapporter par type de client ni par canal.
-    - **Modifier le code postal et la commune séparément** — utilisez les listes de recherche ; une saisie manuelle peut produire une combinaison inexistante.
+    - **Modifier le code postal et la commune séparément** — choisissez le code postal dans la liste, la commune suit. Si vous retapez la commune à part, vous risquez une combinaison qui n'existe pas.
     - **Confondre la langue des documents avec votre propre langue** — ce champ détermine la langue des documents que le client reçoit, pas celle de votre écran.
     - **Décocher Actif pour supprimer** — c'est **Supprimer** qui sert à cela ; **Actif** n'est qu'un marqueur.
 

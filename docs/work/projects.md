@@ -98,7 +98,7 @@ Onderaan staat de knoppenbalk: **Bewaren**, **Projectdossier**, **Annuleren** en
 | **Budget (excl. btw)** | Het budget van het project, zonder btw. Laat het leeg wanneer er geen budget is |
 | **Besteld** | Vink aan wanneer het project besteld is |
 | **Werf** | Naam of aanduiding van de werf, wanneer die anders heet dan het project |
-| **Straat**, **Postcode**, **Gemeente** | Het adres van de werf. Typ in **Postcode** en kies uit de lijst; **Gemeente** vult mee aan |
+| **Straat**, **Postcode**, **Gemeente** | Het adres van de werf. Typ in **Postcode** een postcode of een gemeentenaam en kies uit de lijst; **Gemeente** vult mee aan. Ligt de werf buiten België, dan typt u de postcode zelf |
 | **Land** | Het land van de werf. Typ een deel van de naam en kies uit de lijst |
 | **Werfcontact** | Het aanspreekpunt op de werf. Kies uit de contactpersonen van al uw relaties, dus ook van een architect of aannemer. Achter de naam staat bij welke relatie de persoon hoort |
 
