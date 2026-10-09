@@ -103,6 +103,19 @@ navigateur, vous revenez à la même semaine. Un bloc libre n'appartient à aucu
 
 **Bloc libre** en haut du tableau crée directement un bloc sans projet.
 
+## Exporter vers Excel
+
+Avec **Exporter** sur la barre au-dessus du tableau, vous récupérez le planning dans Excel. Vous choisissez la
+**semaine** affichée sur le tableau, ou le **mois** où cette semaine commence — le choix indique lui-même la période,
+par exemple *Semaine 41 (05/10 – 11/10)* ou *Octobre 2026*.
+
+Le fichier contient une ligne par équipe et une colonne par jour ouvrable. Chaque cellule reprend les chantiers du
+jour : le numéro de projet, le nom du chantier et la phase. Un chantier sur plusieurs jours figure sur chaque jour —
+même s'il a commencé avant la période. Deux chantiers le même jour figurent côte à côte, séparés par un point.
+
+!!! note "Sans couleur d'équipe"
+    Les couleurs des équipes ne figurent pas encore dans le fichier Excel ; les lignes portent le nom de l'équipe.
+
 ## Graphiques
 
 Avec **Tableau | Graphiques** en haut, vous passez à deux graphiques sur une année ; **◀ Année précédente** et

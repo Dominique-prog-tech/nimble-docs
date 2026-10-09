@@ -100,6 +100,19 @@ dezelfde week uit. Een vrij blok hoort bij geen project; daar doet een dubbelkli
 
 **Vrij blok** bovenaan het bord maakt meteen een blok zonder project.
 
+## Exporteren naar Excel
+
+Met **Exporteren** op de balk boven het bord haalt u de planning binnen in Excel. U kiest de **week** die op het bord
+staat, of de **maand** waarin die week begint — de keuze noemt de periode zelf, bijvoorbeeld *Week 41 (05/10 – 11/10)*
+of *Oktober 2026*.
+
+In het bestand staat een rij per ploeg en een kolom per werkdag. In elke cel staan de werven van die dag: het
+projectnummer, de werfnaam en de fase. Een werf die over meer dagen loopt, staat op elke dag — ook als ze al vóór de
+periode begon. Staan er twee werven op dezelfde dag, dan staan ze naast elkaar, gescheiden door een punt.
+
+!!! note "Zonder ploegkleur"
+    De kleuren van de ploegen staan nog niet in het Excel-bestand; de rijen dragen de naam van de ploeg.
+
 ## Grafieken
 
 Met **Bord | Grafieken** bovenaan schakelt u naar twee grafieken over één jaar; met **◀ Vorig jaar** en
