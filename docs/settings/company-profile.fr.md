@@ -23,6 +23,7 @@ La fiche a deux onglets : **Données de l'entreprise** avec les cartes ci-dessou
 | **Identité** | Nom (obligatoire), TVA / n° d'entreprise avec le bouton **Récupérer**, Numéro FSMA |
 | **Contact** | Téléphone, Fax, E-mail, Site web, **Leads du site web vers**, **E-mail lors de l'attribution d'une tâche** |
 | **Paramètres financiers** | Délai de paiement par défaut (jours), Premier rappel après (jours), Ensuite tous les (jours), Marge verte à partir de (%), Marge orange à partir de (%), Article horaire standard (régie), Enregistrer le temps de déplacement, Article pour le déplacement (régie) |
+| **Planning** | Le samedi est un jour ouvrable, Le dimanche est un jour ouvrable |
 | **Adresse** | Rue, N°, Boîte, Code postal, Commune, Pays |
 | **Banque** | IBAN, BIC, Compte — et un second compte : IBAN (2), BIC (2), Compte (2) |
 | **Documents et charte graphique** | Logo |
@@ -102,6 +103,19 @@ suivant existe déjà, Nimble le saute. Les projets qui ont déjà un numéro le
 
 Si vous utilisez le numéro de la pièce dont naît le projet, comme un devis ou un bon de commande, laissez le
 préfixe vide.
+
+## Planning
+
+Votre entreprise travaille aussi le samedi ou le dimanche ? Cochez alors **Le samedi est un jour ouvrable** ou
+**Le dimanche est un jour ouvrable**. Par défaut, ils sont désactivés.
+
+Un jour ouvrable du week-end figure alors toujours sur le [planning](../work/planning.md), et un chantier de
+plusieurs jours continue dessus — aussi dans la fiche projet, l'application et les graphiques. Les jours fériés
+légaux restent libres.
+
+!!! warning "Le planning existant se décale"
+    Si vous activez un jour du week-end, un chantier qui chevauche aujourd'hui un week-end se termine un jour plus
+    tôt : il travaille désormais ce jour-là. Vérifiez le planning des semaines à venir.
 
 ## Récupérer les données depuis la BCE
 

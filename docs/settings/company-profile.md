@@ -23,6 +23,7 @@ De fiche heeft twee tabbladen: **Bedrijfsgegevens** met de kaarten hieronder, en
 | **Identiteit** | Naam (verplicht), BTW / ondernemingsnr. met de knop **Ophalen**, FSMA-nummer |
 | **Contact** | Telefoon, Fax, E-mail, Website, **Website-leads naar**, **Mail bij het toewijzen van een taak** |
 | **Financiële instellingen** | Standaard betalingstermijn (dagen), Eerste aanmaning na (dagen), Daarna elke (dagen), Marge groen vanaf (%), Marge oranje vanaf (%), Standaard-uurartikel (regie), Reistijd registreren, Artikel voor reistijd (regie) |
+| **Planning** | Zaterdag is een werkdag, Zondag is een werkdag |
 | **Adres** | Straat, Nr., Bus, Postcode, Gemeente, Land |
 | **Bank** | IBAN, BIC, Rekening — en een tweede rekening: IBAN (2), BIC (2), Rekening (2) |
 | **Documenten & huisstijl** | Logo |
@@ -99,6 +100,18 @@ het volgende nummer al, dan slaat Nimble het over. Projecten die al een nummer h
 
 Werkt u met het nummer van het stuk waaruit het project ontstaat, zoals een offerte of een bestelbon, laat
 het voorvoegsel dan leeg.
+
+## Planning
+
+Werkt uw bedrijf ook op zaterdag of zondag, vink dan **Zaterdag is een werkdag** of **Zondag is een werkdag**
+aan. Standaard staan ze uit.
+
+Een werkdag in het weekend staat dan altijd op de [planning](../work/planning.md), en een werf van meerdere dagen
+loopt erover door — ook op de projectfiche, in de app en in de grafieken. Wettelijke feestdagen blijven vrij.
+
+!!! warning "Bestaande planning schuift"
+    Zet u een weekenddag aan, dan eindigt een werf die nu over een weekend loopt een dag vroeger: ze werkt die
+    dag voortaan door. Kijk de planning van de komende weken even na.
 
 ## Gegevens ophalen uit de KBO
 

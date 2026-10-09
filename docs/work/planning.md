@@ -30,7 +30,8 @@ Elke rij is een ploeg; de bovenste rij **Niet toegewezen** houdt werven die nog 
 staan de leden van de ploeg. De kleur die u de ploeg gaf op de [ploegenfiche](teams.md) staat als streep voor de
 naam en kleurt de hele rij licht mee, zodat u ook op een groot scherm ziet welke rij van welke ploeg is. Elke kolom
 is een dag. Met **◀ Vorige week**, **Vandaag** en **Volgende week ▶** bladert u; **Weekend tonen** voegt
-zaterdag en zondag toe.
+zaterdag en zondag toe. Werkt uw bedrijf op zaterdag of zondag, dan staat die dag altijd op het bord: dat stelt
+de beheerder in op de [bedrijfsfiche](../settings/company-profile.md#planning).
 
 Een werf staat als kaart op haar dag, met haar duur. Bovenaan de kaart staat de **werfnaam**; is die niet
 ingevuld, dan de projectnaam. Daaronder staat wat er gebeurt en in welke gemeente. Het projectnummer ziet u
@@ -40,7 +41,8 @@ staat er meer werk op dan de dag telt. Een werkdag waarop een ploeg nog niets he
 ziet u in één oogopslag waar er nog plaats is.
 
 Een duur telt in **werkdagen**: een werf van drie dagen vanaf vrijdag loopt door op maandag en dinsdag.
-Zaterdag, zondag en de **wettelijke feestdagen** slaat ze over, tenzij de werf er zelf op begint. Een feestdag
+Zaterdag, zondag en de **wettelijke feestdagen** slaat ze over, tenzij de werf er zelf op begint. Is de
+zaterdag of de zondag bij u een werkdag, dan loopt een werf er gewoon over door. Een feestdag
 staat getint op het bord, met haar naam onder de datum. Kan Nimble de feestdagen even niet ophalen, dan staat
 er een melding boven het bord en telt die dag als gewone werkdag.
 
@@ -54,7 +56,13 @@ blokken. Met **Zoek project…** vindt u een project snel terug.
 - **Slepen:** sleep een werf naar een dag in de rij van de juiste ploeg. Laat u ze los **op** een andere werf,
   dan komt ze ervóór; in de lege ruimte van een dag komt ze achteraan. De volgorde op een dag is de volgorde
   van het werk.
-- **Klikken:** klik een werf aan en klik dan een dag. Dat werkt ook met een vinger op een tablet.
+- **Naar een andere week:** tijdens het slepen verschijnt links en rechts van het bord een strook **◀ Vorige
+  week** en **Volgende week ▶**. Blijf er even op: het bord springt een week, en blijft springen zolang u erop
+  blijft. Laat de werf dan los op een dag.
+- **Klikken:** klik een werf aan en klik dan een dag. Dat werkt ook met een vinger op een tablet, en ook in een
+  andere week: blader gerust verder voor u de dag aanklikt.
+- **Annuleren:** hebt u een werf aangeklikt, of een sleepbeweging afgebroken, en wilt u ze toch niet plaatsen,
+  klik dan op **Annuleren** bij **Nog in te plannen**.
 - **Een vakje aanklikken:** klik op een vakje zonder eerst een werf aan te klikken, dan opent het
   **Planningsblok** met die ploeg en die dag al ingevuld. Kies het project, of laat het leeg voor een vrij blok.
 - **Terugzetten:** sleep een blok terug naar **Nog in te plannen** om het weer klaar te zetten, zonder dag.
@@ -82,7 +90,30 @@ Klik op het pictogram van een kaart om het **Planningsblok** te openen:
 Met **Naar het project** opent u de projectfiche. Met Ctrl-klik (Cmd-klik op een Mac) opent ze in een nieuw
 tabblad, zodat het bord blijft staan.
 
+Sneller: **dubbelklik** op een kaart opent meteen de projectfiche. Met **Terug** in de browser komt u weer in
+dezelfde week uit. Een vrij blok hoort bij geen project; daar doet een dubbelklik niets.
+
+!!! warning "Eerst een andere kaart aangeklikt?"
+    Een dubbelklik is twee klikken. Is er al een andere kaart gekozen (blauw omrand), dan zet de eerste klik die
+    kaart vóór de kaart waarop u dubbelklikt — zoals een gewone klik dat doet. Klik eerst op **Annuleren** als u
+    enkel de fiche wilt openen.
+
 **Vrij blok** bovenaan het bord maakt meteen een blok zonder project.
+
+## Grafieken
+
+Met **Bord | Grafieken** bovenaan schakelt u naar twee grafieken over één jaar; met **◀ Vorig jaar** en
+**Volgend jaar ▶** bladert u.
+
+- **Ploegdagen per maand en per ploeg** — per maand een staaf, opgebouwd uit de ploegen in hun kleur;
+  **Niet toegewezen** staat in het grijs. Er telt hetzelfde als op het bord: een werf die over twee maanden
+  loopt, telt in elke maand voor de werkdagen die erin vallen. Vrije blokken, zoals verlof, tellen niet.
+- **Omzetvooruitblik: budget per maand** — elk project telt met zijn volledige budget (excl. btw) in de maand
+  waarin het de meeste geplande werkdagen heeft. Verschuift u een werf op het bord, dan schuift het budget mee.
+  Projecten met een budget maar nog zonder blok op het bord staan onder de grafiek, met hun totaal. Deze grafiek
+  ziet enkel wie de financiële cijfers mag zien; het budget vult u in op de [projectfiche](projects.md).
+
+![De grafieken van de planning: de ploegdagen per maand en per ploeg, en daaronder de omzetvooruitblik.](../images/planning-grafieken.png)
 
 !!! note "Dagen, geen uren"
     De planning rekent in dagen. Hoeveel uren een ploegdag telt, legt Nimble niet vast; een blok van een halve
