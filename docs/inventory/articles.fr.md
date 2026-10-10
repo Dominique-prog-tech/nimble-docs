@@ -78,7 +78,7 @@ Vous pouvez acheter un article chez plus d'un fournisseur, chacun avec son propr
 propre prix. Vous l'enregistrez dans l'onglet **Fournisseurs** de la fiche. Pour un nouvel article,
 enregistrez d'abord la fiche ; l'onglet apparaît ensuite.
 
-![L'onglet Fournisseurs de l'article SAN-1001 avec deux fournisseurs : Sanitair Depot België BV avec le code SD-1001 à 112,00 € comme préféré, et Thermotech Groothandel NV avec le code TT-1001 à 118,50 €.](../images/artikel-leveranciers-fr.png)
+![L'onglet Fournisseurs de l'article SAN-1001 avec deux fournisseurs : Sanitair Depot België BV avec le code SD-1001 à 112,00 € comme préféré, et Thermotech Groothandel NV avec le code TT-1001 à 118,50 €. Derrière chaque fournisseur figurent Prix dégressifs et Supprimer.](../images/artikel-leveranciers-fr.png)
 
 | Colonne | Ce que c'est |
 |---|---|
@@ -104,6 +104,34 @@ d'achat reste en place et vous le saisissez à nouveau vous-même dans l'onglet 
     Si un article a des fournisseurs, exactement un doit être le préféré : son prix est le prix de revient.
     Si vous supprimez le fournisseur préféré, Nimble n'en choisit pas un autre lui-même — le message en haut
     vous demande d'indiquer un **Fournisseur préféré** avant d'enregistrer.
+
+### Prix dégressifs
+
+Si un fournisseur accorde un prix plus bas à partir d'une certaine quantité, vous l'enregistrez dans ses
+**prix dégressifs**. Cliquez sur **Prix dégressifs** derrière le fournisseur. S'il y a déjà des paliers, leur
+nombre figure sur le bouton : **Prix dégressifs (2)**.
+
+![L'onglet Fournisseurs de l'article SAN-1001 avec les prix dégressifs de Sanitair Depot België BV ouverts : à partir de 10 pièces 106,40 € et à partir de 25 pièces 100,80 €, avec en dessous le bouton Ajouter un palier.](../images/artikel-staffel-fr.png)
+
+| Champ | Ce que c'est |
+|---|---|
+| **À partir de** | La quantité à partir de laquelle le prix s'applique, dans l'unité de l'article |
+| **Prix par unité** | Le prix par unité à partir de cette quantité, hors TVA |
+
+**Ajouter un palier** ajoute une ligne ; **Supprimer** derrière une ligne la retire. Les prix dégressifs sont
+enregistrés lorsque vous enregistrez la fiche.
+
+Une commande chez ce fournisseur prend le prix du palier le plus élevé atteint par la quantité commandée. En
+dessous de la plus petite quantité, c'est le **Prix d'achat** du fournisseur qui s'applique. Ce prix d'achat
+reste aussi le prix de revient de l'article : le pré- et le post-calcul et la marge ne tiennent pas compte
+d'un prix dégressif.
+
+Le prix d'achat et **Prix dégressifs** ne sont visibles qu'avec le droit *Voir les marges et prix de revient*.
+
+!!! info "Ce dont un palier a besoin"
+    Chaque palier a une quantité supérieure à 0 et un prix, et une quantité ne figure qu'une seule fois dans
+    les prix dégressifs d'un fournisseur. Si quelque chose ne va pas, le message en haut le signale lorsque
+    vous enregistrez.
 
 ## Supprimer un article
 
@@ -171,7 +199,7 @@ haut ; un plus signifie une entrée, un moins une sortie.
 ## Voir aussi
 
 - [État du stock](stock-level.md)
-- [Commandes](../purchasing/purchase-orders.md) — le prix d'une ligne de commande vient du fournisseur
+- [Commandes](../purchasing/purchase-orders.md) — le prix d'une ligne de commande vient du fournisseur, avec ses prix dégressifs
 - [Relations](../relations.md) — un fournisseur est une relation cochée Fournisseur
 - [Familles d'articles](../administration/article-families.md)
 - [Unités](../administration/units.md)

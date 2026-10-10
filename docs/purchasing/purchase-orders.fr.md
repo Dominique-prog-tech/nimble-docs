@@ -60,6 +60,11 @@ Dès que vous choisissez un article, Nimble remplit le **Prix** :
 - **Si l'article a d'autres fournisseurs, mais pas celui-ci**, le prix reste vide : Nimble ne connaît pas le
   prix de ce fournisseur. Saisissez-le vous-même.
 
+Si le fournisseur a des [prix dégressifs](../inventory/articles.md#prix-degressifs) pour l'article, le prix
+proposé suit la **Quantité**. Si la quantité atteint un palier, le prix de ce palier s'affiche et vous lisez
+sous le champ du prix à partir de quelle quantité il s'applique, par exemple *Prix dégressif à partir de 10*.
+Si vous modifiez la quantité, le prix s'adapte ; un prix que vous avez saisi vous-même reste alors en place.
+
 Les fournisseurs d'un article et leurs prix figurent dans l'onglet **Fournisseurs** de la
 [fiche article](../inventory/articles.md#fournisseurs-dun-article). Si cette livraison a un autre tarif,
 adaptez le prix avant d'ajouter la ligne. Si vous choisissez un autre fournisseur alors qu'un article est

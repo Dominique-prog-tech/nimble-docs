@@ -60,6 +60,11 @@ Zodra u een artikel kiest, vult Nimble de **Prijs** in:
 - **Heeft het artikel andere leveranciers, maar niet deze**, dan blijft de prijs leeg: Nimble kent de prijs
   van deze leverancier niet. Vul ze zelf in.
 
+Heeft de leverancier [staffelprijzen](../inventory/articles.md#staffelprijzen) voor het artikel, dan volgt de
+voorgestelde prijs het **Aantal**. Haalt het aantal een staffel, dan staat er de prijs van die staffel en leest
+u onder het prijsveld vanaf welk aantal ze geldt, bijvoorbeeld *Staffelprijs vanaf 10*. Wijzigt u het aantal,
+dan past de prijs zich aan; een prijs die u zelf intypte, blijft daarbij staan.
+
 De leveranciers van een artikel en hun prijzen staan op het tabblad **Leveranciers** van de
 [artikelfiche](../inventory/articles.md#leveranciers-van-een-artikel). Is deze levering anders geprijsd, pas
 de prijs dan aan vóór u de regel toevoegt. Kiest u een andere leverancier terwijl er al een artikel gekozen

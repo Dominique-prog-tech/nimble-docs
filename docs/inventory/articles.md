@@ -78,7 +78,7 @@ Een artikel kunt u bij meer dan één leverancier kopen, elk met zijn eigen arti
 Dat legt u vast op het tabblad **Leveranciers** van de fiche. Bij een nieuw artikel bewaart u eerst de fiche;
 daarna verschijnt het tabblad.
 
-![Het tabblad Leveranciers van artikel SAN-1001 met twee leveranciers: Sanitair Depot België BV met code SD-1001 aan € 112,00 als voorkeur, en Thermotech Groothandel NV met code TT-1001 aan € 118,50.](../images/artikel-leveranciers.png)
+![Het tabblad Leveranciers van artikel SAN-1001 met twee leveranciers: Sanitair Depot België BV met code SD-1001 aan € 112,00 als voorkeur, en Thermotech Groothandel NV met code TT-1001 aan € 118,50. Achter elke leverancier staan Staffel en Verwijderen.](../images/artikel-leveranciers.png)
 
 | Kolom | Wat het is |
 |---|---|
@@ -104,6 +104,31 @@ laatste aankoopprijs staan en vult u ze weer zelf in op het tabblad Algemeen.
     Heeft een artikel leveranciers, dan moet er precies één de voorkeur hebben: zijn prijs is de kostprijs.
     Verwijdert u de voorkeursleverancier, dan kiest Nimble niet zelf een andere — de melding bovenaan vraagt
     u een **Voorkeursleverancier** aan te duiden voor u bewaart.
+
+### Staffelprijzen
+
+Geeft een leverancier een lagere prijs vanaf een bepaald aantal, dan legt u dat vast in zijn **staffel**. Klik
+achter de leverancier op **Staffel**. Staan er al regels in, dan staat hun aantal op de knop: **Staffel (2)**.
+
+![Het tabblad Leveranciers van artikel SAN-1001 met de staffel van Sanitair Depot België BV open: vanaf 10 stuks € 106,40 en vanaf 25 stuks € 100,80, met eronder de knop Staffelregel toevoegen.](../images/artikel-staffel.png)
+
+| Veld | Wat het is |
+|---|---|
+| **Vanaf aantal** | Het aantal vanaf waar de prijs geldt, in de eenheid van het artikel |
+| **Prijs per eenheid** | De prijs per eenheid vanaf dat aantal, excl. btw |
+
+Met **Staffelregel toevoegen** komt er een regel bij; met **Verwijderen** achter een regel haalt u ze weg. De
+staffel wordt bewaard wanneer u de fiche bewaart.
+
+Een bestelling bij deze leverancier neemt de prijs van de hoogste staffel die het bestelde aantal haalt. Onder
+het laagste vanaf-aantal geldt de **Aankoopprijs** van de leverancier. Die aankoopprijs blijft ook de kostprijs
+van het artikel: de voor- en nacalculatie en de marge rekenen niet met een staffelprijs.
+
+De aankoopprijs en **Staffel** ziet u alleen met het recht *Marges en kostprijzen bekijken*.
+
+!!! info "Wat een staffelregel nodig heeft"
+    Elke regel heeft een vanaf-aantal groter dan 0 én een prijs, en een vanaf-aantal staat maar één keer in
+    de staffel van een leverancier. Klopt er iets niet, dan zegt de melding bovenaan het wanneer u bewaart.
 
 ## Een artikel verwijderen
 
@@ -170,7 +195,7 @@ bovenaan; een plus betekent erbij, een min eraf.
 ## Zie ook
 
 - [Voorraadstand](stock-level.md)
-- [Bestellingen](../purchasing/purchase-orders.md) — de prijs op een bestelregel komt van de leverancier
+- [Bestellingen](../purchasing/purchase-orders.md) — de prijs op een bestelregel komt van de leverancier, met zijn staffel
 - [Relaties](../relations.md) — een leverancier is een relatie met het vinkje Leverancier
 - [Artikelfamilies](../administration/article-families.md)
 - [Eenheden](../administration/units.md)
