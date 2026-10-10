@@ -10,7 +10,7 @@ Dans la barre latérale, cliquez sur **Ventes → Factures**.
 
 ## La liste
 
-![La liste Factures de vente avec les colonnes Numéro, Client, Date, Communication, Date d'échéance, Solde ouvert et Statut ; on y voit une note de crédit, un brouillon sans numéro, deux factures émises dont une échue, et une facture payée.](../images/facturen-lijst-fr.png)
+![La liste Factures de vente avec les colonnes Numéro, Client, Date, Communication, Date d'échéance, Solde ouvert et Statut ; on y voit une note de crédit avec un montant négatif, un brouillon sans numéro, deux factures échues et une facture payée.](../images/facturen-lijst-fr.png)
 
 | Colonne | Ce que vous voyez |
 |---|---|
@@ -31,7 +31,8 @@ Dans la colonne **Solde ouvert**, vous pouvez rencontrer :
 - L'étiquette **Montant inconnu** pour une facture émise de 0,00 €. Survolez-la pour lire l'explication.
 
 Dans la colonne **Statut**, l'étiquette **Échue** s'ajoute à une facture émise dont la date d'échéance est
-dépassée, et **Sans échéance** lorsqu'aucune date d'échéance n'est complétée.
+dépassée, et **Sans échéance** lorsqu'aucune date d'échéance n'est complétée. Une note de crédit ne reçoit
+aucune des deux étiquettes : elle n'est jamais échue, et son montant ne figure jamais en rouge.
 
 Au-dessus de la liste figurent :
 
@@ -109,7 +110,7 @@ Sous **E-mails** figurent les [rappels](reminders.md) envoyés pour cette factur
 
 | Champ | Ce que c'est |
 |---|---|
-| **Solde ouvert** | Ce que le client doit encore payer, en rouge avec **Échue** si l'échéance est dépassée. Si tout est rentré, il indique **Soldée**. S'il y a des paiements, *Déjà payé* et le montant figurent en dessous |
+| **Solde ouvert** | Ce que le client doit encore payer, en rouge avec **Échue** si l'échéance est dépassée — pas sur une note de crédit. Si tout est rentré, il indique **Soldée**. S'il y a des paiements, *Déjà payé* et le montant figurent en dessous |
 | **Communication structurée** | Le numéro avec lequel le client paie. Nimble l'attribue automatiquement à l'enregistrement ; il n'est pas modifiable |
 | **Envoyée** | Quand, par quelle voie et à qui la facture est partie. Si le champ n'apparaît pas, elle n'a pas encore été marquée comme envoyée |
 | **Notes de crédit** | Les notes de crédit rattachées à cette facture, avec leur montant. Cliquez un numéro pour l'ouvrir |

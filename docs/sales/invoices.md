@@ -10,7 +10,7 @@ Klik in de zijbalk op **Verkoop → Facturen**.
 
 ## De lijst
 
-![De lijst Verkoopfacturen met de kolommen Nummer, Klant, Datum, Mededeling, Vervaldatum, Openstaand en Status; er staan een creditnota, een klad zonder nummer, twee uitgereikte facturen waarvan één vervallen, en een betaalde factuur.](../images/facturen-lijst.png)
+![De lijst Verkoopfacturen met de kolommen Nummer, Klant, Datum, Mededeling, Vervaldatum, Openstaand en Status; er staan een creditnota met een negatief bedrag, een klad zonder nummer, twee vervallen facturen en een betaalde factuur.](../images/facturen-lijst.png)
 
 | Kolom | Wat u ziet |
 |---|---|
@@ -31,7 +31,8 @@ In de kolom **Openstaand** kunt u dit tegenkomen:
 - Het label **Bedrag onbekend** bij een uitgereikte factuur van € 0,00. Beweeg de muis erover voor de uitleg.
 
 In de kolom **Status** komt het label **Vervallen** bij een uitgereikte factuur die over haar vervaldatum
-is, en **Geen vervaldag** wanneer er geen vervaldatum ingevuld is.
+is, en **Geen vervaldag** wanneer er geen vervaldatum ingevuld is. Een creditnota krijgt geen van beide
+labels: zij vervalt niet, en haar bedrag staat nooit in het rood.
 
 Boven de lijst staan:
 
@@ -108,7 +109,7 @@ die laatste vijf werken, leest u in [Werken met een fiche](../fiches.md). Bij **
 
 | Veld | Wat het is |
 |---|---|
-| **Openstaand** | Wat de klant nog moet betalen, in het rood met **Vervallen** erbij als de vervaldatum voorbij is. Is alles binnen, dan staat er **Voldaan**. Zijn er betalingen, dan staat eronder *Al betaald* met het bedrag |
+| **Openstaand** | Wat de klant nog moet betalen, in het rood met **Vervallen** erbij als de vervaldatum voorbij is — niet op een creditnota. Is alles binnen, dan staat er **Voldaan**. Zijn er betalingen, dan staat eronder *Al betaald* met het bedrag |
 | **Gestructureerde mededeling** | Het nummer waarmee de klant betaalt. Nimble kent het automatisch toe bij het bewaren; het is niet te wijzigen |
 | **Verstuurd** | Wanneer, langs welke weg en naar wie de factuur vertrokken is. Staat het veld er niet, dan is ze nog niet als verstuurd gemarkeerd |
 | **Creditnota's** | De creditnota's die bij deze factuur horen, met hun bedrag. Klik een nummer om ze te openen |
