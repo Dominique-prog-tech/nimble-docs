@@ -15,7 +15,7 @@ relève toujours d'un projet.
 
 ## La liste
 
-![La liste Ordres de travail avec les colonnes Numéro, Projet, Description, Équipe, Statut et Planifié ; quatre ordres de travail sur quatre projets différents, et à droite le tiroir Journal replié.](../images/werkorders-lijst-fr.png)
+![La liste Ordres de travail avec les colonnes Numéro, Projet, Description, Équipe, Statut et Planifié ; cinq ordres de travail sur quatre projets différents, et à droite le tiroir Journal replié.](../images/werkorders-lijst-fr.png)
 
 | Colonne | Ce que c'est |
 |---|---|
