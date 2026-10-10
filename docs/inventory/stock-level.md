@@ -8,12 +8,7 @@ besteld moet worden bovenaan.
 
 Klik in de zijbalk op **Voorraad** en daarna op **Voorraadstand**.
 
-![De voorraadstand met bovenaan de zin over het huidige pakket en vier tegels, en daaronder één artikel onder zijn minimum.](../images/voorraadstand.png)
-
-!!! warning "De voorraad wordt nog in uw huidige pakket bijgehouden"
-    Bovenaan het scherm staat: *De voorraad wordt nog in uw huidige pakket bijgehouden. Deze cijfers vullen
-    zich bij de overstap.* Zolang u met beide pakketten werkt, komen de standen op dit scherm dus nog niet
-    uit Nimble. Zie ook [Artikelen](articles.md).
+![De voorraadstand met bovenaan vier tegels, en daaronder één artikel onder zijn minimum.](../images/voorraadstand.png)
 
 ## Eerst: welke artikelen doen mee?
 

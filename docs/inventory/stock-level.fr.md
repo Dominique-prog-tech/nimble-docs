@@ -8,12 +8,7 @@ défini, avec en tête ceux qu'il faut encore commander.
 
 Cliquez dans la barre latérale sur **Stock** puis sur **État du stock**.
 
-![L'état du stock avec en haut la phrase sur le programme actuel et quatre tuiles, et en dessous un article sous son minimum.](../images/voorraadstand-fr.png)
-
-!!! warning "Le stock est encore tenu dans votre programme actuel"
-    En haut de l'écran figure : *Le stock est encore tenu dans votre programme actuel. Ces chiffres se
-    rempliront au basculement.* Tant que vous travaillez avec les deux programmes, les stocks de cet écran ne
-    viennent donc pas encore de Nimble. Voir aussi [Articles](articles.md).
+![L'état du stock avec en haut quatre tuiles, et en dessous un article sous son minimum.](../images/voorraadstand-fr.png)
 
 ## D'abord : quels articles sont concernés ?
 

@@ -156,18 +156,9 @@ Vous consultez ainsi le stock article après article sans ouvrir chaque fiche.
 
 ![Le journal ouvert à côté de la liste des articles, sur l'onglet Stock avec le stock actuel et les mouvements.](../images/artikel-journaal-fr.png)
 
-!!! warning "Le stock est encore tenu dans votre programme actuel pour le moment"
-    Tant que vous travaillez avec les deux programmes, c'est votre **programme actuel** qui tient le stock.
-    L'onglet Stock le dit aussi : *Le stock est encore tenu dans votre programme actuel. Ce registre se
-    remplit au basculement.* Les stocks que vous voyez ici ne viennent donc pas encore de Nimble. (L'image
-    ci-dessus montre bien des chiffres : elle provient d'un environnement de démonstration.)
-
-    C'est volontaire : si deux systèmes tiennent le stock en même temps, ils divergent inévitablement, et
-    vous ne le constatez qu'au premier inventaire. Il n'y a donc qu'un seul endroit qui fait foi, et c'est
-    pour l'instant votre programme actuel.
-
-    Les écritures ne sont donc pas encore possibles. Lors du basculement, l'état initial sera repris et la
-    suite se fera ici.
+!!! info "D'où viennent les mouvements"
+    Nimble tient le stock. Une **commande réceptionnée** s'ajoute ; le matériel utilisé sur un **bon de
+    travail** est déduit. Le stock actuel est la somme de tous les mouvements de l'article.
 
 ### Les trois types de mouvement
 
@@ -187,8 +178,8 @@ haut ; un plus signifie une entrée, un moins une sortie.
 ## Erreurs fréquentes
 
 !!! warning
-    - **Croire que le stock est erroné** parce qu'il affiche 0 — voir la remarque ci-dessus ; cet état
-      n'arrivera qu'au basculement.
+    - **Croire que le stock est erroné** parce qu'il affiche 0 — le stock est la somme des mouvements. À 0,
+      rien n'a encore été réceptionné ni consommé pour cet article.
     - **Supprimer un article que vous n'utilisez simplement plus** — mettez-le sur **non actif**. Il reste
       alors lisible sur l'existant.
     - **Indiquer un minimum de 0 pour ne pas suivre un article** — laissez alors le champ vide. Avec 0,

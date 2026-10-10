@@ -153,17 +153,9 @@ Zo bekijkt u de voorraad van artikel na artikel zonder telkens een fiche te open
 
 ![Het journaal open naast de artikellijst, op het tabblad Stock met de huidige stock en de bewegingen.](../images/artikel-journaal.png)
 
-!!! warning "De voorraad wordt voorlopig nog in uw huidige pakket bijgehouden"
-    Zolang u met beide pakketten werkt, houdt uw **huidige pakket** de voorraad bij. Het tabblad Stock zegt
-    dat ook: *De voorraad wordt nog in uw huidige pakket bijgehouden. Dit register vult zich bij de
-    overstap.* De standen die u hier ziet komen dus nog niet uit Nimble. (Op de afbeelding hierboven staan
-    wél cijfers: die komt uit een demo-omgeving.)
-
-    Dat is bewust: als twee systemen tegelijk voorraad bijhouden, lopen ze gegarandeerd uit elkaar, en dat
-    merkt u pas bij de eerste telling. Er is dus één plek die telt, en dat is voorlopig uw huidige pakket.
-
-    Boekingen kunnen daarom nog niet gedaan worden. Bij de overstap wordt de beginstand overgenomen en gaat
-    het hier verder.
+!!! info "Waar de bewegingen vandaan komen"
+    Nimble houdt de voorraad bij. Een **ontvangen bestelling** telt erbij; materiaal dat op een **werkbon**
+    verwerkt is, gaat eraf. De huidige stock is de som van alle bewegingen van het artikel.
 
 ### De drie soorten beweging
 
@@ -183,8 +175,8 @@ bovenaan; een plus betekent erbij, een min eraf.
 ## Veelgemaakte fouten
 
 !!! warning
-    - **Denken dat de voorraad fout staat** omdat er 0 staat — zie de opmerking hierboven; die stand komt
-      pas bij de overstap.
+    - **Denken dat de voorraad fout staat** omdat er 0 staat — de stand is de som van de bewegingen. Bij 0
+      is er voor dit artikel nog niets ontvangen of verbruikt.
     - **Een artikel verwijderen dat u enkel niet meer gebruikt** — zet het op **niet actief**. Dan blijft
       het leesbaar op wat er al was.
     - **Een minimum van 0 invullen om een artikel niet op te volgen** — laat het veld dan leeg. Met 0 volgt
