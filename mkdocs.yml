@@ -5,7 +5,7 @@ site_url: https://docs.nimble-erp.eu/
 copyright: >
   Nimble &copy; 2026 — eigendom van
   <a href="https://www.adm-concept.be" target="_blank" rel="noopener">ADM-Concept</a>.
-  Alle rechten voorbehouden.
+  Alle rechten voorbehouden. · <a href="https://www.nimble-erp.eu/">nimble-erp.eu</a>
 
 theme:
   name: material
@@ -133,7 +133,7 @@ plugins:
           site_description: Manuel officiel de Nimble
           copyright: >
             Nimble &copy; 2026 — propriété d'<a href="https://www.adm-concept.be" target="_blank" rel="noopener">ADM-Concept</a>.
-            Tous droits réservés.
+            Tous droits réservés. · <a href="https://www.nimble-erp.eu/fr/">nimble-erp.eu</a>
           theme:
             language: fr
             palette:
