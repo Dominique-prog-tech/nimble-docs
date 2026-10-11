@@ -73,8 +73,9 @@ Ce qui n'est plus possible :
 Il en va de même dans l'application mobile : un collaborateur voit la raison lorsqu'il veut enregistrer quelque
 chose.
 
-Les demandes venant de votre site web et les réponses de vos clients à un devis en ligne restent en attente
-chez ADM-Concept. Elles arrivent dès que votre compte est de nouveau ouvert.
+Les demandes venant de votre site web et les réponses de vos clients à un devis en ligne continuent d'arriver.
+Vous pouvez les consulter, mais vous ne pouvez rien en faire tant que la limitation n'est pas levée. Vous n'en
+recevez alors pas de notification par e-mail.
 
 ## Lever la limitation
 

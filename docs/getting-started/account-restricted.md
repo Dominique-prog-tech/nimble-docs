@@ -71,8 +71,8 @@ Wat niet meer kan:
 
 In de mobiele app geldt hetzelfde: een medewerker ziet de reden wanneer hij iets wil bewaren.
 
-Aanvragen via uw website en antwoorden van klanten op een online offerte wachten bij ADM-Concept. Ze komen
-binnen zodra uw account weer open staat.
+Aanvragen via uw website en antwoorden van klanten op een online offerte blijven binnenkomen. U kunt ze
+bekijken, maar er niets mee doen tot de beperking is opgeheven. U krijgt er dan geen melding per e-mail van.
 
 ## De beperking opheffen
 
