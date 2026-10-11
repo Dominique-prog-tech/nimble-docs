@@ -389,3 +389,4 @@ maar telt niet meer mee in het bedrag *Afgesproken* op het project, en ze kan ni
 - [Documentsjablonen](../settings/document-templates.md) — briefhoofd, aanhef en voorwaarden
 - [Werken met een fiche](../fiches.md) — tabbladen, bewaren en verwijderen
 - [Lijsten filteren](../lijsten-filteren.md) — de trechterknop en de filterbouwer
+- [Wanneer uw account beperkt is](../getting-started/account-restricted.md) — wanneer een nieuwe offerte aanmaken of mailen niet kan

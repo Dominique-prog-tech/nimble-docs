@@ -140,3 +140,4 @@ moment-là. À côté se trouve un **champ de recherche** qui parcourt toutes le
 - [Leads](leads.fr.md) — d'où viennent les tâches de suivi automatiques
 - [Relations](../relations.fr.md) — les tâches sur une fiche client
 - [Notes](../notities.fr.md) — ce que vous notez vous-même sur un enregistrement
+- [Lorsque votre compte est limité](../getting-started/account-restricted.md) — quand enregistrer une tâche n'est pas possible

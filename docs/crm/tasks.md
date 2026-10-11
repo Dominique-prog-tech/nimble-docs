@@ -138,3 +138,4 @@ aanstaan. Daarnaast staat een **zoekvak** dat over alle kolommen zoekt.
 - [Leads](leads.md) — waar de automatische opvolgtaken vandaan komen
 - [Relaties](../relations.md) — taken op een klantenfiche
 - [Notities](../notities.md) — wat u zelf noteert bij een record
+- [Wanneer uw account beperkt is](../getting-started/account-restricted.md) — wanneer een taak bewaren niet kan

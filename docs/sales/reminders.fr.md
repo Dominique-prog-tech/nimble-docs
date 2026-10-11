@@ -128,3 +128,4 @@ compte plus et n'apparaît plus dans le compteur. **Réintégrer dans les rappel
 
 - [Factures](invoices.md) — enregistrer des paiements et compenser des notes de crédit
 - [Fiche d'entreprise](../settings/company-profile.md) — les deux délais
+- [Lorsque votre compte est limité](../getting-started/account-restricted.md) — quand l'envoi d'un rappel n'est pas possible

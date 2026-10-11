@@ -152,6 +152,7 @@ plugins:
           nav_translations:
             Home: Accueil
             Klantenportaal: Portail client
+            Wanneer uw account beperkt is: Lorsque votre compte est limité
             Aan de slag: Premiers pas
             Inkoop: Achats
             Binnengekomen documenten: Documents reçus
@@ -237,6 +238,9 @@ nav:
     - Notities: notities.md
     - Bijlagen: bijlagen.md
     - Klantenportaal: getting-started/customer-portal.md
+    # Wat een klant nog kan bij een betaalachterstand of op alleen-lezen (EW-36, 11/10/2026): de indeling die Dominique
+    # goedkeurde, in gewone taal. Geen scherm van de app, dus geen ?-knop die hierheen wijst: de band bovenaan is de ingang.
+    - Wanneer uw account beperkt is: getting-started/account-restricted.md
   - CRM:
     - Leads: crm/leads.md
     - Leads vanaf uw website: crm/leads-webformulier.md

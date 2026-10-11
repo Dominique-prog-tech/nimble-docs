@@ -129,3 +129,4 @@ dat om.
 
 - [Facturen](invoices.md) — betalingen registreren en creditnota's verrekenen
 - [Bedrijfsfiche](../settings/company-profile.md) — de twee termijnen
+- [Wanneer uw account beperkt is](../getting-started/account-restricted.md) — wanneer een aanmaning versturen niet kan

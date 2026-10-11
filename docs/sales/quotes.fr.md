@@ -398,3 +398,4 @@ conservée, mais ne compte plus dans le montant *Convenu* du projet, et ne peut 
 - [Modèles de documents](../settings/document-templates.md) — en-tête, formule d'appel et conditions
 - [Travailler avec une fiche](../fiches.md) — onglets, enregistrement et suppression
 - [Filtrer les listes](../lijsten-filteren.md) — l'entonnoir et le générateur de filtres
+- [Lorsque votre compte est limité](../getting-started/account-restricted.md) — quand créer ou envoyer un devis n'est pas possible
