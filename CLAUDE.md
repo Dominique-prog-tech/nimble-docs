@@ -109,6 +109,22 @@ Kort: merkkleur uit `logo.svg`, header wit in licht en zwart in donker, en drie 
 drie uitzien alsof alles klopt (een `:root`-regel die niet werkt, een palet dat op twee plaatsen staat,
 en meten binnen een seconde na een themawissel). **Niet hier overschrijven — verwijs ernaar.**
 
+### Vindbaar, deelbaar en strikt gebouwd — vloot-afspraak (hier sinds 11/10/2026)
+
+Dezelfde afspraak, hoofdstuk *Vindbaar, deelbaar en strikt gebouwd*. Wat er in deze repo voor staat:
+
+- **`hooks/beschrijving.py`** — elke pagina krijgt haar eigen omschrijving uit haar **eerste gewone alinea**. Schrijf die
+  alinea dus als de zin die zegt wanneer en waarom iemand het scherm gebruikt; ze staat in het zoekresultaat en bij het
+  delen. Deugt ze daar niet voor, zet dan `description:` in de kop van de pagina — die wint.
+- **`overrides/main.html`** — de deelkoppen (Open Graph), uit de titel en de omschrijving van de pagina.
+- **`validation:` in `mkdocs.yml`** + `mkdocs build --strict` in de uitrol — een dode link, een dood anker of een pagina
+  buiten de nav laat de bouw falen. Bouw lokaal met `.venv/bin/mkdocs build --strict` vóór je commit.
+- **`tools/linkcheck.py`** — meet de site zoals ze ONLINE staat (pagina's, ankers, beelden, externe links). Draai ze na
+  een push: `python3 tools/linkcheck.py`.
+
+⚠️ **Tel op de GEBOUWDE pagina** (`site/**/index.html`), niet in de bron: geen enkel bestand draagt hier een
+`description:` en toch heeft elke gebouwde pagina er een.
+
 ## Een pagina schrijven
 
 ### De schrijfregels — vloot-afspraak

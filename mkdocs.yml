@@ -9,6 +9,8 @@ copyright: >
 
 theme:
   name: material
+  # Eigen sjabloonmap: overrides/main.html zet de deelkoppen (Open Graph) op elke pagina — zie dat bestand.
+  custom_dir: overrides
   language: nl
   logo: images/logo.svg
   favicon: images/logo.svg
@@ -71,6 +73,21 @@ markdown_extensions:
 # Nog-niet-geschreven pagina's worden niet gebouwd en niet geïndexeerd — zie hooks/verberg_skeletten.py
 hooks:
   - hooks/verberg_skeletten.py
+  # Eigen omschrijving per pagina voor zoekmachines en bij het delen — zie het bestand zelf (11/10/2026).
+  - hooks/beschrijving.py
+
+# Strikte bouw (vlootafspraak 10/10/2026, adm-appkit/docs/docs-site-vormgeving.md): een dode link, een dood anker of
+# een pagina die niet in de nav staat, is een waarschuwing — en de uitrol bouwt met --strict, dus dan faalt de bouw in
+# plaats van dat de fout online komt. Wat er ONLINE staat (beelden, externe links) meet tools/linkcheck.py.
+validation:
+  nav:
+    omitted_files: warn
+    not_found: warn
+    absolute_links: warn
+  links:
+    not_found: warn
+    anchors: warn
+    absolute_links: warn
 
 plugins:
   - search:
