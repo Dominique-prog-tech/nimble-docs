@@ -57,6 +57,11 @@ L'écran ne crée pas de facture et en donne la raison lorsque :
     Si ADM One n'a pas pu confirmer le traitement, la facture existe bien, mais le document reste dans cette
     liste. Le message l'indique. Une deuxième tentative ne crée pas de deuxième facture.
 
+!!! info "Votre compte est en lecture seule ?"
+    **Traiter** continue de fonctionner : ce que vos fournisseurs envoient arrive toujours. Approuver ou
+    modifier la facture d'achat n'est possible qu'une fois la limitation levée. Voir
+    [Lorsque votre compte est limité](../getting-started/account-restricted.md).
+
 ## Uniquement vos propres documents
 
 Vous ne voyez que les documents destinés à votre entreprise. Si votre environnement n'est pas encore lié à votre

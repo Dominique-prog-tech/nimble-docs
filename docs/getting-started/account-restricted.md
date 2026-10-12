@@ -66,13 +66,17 @@ zoals het thema en de taal, past u nog aan.
 
 Wat niet meer kan:
 
-- iets toevoegen, wijzigen of verwijderen, op elk scherm;
+- iets toevoegen, wijzigen of verwijderen, op elk scherm, met één uitzondering die hieronder staat;
 - e-mails versturen. De waarschuwing luidt dan: *Versturen kan op dit moment niet.*
 
 In de mobiele app geldt hetzelfde: een medewerker ziet de reden wanneer hij iets wil bewaren.
 
 Aanvragen via uw website en antwoorden van klanten op een online offerte blijven binnenkomen. U kunt ze
 bekijken, maar er niets mee doen tot de beperking is opgeheven. U krijgt er dan geen melding per e-mail van.
+
+Ook facturen die uw leveranciers via Peppol stuurden, haalt u nog binnen. Op het scherm
+[Binnengekomen documenten](../purchasing/peppol-inbox.md) werkt **Verwerken** zoals altijd. De aankoopfactuur
+die zo ontstaat, kunt u bekijken. Goedkeuren of wijzigen kan pas wanneer de beperking is opgeheven.
 
 ## De beperking opheffen
 

@@ -67,7 +67,7 @@ adaptez encore vos préférences personnelles, comme le thème et la langue.
 
 Ce qui n'est plus possible :
 
-- ajouter, modifier ou supprimer quoi que ce soit, sur chaque écran ;
+- ajouter, modifier ou supprimer quoi que ce soit, sur chaque écran, à une exception près, décrite ci-dessous ;
 - envoyer des e-mails. L'avertissement est alors : *L'envoi n'est pas possible pour le moment.*
 
 Il en va de même dans l'application mobile : un collaborateur voit la raison lorsqu'il veut enregistrer quelque
@@ -76,6 +76,10 @@ chose.
 Les demandes venant de votre site web et les réponses de vos clients à un devis en ligne continuent d'arriver.
 Vous pouvez les consulter, mais vous ne pouvez rien en faire tant que la limitation n'est pas levée. Vous n'en
 recevez alors pas de notification par e-mail.
+
+Vous récupérez encore les factures que vos fournisseurs ont envoyées via Peppol. Sur l'écran
+[Documents reçus](../purchasing/peppol-inbox.md), **Traiter** fonctionne comme d'habitude. Vous pouvez consulter
+la facture d'achat ainsi créée. L'approuver ou la modifier n'est possible qu'une fois la limitation levée.
 
 ## Lever la limitation
 

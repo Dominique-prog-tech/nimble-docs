@@ -57,6 +57,11 @@ Het scherm maakt geen factuur en zegt waarom wanneer:
     Kon ADM One de verwerking niet bevestigen, dan staat de factuur er wél, maar blijft het document in deze
     lijst. De melding zegt dat. Een tweede poging maakt geen tweede factuur.
 
+!!! info "Staat uw account op alleen-lezen?"
+    **Verwerken** blijft werken: wat uw leveranciers sturen, komt altijd binnen. De aankoopfactuur goedkeuren
+    of wijzigen kan pas wanneer de beperking is opgeheven. Zie
+    [Wanneer uw account beperkt is](../getting-started/account-restricted.md).
+
 ## Enkel uw eigen documenten
 
 U ziet enkel de documenten die voor uw bedrijf bestemd zijn. Is uw omgeving nog niet aan uw bedrijf in ADM One
