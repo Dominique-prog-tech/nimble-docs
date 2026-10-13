@@ -21,7 +21,7 @@ Klik in de zijbalk op **Voorraad → Artikelen**.
 | **Actief** | Een vinkje bij artikelen die u nog gebruikt |
 | **Aangemaakt** | De dag waarop het artikel is aangemaakt |
 
-![De artikellijst met de kolommen Nummer, Naam, Familie, Soort, Eenheid, Stock, Verkoopprijs, Actief en Aangemaakt, en bovenaan de keuzelijsten Alle families en Alle soorten. Bij de twee offerteartikelen is de kolom Stock leeg.](../images/artikelen-lijst.png)
+![De artikellijst met de kolommen Nummer, Naam, Familie, Soort, Eenheid, Stock, Verkoopprijs, Actief en Aangemaakt, en bovenaan de keuzelijsten Alle families en Alle soorten. Bij een offerteartikel is de kolom Stock leeg.](../images/artikelen-lijst.png)
 
 Met de keuzelijsten **Alle families** en **Alle soorten** bovenaan toont u enkel de artikelen van één familie
 of van één soort. U kunt ook zoeken, sorteren, filteren en exporteren zoals in de andere lijsten. Dubbelklik een rij om het artikel te
