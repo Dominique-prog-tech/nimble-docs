@@ -326,7 +326,7 @@ vide pour une ligne ajoutée à la main.
 Avec **Reprendre du devis** en haut de la liste de matériel, Nimble reprend le matériel des devis acceptés de ce
 projet. Un **aperçu** s'ouvre d'abord : rien n'est modifié tant que vous ne cliquez pas sur **Reprendre**.
 
-![L'aperçu de Reprendre du devis sur P2026-001, d'après OFF-2026-0001 : sous Vers les articles du projet, sept articles sanitaires avec Nécessaire, Commandé, À commander maintenant et Devient, et pour SAN-1010 et SAN-1011 la phrase indiquant que quelque chose a par ailleurs été ajouté à la main ; sous Non repris, trois services avec leur quantité ; en bas, les boutons Reprendre et Annuler.](../images/project-overnemen-uit-offerte-fr.png)
+![L'aperçu de Reprendre du devis sur P2026-001, d'après OFF-2026-0001 : sous Vers les articles du projet, sept articles sanitaires avec Nécessaire, Commandé, Ouvert actuellement et Devient, et pour SAN-1010 et SAN-1011 la phrase indiquant que quelque chose a par ailleurs été ajouté à la main ; sous Non repris, trois services avec leur quantité ; en bas, les boutons Reprendre et Annuler.](../images/project-overnemen-uit-offerte-fr.png)
 
 Ce que donne une ligne du devis :
 
@@ -347,7 +347,7 @@ Dans l'aperçu figure par article :
 |---|---|
 | **Nécessaire** | Ce que demandent ensemble les devis acceptés. Sous le nom figure de quelles lignes de devis cela vient |
 | **Commandé** | Ce qui a déjà été commandé des lignes issues du devis |
-| **À commander maintenant** | Ce qui figure aujourd'hui, avant la reprise, comme encore à commander sur la liste |
+| **Ouvert actuellement** | Ce qui figure aujourd'hui, avant la reprise, comme encore à commander sur la liste |
 | **Devient** | Ce qui restera à commander après la reprise |
 
 Un article pour lequel rien ne change est grisé ; ce que la reprise modifie ressort.

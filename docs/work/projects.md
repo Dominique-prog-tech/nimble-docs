@@ -315,7 +315,7 @@ zette, leeg voor een regel die u met de hand toevoegde.
 Met **Overnemen uit offerte** bovenaan de materiaallijst haalt Nimble het materiaal uit de aanvaarde offertes van
 dit project. Er opent eerst een **voorbeeld**: er wordt niets gewijzigd tot u op **Overnemen** klikt.
 
-![Het voorbeeld van Overnemen uit offerte op P2026-001, uit OFF-2026-0001: onder Naar de projectartikelen zeven sanitairartikelen met Nodig, Besteld, Te bestellen nu en Wordt, bij SAN-1010 en SAN-1011 de zin dat er daarnaast met de hand iets op de lijst staat; onder Niet overgenomen drie diensten met hun aantal; onderaan de knoppen Overnemen en Annuleren.](../images/project-overnemen-uit-offerte.png)
+![Het voorbeeld van Overnemen uit offerte op P2026-001, uit OFF-2026-0001: onder Naar de projectartikelen zeven sanitairartikelen met Nodig, Besteld, Nu open en Wordt, bij SAN-1010 en SAN-1011 de zin dat er daarnaast met de hand iets op de lijst staat; onder Niet overgenomen drie diensten met hun aantal; onderaan de knoppen Overnemen en Annuleren.](../images/project-overnemen-uit-offerte.png)
 
 Wat een regel van de offerte oplevert:
 
@@ -336,7 +336,7 @@ In het voorbeeld staat per artikel:
 |---|---|
 | **Nodig** | Wat de aanvaarde offertes samen vragen. Onder de naam staat uit welke offerteregels het komt |
 | **Besteld** | Wat er van de regels uit de offerte al besteld is |
-| **Te bestellen nu** | Wat er vandaag, vóór het overnemen, nog te bestellen op de lijst staat |
+| **Nu open** | Wat er vandaag, vóór het overnemen, nog te bestellen op de lijst staat |
 | **Wordt** | Wat er na het overnemen nog te bestellen staat |
 
 Een artikel waarvoor niets wijzigt, staat gedempt; wat het overnemen verandert, valt op.
