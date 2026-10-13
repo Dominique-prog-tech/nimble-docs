@@ -16,6 +16,8 @@ Uniquement les articles **avec un minimum**. Un minimum vide signifie « nous ne
 Cette distinction a sa raison d'être : sans seuil, chaque article jamais créé apparaîtrait ici en
 permanence dans le rouge, et plus personne n'y prêterait attention.
 
+Un [article de devis](articles.md#le-type-dun-article) n'est jamais suivi : il n'a pas de stock.
+
 Vous définissez le minimum sur la **fiche article**, dans le champ **Stock minimum**, avec le **Stock
 cible**.
 
@@ -29,7 +31,7 @@ fiche article. Sans seuil, cet écran ne peut pas dire s'il manque quelque chose
 | **Suivis** | les articles avec un minimum | **Articles** |
 | **À recommander** | les lignes où vous devez réellement commander — ce qui est en route est compté | **Commandes** |
 | **Déjà en rupture** | les lignes où le matériel n'est pas là aujourd'hui — même s'il y en a assez en route | — |
-| **Sans seuil** | les articles sans minimum, qui ne sont pas suivis | — |
+| **Sans seuil** | le matériel sans minimum, qui n'est pas suivi | — |
 
 L'écart entre **Déjà en rupture** et **À recommander** correspond au nombre d'articles dont le
 réapprovisionnement est déjà en route.

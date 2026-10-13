@@ -302,6 +302,9 @@ Onderaan staan de artikelen uit uw catalogus die voor dit project nodig zijn. Kl
 het artikel op code of omschrijving en kies het. Daarna vult u het aantal in, de **Leverancier**, en of het
 **Besteld** is en een **Stockartikel**.
 
+Een [offerteartikel](../inventory/articles.md#de-soort-van-een-artikel) draagt in het zoekvenster en in de
+lijst het label **Offerteartikel**.
+
 ### Tabblad Oplevering
 
 Op dit tabblad legt u vast wanneer de werf opgeleverd is, en wat er nog moet gebeuren.

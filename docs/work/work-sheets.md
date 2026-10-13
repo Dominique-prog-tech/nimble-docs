@@ -168,7 +168,8 @@ Alle meerwerken over alle projecten heen ziet u op het scherm [Meerwerken](extra
 ### Verbruikt materiaal
 
 Materiaal voegt u toe bij het **aanmaken** van de werkbon: kies een **Artikel**, vul het **Aantal** in en
-klik **Toevoegen**. Bij het bewaren wordt dat materiaal van de voorraad afgeboekt.
+klik **Toevoegen**. Bij het bewaren wordt dat materiaal van de voorraad afgeboekt. De keuzelijst toont enkel
+materiaal; een [offerteartikel](../inventory/articles.md#de-soort-van-een-artikel) staat er niet in.
 
 Op een bewaarde werkbon kunt u het materiaal daarom niet meer wijzigen. De fiche zegt dat ook.
 

@@ -112,7 +112,9 @@ Chaque bloc offre deux façons d'ajouter une ligne :
 
 !!! tip "Recherchez par numéro ou par description"
     Dans la fenêtre **Choisir un article**, saisissez un numéro d'article, une partie de la description, ou
-    les deux. « DIE weekend » trouve l'article `DIE-9002 — Heure installateur — week-end`.
+    les deux. « DIE weekend » trouve l'article `DIE-9002 — Heure installateur — week-end`. Pour un
+    [article de devis](../inventory/articles.md#le-type-dun-article), **Article de devis** figure après la
+    famille et l'unité.
 
 ### Les champs d'une ligne
 

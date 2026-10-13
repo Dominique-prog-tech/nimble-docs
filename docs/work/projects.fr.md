@@ -313,6 +313,9 @@ En bas figurent les articles de votre catalogue nécessaires pour ce projet. Cli
 recherchez l'article par code ou description et choisissez-le. Indiquez ensuite la quantité, le
 **Fournisseur**, et s'il est **Commandé** et s'il s'agit d'un **Article en stock**.
 
+Un [article de devis](../inventory/articles.md#le-type-dun-article) porte, dans la fenêtre de recherche et
+dans la liste, le libellé **Article de devis**.
+
 ### Onglet Réception
 
 Sur cet onglet, vous enregistrez la date de réception du chantier et ce qui doit encore être fait.

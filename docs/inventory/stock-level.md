@@ -16,6 +16,8 @@ Alleen artikelen **met een minimum**. Een leeg minimum betekent "dit volgen we n
 er met reden: zonder drempel zou elk artikel dat ooit aangemaakt is hier permanent in het rood staan, en dan
 kijkt er niemand meer naar.
 
+Een [offerteartikel](articles.md#de-soort-van-een-artikel) doet nooit mee: het heeft geen voorraad.
+
 U zet het minimum op de **artikelfiche**, in het veld **Minimumvoorraad**, samen met de
 **Streefvoorraad**.
 
@@ -29,7 +31,7 @@ artikelfiche verwijst. Zonder drempel kan dit scherm niet zeggen of er iets teko
 | **Opgevolgd** | artikelen met een minimum | **Artikelen** |
 | **Bij te bestellen** | regels waar u werkelijk moet bestellen — wat onderweg is, telt mee | **Bestellingen** |
 | **Nu al tekort** | regels waar het materiaal er vandaag niet ligt — ook als er genoeg onderweg is | — |
-| **Zonder drempel** | artikelen zonder minimum, die niet opgevolgd worden | — |
+| **Zonder drempel** | materiaal zonder minimum, dat niet opgevolgd wordt | — |
 
 Het verschil tussen **Nu al tekort** en **Bij te bestellen** is het aantal artikelen waarvan de aanvulling
 al onderweg is.

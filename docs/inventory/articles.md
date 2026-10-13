@@ -14,16 +14,17 @@ Klik in de zijbalk op **Voorraad → Artikelen**.
 | **Nummer** | Uw eigen artikelnummer |
 | **Naam** | Korte benaming |
 | **Familie** | De groep waarin het artikel hoort |
+| **Soort** | Materiaal of offerteartikel — zie [De soort van een artikel](#de-soort-van-een-artikel) |
 | **Eenheid** | Stuk, meter, uur … |
-| **Stock** | De huidige voorraad — zie de opmerking onderaan |
+| **Stock** | De huidige voorraad — zie de opmerking onderaan. Leeg bij een offerteartikel |
 | **Verkoopprijs** | Prijs per eenheid. Leeg wanneer er geen prijs is ingevuld |
 | **Actief** | Een vinkje bij artikelen die u nog gebruikt |
 | **Aangemaakt** | De dag waarop het artikel is aangemaakt |
 
-![De artikellijst met de kolommen Nummer, Naam, Familie, Eenheid, Stock, Verkoopprijs, Actief en Aangemaakt, en bovenaan de keuzelijst Alle families.](../images/artikelen-lijst.png)
+![De artikellijst met de kolommen Nummer, Naam, Familie, Soort, Eenheid, Stock, Verkoopprijs, Actief en Aangemaakt, en bovenaan de keuzelijsten Alle families en Alle soorten. Bij de twee offerteartikelen is de kolom Stock leeg.](../images/artikelen-lijst.png)
 
-Met de keuzelijst **Alle families** bovenaan toont u enkel de artikelen van één familie. U kunt ook
-zoeken, sorteren, filteren en exporteren zoals in de andere lijsten. Dubbelklik een rij om het artikel te
+Met de keuzelijsten **Alle families** en **Alle soorten** bovenaan toont u enkel de artikelen van één familie
+of van één soort. U kunt ook zoeken, sorteren, filteren en exporteren zoals in de andere lijsten. Dubbelklik een rij om het artikel te
 openen.
 
 ## Een artikel aanmaken of bewerken
@@ -41,6 +42,7 @@ De fiche heeft twee eigen tabbladen: **Algemeen** en **Leveranciers**. Op **Alge
 | **Nummer** | Verplicht en uniek — zie hieronder |
 | **Naam** | Verplicht |
 | **Familie** | Verplicht — beheerd via [Artikelfamilies](../administration/article-families.md) |
+| **Soort** | Materiaal of offerteartikel — zie [De soort van een artikel](#de-soort-van-een-artikel) |
 | **Eenheid** | Verplicht — beheerd via [Eenheden](../administration/units.md) |
 | **Fabrikant** | Het merk of de fabrikant van het artikel |
 | **EAN-code** | De streepjescode van het artikel |
@@ -71,6 +73,51 @@ na het bewaren op de fiche.
 
 Rechts op de fiche staan de tabbladen **Stock**, **Taken**, **Notities**, **Bijlagen** en **Logboek** —
 dezelfde als in het journaal naast de lijst.
+
+## De soort van een artikel
+
+Elk artikel heeft een **Soort**. Ze bepaalt waar u het artikel kunt gebruiken.
+
+| Soort | Wat het is |
+|---|---|
+| **Materiaal** | Wat u aankoopt, in voorraad houdt en op de werf verbruikt. Een nieuw artikel is materiaal |
+| **Offerteartikel** | Wat de klant koopt: één regel op de offerte, zoals *Hangtoilet geplaatst*. Het heeft geen voorraad en u bestelt het niet |
+
+| Waar | Materiaal | Offerteartikel |
+|---|---|---|
+| Een regel op een [offerte](../sales/quotes.md) of een [factuur](../sales/invoices.md) | ja | ja |
+| Een regel op een [bestelling](../purchasing/purchase-orders.md) | ja | nee |
+| Verbruikt materiaal op een [werkbon](../work/work-sheets.md) | ja | nee |
+| De voorraad en de [voorraadstand](stock-level.md) | ja | nee |
+| De projectartikelen van een [project](../work/projects.md#projectartikelen) | ja | ja, met het label **Offerteartikel** |
+
+Waar enkel materiaal kan, staat een offerteartikel niet in de keuzelijst.
+
+### De fiche van een offerteartikel
+
+![De fiche van het offerteartikel PLA-6001, Hangtoilet geplaatst: in de kaart Algemeen staat de Soort op Offerteartikel met de uitleg eronder, en de kaart Prijzen draagt Verkoopprijs en Aankoopprijs.](../images/artikel-offerteartikel.png)
+
+Op de fiche van een offerteartikel staan **Minimumvoorraad** en **Streefvoorraad** niet, en is er geen
+tabblad **Leveranciers**. De kaart met de prijzen heet **Prijzen**. Het tabblad **Stock** zegt dat een
+offerteartikel geen voorraad heeft.
+
+De **Aankoopprijs** vult u zelf in. Het is de kostprijs van het offerteartikel: wat het u kost om het te
+leveren en te plaatsen.
+
+### De soort wijzigen
+
+Kies op de fiche een andere **Soort** en klik **Bewaren**.
+
+- **Naar offerteartikel** kan enkel een artikel zonder leverancier en zonder voorraadbeweging. Heeft het er
+  wel, dan bewaart Nimble niet en zegt de melding wat het tegenhoudt. Een leverancier haalt u eerst weg op het
+  tabblad **Leveranciers**. Een artikel waarvoor ooit voorraad geboekt is, blijft materiaal.
+- **Naar materiaal** kan altijd.
+
+Een offerteartikel kan ook geen leverancier krijgen. Koopt u het toch aan, zet de soort dan eerst op
+materiaal.
+
+Zet u een artikel met een minimum- of een streefvoorraad op offerteartikel, dan worden die twee velden
+leeggemaakt.
 
 ## Leveranciers van een artikel
 
@@ -142,7 +189,8 @@ Gebruikt u een artikel enkel niet meer, zet het dan liever op **niet actief**.
 Klik rechts op de rail **Journaal** en kies een artikel in de lijst. Het paneel toont dan de zijkant van dát
 artikel, verdeeld over vijf tabbladen:
 
-- **Stock** — de huidige stand en alle bewegingen van dit artikel.
+- **Stock** — de huidige stand en alle bewegingen van dit artikel. Bij een offerteartikel staat er dat het
+  geen voorraad heeft.
 - **Taken** — wat er voor dit artikel nog moet gebeuren.
 - **Notities** — vrije notities bij dit artikel. Zie [Notities](../notities.md).
 - **Bijlagen** — documenten en foto's bij dit artikel, bijvoorbeeld een technische fiche. Zie
@@ -183,6 +231,8 @@ bovenaan; een plus betekent erbij, een min eraf.
       Nimble het artikel wél op.
     - **De aankoopprijs zoeken op het tabblad Algemeen** terwijl het artikel leveranciers heeft — u wijzigt
       ze dan bij de voorkeursleverancier op het tabblad **Leveranciers**.
+    - **Een offerteartikel zoeken in de keuzelijst van een bestelling of een werkbon** — daar staat enkel
+      materiaal. Kies het materiaal dat u werkelijk koopt of verbruikt.
 
 ## Zie ook
 
