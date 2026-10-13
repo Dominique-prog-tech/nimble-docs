@@ -187,6 +187,68 @@ liste de prix importée — le prix de revient de chaque article de devis qui le
 Le prix d'achat et le coût par composant ne sont visibles qu'avec le droit *Voir les marges et prix de revient*.
 Sans ce droit, vous voyez les composants, leur quantité et leur perte.
 
+### Copier depuis un autre article de devis
+
+Si un article de devis ressemble fortement à un autre — même construction, autre qualité — reprenez sa composition
+et adaptez uniquement ce qui diffère. Dans l'onglet **Composition**, cliquez sur **Copier depuis…** et choisissez
+l'article de devis. La fenêtre n'affiche que les articles de devis qui ont déjà une composition.
+
+![L'onglet Composition de PLA-6003, Hangtoilet geplaatst — design, après Copier depuis PLA-6001 : en haut le message Copié depuis PLA-6001 — Hangtoilet geplaatst, rien n'est encore enregistré ; en dessous les trois composants repris avec leur quantité et leur perte, le prix de revient, et les boutons Ajouter un composant et Copier depuis….](../images/artikel-samenstelling-kopie-fr.png)
+
+Les composants arrivent dans l'onglet avec leur quantité et leur perte. **Rien n'est encore enregistré** : adaptez
+ce qui est nécessaire et cliquez sur **Enregistrer**. Si l'onglet contient déjà des composants, Nimble demande
+d'abord s'ils peuvent être remplacés.
+
+### Importer des compositions depuis Excel
+
+Si vous avez beaucoup d'articles de devis, importez leurs compositions depuis un fichier Excel au lieu de les saisir
+une par une. Au-dessus de la liste des articles, cliquez sur **Importer des compositions**.
+
+1. Cliquez sur **Télécharger le modèle**. Vous recevez un fichier Excel avec tous vos articles de devis et leur
+   composition actuelle ; un article de devis sans composition y figure comme une ligne avec seulement son numéro.
+2. Complétez-le : une ligne par composant.
+3. Glissez le fichier dans la zone, ou cliquez dessus pour le choisir. Vous voyez d'abord un aperçu.
+4. Si l'aperçu est correct, cliquez sur **Importer** et confirmez.
+
+| Colonne | Ce que vous indiquez |
+|---|---|
+| **Article de devis** | Le numéro de l'article de devis |
+| **Composant** | Le numéro du composant : du matériel ou un service |
+| **Quantité** | Combien en contient une unité de l'article de devis, dans l'unité du composant |
+| **Perte (%)** | Peut rester vide. *8* et *8 %* signifient tous deux 8 % |
+| **Unité** | Peut rester vide. Si vous la remplissez, Nimble vérifie que c'est celle du composant — une confusion entre *m* et *m²* saute ainsi aux yeux |
+
+Les colonnes **Nom de l'article de devis** et **Nom du composant** du modèle servent uniquement à rendre le fichier
+lisible ; Nimble ne les lit pas. Indiquez toujours des numéros d'article, pas des noms. L'ordre des colonnes n'a pas
+d'importance : Nimble les reconnaît à la ligne d'en-tête, en néerlandais ou en français.
+
+![L'aperçu d'Importer des compositions avec le modèle de la démo : en haut les compteurs Nouveau, Modifié, Inchangé, Non rempli et Ignoré, en dessous par article de devis le numéro de ligne, le numéro, le nom, le nombre de composants, le prix de revient actuel et après, ce qui se passe et une explication.](../images/samenstellingen-inlezen-fr.png)
+
+L'aperçu indique pour chaque article de devis ce qui se passe :
+
+| Ce qui se passe | Signification |
+|---|---|
+| **Nouveau** | Il n'avait pas encore de composition et reçoit celle du fichier |
+| **Modifié** | La composition du fichier **remplace** ce qui existait : ce qui ne figure pas dans le fichier disparaît |
+| **Inchangé** | Le fichier dit la même chose que ce qui existe, éventuellement dans un autre ordre |
+| **Non rempli** | L'article de devis figure dans le fichier sans composants. Rien ne change : vous n'effacez ainsi aucune composition par mégarde |
+| **Ignoré** | Quelque chose ne va pas ; l'explication dit quoi, avec le numéro de ligne dans le fichier |
+
+Un article de devis qui ne figure pas dans le fichier reste inchangé.
+
+!!! info "Une seule ligne erronée fait ignorer tout l'article de devis"
+    Nimble n'importe jamais une composition à moitié : un prix de revient sans un composant est trop bas. Si une
+    seule ligne d'un article de devis est erronée, cet article de devis reste tel quel. Une ligne est erronée si le
+    numéro d'article n'existe pas, si le composant est lui-même un article de devis, si la quantité manque ou vaut 0,
+    si la perte n'est pas comprise entre 0 et 100, si un composant figure deux fois pour le même article de devis, ou
+    si l'unité ne correspond pas.
+
+!!! info "Le type n'est pas modifié"
+    Si la colonne **Article de devis** contient un article qui est du matériel ou un service, il est ignoré. Changez
+    d'abord le type sur la fiche de l'article — voir [Changer le type](#changer-le-type).
+
+Vous avez besoin du droit de modifier les articles et de celui de voir les marges et prix de revient.
+
 ## Fournisseurs d'un article
 
 Vous pouvez acheter un article chez plus d'un fournisseur, chacun avec son propre numéro d'article et son

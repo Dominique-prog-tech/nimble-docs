@@ -183,6 +183,67 @@ ingelezen prijslijst — dan volgt de kostprijs van elk offerteartikel waarin he
 De aankoopprijs en de kost per onderdeel ziet u alleen met het recht *Marges en kostprijzen bekijken*. Zonder
 dat recht ziet u de onderdelen, hun aantal en hun verlies.
 
+### Kopiëren van een ander offerteartikel
+
+Lijkt een offerteartikel sterk op een ander — dezelfde opbouw, een andere kwaliteit — neem dan diens samenstelling
+over en pas enkel aan wat verschilt. Klik op het tabblad **Samenstelling** op **Kopiëren van…** en kies het
+offerteartikel. Het venster toont enkel offerteartikelen die al een samenstelling hebben.
+
+![Het tabblad Samenstelling van PLA-6003, Hangtoilet geplaatst — design, na Kopiëren van PLA-6001: bovenaan de melding Gekopieerd van PLA-6001 — Hangtoilet geplaatst, er is nog niets bewaard; daaronder de drie overgenomen onderdelen met hun aantal en verlies, de kostprijs, en de knoppen Onderdeel toevoegen en Kopiëren van….](../images/artikel-samenstelling-kopie.png)
+
+De onderdelen komen met hun aantal en verlies op het tabblad. Er is dan nog **niets bewaard**: pas aan wat nodig is
+en klik **Bewaren**. Staan er al onderdelen op het tabblad, dan vraagt Nimble eerst of die vervangen mogen worden.
+
+### Samenstellingen inlezen uit Excel
+
+Heeft u veel offerteartikelen, lees de samenstellingen dan in uit een Excel-bestand in plaats van ze één voor één
+in te tikken. Klik boven de artikellijst op **Samenstellingen inlezen**.
+
+1. Klik **Sjabloon downloaden**. U krijgt een Excel-bestand met al uw offerteartikelen en hun huidige samenstelling;
+   een offerteartikel zonder samenstelling staat er als regel met enkel zijn nummer.
+2. Vul het aan: één regel per onderdeel.
+3. Sleep het bestand in het vak, of klik erop om het te kiezen. U ziet eerst een voorbeeld.
+4. Klopt het voorbeeld, klik dan **Inlezen** en bevestig.
+
+| Kolom | Wat u invult |
+|---|---|
+| **Offerteartikel** | Het artikelnummer van het offerteartikel |
+| **Onderdeel** | Het artikelnummer van het onderdeel: materiaal of een dienst |
+| **Aantal** | Hoeveel er in één eenheid van het offerteartikel zit, in de eenheid van het onderdeel |
+| **Verlies (%)** | Mag leeg blijven. *8* en *8 %* betekenen allebei 8 % |
+| **Eenheid** | Mag leeg blijven. Vult u ze in, dan controleert Nimble of ze die van het onderdeel is — zo valt een vergissing tussen *m* en *m²* op |
+
+De kolommen **Naam offerteartikel** en **Naam onderdeel** van het sjabloon dienen enkel om het bestand leesbaar te
+houden; Nimble leest ze niet. Vul altijd artikelnummers in, geen namen. De volgorde van de kolommen speelt geen rol:
+Nimble herkent ze aan de kopregel, in het Nederlands of het Frans.
+
+![Het voorbeeld van Samenstellingen inlezen met het sjabloon van de demo: bovenaan de tellers Nieuw, Wijzigt, Ongewijzigd, Niet ingevuld en Overgeslagen, daaronder per offerteartikel het regelnummer, het nummer, de naam, het aantal onderdelen, de kostprijs nu en straks, wat er gebeurt en een toelichting.](../images/samenstellingen-inlezen.png)
+
+In het voorbeeld staat per offerteartikel wat er gebeurt:
+
+| Wat gebeurt er | Betekenis |
+|---|---|
+| **Nieuw** | Het had nog geen samenstelling en krijgt die uit het bestand |
+| **Wijzigt** | De samenstelling uit het bestand **vervangt** wat er stond: wat niet in het bestand staat, verdwijnt |
+| **Ongewijzigd** | Het bestand zegt hetzelfde als wat er staat, eventueel in een andere volgorde |
+| **Niet ingevuld** | Het offerteartikel staat in het bestand zonder onderdelen. Er gebeurt niets: zo wist u geen samenstelling per ongeluk |
+| **Overgeslagen** | Er is iets mis; de toelichting zegt wat, met het regelnummer in het bestand |
+
+Een offerteartikel dat niet in het bestand staat, blijft ongemoeid.
+
+!!! info "Eén foute regel slaat het hele offerteartikel over"
+    Nimble leest nooit een halve samenstelling in: een kostprijs zonder één onderdeel staat te laag. Is er één regel
+    van een offerteartikel fout, dan blijft dat hele offerteartikel zoals het was. Een regel is fout als het
+    artikelnummer niet bestaat, als het onderdeel zelf een offerteartikel is, als het aantal ontbreekt of 0 is, als het
+    verlies niet tussen 0 en 100 ligt, als een onderdeel twee keer bij hetzelfde offerteartikel staat, of als de
+    eenheid niet klopt.
+
+!!! info "De soort wordt niet omgezet"
+    Staat er in de kolom **Offerteartikel** een artikel dat materiaal of een dienst is, dan wordt het overgeslagen.
+    Zet de soort eerst op de artikelfiche — zie [De soort wijzigen](#de-soort-wijzigen).
+
+U hebt het recht nodig om artikelen te bewerken én om marges en kostprijzen te bekijken.
+
 ## Leveranciers van een artikel
 
 Een artikel kunt u bij meer dan één leverancier kopen, elk met zijn eigen artikelnummer en zijn eigen prijs.
