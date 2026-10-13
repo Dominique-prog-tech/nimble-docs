@@ -21,7 +21,7 @@ Dans la barre latérale, cliquez sur **Stock → Articles**.
 | **Actif** | Une coche pour les articles que vous utilisez encore |
 | **Créé le** | Le jour où l'article a été créé |
 
-![La liste des articles avec les colonnes Numéro, Nom, Famille, Type, Unité, Stock, Prix de vente, Actif et Créé le, et en haut les listes de choix Toutes les familles et Tous les types. Pour un article de devis, la colonne Stock est vide.](../images/artikelen-lijst-fr.png)
+![La liste des articles avec les colonnes Numéro, Nom, Famille, Type, Unité, Stock, Prix de vente, Actif et Créé le, et en haut les listes de choix Toutes les familles et Tous les types et le bouton Importer des compositions. En haut figurent les services : leur colonne Stock est vide.](../images/artikelen-lijst-fr.png)
 
 Les listes de choix **Toutes les familles** et **Tous les types** en haut limitent la liste aux articles
 d'une seule famille ou d'un seul type. Vous
