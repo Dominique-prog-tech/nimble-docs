@@ -16,7 +16,7 @@ Uniquement les articles **avec un minimum**. Un minimum vide signifie « nous ne
 Cette distinction a sa raison d'être : sans seuil, chaque article jamais créé apparaîtrait ici en
 permanence dans le rouge, et plus personne n'y prêterait attention.
 
-Un [article de devis](articles.md#le-type-dun-article) n'est jamais suivi : il n'a pas de stock.
+Un service et un [article de devis](articles.md#le-type-dun-article) ne sont jamais suivis : ils n'ont pas de stock.
 
 Vous définissez le minimum sur la **fiche article**, dans le champ **Stock minimum**, avec le **Stock
 cible**.

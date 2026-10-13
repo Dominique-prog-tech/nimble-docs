@@ -304,8 +304,8 @@ Chaque ligne a un **statut** : l'endroit où se trouve le matériel à ce moment
 - Cochez des lignes pour modifier leur statut en une fois : choisissez le statut et cliquez sur **Définir le
   statut**.
 - Faites glisser une ligne par la poignée à gauche pour modifier l'ordre.
-- **Reprendre du devis** place les lignes du devis accepté de ce projet dans la liste — sans les options ni les
-  lignes vides. Vous pouvez le refaire sans crainte : ce qui y figure déjà n'est pas ajouté une seconde fois.
+- **Reprendre du devis** reprend le matériel des devis acceptés de ce projet — voir
+  [Reprendre du devis](#reprendre-du-devis).
 
 #### Articles du projet
 
@@ -313,8 +313,65 @@ En bas figurent les articles de votre catalogue nécessaires pour ce projet. Cli
 recherchez l'article par code ou description et choisissez-le. Indiquez ensuite la quantité, le
 **Fournisseur**, et s'il est **Commandé** et s'il s'agit d'un **Article en stock**.
 
-Un [article de devis](../inventory/articles.md#le-type-dun-article) porte, dans la fenêtre de recherche et
-dans la liste, le libellé **Article de devis**.
+Cette liste contient du matériel, et les services que vous commandez — un conteneur, un sous-traitant. Un
+[article de devis](../inventory/articles.md#le-type-dun-article) n'y figure pas : la fenêtre de recherche ne le
+propose pas, et [Reprendre du devis](#reprendre-du-devis) place à sa place les composants de sa composition. Un
+article de devis qui y figure depuis avant reste en place et peut encore être modifié.
+
+La colonne **Origine** indique d'où vient une ligne : **Devis** pour une ligne placée par *Reprendre du devis*,
+vide pour une ligne ajoutée à la main.
+
+#### Reprendre du devis
+
+Avec **Reprendre du devis** en haut de la liste de matériel, Nimble reprend le matériel des devis acceptés de ce
+projet. Un **aperçu** s'ouvre d'abord : rien n'est modifié tant que vous ne cliquez pas sur **Reprendre**.
+
+![L'aperçu de Reprendre du devis sur P2026-001, d'après OFF-2026-0001 : sous Vers les articles du projet, sept articles sanitaires avec Nécessaire, Commandé, À commander maintenant et Devient, et pour SAN-1010 et SAN-1011 la phrase indiquant que quelque chose a par ailleurs été ajouté à la main ; sous Non repris, trois services avec leur quantité ; en bas, les boutons Reprendre et Annuler.](../images/project-overnemen-uit-offerte-fr.png)
+
+Ce que donne une ligne du devis :
+
+| Sur le devis | Ce que cela devient |
+|---|---|
+| Du **matériel** | Cet article, dans les articles du projet |
+| Un **article de devis avec une composition** | Les composants de sa [composition](../inventory/articles.md#la-composition-dun-article-de-devis), dans les articles du projet : la quantité du devis multipliée par ce qu'il faut par unité, perte comprise |
+| Un **service** — comme ligne ou comme composant | Rien. Il figure dans l'aperçu sous **Non repris** |
+| Un **article de devis sans composition**, ou une ligne sans article | Une ligne de texte sur la liste de matériel |
+| Une option ou une ligne vide | Rien |
+
+Tout est **additionné par article**, sur tous les devis acceptés du projet. Un titre du devis n'est repris que si
+une ligne de texte se trouve en dessous.
+
+Dans l'aperçu figure par article :
+
+| Colonne | Ce que c'est |
+|---|---|
+| **Nécessaire** | Ce que demandent ensemble les devis acceptés. Sous le nom figure de quelles lignes de devis cela vient |
+| **Commandé** | Ce qui a déjà été commandé des lignes issues du devis |
+| **À commander maintenant** | Ce qui figure aujourd'hui, avant la reprise, comme encore à commander sur la liste |
+| **Devient** | Ce qui restera à commander après la reprise |
+
+Un article pour lequel rien ne change est grisé ; ce que la reprise modifie ressort.
+
+Voici comment Nimble traite ce qui figure déjà sur la liste :
+
+- **Ce qui est commandé reste en place.** Si les devis demandent plus par la suite, par exemple à cause de
+  travaux supplémentaires, la différence s'ajoute comme une nouvelle ligne encore à commander. S'ils demandent
+  moins, seul ce qui n'était pas encore commandé disparaît ; l'aperçu indique combien a été commandé en trop.
+- **Une ligne issue du devis qui n'est pas encore commandée suit le devis.** Si vous avez modifié à la main la
+  quantité d'une telle ligne, une reprise suivante la remet sur ce que demandent les devis — l'aperçu le montre à
+  l'avance. Un nom ou un fournisseur que vous avez modifié reste.
+- **Ce que vous avez ajouté à la main reste en place et n'est pas compté**, même pour le même article. L'aperçu
+  le signale (*Par ailleurs, ajouté à la main sur la liste : 2*), pour que vous ne commandiez pas deux fois sans
+  le voir.
+- **Une nouvelle ligne reçoit le fournisseur préféré** de l'article.
+
+Vous pouvez refaire **Reprendre du devis** sans crainte, par exemple après l'ajout d'un devis : ce qui est déjà
+correct reste tel quel, et une ligne de texte qui y figure déjà n'est pas ajoutée une seconde fois.
+
+!!! info "Les services se commandent à la main"
+    Nimble ne distingue pas une heure de travail d'un conteneur ou d'un sous-traitant : ce sont tous des
+    services, et ils ne figurent pas sur la liste. Si vous commandez un service, ajoutez-le aux articles du
+    projet avec **Ajouter un article**.
 
 ### Onglet Réception
 

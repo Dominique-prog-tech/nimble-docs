@@ -50,8 +50,9 @@ na het bewaren op de fiche.
 ![De fiche van bestelling B2026-0011 met status Besteld: Bestelgegevens met leverancier Ventura Air Systems BV en Verwachte leverdatum, twee regels met de kolom Nog te komen in het oranje, en onderaan Bewaren, Receptioneren, Deellevering boeken, Annuleren en Verwijderen.](../images/bestelling-fiche.png)
 
 Onder de kaart **Regels** staat een rij om een regel toe te voegen. Kies een **Artikel**, vul het **Aantal**
-in en klik **Regel toevoegen**. De keuzelijst toont enkel materiaal: een
-[offerteartikel](../inventory/articles.md#de-soort-van-een-artikel) bestelt u niet.
+in en klik **Regel toevoegen**. De keuzelijst toont materiaal en diensten — een dienst bestelt u bijvoorbeeld bij
+een onderaannemer of een verhuurder. Een [offerteartikel](../inventory/articles.md#de-soort-van-een-artikel)
+bestelt u niet.
 
 Zodra u een artikel kiest, vult Nimble de **Prijs** in:
 
@@ -108,7 +109,8 @@ Klik **Boeken**. Staat er bij geen enkele regel een hoeveelheid, dan zegt het ve
 sluit het venster zonder iets te boeken.
 
 Na het boeken staan de goederen in de voorraad en past de status zich aan: **Deels geleverd** zolang er
-iets openstaat, **Ontvangen** wanneer alles binnen is.
+iets openstaat, **Ontvangen** wanneer alles binnen is. Een dienst wordt ontvangen zoals elke regel, maar komt
+niet in de voorraad: een dienst heeft er geen.
 
 ### De leveringen
 

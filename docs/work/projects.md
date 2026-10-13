@@ -293,8 +293,8 @@ Elke regel heeft een **status**: waar het materiaal op dit moment is.
 - **Nieuwe regel** voegt een regel toe; dubbelklik op een regel om ze te wijzigen of te verwijderen.
 - Vink regels aan om hun status in één keer te wijzigen: kies de status en klik **Status zetten**.
 - Sleep een regel aan het handvat links om de volgorde te wijzigen.
-- **Overnemen uit offerte** zet de regels van de aanvaarde offerte van dit project in de lijst — zonder opties
-  en witregels. U kunt het gerust opnieuw doen: wat er al staat, komt er niet nog eens bij.
+- **Overnemen uit offerte** haalt het materiaal uit de aanvaarde offertes van dit project — zie
+  [Overnemen uit offerte](#overnemen-uit-offerte).
 
 #### Projectartikelen
 
@@ -302,8 +302,64 @@ Onderaan staan de artikelen uit uw catalogus die voor dit project nodig zijn. Kl
 het artikel op code of omschrijving en kies het. Daarna vult u het aantal in, de **Leverancier**, en of het
 **Besteld** is en een **Stockartikel**.
 
-Een [offerteartikel](../inventory/articles.md#de-soort-van-een-artikel) draagt in het zoekvenster en in de
-lijst het label **Offerteartikel**.
+Op deze lijst staat materiaal, en diensten die u bestelt — een container, een onderaannemer. Een
+[offerteartikel](../inventory/articles.md#de-soort-van-een-artikel) staat er niet op: het zoekvenster biedt
+het niet aan, en [Overnemen uit offerte](#overnemen-uit-offerte) zet er de onderdelen uit zijn samenstelling
+voor in de plaats. Een offerteartikel dat er van vroeger op staat, blijft staan en kunt u nog bewerken.
+
+De kolom **Herkomst** zegt waar een regel vandaan komt: **Offerte** voor een regel die *Overnemen uit offerte*
+zette, leeg voor een regel die u met de hand toevoegde.
+
+#### Overnemen uit offerte
+
+Met **Overnemen uit offerte** bovenaan de materiaallijst haalt Nimble het materiaal uit de aanvaarde offertes van
+dit project. Er opent eerst een **voorbeeld**: er wordt niets gewijzigd tot u op **Overnemen** klikt.
+
+![Het voorbeeld van Overnemen uit offerte op P2026-001, uit OFF-2026-0001: onder Naar de projectartikelen zeven sanitairartikelen met Nodig, Besteld, Te bestellen nu en Wordt, bij SAN-1010 en SAN-1011 de zin dat er daarnaast met de hand iets op de lijst staat; onder Niet overgenomen drie diensten met hun aantal; onderaan de knoppen Overnemen en Annuleren.](../images/project-overnemen-uit-offerte.png)
+
+Wat een regel van de offerte oplevert:
+
+| Op de offerte | Wat het wordt |
+|---|---|
+| **Materiaal** | Dat artikel, bij de projectartikelen |
+| Een **offerteartikel met een samenstelling** | De onderdelen uit zijn [samenstelling](../inventory/articles.md#de-samenstelling-van-een-offerteartikel), bij de projectartikelen: het aantal op de offerte maal wat er per eenheid nodig is, met het verlies erbij |
+| Een **dienst** — als regel of als onderdeel | Niets. Hij staat in het voorbeeld onder **Niet overgenomen** |
+| Een **offerteartikel zonder samenstelling**, of een regel zonder artikel | Een tekstregel op de materiaallijst |
+| Een optie of een witregel | Niets |
+
+Alles wordt **opgeteld per artikel**, over alle aanvaarde offertes van het project. Een titel van de offerte komt
+enkel mee als er een tekstregel onder staat.
+
+In het voorbeeld staat per artikel:
+
+| Kolom | Wat het is |
+|---|---|
+| **Nodig** | Wat de aanvaarde offertes samen vragen. Onder de naam staat uit welke offerteregels het komt |
+| **Besteld** | Wat er van de regels uit de offerte al besteld is |
+| **Te bestellen nu** | Wat er vandaag, vóór het overnemen, nog te bestellen op de lijst staat |
+| **Wordt** | Wat er na het overnemen nog te bestellen staat |
+
+Een artikel waarvoor niets wijzigt, staat gedempt; wat het overnemen verandert, valt op.
+
+Zo gaat Nimble om met wat er al op de lijst staat:
+
+- **Wat besteld is, blijft staan.** Vragen de offertes later meer, bijvoorbeeld door meerwerk, dan komt het
+  verschil als een nieuwe regel die nog te bestellen is. Vragen ze minder, dan valt enkel weg wat nog niet besteld
+  was; het voorbeeld zegt hoeveel er te veel besteld is.
+- **Een regel uit de offerte die nog niet besteld is, volgt de offerte.** Paste u het aantal van zo'n regel met de
+  hand aan, dan zet een volgende overname het terug op wat de offertes vragen — het voorbeeld toont het vooraf.
+  Een naam of leverancier die u wijzigde, blijft.
+- **Wat u met de hand toevoegde, blijft staan en telt niet mee**, ook niet bij hetzelfde artikel. Het voorbeeld
+  zegt het erbij (*Daarnaast met de hand op de lijst: 2*), zodat u niet dubbel bestelt zonder het te zien.
+- **Een nieuwe regel krijgt de voorkeursleverancier** van het artikel.
+
+U kunt **Overnemen uit offerte** gerust opnieuw doen, bijvoorbeeld nadat er een offerte bij kwam: wat al klopt,
+blijft zoals het is, en een tekstregel die er al staat, komt er niet nog eens bij.
+
+!!! info "Diensten bestelt u met de hand"
+    Nimble maakt geen onderscheid tussen een werkuur en een container of een onderaannemer: het zijn allemaal
+    diensten, en ze komen niet op de lijst. Bestelt u een dienst, zet hem dan met **Artikel toevoegen** bij de
+    projectartikelen.
 
 ### Tabblad Oplevering
 

@@ -109,9 +109,9 @@ Per blok hebt u twee manieren om een regel toe te voegen:
 
 !!! tip "Zoek op nummer of op omschrijving"
     In het venster **Artikel kiezen** typt u een artikelnummer, een deel van de omschrijving, of allebei.
-    "DIE weekend" vindt het artikel `DIE-9002 — Werkuur installateur — weekend`. Bij een
-    [offerteartikel](../inventory/articles.md#de-soort-van-een-artikel) staat **Offerteartikel** achter de
-    familie en de eenheid.
+    "DIE weekend" vindt het artikel `DIE-9002 — Werkuur installateur — weekend`. Bij een dienst staat
+    **Dienst** achter de familie en de eenheid, bij een
+    [offerteartikel](../inventory/articles.md#de-soort-van-een-artikel) **Offerteartikel**.
 
 ### De regelvelden
 

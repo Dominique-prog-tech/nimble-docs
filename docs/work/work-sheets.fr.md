@@ -177,7 +177,8 @@ Tous les travaux supplémentaires, tous projets confondus, figurent sur l'écran
 
 Le matériel s'ajoute à la **création** du bon : choisissez un **Article**, saisissez la **Quantité** et
 cliquez sur **Ajouter**. À l'enregistrement, ce matériel est déduit du stock. La liste de choix n'affiche que
-le matériel ; un [article de devis](../inventory/articles.md#le-type-dun-article) n'y figure pas.
+le matériel ; un service ou un [article de devis](../inventory/articles.md#le-type-dun-article) n'y figure
+pas. Les heures de travail s'encodent comme heures, pas comme matériel.
 
 Sur un bon enregistré, vous ne pouvez donc plus modifier le matériel. La fiche l'indique aussi.
 

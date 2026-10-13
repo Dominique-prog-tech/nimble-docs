@@ -50,7 +50,8 @@ l'enregistrement, vous restez sur la fiche.
 ![La fiche de la commande B2026-0011 au statut Commandé : Données de la commande avec le fournisseur Ventura Air Systems BV et la Date de livraison prévue, deux lignes dont la colonne Encore attendu en orange, et en bas Enregistrer, Réceptionner, Enregistrer une livraison partielle, Annuler et Supprimer.](../images/bestelling-fiche-fr.png)
 
 Sous la carte **Lignes** figure une rangée pour ajouter une ligne. Choisissez un **Article**, indiquez la
-**Quantité** et cliquez sur **Ajouter une ligne**. La liste de choix n'affiche que le matériel : un
+**Quantité** et cliquez sur **Ajouter une ligne**. La liste de choix affiche le matériel et les services — un
+service se commande par exemple chez un sous-traitant ou un loueur. Un
 [article de devis](../inventory/articles.md#le-type-dun-article) ne se commande pas.
 
 Dès que vous choisissez un article, Nimble remplit le **Prix** :
@@ -109,7 +110,8 @@ Cliquez sur **Enregistrer**. Si aucune ligne ne porte de quantité, la fenêtre 
 ferme la fenêtre sans rien comptabiliser.
 
 Après l'enregistrement, les marchandises sont dans le stock et le statut s'adapte : **Partiellement livré**
-tant qu'il reste quelque chose d'ouvert, **Reçu** quand tout est arrivé.
+tant qu'il reste quelque chose d'ouvert, **Reçu** quand tout est arrivé. Un service se réceptionne comme toute
+autre ligne, mais n'entre pas dans le stock : un service n'en a pas.
 
 ### Les livraisons
 

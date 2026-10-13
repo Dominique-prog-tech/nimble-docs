@@ -14,9 +14,9 @@ Klik in de zijbalk op **Voorraad → Artikelen**.
 | **Nummer** | Uw eigen artikelnummer |
 | **Naam** | Korte benaming |
 | **Familie** | De groep waarin het artikel hoort |
-| **Soort** | Materiaal of offerteartikel — zie [De soort van een artikel](#de-soort-van-een-artikel) |
+| **Soort** | Materiaal, dienst of offerteartikel — zie [De soort van een artikel](#de-soort-van-een-artikel) |
 | **Eenheid** | Stuk, meter, uur … |
-| **Stock** | De huidige voorraad — zie de opmerking onderaan. Leeg bij een offerteartikel |
+| **Stock** | De huidige voorraad — zie de opmerking onderaan. Leeg bij een dienst en bij een offerteartikel |
 | **Verkoopprijs** | Prijs per eenheid. Leeg wanneer er geen prijs is ingevuld |
 | **Actief** | Een vinkje bij artikelen die u nog gebruikt |
 | **Aangemaakt** | De dag waarop het artikel is aangemaakt |
@@ -33,7 +33,8 @@ Klik **Nieuw artikel**, of dubbelklik een bestaande rij.
 
 ![De artikelfiche van SAN-1001 op het tabblad Algemeen, met de kaarten Algemeen (waarin Fabrikant en EAN-code), Prijzen en voorraad en Omschrijving. De aankoopprijs staat vast met de uitleg dat ze de voorkeursleverancier volgt.](../images/artikel-fiche.png)
 
-De fiche heeft twee eigen tabbladen: **Algemeen** en **Leveranciers**. Op **Algemeen** staan drie kaarten.
+Links staan de eigen tabbladen van de fiche: **Algemeen**, en daarnaast **Leveranciers** bij materiaal en bij een
+dienst, of **Samenstelling** bij een offerteartikel. Op **Algemeen** staan drie kaarten.
 
 **Algemeen**
 
@@ -42,7 +43,7 @@ De fiche heeft twee eigen tabbladen: **Algemeen** en **Leveranciers**. Op **Alge
 | **Nummer** | Verplicht en uniek — zie hieronder |
 | **Naam** | Verplicht |
 | **Familie** | Verplicht — beheerd via [Artikelfamilies](../administration/article-families.md) |
-| **Soort** | Materiaal of offerteartikel — zie [De soort van een artikel](#de-soort-van-een-artikel) |
+| **Soort** | Materiaal, dienst of offerteartikel — zie [De soort van een artikel](#de-soort-van-een-artikel) |
 | **Eenheid** | Verplicht — beheerd via [Eenheden](../administration/units.md) |
 | **Fabrikant** | Het merk of de fabrikant van het artikel |
 | **EAN-code** | De streepjescode van het artikel |
@@ -81,28 +82,41 @@ Elk artikel heeft een **Soort**. Ze bepaalt waar u het artikel kunt gebruiken.
 | Soort | Wat het is |
 |---|---|
 | **Materiaal** | Wat u aankoopt, in voorraad houdt en op de werf verbruikt. Een nieuw artikel is materiaal |
-| **Offerteartikel** | Wat de klant koopt: één regel op de offerte, zoals *Hangtoilet geplaatst*. Het heeft geen voorraad en u bestelt het niet |
+| **Dienst** | Wat er uitgevoerd wordt: een werkuur, een verplaatsing, een onderhoud, een container. Een dienst heeft geen voorraad; bestellen kan wel, bijvoorbeeld bij een onderaannemer |
+| **Offerteartikel** | Wat de klant koopt: één regel op de offerte, zoals *Hangtoilet geplaatst*. Het heeft geen voorraad en u bestelt het niet. Wat erachter zit, legt u vast in zijn [samenstelling](#de-samenstelling-van-een-offerteartikel) |
 
-| Waar | Materiaal | Offerteartikel |
-|---|---|---|
-| Een regel op een [offerte](../sales/quotes.md) of een [factuur](../sales/invoices.md) | ja | ja |
-| Een regel op een [bestelling](../purchasing/purchase-orders.md) | ja | nee |
-| Verbruikt materiaal op een [werkbon](../work/work-sheets.md) | ja | nee |
-| De voorraad en de [voorraadstand](stock-level.md) | ja | nee |
-| De projectartikelen van een [project](../work/projects.md#projectartikelen) | ja | ja, met het label **Offerteartikel** |
+| Waar | Materiaal | Dienst | Offerteartikel |
+|---|---|---|---|
+| Een regel op een [offerte](../sales/quotes.md) of een [factuur](../sales/invoices.md) | ja | ja | ja |
+| Een regel op een [bestelling](../purchasing/purchase-orders.md) | ja | ja | nee |
+| Verbruikt materiaal op een [werkbon](../work/work-sheets.md) | ja | nee | nee |
+| De voorraad en de [voorraadstand](stock-level.md) | ja | nee | nee |
+| De projectartikelen van een [project](../work/projects.md#projectartikelen) | ja | ja | nee |
+| Een onderdeel van een [samenstelling](#de-samenstelling-van-een-offerteartikel) | ja | ja | nee |
 
-Waar enkel materiaal kan, staat een offerteartikel niet in de keuzelijst.
+Waar een soort niet kan, staat ze niet in de keuzelijst. In het zoekvenster staat **Dienst** of
+**Offerteartikel** achter het artikel; bij materiaal staat er niets.
+
+### De fiche van een dienst
+
+![De fiche van de dienst DIE-9001, Werkuur installateur: in de kaart Algemeen staat de Soort op Dienst met de uitleg eronder, en de kaart Prijzen draagt Verkoopprijs en Aankoopprijs. Links de tabbladen Algemeen en Leveranciers.](../images/artikel-dienst.png)
+
+Op de fiche van een dienst staan **Minimumvoorraad** en **Streefvoorraad** niet: een dienst heeft geen
+voorraad. De kaart met de prijzen heet **Prijzen**, en het tabblad **Stock** zegt dat een dienst geen voorraad
+heeft. Het tabblad **Leveranciers** blijft: bestelt u een dienst bij een onderaannemer of een verhuurder, dan legt
+u die daar vast, zoals bij materiaal.
 
 ### De fiche van een offerteartikel
 
-![De fiche van het offerteartikel PLA-6001, Hangtoilet geplaatst: in de kaart Algemeen staat de Soort op Offerteartikel met de uitleg eronder, en de kaart Prijzen draagt Verkoopprijs en Aankoopprijs.](../images/artikel-offerteartikel.png)
+![De fiche van het offerteartikel PLA-6001, Hangtoilet geplaatst: in de kaart Algemeen staat de Soort op Offerteartikel met de uitleg eronder, en de kaart Prijzen draagt Verkoopprijs en Aankoopprijs, met onder de aankoopprijs Berekend uit de samenstelling.](../images/artikel-offerteartikel.png)
 
 Op de fiche van een offerteartikel staan **Minimumvoorraad** en **Streefvoorraad** niet, en is er geen
-tabblad **Leveranciers**. De kaart met de prijzen heet **Prijzen**. Het tabblad **Stock** zegt dat een
-offerteartikel geen voorraad heeft.
+tabblad **Leveranciers** maar een tabblad **Samenstelling**. De kaart met de prijzen heet **Prijzen**. Het
+tabblad **Stock** zegt dat een offerteartikel geen voorraad heeft.
 
-De **Aankoopprijs** vult u zelf in. Het is de kostprijs van het offerteartikel: wat het u kost om het te
-leveren en te plaatsen.
+De **Aankoopprijs** is de kostprijs van het offerteartikel: wat het u kost om het te leveren en te plaatsen.
+Heeft het een samenstelling, dan rekent Nimble ze uit en staat eronder *Berekend uit de samenstelling*; u
+tikt ze dan niet zelf in. Zonder samenstelling vult u ze zelf in.
 
 ### De soort wijzigen
 
@@ -110,14 +124,64 @@ Kies op de fiche een andere **Soort** en klik **Bewaren**.
 
 - **Naar offerteartikel** kan enkel een artikel zonder leverancier en zonder voorraadbeweging. Heeft het er
   wel, dan bewaart Nimble niet en zegt de melding wat het tegenhoudt. Een leverancier haalt u eerst weg op het
-  tabblad **Leveranciers**. Een artikel waarvoor ooit voorraad geboekt is, blijft materiaal.
+  tabblad **Leveranciers**. Een artikel waarvoor ooit voorraad geboekt is, blijft materiaal. Een artikel dat een
+  onderdeel is van een samenstelling, kan evenmin een offerteartikel worden.
+- **Naar dienst** kan een artikel zonder voorraadbeweging. Een leverancier houdt het niet tegen.
 - **Naar materiaal** kan altijd.
 
-Een offerteartikel kan ook geen leverancier krijgen. Koopt u het toch aan, zet de soort dan eerst op
-materiaal.
+Een offerteartikel met een samenstelling blijft offerteartikel: haal eerst de onderdelen weg op het tabblad
+**Samenstelling**.
 
-Zet u een artikel met een minimum- of een streefvoorraad op offerteartikel, dan worden die twee velden
-leeggemaakt.
+Een offerteartikel kan geen leverancier krijgen. Koopt u het toch aan, zet de soort dan eerst op materiaal.
+
+Zet u een artikel met een minimum- of een streefvoorraad op dienst of op offerteartikel, dan worden die twee
+velden leeggemaakt.
+
+## De samenstelling van een offerteartikel
+
+Achter een offerteartikel zitten echte artikelen. Achter *Hangtoilet geplaatst* zitten een hangtoilet, een
+inbouwreservoir en drie werkuren. Dat legt u vast op het tabblad **Samenstelling** van de fiche. Nimble rekent er de
+kostprijs van het offerteartikel mee uit, en [Overnemen uit offerte](../work/projects.md#overnemen-uit-offerte)
+zet er later de echte artikelen mee bij de projectartikelen van een project.
+
+![Het tabblad Samenstelling van PLA-6001, Hangtoilet geplaatst: drie onderdelen, SAN-1010 Hangtoilet rimless (1 stuk, € 198,00), SAN-1011 Inbouwreservoir 1120 mm (1 stuk, € 164,00) en DIE-9001 Werkuur installateur met het label Dienst (3 uur, € 123,00), elk met een verlies van 0 %. Eronder Kostprijs per stuk: € 485,00, met verkoopprijs € 1.095,00 en marge € 610,00 (55,7%), en de knop Onderdeel toevoegen.](../images/artikel-samenstelling.png)
+
+| Kolom | Wat het is |
+|---|---|
+| **Onderdeel** | Een artikel van de soort materiaal of dienst. Een offerteartikel kan geen onderdeel zijn |
+| **Aantal** | Hoeveel van het onderdeel er in **één** eenheid van het offerteartikel zit, in de eenheid van het **onderdeel**: 0,4 pot lijm per m² |
+| **Eenheid** | De eenheid van het onderdeel |
+| **Verlies (%)** | Hoeveel procent er verloren gaat, bijvoorbeeld snijverlies of morsen. Bij 8 % rekent Nimble met 8 % meer dan het aantal |
+| **Kost** | Aantal, plus het verlies, maal de aankoopprijs van het onderdeel |
+
+Zo werkt u ermee:
+
+1. Bewaar een nieuw offerteartikel eerst; daarna kunt u de samenstelling opbouwen.
+2. Klik **Onderdeel toevoegen**, zoek het onderdeel op nummer of omschrijving en kies het. Het zoekvenster
+   toont enkel materiaal en diensten.
+3. Vul het **Aantal** in en, als dat nodig is, het **Verlies (%)**.
+4. Klik **Bewaren**. De samenstelling wordt samen met de rest van de fiche bewaard; met **Annuleren** blijft
+   alles zoals het was.
+
+Onder de lijst staat de **kostprijs** per eenheid van het offerteartikel, met de verkoopprijs en de marge. Op
+het tabblad bij de naam staat het aantal onderdelen: **Samenstelling (3)**. Met **Verwijderen** op een regel
+haalt u een onderdeel weg.
+
+Wijzigt later de aankoopprijs van een onderdeel — op zijn fiche, bij zijn voorkeursleverancier of door een
+ingelezen prijslijst — dan volgt de kostprijs van elk offerteartikel waarin het zit vanzelf.
+
+!!! info "Mist een onderdeel een aankoopprijs, dan is er geen kostprijs"
+    Nimble telt dan niet de rest op: een kostprijs zonder één onderdeel staat te laag en maakt de marge te
+    mooi. Het tabblad noemt welk onderdeel een prijs mist; vul die in op de fiche van dat artikel. Tot dan staat
+    de aankoopprijs van het offerteartikel leeg.
+
+!!! info "Wat een samenstelling nodig heeft"
+    Elk onderdeel heeft een aantal groter dan 0, het verlies ligt tussen 0 en 100 %, en een artikel staat maar
+    één keer in de samenstelling — zet de aantallen samen op één regel. Een artikel kan geen onderdeel van
+    zichzelf zijn. Klopt er iets niet, dan zegt de melding bovenaan het wanneer u bewaart.
+
+De aankoopprijs en de kost per onderdeel ziet u alleen met het recht *Marges en kostprijzen bekijken*. Zonder
+dat recht ziet u de onderdelen, hun aantal en hun verlies.
 
 ## Leveranciers van een artikel
 
@@ -184,13 +248,16 @@ Klik op de fiche op **Verwijderen** en bevestig. Het artikel verdwijnt uit de li
 
 Gebruikt u een artikel enkel niet meer, zet het dan liever op **niet actief**.
 
+Een artikel dat een onderdeel is van een samenstelling, kunt u niet verwijderen. De melding zegt in welke
+samenstelling het zit; haal het daar eerst uit.
+
 ## Het journaal naast de lijst
 
 Klik rechts op de rail **Journaal** en kies een artikel in de lijst. Het paneel toont dan de zijkant van dát
 artikel, verdeeld over vijf tabbladen:
 
-- **Stock** — de huidige stand en alle bewegingen van dit artikel. Bij een offerteartikel staat er dat het
-  geen voorraad heeft.
+- **Stock** — de huidige stand en alle bewegingen van dit artikel. Bij een dienst of een offerteartikel staat
+  er dat het geen voorraad heeft.
 - **Taken** — wat er voor dit artikel nog moet gebeuren.
 - **Notities** — vrije notities bij dit artikel. Zie [Notities](../notities.md).
 - **Bijlagen** — documenten en foto's bij dit artikel, bijvoorbeeld een technische fiche. Zie
@@ -231,8 +298,12 @@ bovenaan; een plus betekent erbij, een min eraf.
       Nimble het artikel wél op.
     - **De aankoopprijs zoeken op het tabblad Algemeen** terwijl het artikel leveranciers heeft — u wijzigt
       ze dan bij de voorkeursleverancier op het tabblad **Leveranciers**.
-    - **Een offerteartikel zoeken in de keuzelijst van een bestelling of een werkbon** — daar staat enkel
-      materiaal. Kies het materiaal dat u werkelijk koopt of verbruikt.
+    - **Een offerteartikel zoeken in de keuzelijst van een bestelling of een werkbon** — het staat er niet in.
+      Kies het materiaal of de dienst die u werkelijk koopt of verbruikt.
+    - **Werkuren als materiaal op een werkbon zetten** — een dienst staat niet in de keuzelijst van het
+      verbruikte materiaal. Uren boekt u op de werkbon als uren.
+    - **De aankoopprijs van een offerteartikel met een samenstelling willen intikken** — ze wordt berekend.
+      Wijzig de onderdelen, hun aantal of hun aankoopprijs.
 
 ## Zie ook
 

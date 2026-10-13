@@ -16,7 +16,7 @@ Alleen artikelen **met een minimum**. Een leeg minimum betekent "dit volgen we n
 er met reden: zonder drempel zou elk artikel dat ooit aangemaakt is hier permanent in het rood staan, en dan
 kijkt er niemand meer naar.
 
-Een [offerteartikel](articles.md#de-soort-van-een-artikel) doet nooit mee: het heeft geen voorraad.
+Een dienst en een [offerteartikel](articles.md#de-soort-van-een-artikel) doen nooit mee: ze hebben geen voorraad.
 
 U zet het minimum op de **artikelfiche**, in het veld **Minimumvoorraad**, samen met de
 **Streefvoorraad**.

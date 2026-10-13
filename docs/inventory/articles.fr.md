@@ -14,9 +14,9 @@ Dans la barre latérale, cliquez sur **Stock → Articles**.
 | **Numéro** | Votre propre numéro d'article |
 | **Nom** | Dénomination courte |
 | **Famille** | Le groupe auquel l'article appartient |
-| **Type** | Matériel ou article de devis — voir [Le type d'un article](#le-type-dun-article) |
+| **Type** | Matériel, service ou article de devis — voir [Le type d'un article](#le-type-dun-article) |
 | **Unité** | Pièce, mètre, heure … |
-| **Stock** | Le stock actuel — voir la remarque ci-dessous. Vide pour un article de devis |
+| **Stock** | Le stock actuel — voir la remarque ci-dessous. Vide pour un service et pour un article de devis |
 | **Prix de vente** | Prix par unité. Vide si aucun prix n'est renseigné |
 | **Actif** | Une coche pour les articles que vous utilisez encore |
 | **Créé le** | Le jour où l'article a été créé |
@@ -34,7 +34,8 @@ Cliquez sur **Nouvel article**, ou double-cliquez une ligne existante.
 
 ![La fiche de l'article SAN-1001 sur l'onglet Général, avec les cartes Général (dont Fabricant et Code EAN), Prix et stock et Description. Le prix d'achat est verrouillé et indique qu'il suit le fournisseur préféré.](../images/artikel-fiche-fr.png)
 
-La fiche comporte deux onglets propres : **Général** et **Fournisseurs**. L'onglet **Général** contient trois cartes.
+À gauche figurent les onglets propres de la fiche : **Général**, et à côté **Fournisseurs** pour le matériel et
+pour un service, ou **Composition** pour un article de devis. L'onglet **Général** contient trois cartes.
 
 **Général**
 
@@ -43,7 +44,7 @@ La fiche comporte deux onglets propres : **Général** et **Fournisseurs**. L'on
 | **Numéro** | Obligatoire et unique — voir ci-dessous |
 | **Nom** | Obligatoire |
 | **Famille** | Obligatoire — gérée via [Familles d'articles](../administration/article-families.md) |
-| **Type** | Matériel ou article de devis — voir [Le type d'un article](#le-type-dun-article) |
+| **Type** | Matériel, service ou article de devis — voir [Le type d'un article](#le-type-dun-article) |
 | **Unité** | Obligatoire — gérée via [Unités](../administration/units.md) |
 | **Fabricant** | La marque ou le fabricant de l'article |
 | **Code EAN** | Le code-barres de l'article |
@@ -82,28 +83,41 @@ Chaque article a un **Type**. Il détermine où vous pouvez utiliser l'article.
 | Type | Ce que c'est |
 |---|---|
 | **Matériel** | Ce que vous achetez, tenez en stock et consommez sur chantier. Un nouvel article est du matériel |
-| **Article de devis** | Ce que le client achète : une ligne du devis, comme *Hangtoilet geplaatst* (un WC suspendu, posé). Il n'a pas de stock et ne se commande pas |
+| **Service** | Ce qui est exécuté : une heure de travail, un déplacement, un entretien, un conteneur. Un service n'a pas de stock ; il peut être commandé, par exemple chez un sous-traitant |
+| **Article de devis** | Ce que le client achète : une ligne du devis, comme *Hangtoilet geplaatst* (un WC suspendu, posé). Il n'a pas de stock et ne se commande pas. Ce qu'il contient, vous le définissez dans sa [composition](#la-composition-dun-article-de-devis) |
 
-| Où | Matériel | Article de devis |
-|---|---|---|
-| Une ligne d'un [devis](../sales/quotes.md) ou d'une [facture](../sales/invoices.md) | oui | oui |
-| Une ligne d'une [commande](../purchasing/purchase-orders.md) | oui | non |
-| Le matériel consommé sur un [bon de travail](../work/work-sheets.md) | oui | non |
-| Le stock et l'[état du stock](stock-level.md) | oui | non |
-| Les articles d'un [projet](../work/projects.md#articles-du-projet) | oui | oui, avec le libellé **Article de devis** |
+| Où | Matériel | Service | Article de devis |
+|---|---|---|---|
+| Une ligne d'un [devis](../sales/quotes.md) ou d'une [facture](../sales/invoices.md) | oui | oui | oui |
+| Une ligne d'une [commande](../purchasing/purchase-orders.md) | oui | oui | non |
+| Le matériel consommé sur un [bon de travail](../work/work-sheets.md) | oui | non | non |
+| Le stock et l'[état du stock](stock-level.md) | oui | non | non |
+| Les articles d'un [projet](../work/projects.md#articles-du-projet) | oui | oui | non |
+| Un composant d'une [composition](#la-composition-dun-article-de-devis) | oui | oui | non |
 
-Là où seul le matériel est possible, un article de devis ne figure pas dans la liste de choix.
+Là où un type n'est pas possible, il ne figure pas dans la liste de choix. Dans la fenêtre de recherche,
+**Service** ou **Article de devis** figure après l'article ; pour le matériel, rien.
+
+### La fiche d'un service
+
+![La fiche du service DIE-9001, Werkuur installateur : dans la carte Général, le Type est Service avec l'explication en dessous, et la carte Prix contient le Prix de vente et le Prix d'achat. À gauche, les onglets Général et Fournisseurs.](../images/artikel-dienst-fr.png)
+
+La fiche d'un service n'affiche ni **Stock minimum** ni **Stock cible** : un service n'a pas de stock. La carte
+des prix s'appelle **Prix**, et l'onglet **Stock** indique qu'un service n'a pas de stock. L'onglet
+**Fournisseurs** reste : si vous commandez un service chez un sous-traitant ou un loueur, vous l'y indiquez,
+comme pour le matériel.
 
 ### La fiche d'un article de devis
 
-![La fiche de l'article de devis PLA-6001, Hangtoilet geplaatst : dans la carte Général, le Type est Article de devis avec l'explication en dessous, et la carte Prix contient le Prix de vente et le Prix d'achat.](../images/artikel-offerteartikel-fr.png)
+![La fiche de l'article de devis PLA-6001, Hangtoilet geplaatst : dans la carte Général, le Type est Article de devis avec l'explication en dessous, et la carte Prix contient le Prix de vente et le Prix d'achat, avec sous le prix d'achat Calculé à partir de la composition.](../images/artikel-offerteartikel-fr.png)
 
 La fiche d'un article de devis n'affiche ni **Stock minimum** ni **Stock cible**, et n'a pas d'onglet
-**Fournisseurs**. La carte des prix s'appelle **Prix**. L'onglet **Stock** indique qu'un article de devis n'a
-pas de stock.
+**Fournisseurs** mais un onglet **Composition**. La carte des prix s'appelle **Prix**. L'onglet **Stock**
+indique qu'un article de devis n'a pas de stock.
 
-Le **Prix d'achat**, vous le saisissez vous-même. C'est le prix de revient de l'article de devis : ce qu'il
-vous coûte de le livrer et de le poser.
+Le **Prix d'achat** est le prix de revient de l'article de devis : ce qu'il vous coûte de le livrer et de le
+poser. S'il a une composition, Nimble le calcule et indique en dessous *Calculé à partir de la composition* ;
+vous ne le saisissez alors pas vous-même. Sans composition, vous le saisissez vous-même.
 
 ### Changer le type
 
@@ -111,14 +125,67 @@ Sur la fiche, choisissez un autre **Type** et cliquez sur **Enregistrer**.
 
 - **Vers article de devis** : uniquement pour un article sans fournisseur et sans mouvement de stock. S'il en
   a, Nimble n'enregistre pas et le message indique ce qui l'en empêche. Retirez d'abord le fournisseur dans
-  l'onglet **Fournisseurs**. Un article pour lequel du stock a déjà été enregistré reste du matériel.
+  l'onglet **Fournisseurs**. Un article pour lequel du stock a déjà été enregistré reste du matériel. Un article
+  qui est un composant d'une composition ne peut pas non plus devenir un article de devis.
+- **Vers service** : pour un article sans mouvement de stock. Un fournisseur ne l'en empêche pas.
 - **Vers matériel** : toujours possible.
 
-Un article de devis ne peut pas non plus recevoir de fournisseur. Si vous l'achetez malgré tout, mettez
-d'abord son type sur matériel.
+Un article de devis qui a une composition reste un article de devis : retirez d'abord les composants dans
+l'onglet **Composition**.
 
-Si vous passez en article de devis un article qui a un stock minimum ou un stock cible, ces deux champs sont
-vidés.
+Un article de devis ne peut pas recevoir de fournisseur. Si vous l'achetez malgré tout, mettez d'abord son type
+sur matériel.
+
+Si vous passez en service ou en article de devis un article qui a un stock minimum ou un stock cible, ces deux
+champs sont vidés.
+
+## La composition d'un article de devis
+
+Derrière un article de devis se trouvent de vrais articles. Derrière *Hangtoilet geplaatst* se trouvent un WC
+suspendu, un réservoir encastré et trois heures de travail. Vous l'indiquez dans l'onglet **Composition** de la
+fiche. Nimble en calcule le prix de revient de l'article de devis, et
+[Reprendre du devis](../work/projects.md#reprendre-du-devis) s'en sert ensuite pour placer les vrais articles
+dans les articles du projet.
+
+![L'onglet Composition de PLA-6001, Hangtoilet geplaatst : trois composants, SAN-1010 Hangtoilet rimless (1 pièce, 198,00 €), SAN-1011 Inbouwreservoir 1120 mm (1 pièce, 164,00 €) et DIE-9001 Werkuur installateur avec le libellé Service (3 heures, 123,00 €), chacun avec une perte de 0 %. En dessous, Prix de revient par pièce : 485,00 €, avec prix de vente 1 095,00 € et marge 610,00 € (55,7 %), et le bouton Ajouter un composant.](../images/artikel-samenstelling-fr.png)
+
+| Colonne | Ce que c'est |
+|---|---|
+| **Composant** | Un article de type matériel ou service. Un article de devis ne peut pas être un composant |
+| **Quantité** | Combien de ce composant contient **une** unité de l'article de devis, dans l'unité du **composant** : 0,4 pot de colle par m² |
+| **Unité** | L'unité du composant |
+| **Perte (%)** | Le pourcentage perdu, par exemple en chutes ou en pertes. Avec 8 %, Nimble compte 8 % de plus que la quantité |
+| **Coût** | La quantité, plus la perte, multipliée par le prix d'achat du composant |
+
+Pour l'utiliser :
+
+1. Enregistrez d'abord un nouvel article de devis ; vous pourrez ensuite en établir la composition.
+2. Cliquez sur **Ajouter un composant**, recherchez-le par numéro ou description et choisissez-le. La fenêtre de
+   recherche n'affiche que du matériel et des services.
+3. Indiquez la **Quantité** et, si nécessaire, la **Perte (%)**.
+4. Cliquez sur **Enregistrer**. La composition est enregistrée avec le reste de la fiche ; avec **Annuler**,
+   tout reste comme avant.
+
+Sous la liste figure le **prix de revient** par unité de l'article de devis, avec le prix de vente et la marge.
+Le nom de l'onglet indique le nombre de composants : **Composition (3)**. **Supprimer** sur une ligne retire
+un composant.
+
+Si le prix d'achat d'un composant change par la suite — sur sa fiche, chez son fournisseur préféré ou par une
+liste de prix importée — le prix de revient de chaque article de devis qui le contient suit automatiquement.
+
+!!! info "S'il manque le prix d'achat d'un composant, il n'y a pas de prix de revient"
+    Nimble n'additionne pas alors le reste : un prix de revient sans un composant est trop bas et embellit la
+    marge. L'onglet indique quel composant n'a pas de prix ; indiquez-le sur la fiche de cet article. En
+    attendant, le prix d'achat de l'article de devis reste vide.
+
+!!! info "Ce qu'une composition exige"
+    Chaque composant a une quantité supérieure à 0, la perte est comprise entre 0 et 100 %, et un article ne
+    figure qu'une fois dans la composition — regroupez les quantités sur une seule ligne. Un article ne peut
+    pas être un composant de lui-même. Si quelque chose ne va pas, le message en haut le signale à
+    l'enregistrement.
+
+Le prix d'achat et le coût par composant ne sont visibles qu'avec le droit *Voir les marges et prix de revient*.
+Sans ce droit, vous voyez les composants, leur quantité et leur perte.
 
 ## Fournisseurs d'un article
 
@@ -188,13 +255,16 @@ Cliquez sur **Supprimer** sur la fiche et confirmez. L'article disparaît de la 
 
 Si vous n'utilisez simplement plus un article, mettez-le plutôt sur **non actif**.
 
+Un article qui est un composant d'une composition ne peut pas être supprimé. Le message indique dans quelle
+composition il se trouve ; retirez-le d'abord de celle-ci.
+
 ## Le journal à côté de la liste
 
 Cliquez sur le rail **Journal** à droite et choisissez un article dans la liste. Le panneau affiche alors le
 dossier de cet article, réparti sur cinq onglets :
 
-- **Stock** — le solde actuel et tous les mouvements de cet article. Pour un article de devis, l'onglet
-  indique qu'il n'a pas de stock.
+- **Stock** — le solde actuel et tous les mouvements de cet article. Pour un service ou un article de devis,
+  l'onglet indique qu'il n'a pas de stock.
 - **Tâches** — ce qu'il reste à faire pour cet article.
 - **Notes** — des notes libres sur cet article. Voir [Notes](../notities.md).
 - **Pièces jointes** — documents et photos liés à cet article, par exemple une fiche technique. Voir
@@ -235,8 +305,12 @@ haut ; un plus signifie une entrée, un moins une sortie.
       Nimble suit bien l'article.
     - **Chercher le prix d'achat dans l'onglet Général** alors que l'article a des fournisseurs — vous le
       modifiez alors chez le fournisseur préféré dans l'onglet **Fournisseurs**.
-    - **Chercher un article de devis dans la liste de choix d'une commande ou d'un bon de travail** — seul
-      le matériel y figure. Choisissez le matériel que vous achetez ou consommez réellement.
+    - **Chercher un article de devis dans la liste de choix d'une commande ou d'un bon de travail** — il n'y
+      figure pas. Choisissez le matériel ou le service que vous achetez ou consommez réellement.
+    - **Mettre des heures de travail comme matériel sur un bon de travail** — un service ne figure pas dans la
+      liste de choix du matériel consommé. Les heures s'encodent sur le bon de travail comme heures.
+    - **Vouloir saisir le prix d'achat d'un article de devis qui a une composition** — il est calculé.
+      Modifiez les composants, leur quantité ou leur prix d'achat.
 
 ## Voir aussi
 
