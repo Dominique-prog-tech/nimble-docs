@@ -66,6 +66,7 @@ Cliquez sur **Nouveau devis**. Vous complétez d'abord le bloc **Données du dev
 | **Date** | Obligatoire. La date de la proposition ; aujourd'hui par défaut |
 | **Valable jusqu'au** | Facultatif. Jusqu'à quand votre prix s'applique |
 | **Votre référence** | Facultatif. La référence du client : son numéro de bon de commande, son dossier ou son chantier. Elle figure sur le devis près des dates et suit vers la facture. Vous pouvez encore la compléter après l'acceptation — le client envoie souvent son bon de commande avec son accord. Sur un devis accepté, elle est enregistrée aussitôt |
+| **Lead** | Visible uniquement sur un devis créé avec **Créer un devis** sur un lead : le lead dont il provient, avec un lien vers sa fiche. Lorsque ce devis — ou une nouvelle version — est accepté, ce lead passe automatiquement à **Gagné**. Voir [Leads](../crm/leads.md#creer-un-devis-pour-un-lead) |
 
 Cliquez ensuite sur **Enregistrer**.
 

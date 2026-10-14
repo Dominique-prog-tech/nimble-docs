@@ -64,6 +64,7 @@ Klik op **Nieuwe offerte**. U vult eerst het blok **Offertegegevens** in:
 | **Datum** | Verplicht. De datum van het voorstel; staat standaard op vandaag |
 | **Geldig tot** | Optioneel. Tot wanneer uw prijs geldt |
 | **Uw referentie** | Optioneel. Het kenmerk van de klant: zijn bestelbonnummer, dossier of werf. Het staat op de offerte bij de datums en gaat mee naar de factuur. U kunt het ook na het aanvaarden nog invullen — de klant stuurt zijn bestelbon vaak samen met zijn akkoord. Op een aanvaarde offerte wordt het meteen bewaard |
+| **Lead** | Enkel zichtbaar bij een offerte die u met **Offerte maken** op een lead maakte: de lead waaruit ze komt, met een link naar zijn fiche. Wordt deze offerte — of een nieuwe versie ervan — aanvaard, dan gaat die lead vanzelf naar **Gewonnen**. Zie [Leads](../crm/leads.md#een-offerte-maken-voor-een-lead) |
 
 Klik daarna op **Bewaren**.
 
