@@ -55,7 +55,7 @@ Elke fase krijgt één van vier betekenissen. **Die bepaalt het gedrag — niet 
 | Betekenis | Wat Nimble ermee doet |
 |---|---|
 | **Lopend** | De lead leeft nog en telt mee voor de dagelijkse [opvolging](lead-follow-up.md) |
-| **Gewonnen** | Eindfase. Geen opvolging meer. Hier komt een lead terecht die u omzet naar klant |
+| **Gewonnen** | Eindfase. Geen opvolging meer. Hier komt een lead terecht wanneer een offerte uit die lead aanvaard wordt. Omzetten naar klant alleen verandert de fase niet |
 | **Verloren** | Eindfase. Geen opvolging meer |
 | **Gepauzeerd** | Slaapt tot een datum; op die dag verschijnt de lead weer in de opvolging |
 

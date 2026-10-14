@@ -55,7 +55,7 @@ Chaque phase reçoit l'une de quatre significations. **C'est elle qui détermine
 | Signification | Ce que Nimble en fait |
 |---|---|
 | **En cours** | Le lead est vivant et compte pour le [suivi](lead-follow-up.md) quotidien |
-| **Gagné** | Phase finale. Plus de suivi. C'est ici qu'arrive un lead que vous convertissez en client |
+| **Gagné** | Phase finale. Plus de suivi. C'est ici qu'arrive un lead lorsqu'un devis issu de ce lead est accepté. La seule conversion en client ne change pas la phase |
 | **Perdu** | Phase finale. Plus de suivi |
 | **En pause** | Dort jusqu'à une date ; ce jour-là, le lead réapparaît dans le suivi |
 

@@ -173,6 +173,7 @@ De knoppen staan onderaan rechts, in deze volgorde:
 - **Bewaren** — bewaart de lead; u blijft op de fiche. Ontbreekt er nog iets — het leadnummer, de
   naam, de verliesreden bij een verloren fase, de heractivatiedatum bij een gepauzeerde fase — of is het
   e-mailadres of telefoonnummer ongeldig, dan zegt een melding bovenaan de fiche welk veld.
+- **Offerte maken** — maakt een offerte voor deze lead. Zie [hieronder](#een-offerte-maken-voor-een-lead).
 - **Omzetten naar klant** — enkel zichtbaar bij een bestaande, nog niet omgezette lead. Zie
   [hieronder](#een-lead-omzetten-naar-klant).
 - **Annuleren** — gaat terug naar de lijst zonder te bewaren.
@@ -180,7 +181,23 @@ De knoppen staan onderaan rechts, in deze volgorde:
   prullenbak, waar u hem kunt herstellen.
 
 Zonder bewerkrecht ziet u geen **Bewaren**, **Omzetten naar klant** of **Verwijderen**, en heet de knop
-**Naar de lijst**.
+**Naar de lijst**. **Offerte maken** ziet u wanneer u offertes mag maken; is de lead nog niet omgezet, dan moet u
+ook leads mogen bewerken.
+
+## Een offerte maken voor een lead
+
+Een offerte hoort bij een klant. Klik op **Offerte maken**:
+
+- **Is de lead nog geen klant**, dan zet Nimble hem eerst om — met dezelfde vraag als bij
+  [omzetten](#een-lead-omzetten-naar-klant) als die klant misschien al bestaat. Daarna opent een nieuwe offerte.
+- **Is de lead al klant**, dan opent meteen een nieuwe offerte.
+
+De klant staat al ingevuld, en onder **Uw referentie** ziet u uit welke lead de offerte komt. Bewaar de offerte om
+er blokken en regels aan toe te voegen; annuleert u, dan wordt er geen offerte gemaakt.
+
+**De fase van de lead verandert niet.** Wordt de offerte aanvaard — door u op de fiche of op het bord, of door de klant
+online — dan gaat de lead vanzelf naar **Gewonnen**. Een nieuwe versie van de offerte onthoudt de lead ook. Wordt de
+offerte geweigerd, dan blijft de lead staan: of hij verloren is, beslist u zelf.
 
 ## Een lead omzetten naar klant
 
@@ -201,6 +218,9 @@ geschiedenis van de aanvraag.
 
 Na het omzetten opent Nimble meteen de **fiche van de nieuwe klant**, zodat u verder kunt met een offerte.
 Koppelt u de lead aan een bestaande klant (zie hieronder), dan opent de fiche van die klant.
+
+De **fase** van de lead blijft bij het omzetten staan: een klant is nog geen gewonnen opdracht. Gewonnen wordt de
+lead wanneer een offerte uit deze lead aanvaard wordt — zie [Een offerte maken](#een-offerte-maken-voor-een-lead).
 
 ### Bestaat die klant al?
 

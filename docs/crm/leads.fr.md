@@ -179,6 +179,7 @@ Les boutons se trouvent en bas à droite, dans cet ordre :
   numéro de lead, le nom, le motif de perte pour une phase perdue, la date de réactivation pour une phase en
   pause — ou si l'adresse e-mail ou le numéro de téléphone n'est pas valide, un message en haut de la fiche
   indique quel champ.
+- **Créer un devis** — crée un devis pour ce lead. Voir [ci-dessous](#creer-un-devis-pour-un-lead).
 - **Convertir en client** — visible uniquement pour un lead existant, pas encore converti. Voir
   [ci-dessous](#convertir-un-lead-en-client).
 - **Annuler** — revient à la liste sans enregistrer.
@@ -186,7 +187,23 @@ Les boutons se trouvent en bas à droite, dans cet ordre :
   corbeille, où vous pouvez le restaurer.
 
 Sans droit de modification, vous ne voyez ni **Enregistrer**, ni **Convertir en client**, ni **Supprimer**,
-et le bouton s'appelle **Vers la liste**.
+et le bouton s'appelle **Vers la liste**. Vous voyez **Créer un devis** si vous pouvez créer des devis ; si le lead
+n'est pas encore converti, vous devez aussi pouvoir modifier les leads.
+
+## Créer un devis pour un lead
+
+Un devis appartient à un client. Cliquez sur **Créer un devis** :
+
+- **Si le lead n'est pas encore client**, Nimble le convertit d'abord — avec la même question que lors de la
+  [conversion](#convertir-un-lead-en-client) si ce client existe peut-être déjà. Ensuite, un nouveau devis s'ouvre.
+- **Si le lead est déjà client**, un nouveau devis s'ouvre directement.
+
+Le client est déjà rempli, et sous **Votre référence** vous voyez de quel lead provient le devis. Enregistrez le devis
+pour y ajouter des blocs et des lignes ; si vous annulez, aucun devis n'est créé.
+
+**La phase du lead ne change pas.** Lorsque le devis est accepté — par vous sur la fiche ou sur le tableau, ou par le
+client en ligne — le lead passe automatiquement à **Gagné**. Une nouvelle version du devis garde aussi le lead. Si le
+devis est refusé, le lead reste où il est : c'est vous qui décidez s'il est perdu.
 
 ## Convertir un lead en client
 
@@ -208,6 +225,9 @@ partie de l'historique de la demande.
 Après la conversion, Nimble ouvre directement la **fiche du nouveau client**, pour que vous puissiez
 continuer avec un devis. Si vous liez le lead à un client existant (voir ci-dessous), c'est la fiche de ce
 client qui s'ouvre.
+
+La **phase** du lead ne change pas lors de la conversion : un client n'est pas encore une commande gagnée. Le lead
+devient gagné lorsqu'un devis issu de ce lead est accepté — voir [Créer un devis](#creer-un-devis-pour-un-lead).
 
 ### Ce client existe-t-il déjà ?
 
