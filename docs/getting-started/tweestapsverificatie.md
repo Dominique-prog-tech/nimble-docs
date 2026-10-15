@@ -9,7 +9,7 @@ Met **tweestapsverificatie** beveiligt u uw account extra. Naast uw wachtwoord v
 raakt niemand binnen met alleen uw wachtwoord. Staat ze aan, dan kunt u zich ook aanmelden met een **passkey**: de
 vingerafdruk, het gezicht of de pincode van uw toestel.
 
-![Het scherm Tweestapsverificatie in zijn beginstand: de uitleg over een authenticator-app, de melding dat tweestapsverificatie uit staat, en de knop Inschakelen](../images/tweestapsverificatie.png "Tweestapsverificatie")
+![Het scherm Tweestapsverificatie in zijn beginstand: de uitleg over een authenticator-app, de melding dat tweestapsverificatie uit staat, en de knop Inschakelen](../images/tweestapsverificatie.png)
 
 ## Het scherm openen
 

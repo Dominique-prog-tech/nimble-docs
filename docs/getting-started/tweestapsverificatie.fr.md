@@ -10,7 +10,7 @@ Microsoft Authenticator ou Authy. Ainsi, personne n'entre avec votre seul mot de
 aussi vous connecter avec une **clé d'accès** (passkey) : l'empreinte digitale, le visage ou le code PIN de votre
 appareil.
 
-![L'écran Vérification en deux étapes dans son état initial : l'explication sur une application d'authentification, le message indiquant que la vérification en deux étapes est désactivée, et le bouton Activer](../images/tweestapsverificatie-fr.png "Vérification en deux étapes")
+![L'écran Vérification en deux étapes dans son état initial : l'explication sur une application d'authentification, le message indiquant que la vérification en deux étapes est désactivée, et le bouton Activer](../images/tweestapsverificatie-fr.png)
 
 ## Ouvrir l'écran
 
