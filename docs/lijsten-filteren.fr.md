@@ -12,6 +12,9 @@ projets, ordres de travail, factures. Cette page vaut donc pour tous les écrans
 En haut à droite de la liste se trouve le champ **Rechercher…**. Tapez-y un mot et la liste se limite
 aussitôt aux lignes qui le contiennent — dans **toutes** les colonnes à la fois.
 
+Quand vous ouvrez une liste, le curseur se trouve déjà dans ce champ : vous pouvez taper tout de suite. Une
+liste dans un onglet d'une fiche ne le fait pas ; le curseur reste alors sur la fiche.
+
 Utilisez-le lorsque vous savez *ce que* vous cherchez : un nom de client, un numéro d'article, une rue.
 
 !!! tip "Rechercher n'est pas filtrer"

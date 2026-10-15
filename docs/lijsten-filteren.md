@@ -11,6 +11,9 @@ werkorders, facturen. Deze pagina geldt dus voor alle lijstschermen.
 Rechtsboven de lijst staat het vak **Zoeken…**. Typ er een woord in en de lijst beperkt zich meteen tot
 de rijen waarin dat woord voorkomt — in **alle** kolommen tegelijk.
 
+Wanneer u een lijst opent, staat de cursor al in dit vak: u kunt meteen beginnen typen. Een lijst in een
+tabblad van een fiche doet dat niet; daar blijft de cursor bij de fiche.
+
 Gebruik dit wanneer u weet wát u zoekt: een klantnaam, een artikelnummer, een straat.
 
 !!! tip "Zoeken is geen filter"
