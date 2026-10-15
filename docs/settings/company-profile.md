@@ -21,7 +21,7 @@ De fiche heeft twee tabbladen: **Bedrijfsgegevens** met de kaarten hieronder, en
 | Kaart | Velden |
 |---|---|
 | **Identiteit** | Naam (verplicht), BTW / ondernemingsnr. met de knop **Ophalen**, FSMA-nummer |
-| **Contact** | Telefoon, Fax, E-mail, Website, **Website-leads naar**, **Mail bij het toewijzen van een taak** |
+| **Contact** | Telefoon, Fax, E-mail, Website, **Website-leads naar**, **Online offerte-antwoorden naar**, **Mail bij het toewijzen van een taak** |
 | **Financiële instellingen** | Standaard betalingstermijn (dagen), Eerste aanmaning na (dagen), Daarna elke (dagen), Marge groen vanaf (%), Marge oranje vanaf (%), Standaard-uurartikel (regie), Reistijd registreren, Artikel voor reistijd (regie) |
 | **Planning** | Zaterdag is een werkdag, Zondag is een werkdag |
 | **Adres** | Straat, Nr., Bus, Postcode, Gemeente, Land |
@@ -42,6 +42,18 @@ verwittigt u per e-mail. In het veld **Website-leads naar** bepaalt u wie die me
   er gaat niets verloren — maar u ziet ze pas wanneer u in Nimble kijkt.
 
 Zie [Leads](../crm/leads.md) voor wat er met zo'n aanvraag gebeurt.
+
+## Online offerte-antwoorden naar
+
+Aanvaardt of weigert een klant een offerte via de online link, dan krijgen twee mensen een mail: wie de
+offerte mailde, en het adres in het veld **Online offerte-antwoorden naar**.
+
+- Vul een adres in van wie de offertes opvolgt — een groepsadres zoals `verkoop@uwbedrijf.be` mag ook.
+- Laat u het veld **leeg**, dan gaat de mail naar het adres bij **Website-leads naar**, en staat dat ook
+  leeg, naar het **e-mailadres** hierboven.
+- Is het adres hetzelfde als dat van wie de offerte mailde, dan vertrekt er één mail.
+
+Zie [Offertes](../sales/quotes.md#de-offerte-online-voorleggen) voor wat er in die mail staat.
 
 
 ## Mail bij het toewijzen van een taak

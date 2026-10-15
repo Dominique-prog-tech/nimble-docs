@@ -271,6 +271,13 @@ l'accepter ou le refuser. Les modifications non enregistrées sont d'abord enreg
 - Si le client accepte ou refuse en ligne, Nimble adapte le statut du devis. Si vous avez entre-temps déjà
   mis le devis sur Accepté ou Refusé, votre décision est conservée.
 - Si le client accepte en ligne un devis sans projet, Nimble en crée un, comme décrit ci-dessous.
+- **Vous êtes averti.** La **cloche** en haut à droite affiche *2 devis ont reçu une réponse en ligne du
+  client* — à qui peut modifier les devis. La notification disparaît dès que quelqu'un ouvre le devis.
+- **Et par e-mail :** la personne qui a envoyé le devis, et l'adresse de **Réponses en ligne aux devis vers**
+  sur la [Fiche d'entreprise](../settings/company-profile.md#reponses-en-ligne-aux-devis-vers). L'e-mail reprend
+  le devis, le client, le nom qu'il a indiqué et, en cas de refus, son motif, avec un lien vers le devis. Un devis
+  envoyé avant la version 0.5.108 ne connaît pas son expéditeur : l'e-mail part alors uniquement vers la fiche
+  d'entreprise.
 
 **Retirer la version en ligne** supprime la page. Le lien ne fonctionne plus.
 

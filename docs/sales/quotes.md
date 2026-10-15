@@ -264,6 +264,12 @@ aanvaarden of weigeren. Onbewaarde wijzigingen worden eerst bewaard.
 - Aanvaardt of weigert de klant online, dan past Nimble de status van de offerte aan. Hebt u de offerte
   intussen zelf al op Aanvaard of Geweigerd gezet, dan blijft uw beslissing staan.
 - Aanvaardt de klant online een offerte zonder project, dan maakt Nimble er een aan, zoals hieronder beschreven.
+- **U wordt verwittigd.** Het **belletje** rechtsboven toont *2 offertes online beantwoord door de klant* —
+  aan wie offertes mag bewerken. De melding verdwijnt zodra iemand de offerte opent.
+- **En per mail:** wie de offerte mailde, en het adres bij **Online offerte-antwoorden naar** op de
+  [Bedrijfsfiche](../settings/company-profile.md#online-offerte-antwoorden-naar). In de mail staan de offerte,
+  de klant, de naam die hij opgaf en bij een weigering zijn reden, met een link naar de offerte. Een offerte
+  die u mailde vóór versie 0.5.108 kent haar verzender niet: dan gaat de mail enkel naar de bedrijfsfiche.
 
 **Online intrekken** haalt de pagina weg. De link werkt dan niet meer.
 

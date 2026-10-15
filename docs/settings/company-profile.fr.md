@@ -21,7 +21,7 @@ La fiche a deux onglets : **Données de l'entreprise** avec les cartes ci-dessou
 | Carte | Champs |
 |---|---|
 | **Identité** | Nom (obligatoire), TVA / n° d'entreprise avec le bouton **Récupérer**, Numéro FSMA |
-| **Contact** | Téléphone, Fax, E-mail, Site web, **Leads du site web vers**, **E-mail lors de l'attribution d'une tâche** |
+| **Contact** | Téléphone, Fax, E-mail, Site web, **Leads du site web vers**, **Réponses en ligne aux devis vers**, **E-mail lors de l'attribution d'une tâche** |
 | **Paramètres financiers** | Délai de paiement par défaut (jours), Premier rappel après (jours), Ensuite tous les (jours), Marge verte à partir de (%), Marge orange à partir de (%), Article horaire standard (régie), Enregistrer le temps de déplacement, Article pour le déplacement (régie) |
 | **Planning** | Le samedi est un jour ouvrable, Le dimanche est un jour ouvrable |
 | **Adresse** | Rue, N°, Boîte, Code postal, Commune, Pays |
@@ -44,6 +44,19 @@ avertissement.
   donc rien ne se perd — mais vous ne le voyez qu'en consultant Nimble.
 
 Voir [Leads](../crm/leads.md) pour ce qu'il advient d'une telle demande.
+
+## Réponses en ligne aux devis vers
+
+Lorsqu'un client accepte ou refuse un devis via le lien en ligne, deux personnes reçoivent un e-mail : celle
+qui a envoyé le devis, et l'adresse du champ **Réponses en ligne aux devis vers**.
+
+- Indiquez l'adresse de qui suit les devis — une adresse de groupe comme `ventes@votreentreprise.be`
+  convient également.
+- Si vous laissez le champ **vide**, l'e-mail part vers l'adresse de **Leads du site web vers**, et si
+  celle-ci est vide aussi, vers l'**e-mail** indiqué plus haut.
+- Si l'adresse est la même que celle de la personne qui a envoyé le devis, un seul e-mail part.
+
+Voir [Devis](../sales/quotes.md#proposer-le-devis-en-ligne) pour le contenu de cet e-mail.
 
 
 ## E-mail lors de l'attribution d'une tâche
