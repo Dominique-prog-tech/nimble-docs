@@ -10,11 +10,12 @@ Dans la barre latérale, cliquez sur **Ventes → Factures**.
 
 ## La liste
 
-![La liste Factures de vente avec les colonnes Numéro, Client, Date, Communication, Date d'échéance, Solde ouvert et Statut ; on y voit une note de crédit avec un montant négatif, un brouillon sans numéro, deux factures échues et une facture payée.](../images/facturen-lijst-fr.png)
+![La liste Factures de vente avec les colonnes Numéro, Type, Client, Date, Communication, Date d'échéance, Solde ouvert et Statut ; on y voit une note de crédit avec un montant négatif, un brouillon sans numéro, deux factures échues et une facture payée.](../images/facturen-lijst-fr.png)
 
 | Colonne | Ce que vous voyez |
 |---|---|
 | **Numéro** | Le numéro de facture. Un brouillon n'en a pas encore ; une note de crédit commence par `CN-` |
+| **Type** | **Facture** ou **Note de crédit** |
 | **Client** | Pour qui est la facture |
 | **Date** | La date de facture |
 | **Communication** | La communication structurée avec laquelle le client paie |
@@ -38,6 +39,7 @@ Au-dessus de la liste figurent :
 
 - **Facture à partir d'un devis** — crée une facture sur la base d'un devis accepté.
 - **Nouvelle facture** — ouvre une fiche vide.
+- Une liste de choix à côté du titre : **Factures et notes de crédit**, **Factures uniquement** ou **Notes de crédit uniquement**.
 - **Exporter**, les boutons de filtre et le champ de recherche.
 
 **Double-cliquez** une ligne pour ouvrir la facture. À droite de la liste se trouve la barre étroite

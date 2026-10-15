@@ -10,11 +10,12 @@ Klik in de zijbalk op **Verkoop → Facturen**.
 
 ## De lijst
 
-![De lijst Verkoopfacturen met de kolommen Nummer, Klant, Datum, Mededeling, Vervaldatum, Openstaand en Status; er staan een creditnota met een negatief bedrag, een klad zonder nummer, twee vervallen facturen en een betaalde factuur.](../images/facturen-lijst.png)
+![De lijst Verkoopfacturen met de kolommen Nummer, Soort, Klant, Datum, Mededeling, Vervaldatum, Openstaand en Status; er staan een creditnota met een negatief bedrag, een klad zonder nummer, twee vervallen facturen en een betaalde factuur.](../images/facturen-lijst.png)
 
 | Kolom | Wat u ziet |
 |---|---|
 | **Nummer** | Het factuurnummer. Een klad heeft er nog geen; een creditnota begint met `CN-` |
+| **Soort** | **Factuur** of **Creditnota** |
 | **Klant** | Voor wie de factuur is |
 | **Datum** | De factuurdatum |
 | **Mededeling** | De gestructureerde mededeling waarmee de klant betaalt |
@@ -38,6 +39,7 @@ Boven de lijst staan:
 
 - **Factuur uit offerte** — maakt een factuur op basis van een aanvaarde offerte.
 - **Nieuwe factuur** — opent een lege fiche.
+- Een keuzelijst naast de titel: **Facturen en creditnota's**, **Enkel facturen** of **Enkel creditnota's**.
 - **Exporteren**, de filterknoppen en het zoekveld.
 
 **Dubbelklik** een rij om de factuur te openen. Rechts van de lijst staat de smalle balk **Journaal**: klap
