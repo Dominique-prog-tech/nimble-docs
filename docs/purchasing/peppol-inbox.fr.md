@@ -7,6 +7,15 @@ sur cet écran, vous en faites une facture d'achat.
 
 Cliquez dans la barre latérale sur **Achats → Documents reçus**.
 
+## Une notification dans la cloche
+
+S'il y a quelque chose à traiter, la **cloche** en haut à droite le signale : *3 nouveaux documents Peppol à
+traiter*. Un clic vous amène à cet écran. Vous voyez cette notification si vous pouvez traiter les factures
+d'achat.
+
+Si vous avez lu la notification et qu'un document s'ajoute, elle réapparaît — avec le nouveau nombre. La
+notification peut avoir jusqu'à une minute de retard sur cet écran.
+
 ## La liste
 
 | Colonne | Ce qu'elle indique |

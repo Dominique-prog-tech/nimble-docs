@@ -7,6 +7,14 @@ scherm maakt u er een aankoopfactuur van.
 
 Klik in de zijbalk op **Inkoop → Binnengekomen documenten**.
 
+## Een melding in het belletje
+
+Staat er iets te verwerken, dan meldt het **belletje** rechtsboven het: *3 nieuwe Peppol-documenten om te
+verwerken*. Een klik brengt u naar dit scherm. U ziet die melding als u aankoopfacturen mag verwerken.
+
+Hebt u de melding gelezen en komt er een document bij, dan verschijnt ze opnieuw — met het nieuwe aantal. De
+melding kan tot een minuut achterlopen op dit scherm.
+
 ## De lijst
 
 | Kolom | Wat het zegt |
