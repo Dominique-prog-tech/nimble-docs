@@ -75,6 +75,10 @@ hooks:
   - hooks/verberg_skeletten.py
   # Eigen omschrijving per pagina voor zoekmachines en bij het delen — zie het bestand zelf (11/10/2026).
   - hooks/beschrijving.py
+  # De films (16/10/2026): de speler bovenaan de pagina die een film uitlegt, en het overzicht op videos.md. De hook
+  # woont in adm-appkit/tools/filmgenerator (gedeeld met CreditSoft) en leest tools/films-uitslag.json. Lokaal: een
+  # symlink _appkit → ~/projects/adm-appkit; in de deploy checkt de workflow adm-appkit mee uit.
+  - _appkit/tools/filmgenerator/films_hook.py
 
 # Strikte bouw (vlootafspraak 10/10/2026, adm-appkit/docs/docs-site-vormgeving.md): een dode link, een dood anker of
 # een pagina die niet in de nav staat, is een waarschuwing — en de uitrol bouwt met --strict, dus dan faalt de bouw in
@@ -205,6 +209,7 @@ plugins:
             Openstaande punten: Points ouverts
             Verkoop: Ventes
             Offertes: Devis
+            Video's: Vidéos
             Prijsafspraken: Accords de prix
             Facturen: Factures
             Vorderingsstaten: États d'avancement
@@ -225,9 +230,13 @@ plugins:
 
 extra:
   generator: false
+  # De Bunny-library van Nimble (één per pakket). Geen geheim: het staat in elk publiek embed-adres.
+  bunny_library: "781262"
 
 nav:
   - Home: index.md
+  # Eén overzicht van alle films; de LIJST maakt de films-hook uit tools/films-uitslag.json.
+  - "Video's": videos.md
   # Wat op élk scherm hetzelfde werkt, onder één tabblad (17/09/2026, op vraag van Dominique). Lijsten
   # filteren en Werken met een fiche stonden elk als eigen tabblad in de bovenbalk — vier tabbladen voor
   # algemene uitleg, en geen plaats meer voor nieuwe hoofdthema's. Notities en Bijlagen stonden onder CRM,

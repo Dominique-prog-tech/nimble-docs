@@ -29,10 +29,24 @@ jobs:
       # ⚠️ Met versienummers, uit requirements.txt. Zonder pin haalt elke bouw binnen wat er die dag nieuw
       # staat, en MkDocs 2.0 schrapt het plugin-systeem waar de tweetaligheid op draait. Zie requirements.txt.
       - run: pip install -r requirements.txt
+      # De gedeelde filmhook (mkdocs.yml → _appkit/tools/filmgenerator/films_hook.py) en de filmcontrole wonen in
+      # adm-appkit, en die repo is privé: meelezen met het repo-geheim ADM_APPKIT_LEZEN (fine-grained token, enkel
+      # adm-appkit, Contents: Read-only — NOTEER DE VERVALDATUM). Zonder deze stap vindt mkdocs de hook niet.
+      - uses: actions/checkout@v4
+        with:
+          repository: ADM-Concept/adm-appkit
+          token: ${{ secrets.ADM_APPKIT_LEZEN }}
+          path: _appkit
+          sparse-checkout: tools/filmgenerator
       # --strict maakt van een waarschuwing een fout. Zonder die vlag bouwt een gebroken interne link of een
       # ontbrekende pagina gewoon door: de deploy wordt groen en de handleiding krijgt een dode link. Dat kan
       # nu veilig, want de plugin-versies liggen vast — 26/08/2026 nagemeten: strict is hier groen.
       - run: mkdocs build --strict
+      # Staat elke gepubliceerde film onder de H1 van zijn pagina, met een volledig VideoObject? Meet de GEBOUWDE site.
+      # --min-paginas: 1 film × 2 talen (16/10/2026). Verhoog bij elke nieuwe film — de bodem vangt een uitslagtabel
+      # die stil gekrompen is; daarom komt hij niet uit diezelfde tabel.
+      - name: Films controleren (plaatsing + videogegevens)
+        run: python3 _appkit/tools/filmgenerator/check-films.py --min-paginas=2
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

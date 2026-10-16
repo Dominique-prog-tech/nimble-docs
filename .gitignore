@@ -8,3 +8,5 @@ Thumbs.db
 # Films: beeldmateriaal en stemcache niet in git; tools/films-uitslag.json WEL (de handleiding leest er de films uit)
 tools/.films-uit/
 tools/.films-stem/
+# De gedeelde filmhook lokaal (symlink naar ~/projects/adm-appkit); in de deploy checkt de workflow adm-appkit uit
+_appkit

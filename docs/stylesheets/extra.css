@@ -307,3 +307,22 @@ html {
   color: var(--nb-paars);
 }
 .nb-pijler__merk svg { width: 1.15rem; height: 1.15rem; }
+
+/* ── De film bovenaan een handleidingpagina (16/10/2026, zoals creditsoft-docs) ─────────────────────────────
+   16:9 via padding-top, want de iframe zelf heeft geen eigen hoogte. Een vaste hoogte zou op een telefoon zwarte
+   balken geven. */
+.film {
+  position: relative;
+  padding-top: 56.25%;
+  margin: 0 0 1.6rem;
+  border-radius: .4rem;
+  overflow: hidden;
+  background: #000;
+}
+.film iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}

@@ -18,7 +18,7 @@
     "titel": "Van aanvraag tot offerte — lead, klant en offerte in Nimble",
     "omschrijving": "De keten van een aanvraag tot een offerte: het leadbord, een gewonnen lead die klant wordt, het offertebord, een offerte met haar blokken en regels, en een prijsafspraak met een klant die u in één klik op een nieuwe offerte zet.",
     "hash": "b40c55ae71663125",
-    "guid": null,
+    "guid": "46ecd227-6595-4389-bb3b-c04645843ec2",
     "hoofdstukken": [
       {
         "titel": "Het leadbord",
@@ -60,7 +60,11 @@
         "start": 118.94,
         "eind": 131.06
       }
-    ]
+    ],
+    "thumbnail": null,
+    "gepubliceerdOp": "2026-10-16T07:16:28.088",
+    "gepubliceerdeHash": "b40c55ae71663125",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/46ecd227-6595-4389-bb3b-c04645843ec2"
   },
   "van-aanvraag-tot-offerte-fr": {
     "film": "van-aanvraag-tot-offerte",
@@ -81,7 +85,7 @@
     "titel": "De la demande au devis — lead, client et devis dans Nimble",
     "omschrijving": "La chaîne de la demande au devis : le tableau des leads, un lead gagné qui devient client, le tableau des devis, un devis avec ses blocs et ses lignes, et un accord de prix avec un client que vous placez en un clic dans un nouveau devis.",
     "hash": "353ea21b189e7cc9",
-    "guid": null,
+    "guid": "7fdb9583-2f2a-4ee6-ae1b-527d0b655493",
     "hoofdstukken": [
       {
         "titel": "Le tableau des leads",
@@ -123,6 +127,10 @@
         "start": 111.36,
         "eind": 120.92
       }
-    ]
+    ],
+    "thumbnail": null,
+    "gepubliceerdOp": "2026-10-16T07:27:09.56",
+    "gepubliceerdeHash": "353ea21b189e7cc9",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/7fdb9583-2f2a-4ee6-ae1b-527d0b655493"
   }
 }
