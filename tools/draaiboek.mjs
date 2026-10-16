@@ -86,6 +86,9 @@ export const FILMS = [
         },
         merk: /Hotel Zeezicht|Van Hoof Metaal/i,
         nl: 'Op het offertebord staat elke offerte in een van vier kolommen: klad, verstuurd, aanvaard of geweigerd. Een kaart naar een andere kolom slepen, wijzigt de status.',
+        // ⚠️ ElevenLabs verhaspelde "offertebord" (Dominique, 16/10/2026: "spreekt Offerteoverzicht verkeerd uit of zo").
+        //    Enkel de STEM krijgt het streepje; de ondertitels schrijven het woord zoals het hoort.
+        uitspraak: { nl: 'Op het offerte-bord staat elke offerte in een van vier kolommen: klad, verstuurd, aanvaard of geweigerd. Een kaart naar een andere kolom slepen, wijzigt de status.' },
         fr: "Sur le tableau des devis, chaque devis figure dans l'une des quatre colonnes : brouillon, envoyé, accepté ou refusé. Glisser une carte vers une autre colonne change son statut." },
 
       { naam: 'offerte', kop: { nl: 'Een offerte', fr: 'Un devis' },
@@ -151,6 +154,7 @@ export const FILMS = [
         },
         merk: /geldt op de offertedatum een prijsafspraak|s'applique à ce client à la date du devis/i,
         nl: 'Maakt u een offerte voor die klant en bewaart u ze, dan biedt Nimble de afspraak aan die op de offertedatum geldt.',
+        uitspraak: { nl: 'Maakt u een offerte voor die klant en bewaart u ze, dan biedt Nimble de afspraak aan die op de offerte-datum geldt.' },
         fr: "Quand vous créez un devis pour ce client et l'enregistrez, Nimble propose l'accord qui s'applique à la date du devis." },
 
       { naam: 'inladen', kop: { nl: 'De afspraak inladen', fr: "Charger l'accord" },

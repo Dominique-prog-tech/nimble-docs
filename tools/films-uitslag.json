@@ -3,7 +3,7 @@
     "film": "van-aanvraag-tot-offerte",
     "taal": "nl-BE",
     "pagina": "sales/quotes",
-    "lengte": 133.36,
+    "lengte": 132.8,
     "uitvoering": "handleiding",
     "routes": [
       "/crm/leads",
@@ -18,59 +18,60 @@
     "titel": "Van aanvraag tot offerte — lead, klant en offerte in Nimble",
     "omschrijving": "De keten van een aanvraag tot een offerte: het leadbord, een gewonnen lead die klant wordt, het offertebord, een offerte met haar blokken en regels, en een prijsafspraak met een klant die u in één klik op een nieuwe offerte zet.",
     "hash": "b40c55ae71663125",
-    "guid": "46ecd227-6595-4389-bb3b-c04645843ec2",
+    "guid": "5aa21267-6047-4913-a609-7e321d591d2a",
     "hoofdstukken": [
       {
         "titel": "Het leadbord",
-        "start": 3.96,
-        "eind": 14.22
+        "start": 4.08,
+        "eind": 14.34
       },
       {
         "titel": "Van lead naar klant",
-        "start": 23.15,
-        "eind": 32.57
+        "start": 22.55,
+        "eind": 31.98
       },
       {
         "titel": "Het offertebord",
-        "start": 36.93,
-        "eind": 49.24
+        "start": 36.27,
+        "eind": 47.7
       },
       {
         "titel": "Een offerte",
-        "start": 55.76,
-        "eind": 65.18
+        "start": 54.08,
+        "eind": 63.51
       },
       {
         "titel": "Prijsafspraken met een klant",
-        "start": 73.7,
-        "eind": 82.62
+        "start": 73.33,
+        "eind": 82.25
       },
       {
         "titel": "Eén prijsafspraak",
-        "start": 85.78,
-        "eind": 97.62
+        "start": 85.33,
+        "eind": 97.17
       },
       {
         "titel": "Een nieuwe offerte",
-        "start": 106.86,
-        "eind": 114.38
+        "start": 106.42,
+        "eind": 113.76
       },
       {
         "titel": "De afspraak inladen",
-        "start": 118.94,
-        "eind": 131.06
+        "start": 118.27,
+        "eind": 130.39
       }
     ],
-    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/46ecd227-6595-4389-bb3b-c04645843ec2/thumbnail.jpg",
-    "gepubliceerdOp": "2026-10-16T07:16:28.088",
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/5aa21267-6047-4913-a609-7e321d591d2a/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-16T10:22:39.968",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/5aa21267-6047-4913-a609-7e321d591d2a",
     "gepubliceerdeHash": "b40c55ae71663125",
-    "embed": "https://iframe.mediadelivery.net/embed/781262/46ecd227-6595-4389-bb3b-c04645843ec2"
+    "vorigeGuid": "46ecd227-6595-4389-bb3b-c04645843ec2"
   },
   "van-aanvraag-tot-offerte-fr": {
     "film": "van-aanvraag-tot-offerte",
     "taal": "fr-BE",
     "pagina": "sales/quotes",
-    "lengte": 123.28,
+    "lengte": 124.04,
     "uitvoering": "handleiding",
     "routes": [
       "/crm/leads",
@@ -85,52 +86,53 @@
     "titel": "De la demande au devis — lead, client et devis dans Nimble",
     "omschrijving": "La chaîne de la demande au devis : le tableau des leads, un lead gagné qui devient client, le tableau des devis, un devis avec ses blocs et ses lignes, et un accord de prix avec un client que vous placez en un clic dans un nouveau devis.",
     "hash": "353ea21b189e7cc9",
-    "guid": "7fdb9583-2f2a-4ee6-ae1b-527d0b655493",
+    "guid": "e91afe85-15ef-4265-a728-1f75d45c81ad",
     "hoofdstukken": [
       {
         "titel": "Le tableau des leads",
-        "start": 3.89,
-        "eind": 12.15
+        "start": 4.02,
+        "eind": 12.28
       },
       {
         "titel": "Du lead au client",
-        "start": 20.28,
-        "eind": 28.64
+        "start": 20.41,
+        "eind": 28.77
       },
       {
         "titel": "Le tableau des devis",
-        "start": 32.88,
-        "eind": 44.31
+        "start": 33.08,
+        "eind": 44.5
       },
       {
         "titel": "Un devis",
-        "start": 50.6,
-        "eind": 59.66
+        "start": 50.92,
+        "eind": 59.98
       },
       {
         "titel": "Les accords de prix avec un client",
-        "start": 68.06,
-        "eind": 76.65
+        "start": 68.51,
+        "eind": 77.1
       },
       {
         "titel": "Un accord de prix",
-        "start": 79.73,
-        "eind": 91.94
+        "start": 80.22,
+        "eind": 92.44
       },
       {
         "titel": "Un nouveau devis",
-        "start": 101.04,
-        "eind": 106.84
+        "start": 101.71,
+        "eind": 107.51
       },
       {
         "titel": "Charger l'accord",
-        "start": 111.36,
-        "eind": 120.92
+        "start": 112.06,
+        "eind": 121.62
       }
     ],
-    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/7fdb9583-2f2a-4ee6-ae1b-527d0b655493/thumbnail.jpg",
-    "gepubliceerdOp": "2026-10-16T07:27:09.56",
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/e91afe85-15ef-4265-a728-1f75d45c81ad/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-16T10:23:15.519",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/e91afe85-15ef-4265-a728-1f75d45c81ad",
     "gepubliceerdeHash": "353ea21b189e7cc9",
-    "embed": "https://iframe.mediadelivery.net/embed/781262/7fdb9583-2f2a-4ee6-ae1b-527d0b655493"
+    "vorigeGuid": "7fdb9583-2f2a-4ee6-ae1b-527d0b655493"
   }
 }
