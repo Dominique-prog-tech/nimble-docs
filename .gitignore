@@ -4,3 +4,7 @@ __pycache__/
 .DS_Store
 *.pyc
 Thumbs.db
+
+# Films: beeldmateriaal en stemcache niet in git; tools/films-uitslag.json WEL (de handleiding leest er de films uit)
+tools/.films-uit/
+tools/.films-stem/

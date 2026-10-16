@@ -1,0 +1,128 @@
+{
+  "van-aanvraag-tot-offerte-nl": {
+    "film": "van-aanvraag-tot-offerte",
+    "taal": "nl-BE",
+    "pagina": "sales/quotes",
+    "lengte": 122.24,
+    "uitvoering": "handleiding",
+    "routes": [
+      "/crm/leads",
+      "/relaties",
+      "/verkoop/offertes",
+      "/verkoop/offertes/new"
+    ],
+    "app": {
+      "sha": "76c45fc452650c0557423a83ddb8b26875480443",
+      "vuil": false
+    },
+    "titel": "Van aanvraag tot offerte — lead, klant en offerte in Nimble",
+    "omschrijving": "De keten van een aanvraag tot een offerte: het leadbord, een gewonnen lead die klant wordt, het offertebord, een offerte met haar blokken en regels, en een prijsafspraak met een klant die u in één klik op een nieuwe offerte zet.",
+    "hash": "b40c55ae71663125",
+    "guid": null,
+    "hoofdstukken": [
+      {
+        "titel": "Het leadbord",
+        "start": 3.88,
+        "eind": 12.31
+      },
+      {
+        "titel": "Van lead naar klant",
+        "start": 20.42,
+        "eind": 28.87
+      },
+      {
+        "titel": "Het offertebord",
+        "start": 33.13,
+        "eind": 43.54
+      },
+      {
+        "titel": "Een offerte",
+        "start": 50,
+        "eind": 58.24
+      },
+      {
+        "titel": "Prijsafspraken met een klant",
+        "start": 66.72,
+        "eind": 75.47
+      },
+      {
+        "titel": "Eén prijsafspraak",
+        "start": 78.55,
+        "eind": 89.75
+      },
+      {
+        "titel": "Een nieuwe offerte",
+        "start": 99,
+        "eind": 105.4
+      },
+      {
+        "titel": "De afspraak inladen",
+        "start": 109.92,
+        "eind": 119.9
+      }
+    ]
+  },
+  "van-aanvraag-tot-offerte-fr": {
+    "film": "van-aanvraag-tot-offerte",
+    "taal": "fr-BE",
+    "pagina": "sales/quotes",
+    "lengte": 122.6,
+    "uitvoering": "handleiding",
+    "routes": [
+      "/crm/leads",
+      "/relaties",
+      "/verkoop/offertes",
+      "/verkoop/offertes/new"
+    ],
+    "app": {
+      "sha": "76c45fc452650c0557423a83ddb8b26875480443",
+      "vuil": false
+    },
+    "titel": "De la demande au devis — lead, client et devis dans Nimble",
+    "omschrijving": "La chaîne de la demande au devis : le tableau des leads, un lead gagné qui devient client, le tableau des devis, un devis avec ses blocs et ses lignes, et un accord de prix avec un client que vous placez en un clic dans un nouveau devis.",
+    "hash": "353ea21b189e7cc9",
+    "guid": null,
+    "hoofdstukken": [
+      {
+        "titel": "Le tableau des leads",
+        "start": 3.88,
+        "eind": 12.97
+      },
+      {
+        "titel": "Du lead au client",
+        "start": 21.05,
+        "eind": 29.25
+      },
+      {
+        "titel": "Le tableau des devis",
+        "start": 33.56,
+        "eind": 44.14
+      },
+      {
+        "titel": "Un devis",
+        "start": 50.53,
+        "eind": 58.79
+      },
+      {
+        "titel": "Les accords de prix avec un client",
+        "start": 67.24,
+        "eind": 76.24
+      },
+      {
+        "titel": "Un accord de prix",
+        "start": 79.34,
+        "eind": 91.06
+      },
+      {
+        "titel": "Un nouveau devis",
+        "start": 100.25,
+        "eind": 106.46
+      },
+      {
+        "titel": "Charger l'accord",
+        "start": 110.99,
+        "eind": 120.25
+      }
+    ]
+  }
+}
