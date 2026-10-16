@@ -134,5 +134,165 @@
     "embed": "https://iframe.mediadelivery.net/embed/781262/e91afe85-15ef-4265-a728-1f75d45c81ad",
     "gepubliceerdeHash": "353ea21b189e7cc9",
     "vorigeGuid": "7fdb9583-2f2a-4ee6-ae1b-527d0b655493"
+  },
+  "aan-de-slag-nl": {
+    "film": "aan-de-slag",
+    "taal": "nl-BE",
+    "pagina": "getting-started/dashboard",
+    "lengte": 161,
+    "uitvoering": "handleiding",
+    "routes": [
+      "/dashboard"
+    ],
+    "app": {
+      "sha": "434f0ecac6b8f95b4895eb1c070b18ae9ff949a8",
+      "vuil": false
+    },
+    "titel": "Aan de slag met Nimble — het scherm, de lijsten, de fiches en de hulp",
+    "omschrijving": "De eerste rondleiding: het dashboard met uw kerncijfers en wat aandacht vraagt, het menu, werken in een lijst (zoeken, filteren, exporteren), een fiche met haar journaal, wat er gebeurt met niet-bewaarde wijzigingen, de hulp bij elk scherm, de assistent en uw eigen voorkeuren.",
+    "hash": "68170c8d59345ba7",
+    "guid": null,
+    "hoofdstukken": [
+      {
+        "titel": "Het dashboard",
+        "start": 2.07,
+        "eind": 12.84
+      },
+      {
+        "titel": "Wat aandacht vraagt",
+        "start": 15.17,
+        "eind": 24.42
+      },
+      {
+        "titel": "Het menu",
+        "start": 28.36,
+        "eind": 38.63
+      },
+      {
+        "titel": "Zoeken in een lijst",
+        "start": 44.8,
+        "eind": 52.51
+      },
+      {
+        "titel": "Filteren en exporteren",
+        "start": 58.09,
+        "eind": 65.14
+      },
+      {
+        "titel": "Een fiche",
+        "start": 68.95,
+        "eind": 77.73
+      },
+      {
+        "titel": "Het journaal",
+        "start": 81.51,
+        "eind": 92
+      },
+      {
+        "titel": "Bewaren",
+        "start": 97.36,
+        "eind": 106.05
+      },
+      {
+        "titel": "Hulp bij elk scherm",
+        "start": 109.85,
+        "eind": 117.56
+      },
+      {
+        "titel": "Vraag het de handleiding",
+        "start": 122.39,
+        "eind": 130
+      },
+      {
+        "titel": "Uw voorkeuren",
+        "start": 134.84,
+        "eind": 144.6
+      },
+      {
+        "titel": "Meldingen",
+        "start": 149.86,
+        "eind": 158.59
+      }
+    ]
+  },
+  "aan-de-slag-fr": {
+    "film": "aan-de-slag",
+    "taal": "fr-BE",
+    "pagina": "getting-started/dashboard",
+    "lengte": 156.44,
+    "uitvoering": "handleiding",
+    "routes": [
+      "/dashboard"
+    ],
+    "app": {
+      "sha": "434f0ecac6b8f95b4895eb1c070b18ae9ff949a8",
+      "vuil": false
+    },
+    "titel": "Premiers pas avec Nimble — l’écran, les listes, les fiches et l’aide",
+    "omschrijving": "La première visite guidée : le tableau de bord avec vos chiffres clés et ce qui demande attention, le menu, le travail dans une liste (rechercher, filtrer, exporter), une fiche et son journal, ce qui se passe avec des modifications non enregistrées, l’aide sur chaque écran, l’assistant et vos préférences.",
+    "hash": "dce001fb2179217a",
+    "guid": null,
+    "hoofdstukken": [
+      {
+        "titel": "Le tableau de bord",
+        "start": 1.92,
+        "eind": 12.23
+      },
+      {
+        "titel": "Ce qui demande attention",
+        "start": 14.51,
+        "eind": 23.52
+      },
+      {
+        "titel": "Le menu",
+        "start": 27.47,
+        "eind": 37.36
+      },
+      {
+        "titel": "Rechercher dans une liste",
+        "start": 43.99,
+        "eind": 53.14
+      },
+      {
+        "titel": "Filtrer et exporter",
+        "start": 58.7,
+        "eind": 65.34
+      },
+      {
+        "titel": "Une fiche",
+        "start": 69.02,
+        "eind": 75.85
+      },
+      {
+        "titel": "Le journal",
+        "start": 79.63,
+        "eind": 88.91
+      },
+      {
+        "titel": "Enregistrer",
+        "start": 94.27,
+        "eind": 103.88
+      },
+      {
+        "titel": "De l’aide sur chaque écran",
+        "start": 107.64,
+        "eind": 114.05
+      },
+      {
+        "titel": "Demander au manuel",
+        "start": 118.91,
+        "eind": 124.48
+      },
+      {
+        "titel": "Vos préférences",
+        "start": 129.29,
+        "eind": 139.65
+      },
+      {
+        "titel": "Notifications",
+        "start": 144.9,
+        "eind": 154.09
+      }
+    ]
   }
 }

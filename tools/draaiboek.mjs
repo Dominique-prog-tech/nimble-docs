@@ -42,6 +42,151 @@ const zoek = async (p, tekst) => {
 };
 
 export const FILMS = [
+  // ── AAN DE SLAG (16/10/2026, op vraag van Dominique) ─────────────────────────────────────────────────────
+  // De eerste rondleiding: wat iedereen ziet die Nimble voor het eerst opent. Er wordt NIETS bewaard — scène 'bewaren' wijzigt
+  // een veld enkel om de vraag "Toch weggaan?" te tonen; de film eindigt op die fiche zonder te bewaren.
+  ['aan-de-slag', {
+    pagina: 'getting-started/dashboard',
+    titel: {
+      nl: 'Aan de slag met Nimble — het scherm, de lijsten, de fiches en de hulp',
+      fr: 'Premiers pas avec Nimble — l’écran, les listes, les fiches et l’aide',
+    },
+    omschrijving: {
+      nl: 'De eerste rondleiding: het dashboard met uw kerncijfers en wat aandacht vraagt, het menu, werken in een lijst '
+        + '(zoeken, filteren, exporteren), een fiche met haar journaal, wat er gebeurt met niet-bewaarde wijzigingen, de hulp '
+        + 'bij elk scherm, de assistent en uw eigen voorkeuren.',
+      fr: 'La première visite guidée : le tableau de bord avec vos chiffres clés et ce qui demande attention, le menu, le travail '
+        + 'dans une liste (rechercher, filtrer, exporter), une fiche et son journal, ce qui se passe avec des modifications non '
+        + 'enregistrées, l’aide sur chaque écran, l’assistant et vos préférences.',
+    },
+    uitvoeringen: { handleiding: { stem: true } },
+    scenes: [
+      { naam: 'dashboard', kop: { nl: 'Het dashboard', fr: 'Le tableau de bord' },
+        doe: async (p) => { await p.goto(`${BASIS}/dashboard`); await p.waitForLoadState('networkidle'); },
+        merk: /WO-2026-004/,
+        nl: 'Na het aanmelden opent Nimble op het dashboard. Bovenaan staan uw kerncijfers: het orderboek, het onderhanden werk, en wat er bij klanten openstaat.',
+        fr: "Après la connexion, Nimble s'ouvre sur le tableau de bord. En haut figurent vos chiffres clés : le carnet de commandes, les travaux en cours, et l'encours clients." },
+
+      { naam: 'aandacht', kop: { nl: 'Wat aandacht vraagt', fr: 'Ce qui demande attention' },
+        doe: async (p) => { await beweegNaar(p, p.getByText('F-2026-0011').first()); },
+        merk: /F-2026-0011/,
+        nl: 'Daaronder ziet u wat vandaag aandacht vraagt: werven die nog niet startklaar zijn, vervallen facturen, en artikelen onder hun minimumvoorraad.',
+        fr: "En dessous, vous voyez ce qui demande attention aujourd'hui : les chantiers pas encore prêts, les factures échues, et les articles sous leur stock minimum." },
+
+      { naam: 'menu', kop: { nl: 'Het menu', fr: 'Le menu' },
+        doe: async (p) => { // "VERKOOP" staat in hoofdletters door de opmaak; in de pagina staat "Verkoop".
+          await beweegNaar(p, p.locator('.sidebar').getByText(/^(Verkoop|Ventes)$/i).first());
+          await p.waitForTimeout(900);
+          // Op het dashboard zijn alle groepen dicht: CRM openklappen, zodat de volgende scène Relaties kan kiezen.
+          await klik(p, p.locator('.sidebar').getByText(/^CRM$/i).first());
+          await p.locator('.sidebar').getByRole('link', { name: /^(Relaties|Relations)$/ }).first().waitFor({ state: 'visible', timeout: 10000 }); },
+        merk: /F-2026-0012/,
+        nl: 'Links staat het menu, gegroepeerd zoals u werkt: CRM, verkoop, werk, inkoop en voorraad. Een getal naast een groep zegt wat er op u wacht.',
+        fr: "À gauche se trouve le menu, regroupé comme vous travaillez : CRM, ventes, travail, achats et stock. Un chiffre à côté d'un groupe indique ce qui vous attend." },
+
+      { naam: 'lijst', kop: { nl: 'Zoeken in een lijst', fr: 'Rechercher dans une liste' },
+        doe: async (p) => {
+          await klik(p, p.locator('.sidebar').getByRole('link', { name: /^(Relaties|Relations)$/ }).first());
+          await p.locator('.dxbl-grid-table tbody tr:visible').first().waitFor({ state: 'visible', timeout: 15000 });
+          await p.waitForTimeout(800);
+          // De cursor staat al in het zoekveld (EW-43): typen zonder eerst te klikken — precies wat de zin belooft.
+          await p.keyboard.type('Vandersteen', { delay: 110 });
+          await p.waitForTimeout(1500);
+        },
+        merk: /Vandersteen Bouwprojecten/,
+        nl: 'Elke lijst werkt hetzelfde. De cursor staat meteen in het zoekveld: u typt, en de lijst krimpt terwijl u typt.',
+        fr: 'Toutes les listes fonctionnent de la même façon. Le curseur est déjà dans le champ de recherche : vous tapez, et la liste se réduit au fur et à mesure.' },
+
+      { naam: 'werkbalk', kop: { nl: 'Filteren en exporteren', fr: 'Filtrer et exporter' },
+        doe: async (p) => {
+          await beweegNaar(p, p.getByTitle(/Uitgebreid filteren|Filtres avancés/).first());
+          await p.waitForTimeout(900);
+          await beweegNaar(p, p.getByTitle(/Kolommen kiezen|Choisir les colonnes/).first());
+          await p.waitForTimeout(900);
+          await beweegNaar(p, p.getByText(/^(Exporteren|Exporter)$/).first());
+        },
+        merk: /Vandersteen Bouwprojecten/,
+        nl: 'Bovenaan de lijst filtert u op elke kolom, kiest u welke kolommen u ziet, en neemt u de lijst mee naar Excel.',
+        fr: 'En haut de la liste, vous filtrez sur chaque colonne, choisissez les colonnes affichées, et emportez la liste dans Excel.' },
+
+      { naam: 'fiche', kop: { nl: 'Een fiche', fr: 'Une fiche' },
+        doe: async (p) => {
+          const rij = p.locator('.dxbl-grid-table tbody tr:visible', { hasText: 'Vandersteen Bouwprojecten' }).first();
+          await beweegNaar(p, rij); await rij.dblclick();
+          await p.waitForSelector('.adm-fiche', { timeout: 15000 });
+          await p.waitForTimeout(1200);
+        },
+        merk: /Identificatie|Identification/,
+        nl: 'Een dubbelklik opent de fiche, als een volledige pagina. Links staan de gegevens in tabbladen, rechts het journaal van deze klant.',
+        fr: 'Un double-clic ouvre la fiche, en pleine page. À gauche, les données en onglets ; à droite, le journal de ce client.' },
+
+      { naam: 'journaal', kop: { nl: 'Het journaal', fr: 'Le journal' },
+        doe: async (p) => { await klik(p, tabblad(p, /^(Notities|Notes)/)); await p.waitForTimeout(1500); },
+        merk: /Offerte besproken/,
+        nl: 'In het journaal staan de taken, de notities, de bijlagen, de mails en de historiek van wie wat wijzigde. Zo weet iedereen hetzelfde over de klant.',
+        fr: "Le journal regroupe les tâches, les notes, les pièces jointes, les e-mails et l'historique de qui a modifié quoi. Ainsi, chacun en sait autant sur le client." },
+
+      { naam: 'bewaren', kop: { nl: 'Bewaren', fr: 'Enregistrer' },
+        doe: async (p) => {
+          await klik(p, p.getByRole('tab', { name: 'Fiche', exact: true }).first());
+          await p.waitForTimeout(800);
+          // Een wijziging zonder te bewaren — enkel om de vraag te tonen. Er wordt NIETS bewaard.
+          const naam = p.locator('.adm-fiche input:visible').first();
+          await klik(p, naam); await p.keyboard.press('End'); await p.keyboard.type(' ', { delay: 100 });
+          await p.waitForTimeout(600);
+          await klik(p, p.getByText(/^(Naar de lijst|Vers la liste)$/).first());   // een link, geen knop
+        },
+        merk: /Toch weggaan|quand même/i,
+        nl: 'Onderaan bewaart u. Gaat u weg met wijzigingen die nog niet bewaard zijn, dan vraagt Nimble het eerst. Er gaat niets ongemerkt verloren.',
+        fr: "En bas, vous enregistrez. Si vous quittez avec des modifications non enregistrées, Nimble vous le demande d'abord. Rien ne se perd sans que vous le sachiez." },
+
+      { naam: 'hulp', kop: { nl: 'Hulp bij elk scherm', fr: 'De l’aide sur chaque écran' },
+        doe: async (p) => {
+          await klik(p, p.getByRole('button', { name: /^(Blijven|Rester)$/ }).first());
+          await p.waitForTimeout(700);
+          await klik(p, p.getByTitle(/Hulp bij dit scherm|Aide pour cet écran/).first());
+          await p.locator('.help-panel').first().waitFor({ state: 'visible', timeout: 10000 });
+        },
+        merk: /Al uw klanten en leveranciers|Tous vos clients/,
+        nl: 'Rechtsboven staat het vraagteken. Het opent de uitleg bij precies dit scherm, met een link naar de volledige handleiding.',
+        fr: "En haut à droite, le point d'interrogation ouvre l'explication de cet écran précis, avec un lien vers le manuel complet." },
+
+      { naam: 'assistent', kop: { nl: 'Vraag het de handleiding', fr: 'Demander au manuel' },
+        doe: async (p) => {
+          await klik(p, p.locator('.help-panel button').first());   // de hulp sluiten
+          await p.waitForTimeout(600);
+          await klik(p, p.getByTitle(/Vraag het de handleiding|Demander au manuel/).first());
+          await p.waitForTimeout(1200);
+        },
+        merk: /op basis van de handleiding|du manuel/i,
+        nl: 'Met het sterretje ernaast stelt u een vraag in uw eigen woorden. De assistent antwoordt op basis van de handleiding.',
+        fr: "Avec l'étoile à côté, vous posez une question avec vos propres mots. L'assistant répond sur la base du manuel." },
+
+      { naam: 'voorkeuren', kop: { nl: 'Uw voorkeuren', fr: 'Vos préférences' },
+        doe: async (p) => {
+          await klik(p, p.locator('.help-panel button').first());   // de assistent sluiten
+          await p.waitForTimeout(600);
+          await klik(p, p.getByTitle(/Voorkeuren & account|Préférences et compte/).first());
+          await p.waitForTimeout(1200);
+        },
+        merk: /Tweestapsverificatie|Vérification en deux étapes/,
+        nl: 'Onder uw initialen kiest u uw eigen voorkeuren: een accentkleur, de grootte van het scherm, en uw taal. Daar stelt u ook de tweestapsverificatie in.',
+        fr: "Sous vos initiales, vous choisissez vos préférences : une couleur d'accent, la taille de l'écran, et votre langue. C'est aussi là que vous activez la vérification en deux étapes." },
+
+      { naam: 'meldingen', kop: { nl: 'Meldingen', fr: 'Notifications' },
+        doe: async (p) => {
+          // Het voorkeurenpaneel sluit niet met Escape: met zijn kruisje.
+          await klik(p, p.getByRole('button', { name: /^(Sluiten|Fermer)$/ }).locator('visible=true').first());
+          await p.waitForTimeout(500);
+          await beweegNaar(p, p.getByTitle(/^(Meldingen|Notifications)$/).first());
+          await p.waitForTimeout(1000);
+          await beweegNaar(p, p.getByTitle(/Een melding sturen|Signaler quelque chose/).first());
+        },
+        merk: /Vandersteen Bouwprojecten/,
+        nl: 'Het belletje toont wat er voor u binnenkwam. Met de ballon ernaast stuurt u ons een vraag of een probleem. Zo vindt u uw weg in Nimble.',
+        fr: "La cloche affiche ce qui est arrivé pour vous. Avec la bulle à côté, vous nous envoyez une question ou un problème. Voilà comment trouver votre chemin dans Nimble." },
+    ],
+  }],
   ['van-aanvraag-tot-offerte', {
     pagina: 'sales/quotes',
     titel: {
