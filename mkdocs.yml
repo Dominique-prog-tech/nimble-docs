@@ -205,6 +205,7 @@ plugins:
             Openstaande punten: Points ouverts
             Verkoop: Ventes
             Offertes: Devis
+            Prijsafspraken: Accords de prix
             Facturen: Factures
             Vorderingsstaten: États d'avancement
             Orderboek: Carnet de commandes
@@ -251,6 +252,7 @@ nav:
     - Taken: crm/tasks.md
   - Verkoop:
     - Offertes: sales/quotes.md
+    - Prijsafspraken: sales/price-agreements.md
     - Orderboek: sales/order-book.md
     - Facturen: sales/invoices.md
     - Vorderingsstaten: sales/progress-reports.md

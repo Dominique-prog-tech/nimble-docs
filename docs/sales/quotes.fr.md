@@ -117,6 +117,16 @@ Chaque bloc offre deux façons d'ajouter une ligne :
     **Service** figure après la famille et l'unité ; pour un
     [article de devis](../inventory/articles.md#le-type-dun-article), **Article de devis**.
 
+### Charger un accord de prix
+
+Si un [accord de prix](price-agreements.md) s'applique au client à la date du devis, au-dessus des lignes figure
+*Un accord de prix s'applique à ce client à la date du devis :* avec un bouton **Charger « … »**. Il place tous les
+postes de l'accord dans le devis, au prix convenu et avec la quantité 0, chacun sous son chapitre. Un article que
+vous choisissez avec **+ article** reçoit lui aussi le prix convenu. Une telle ligne porte la mention **Accord de
+prix**, jusqu'à ce que vous modifiiez le prix manuellement.
+
+S'il reste des lignes avec la quantité 0 au moment d'imprimer ou d'envoyer, Nimble vous avertit.
+
 ### Les champs d'une ligne
 
 | Champ | Signification |
@@ -402,6 +412,7 @@ conservée, mais ne compte plus dans le montant *Convenu* du projet, et ne peut 
 
 - [Factures](invoices.md) — ce qui suit un devis accepté
 - [Articles](../inventory/articles.md) — le catalogue d'où proviennent vos lignes
+- [Accords de prix](price-agreements.md) — charger les prix convenus par client
 - [Relations](../relations.md) — vos clients et leur langue des documents
 - [Codes TVA](../administration/vat-codes.md) — les taux et leur mention légale
 - [Statuts de devis](../administration/quote-status.md) — modifier le texte des quatre statuts

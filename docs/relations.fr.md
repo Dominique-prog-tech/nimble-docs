@@ -35,7 +35,7 @@ Cliquez sur **CRM → Relations** dans la barre latérale.
 
 ## La fiche de relation
 
-À gauche figurent les onglets **Fiche** et **Personnes de contact**. À droite figure le journal de ce client : **Tâches**, **Notes**, **Pièces jointes**, **E-mails** et **Historique** — voir [Travailler avec une fiche](fiches.fr.md).
+À gauche figurent les onglets **Fiche** et **Personnes de contact** — pour un client, aussi **Accords de prix**. À droite figure le journal de ce client : **Tâches**, **Notes**, **Pièces jointes**, **E-mails** et **Historique** — voir [Travailler avec une fiche](fiches.fr.md).
 
 Les boutons **Enregistrer**, **Annuler** et **Supprimer** se trouvent en bas et valent pour **Fiche** et **Personnes de contact** ensemble — vous pouvez donc enregistrer depuis l'un ou l'autre de ces onglets. Sur un onglet du journal, ils ne s'affichent pas.
 
@@ -128,6 +128,12 @@ Pour une nouvelle relation, vous lisez ici : *Enregistrez d'abord la relation ; 
 !!! note "Tout est enregistré avec Enregistrer"
     Les liens, les rôles et les adresses e-mail ne sont écrits qu'au moment où vous cliquez sur **Enregistrer**. **Annuler** laisse tout en l'état.
 
+### Onglet Accords de prix
+
+Pour un **client**, cet onglet contient les prix convenus avec lui, chacun pour une période. Un devis pour ce client
+les charge au prix convenu. L'onglet apparaît dès que la relation est enregistrée avec la case **Client** cochée. Voir
+[Accords de prix](sales/price-agreements.md).
+
 ## En bas de la fiche
 
 - **Enregistrer** — conserve les modifications ; vous restez sur la fiche. S'il manque encore quelque chose — le nom, la langue des documents — ou si une adresse e-mail ou un numéro de téléphone n'est pas valide, un message en haut de la fiche indique ce qu'il faut faire. Si l'adresse non valide est celle d'une personne de contact, le message renvoie à l'onglet **Personnes de contact**.
@@ -151,6 +157,7 @@ Enregistrer et Supprimer n'apparaissent que si vous disposez du **droit de modif
 ## Voir aussi
 
 - [Leads](crm/leads.fr.md) — du premier contact à la conversion en client
+- [Accords de prix](sales/price-agreements.md) — les prix convenus par client
 - [Personnes de contact](crm/contactpersonen.fr.md) — les personnes derrière ces entreprises
 - [Filtrer les listes](lijsten-filteren.md) — le bouton entonnoir, le générateur de filtres et la barre de filtre
 - [Travailler avec une fiche](fiches.md) — adresse propre, onglets, enregistrer et archiver

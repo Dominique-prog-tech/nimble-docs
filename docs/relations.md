@@ -35,7 +35,7 @@ Klik in de zijbalk op **CRM → Relaties**.
 
 ## De relatiefiche
 
-Links staan de tabbladen **Fiche** en **Contactpersonen**. Rechts staat het journaal van deze klant: **Taken**, **Notities**, **Bijlagen**, **Mails** en **Logboek** — zie [Werken met een fiche](fiches.md).
+Links staan de tabbladen **Fiche** en **Contactpersonen** — bij een klant ook **Prijsafspraken**. Rechts staat het journaal van deze klant: **Taken**, **Notities**, **Bijlagen**, **Mails** en **Logboek** — zie [Werken met een fiche](fiches.md).
 
 De knoppen **Bewaren**, **Annuleren** en **Verwijderen** staan onderaan en gelden voor **Fiche** en **Contactpersonen** samen — u kunt dus bewaren vanaf welk van die twee tabbladen u ook staat. Op een journaal-tabblad ziet u ze niet.
 
@@ -129,6 +129,12 @@ Bij een nieuwe relatie staat hier: *Bewaar de relatie eerst; daarna kunt u er co
 !!! note "Alles gaat pas mee bij Bewaren"
     Ook koppelingen, rollen en e-mailadressen worden pas weggeschreven wanneer u op **Bewaren** klikt. **Annuleren** laat alles zoals het was.
 
+### Tabblad Prijsafspraken
+
+Bij een **klant** staan hier de prijzen die u met hem afsprak, elk voor een periode. Een offerte voor deze klant laadt
+ze in met de afgesproken prijs. Het tabblad verschijnt zodra de relatie bewaard is met **Klant** aangevinkt. Zie
+[Prijsafspraken](sales/price-agreements.md).
+
 ## Onderaan de fiche
 
 - **Bewaren** — bewaart de wijzigingen; u blijft op de fiche. Ontbreekt er nog iets — de naam, de documenttaal — of is een e-mailadres of telefoonnummer ongeldig, dan zegt een melding bovenaan de fiche wat er moet gebeuren. Staat het ongeldige adres bij een contactpersoon, dan verwijst de melding naar het tabblad **Contactpersonen**.
@@ -152,6 +158,7 @@ Bewaren en Verwijderen verschijnen alleen als u het **bewerkrecht** hebt; zonder
 ## Zie ook
 
 - [Leads](crm/leads.md) — van eerste contact tot omzetting naar klant
+- [Prijsafspraken](sales/price-agreements.md) — afgesproken prijzen per klant
 - [Contactpersonen](crm/contactpersonen.md) — de mensen achter deze bedrijven
 - [Lijsten filteren](lijsten-filteren.md) — de trechterknop, de filterbouwer en de filterbalk
 - [Werken met een fiche](fiches.md) — eigen adres, tabbladen, bewaren en archiveren

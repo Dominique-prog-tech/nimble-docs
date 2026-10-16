@@ -114,6 +114,16 @@ Per blok hebt u twee manieren om een regel toe te voegen:
     **Dienst** achter de familie en de eenheid, bij een
     [offerteartikel](../inventory/articles.md#de-soort-van-een-artikel) **Offerteartikel**.
 
+### Een prijsafspraak inladen
+
+Geldt er voor de klant op de offertedatum een [prijsafspraak](price-agreements.md), dan staat boven de regels
+*Voor deze klant geldt op de offertedatum een prijsafspraak:* met een knop **'…' inladen**. Die zet alle posten
+van de afspraak op de offerte, met de afgesproken prijs en hoeveelheid 0, elk onder zijn hoofdstuk. Een artikel dat
+u met **+ artikel** kiest, krijgt ook de afgesproken prijs. Zo'n regel draagt het kenmerk **Prijsafspraak**, tot u
+de prijs met de hand wijzigt.
+
+Staan er bij het afdrukken of mailen nog regels met hoeveelheid 0 op, dan waarschuwt Nimble.
+
 ### De regelvelden
 
 | Veld | Betekenis |
@@ -392,6 +402,7 @@ maar telt niet meer mee in het bedrag *Afgesproken* op het project, en ze kan ni
 
 - [Facturen](invoices.md) — wat er na een aanvaarde offerte komt
 - [Artikelen](../inventory/articles.md) — de catalogus waaruit u regels kiest
+- [Prijsafspraken](price-agreements.md) — afgesproken prijzen per klant inladen
 - [Relaties](../relations.md) — uw klanten en hun documenttaal
 - [Btw-codes](../administration/vat-codes.md) — de tarieven en hun wettelijke vermelding
 - [Offertestatus](../administration/quote-status.md) — de tekst van de vier statussen aanpassen
