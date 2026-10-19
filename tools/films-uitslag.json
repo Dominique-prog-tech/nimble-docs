@@ -3,7 +3,7 @@
     "film": "van-aanvraag-tot-offerte",
     "taal": "nl-BE",
     "pagina": "sales/quotes",
-    "lengte": 132.8,
+    "lengte": 130.8,
     "uitvoering": "handleiding",
     "routes": [
       "/crm/leads",
@@ -22,56 +22,55 @@
     "hoofdstukken": [
       {
         "titel": "Het leadbord",
-        "start": 4.08,
-        "eind": 14.34
+        "start": 3.84,
+        "eind": 14.1
       },
       {
         "titel": "Van lead naar klant",
-        "start": 22.55,
-        "eind": 31.98
+        "start": 22.13,
+        "eind": 31.56
       },
       {
         "titel": "Het offertebord",
-        "start": 36.27,
-        "eind": 47.7
+        "start": 35.85,
+        "eind": 47.27
       },
       {
         "titel": "Een offerte",
-        "start": 54.08,
-        "eind": 63.51
+        "start": 53.59,
+        "eind": 63.01
       },
       {
         "titel": "Prijsafspraken met een klant",
-        "start": 73.33,
-        "eind": 82.25
+        "start": 71.3,
+        "eind": 80.22
       },
       {
         "titel": "Eén prijsafspraak",
-        "start": 85.33,
-        "eind": 97.17
+        "start": 83.34,
+        "eind": 95.18
       },
       {
         "titel": "Een nieuwe offerte",
-        "start": 106.42,
-        "eind": 113.76
+        "start": 104.42,
+        "eind": 111.75
       },
       {
         "titel": "De afspraak inladen",
-        "start": 118.27,
-        "eind": 130.39
+        "start": 116.28,
+        "eind": 128.4
       }
     ],
     "thumbnail": "https://vz-db1b2088-768.b-cdn.net/5aa21267-6047-4913-a609-7e321d591d2a/thumbnail.jpg",
     "gepubliceerdOp": "2026-10-16T10:22:39.968",
     "embed": "https://iframe.mediadelivery.net/embed/781262/5aa21267-6047-4913-a609-7e321d591d2a",
-    "gepubliceerdeHash": "b40c55ae71663125",
     "vorigeGuid": "46ecd227-6595-4389-bb3b-c04645843ec2"
   },
   "van-aanvraag-tot-offerte-fr": {
     "film": "van-aanvraag-tot-offerte",
     "taal": "fr-BE",
     "pagina": "sales/quotes",
-    "lengte": 124.04,
+    "lengte": 123.32,
     "uitvoering": "handleiding",
     "routes": [
       "/crm/leads",
@@ -90,49 +89,48 @@
     "hoofdstukken": [
       {
         "titel": "Le tableau des leads",
-        "start": 4.02,
-        "eind": 12.28
+        "start": 3.82,
+        "eind": 12.08
       },
       {
         "titel": "Du lead au client",
-        "start": 20.41,
-        "eind": 28.77
+        "start": 20.07,
+        "eind": 28.43
       },
       {
         "titel": "Le tableau des devis",
-        "start": 33.08,
-        "eind": 44.5
+        "start": 32.71,
+        "eind": 44.14
       },
       {
         "titel": "Un devis",
-        "start": 50.92,
-        "eind": 59.98
+        "start": 50.59,
+        "eind": 59.64
       },
       {
         "titel": "Les accords de prix avec un client",
-        "start": 68.51,
-        "eind": 77.1
+        "start": 67.97,
+        "eind": 76.56
       },
       {
         "titel": "Un accord de prix",
-        "start": 80.22,
-        "eind": 92.44
+        "start": 79.66,
+        "eind": 91.87
       },
       {
         "titel": "Un nouveau devis",
-        "start": 101.71,
-        "eind": 107.51
+        "start": 101.08,
+        "eind": 106.88
       },
       {
         "titel": "Charger l'accord",
-        "start": 112.06,
-        "eind": 121.62
+        "start": 111.39,
+        "eind": 120.95
       }
     ],
     "thumbnail": "https://vz-db1b2088-768.b-cdn.net/e91afe85-15ef-4265-a728-1f75d45c81ad/thumbnail.jpg",
     "gepubliceerdOp": "2026-10-16T10:23:15.519",
     "embed": "https://iframe.mediadelivery.net/embed/781262/e91afe85-15ef-4265-a728-1f75d45c81ad",
-    "gepubliceerdeHash": "353ea21b189e7cc9",
     "vorigeGuid": "7fdb9583-2f2a-4ee6-ae1b-527d0b655493"
   },
   "aan-de-slag-nl": {
@@ -307,7 +305,7 @@
     "film": "van-offerte-tot-werf",
     "taal": "nl-BE",
     "pagina": "work/projects",
-    "lengte": 137.41,
+    "lengte": 138.83,
     "uitvoering": "handleiding",
     "routes": [
       "/verkoop/offertes",
@@ -328,60 +326,59 @@
     "hoofdstukken": [
       {
         "titel": "Een aanvaarde offerte",
-        "start": 6.77,
-        "eind": 15.92
+        "start": 7.01,
+        "eind": 16.16
       },
       {
         "titel": "Het project",
-        "start": 22.95,
-        "eind": 30.34
+        "start": 23.35,
+        "eind": 30.73
       },
       {
         "titel": "Wat er afgesproken en gefactureerd is",
-        "start": 32.59,
-        "eind": 41.04
+        "start": 32.99,
+        "eind": 41.44
       },
       {
         "titel": "De overdracht",
-        "start": 45.25,
-        "eind": 53.56
+        "start": 45.67,
+        "eind": 53.98
       },
       {
         "titel": "De werfvoorbereiding",
-        "start": 57.03,
-        "eind": 67.72
+        "start": 57.46,
+        "eind": 68.14
       },
       {
         "titel": "De werkorder",
-        "start": 72.8,
-        "eind": 83.94
+        "start": 73.48,
+        "eind": 84.62
       },
       {
         "titel": "Het planbord",
-        "start": 88.35,
-        "eind": 99.82
+        "start": 89.26,
+        "eind": 100.73
       },
       {
         "titel": "Een werkbon",
-        "start": 104.88,
-        "eind": 117.93
+        "start": 106,
+        "eind": 119.05
       },
       {
         "titel": "Meerwerk opvolgen",
-        "start": 121.72,
-        "eind": 134.9
+        "start": 123.13,
+        "eind": 136.32
       }
     ],
     "thumbnail": "https://vz-db1b2088-768.b-cdn.net/d0eeaa92-21a8-4792-82d7-9e7a1e8d526d/thumbnail.jpg",
     "gepubliceerdOp": "2026-10-19T04:41:07.92",
-    "gepubliceerdeHash": "990ec54016538d19",
     "embed": "https://iframe.mediadelivery.net/embed/781262/d0eeaa92-21a8-4792-82d7-9e7a1e8d526d"
   },
   "van-offerte-tot-werf-fr": {
     "film": "van-offerte-tot-werf",
     "taal": "fr-BE",
     "pagina": "work/projects",
-    "lengte": 133.91,
+    "lengte": 134.38,
     "uitvoering": "handleiding",
     "routes": [
       "/verkoop/offertes",
@@ -402,53 +399,52 @@
     "hoofdstukken": [
       {
         "titel": "Un devis accepté",
-        "start": 6.84,
+        "start": 6.85,
         "eind": 15.25
       },
       {
         "titel": "Le projet",
-        "start": 22.34,
-        "eind": 29.91
+        "start": 22.72,
+        "eind": 30.29
       },
       {
         "titel": "Ce qui est convenu et facturé",
-        "start": 32.17,
-        "eind": 40.34
+        "start": 32.55,
+        "eind": 40.72
       },
       {
         "titel": "La transmission",
-        "start": 44.59,
-        "eind": 53.59
+        "start": 44.94,
+        "eind": 53.95
       },
       {
         "titel": "La préparation du chantier",
-        "start": 57.08,
-        "eind": 66.6
+        "start": 57.41,
+        "eind": 66.93
       },
       {
         "titel": "L’ordre de travail",
-        "start": 71.68,
-        "eind": 83.62
+        "start": 72.02,
+        "eind": 83.96
       },
       {
         "titel": "La planification",
-        "start": 88.05,
-        "eind": 98.91
+        "start": 88.39,
+        "eind": 99.26
       },
       {
         "titel": "Un bon de travail",
-        "start": 103.98,
-        "eind": 116.24
+        "start": 104.45,
+        "eind": 116.71
       },
       {
         "titel": "Suivre les travaux supplémentaires",
-        "start": 120.03,
-        "eind": 131.41
+        "start": 120.5,
+        "eind": 131.87
       }
     ],
     "thumbnail": "https://vz-db1b2088-768.b-cdn.net/66a91479-1f07-4740-81ae-6e3a9184684e/thumbnail.jpg",
     "gepubliceerdOp": "2026-10-19T04:41:25.587",
-    "gepubliceerdeHash": "12b64b428256181a",
     "embed": "https://iframe.mediadelivery.net/embed/781262/66a91479-1f07-4740-81ae-6e3a9184684e"
   },
   "aan-de-slag-website-nl": {
@@ -617,7 +613,7 @@
     "film": "van-aanvraag-tot-offerte",
     "taal": "nl-BE",
     "pagina": "sales/quotes",
-    "lengte": 48.08,
+    "lengte": 48,
     "uitvoering": "website",
     "routes": [
       "/crm/leads",
@@ -635,40 +631,39 @@
     "hoofdstukken": [
       {
         "titel": "Het leadbord",
-        "start": 3.89,
-        "eind": 8.1
+        "start": 3.86,
+        "eind": 8.07
       },
       {
         "titel": "Het offertebord",
-        "start": 12.51,
-        "eind": 16.72
+        "start": 12.48,
+        "eind": 16.7
       },
       {
         "titel": "Een offerte",
-        "start": 23.09,
-        "eind": 27.09
+        "start": 23.04,
+        "eind": 27.04
       },
       {
         "titel": "Prijsafspraken met een klant",
-        "start": 35.39,
-        "eind": 38.39
+        "start": 35.31,
+        "eind": 38.31
       },
       {
         "titel": "Eén prijsafspraak",
-        "start": 41.46,
-        "eind": 45.1
+        "start": 41.4,
+        "eind": 45.04
       }
     ],
     "thumbnail": "https://vz-db1b2088-768.b-cdn.net/80e97e2c-f33a-463d-be4d-70db4a77e50a/thumbnail.jpg",
     "gepubliceerdOp": "2026-10-19T04:45:14.272",
-    "gepubliceerdeHash": "8367449aa6471ed7",
     "embed": "https://iframe.mediadelivery.net/embed/781262/80e97e2c-f33a-463d-be4d-70db4a77e50a"
   },
   "van-aanvraag-tot-offerte-website-fr": {
     "film": "van-aanvraag-tot-offerte",
     "taal": "fr-BE",
     "pagina": "sales/quotes",
-    "lengte": 49.64,
+    "lengte": 49.24,
     "uitvoering": "website",
     "routes": [
       "/crm/leads",
@@ -686,40 +681,39 @@
     "hoofdstukken": [
       {
         "titel": "Le tableau des leads",
-        "start": 3.86,
-        "eind": 9.22
+        "start": 3.81,
+        "eind": 9.17
       },
       {
         "titel": "Le tableau des devis",
-        "start": 13.61,
-        "eind": 17.89
+        "start": 13.45,
+        "eind": 17.73
       },
       {
         "titel": "Un devis",
-        "start": 24.28,
-        "eind": 28.35
+        "start": 24.06,
+        "eind": 28.13
       },
       {
         "titel": "Les accords de prix avec un client",
-        "start": 36.76,
-        "eind": 39.9
+        "start": 36.41,
+        "eind": 39.55
       },
       {
         "titel": "Un accord de prix",
-        "start": 43.03,
-        "eind": 46.67
+        "start": 42.65,
+        "eind": 46.29
       }
     ],
     "thumbnail": "https://vz-db1b2088-768.b-cdn.net/c7b9ba14-85a7-427f-9144-1289557c6b80/thumbnail.jpg",
     "gepubliceerdOp": "2026-10-19T04:45:28.579",
-    "gepubliceerdeHash": "72eb320ba45f229d",
     "embed": "https://iframe.mediadelivery.net/embed/781262/c7b9ba14-85a7-427f-9144-1289557c6b80"
   },
   "van-aanvraag-tot-offerte-website-en": {
     "film": "van-aanvraag-tot-offerte",
     "taal": "nl-BE",
     "pagina": "sales/quotes",
-    "lengte": 47.24,
+    "lengte": 47.04,
     "uitvoering": "website",
     "routes": [
       "/crm/leads",
@@ -737,40 +731,39 @@
     "hoofdstukken": [
       {
         "titel": "The lead board",
-        "start": 3.88,
-        "eind": 7.73
+        "start": 3.86,
+        "eind": 7.71
       },
       {
         "titel": "The quote board",
-        "start": 12.08,
-        "eind": 15.73
+        "start": 11.94,
+        "eind": 15.59
       },
       {
         "titel": "A quote",
-        "start": 22.14,
-        "eind": 25.93
+        "start": 21.95,
+        "eind": 25.73
       },
       {
         "titel": "Price agreements with a customer",
-        "start": 34.37,
-        "eind": 37.51
+        "start": 34.19,
+        "eind": 37.33
       },
       {
         "titel": "One price agreement",
-        "start": 40.62,
-        "eind": 44.12
+        "start": 40.44,
+        "eind": 43.94
       }
     ],
     "thumbnail": "https://vz-db1b2088-768.b-cdn.net/345befa4-c9f5-4214-9a47-100ff6c51d2e/thumbnail.jpg",
     "gepubliceerdOp": "2026-10-19T04:45:39.814",
-    "gepubliceerdeHash": "da30490f1b2c6918",
     "embed": "https://iframe.mediadelivery.net/embed/781262/345befa4-c9f5-4214-9a47-100ff6c51d2e"
   },
   "van-werf-tot-betaling-nl": {
     "film": "van-werf-tot-betaling",
     "taal": "nl-BE",
     "pagina": "sales/invoices",
-    "lengte": 95.28,
+    "lengte": 95.76,
     "uitvoering": "handleiding",
     "routes": [
       "/verkoop/vorderingsstaten",
@@ -790,55 +783,54 @@
     "hoofdstukken": [
       {
         "titel": "Een vorderingsstaat",
-        "start": 4.79,
-        "eind": 14.87
+        "start": 4.9,
+        "eind": 14.98
       },
       {
         "titel": "Een staat factureren",
-        "start": 19.88,
-        "eind": 25.41
+        "start": 20,
+        "eind": 25.53
       },
       {
         "titel": "Wat er openstaat",
-        "start": 28.42,
-        "eind": 35.48
+        "start": 28.68,
+        "eind": 35.74
       },
       {
         "titel": "Een factuur",
-        "start": 39.79,
-        "eind": 47.87
+        "start": 40.05,
+        "eind": 48.14
       },
       {
         "titel": "Versturen",
-        "start": 50.13,
-        "eind": 56.03
+        "start": 50.4,
+        "eind": 56.3
       },
       {
         "titel": "Aanmaningen",
-        "start": 60.09,
-        "eind": 68.31
+        "start": 60.51,
+        "eind": 68.72
       },
       {
         "titel": "De bank",
-        "start": 72.43,
-        "eind": 78
+        "start": 72.84,
+        "eind": 78.41
       },
       {
         "titel": "Afpunten",
-        "start": 82.09,
-        "eind": 92.92
+        "start": 82.51,
+        "eind": 93.33
       }
     ],
     "thumbnail": "https://vz-db1b2088-768.b-cdn.net/9351f3c7-3a7f-4112-a8ba-93ebe15b189f/thumbnail.jpg",
     "gepubliceerdOp": "2026-10-19T05:09:55.737",
-    "gepubliceerdeHash": "de4dacc22c6732f1",
     "embed": "https://iframe.mediadelivery.net/embed/781262/9351f3c7-3a7f-4112-a8ba-93ebe15b189f"
   },
   "van-werf-tot-betaling-fr": {
     "film": "van-werf-tot-betaling",
     "taal": "fr-BE",
     "pagina": "sales/invoices",
-    "lengte": 90.6,
+    "lengte": 90.88,
     "uitvoering": "handleiding",
     "routes": [
       "/verkoop/vorderingsstaten",
@@ -858,55 +850,54 @@
     "hoofdstukken": [
       {
         "titel": "Un état d’avancement",
-        "start": 4.77,
-        "eind": 14.48
+        "start": 4.79,
+        "eind": 14.49
       },
       {
         "titel": "Facturer un état",
-        "start": 19.56,
-        "eind": 24.99
+        "start": 19.62,
+        "eind": 25.06
       },
       {
         "titel": "Ce qui reste dû",
-        "start": 28,
-        "eind": 34.17
+        "start": 28.16,
+        "eind": 34.34
       },
       {
         "titel": "Une facture",
-        "start": 38.51,
-        "eind": 45.43
+        "start": 38.64,
+        "eind": 45.56
       },
       {
         "titel": "Envoyer",
-        "start": 47.69,
-        "eind": 54.01
+        "start": 47.81,
+        "eind": 54.13
       },
       {
         "titel": "Les rappels",
-        "start": 58.14,
-        "eind": 65.53
+        "start": 58.33,
+        "eind": 65.71
       },
       {
         "titel": "La banque",
-        "start": 69.63,
-        "eind": 75.1
+        "start": 69.79,
+        "eind": 75.27
       },
       {
         "titel": "Le lettrage",
-        "start": 79.2,
-        "eind": 88.21
+        "start": 79.49,
+        "eind": 88.5
       }
     ],
     "thumbnail": "https://vz-db1b2088-768.b-cdn.net/a237ce79-9045-45ce-9398-e7a5d0384881/thumbnail.jpg",
     "gepubliceerdOp": "2026-10-19T05:10:12.625",
-    "gepubliceerdeHash": "7f0b89bce6c033fe",
     "embed": "https://iframe.mediadelivery.net/embed/781262/a237ce79-9045-45ce-9398-e7a5d0384881"
   },
   "inkoop-en-voorraad-nl": {
     "film": "inkoop-en-voorraad",
     "taal": "nl-BE",
     "pagina": "purchasing/purchase-orders",
-    "lengte": 74.6,
+    "lengte": 75.44,
     "uitvoering": "handleiding",
     "routes": [
       "/inkoop/bestellingen",
@@ -924,45 +915,44 @@
     "hoofdstukken": [
       {
         "titel": "Bestellingen",
-        "start": 2.74,
-        "eind": 9.71
+        "start": 3.03,
+        "eind": 10
       },
       {
         "titel": "Een bestelling",
-        "start": 14.26,
-        "eind": 20.21
+        "start": 14.42,
+        "eind": 20.36
       },
       {
         "titel": "Een levering ontvangen",
-        "start": 24.73,
-        "eind": 33.42
+        "start": 24.87,
+        "eind": 33.56
       },
       {
         "titel": "Aankoopfacturen",
-        "start": 36.52,
-        "eind": 43.76
+        "start": 36.67,
+        "eind": 43.92
       },
       {
         "titel": "De voorraadstand",
-        "start": 46.87,
-        "eind": 57
+        "start": 46.98,
+        "eind": 57.1
       },
       {
         "titel": "Elke stockbeweging",
-        "start": 63.26,
-        "eind": 72.22
+        "start": 64.06,
+        "eind": 73.02
       }
     ],
     "thumbnail": "https://vz-db1b2088-768.b-cdn.net/5a63a488-3aa0-4ebb-84cc-1a7fa27fac05/thumbnail.jpg",
     "gepubliceerdOp": "2026-10-19T05:43:59.474",
-    "gepubliceerdeHash": "ad98c49d71fb95ba",
     "embed": "https://iframe.mediadelivery.net/embed/781262/5a63a488-3aa0-4ebb-84cc-1a7fa27fac05"
   },
   "inkoop-en-voorraad-fr": {
     "film": "inkoop-en-voorraad",
     "taal": "fr-BE",
     "pagina": "purchasing/purchase-orders",
-    "lengte": 72.76,
+    "lengte": 72.4,
     "uitvoering": "handleiding",
     "routes": [
       "/inkoop/bestellingen",
@@ -980,45 +970,44 @@
     "hoofdstukken": [
       {
         "titel": "Les commandes",
-        "start": 2.73,
-        "eind": 8.96
+        "start": 2.75,
+        "eind": 8.97
       },
       {
         "titel": "Une commande",
-        "start": 13.3,
-        "eind": 20.17
+        "start": 13.38,
+        "eind": 20.26
       },
       {
         "titel": "Réceptionner une livraison",
-        "start": 24.67,
-        "eind": 33.96
+        "start": 24.77,
+        "eind": 34.06
       },
       {
         "titel": "Les factures d’achat",
-        "start": 37.03,
-        "eind": 43.44
+        "start": 37.07,
+        "eind": 43.47
       },
       {
         "titel": "L’état du stock",
-        "start": 46.49,
-        "eind": 56.39
+        "start": 46.45,
+        "eind": 56.34
       },
       {
         "titel": "Chaque mouvement de stock",
-        "start": 62.99,
-        "eind": 70.38
+        "start": 62.67,
+        "eind": 70.05
       }
     ],
     "thumbnail": "https://vz-db1b2088-768.b-cdn.net/e6362830-0c85-4e23-ba6d-d7fc5b30d1f5/thumbnail.jpg",
     "gepubliceerdOp": "2026-10-19T05:44:11.148",
-    "gepubliceerdeHash": "7ccef87d86bffe08",
     "embed": "https://iframe.mediadelivery.net/embed/781262/e6362830-0c85-4e23-ba6d-d7fc5b30d1f5"
   },
   "uw-bedrijf-instellen-nl": {
     "film": "uw-bedrijf-instellen",
     "taal": "nl-BE",
     "pagina": "settings/company-profile",
-    "lengte": 84.81,
+    "lengte": 85.19,
     "uitvoering": "handleiding",
     "routes": [
       "/administration/company-profile",
@@ -1037,45 +1026,44 @@
     "hoofdstukken": [
       {
         "titel": "De bedrijfsfiche",
-        "start": 4.09,
-        "eind": 14.49
+        "start": 4.19,
+        "eind": 14.59
       },
       {
         "titel": "Financiële instellingen",
-        "start": 16.77,
-        "eind": 26.94
+        "start": 16.87,
+        "eind": 27.04
       },
       {
         "titel": "Nummering en logo",
-        "start": 31.47,
-        "eind": 38.02
+        "start": 31.55,
+        "eind": 38.1
       },
       {
         "titel": "Documentsjablonen",
-        "start": 42.84,
-        "eind": 53.66
+        "start": 43.12,
+        "eind": 53.94
       },
       {
         "titel": "Mailsjablonen",
-        "start": 58.29,
-        "eind": 70.23
+        "start": 58.64,
+        "eind": 70.58
       },
       {
         "titel": "Uw eigen keuzelijsten",
-        "start": 73.3,
-        "eind": 82.31
+        "start": 73.68,
+        "eind": 82.69
       }
     ],
     "thumbnail": "https://vz-db1b2088-768.b-cdn.net/e9cd50ca-053c-47be-a4f2-49476017aba5/thumbnail.jpg",
     "gepubliceerdOp": "2026-10-19T07:23:43.669",
-    "gepubliceerdeHash": "6603d8896ef2af64",
     "embed": "https://iframe.mediadelivery.net/embed/781262/e9cd50ca-053c-47be-a4f2-49476017aba5"
   },
   "uw-bedrijf-instellen-fr": {
     "film": "uw-bedrijf-instellen",
     "taal": "fr-BE",
     "pagina": "settings/company-profile",
-    "lengte": 83.76,
+    "lengte": 83.74,
     "uitvoering": "handleiding",
     "routes": [
       "/administration/company-profile",
@@ -1094,18 +1082,18 @@
     "hoofdstukken": [
       {
         "titel": "La fiche d’entreprise",
-        "start": 4.09,
-        "eind": 14.5
+        "start": 4.14,
+        "eind": 14.55
       },
       {
         "titel": "Les paramètres financiers",
-        "start": 16.77,
-        "eind": 26.43
+        "start": 16.81,
+        "eind": 26.47
       },
       {
         "titel": "Numérotation et logo",
-        "start": 30.95,
-        "eind": 38.8
+        "start": 30.98,
+        "eind": 38.83
       },
       {
         "titel": "Les modèles de documents",
@@ -1114,18 +1102,17 @@
       },
       {
         "titel": "Les modèles de mail",
-        "start": 57.94,
-        "eind": 69.36
+        "start": 57.84,
+        "eind": 69.26
       },
       {
         "titel": "Vos propres listes de choix",
-        "start": 72.39,
-        "eind": 81.26
+        "start": 72.37,
+        "eind": 81.24
       }
     ],
     "thumbnail": "https://vz-db1b2088-768.b-cdn.net/ce6e185e-f086-4cd5-828a-3f00f7ec187a/thumbnail.jpg",
     "gepubliceerdOp": "2026-10-19T07:24:00.802",
-    "gepubliceerdeHash": "45a8d2686686bfe2",
     "embed": "https://iframe.mediadelivery.net/embed/781262/ce6e185e-f086-4cd5-828a-3f00f7ec187a"
   }
 }
