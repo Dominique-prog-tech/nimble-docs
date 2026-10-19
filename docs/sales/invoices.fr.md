@@ -157,7 +157,8 @@ montant, avec le solde ouvert en dessous. Le ✕ rouge supprime un paiement, apr
 
 ## Les boutons du bas
 
-Les boutons affichés dépendent du statut et de vos droits. De gauche à droite :
+Les boutons affichés dépendent du statut et de vos droits. De gauche à droite. Les actions moins utilisées se
+trouvent sous **Plus…**.
 
 | Bouton | Quand | Ce qu'il fait |
 |---|---|---|
@@ -167,10 +168,9 @@ Les boutons affichés dépendent du statut et de vos droits. De gauche à droite
 | **Finaliser** | Brouillon | Attribue le numéro et met la facture sur Émise |
 | **Enregistrer un paiement** | Émise | Comptabilise une recette |
 | **Marquer comme envoyée** | Émise | Note que la facture est partie, et comment. Ensuite, le bouton s'appelle **Envoyée à nouveau** |
-| **Créer une note de crédit** | Facture numérotée | Crée une note de crédit pour cette facture |
+| **Plus…** → **Créer une note de crédit** | Facture numérotée | Crée une note de crédit pour cette facture |
 | **Remettre en ouverte** | Payée | Remet la facture sur Émise |
-| **Annuler** | Brouillon | Abandonne vos modifications |
-| **Vers la liste** | Émise et Payée | Vous ramène à la liste ; il n'y a rien à enregistrer |
+| **Annuler** | Brouillon | Abandonne vos modifications. Sur une facture émise ou payée, le bouton n'y figure pas : il n'y a rien à enregistrer, et vous revenez avec **Vers la liste** en haut |
 | **Supprimer** | Brouillon sans numéro | Met le brouillon dans la corbeille, après confirmation. Vous pouvez l'y restaurer |
 
 Toute personne autorisée à consulter les factures peut utiliser l'aperçu avant impression. Les autres
@@ -274,8 +274,8 @@ Les paiements arrivés par la banque s'enregistrent le plus facilement sur l'éc
 
 ## Notes de crédit
 
-Une note de crédit corrige une facture qui a déjà un numéro. Cliquez sur **Créer une note de crédit** en bas
-de la facture. Nimble crée une note de crédit en brouillon et l'ouvre.
+Une note de crédit corrige une facture qui a déjà un numéro. Cliquez en bas de la facture sur **Plus…** →
+**Créer une note de crédit**. Nimble crée une note de crédit en brouillon et l'ouvre.
 
 ![La note de crédit CN-2026-0003, émise, avec une ligne négative et la mention Relative à la facture F-2026-0012.](../images/factuur-creditnota-fr.png)
 

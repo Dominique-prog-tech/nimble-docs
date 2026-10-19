@@ -154,7 +154,8 @@ en bedrag, met onderaan wat er nog openstaat. Met het rode ✕ verwijdert u een 
 
 ## De knoppen onderaan
 
-Welke knoppen er staan, hangt af van de status en van uw rechten. Van links naar rechts:
+Welke knoppen er staan, hangt af van de status en van uw rechten. Van links naar rechts. Minder gebruikte
+handelingen staan onder **Meer…**.
 
 | Knop | Wanneer | Wat ze doet |
 |---|---|---|
@@ -164,10 +165,9 @@ Welke knoppen er staan, hangt af van de status en van uw rechten. Van links naar
 | **Definitief maken** | Klad | Kent het nummer toe en zet de factuur op Uitgereikt |
 | **Betaling registreren** | Uitgereikt | Boekt een ontvangst |
 | **Markeren als verstuurd** | Uitgereikt | Schrijft op dát en hoe de factuur vertrokken is. Daarna heet de knop **Opnieuw verstuurd** |
-| **Creditnota maken** | Factuur met een nummer | Maakt een creditnota bij deze factuur |
+| **Meer…** → **Creditnota maken** | Factuur met een nummer | Maakt een creditnota bij deze factuur |
 | **Terug naar openstaand** | Betaald | Zet de factuur terug op Uitgereikt |
-| **Annuleren** | Klad | Laat uw wijzigingen vallen |
-| **Naar de lijst** | Uitgereikt en Betaald | Brengt u terug naar de lijst; er valt niets te bewaren |
+| **Annuleren** | Klad | Laat uw wijzigingen vallen. Op een uitgereikte of betaalde factuur staat de knop er niet: er valt niets te bewaren, en u gaat terug met **Naar de lijst** bovenaan |
 | **Verwijderen** | Klad zonder nummer | Zet de klad in de Prullenbak, na bevestiging. Daar kunt u ze terugzetten |
 
 Afdrukvoorbeeld kan iedereen die facturen mag bekijken. Alle andere knoppen vragen het recht om facturen te
@@ -269,8 +269,8 @@ Betalingen die via de bank binnenkomen, boekt u het makkelijkst op het scherm
 
 ## Creditnota's
 
-Een creditnota corrigeert een factuur die al een nummer heeft. Klik op **Creditnota maken** onderaan de
-factuur. Nimble maakt een creditnota in klad en opent ze.
+Een creditnota corrigeert een factuur die al een nummer heeft. Klik onderaan de factuur op **Meer…** →
+**Creditnota maken**. Nimble maakt een creditnota in klad en opent ze.
 
 ![De creditnota CN-2026-0003, uitgereikt, met een negatieve regel en de verwijzing Bij factuur F-2026-0012.](../images/factuur-creditnota.png)
 

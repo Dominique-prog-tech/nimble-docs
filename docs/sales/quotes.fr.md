@@ -176,21 +176,22 @@ choses à savoir sur ce montant :
 
 ## Les boutons du bas
 
-Les boutons affichés dépendent du statut du devis et de vos droits. De gauche à droite :
+Les boutons affichés dépendent du statut du devis et de vos droits. De gauche à droite. Les actions moins
+utilisées se trouvent sous **Plus…**, avant Annuler.
 
 | Bouton | Quand | Ce qu'il fait |
 |---|---|---|
 | **Enregistrer** | Brouillon et Envoyé | Enregistre vos modifications |
 | **Aperçu avant impression** | Toujours | Affiche le document tel que le client le reçoit |
 | **Envoyer par e-mail** | Toujours | Ouvre la fenêtre d'envoi |
-| **Proposer en ligne** | Brouillon et Envoyé | Met le devis en ligne, pour que le client puisse l'accepter ou le refuser |
-| **Retirer la version en ligne** | Dès que le devis est en ligne | Supprime la version en ligne |
+| **Plus…** → **Proposer en ligne** | Brouillon et Envoyé | Met le devis en ligne, pour que le client puisse l'accepter ou le refuser |
+| **Plus…** → **Retirer la version en ligne** | Dès que le devis est en ligne | Supprime la version en ligne |
 | **Marquer comme envoyé** | Brouillon et Refusé | Change uniquement le statut ; rien n'est envoyé |
 | **Marquer comme accepté** · **Refuser** | Envoyé | Enregistre la réponse du client. Si le devis n'est lié à aucun projet, Nimble en crée un lors de l'acceptation — voir *Le travail accepté est lié à un projet* ci-dessous |
 | **Créer un projet** | Accepté, sans projet | Ouvre un nouveau projet avec le client et l'adresse du chantier du devis déjà remplis. À l'enregistrement, le devis et toutes ses versions sont rattachés à ce projet |
 | **Facturer** | Accepté | Crée un brouillon de facture avec les lignes du devis |
-| **Nouvelle version** | Accepté, Refusé et Remplacé | Crée une copie modifiable |
-| **Annuler** | Brouillon et Envoyé | Abandonne vos modifications |
+| **Plus…** → **Nouvelle version** | Accepté, Refusé et Remplacé | Crée une copie modifiable |
+| **Annuler** | Brouillon et Envoyé | Abandonne vos modifications. Sur un devis clôturé, le bouton n'y figure pas : vous revenez avec **← Retour aux devis** en haut |
 | **Supprimer** | Brouillon, Envoyé et Refusé | Après confirmation, place le devis dans la corbeille. Un devis accepté, remplacé ou facturé ne peut pas être supprimé |
 
 Toute personne autorisée à consulter les devis peut utiliser l'aperçu avant impression. Les autres boutons
@@ -268,7 +269,7 @@ Après l'envoi, quatre choses se produisent :
 
 ## Proposer le devis en ligne
 
-Avec **Proposer en ligne**, Nimble publie le devis sur une page à part. Le client peut l'y consulter et
+Avec **Plus…** → **Proposer en ligne**, Nimble publie le devis sur une page à part. Le client peut l'y consulter et
 l'accepter ou le refuser. Les modifications non enregistrées sont d'abord enregistrées.
 
 - Le lien figure ensuite sur la fiche sous **Proposé en ligne**. Transmettez-le vous-même, ou placez la
@@ -289,7 +290,7 @@ l'accepter ou le refuser. Les modifications non enregistrées sont d'abord enreg
   envoyé avant la version 0.5.108 ne connaît pas son expéditeur : l'e-mail part alors uniquement vers la fiche
   d'entreprise.
 
-**Retirer la version en ligne** supprime la page. Le lien ne fonctionne plus.
+**Plus…** → **Retirer la version en ligne** supprime la page. Le lien ne fonctionne plus.
 
 ## Le suivi du devis
 
@@ -297,17 +298,17 @@ l'accepter ou le refuser. Les modifications non enregistrées sont d'abord enreg
 |---|---|
 | **Brouillon** | Modifier, envoyer par e-mail, proposer en ligne, ou **Marquer comme envoyé** |
 | **Envoyé** | Encore modifier, ou enregistrer la réponse avec **Marquer comme accepté** ou **Refuser** |
-| **Accepté** | **Facturer**, ou créer une **Nouvelle version** |
-| **Refusé** | **Marquer comme envoyé** si le client revient, ou créer une **Nouvelle version** |
+| **Accepté** | **Facturer**, ou créer une **Nouvelle version** sous **Plus…** |
+| **Refusé** | **Marquer comme envoyé** si le client revient, ou créer une **Nouvelle version** sous **Plus…** |
 | **Remplacé** | Plus rien : une version plus récente du même devis a été acceptée. Elle reste conservée pour vérifier ce que le client a reçu auparavant |
 
 !!! warning "Un devis accepté ou refusé est clôturé"
     Dès que le client a répondu, le document est figé. En haut figure *Ce devis est clôturé et ne peut plus
-    être modifié.* Les champs, blocs et lignes ne sont pas modifiables, et à la place d'Annuler figure
-    **← Retour aux devis**. C'est voulu : le client a reçu un prix, et celui-ci ne doit pas changer en
+    être modifié.* Les champs, blocs et lignes ne sont pas modifiables, et en bas ne figurent ni
+    Enregistrer ni Annuler : vous revenez avec **← Retour aux devis** en haut. C'est voulu : le client a reçu un prix, et celui-ci ne doit pas changer en
     silence.
 
-    Si une modification s'impose malgré tout, cliquez sur **Nouvelle version**. Vous obtenez une copie avec
+    Si une modification s'impose malgré tout, cliquez sous **Plus…** sur **Nouvelle version**. Vous obtenez une copie avec
     les lignes actuelles, en Brouillon, avec un numéro de version de plus et une validité de trente jours.
     L'ancienne version subsiste, ce qui vous permet de vérifier ce que le client a reçu.
 

@@ -173,21 +173,22 @@ dingen om te weten bij dat bedrag:
 
 ## De knoppen onderaan
 
-Welke knoppen er staan, hangt af van de status van de offerte en van uw rechten. Van links naar rechts:
+Welke knoppen er staan, hangt af van de status van de offerte en van uw rechten. Van links naar rechts. Minder
+gebruikte handelingen staan onder **Meer…**, vóór Annuleren.
 
 | Knop | Wanneer | Wat ze doet |
 |---|---|---|
 | **Bewaren** | Klad en Verstuurd | Bewaart uw wijzigingen |
 | **Afdrukvoorbeeld** | Altijd | Toont het document zoals de klant het krijgt |
 | **Mailen** | Altijd | Opent het verzendvenster |
-| **Online voorleggen** | Klad en Verstuurd | Zet de offerte online, zodat de klant ze kan aanvaarden of weigeren |
-| **Online intrekken** | Zodra de offerte online staat | Haalt de online versie weg |
+| **Meer…** → **Online voorleggen** | Klad en Verstuurd | Zet de offerte online, zodat de klant ze kan aanvaarden of weigeren |
+| **Meer…** → **Online intrekken** | Zodra de offerte online staat | Haalt de online versie weg |
 | **Markeren als verstuurd** | Klad en Geweigerd | Zet enkel de status om; er vertrekt niets |
 | **Markeren als aanvaard** · **Weigeren** | Verstuurd | Legt het antwoord van de klant vast. Hangt de offerte nog aan geen project, dan maakt Nimble er bij het aanvaarden een aan — zie *Aanvaard werk hangt aan een project* hieronder |
 | **Project maken** | Aanvaard, zonder project | Opent een nieuw project met de klant en het werfadres van de offerte al ingevuld. Bij het bewaren hangt de offerte, met al haar versies, aan dat project |
 | **Factureren** | Aanvaard | Maakt een kladfactuur met de regels van de offerte |
-| **Nieuwe versie** | Aanvaard, Geweigerd en Vervangen | Maakt een bewerkbare kopie |
-| **Annuleren** | Klad en Verstuurd | Laat uw wijzigingen vallen |
+| **Meer…** → **Nieuwe versie** | Aanvaard, Geweigerd en Vervangen | Maakt een bewerkbare kopie |
+| **Annuleren** | Klad en Verstuurd | Laat uw wijzigingen vallen. Op een afgesloten offerte staat de knop er niet: u gaat terug met **← Terug naar offertes** bovenaan |
 | **Verwijderen** | Klad, Verstuurd en Geweigerd | Verplaatst de offerte na bevestiging naar de prullenbak. Een aanvaarde, vervangen of gefactureerde offerte kan niet weg |
 
 Afdrukvoorbeeld kan iedereen die offertes mag bekijken. Alle andere knoppen vragen het recht om offertes te
@@ -263,7 +264,7 @@ Na het versturen gebeuren er vier dingen:
 
 ## De offerte online voorleggen
 
-Met **Online voorleggen** zet Nimble de offerte op een eigen pagina. De klant kan ze daar bekijken en
+Met **Meer…** → **Online voorleggen** zet Nimble de offerte op een eigen pagina. De klant kan ze daar bekijken en
 aanvaarden of weigeren. Onbewaarde wijzigingen worden eerst bewaard.
 
 - De link staat daarna op de fiche bij **Online voorgelegd**. Stuur ze zelf door, of zet de variabele
@@ -281,7 +282,7 @@ aanvaarden of weigeren. Onbewaarde wijzigingen worden eerst bewaard.
   de klant, de naam die hij opgaf en bij een weigering zijn reden, met een link naar de offerte. Een offerte
   die u mailde vóór versie 0.5.108 kent haar verzender niet: dan gaat de mail enkel naar de bedrijfsfiche.
 
-**Online intrekken** haalt de pagina weg. De link werkt dan niet meer.
+**Meer…** → **Online intrekken** haalt de pagina weg. De link werkt dan niet meer.
 
 ## De offerte opvolgen
 
@@ -289,17 +290,17 @@ aanvaarden of weigeren. Onbewaarde wijzigingen worden eerst bewaard.
 |---|---|
 | **Klad** | Aanpassen, mailen, online voorleggen, of **Markeren als verstuurd** |
 | **Verstuurd** | Nog aanpassen, of het antwoord vastleggen met **Markeren als aanvaard** of **Weigeren** |
-| **Aanvaard** | **Factureren**, of een **Nieuwe versie** maken |
-| **Geweigerd** | **Markeren als verstuurd** als de klant toch terugkomt, of een **Nieuwe versie** maken |
+| **Aanvaard** | **Factureren**, of onder **Meer…** een **Nieuwe versie** maken |
+| **Geweigerd** | **Markeren als verstuurd** als de klant toch terugkomt, of onder **Meer…** een **Nieuwe versie** maken |
 | **Vervangen** | Niets meer: een nieuwere versie van dezelfde offerte is aanvaard. Ze blijft bewaard om na te kijken wat de klant eerder kreeg |
 
 !!! warning "Een aanvaarde of geweigerde offerte is afgesloten"
     Zodra de klant geantwoord heeft, staat het document vast. Bovenaan staat *Deze offerte is afgesloten en
-    kan niet meer gewijzigd worden.* Velden, blokken en regels zijn niet aan te passen, en in plaats van
-    Annuleren staat er **← Terug naar offertes**. Dat is met opzet: de klant heeft een prijs gekregen, en die
-    hoort niet stilzwijgend te veranderen.
+    kan niet meer gewijzigd worden.* Velden, blokken en regels zijn niet aan te passen, en onderaan staan geen
+    Bewaren en Annuleren: u gaat terug met **← Terug naar offertes** bovenaan. Dat is met opzet: de klant heeft een
+    prijs gekregen, en die hoort niet stilzwijgend te veranderen.
 
-    Moet er toch iets wijzigen, klik dan op **Nieuwe versie**. U krijgt een kopie met de regels van nu, in
+    Moet er toch iets wijzigen, klik dan onder **Meer…** op **Nieuwe versie**. U krijgt een kopie met de regels van nu, in
     Klad, één versienummer hoger en dertig dagen geldig. De oude versie blijft bestaan, zodat u kunt nakijken
     wat de klant gekregen heeft.
 
