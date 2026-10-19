@@ -920,7 +920,7 @@
     "titel": "Inkoop en voorraad — bestellen, ontvangen, aankoopfacturen en stock in Nimble",
     "omschrijving": "Van bestelling tot voorraad: een bestelling bij een leverancier, wat er binnen is en wat nog moet komen, een levering ontvangen, aankoopfacturen die u goedkeurt vóór ze betaald worden, de voorraadstand met wat u moet bijbestellen, en elke stockbeweging van een artikel, tot het verbruik op de werf.",
     "hash": "ad98c49d71fb95ba",
-    "guid": null,
+    "guid": "5a63a488-3aa0-4ebb-84cc-1a7fa27fac05",
     "hoofdstukken": [
       {
         "titel": "Bestellingen",
@@ -952,7 +952,11 @@
         "start": 63.26,
         "eind": 72.22
       }
-    ]
+    ],
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/5a63a488-3aa0-4ebb-84cc-1a7fa27fac05/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-19T05:43:59.474",
+    "gepubliceerdeHash": "ad98c49d71fb95ba",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/5a63a488-3aa0-4ebb-84cc-1a7fa27fac05"
   },
   "inkoop-en-voorraad-fr": {
     "film": "inkoop-en-voorraad",
@@ -972,7 +976,7 @@
     "titel": "Achats et stock — commander, réceptionner, factures d’achat et stock dans Nimble",
     "omschrijving": "De la commande au stock : une commande chez un fournisseur, ce qui est reçu et ce qui reste attendu, la réception d’une livraison, les factures d’achat que vous approuvez avant leur paiement, l’état du stock avec ce qu’il faut recommander, et chaque mouvement de stock d’un article, jusqu’à la consommation sur chantier.",
     "hash": "7ccef87d86bffe08",
-    "guid": null,
+    "guid": "e6362830-0c85-4e23-ba6d-d7fc5b30d1f5",
     "hoofdstukken": [
       {
         "titel": "Les commandes",
@@ -1004,6 +1008,10 @@
         "start": 62.99,
         "eind": 70.38
       }
-    ]
+    ],
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/e6362830-0c85-4e23-ba6d-d7fc5b30d1f5/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-19T05:44:11.148",
+    "gepubliceerdeHash": "7ccef87d86bffe08",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/e6362830-0c85-4e23-ba6d-d7fc5b30d1f5"
   }
 }
