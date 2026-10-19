@@ -48,6 +48,10 @@ jobs:
       # meten daar de handleidingspeler opnieuw. Met 12 zou een verdwenen handleidingfilm dus niet meer opvallen; met 18 wel.
       # Gemeld aan adm-appkit: de websiterijen horen daar overgeslagen te worden (uitvoering == 'website'). Verhoog bij elke nieuwe film — de bodem vangt een uitslagtabel
       # die stil gekrompen is; daarom komt hij niet uit diezelfde tabel.
+      # Staat elk beeld uit de bron ook als <img> in de gebouwde site? 19/10/2026 verdwenen alle schermafdrukken bij het
+      # bouwen (selectolax 1.0.1, zie requirements.txt) terwijl alle stappen hieronder groen bleven.
+      - name: Beelden controleren (bron tegen gebouwde site)
+        run: python3 tools/check-beelden.py site
       - name: Films controleren (plaatsing + videogegevens)
         run: python3 _appkit/tools/filmgenerator/check-films.py --min-paginas=18
       - uses: actions/upload-pages-artifact@v3
