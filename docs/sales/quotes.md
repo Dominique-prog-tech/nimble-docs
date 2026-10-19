@@ -80,6 +80,11 @@ dan staat *Niet bewaard* naast het nummer.
 Bovenaan staan het nummer, de klant en de datum. Rechtsboven staat het **Totaal incl. btw**; dat blijft
 staan wanneer u naar beneden scrolt.
 
+![De fiche van offerte OFF-2026-0002 voor Familie Peeters-Claes: bovenaan het nummer, de klant, de datum en rechts het
+Totaal incl. btw van € 9.662,96; daaronder de Offertegegevens met nummer, datum, klant, geldig tot, project en uw
+referentie, de balk Versies met v1, v2 en v3, en het eerste blok met de regels. Onderaan de knoppen Bewaren,
+Afdrukvoorbeeld, Mailen, Markeren als aanvaard, Weigeren, Meer…, Annuleren en Verwijderen.](../images/offerte-fiche.png)
+
 De fiche heeft de tabbladen **Offerte**, **Taken**, **Notities**, **Bijlagen**, **Mails** en **Logboek**. Hoe
 die laatste vijf werken, leest u in [Werken met een fiche](../fiches.md).
 
@@ -93,6 +98,10 @@ Is de offerte gemaild of online voorgelegd, dan staan er in het blok Offertegege
 
 Een offerte is een **document**, geen boodschappenlijstje. U verdeelt het werk in blokken met een kop
 erboven — "Voorbereidende werken", "Dakbedekking", "Afwerking" — zodat de klant leest wat hij koopt.
+
+![Het blok Materiaal van een offerte: bovenaan de kop met het vinkje subtotaal en de links + regel en + artikel,
+daaronder drie regels met omschrijving, optie, aantal, eenheid, btw van 6%, prijs en netto — een condensatieketel,
+acht radiatoren en acht radiatorkranen — en onderaan het Subtotaal blok van € 3.637,00.](../images/offerte-blok-regels.png)
 
 - **+ Blok toevoegen** (onder het laatste blok) maakt een nieuw blok.
 - De **kop** van het blok typt u bovenin. Laat u die leeg, dan toont de offerte geen kop.
@@ -149,6 +158,9 @@ Met de pijltjes ↑ en ↓ verplaatst u een regel binnen zijn blok. Het rode ✕
 
 Onder de blokken staat de opsplitsing:
 
+![De totalen van een offerte: Totaal excl. btw € 5.434,00, Btw 6% over € 5.434,00 € 326,04, en Totaal incl. btw
+€ 5.760,04.](../images/offerte-totalen.png)
+
 - **Totaal excl. btw**.
 - Eén regel per btw-tarief, met het bedrag waarover die btw berekend is — bijvoorbeeld *Btw 6% (over
   € 2.418,00)*.
@@ -175,6 +187,9 @@ dingen om te weten bij dat bedrag:
 
 Welke knoppen er staan, hangt af van de status van de offerte en van uw rechten. Van links naar rechts. Minder
 gebruikte handelingen staan onder **Meer…**, vóór Annuleren.
+
+![De knoppen onderaan een verstuurde offerte — Bewaren, Afdrukvoorbeeld, Mailen, Markeren als aanvaard, Weigeren,
+Meer…, Annuleren en Verwijderen — met het menu Meer… open op Online voorleggen.](../images/offerte-knoppen-meer.png)
 
 | Knop | Wanneer | Wat ze doet |
 |---|---|---|
@@ -314,6 +329,9 @@ terug met **Markeren als verstuurd**.
 
 Klikt u **Markeren als aanvaard** of **Weigeren**, of sleept u een kaart op het bord naar **Aanvaard** of
 **Geweigerd**, dan vraagt Nimble eerst drie dingen:
+
+![Het venster Offerte aanvaarden: de uitleg dat de gegevens als bewijs van het akkoord op de offerte komen, de velden
+Datum van de beslissing en Wie bij de klant, en de knoppen Aanvaarden en Annuleren.](../images/offerte-beslissing-aanvaard.png)
 
 | Veld | Wat u invult |
 |---|---|

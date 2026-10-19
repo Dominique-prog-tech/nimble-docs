@@ -160,6 +160,10 @@ montant, avec le solde ouvert en dessous. Le ✕ rouge supprime un paiement, apr
 Les boutons affichés dépendent du statut et de vos droits. De gauche à droite. Les actions moins utilisées se
 trouvent sous **Plus…**.
 
+![La facture F-2026-0011, émise et verrouillée, avec en bas les boutons Aperçu avant impression, Facture électronique
+(Peppol), Enregistrer un paiement, Envoyée à nouveau et Plus…, et le menu Plus… ouvert sur Créer une note de
+crédit.](../images/factuur-knoppen-meer-fr.png)
+
 | Bouton | Quand | Ce qu'il fait |
 |---|---|---|
 | **Enregistrer** | Brouillon | Enregistre vos modifications |
@@ -191,6 +195,10 @@ montant, précise ce qui est figé et que l'action est ensuite irréversible. La
 lorsque vous cliquez à nouveau sur **Finaliser**. **Annuler** la laisse
 en brouillon.
 
+![La question Finaliser ? pour la facture de Familie Peeters-Claes : elle reçoit le numéro suivant de la série et est
+verrouillée, une correction ne pourra se faire que par une note de crédit, et l'action est irréversible. En bas les
+boutons Finaliser et Annuler.](../images/factuur-definitief-bevestiging-fr.png)
+
 Nimble refuse, en indiquant pourquoi, lorsque :
 
 - la facture n'a aucune ligne, ou seulement des lignes de titre et des lignes vides ;
@@ -208,6 +216,10 @@ impression ou la facture électronique, puis vous notez qu'elle est partie.
 ### Marquer comme envoyée
 
 Cliquez sur **Marquer comme envoyée**. Dans la fenêtre, complétez :
+
+![La fenêtre Marquer comme envoyée avec la liste Par quelle voie sur Imprimée et postée, le champ À avec une adresse
+e-mail, l'explication que ceci enregistre seulement que la facture est partie, et les boutons Enregistrer et
+Annuler.](../images/factuur-verstuurd-venster-fr.png)
 
 | Champ | Contenu |
 |---|---|
@@ -254,6 +266,9 @@ Le fichier n'est pas construit, et vous lisez pourquoi, lorsque :
 ## Enregistrer des paiements
 
 Cliquez sur **Enregistrer un paiement**. La fenêtre demande :
+
+![La fenêtre Enregistrer un paiement avec le montant 2 474,55 € déjà complété, la date du jour, le mode de paiement
+Virement, un champ Note vide, et les boutons Enregistrer et Annuler.](../images/factuur-betaling-registreren-fr.png)
 
 | Champ | Contenu |
 |---|---|

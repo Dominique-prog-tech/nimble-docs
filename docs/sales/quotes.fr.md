@@ -82,6 +82,12 @@ enregistrer, *Non enregistré* s'affiche à côté du numéro.
 En haut figurent le numéro, le client et la date. En haut à droite figure le **Total TVAC** ; il reste
 visible lorsque vous faites défiler la page.
 
+![La fiche du devis OFF-2026-0002 pour Familie Peeters-Claes : en haut le numéro, le client, la date et à droite le
+Total TVAC de 9 662,96 € ; en dessous les Données du devis avec le numéro, la date, le client, la validité, le projet et
+votre référence, la barre Versions avec v1, v2 et v3, et le premier bloc avec ses lignes. En bas les boutons
+Enregistrer, Aperçu avant impression, Envoyer par e-mail, Marquer comme accepté, Refuser, Plus…, Annuler et
+Supprimer.](../images/offerte-fiche-fr.png)
+
 La fiche comporte les onglets **Devis**, **Tâches**, **Notes**, **Pièces jointes**, **E-mails** et
 **Historique**. Le fonctionnement des cinq derniers est décrit dans [Travailler avec une fiche](../fiches.md).
 
@@ -96,6 +102,10 @@ supplémentaires :
 
 Un devis est un **document**, pas une liste de courses. Vous répartissez le travail en blocs avec un titre
 — « Travaux préparatoires », « Couverture », « Finitions » — pour que le client lise ce qu'il achète.
+
+![Le bloc Materiaal d'un devis : en haut le titre avec la case sous-total et les liens + ligne et + article, en dessous
+trois lignes avec description, option, quantité, unité, TVA de 6 %, prix et net — une chaudière à condensation, huit
+radiateurs et huit robinets de radiateur — et en bas le sous-total du bloc de 3 637,00 €.](../images/offerte-blok-regels-fr.png)
 
 - **+ Ajouter un bloc** (sous le dernier bloc) crée un nouveau bloc.
 - Le **titre** du bloc se saisit en haut. Si vous le laissez vide, le devis n'affiche pas de titre.
@@ -152,6 +162,8 @@ n'est qu'un espace sur le document ; vous pouvez aussi la déplacer ou la suppri
 
 Sous les blocs figure le détail :
 
+![Les totaux d'un devis : Total HTVA 5 434,00 €, TVA 6 % sur 5 434,00 € 326,04 €, et Total TVAC 5 760,04 €.](../images/offerte-totalen-fr.png)
+
 - **Total HTVA**.
 - Une ligne par taux de TVA, avec la base sur laquelle cette TVA est calculée — par exemple *TVA 6% (sur
   2 418,00 €)*.
@@ -178,6 +190,9 @@ choses à savoir sur ce montant :
 
 Les boutons affichés dépendent du statut du devis et de vos droits. De gauche à droite. Les actions moins
 utilisées se trouvent sous **Plus…**, avant Annuler.
+
+![Les boutons en bas d'un devis envoyé — Enregistrer, Aperçu avant impression, Envoyer par e-mail, Marquer comme
+accepté, Refuser, Plus…, Annuler et Supprimer — avec le menu Plus… ouvert sur Proposer en ligne.](../images/offerte-knoppen-meer-fr.png)
 
 | Bouton | Quand | Ce qu'il fait |
 |---|---|---|
@@ -323,6 +338,9 @@ Un devis accepté ne change pas de statut, pas même sur le tableau. Un devis re
 
 Si vous cliquez sur **Marquer comme accepté** ou **Refuser**, ou si vous faites glisser une carte du tableau
 vers **Accepté** ou **Refusé**, Nimble vous demande d'abord trois choses :
+
+![La fenêtre Accepter le devis : l'explication que ces données figurent sur le devis comme preuve de l'accord, les
+champs Date de la décision et Qui chez le client, et les boutons Accepter et Annuler.](../images/offerte-beslissing-aanvaard-fr.png)
 
 | Champ | Ce que vous indiquez |
 |---|---|

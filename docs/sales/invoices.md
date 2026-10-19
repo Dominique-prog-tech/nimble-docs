@@ -157,6 +157,9 @@ en bedrag, met onderaan wat er nog openstaat. Met het rode ✕ verwijdert u een 
 Welke knoppen er staan, hangt af van de status en van uw rechten. Van links naar rechts. Minder gebruikte
 handelingen staan onder **Meer…**.
 
+![Factuur F-2026-0011, uitgereikt en op slot, met onderaan de knoppen Afdrukvoorbeeld, E-factuur (Peppol), Betaling
+registreren, Opnieuw verstuurd en Meer…, en het menu Meer… open op Creditnota maken.](../images/factuur-knoppen-meer.png)
+
 | Knop | Wanneer | Wat ze doet |
 |---|---|---|
 | **Bewaren** | Klad | Bewaart uw wijzigingen |
@@ -186,6 +189,10 @@ uitgereikte factuur corrigeert u met een creditnota.
 Omdat het niet terug te draaien is, vraagt Nimble eerst om bevestiging. De vraag noemt de klant en het
 bedrag, zegt wat er vastligt en dat het daarna niet meer ongedaan te maken is. Pas wanneer u daar opnieuw op
 **Definitief maken** klikt, krijgt de factuur haar nummer.
+
+![De vraag Definitief maken? bij de factuur voor Familie Peeters-Claes van € 1.753,24: ze krijgt het volgende nummer
+uit de reeks en wordt vergrendeld, rechtzetten kan enkel met een creditnota, en dat kan niet ongedaan gemaakt worden.
+Onderaan de knoppen Definitief maken en Annuleren.](../images/factuur-definitief-bevestiging.png)
 **Annuleren** laat ze in klad.
 
 Nimble weigert en zegt waarom, wanneer:
@@ -204,6 +211,10 @@ schrijft daarna op dát ze vertrokken is.
 ### Markeren als verstuurd
 
 Klik op **Markeren als verstuurd**. In het venster vult u in:
+
+![Het venster Markeren als verstuurd met de keuzelijst Langs welke weg op Afgedrukt en gepost, het veld Naar met een
+e-mailadres, de uitleg dat dit enkel opschrijft dát de factuur vertrokken is, en de knoppen Opschrijven en
+Annuleren.](../images/factuur-verstuurd-venster.png)
 
 | Veld | Inhoud |
 |---|---|
@@ -249,6 +260,9 @@ Het bestand wordt niet gebouwd, en u leest waarom, wanneer:
 ## Betalingen registreren
 
 Klik op **Betaling registreren**. Het venster vraagt:
+
+![Het venster Betaling registreren met het bedrag € 2.474,55 al ingevuld, de datum van vandaag, de betaalwijze
+Overschrijving, een leeg veld Notitie, en de knoppen Optekenen en Annuleren.](../images/factuur-betaling-registreren.png)
 
 | Veld | Inhoud |
 |---|---|
