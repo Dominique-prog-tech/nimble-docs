@@ -43,13 +43,13 @@ jobs:
       # nu veilig, want de plugin-versies liggen vast — 26/08/2026 nagemeten: strict is hier groen.
       - run: mkdocs build --strict
       # Staat elke gepubliceerde film onder de H1 van zijn pagina, met een volledig VideoObject? Meet de GEBOUWDE site.
-      # --min-paginas: 3 films × 2 talen = 6 handleidingrijen, PLUS 6 websiterijen (19/10/2026). check-films telt elke
+      # --min-paginas: 4 films × 2 talen = 8 handleidingrijen, PLUS 6 websiterijen (19/10/2026). check-films telt elke
       # gepubliceerde rij met een pagina, ook de websiteversies (2 films × nl/fr/en) — die wijzen naar dezelfde pagina en
-      # meten daar de handleidingspeler opnieuw. Met 6 zou een verdwenen handleidingfilm dus niet meer opvallen; met 12 wel.
+      # meten daar de handleidingspeler opnieuw. Met 8 zou een verdwenen handleidingfilm dus niet meer opvallen; met 14 wel.
       # Gemeld aan adm-appkit: de websiterijen horen daar overgeslagen te worden (uitvoering == 'website'). Verhoog bij elke nieuwe film — de bodem vangt een uitslagtabel
       # die stil gekrompen is; daarom komt hij niet uit diezelfde tabel.
       - name: Films controleren (plaatsing + videogegevens)
-        run: python3 _appkit/tools/filmgenerator/check-films.py --min-paginas=12
+        run: python3 _appkit/tools/filmgenerator/check-films.py --min-paginas=14
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
