@@ -18,7 +18,7 @@
     "titel": "Van aanvraag tot offerte — lead, klant en offerte in Nimble",
     "omschrijving": "De keten van een aanvraag tot een offerte: het leadbord, een gewonnen lead die klant wordt, het offertebord, een offerte met haar blokken en regels, en een prijsafspraak met een klant die u in één klik op een nieuwe offerte zet.",
     "hash": "b40c55ae71663125",
-    "guid": "5aa21267-6047-4913-a609-7e321d591d2a",
+    "guid": "041248ac-9fcb-464f-8c07-68ccad18ad37",
     "hoofdstukken": [
       {
         "titel": "Het leadbord",
@@ -61,10 +61,11 @@
         "eind": 128.4
       }
     ],
-    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/5aa21267-6047-4913-a609-7e321d591d2a/thumbnail.jpg",
-    "gepubliceerdOp": "2026-10-16T10:22:39.968",
-    "embed": "https://iframe.mediadelivery.net/embed/781262/5aa21267-6047-4913-a609-7e321d591d2a",
-    "vorigeGuid": "46ecd227-6595-4389-bb3b-c04645843ec2"
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/041248ac-9fcb-464f-8c07-68ccad18ad37/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-19T09:18:35.681",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/041248ac-9fcb-464f-8c07-68ccad18ad37",
+    "vorigeGuid": "5aa21267-6047-4913-a609-7e321d591d2a",
+    "gepubliceerdeHash": "b40c55ae71663125"
   },
   "van-aanvraag-tot-offerte-fr": {
     "film": "van-aanvraag-tot-offerte",
@@ -85,7 +86,7 @@
     "titel": "De la demande au devis — lead, client et devis dans Nimble",
     "omschrijving": "La chaîne de la demande au devis : le tableau des leads, un lead gagné qui devient client, le tableau des devis, un devis avec ses blocs et ses lignes, et un accord de prix avec un client que vous placez en un clic dans un nouveau devis.",
     "hash": "353ea21b189e7cc9",
-    "guid": "e91afe85-15ef-4265-a728-1f75d45c81ad",
+    "guid": "a9c0dc50-d3d7-4add-badb-54a9ea157774",
     "hoofdstukken": [
       {
         "titel": "Le tableau des leads",
@@ -128,10 +129,11 @@
         "eind": 120.95
       }
     ],
-    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/e91afe85-15ef-4265-a728-1f75d45c81ad/thumbnail.jpg",
-    "gepubliceerdOp": "2026-10-16T10:23:15.519",
-    "embed": "https://iframe.mediadelivery.net/embed/781262/e91afe85-15ef-4265-a728-1f75d45c81ad",
-    "vorigeGuid": "7fdb9583-2f2a-4ee6-ae1b-527d0b655493"
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/a9c0dc50-d3d7-4add-badb-54a9ea157774/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-19T09:18:48.312",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/a9c0dc50-d3d7-4add-badb-54a9ea157774",
+    "vorigeGuid": "e91afe85-15ef-4265-a728-1f75d45c81ad",
+    "gepubliceerdeHash": "353ea21b189e7cc9"
   },
   "aan-de-slag-nl": {
     "film": "aan-de-slag",
@@ -322,7 +324,7 @@
     "titel": "Van offerte tot werf — project, werkorder, planning en werkbon in Nimble",
     "omschrijving": "Wat er gebeurt na een aanvaarde offerte: het project met zijn financiële stand, de overdracht aan de projectleiding, de werfvoorbereiding tot het project startklaar is, de werkorder, het planbord per ploeg, een werkbon met uren en meerwerk, en het overzicht van alle meerwerk dat nog beslist moet worden.",
     "hash": "990ec54016538d19",
-    "guid": "d0eeaa92-21a8-4792-82d7-9e7a1e8d526d",
+    "guid": "b005f368-edc1-47a2-a173-f6a26f47dac5",
     "hoofdstukken": [
       {
         "titel": "Een aanvaarde offerte",
@@ -370,9 +372,11 @@
         "eind": 136.32
       }
     ],
-    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/d0eeaa92-21a8-4792-82d7-9e7a1e8d526d/thumbnail.jpg",
-    "gepubliceerdOp": "2026-10-19T04:41:07.92",
-    "embed": "https://iframe.mediadelivery.net/embed/781262/d0eeaa92-21a8-4792-82d7-9e7a1e8d526d"
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/b005f368-edc1-47a2-a173-f6a26f47dac5/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-19T09:19:35.087",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/b005f368-edc1-47a2-a173-f6a26f47dac5",
+    "gepubliceerdeHash": "990ec54016538d19",
+    "vorigeGuid": "d0eeaa92-21a8-4792-82d7-9e7a1e8d526d"
   },
   "van-offerte-tot-werf-fr": {
     "film": "van-offerte-tot-werf",
@@ -395,7 +399,7 @@
     "titel": "Du devis au chantier — projet, ordre de travail, planning et bon de travail dans Nimble",
     "omschrijving": "Ce qui se passe après un devis accepté : le projet et sa situation financière, la transmission à la direction de projet, la préparation du chantier jusqu’à ce que le projet soit prêt à démarrer, l’ordre de travail, le planning par équipe, un bon de travail avec les heures et les travaux supplémentaires, et l’aperçu de tous les travaux supplémentaires encore à décider.",
     "hash": "12b64b428256181a",
-    "guid": "66a91479-1f07-4740-81ae-6e3a9184684e",
+    "guid": "f2f95018-a9fe-43fa-a609-8a777f2a2d9f",
     "hoofdstukken": [
       {
         "titel": "Un devis accepté",
@@ -443,9 +447,11 @@
         "eind": 131.87
       }
     ],
-    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/66a91479-1f07-4740-81ae-6e3a9184684e/thumbnail.jpg",
-    "gepubliceerdOp": "2026-10-19T04:41:25.587",
-    "embed": "https://iframe.mediadelivery.net/embed/781262/66a91479-1f07-4740-81ae-6e3a9184684e"
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/f2f95018-a9fe-43fa-a609-8a777f2a2d9f/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-19T09:19:48.066",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/f2f95018-a9fe-43fa-a609-8a777f2a2d9f",
+    "gepubliceerdeHash": "12b64b428256181a",
+    "vorigeGuid": "66a91479-1f07-4740-81ae-6e3a9184684e"
   },
   "aan-de-slag-website-nl": {
     "film": "aan-de-slag",
@@ -627,7 +633,7 @@
     "titel": "Van aanvraag tot offerte — lead, klant en offerte in Nimble",
     "omschrijving": "De keten van een aanvraag tot een offerte: het leadbord, een gewonnen lead die klant wordt, het offertebord, een offerte met haar blokken en regels, en een prijsafspraak met een klant die u in één klik op een nieuwe offerte zet.",
     "hash": "8367449aa6471ed7",
-    "guid": "80e97e2c-f33a-463d-be4d-70db4a77e50a",
+    "guid": "195eacde-4b7b-4cde-a137-d0f8d3fa6258",
     "hoofdstukken": [
       {
         "titel": "Het leadbord",
@@ -655,9 +661,11 @@
         "eind": 45.04
       }
     ],
-    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/80e97e2c-f33a-463d-be4d-70db4a77e50a/thumbnail.jpg",
-    "gepubliceerdOp": "2026-10-19T04:45:14.272",
-    "embed": "https://iframe.mediadelivery.net/embed/781262/80e97e2c-f33a-463d-be4d-70db4a77e50a"
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/195eacde-4b7b-4cde-a137-d0f8d3fa6258/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-19T09:19:00.671",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/195eacde-4b7b-4cde-a137-d0f8d3fa6258",
+    "gepubliceerdeHash": "8367449aa6471ed7",
+    "vorigeGuid": "80e97e2c-f33a-463d-be4d-70db4a77e50a"
   },
   "van-aanvraag-tot-offerte-website-fr": {
     "film": "van-aanvraag-tot-offerte",
@@ -677,7 +685,7 @@
     "titel": "De la demande au devis — lead, client et devis dans Nimble",
     "omschrijving": "La chaîne de la demande au devis : le tableau des leads, un lead gagné qui devient client, le tableau des devis, un devis avec ses blocs et ses lignes, et un accord de prix avec un client que vous placez en un clic dans un nouveau devis.",
     "hash": "72eb320ba45f229d",
-    "guid": "c7b9ba14-85a7-427f-9144-1289557c6b80",
+    "guid": "83cd919a-76f6-4172-b5ff-bbc37eed96d3",
     "hoofdstukken": [
       {
         "titel": "Le tableau des leads",
@@ -705,9 +713,11 @@
         "eind": 46.29
       }
     ],
-    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/c7b9ba14-85a7-427f-9144-1289557c6b80/thumbnail.jpg",
-    "gepubliceerdOp": "2026-10-19T04:45:28.579",
-    "embed": "https://iframe.mediadelivery.net/embed/781262/c7b9ba14-85a7-427f-9144-1289557c6b80"
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/83cd919a-76f6-4172-b5ff-bbc37eed96d3/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-19T09:19:11.98",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/83cd919a-76f6-4172-b5ff-bbc37eed96d3",
+    "gepubliceerdeHash": "72eb320ba45f229d",
+    "vorigeGuid": "c7b9ba14-85a7-427f-9144-1289557c6b80"
   },
   "van-aanvraag-tot-offerte-website-en": {
     "film": "van-aanvraag-tot-offerte",
@@ -727,7 +737,7 @@
     "titel": "From request to quote — leads, customers and quotes in Nimble",
     "omschrijving": "The chain from a request to a quote: the lead board, a won lead that becomes a customer, the quote board, a quote with its sections and lines, and a price agreement with a customer that you load onto a new quote in one click.",
     "hash": "da30490f1b2c6918",
-    "guid": "345befa4-c9f5-4214-9a47-100ff6c51d2e",
+    "guid": "327a3e89-b7ee-4aa6-a705-4f318bb36c08",
     "hoofdstukken": [
       {
         "titel": "The lead board",
@@ -755,9 +765,11 @@
         "eind": 43.94
       }
     ],
-    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/345befa4-c9f5-4214-9a47-100ff6c51d2e/thumbnail.jpg",
-    "gepubliceerdOp": "2026-10-19T04:45:39.814",
-    "embed": "https://iframe.mediadelivery.net/embed/781262/345befa4-c9f5-4214-9a47-100ff6c51d2e"
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/327a3e89-b7ee-4aa6-a705-4f318bb36c08/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-19T09:19:23.237",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/327a3e89-b7ee-4aa6-a705-4f318bb36c08",
+    "gepubliceerdeHash": "da30490f1b2c6918",
+    "vorigeGuid": "345befa4-c9f5-4214-9a47-100ff6c51d2e"
   },
   "van-werf-tot-betaling-nl": {
     "film": "van-werf-tot-betaling",
@@ -779,7 +791,7 @@
     "titel": "Van werf tot betaling — vorderingsstaat, factuur, aanmaning en afpunten in Nimble",
     "omschrijving": "Hoe het werk geld wordt: een vorderingsstaat per post, de factuur die eruit komt, wat er openstaat en vervallen is, versturen per mail of via Peppol, aanmaningen die u zelf verstuurt, de bankverrichtingen, en het afpunten van een betaling tegen haar factuur.",
     "hash": "de4dacc22c6732f1",
-    "guid": "9351f3c7-3a7f-4112-a8ba-93ebe15b189f",
+    "guid": "2c465157-d55d-4d68-9893-e168017d2dde",
     "hoofdstukken": [
       {
         "titel": "Een vorderingsstaat",
@@ -822,9 +834,11 @@
         "eind": 93.33
       }
     ],
-    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/9351f3c7-3a7f-4112-a8ba-93ebe15b189f/thumbnail.jpg",
-    "gepubliceerdOp": "2026-10-19T05:09:55.737",
-    "embed": "https://iframe.mediadelivery.net/embed/781262/9351f3c7-3a7f-4112-a8ba-93ebe15b189f"
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/2c465157-d55d-4d68-9893-e168017d2dde/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-19T09:20:01.934",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/2c465157-d55d-4d68-9893-e168017d2dde",
+    "gepubliceerdeHash": "de4dacc22c6732f1",
+    "vorigeGuid": "9351f3c7-3a7f-4112-a8ba-93ebe15b189f"
   },
   "van-werf-tot-betaling-fr": {
     "film": "van-werf-tot-betaling",
@@ -846,7 +860,7 @@
     "titel": "Du chantier au paiement — état d’avancement, facture, rappel et lettrage dans Nimble",
     "omschrijving": "Comment le travail devient de l’argent : un état d’avancement par poste, la facture qui en découle, ce qui reste dû et ce qui est échu, l’envoi par e-mail ou via Peppol, les rappels que vous envoyez vous-même, les opérations bancaires, et le lettrage d’un paiement avec sa facture.",
     "hash": "7f0b89bce6c033fe",
-    "guid": "a237ce79-9045-45ce-9398-e7a5d0384881",
+    "guid": "5b955e6d-403a-4fe9-844e-71808ad92923",
     "hoofdstukken": [
       {
         "titel": "Un état d’avancement",
@@ -889,9 +903,11 @@
         "eind": 88.5
       }
     ],
-    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/a237ce79-9045-45ce-9398-e7a5d0384881/thumbnail.jpg",
-    "gepubliceerdOp": "2026-10-19T05:10:12.625",
-    "embed": "https://iframe.mediadelivery.net/embed/781262/a237ce79-9045-45ce-9398-e7a5d0384881"
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/5b955e6d-403a-4fe9-844e-71808ad92923/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-19T09:20:13.748",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/5b955e6d-403a-4fe9-844e-71808ad92923",
+    "gepubliceerdeHash": "7f0b89bce6c033fe",
+    "vorigeGuid": "a237ce79-9045-45ce-9398-e7a5d0384881"
   },
   "inkoop-en-voorraad-nl": {
     "film": "inkoop-en-voorraad",
@@ -911,7 +927,7 @@
     "titel": "Inkoop en voorraad — bestellen, ontvangen, aankoopfacturen en stock in Nimble",
     "omschrijving": "Van bestelling tot voorraad: een bestelling bij een leverancier, wat er binnen is en wat nog moet komen, een levering ontvangen, aankoopfacturen die u goedkeurt vóór ze betaald worden, de voorraadstand met wat u moet bijbestellen, en elke stockbeweging van een artikel, tot het verbruik op de werf.",
     "hash": "ad98c49d71fb95ba",
-    "guid": "5a63a488-3aa0-4ebb-84cc-1a7fa27fac05",
+    "guid": "f457012d-7040-46a8-8e07-3acfcd255114",
     "hoofdstukken": [
       {
         "titel": "Bestellingen",
@@ -944,9 +960,11 @@
         "eind": 73.02
       }
     ],
-    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/5a63a488-3aa0-4ebb-84cc-1a7fa27fac05/thumbnail.jpg",
-    "gepubliceerdOp": "2026-10-19T05:43:59.474",
-    "embed": "https://iframe.mediadelivery.net/embed/781262/5a63a488-3aa0-4ebb-84cc-1a7fa27fac05"
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/f457012d-7040-46a8-8e07-3acfcd255114/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-19T09:20:28.299",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/f457012d-7040-46a8-8e07-3acfcd255114",
+    "gepubliceerdeHash": "ad98c49d71fb95ba",
+    "vorigeGuid": "5a63a488-3aa0-4ebb-84cc-1a7fa27fac05"
   },
   "inkoop-en-voorraad-fr": {
     "film": "inkoop-en-voorraad",
@@ -966,7 +984,7 @@
     "titel": "Achats et stock — commander, réceptionner, factures d’achat et stock dans Nimble",
     "omschrijving": "De la commande au stock : une commande chez un fournisseur, ce qui est reçu et ce qui reste attendu, la réception d’une livraison, les factures d’achat que vous approuvez avant leur paiement, l’état du stock avec ce qu’il faut recommander, et chaque mouvement de stock d’un article, jusqu’à la consommation sur chantier.",
     "hash": "7ccef87d86bffe08",
-    "guid": "e6362830-0c85-4e23-ba6d-d7fc5b30d1f5",
+    "guid": "2d07c0f0-42e4-4ce9-acbe-f98259fed1e9",
     "hoofdstukken": [
       {
         "titel": "Les commandes",
@@ -999,9 +1017,11 @@
         "eind": 70.05
       }
     ],
-    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/e6362830-0c85-4e23-ba6d-d7fc5b30d1f5/thumbnail.jpg",
-    "gepubliceerdOp": "2026-10-19T05:44:11.148",
-    "embed": "https://iframe.mediadelivery.net/embed/781262/e6362830-0c85-4e23-ba6d-d7fc5b30d1f5"
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/2d07c0f0-42e4-4ce9-acbe-f98259fed1e9/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-19T09:20:40.033",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/2d07c0f0-42e4-4ce9-acbe-f98259fed1e9",
+    "gepubliceerdeHash": "7ccef87d86bffe08",
+    "vorigeGuid": "e6362830-0c85-4e23-ba6d-d7fc5b30d1f5"
   },
   "uw-bedrijf-instellen-nl": {
     "film": "uw-bedrijf-instellen",
@@ -1022,7 +1042,7 @@
     "titel": "Uw bedrijf instellen — bedrijfsfiche, sjablonen en keuzelijsten in Nimble",
     "omschrijving": "Wat u de eerste dag instelt: de gegevens van uw bedrijf, uw financiële instellingen en margegrenzen, de nummering van uw projecten en uw logo, het briefhoofd en de voorwaarden op uw documenten, uw mailsjablonen in twee talen, en de keuzelijsten die u zelf benoemt.",
     "hash": "6603d8896ef2af64",
-    "guid": "e9cd50ca-053c-47be-a4f2-49476017aba5",
+    "guid": "a48135d0-cd4d-4fe2-b865-352e2269c594",
     "hoofdstukken": [
       {
         "titel": "De bedrijfsfiche",
@@ -1055,9 +1075,11 @@
         "eind": 82.69
       }
     ],
-    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/e9cd50ca-053c-47be-a4f2-49476017aba5/thumbnail.jpg",
-    "gepubliceerdOp": "2026-10-19T07:23:43.669",
-    "embed": "https://iframe.mediadelivery.net/embed/781262/e9cd50ca-053c-47be-a4f2-49476017aba5"
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/a48135d0-cd4d-4fe2-b865-352e2269c594/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-19T09:20:51.998",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/a48135d0-cd4d-4fe2-b865-352e2269c594",
+    "gepubliceerdeHash": "6603d8896ef2af64",
+    "vorigeGuid": "e9cd50ca-053c-47be-a4f2-49476017aba5"
   },
   "uw-bedrijf-instellen-fr": {
     "film": "uw-bedrijf-instellen",
@@ -1078,7 +1100,7 @@
     "titel": "Paramétrer votre entreprise — fiche d’entreprise, modèles et listes de choix dans Nimble",
     "omschrijving": "Ce que vous paramétrez le premier jour : les données de votre entreprise, vos paramètres financiers et seuils de marge, la numérotation de vos projets et votre logo, l’en-tête et les conditions de vos documents, vos modèles de mail en deux langues, et les listes de choix que vous nommez vous-même.",
     "hash": "45a8d2686686bfe2",
-    "guid": "ce6e185e-f086-4cd5-828a-3f00f7ec187a",
+    "guid": "99c5f846-1ee5-4d81-b392-49e6088fd74c",
     "hoofdstukken": [
       {
         "titel": "La fiche d’entreprise",
@@ -1111,8 +1133,10 @@
         "eind": 81.24
       }
     ],
-    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/ce6e185e-f086-4cd5-828a-3f00f7ec187a/thumbnail.jpg",
-    "gepubliceerdOp": "2026-10-19T07:24:00.802",
-    "embed": "https://iframe.mediadelivery.net/embed/781262/ce6e185e-f086-4cd5-828a-3f00f7ec187a"
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/99c5f846-1ee5-4d81-b392-49e6088fd74c/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-19T09:21:03.875",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/99c5f846-1ee5-4d81-b392-49e6088fd74c",
+    "gepubliceerdeHash": "45a8d2686686bfe2",
+    "vorigeGuid": "ce6e185e-f086-4cd5-828a-3f00f7ec187a"
   }
 }

@@ -29,28 +29,28 @@
     },
     "van-aanvraag-tot-offerte": {
       "nl": {
-        "guid": "80e97e2c-f33a-463d-be4d-70db4a77e50a",
-        "lengte": 48.08,
+        "guid": "195eacde-4b7b-4cde-a137-d0f8d3fa6258",
+        "lengte": 48,
         "titel": "Van aanvraag tot offerte — lead, klant en offerte in Nimble",
         "omschrijving": "De keten van een aanvraag tot een offerte: het leadbord, een gewonnen lead die klant wordt, het offertebord, een offerte met haar blokken en regels, en een prijsafspraak met een klant die u in één klik op een nieuwe offerte zet.",
-        "miniatuur": "https://vz-db1b2088-768.b-cdn.net/80e97e2c-f33a-463d-be4d-70db4a77e50a/thumbnail.jpg",
-        "gepubliceerdOp": "2026-10-19T04:45:14.272Z"
+        "miniatuur": "https://vz-db1b2088-768.b-cdn.net/195eacde-4b7b-4cde-a137-d0f8d3fa6258/thumbnail.jpg",
+        "gepubliceerdOp": "2026-10-19T09:19:00.671Z"
       },
       "fr": {
-        "guid": "c7b9ba14-85a7-427f-9144-1289557c6b80",
-        "lengte": 49.64,
+        "guid": "83cd919a-76f6-4172-b5ff-bbc37eed96d3",
+        "lengte": 49.24,
         "titel": "De la demande au devis — lead, client et devis dans Nimble",
         "omschrijving": "La chaîne de la demande au devis : le tableau des leads, un lead gagné qui devient client, le tableau des devis, un devis avec ses blocs et ses lignes, et un accord de prix avec un client que vous placez en un clic dans un nouveau devis.",
-        "miniatuur": "https://vz-db1b2088-768.b-cdn.net/c7b9ba14-85a7-427f-9144-1289557c6b80/thumbnail.jpg",
-        "gepubliceerdOp": "2026-10-19T04:45:28.579Z"
+        "miniatuur": "https://vz-db1b2088-768.b-cdn.net/83cd919a-76f6-4172-b5ff-bbc37eed96d3/thumbnail.jpg",
+        "gepubliceerdOp": "2026-10-19T09:19:11.98Z"
       },
       "en": {
-        "guid": "345befa4-c9f5-4214-9a47-100ff6c51d2e",
-        "lengte": 47.24,
+        "guid": "327a3e89-b7ee-4aa6-a705-4f318bb36c08",
+        "lengte": 47.04,
         "titel": "From request to quote — leads, customers and quotes in Nimble",
         "omschrijving": "The chain from a request to a quote: the lead board, a won lead that becomes a customer, the quote board, a quote with its sections and lines, and a price agreement with a customer that you load onto a new quote in one click.",
-        "miniatuur": "https://vz-db1b2088-768.b-cdn.net/345befa4-c9f5-4214-9a47-100ff6c51d2e/thumbnail.jpg",
-        "gepubliceerdOp": "2026-10-19T04:45:39.814Z"
+        "miniatuur": "https://vz-db1b2088-768.b-cdn.net/327a3e89-b7ee-4aa6-a705-4f318bb36c08/thumbnail.jpg",
+        "gepubliceerdOp": "2026-10-19T09:19:23.237Z"
       }
     }
   }
