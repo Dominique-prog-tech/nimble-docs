@@ -145,7 +145,7 @@ ze in met de afgesproken prijs. Het tabblad verschijnt zodra de relatie bewaard 
 
 Op de fiche klikt u op **Verwijderen**. U krijgt eerst de vraag *"Archiveren?"* met de naam erbij. Bevestigt u, dan wordt de relatie **gearchiveerd** en belandt ze in de **Prullenbak**, waar u ze kunt herstellen.
 
-Bewaren en Verwijderen verschijnen alleen als u het **bewerkrecht** hebt; zonder dat recht kunt u de fiche lezen maar niet wijzigen, en heet de knop onderaan **Naar de lijst**.
+Bewaren en Verwijderen verschijnen alleen als u het **bewerkrecht** hebt; zonder dat recht kunt u de fiche lezen maar niet wijzigen, en gaat u terug met **Naar de lijst** linksboven.
 
 ## Veelgemaakte fouten
 

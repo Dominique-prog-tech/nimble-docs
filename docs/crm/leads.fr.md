@@ -186,8 +186,8 @@ Les boutons se trouvent en bas à droite, dans cet ordre :
 - **Supprimer** — à part, tout à droite, et uniquement pour un lead existant. Archive le lead dans la
   corbeille, où vous pouvez le restaurer.
 
-Sans droit de modification, vous ne voyez ni **Enregistrer**, ni **Convertir en client**, ni **Supprimer**,
-et le bouton s'appelle **Vers la liste**. Vous voyez **Créer un devis** si vous pouvez créer des devis ; si le lead
+Sans droit de modification, vous ne voyez ni **Enregistrer**, ni **Convertir en client**, ni **Annuler**, ni
+**Supprimer** ; vous revenez avec **Vers la liste** en haut. Vous voyez **Créer un devis** si vous pouvez créer des devis ; si le lead
 n'est pas encore converti, vous devez aussi pouvoir modifier les leads.
 
 ## Créer un devis pour un lead

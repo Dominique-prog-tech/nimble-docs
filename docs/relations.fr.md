@@ -144,7 +144,7 @@ les charge au prix convenu. L'onglet apparaît dès que la relation est enregist
 
 Sur la fiche, cliquez sur **Supprimer**. La question « Archiver ? » apparaît d'abord, avec le nom. Après confirmation, la relation est **archivée** et arrive dans la **Corbeille**, où vous pouvez la restaurer.
 
-Enregistrer et Supprimer n'apparaissent que si vous disposez du **droit de modification** ; sans ce droit, vous pouvez lire la fiche mais pas la modifier, et le bouton en bas s'appelle **Vers la liste**.
+Enregistrer et Supprimer n'apparaissent que si vous disposez du **droit de modification** ; sans ce droit, vous pouvez lire la fiche mais pas la modifier, et vous revenez avec **Vers la liste** en haut à gauche.
 
 ## Erreurs fréquentes
 

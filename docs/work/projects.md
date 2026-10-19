@@ -75,8 +75,8 @@ Onderaan staat de knoppenbalk: **Bewaren**, **Projectdossier**, **Annuleren** en
 **Verwijderen**. De balk blijft staan terwijl u door de fiche scrolt.
 
 - **Projectdossier** ziet u alleen wanneer u de financiële cijfers mag bekijken.
-- Mag u het project niet wijzigen, dan ziet u geen **Bewaren** en **Verwijderen**, en heet **Annuleren**
-  **Naar de lijst**.
+- Mag u het project niet wijzigen, dan ziet u geen **Bewaren**, **Annuleren** en **Verwijderen**. U gaat
+  terug met **Naar de lijst** bovenaan.
 - **Verwijderen** vraagt eerst een bevestiging. Het project gaat naar de prullenbak.
 
 ### Tabblad Algemeen

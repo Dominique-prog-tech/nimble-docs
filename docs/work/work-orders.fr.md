@@ -44,8 +44,8 @@ mission** et **Préparation du chantier**, à droite **Tâches**, **Notes**, **P
 **Historique**.
 
 En bas se trouve la barre de boutons : **Enregistrer**, **Ajouter un bon de travail**, **Annuler** et, à
-part à droite, **Supprimer**. Si vous ne pouvez pas modifier l'ordre de travail, vous ne voyez que **Vers la
-liste**.
+part à droite, **Supprimer**. Si vous ne pouvez pas modifier l'ordre de travail, il n'y a aucun bouton en
+bas : vous revenez avec **Vers la liste** en haut.
 
 ### La mission
 

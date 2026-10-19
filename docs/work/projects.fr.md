@@ -77,8 +77,8 @@ En bas se trouve la barre de boutons : **Enregistrer**, **Dossier de projet**, *
 droite, **Supprimer**. La barre reste en place pendant que vous faites défiler la fiche.
 
 - **Dossier de projet** n'apparaît que si vous pouvez consulter les chiffres financiers.
-- Si vous ne pouvez pas modifier le projet, **Enregistrer** et **Supprimer** n'apparaissent pas, et
-  **Annuler** devient **Vers la liste**.
+- Si vous ne pouvez pas modifier le projet, **Enregistrer**, **Annuler** et **Supprimer** n'apparaissent
+  pas. Vous revenez avec **Vers la liste** en haut.
 - **Supprimer** demande d'abord une confirmation. Le projet va dans la corbeille.
 
 ### Onglet Général

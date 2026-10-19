@@ -174,8 +174,8 @@ fiche indique quel champ. Les champs obligatoires portent un astérisque rouge.
 
 Sur les fiches, Enregistrer et Supprimer dépendent de votre **droit de modification** — entre autres pour
 les **Leads**, les **Relations**, les **Personnes de contact** et les **Articles**. Sans ce droit, vous pouvez
-ouvrir et lire la fiche, mais vous ne voyez ni **Enregistrer** ni **Supprimer**. À la place d'**Annuler**
-figure **Vers la liste**.
+ouvrir et lire la fiche, mais vous ne voyez ni **Enregistrer**, ni **Annuler**, ni **Supprimer**. Vous revenez
+avec **Vers la liste** en haut à gauche.
 
 Les champs apparaissent alors en gris : vous pouvez les lire, mais pas les modifier.
 

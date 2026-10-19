@@ -43,7 +43,8 @@ Bovenaan staat het nummer van de werkorder met zijn status. Links staan de tabbl
 **Werfvoorbereiding**, rechts **Taken**, **Notities**, **Bijlagen** en **Logboek**.
 
 Onderaan staat de knoppenbalk: **Bewaren**, **Werkbon toevoegen**, **Annuleren** en, apart rechts,
-**Verwijderen**. Mag u de werkorder niet wijzigen, dan ziet u enkel **Naar de lijst**.
+**Verwijderen**. Mag u de werkorder niet wijzigen, dan staat er onderaan geen knop: u gaat terug met **Naar
+de lijst** bovenaan.
 
 ### De opdracht
 

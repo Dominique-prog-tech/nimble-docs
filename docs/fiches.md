@@ -168,7 +168,7 @@ die zegt welk veld. Verplichte velden herkent u aan het rode sterretje.
 
 Op de fiches hangen Bewaren en Verwijderen aan uw **bewerkrecht** — onder meer bij **Leads**, **Relaties**,
 **Contactpersonen** en **Artikelen**. Hebt u dat niet, dan kunt u de fiche wél openen en lezen, maar ziet u
-geen **Bewaren** en geen **Verwijderen**. In de plaats van **Annuleren** staat dan **Naar de lijst**.
+geen **Bewaren**, geen **Annuleren** en geen **Verwijderen**. U gaat terug met **Naar de lijst** linksboven.
 
 De velden staan dan grijs: u leest ze, maar u kunt er niets in wijzigen.
 

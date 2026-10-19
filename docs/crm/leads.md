@@ -180,8 +180,8 @@ De knoppen staan onderaan rechts, in deze volgorde:
 - **Verwijderen** — apart, helemaal rechts, en enkel bij een bestaande lead. Archiveert de lead naar de
   prullenbak, waar u hem kunt herstellen.
 
-Zonder bewerkrecht ziet u geen **Bewaren**, **Omzetten naar klant** of **Verwijderen**, en heet de knop
-**Naar de lijst**. **Offerte maken** ziet u wanneer u offertes mag maken; is de lead nog niet omgezet, dan moet u
+Zonder bewerkrecht ziet u geen **Bewaren**, **Omzetten naar klant**, **Annuleren** of **Verwijderen**; u gaat
+terug met **Naar de lijst** bovenaan. **Offerte maken** ziet u wanneer u offertes mag maken; is de lead nog niet omgezet, dan moet u
 ook leads mogen bewerken.
 
 ## Een offerte maken voor een lead
