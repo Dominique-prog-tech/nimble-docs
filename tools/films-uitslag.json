@@ -765,5 +765,133 @@
     "gepubliceerdOp": "2026-10-19T04:45:39.814",
     "gepubliceerdeHash": "da30490f1b2c6918",
     "embed": "https://iframe.mediadelivery.net/embed/781262/345befa4-c9f5-4214-9a47-100ff6c51d2e"
+  },
+  "van-werf-tot-betaling-nl": {
+    "film": "van-werf-tot-betaling",
+    "taal": "nl-BE",
+    "pagina": "sales/invoices",
+    "lengte": 95.28,
+    "uitvoering": "handleiding",
+    "routes": [
+      "/verkoop/vorderingsstaten",
+      "/verkoop/facturen",
+      "/verkoop/rappels",
+      "/financieel/bank",
+      "/financieel/afpunten"
+    ],
+    "app": {
+      "sha": "434f0ecac6b8f95b4895eb1c070b18ae9ff949a8",
+      "vuil": false
+    },
+    "titel": "Van werf tot betaling — vorderingsstaat, factuur, aanmaning en afpunten in Nimble",
+    "omschrijving": "Hoe het werk geld wordt: een vorderingsstaat per post, de factuur die eruit komt, wat er openstaat en vervallen is, versturen per mail of via Peppol, aanmaningen die u zelf verstuurt, de bankverrichtingen, en het afpunten van een betaling tegen haar factuur.",
+    "hash": "de4dacc22c6732f1",
+    "guid": null,
+    "hoofdstukken": [
+      {
+        "titel": "Een vorderingsstaat",
+        "start": 4.79,
+        "eind": 14.87
+      },
+      {
+        "titel": "Een staat factureren",
+        "start": 19.88,
+        "eind": 25.41
+      },
+      {
+        "titel": "Wat er openstaat",
+        "start": 28.42,
+        "eind": 35.48
+      },
+      {
+        "titel": "Een factuur",
+        "start": 39.79,
+        "eind": 47.87
+      },
+      {
+        "titel": "Versturen",
+        "start": 50.13,
+        "eind": 56.03
+      },
+      {
+        "titel": "Aanmaningen",
+        "start": 60.09,
+        "eind": 68.31
+      },
+      {
+        "titel": "De bank",
+        "start": 72.43,
+        "eind": 78
+      },
+      {
+        "titel": "Afpunten",
+        "start": 82.09,
+        "eind": 92.92
+      }
+    ]
+  },
+  "van-werf-tot-betaling-fr": {
+    "film": "van-werf-tot-betaling",
+    "taal": "fr-BE",
+    "pagina": "sales/invoices",
+    "lengte": 90.6,
+    "uitvoering": "handleiding",
+    "routes": [
+      "/verkoop/vorderingsstaten",
+      "/verkoop/facturen",
+      "/verkoop/rappels",
+      "/financieel/bank",
+      "/financieel/afpunten"
+    ],
+    "app": {
+      "sha": "434f0ecac6b8f95b4895eb1c070b18ae9ff949a8",
+      "vuil": false
+    },
+    "titel": "Du chantier au paiement — état d’avancement, facture, rappel et lettrage dans Nimble",
+    "omschrijving": "Comment le travail devient de l’argent : un état d’avancement par poste, la facture qui en découle, ce qui reste dû et ce qui est échu, l’envoi par e-mail ou via Peppol, les rappels que vous envoyez vous-même, les opérations bancaires, et le lettrage d’un paiement avec sa facture.",
+    "hash": "7f0b89bce6c033fe",
+    "guid": null,
+    "hoofdstukken": [
+      {
+        "titel": "Un état d’avancement",
+        "start": 4.77,
+        "eind": 14.48
+      },
+      {
+        "titel": "Facturer un état",
+        "start": 19.56,
+        "eind": 24.99
+      },
+      {
+        "titel": "Ce qui reste dû",
+        "start": 28,
+        "eind": 34.17
+      },
+      {
+        "titel": "Une facture",
+        "start": 38.51,
+        "eind": 45.43
+      },
+      {
+        "titel": "Envoyer",
+        "start": 47.69,
+        "eind": 54.01
+      },
+      {
+        "titel": "Les rappels",
+        "start": 58.14,
+        "eind": 65.53
+      },
+      {
+        "titel": "La banque",
+        "start": 69.63,
+        "eind": 75.1
+      },
+      {
+        "titel": "Le lettrage",
+        "start": 79.2,
+        "eind": 88.21
+      }
+    ]
   }
 }
