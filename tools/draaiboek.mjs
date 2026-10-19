@@ -279,8 +279,8 @@ export const FILMS = [
 
       { naam: 'stock', kop: { nl: 'Elke stockbeweging', fr: 'Chaque mouvement de stock' },
         doe: async (p) => {
-          await p.goto(`${BASIS}/artikelen`); await p.waitForLoadState('networkidle');
-          await zoek(p, 'DIV-8001');
+          // Vanuit de voorraadstand van de vorige scène: een dubbelklik opent het artikel (OnRowOpen). Via Artikelen +
+          // zoeken stond de film 10 s stil vóór de zin (opname 19/10/2026).
           await openRij(p, 'DIV-8001');
           await klik(p, tabblad(p, /^\s*Stock/));
           await p.waitForTimeout(1200);

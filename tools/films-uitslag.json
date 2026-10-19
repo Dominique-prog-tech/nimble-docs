@@ -901,5 +901,109 @@
     "gepubliceerdOp": "2026-10-19T05:10:12.625",
     "gepubliceerdeHash": "7f0b89bce6c033fe",
     "embed": "https://iframe.mediadelivery.net/embed/781262/a237ce79-9045-45ce-9398-e7a5d0384881"
+  },
+  "inkoop-en-voorraad-nl": {
+    "film": "inkoop-en-voorraad",
+    "taal": "nl-BE",
+    "pagina": "purchasing/purchase-orders",
+    "lengte": 74.6,
+    "uitvoering": "handleiding",
+    "routes": [
+      "/inkoop/bestellingen",
+      "/inkoop/aankoopfacturen",
+      "/voorraad/stand"
+    ],
+    "app": {
+      "sha": "434f0ecac6b8f95b4895eb1c070b18ae9ff949a8",
+      "vuil": false
+    },
+    "titel": "Inkoop en voorraad — bestellen, ontvangen, aankoopfacturen en stock in Nimble",
+    "omschrijving": "Van bestelling tot voorraad: een bestelling bij een leverancier, wat er binnen is en wat nog moet komen, een levering ontvangen, aankoopfacturen die u goedkeurt vóór ze betaald worden, de voorraadstand met wat u moet bijbestellen, en elke stockbeweging van een artikel, tot het verbruik op de werf.",
+    "hash": "ad98c49d71fb95ba",
+    "guid": null,
+    "hoofdstukken": [
+      {
+        "titel": "Bestellingen",
+        "start": 2.74,
+        "eind": 9.71
+      },
+      {
+        "titel": "Een bestelling",
+        "start": 14.26,
+        "eind": 20.21
+      },
+      {
+        "titel": "Een levering ontvangen",
+        "start": 24.73,
+        "eind": 33.42
+      },
+      {
+        "titel": "Aankoopfacturen",
+        "start": 36.52,
+        "eind": 43.76
+      },
+      {
+        "titel": "De voorraadstand",
+        "start": 46.87,
+        "eind": 57
+      },
+      {
+        "titel": "Elke stockbeweging",
+        "start": 63.26,
+        "eind": 72.22
+      }
+    ]
+  },
+  "inkoop-en-voorraad-fr": {
+    "film": "inkoop-en-voorraad",
+    "taal": "fr-BE",
+    "pagina": "purchasing/purchase-orders",
+    "lengte": 72.76,
+    "uitvoering": "handleiding",
+    "routes": [
+      "/inkoop/bestellingen",
+      "/inkoop/aankoopfacturen",
+      "/voorraad/stand"
+    ],
+    "app": {
+      "sha": "434f0ecac6b8f95b4895eb1c070b18ae9ff949a8",
+      "vuil": false
+    },
+    "titel": "Achats et stock — commander, réceptionner, factures d’achat et stock dans Nimble",
+    "omschrijving": "De la commande au stock : une commande chez un fournisseur, ce qui est reçu et ce qui reste attendu, la réception d’une livraison, les factures d’achat que vous approuvez avant leur paiement, l’état du stock avec ce qu’il faut recommander, et chaque mouvement de stock d’un article, jusqu’à la consommation sur chantier.",
+    "hash": "7ccef87d86bffe08",
+    "guid": null,
+    "hoofdstukken": [
+      {
+        "titel": "Les commandes",
+        "start": 2.73,
+        "eind": 8.96
+      },
+      {
+        "titel": "Une commande",
+        "start": 13.3,
+        "eind": 20.17
+      },
+      {
+        "titel": "Réceptionner une livraison",
+        "start": 24.67,
+        "eind": 33.96
+      },
+      {
+        "titel": "Les factures d’achat",
+        "start": 37.03,
+        "eind": 43.44
+      },
+      {
+        "titel": "L’état du stock",
+        "start": 46.49,
+        "eind": 56.39
+      },
+      {
+        "titel": "Chaque mouvement de stock",
+        "start": 62.99,
+        "eind": 70.38
+      }
+    ]
   }
 }
