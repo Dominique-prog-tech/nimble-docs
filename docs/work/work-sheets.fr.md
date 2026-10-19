@@ -58,7 +58,8 @@ relève cet ordre. À gauche se trouve l'onglet **La journée de travail**, à d
 **Pièces jointes**, **E-mails** et **Historique**.
 
 En bas se trouve la barre de boutons : **Enregistrer**, **Aperçu avant impression**, **Annuler** et, à part
-à droite, **Supprimer**. Si vous ne pouvez pas modifier le bon, vous ne voyez que **Vers la liste**.
+à droite, **Supprimer**. Si vous ne pouvez pas modifier le bon, il n'y a aucun bouton en bas : vous revenez avec
+**Vers la liste** en haut.
 
 ### Le chronomètre de l'équipe
 
@@ -118,6 +119,8 @@ manque.
 
 ### Heures par collaborateur
 
+![Le bloc Heures par collaborateur avec deux lignes — Sam Rombouts 7,5 heures et Kris Van Damme 8 heures — et le Total 15,5 ; en dessous les champs Collaborateur, Heures et Note avec le bouton Ajouter.](../images/werkbon-blok-uren-fr.png)
+
 Sous la liste, vous ajoutez une ligne : choisissez un **Collaborateur**, saisissez les **Heures** (24 au
 maximum) et éventuellement une **Note**, puis cliquez sur **Ajouter**. Vous choisissez parmi les
 collaborateurs actifs. La croix supprime une ligne.
@@ -174,6 +177,8 @@ Tous les travaux supplémentaires, tous projets confondus, figurent sur l'écran
 [Travaux supplémentaires](extra-work.md).
 
 ### Matériel consommé
+
+![Le bloc Matériel consommé sur un bon enregistré : en haut le message indiquant que le matériel a été déduit du stock à la création et ne peut plus être modifié ici, en dessous deux lignes avec l'article et la quantité.](../images/werkbon-blok-materiaal-fr.png)
 
 Le matériel s'ajoute à la **création** du bon : choisissez un **Article**, saisissez la **Quantité** et
 cliquez sur **Ajouter**. À l'enregistrement, ce matériel est déduit du stock. La liste de choix n'affiche que

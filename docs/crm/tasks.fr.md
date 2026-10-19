@@ -26,6 +26,8 @@ Dans la barre latérale, cliquez sur **CRM → Tâches**.
 
 En haut se trouvent deux filtres et un compteur.
 
+![Le filtre de statut de l'écran Tâches déplié, avec les trois choix Tous les statuts, En cours uniquement et Y compris terminées ; à côté le filtre Tout le monde et le compteur.](../images/taken-filter-status-fr.png)
+
 - **En cours uniquement** — le réglage par défaut. Les tâches terminées restent hors de vue.
     - **Y compris terminées** les réaffiche.
     - **Tous les statuts** abandonne complètement la distinction.
@@ -48,6 +50,8 @@ filtre sur **Y compris terminées** et recliquez la coche — la tâche est de n
 ## Ouvrir ou créer une tâche
 
 **Double-cliquez** sur une tâche pour l'ouvrir. Une fenêtre **Modifier la tâche** s'ouvre avec ces champs :
+
+![La fenêtre Modifier la tâche pour la tâche Plan opvragen bij de architect : Titre, Description, Début, Échéance, Statut En cours, Priorité Haute, Responsable Sofie Maes, et Rattachée à Relation — Vandersteen Bouwprojecten BV ; en bas Enregistrer, Annuler et à droite Supprimer.](../images/taak-bewerken-fr.png)
 
 | Champ | Remarque |
 |---|---|

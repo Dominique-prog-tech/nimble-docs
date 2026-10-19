@@ -57,7 +57,8 @@ werkorder onder valt. Links staat het tabblad **De werkdag**, rechts **Taken**, 
 **Mails** en **Logboek**.
 
 Onderaan staat de knoppenbalk: **Bewaren**, **Afdrukvoorbeeld**, **Annuleren** en, apart rechts,
-**Verwijderen**. Mag u de werkbon niet wijzigen, dan ziet u enkel **Naar de lijst**.
+**Verwijderen**. Mag u de werkbon niet wijzigen, dan staat er onderaan geen knop: u gaat terug met **Naar de
+lijst** bovenaan.
 
 ### De klok van de ploeg
 
@@ -114,6 +115,8 @@ Klikt u **Bewaren** terwijl een verplicht veld leeg is, dan zegt de fiche bovena
 
 ### Uren per medewerker
 
+![Het blok Uren per medewerker met twee regels — Sam Rombouts 7,5 uur en Kris Van Damme 8 uur — en het Totaal 15,5; daaronder de velden Medewerker, Uren en Notitie met de knop Toevoegen.](../images/werkbon-blok-uren.png)
+
 Onder de lijst voegt u een regel toe: kies een **Medewerker**, vul de **Uren** in (hoogstens 24) en
 eventueel een **Notitie**, en klik **Toevoegen**. U kiest uit de actieve medewerkers. Met het kruisje
 verwijdert u een regel.
@@ -166,6 +169,8 @@ aangerekend wordt.
 Alle meerwerken over alle projecten heen ziet u op het scherm [Meerwerken](extra-work.md).
 
 ### Verbruikt materiaal
+
+![Het blok Verbruikt materiaal op een bewaarde werkbon: bovenaan de melding dat het materiaal bij het aanmaken van de voorraad is afgeboekt en hier niet meer wijzigt, daaronder twee regels met artikel en aantal.](../images/werkbon-blok-materiaal.png)
 
 Materiaal voegt u toe bij het **aanmaken** van de werkbon: kies een **Artikel**, vul het **Aantal** in en
 klik **Toevoegen**. Bij het bewaren wordt dat materiaal van de voorraad afgeboekt. De keuzelijst toont enkel

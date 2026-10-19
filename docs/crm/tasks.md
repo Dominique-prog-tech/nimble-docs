@@ -26,6 +26,8 @@ Klik in de zijbalk op **CRM → Taken**.
 
 Bovenaan staan twee filters en een teller.
 
+![Het statusfilter van het takenscherm opengeklapt, met de drie keuzes Alle statussen, Enkel openstaand en Ook afgewerkt; ernaast het filter Iedereen en de teller.](../images/taken-filter-status.png)
+
 - **Enkel openstaand** — de standaard. Afgewerkte taken blijven buiten beeld.
     - **Ook afgewerkt** toont ze er weer bij.
     - **Alle statussen** laat het onderscheid helemaal los.
@@ -48,6 +50,8 @@ Staat de lijst op **Enkel openstaand**, dan verdwijnt ze uit beeld. Was u te sne
 ## Een taak openen of aanmaken
 
 **Dubbelklik** op een taak om ze te openen. Er opent een venster **Taak bewerken** met deze velden:
+
+![Het venster Taak bewerken voor de taak Plan opvragen bij de architect: Titel, Omschrijving, Start, Vervaldag, Status Open, Prioriteit Hoog, Verantwoordelijke Sofie Maes, en Hangt aan Relatie — Vandersteen Bouwprojecten BV; onderaan Bewaren, Annuleren en rechts Verwijderen.](../images/taak-bewerken.png)
 
 | Veld | Opmerking |
 |---|---|
