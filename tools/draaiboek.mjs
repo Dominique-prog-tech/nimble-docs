@@ -202,6 +202,96 @@ export const FILMS = [
         fr: "La cloche affiche ce qui est arrivé pour vous. Avec la bulle à côté, vous nous envoyez une question ou un problème. Voilà comment trouver votre chemin dans Nimble." },
     ],
   }],
+  // ── INKOOP EN VOORRAAD (19/10/2026, op vraag van Dominique: "Akkoord, schrijf het draaiboek voor Inkoop en voorraad") ──
+  // Bestelling → ontvangst → aankoopfactuur goedkeuren → voorraadstand → stockbewegingen van één artikel. Er wordt
+  // NIETS bewaard: Receptioneren en Deellevering boeken worden enkel aangewezen (Receptioneren boekt alles in één keer),
+  // en Goedkeuren ook. De bestelling is B2026-0011 (de enige die nog Besteld is), het artikel DIV-8001 (het enige onder
+  // zijn minimum). Bewust NIET: Binnengekomen documenten — die lijst is leeg in demo.
+  ['inkoop-en-voorraad', {
+    pagina: 'purchasing/purchase-orders',
+    titel: {
+      nl: 'Inkoop en voorraad — bestellen, ontvangen, aankoopfacturen en stock in Nimble',
+      fr: 'Achats et stock — commander, réceptionner, factures d’achat et stock dans Nimble',
+    },
+    omschrijving: {
+      nl: 'Van bestelling tot voorraad: een bestelling bij een leverancier, wat er binnen is en wat nog moet komen, een '
+        + 'levering ontvangen, aankoopfacturen die u goedkeurt vóór ze betaald worden, de voorraadstand met wat u moet '
+        + 'bijbestellen, en elke stockbeweging van een artikel, tot het verbruik op de werf.',
+      fr: 'De la commande au stock : une commande chez un fournisseur, ce qui est reçu et ce qui reste attendu, la '
+        + 'réception d’une livraison, les factures d’achat que vous approuvez avant leur paiement, l’état du stock avec '
+        + 'ce qu’il faut recommander, et chaque mouvement de stock d’un article, jusqu’à la consommation sur chantier.',
+    },
+    uitvoeringen: { handleiding: { stem: true } },
+    scenes: [
+      { naam: 'bestellingen', kop: { nl: 'Bestellingen', fr: 'Les commandes' },
+        doe: async (p) => {
+          await p.goto(`${BASIS}/inkoop/bestellingen`); await p.waitForLoadState('networkidle');
+          const rij = p.locator('.dxbl-grid-table tbody tr:visible', { hasText: 'B2026-0011' }).first();
+          await rij.waitFor({ state: 'visible', timeout: 15000 });
+          await beweegNaar(p, rij);
+        },
+        merk: /B2026-0011/,
+        nl: 'Bij Inkoop bestelt u bij uw leveranciers. De lijst toont per bestelling wat ze kost en hoe ver ze staat.',
+        fr: 'Dans Achats, vous commandez chez vos fournisseurs. La liste montre pour chaque commande son montant et où elle en est.' },
+
+      { naam: 'bestelling', kop: { nl: 'Een bestelling', fr: 'Une commande' },
+        doe: async (p) => {
+          await openRij(p, 'B2026-0011');
+          await beweegNaar(p, p.getByText(/^(Nog te komen|Encore attendu)$/).first());
+        },
+        merk: /VEN-3003/,
+        nl: 'Op de bestelling ziet u per artikel wat er besteld is, wat al binnen is, en wat er nog moet komen.',
+        fr: 'Sur la commande, vous voyez pour chaque article ce qui est commandé, ce qui est déjà reçu, et ce qui reste attendu.' },
+
+      { naam: 'ontvangen', kop: { nl: 'Een levering ontvangen', fr: 'Réceptionner une livraison' },
+        doe: async (p) => {
+          // Enkel aanwijzen: Receptioneren boekt meteen alles wat openstaat.
+          await beweegNaar(p, p.getByRole('button', { name: /^(Receptioneren|Réceptionner)$/ }).first());
+          await p.waitForTimeout(1500);
+          await beweegNaar(p, p.getByRole('button', { name: /^(Deellevering boeken|Enregistrer une livraison partielle)$/ }).first());
+        },
+        merk: /Deellevering boeken|Enregistrer une livraison partielle/,
+        nl: 'Komt de levering binnen, dan receptioneert u ze. Komt er maar een deel, dan boekt u een deellevering. Wat binnenkomt, gaat meteen in de voorraad.',
+        fr: 'Quand la livraison arrive, vous la réceptionnez. Si seule une partie arrive, vous enregistrez une livraison partielle. Ce qui arrive entre aussitôt en stock.' },
+
+      { naam: 'aankoopfacturen', kop: { nl: 'Aankoopfacturen', fr: 'Les factures d’achat' },
+        doe: async (p) => {
+          await p.goto(`${BASIS}/inkoop/aankoopfacturen`); await p.waitForLoadState('networkidle');
+          const rij = p.locator('.dxbl-grid-table tbody tr:visible', { hasText: 'INV-2026-0912' }).first();
+          await rij.waitFor({ state: 'visible', timeout: 15000 });
+          // Enkel aanwijzen: Goedkeuren wijzigt de status.
+          await beweegNaar(p, rij.getByRole('button').first());
+        },
+        merk: /INV-2026-0912/,
+        nl: 'De facturen van uw leveranciers komen bij Aankoopfacturen. Een factuur wordt pas betaald als iemand ze goedkeurt.',
+        fr: 'Les factures de vos fournisseurs arrivent dans Factures d’achat. Une facture n’est payée qu’après avoir été approuvée.' },
+
+      { naam: 'voorraadstand', kop: { nl: 'De voorraadstand', fr: 'L’état du stock' },
+        doe: async (p) => {
+          await p.goto(`${BASIS}/voorraad/stand`); await p.waitForLoadState('networkidle');
+          const rij = p.locator('.dxbl-grid-table tbody tr:visible', { hasText: 'DIV-8001' }).first();
+          await rij.waitFor({ state: 'visible', timeout: 15000 });
+          await beweegNaar(p, rij);
+        },
+        merk: /DIV-8001/,
+        nl: 'De voorraadstand toont wat er op stock ligt. Zakt een artikel onder zijn minimum, dan zegt Nimble hoeveel u moet bijbestellen. Wat al onderweg is, telt mee.',
+        fr: 'L’état du stock montre ce qui est en stock. Quand un article passe sous son minimum, Nimble indique combien recommander. Ce qui est déjà en route est pris en compte.' },
+
+      { naam: 'stock', kop: { nl: 'Elke stockbeweging', fr: 'Chaque mouvement de stock' },
+        doe: async (p) => {
+          await p.goto(`${BASIS}/artikelen`); await p.waitForLoadState('networkidle');
+          await zoek(p, 'DIV-8001');
+          await openRij(p, 'DIV-8001');
+          await klik(p, tabblad(p, /^\s*Stock/));
+          await p.waitForTimeout(1200);
+          await beweegNaar(p, p.getByText(/^(Verbruik|Consommation)$/).first());
+        },
+        // De tijd van de jongste beweging staat er als tekst; de notitie eronder is data in de taal van wie ze schreef.
+        merk: /11\/09\/2026 14:41/,
+        nl: 'Op het tabblad Stock van een artikel staat elke beweging: wat er binnenkwam van een leverancier, en wat er op een werf verbruikt werd.',
+        fr: 'Dans l’onglet Stock d’un article figure chaque mouvement : ce qui est arrivé d’un fournisseur, et ce qui a été consommé sur un chantier.' },
+    ],
+  }],
   // ── VAN WERF TOT BETALING (19/10/2026, op vraag van Dominique: "Akkoord, schrijf het draaiboek") ──────────────────
   // Het slot van de keten: vorderingsstaat, factureren, de facturenlijst, een vervallen factuur, versturen, aanmaningen,
   // de bank en het afpunten. Er wordt NIETS bewaard of verstuurd — knoppen worden enkel aangewezen. De rode draad is
