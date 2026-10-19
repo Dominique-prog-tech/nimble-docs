@@ -1,6 +1,8 @@
 {
   "versie": "0.5.113",
-  "volledig": false,
+  "volledig": true,
   "datum": "2026-10-19",
-  "reden": "enkel een deelronde"
+  "beelden": 278,
+  "commit": "f8e505e9b6d1b056b0f33fa9d2290e445cbb3e82",
+  "vuil": []
 }
