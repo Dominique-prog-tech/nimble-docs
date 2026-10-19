@@ -43,10 +43,10 @@ jobs:
       # nu veilig, want de plugin-versies liggen vast — 26/08/2026 nagemeten: strict is hier groen.
       - run: mkdocs build --strict
       # Staat elke gepubliceerde film onder de H1 van zijn pagina, met een volledig VideoObject? Meet de GEBOUWDE site.
-      # --min-paginas: 2 films × 2 talen (19/10/2026). Verhoog bij elke nieuwe film — de bodem vangt een uitslagtabel
+      # --min-paginas: 3 films × 2 talen (19/10/2026). Verhoog bij elke nieuwe film — de bodem vangt een uitslagtabel
       # die stil gekrompen is; daarom komt hij niet uit diezelfde tabel.
       - name: Films controleren (plaatsing + videogegevens)
-        run: python3 _appkit/tools/filmgenerator/check-films.py --min-paginas=4
+        run: python3 _appkit/tools/filmgenerator/check-films.py --min-paginas=6
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

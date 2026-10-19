@@ -324,7 +324,7 @@
     "titel": "Van offerte tot werf — project, werkorder, planning en werkbon in Nimble",
     "omschrijving": "Wat er gebeurt na een aanvaarde offerte: het project met zijn financiële stand, de overdracht aan de projectleiding, de werfvoorbereiding tot het project startklaar is, de werkorder, het planbord per ploeg, een werkbon met uren en meerwerk, en het overzicht van alle meerwerk dat nog beslist moet worden.",
     "hash": "990ec54016538d19",
-    "guid": null,
+    "guid": "d0eeaa92-21a8-4792-82d7-9e7a1e8d526d",
     "hoofdstukken": [
       {
         "titel": "Een aanvaarde offerte",
@@ -371,7 +371,11 @@
         "start": 121.72,
         "eind": 134.9
       }
-    ]
+    ],
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/d0eeaa92-21a8-4792-82d7-9e7a1e8d526d/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-19T04:41:07.92",
+    "gepubliceerdeHash": "990ec54016538d19",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/d0eeaa92-21a8-4792-82d7-9e7a1e8d526d"
   },
   "van-offerte-tot-werf-fr": {
     "film": "van-offerte-tot-werf",
@@ -394,7 +398,7 @@
     "titel": "Du devis au chantier — projet, ordre de travail, planning et bon de travail dans Nimble",
     "omschrijving": "Ce qui se passe après un devis accepté : le projet et sa situation financière, la transmission à la direction de projet, la préparation du chantier jusqu’à ce que le projet soit prêt à démarrer, l’ordre de travail, le planning par équipe, un bon de travail avec les heures et les travaux supplémentaires, et l’aperçu de tous les travaux supplémentaires encore à décider.",
     "hash": "12b64b428256181a",
-    "guid": null,
+    "guid": "66a91479-1f07-4740-81ae-6e3a9184684e",
     "hoofdstukken": [
       {
         "titel": "Un devis accepté",
@@ -441,7 +445,11 @@
         "start": 120.03,
         "eind": 131.41
       }
-    ]
+    ],
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/66a91479-1f07-4740-81ae-6e3a9184684e/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-19T04:41:25.587",
+    "gepubliceerdeHash": "12b64b428256181a",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/66a91479-1f07-4740-81ae-6e3a9184684e"
   },
   "aan-de-slag-website-nl": {
     "film": "aan-de-slag",
