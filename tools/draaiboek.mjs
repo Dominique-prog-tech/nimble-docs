@@ -50,6 +50,7 @@ export const FILMS = [
     titel: {
       nl: 'Aan de slag met Nimble — het scherm, de lijsten, de fiches en de hulp',
       fr: 'Premiers pas avec Nimble — l’écran, les listes, les fiches et l’aide',
+      en: 'Getting started with Nimble — the screen, lists, records and help',
     },
     omschrijving: {
       nl: 'De eerste rondleiding: het dashboard met uw kerncijfers en wat aandacht vraagt, het menu, werken in een lijst '
@@ -58,22 +59,33 @@ export const FILMS = [
       fr: 'La première visite guidée : le tableau de bord avec vos chiffres clés et ce qui demande attention, le menu, le travail '
         + 'dans une liste (rechercher, filtrer, exporter), une fiche et son journal, ce qui se passe avec des modifications non '
         + 'enregistrées, l’aide sur chaque écran, l’assistant et vos préférences.',
+      en: 'A first tour of Nimble: the dashboard with your key figures and what needs attention, the menu, working in a '
+        + 'list (search, filter, export), a record with its journal, help on every screen and your own preferences.',
     },
-    uitvoeringen: { handleiding: { stem: true } },
+    uitvoeringen: {
+      handleiding: { stem: true },
+      // Websiteversie voor de startpagina van nimble-website (content-hub, 19/10/2026). Zonder stem: de site speelt gedempt in een lus, de zin staat in beeld.
+      // Het Engels toont het NEDERLANDSE scherm (de app spreekt geen Engels) met Engelse tekst in beeld.
+      website: { stem: false, scenes: ['dashboard', 'aandacht', 'menu', 'lijst', 'fiche', 'journaal'],
+        talen: [{ ui: 'nl-BE', tekst: 'nl' }, { ui: 'fr-BE', tekst: 'fr' }, { ui: 'nl-BE', tekst: 'en' }] },
+    },
     scenes: [
-      { naam: 'dashboard', kop: { nl: 'Het dashboard', fr: 'Le tableau de bord' },
+      { naam: 'dashboard', kop: { nl: 'Het dashboard', fr: 'Le tableau de bord', en: 'The dashboard' },
+        website: { nl: 'Uw kerncijfers zodra u Nimble opent.', fr: 'Vos chiffres clés dès l’ouverture de Nimble.', en: 'Your key figures the moment you open Nimble.' },
         doe: async (p) => { await p.goto(`${BASIS}/dashboard`); await p.waitForLoadState('networkidle'); },
         merk: /WO-2026-004/,
         nl: 'Na het aanmelden opent Nimble op het dashboard. Bovenaan staan uw kerncijfers: het orderboek, het onderhanden werk, en wat er bij klanten openstaat.',
         fr: "Après la connexion, Nimble s'ouvre sur le tableau de bord. En haut figurent vos chiffres clés : le carnet de commandes, les travaux en cours, et l'encours clients." },
 
-      { naam: 'aandacht', kop: { nl: 'Wat aandacht vraagt', fr: 'Ce qui demande attention' },
+      { naam: 'aandacht', kop: { nl: 'Wat aandacht vraagt', fr: 'Ce qui demande attention', en: 'What needs attention' },
+        website: { nl: 'Wat vandaag aandacht vraagt, staat er meteen onder.', fr: 'Ce qui demande votre attention aujourd’hui, juste en dessous.', en: 'What needs attention today, right below.' },
         doe: async (p) => { await beweegNaar(p, p.getByText('F-2026-0011').first()); },
         merk: /F-2026-0011/,
         nl: 'Daaronder ziet u wat vandaag aandacht vraagt: werven die nog niet startklaar zijn, vervallen facturen, en artikelen onder hun minimumvoorraad.',
         fr: "En dessous, vous voyez ce qui demande attention aujourd'hui : les chantiers pas encore prêts, les factures échues, et les articles sous leur stock minimum." },
 
-      { naam: 'menu', kop: { nl: 'Het menu', fr: 'Le menu' },
+      { naam: 'menu', kop: { nl: 'Het menu', fr: 'Le menu', en: 'The menu' },
+        website: { nl: 'CRM, verkoop, werk, inkoop en voorraad in één pakket.', fr: 'CRM, ventes, travail, achats et stock dans un seul logiciel.', en: 'CRM, sales, work, purchasing and stock in one package.' },
         doe: async (p) => { // "VERKOOP" staat in hoofdletters door de opmaak; in de pagina staat "Verkoop".
           await beweegNaar(p, p.locator('.sidebar').getByText(/^(Verkoop|Ventes)$/i).first());
           await p.waitForTimeout(900);
@@ -84,7 +96,8 @@ export const FILMS = [
         nl: 'Links staat het menu, gegroepeerd zoals u werkt: CRM, verkoop, werk, inkoop en voorraad. Een getal naast een groep zegt wat er op u wacht.',
         fr: "À gauche se trouve le menu, regroupé comme vous travaillez : CRM, ventes, travail, achats et stock. Un chiffre à côté d'un groupe indique ce qui vous attend." },
 
-      { naam: 'lijst', kop: { nl: 'Zoeken in een lijst', fr: 'Rechercher dans une liste' },
+      { naam: 'lijst', kop: { nl: 'Zoeken in een lijst', fr: 'Rechercher dans une liste', en: 'Searching a list' },
+        website: { nl: 'Typ, en elke lijst filtert terwijl u typt.', fr: 'Tapez, et chaque liste se filtre au fur et à mesure.', en: 'Type, and every list filters as you go.' },
         doe: async (p) => {
           await klik(p, p.locator('.sidebar').getByRole('link', { name: /^(Relaties|Relations)$/ }).first());
           await p.locator('.dxbl-grid-table tbody tr:visible').first().waitFor({ state: 'visible', timeout: 15000 });
@@ -109,7 +122,8 @@ export const FILMS = [
         nl: 'Bovenaan de lijst filtert u op elke kolom, kiest u welke kolommen u ziet, en neemt u de lijst mee naar Excel.',
         fr: 'En haut de la liste, vous filtrez sur chaque colonne, choisissez les colonnes affichées, et emportez la liste dans Excel.' },
 
-      { naam: 'fiche', kop: { nl: 'Een fiche', fr: 'Une fiche' },
+      { naam: 'fiche', kop: { nl: 'Een fiche', fr: 'Une fiche', en: 'A record' },
+        website: { nl: 'Alles over een klant op één fiche.', fr: 'Tout sur un client dans une seule fiche.', en: 'Everything about a customer on one record.' },
         doe: async (p) => {
           const rij = p.locator('.dxbl-grid-table tbody tr:visible', { hasText: 'Vandersteen Bouwprojecten' }).first();
           await beweegNaar(p, rij); await rij.dblclick();
@@ -120,7 +134,8 @@ export const FILMS = [
         nl: 'Een dubbelklik opent de fiche, als een volledige pagina. Links staan de gegevens in tabbladen, rechts het journaal van deze klant.',
         fr: 'Un double-clic ouvre la fiche, en pleine page. À gauche, les données en onglets ; à droite, le journal de ce client.' },
 
-      { naam: 'journaal', kop: { nl: 'Het journaal', fr: 'Le journal' },
+      { naam: 'journaal', kop: { nl: 'Het journaal', fr: 'Le journal', en: 'The journal' },
+        website: { nl: 'Taken, notities, mails en historiek: iedereen weet hetzelfde.', fr: 'Tâches, notes, e-mails et historique : chacun en sait autant.', en: 'Tasks, notes, emails and history: everyone stays informed.' },
         doe: async (p) => { await klik(p, tabblad(p, /^(Notities|Notes)/)); await p.waitForTimeout(1500); },
         merk: /Offerte besproken/,
         nl: 'In het journaal staan de taken, de notities, de bijlagen, de mails en de historiek van wie wat wijzigde. Zo weet iedereen hetzelfde over de klant.',
@@ -316,6 +331,7 @@ export const FILMS = [
     titel: {
       nl: 'Van aanvraag tot offerte — lead, klant en offerte in Nimble',
       fr: 'De la demande au devis — lead, client et devis dans Nimble',
+      en: 'From request to quote — leads, customers and quotes in Nimble',
     },
     omschrijving: {
       nl: 'De keten van een aanvraag tot een offerte: het leadbord, een gewonnen lead die klant wordt, het '
@@ -324,10 +340,20 @@ export const FILMS = [
       fr: "La chaîne de la demande au devis : le tableau des leads, un lead gagné qui devient client, le tableau "
         + "des devis, un devis avec ses blocs et ses lignes, et un accord de prix avec un client que vous placez en "
         + 'un clic dans un nouveau devis.',
+      en: 'The chain from a request to a quote: the lead board, a won lead that becomes a customer, the quote board, a '
+        + 'quote with its sections and lines, and a price agreement with a customer that you load onto a new quote in one click.',
     },
-    uitvoeringen: { handleiding: { stem: true } },
+    uitvoeringen: {
+      handleiding: { stem: true },
+      // Websiteversie voor de functiepagina /offertes/ van nimble-website (content-hub, 19/10/2026). Zonder 'nieuw' en 'inladen': die bewaren een offerte.
+      // Zonder 'klant': die opname duurde 60 s (richtduur 30–45); zoeken + fiche openen kostte 12 s, en die scène is CRM, niet offertes. Zonder stem: de site speelt gedempt in een lus, de zin staat in beeld.
+      // Het Engels toont het NEDERLANDSE scherm (de app spreekt geen Engels) met Engelse tekst in beeld.
+      website: { stem: false, scenes: ['leadbord', 'offertebord', 'offerte', 'afspraken', 'afspraak'],
+        talen: [{ ui: 'nl-BE', tekst: 'nl' }, { ui: 'fr-BE', tekst: 'fr' }, { ui: 'nl-BE', tekst: 'en' }] },
+    },
     scenes: [
-      { naam: 'leadbord', kop: { nl: 'Het leadbord', fr: 'Le tableau des leads' },
+      { naam: 'leadbord', kop: { nl: 'Het leadbord', fr: 'Le tableau des leads', en: 'The lead board' },
+        website: { nl: 'Elke aanvraag op één bord, van eerste contact tot gewonnen.', fr: 'Chaque demande sur un seul tableau, du premier contact à l’affaire conclue.', en: 'Every request on one board, from first contact to won.' },
         doe: async (p) => {
           await p.goto(`${BASIS}/crm/leads`); await p.waitForLoadState('networkidle');
           await weergave(p, /^(Bord|Tableau)$/);
@@ -336,7 +362,8 @@ export const FILMS = [
         nl: 'Elke offerte begint bij een aanvraag. Op het leadbord staat elke lead in de fase waarin hij zit, van het eerste contact tot gewonnen of verloren.',
         fr: "Chaque devis commence par une demande. Sur le tableau des leads, chaque lead figure dans la phase où il se trouve, du premier contact jusqu'à gagné ou perdu." },
 
-      { naam: 'klant', kop: { nl: 'Van lead naar klant', fr: 'Du lead au client' },
+      { naam: 'klant', kop: { nl: 'Van lead naar klant', fr: 'Du lead au client', en: 'From lead to customer' },
+        website: { nl: 'Een gewonnen lead wordt een klant, met zijn voorgeschiedenis.', fr: 'Un lead gagné devient client, avec son historique.', en: 'A won lead becomes a customer, history included.' },
         doe: async (p) => {
           await p.goto(`${BASIS}/relaties`); await p.waitForLoadState('networkidle');
           await zoek(p, 'Warande');
@@ -348,7 +375,8 @@ export const FILMS = [
         nl: 'Is een lead gewonnen, dan zet u hem om naar een klant. De klantenfiche onthoudt waar hij vandaan kwam: onderaan staan de gegevens van de aanvraag.',
         fr: "Quand un lead est gagné, vous le convertissez en client. La fiche client garde la trace de son origine : les données de la demande figurent en bas." },
 
-      { naam: 'offertebord', kop: { nl: 'Het offertebord', fr: 'Le tableau des devis' },
+      { naam: 'offertebord', kop: { nl: 'Het offertebord', fr: 'Le tableau des devis', en: 'The quote board' },
+        website: { nl: 'Al uw offertes in één oogopslag: klad, verstuurd, aanvaard.', fr: 'Tous vos devis d’un coup d’œil : brouillon, envoyé, accepté.', en: 'All your quotes at a glance: draft, sent, accepted.' },
         doe: async (p) => {
           await p.goto(`${BASIS}/verkoop/offertes`); await p.waitForLoadState('networkidle');
           await weergave(p, /^(Bord|Tableau)$/);
@@ -360,7 +388,8 @@ export const FILMS = [
         uitspraak: { nl: 'Op het offerte-bord staat elke offerte in een van vier kolommen: klad, verstuurd, aanvaard of geweigerd. Een kaart naar een andere kolom slepen, wijzigt de status.' },
         fr: "Sur le tableau des devis, chaque devis figure dans l'une des quatre colonnes : brouillon, envoyé, accepté ou refusé. Glisser une carte vers une autre colonne change son statut." },
 
-      { naam: 'offerte', kop: { nl: 'Een offerte', fr: 'Un devis' },
+      { naam: 'offerte', kop: { nl: 'Een offerte', fr: 'Un devis', en: 'A quote' },
+        website: { nl: 'Offertes in blokken en regels; Nimble rekent de totalen.', fr: 'Des devis en blocs et lignes ; Nimble calcule les totaux.', en: 'Quotes in sections and lines; Nimble does the totals.' },
         doe: async (p) => {
           await weergave(p, /^(Lijst|Liste)$/);
           const rij = p.locator('.dxbl-grid-table tbody tr:visible')
@@ -375,7 +404,8 @@ export const FILMS = [
         nl: 'Een offerte bestaat uit blokken met een kop, en daaronder de regels: werken, materialen en uren. Onderaan rekent Nimble de totalen uit.',
         fr: 'Un devis se compose de blocs avec un titre, et en dessous les lignes : travaux, matériaux et heures. En bas, Nimble calcule les totaux.' },
 
-      { naam: 'afspraken', kop: { nl: 'Prijsafspraken met een klant', fr: 'Les accords de prix avec un client' },
+      { naam: 'afspraken', kop: { nl: 'Prijsafspraken met een klant', fr: 'Les accords de prix avec un client', en: 'Price agreements with a customer' },
+        website: { nl: 'Vaste prijzen per klant, voor een periode.', fr: 'Des prix fixes par client, pour une période.', en: 'Fixed prices per customer, for a set period.' },
         doe: async (p) => {
           await p.goto(`${BASIS}/relaties`); await p.waitForLoadState('networkidle');
           await zoek(p, 'Parkzicht');
@@ -388,7 +418,8 @@ export const FILMS = [
         nl: 'Spreekt u met een klant vaste prijzen af, dan legt u ze vast op zijn fiche, onder Prijsafspraken: voor een reeks artikelen en voor een periode.',
         fr: "Si vous convenez de prix fixes avec un client, vous les enregistrez sur sa fiche, sous Accords de prix : pour une série d'articles et pour une période." },
 
-      { naam: 'afspraak', kop: { nl: 'Eén prijsafspraak', fr: 'Un accord de prix' },
+      { naam: 'afspraak', kop: { nl: 'Eén prijsafspraak', fr: 'Un accord de prix', en: 'One price agreement' },
+        website: { nl: 'Afgesproken prijs, kostprijs en marge naast elkaar.', fr: 'Prix convenu, prix de revient et marge côte à côte.', en: 'Agreed price, cost price and margin side by side.' },
         doe: async (p) => {
           const rij = p.locator('.dxbl-grid-table tbody tr:visible', { hasText: /Onderhoud gemeenschappelijke delen/ }).first();
           await beweegNaar(p, rij); await rij.dblclick();

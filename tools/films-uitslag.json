@@ -442,5 +442,296 @@
         "eind": 131.41
       }
     ]
+  },
+  "aan-de-slag-website-nl": {
+    "film": "aan-de-slag",
+    "taal": "nl-BE",
+    "pagina": "getting-started/dashboard",
+    "lengte": 44.16,
+    "uitvoering": "website",
+    "routes": [
+      "/dashboard"
+    ],
+    "app": {
+      "sha": "434f0ecac6b8f95b4895eb1c070b18ae9ff949a8",
+      "vuil": false
+    },
+    "titel": "Aan de slag met Nimble — het scherm, de lijsten, de fiches en de hulp",
+    "omschrijving": "De eerste rondleiding: het dashboard met uw kerncijfers en wat aandacht vraagt, het menu, werken in een lijst (zoeken, filteren, exporteren), een fiche met haar journaal, wat er gebeurt met niet-bewaarde wijzigingen, de hulp bij elk scherm, de assistent en uw eigen voorkeuren.",
+    "hash": "43a94157cd75d979",
+    "guid": null,
+    "hoofdstukken": [
+      {
+        "titel": "Het dashboard",
+        "start": 1.89,
+        "eind": 4.49
+      },
+      {
+        "titel": "Wat aandacht vraagt",
+        "start": 6.79,
+        "eind": 10.43
+      },
+      {
+        "titel": "Het menu",
+        "start": 14.38,
+        "eind": 18.16
+      },
+      {
+        "titel": "Zoeken in een lijst",
+        "start": 24.29,
+        "eind": 27.29
+      },
+      {
+        "titel": "Een fiche",
+        "start": 31.06,
+        "eind": 33.66
+      },
+      {
+        "titel": "Het journaal",
+        "start": 37.44,
+        "eind": 41.79
+      }
+    ]
+  },
+  "aan-de-slag-website-fr": {
+    "film": "aan-de-slag",
+    "taal": "fr-BE",
+    "pagina": "getting-started/dashboard",
+    "lengte": 46.6,
+    "uitvoering": "website",
+    "routes": [
+      "/dashboard"
+    ],
+    "app": {
+      "sha": "434f0ecac6b8f95b4895eb1c070b18ae9ff949a8",
+      "vuil": false
+    },
+    "titel": "Premiers pas avec Nimble — l’écran, les listes, les fiches et l’aide",
+    "omschrijving": "La première visite guidée : le tableau de bord avec vos chiffres clés et ce qui demande attention, le menu, le travail dans une liste (rechercher, filtrer, exporter), une fiche et son journal, ce qui se passe avec des modifications non enregistrées, l’aide sur chaque écran, l’assistant et vos préférences.",
+    "hash": "c8b95d7165378181",
+    "guid": null,
+    "hoofdstukken": [
+      {
+        "titel": "Le tableau de bord",
+        "start": 1.9,
+        "eind": 5.04
+      },
+      {
+        "titel": "Ce qui demande attention",
+        "start": 7.33,
+        "eind": 11.69
+      },
+      {
+        "titel": "Le menu",
+        "start": 15.65,
+        "eind": 19.93
+      },
+      {
+        "titel": "Rechercher dans une liste",
+        "start": 25.98,
+        "eind": 29.7
+      },
+      {
+        "titel": "Une fiche",
+        "start": 33.25,
+        "eind": 36.11
+      },
+      {
+        "titel": "Le journal",
+        "start": 39.89,
+        "eind": 44.25
+      }
+    ]
+  },
+  "aan-de-slag-website-en": {
+    "film": "aan-de-slag",
+    "taal": "nl-BE",
+    "pagina": "getting-started/dashboard",
+    "lengte": 43.68,
+    "uitvoering": "website",
+    "routes": [
+      "/dashboard"
+    ],
+    "app": {
+      "sha": "434f0ecac6b8f95b4895eb1c070b18ae9ff949a8",
+      "vuil": false
+    },
+    "titel": "Getting started with Nimble — the screen, lists, records and help",
+    "omschrijving": "A first tour of Nimble: the dashboard with your key figures and what needs attention, the menu, working in a list (search, filter, export), a record with its journal, help on every screen and your own preferences.",
+    "hash": "ac805fc848f11b00",
+    "guid": null,
+    "hoofdstukken": [
+      {
+        "titel": "The dashboard",
+        "start": 1.89,
+        "eind": 5.04
+      },
+      {
+        "titel": "What needs attention",
+        "start": 7.32,
+        "eind": 10.18
+      },
+      {
+        "titel": "The menu",
+        "start": 14.13,
+        "eind": 17.99
+      },
+      {
+        "titel": "Searching a list",
+        "start": 24.04,
+        "eind": 26.83
+      },
+      {
+        "titel": "A record",
+        "start": 30.38,
+        "eind": 33.38
+      },
+      {
+        "titel": "The journal",
+        "start": 37.16,
+        "eind": 41.31
+      }
+    ]
+  },
+  "van-aanvraag-tot-offerte-website-nl": {
+    "film": "van-aanvraag-tot-offerte",
+    "taal": "nl-BE",
+    "pagina": "sales/quotes",
+    "lengte": 48.08,
+    "uitvoering": "website",
+    "routes": [
+      "/crm/leads",
+      "/verkoop/offertes",
+      "/relaties"
+    ],
+    "app": {
+      "sha": "434f0ecac6b8f95b4895eb1c070b18ae9ff949a8",
+      "vuil": false
+    },
+    "titel": "Van aanvraag tot offerte — lead, klant en offerte in Nimble",
+    "omschrijving": "De keten van een aanvraag tot een offerte: het leadbord, een gewonnen lead die klant wordt, het offertebord, een offerte met haar blokken en regels, en een prijsafspraak met een klant die u in één klik op een nieuwe offerte zet.",
+    "hash": "8367449aa6471ed7",
+    "guid": null,
+    "hoofdstukken": [
+      {
+        "titel": "Het leadbord",
+        "start": 3.89,
+        "eind": 8.1
+      },
+      {
+        "titel": "Het offertebord",
+        "start": 12.51,
+        "eind": 16.72
+      },
+      {
+        "titel": "Een offerte",
+        "start": 23.09,
+        "eind": 27.09
+      },
+      {
+        "titel": "Prijsafspraken met een klant",
+        "start": 35.39,
+        "eind": 38.39
+      },
+      {
+        "titel": "Eén prijsafspraak",
+        "start": 41.46,
+        "eind": 45.1
+      }
+    ]
+  },
+  "van-aanvraag-tot-offerte-website-fr": {
+    "film": "van-aanvraag-tot-offerte",
+    "taal": "fr-BE",
+    "pagina": "sales/quotes",
+    "lengte": 49.64,
+    "uitvoering": "website",
+    "routes": [
+      "/crm/leads",
+      "/verkoop/offertes",
+      "/relaties"
+    ],
+    "app": {
+      "sha": "434f0ecac6b8f95b4895eb1c070b18ae9ff949a8",
+      "vuil": false
+    },
+    "titel": "De la demande au devis — lead, client et devis dans Nimble",
+    "omschrijving": "La chaîne de la demande au devis : le tableau des leads, un lead gagné qui devient client, le tableau des devis, un devis avec ses blocs et ses lignes, et un accord de prix avec un client que vous placez en un clic dans un nouveau devis.",
+    "hash": "72eb320ba45f229d",
+    "guid": null,
+    "hoofdstukken": [
+      {
+        "titel": "Le tableau des leads",
+        "start": 3.86,
+        "eind": 9.22
+      },
+      {
+        "titel": "Le tableau des devis",
+        "start": 13.61,
+        "eind": 17.89
+      },
+      {
+        "titel": "Un devis",
+        "start": 24.28,
+        "eind": 28.35
+      },
+      {
+        "titel": "Les accords de prix avec un client",
+        "start": 36.76,
+        "eind": 39.9
+      },
+      {
+        "titel": "Un accord de prix",
+        "start": 43.03,
+        "eind": 46.67
+      }
+    ]
+  },
+  "van-aanvraag-tot-offerte-website-en": {
+    "film": "van-aanvraag-tot-offerte",
+    "taal": "nl-BE",
+    "pagina": "sales/quotes",
+    "lengte": 47.24,
+    "uitvoering": "website",
+    "routes": [
+      "/crm/leads",
+      "/verkoop/offertes",
+      "/relaties"
+    ],
+    "app": {
+      "sha": "434f0ecac6b8f95b4895eb1c070b18ae9ff949a8",
+      "vuil": false
+    },
+    "titel": "From request to quote — leads, customers and quotes in Nimble",
+    "omschrijving": "The chain from a request to a quote: the lead board, a won lead that becomes a customer, the quote board, a quote with its sections and lines, and a price agreement with a customer that you load onto a new quote in one click.",
+    "hash": "da30490f1b2c6918",
+    "guid": null,
+    "hoofdstukken": [
+      {
+        "titel": "The lead board",
+        "start": 3.88,
+        "eind": 7.73
+      },
+      {
+        "titel": "The quote board",
+        "start": 12.08,
+        "eind": 15.73
+      },
+      {
+        "titel": "A quote",
+        "start": 22.14,
+        "eind": 25.93
+      },
+      {
+        "titel": "Price agreements with a customer",
+        "start": 34.37,
+        "eind": 37.51
+      },
+      {
+        "titel": "One price agreement",
+        "start": 40.62,
+        "eind": 44.12
+      }
+    ]
   }
 }
