@@ -187,6 +187,130 @@ export const FILMS = [
         fr: "La cloche affiche ce qui est arrivé pour vous. Avec la bulle à côté, vous nous envoyez une question ou un problème. Voilà comment trouver votre chemin dans Nimble." },
     ],
   }],
+  // ── VAN OFFERTE TOT WERF (19/10/2026, op vraag van Dominique: "Akkoord, schrijf het draaiboek") ─────────────────
+  // Het vervolg op "Van aanvraag tot offerte": een aanvaarde offerte, het project, de overdracht en de voorbereiding,
+  // de werkorder, het planbord, een werkbon met meerwerk, en de lijst Meerwerken. Er wordt NIETS bewaard — de hele film
+  // loopt over bestaande demogegevens rond P2026-001 (Vandersteen, 12 appartementen). Zo hoeft er na de opname niets
+  // opgeruimd te worden. De knop "Project maken" staat enkel op een aanvaarde offerte ZONDER project; in demo heeft de
+  // enige aanvaarde offerte er al een, dus de film toont de knop niet en de tekst belooft hem niet.
+  // Het projectdossier (een PDF) zit er bewust niet in: de PDF-weergave verschilt lokaal en op productie.
+  // ⚠️ Het planbord opent op de week van VANDAAG. Scène 'planbord' meet de waarschuwing "niet startklaar", niet de blokken.
+  ['van-offerte-tot-werf', {
+    pagina: 'work/projects',
+    titel: {
+      nl: 'Van offerte tot werf — project, werkorder, planning en werkbon in Nimble',
+      fr: 'Du devis au chantier — projet, ordre de travail, planning et bon de travail dans Nimble',
+    },
+    omschrijving: {
+      nl: 'Wat er gebeurt na een aanvaarde offerte: het project met zijn financiële stand, de overdracht aan de '
+        + 'projectleiding, de werfvoorbereiding tot het project startklaar is, de werkorder, het planbord per ploeg, '
+        + 'een werkbon met uren en meerwerk, en het overzicht van alle meerwerk dat nog beslist moet worden.',
+      fr: "Ce qui se passe après un devis accepté : le projet et sa situation financière, la transmission à la direction "
+        + 'de projet, la préparation du chantier jusqu’à ce que le projet soit prêt à démarrer, l’ordre de travail, le '
+        + 'planning par équipe, un bon de travail avec les heures et les travaux supplémentaires, et l’aperçu de tous '
+        + 'les travaux supplémentaires encore à décider.',
+    },
+    uitvoeringen: { handleiding: { stem: true } },
+    scenes: [
+      { naam: 'offerte', kop: { nl: 'Een aanvaarde offerte', fr: 'Un devis accepté' },
+        doe: async (p) => {
+          await p.goto(`${BASIS}/verkoop/offertes`); await p.waitForLoadState('networkidle');
+          await weergave(p, /^(Lijst|Liste)$/);
+          await openRij(p, 'OFF-2026-0001');
+          // Het label, niet de waarde: de projectnaam staat in een invulveld, en daar vindt getByText niets.
+          await beweegNaar(p, p.getByText(/^(Project|Projet)$/).first());
+        },
+        merk: /Vandersteen Bouwprojecten/,
+        nl: 'Is een offerte aanvaard, dan begint het werk. Deze offerte van Vandersteen hangt aan haar project: de nieuwbouw van twaalf appartementen.',
+        fr: 'Quand un devis est accepté, le travail commence. Ce devis de Vandersteen est rattaché à son projet : la construction de douze appartements.' },
+
+      { naam: 'project', kop: { nl: 'Het project', fr: 'Le projet' },
+        doe: async (p) => {
+          await p.goto(`${BASIS}/werk/projecten`); await p.waitForLoadState('networkidle');
+          await weergave(p, /^(Lijst|Liste)$/);
+          await openRij(p, 'P2026-001');
+          await beweegNaar(p, p.getByText(/^(Werf|Chantier)$/).first());
+        },
+        // ⚠️ Niet het werfadres: dat staat in een INVULVELD, en het merkteken leest enkel tekst. De werkorder onderaan wél.
+        merk: /Sanitaire leidingen appartementen/,
+        nl: 'Op de projectfiche staat alles over de werf: de klant, wie het opvolgt, de periode, het budget en het werfadres.',
+        fr: 'La fiche du projet rassemble tout sur le chantier : le client, qui le suit, la période, le budget et l’adresse du chantier.' },
+
+      { naam: 'financieel', kop: { nl: 'Wat er afgesproken en gefactureerd is', fr: 'Ce qui est convenu et facturé' },
+        doe: async (p) => {
+          const blok = p.locator('.adm-card', { hasText: /^(Financieel|Financier)/ }).first();
+          await blok.waitFor({ state: 'visible', timeout: 15000 });
+          await beweegNaar(p, blok);
+        },
+        merk: /4\.933,24|4 933,24|4 933,24/,
+        nl: 'Daaronder rekent Nimble mee: wat er in aanvaarde offertes afgesproken is, wat er al gefactureerd is, en wat er nog te factureren valt.',
+        fr: 'En dessous, Nimble fait les comptes : ce qui est convenu dans les devis acceptés, ce qui est déjà facturé, et ce qui reste à facturer.' },
+
+      { naam: 'overdracht', kop: { nl: 'De overdracht', fr: 'La transmission' },
+        // ⚠️ Zonder $: een tabblad van de projectfiche draagt zijn naam TWEE keer ("Overdracht\n Overdracht", DevExpress).
+        doe: async (p) => {
+          await klik(p, tabblad(p, /^\s*(Overdracht|Transmission)/)); await p.waitForTimeout(1200);
+          await beweegNaar(p, p.getByRole('button', { name: /^(Overdragen aan de projectleiding|Transmettre à la direction de projet)$/ }).first());
+        },
+        // De projectleider staat in een invulveld; de knop van dit tabblad is tekst en staat nergens anders.
+        merk: /Overdragen aan de projectleiding|Transmettre à la direction de projet/,
+        nl: 'Op het tabblad Overdracht geeft verkoop het dossier door aan de projectleiding. Vanaf die datum is de projectleider verantwoordelijk.',
+        fr: 'Dans l’onglet Transmission, les ventes transmettent le dossier à la direction de projet. À partir de cette date, le chef de projet en est responsable.' },
+
+      { naam: 'voorbereiding', kop: { nl: 'De werfvoorbereiding', fr: 'La préparation du chantier' },
+        doe: async (p) => { await klik(p, tabblad(p, /^\s*(Voorbereiding|Préparation)/)); await p.waitForTimeout(1200); },
+        merk: /24\/09\/2026/,
+        nl: 'Bij Voorbereiding staat wat klaar moet zijn vóór de werf start, en wie ervoor zorgt. Pas als alle verplichte punten afgevinkt zijn, is het project startklaar.',
+        fr: 'Dans Préparation figure ce qui doit être prêt avant le début du chantier, et qui s’en charge. Le projet n’est prêt à démarrer que lorsque tous les points obligatoires sont cochés.' },
+
+      { naam: 'werkorder', kop: { nl: 'De werkorder', fr: 'L’ordre de travail' },
+        doe: async (p) => {
+          await p.goto(`${BASIS}/werk/werkorders`); await p.waitForLoadState('networkidle');
+          await openRij(p, 'WO-2026-002');
+          await beweegNaar(p, p.locator('.adm-card', { hasText: /^(Uitvoering|Exécution)/ }).first());
+        },
+        merk: /56,5/,
+        nl: 'Het werk zelf staat in werkorders: wat er moet gebeuren, door welke ploeg, en wanneer. Onder Uitvoering telt Nimble de gewerkte uren, de werkbonnen en het meerwerk.',
+        fr: 'Le travail lui-même figure dans les ordres de travail : ce qu’il faut faire, par quelle équipe, et quand. Sous Exécution, Nimble compte les heures travaillées, les bons de travail et les travaux supplémentaires.' },
+
+      { naam: 'planbord', kop: { nl: 'Het planbord', fr: 'La planification' },
+        doe: async (p) => {
+          await p.goto(`${BASIS}/werk/planning`); await p.waitForLoadState('networkidle');
+          await p.waitForTimeout(1500);
+          await beweegNaar(p, p.getByRole('link', { name: /^WO-2026-00\d$/ }).first());
+        },
+        merk: /WO-2026-00[34]/,
+        nl: 'Op het planbord ziet u per ploeg wie wanneer waar staat. U sleept een werf naar een dag. Bovenaan waarschuwt Nimble voor werven die binnenkort starten maar nog niet startklaar zijn.',
+        fr: 'La planification montre, par équipe, qui est où et quand. Vous glissez un chantier vers un jour. En haut, Nimble signale les chantiers qui démarrent bientôt mais ne sont pas encore prêts.' },
+
+      { naam: 'werkbon', kop: { nl: 'Een werkbon', fr: 'Un bon de travail' },
+        doe: async (p) => {
+          await p.goto(`${BASIS}/werk/werkbonnen`); await p.waitForLoadState('networkidle');
+          const rij = p.locator('.dxbl-grid-table tbody tr:visible', { hasText: '28/09/2026' })
+            .filter({ hasText: 'WO-2026-002' }).first();
+          await rij.waitFor({ state: 'visible', timeout: 15000 });
+          await beweegNaar(p, rij); await rij.dblclick();
+          await p.waitForSelector('.adm-fiche', { timeout: 15000 });
+          await p.waitForTimeout(1200);
+          await beweegNaar(p, p.locator('.adm-card', { hasText: /^(Voortgang en meerwerk|Avancement et travaux)/ }).first());
+        },
+        // De vervolgactie staat in een invulveld; de kop van de werkbon is tekst.
+        merk: /WO-2026-002 — 28\/09\/2026/,
+        nl: 'Elke werkdag krijgt een werkbon: de uren per medewerker, een dagrapport, en hoe de dag eindigde. Stelt de ploeg werk vast dat niet in de offerte stond, dan noteert ze het als meerwerk.',
+        fr: 'Chaque journée de travail a son bon de travail : les heures par collaborateur, un rapport journalier, et la fin de journée. Si l’équipe constate un travail absent du devis, elle le note comme travail supplémentaire.' },
+
+      { naam: 'meerwerken', kop: { nl: 'Meerwerk opvolgen', fr: 'Suivre les travaux supplémentaires' },
+        doe: async (p) => {
+          await p.goto(`${BASIS}/werk/meerwerken`); await p.waitForLoadState('networkidle');
+          await p.locator('.dxbl-grid-table tbody tr:visible').first().waitFor({ state: 'visible', timeout: 15000 });
+          await p.waitForTimeout(800);
+          await beweegNaar(p, p.locator('.dxbl-grid-table tbody tr:visible', { hasText: 'Kernboring' }).first());
+        },
+        merk: /Kernboring door de dragende balk/,
+        nl: 'Onder Meerwerken komt al het meerwerk samen, met wat nog beslist moet worden, wat goedgekeurd is en wat al gefactureerd is. Zo blijft er geen meerwerk liggen dat u vergeet aan te rekenen.',
+        fr: 'Sous Travaux supplémentaires, tout est réuni : ce qui reste à décider, ce qui est approuvé et ce qui est déjà facturé. Ainsi, aucun travail supplémentaire n’est oublié à la facturation.' },
+    ],
+  }],
   ['van-aanvraag-tot-offerte', {
     pagina: 'sales/quotes',
     titel: {
