@@ -1033,7 +1033,7 @@
     "titel": "Uw bedrijf instellen — bedrijfsfiche, sjablonen en keuzelijsten in Nimble",
     "omschrijving": "Wat u de eerste dag instelt: de gegevens van uw bedrijf, uw financiële instellingen en margegrenzen, de nummering van uw projecten en uw logo, het briefhoofd en de voorwaarden op uw documenten, uw mailsjablonen in twee talen, en de keuzelijsten die u zelf benoemt.",
     "hash": "6603d8896ef2af64",
-    "guid": null,
+    "guid": "e9cd50ca-053c-47be-a4f2-49476017aba5",
     "hoofdstukken": [
       {
         "titel": "De bedrijfsfiche",
@@ -1065,7 +1065,11 @@
         "start": 73.3,
         "eind": 82.31
       }
-    ]
+    ],
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/e9cd50ca-053c-47be-a4f2-49476017aba5/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-19T07:23:43.669",
+    "gepubliceerdeHash": "6603d8896ef2af64",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/e9cd50ca-053c-47be-a4f2-49476017aba5"
   },
   "uw-bedrijf-instellen-fr": {
     "film": "uw-bedrijf-instellen",
@@ -1086,7 +1090,7 @@
     "titel": "Paramétrer votre entreprise — fiche d’entreprise, modèles et listes de choix dans Nimble",
     "omschrijving": "Ce que vous paramétrez le premier jour : les données de votre entreprise, vos paramètres financiers et seuils de marge, la numérotation de vos projets et votre logo, l’en-tête et les conditions de vos documents, vos modèles de mail en deux langues, et les listes de choix que vous nommez vous-même.",
     "hash": "45a8d2686686bfe2",
-    "guid": null,
+    "guid": "ce6e185e-f086-4cd5-828a-3f00f7ec187a",
     "hoofdstukken": [
       {
         "titel": "La fiche d’entreprise",
@@ -1118,6 +1122,10 @@
         "start": 72.39,
         "eind": 81.26
       }
-    ]
+    ],
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/ce6e185e-f086-4cd5-828a-3f00f7ec187a/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-19T07:24:00.802",
+    "gepubliceerdeHash": "45a8d2686686bfe2",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/ce6e185e-f086-4cd5-828a-3f00f7ec187a"
   }
 }
