@@ -302,5 +302,145 @@
     "gepubliceerdOp": "2026-10-19T03:34:45.394",
     "gepubliceerdeHash": "dce001fb2179217a",
     "embed": "https://iframe.mediadelivery.net/embed/781262/ec1b90cc-eb6a-4ed5-91fa-9e06c0021e85"
+  },
+  "van-offerte-tot-werf-nl": {
+    "film": "van-offerte-tot-werf",
+    "taal": "nl-BE",
+    "pagina": "work/projects",
+    "lengte": 137.41,
+    "uitvoering": "handleiding",
+    "routes": [
+      "/verkoop/offertes",
+      "/werk/projecten",
+      "/werk/werkorders",
+      "/werk/planning",
+      "/werk/werkbonnen",
+      "/werk/meerwerken"
+    ],
+    "app": {
+      "sha": "434f0ecac6b8f95b4895eb1c070b18ae9ff949a8",
+      "vuil": false
+    },
+    "titel": "Van offerte tot werf — project, werkorder, planning en werkbon in Nimble",
+    "omschrijving": "Wat er gebeurt na een aanvaarde offerte: het project met zijn financiële stand, de overdracht aan de projectleiding, de werfvoorbereiding tot het project startklaar is, de werkorder, het planbord per ploeg, een werkbon met uren en meerwerk, en het overzicht van alle meerwerk dat nog beslist moet worden.",
+    "hash": "990ec54016538d19",
+    "guid": null,
+    "hoofdstukken": [
+      {
+        "titel": "Een aanvaarde offerte",
+        "start": 6.77,
+        "eind": 15.92
+      },
+      {
+        "titel": "Het project",
+        "start": 22.95,
+        "eind": 30.34
+      },
+      {
+        "titel": "Wat er afgesproken en gefactureerd is",
+        "start": 32.59,
+        "eind": 41.04
+      },
+      {
+        "titel": "De overdracht",
+        "start": 45.25,
+        "eind": 53.56
+      },
+      {
+        "titel": "De werfvoorbereiding",
+        "start": 57.03,
+        "eind": 67.72
+      },
+      {
+        "titel": "De werkorder",
+        "start": 72.8,
+        "eind": 83.94
+      },
+      {
+        "titel": "Het planbord",
+        "start": 88.35,
+        "eind": 99.82
+      },
+      {
+        "titel": "Een werkbon",
+        "start": 104.88,
+        "eind": 117.93
+      },
+      {
+        "titel": "Meerwerk opvolgen",
+        "start": 121.72,
+        "eind": 134.9
+      }
+    ]
+  },
+  "van-offerte-tot-werf-fr": {
+    "film": "van-offerte-tot-werf",
+    "taal": "fr-BE",
+    "pagina": "work/projects",
+    "lengte": 133.91,
+    "uitvoering": "handleiding",
+    "routes": [
+      "/verkoop/offertes",
+      "/werk/projecten",
+      "/werk/werkorders",
+      "/werk/planning",
+      "/werk/werkbonnen",
+      "/werk/meerwerken"
+    ],
+    "app": {
+      "sha": "434f0ecac6b8f95b4895eb1c070b18ae9ff949a8",
+      "vuil": false
+    },
+    "titel": "Du devis au chantier — projet, ordre de travail, planning et bon de travail dans Nimble",
+    "omschrijving": "Ce qui se passe après un devis accepté : le projet et sa situation financière, la transmission à la direction de projet, la préparation du chantier jusqu’à ce que le projet soit prêt à démarrer, l’ordre de travail, le planning par équipe, un bon de travail avec les heures et les travaux supplémentaires, et l’aperçu de tous les travaux supplémentaires encore à décider.",
+    "hash": "12b64b428256181a",
+    "guid": null,
+    "hoofdstukken": [
+      {
+        "titel": "Un devis accepté",
+        "start": 6.84,
+        "eind": 15.25
+      },
+      {
+        "titel": "Le projet",
+        "start": 22.34,
+        "eind": 29.91
+      },
+      {
+        "titel": "Ce qui est convenu et facturé",
+        "start": 32.17,
+        "eind": 40.34
+      },
+      {
+        "titel": "La transmission",
+        "start": 44.59,
+        "eind": 53.59
+      },
+      {
+        "titel": "La préparation du chantier",
+        "start": 57.08,
+        "eind": 66.6
+      },
+      {
+        "titel": "L’ordre de travail",
+        "start": 71.68,
+        "eind": 83.62
+      },
+      {
+        "titel": "La planification",
+        "start": 88.05,
+        "eind": 98.91
+      },
+      {
+        "titel": "Un bon de travail",
+        "start": 103.98,
+        "eind": 116.24
+      },
+      {
+        "titel": "Suivre les travaux supplémentaires",
+        "start": 120.03,
+        "eind": 131.41
+      }
+    ]
   }
 }
