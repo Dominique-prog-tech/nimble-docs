@@ -151,7 +151,7 @@
     "titel": "Aan de slag met Nimble — het scherm, de lijsten, de fiches en de hulp",
     "omschrijving": "De eerste rondleiding: het dashboard met uw kerncijfers en wat aandacht vraagt, het menu, werken in een lijst (zoeken, filteren, exporteren), een fiche met haar journaal, wat er gebeurt met niet-bewaarde wijzigingen, de hulp bij elk scherm, de assistent en uw eigen voorkeuren.",
     "hash": "68170c8d59345ba7",
-    "guid": null,
+    "guid": "d747a815-67a7-433e-9e7a-fa5f82d0a068",
     "hoofdstukken": [
       {
         "titel": "Het dashboard",
@@ -213,7 +213,11 @@
         "start": 149.86,
         "eind": 158.59
       }
-    ]
+    ],
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/d747a815-67a7-433e-9e7a-fa5f82d0a068/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-19T03:34:27.347",
+    "gepubliceerdeHash": "68170c8d59345ba7",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/d747a815-67a7-433e-9e7a-fa5f82d0a068"
   },
   "aan-de-slag-fr": {
     "film": "aan-de-slag",
@@ -231,7 +235,7 @@
     "titel": "Premiers pas avec Nimble — l’écran, les listes, les fiches et l’aide",
     "omschrijving": "La première visite guidée : le tableau de bord avec vos chiffres clés et ce qui demande attention, le menu, le travail dans une liste (rechercher, filtrer, exporter), une fiche et son journal, ce qui se passe avec des modifications non enregistrées, l’aide sur chaque écran, l’assistant et vos préférences.",
     "hash": "dce001fb2179217a",
-    "guid": null,
+    "guid": "ec1b90cc-eb6a-4ed5-91fa-9e06c0021e85",
     "hoofdstukken": [
       {
         "titel": "Le tableau de bord",
@@ -293,6 +297,10 @@
         "start": 144.9,
         "eind": 154.09
       }
-    ]
+    ],
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/ec1b90cc-eb6a-4ed5-91fa-9e06c0021e85/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-19T03:34:45.394",
+    "gepubliceerdeHash": "dce001fb2179217a",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/ec1b90cc-eb6a-4ed5-91fa-9e06c0021e85"
   }
 }
