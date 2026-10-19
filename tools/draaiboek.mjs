@@ -202,6 +202,110 @@ export const FILMS = [
         fr: "La cloche affiche ce qui est arrivé pour vous. Avec la bulle à côté, vous nous envoyez une question ou un problème. Voilà comment trouver votre chemin dans Nimble." },
     ],
   }],
+  // ── VAN WERF TOT BETALING (19/10/2026, op vraag van Dominique: "Akkoord, schrijf het draaiboek") ──────────────────
+  // Het slot van de keten: vorderingsstaat, factureren, de facturenlijst, een vervallen factuur, versturen, aanmaningen,
+  // de bank en het afpunten. Er wordt NIETS bewaard of verstuurd — knoppen worden enkel aangewezen. De rode draad is
+  // F-2026-0011 van De Wilde Interieur: vervallen, klaar voor een aanmaning, en de betaling ervan staat op de bank met
+  // de juiste gestructureerde mededeling (000000001717), zodat het afpunten een zeker voorstel toont.
+  // Bewust NIET: de PDF (lokaal anders dan op productie), en het financiële blok van een project — in demo hangt er
+  // geen aanvaarde offerte aan de gefactureerde projecten, dus het blok toont "meer gefactureerd dan afgesproken".
+  ['van-werf-tot-betaling', {
+    pagina: 'sales/invoices',
+    titel: {
+      nl: 'Van werf tot betaling — vorderingsstaat, factuur, aanmaning en afpunten in Nimble',
+      fr: 'Du chantier au paiement — état d’avancement, facture, rappel et lettrage dans Nimble',
+    },
+    omschrijving: {
+      nl: 'Hoe het werk geld wordt: een vorderingsstaat per post, de factuur die eruit komt, wat er openstaat en vervallen '
+        + 'is, versturen per mail of via Peppol, aanmaningen die u zelf verstuurt, de bankverrichtingen, en het afpunten '
+        + 'van een betaling tegen haar factuur.',
+      fr: 'Comment le travail devient de l’argent : un état d’avancement par poste, la facture qui en découle, ce qui reste '
+        + 'dû et ce qui est échu, l’envoi par e-mail ou via Peppol, les rappels que vous envoyez vous-même, les opérations '
+        + 'bancaires, et le lettrage d’un paiement avec sa facture.',
+    },
+    uitvoeringen: { handleiding: { stem: true } },
+    scenes: [
+      { naam: 'staat', kop: { nl: 'Een vorderingsstaat', fr: 'Un état d’avancement' },
+        doe: async (p) => {
+          await p.goto(`${BASIS}/verkoop/vorderingsstaten`); await p.waitForLoadState('networkidle');
+          await openRij(p, '26/09/2026');   // de lijst toont geen omschrijving; de datum is uniek
+          await beweegNaar(p, p.getByText(/^(Deze staat|Cet état)$/).first());
+        },
+        merk: /Wastafel keramiek 60 cm/,
+        nl: 'Bij een groot project factureert u per vorderingsstaat. Per post vult u in hoever het werk staat, en Nimble rekent uit wat er sinds de vorige staat bijkwam.',
+        fr: 'Pour un grand projet, vous facturez par état d’avancement. Pour chaque poste, vous indiquez où en est le travail, et Nimble calcule ce qui s’est ajouté depuis l’état précédent.' },
+
+      { naam: 'factureren', kop: { nl: 'Een staat factureren', fr: 'Facturer un état' },
+        doe: async (p) => {
+          await p.goto(`${BASIS}/verkoop/vorderingsstaten`); await p.waitForLoadState('networkidle');
+          await openRij(p, '25/08/2026');
+          // Enkel aanwijzen: een klik maakt een kladfactuur.
+          await beweegNaar(p, p.getByRole('button', { name: /^(Factureren|Facturer)$/ }).first());
+        },
+        // De datum van een goedgekeurde staat staat er als tekst (geen invulveld meer).
+        merk: /25\/08\/2026/,
+        nl: 'Keurt de klant de staat goed, dan ligt ze vast. Met Factureren maakt u er de factuur van.',
+        fr: 'Quand le client approuve l’état, celui-ci est figé. Avec Facturer, vous en faites la facture.' },
+
+      { naam: 'facturen', kop: { nl: 'Wat er openstaat', fr: 'Ce qui reste dû' },
+        doe: async (p) => {
+          await p.goto(`${BASIS}/verkoop/facturen`); await p.waitForLoadState('networkidle');
+          const rij = p.locator('.dxbl-grid-table tbody tr:visible', { hasText: 'F-2026-0012' }).first();
+          await rij.waitFor({ state: 'visible', timeout: 15000 });
+          await beweegNaar(p, rij);
+        },
+        merk: /F-2026-0012/,
+        nl: 'In de lijst van uw facturen ziet u per factuur wat er nog openstaat. Een vervallen factuur valt meteen op.',
+        fr: 'Dans la liste de vos factures, vous voyez pour chacune ce qui reste dû. Une facture échue saute aux yeux.' },
+
+      { naam: 'factuur', kop: { nl: 'Een factuur', fr: 'Une facture' },
+        doe: async (p) => {
+          await openRij(p, 'F-2026-0011');
+          await beweegNaar(p, p.locator('.adm-card', { hasText: /^(Betaling en verzending|Paiement et envoi)/ }).first());
+        },
+        merk: /01717/,
+        nl: 'Op de factuur staat wat er al betaald is, wat er nog openstaat, en de gestructureerde mededeling waarmee de klant betaalt.',
+        fr: 'Sur la facture figurent ce qui est déjà payé, ce qui reste dû, et la communication structurée avec laquelle le client paie.' },
+
+      { naam: 'versturen', kop: { nl: 'Versturen', fr: 'Envoyer' },
+        // Enkel aanwijzen: er wordt niets verstuurd.
+        doe: async (p) => { await beweegNaar(p, p.getByRole('button', { name: /Peppol/ }).first()); },
+        merk: /Peppol/,
+        nl: 'U verstuurt een factuur per mail, of als e-factuur via Peppol, rechtstreeks vanuit Nimble.',
+        fr: 'Vous envoyez une facture par e-mail, ou comme facture électronique via Peppol, directement depuis Nimble.' },
+
+      { naam: 'aanmaningen', kop: { nl: 'Aanmaningen', fr: 'Les rappels' },
+        doe: async (p) => {
+          await p.goto(`${BASIS}/verkoop/rappels`); await p.waitForLoadState('networkidle');
+          await p.waitForTimeout(1200);
+          await beweegNaar(p, p.getByRole('link', { name: 'F-2026-0011' }).first());
+        },
+        merk: /F-2026-0011/,
+        nl: 'Is een factuur vervallen, dan zet Nimble een aanmaning klaar. Er vertrekt niets vanzelf: u kijkt ze na en verstuurt ze zelf.',
+        fr: 'Quand une facture est échue, Nimble prépare un rappel. Rien ne part tout seul : vous le vérifiez et l’envoyez vous-même.' },
+
+      { naam: 'bank', kop: { nl: 'De bank', fr: 'La banque' },
+        doe: async (p) => {
+          await p.goto(`${BASIS}/financieel/bank`); await p.waitForLoadState('networkidle');
+          await p.waitForTimeout(1200);
+          await beweegNaar(p, p.getByText('000000001717').first());
+        },
+        merk: /000000001717/,
+        nl: 'Uw bankverrichtingen komen rechtstreeks binnen in Nimble: wat er binnenkwam en wat er buitenging.',
+        fr: 'Vos opérations bancaires arrivent directement dans Nimble : ce qui est entré et ce qui est sorti.' },
+
+      { naam: 'afpunten', kop: { nl: 'Afpunten', fr: 'Le lettrage' },
+        doe: async (p) => {
+          await p.goto(`${BASIS}/financieel/afpunten`); await p.waitForLoadState('networkidle');
+          await p.waitForTimeout(1200);
+          // Enkel aanwijzen: Boeken registreert de betaling.
+          await beweegNaar(p, p.getByRole('link', { name: 'F-2026-0011' }).first());
+        },
+        merk: /F-2026-0011/,
+        nl: 'Bij het afpunten stelt Nimble voor bij welke factuur een betaling hoort, hier dankzij de gestructureerde mededeling. Er wordt niets geboekt zonder uw bevestiging.',
+        fr: 'Au lettrage, Nimble propose la facture à laquelle correspond un paiement, ici grâce à la communication structurée. Rien n’est enregistré sans votre confirmation.' },
+    ],
+  }],
   // ── VAN OFFERTE TOT WERF (19/10/2026, op vraag van Dominique: "Akkoord, schrijf het draaiboek") ─────────────────
   // Het vervolg op "Van aanvraag tot offerte": een aanvaarde offerte, het project, de overdracht en de voorbereiding,
   // de werkorder, het planbord, een werkbon met meerwerk, en de lijst Meerwerken. Er wordt NIETS bewaard — de hele film
