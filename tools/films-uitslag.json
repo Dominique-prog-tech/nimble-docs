@@ -1013,5 +1013,111 @@
     "gepubliceerdOp": "2026-10-19T05:44:11.148",
     "gepubliceerdeHash": "7ccef87d86bffe08",
     "embed": "https://iframe.mediadelivery.net/embed/781262/e6362830-0c85-4e23-ba6d-d7fc5b30d1f5"
+  },
+  "uw-bedrijf-instellen-nl": {
+    "film": "uw-bedrijf-instellen",
+    "taal": "nl-BE",
+    "pagina": "settings/company-profile",
+    "lengte": 84.81,
+    "uitvoering": "handleiding",
+    "routes": [
+      "/administration/company-profile",
+      "/administration/document-sjablonen",
+      "/administration/mail-sjablonen",
+      "/administration/status-labels/offertestatus"
+    ],
+    "app": {
+      "sha": "434f0ecac6b8f95b4895eb1c070b18ae9ff949a8",
+      "vuil": false
+    },
+    "titel": "Uw bedrijf instellen — bedrijfsfiche, sjablonen en keuzelijsten in Nimble",
+    "omschrijving": "Wat u de eerste dag instelt: de gegevens van uw bedrijf, uw financiële instellingen en margegrenzen, de nummering van uw projecten en uw logo, het briefhoofd en de voorwaarden op uw documenten, uw mailsjablonen in twee talen, en de keuzelijsten die u zelf benoemt.",
+    "hash": "6603d8896ef2af64",
+    "guid": null,
+    "hoofdstukken": [
+      {
+        "titel": "De bedrijfsfiche",
+        "start": 4.09,
+        "eind": 14.49
+      },
+      {
+        "titel": "Financiële instellingen",
+        "start": 16.77,
+        "eind": 26.94
+      },
+      {
+        "titel": "Nummering en logo",
+        "start": 31.47,
+        "eind": 38.02
+      },
+      {
+        "titel": "Documentsjablonen",
+        "start": 42.84,
+        "eind": 53.66
+      },
+      {
+        "titel": "Mailsjablonen",
+        "start": 58.29,
+        "eind": 70.23
+      },
+      {
+        "titel": "Uw eigen keuzelijsten",
+        "start": 73.3,
+        "eind": 82.31
+      }
+    ]
+  },
+  "uw-bedrijf-instellen-fr": {
+    "film": "uw-bedrijf-instellen",
+    "taal": "fr-BE",
+    "pagina": "settings/company-profile",
+    "lengte": 83.76,
+    "uitvoering": "handleiding",
+    "routes": [
+      "/administration/company-profile",
+      "/administration/document-sjablonen",
+      "/administration/mail-sjablonen",
+      "/administration/status-labels/offertestatus"
+    ],
+    "app": {
+      "sha": "434f0ecac6b8f95b4895eb1c070b18ae9ff949a8",
+      "vuil": false
+    },
+    "titel": "Paramétrer votre entreprise — fiche d’entreprise, modèles et listes de choix dans Nimble",
+    "omschrijving": "Ce que vous paramétrez le premier jour : les données de votre entreprise, vos paramètres financiers et seuils de marge, la numérotation de vos projets et votre logo, l’en-tête et les conditions de vos documents, vos modèles de mail en deux langues, et les listes de choix que vous nommez vous-même.",
+    "hash": "45a8d2686686bfe2",
+    "guid": null,
+    "hoofdstukken": [
+      {
+        "titel": "La fiche d’entreprise",
+        "start": 4.09,
+        "eind": 14.5
+      },
+      {
+        "titel": "Les paramètres financiers",
+        "start": 16.77,
+        "eind": 26.43
+      },
+      {
+        "titel": "Numérotation et logo",
+        "start": 30.95,
+        "eind": 38.8
+      },
+      {
+        "titel": "Les modèles de documents",
+        "start": 43.73,
+        "eind": 53.25
+      },
+      {
+        "titel": "Les modèles de mail",
+        "start": 57.94,
+        "eind": 69.36
+      },
+      {
+        "titel": "Vos propres listes de choix",
+        "start": 72.39,
+        "eind": 81.26
+      }
+    ]
   }
 }
