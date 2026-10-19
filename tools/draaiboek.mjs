@@ -202,6 +202,89 @@ export const FILMS = [
         fr: "La cloche affiche ce qui est arrivé pour vous. Avec la bulle à côté, vous nous envoyez une question ou un problème. Voilà comment trouver votre chemin dans Nimble." },
     ],
   }],
+  // ── UW BEDRIJF INSTELLEN (19/10/2026, op vraag van Dominique: "Akkoord") ─────────────────────────────────────────────
+  // Wat een nieuwe klant de eerste dag instelt. Er wordt NIETS bewaard. Bewust NIET (beslist door Dominique 19/10, "Zonder
+  // die twee"): het overzicht Platformbeheer en Rollen — de film neemt op als ADM-operator, en die ziet daar iets anders
+  // dan een klant (de groep ADM-beheer, de tegel App-toegang, een tenantkeuze bij Rollen). De demogebruikers hebben geen
+  // wachtwoord. Ook niet: Mailafzenders — leeg in demo. Elke scène navigeert met een adres, niet via de tegels.
+  // ⚠️ Merktekens: op instelschermen staat de data in invulvelden, die het merkteken niet leest. Daarom vaste teksten die
+  //    enkel op DIT scherm staan (de intro van de bedrijfsfiche, de variabelen van de mailsjablonen) of de rijen van een lijst.
+  ['uw-bedrijf-instellen', {
+    pagina: 'settings/company-profile',
+    titel: {
+      nl: 'Uw bedrijf instellen — bedrijfsfiche, sjablonen en keuzelijsten in Nimble',
+      fr: 'Paramétrer votre entreprise — fiche d’entreprise, modèles et listes de choix dans Nimble',
+    },
+    omschrijving: {
+      nl: 'Wat u de eerste dag instelt: de gegevens van uw bedrijf, uw financiële instellingen en margegrenzen, de '
+        + 'nummering van uw projecten en uw logo, het briefhoofd en de voorwaarden op uw documenten, uw mailsjablonen in '
+        + 'twee talen, en de keuzelijsten die u zelf benoemt.',
+      fr: 'Ce que vous paramétrez le premier jour : les données de votre entreprise, vos paramètres financiers et seuils '
+        + 'de marge, la numérotation de vos projets et votre logo, l’en-tête et les conditions de vos documents, vos '
+        + 'modèles de mail en deux langues, et les listes de choix que vous nommez vous-même.',
+    },
+    uitvoeringen: { handleiding: { stem: true } },
+    scenes: [
+      { naam: 'bedrijfsfiche', kop: { nl: 'De bedrijfsfiche', fr: 'La fiche d’entreprise' },
+        doe: async (p) => {
+          await p.goto(`${BASIS}/administration/company-profile`); await p.waitForLoadState('networkidle');
+          await p.waitForTimeout(1200);
+          await beweegNaar(p, p.getByRole('button', { name: /^(Ophalen|Récupérer)$/ }).first());
+        },
+        merk: /De naam en het adres komen op uw offertes|Le nom et l'adresse figurent sur vos devis/,
+        nl: 'Onder Platformbeheer staat de bedrijfsfiche. Naam, adres en btw-nummer komen op uw offertes en facturen. Met Ophalen haalt Nimble ze uit de KBO.',
+        fr: 'Sous Administration se trouve la fiche d’entreprise. Le nom, l’adresse et le numéro de TVA figurent sur vos devis et factures. Avec Récupérer, Nimble les reprend de la BCE.' },
+
+      { naam: 'financieel', kop: { nl: 'Financiële instellingen', fr: 'Les paramètres financiers' },
+        doe: async (p) => { await beweegNaar(p, p.getByText(/^(Financiële instellingen|Paramètres financiers)$/i).first()); },
+        merk: /Marge groen vanaf|Marge verte à partir de/,
+        nl: 'Bij de financiële instellingen kiest u uw betalingstermijn, wanneer een aanmaning volgt, en vanaf welke marge een project groen of oranje kleurt.',
+        fr: 'Dans les paramètres financiers, vous choisissez votre délai de paiement, quand un rappel suit, et à partir de quelle marge un projet s’affiche en vert ou en orange.' },
+
+      { naam: 'nummering', kop: { nl: 'Nummering en logo', fr: 'Numérotation et logo' },
+        doe: async (p) => {
+          await beweegNaar(p, p.getByText(/^(Projectnummering|Numérotation des projets)$/i).first());
+          await p.waitForTimeout(1500);
+          await beweegNaar(p, p.getByText(/^(Documenten & huisstijl|Documents et charte graphique)$/i).first());
+        },
+        merk: /Projectnummering|Numérotation des projets/i,
+        // In demo hangt er geen logo aan de bedrijfsfiche: het vak is leeg, dus de zin toont WAAR het logo komt.
+        nl: 'U kiest hoe uw projecten genummerd worden. En in dit vak zet u uw logo, dat dan op uw documenten komt.',
+        fr: 'Vous choisissez comment vos projets sont numérotés. Et dans cette zone, vous placez votre logo, qui figure ensuite sur vos documents.' },
+
+      { naam: 'documentsjablonen', kop: { nl: 'Documentsjablonen', fr: 'Les modèles de documents' },
+        doe: async (p) => {
+          await p.goto(`${BASIS}/administration/document-sjablonen`); await p.waitForLoadState('networkidle');
+          await p.waitForTimeout(1200);
+          await beweegNaar(p, p.getByText(/^(Briefhoofd en klantgegevens|En-tête et coordonnées du client)$/).first());
+        },
+        merk: /\{\{afzender_btw\}\}/,
+        nl: 'Bij Documentsjablonen past u het briefhoofd, de aanhef en de voorwaarden van uw offertes aan. Laat u een vak leeg, dan gebruikt Nimble de standaardopmaak.',
+        fr: 'Dans Modèles de documents, vous adaptez l’en-tête, l’introduction et les conditions de vos devis. Si vous laissez une zone vide, Nimble utilise la mise en page standard.' },
+
+      { naam: 'mailsjablonen', kop: { nl: 'Mailsjablonen', fr: 'Les modèles de mail' },
+        doe: async (p) => {
+          await p.goto(`${BASIS}/administration/mail-sjablonen`); await p.waitForLoadState('networkidle');
+          await p.waitForTimeout(1200);
+          await beweegNaar(p, p.getByText(/^(Variabelen|Variables)$/).first());
+        },
+        merk: /\{\{online_link\}\}/,
+        nl: 'Bij Mailsjablonen bepaalt u het onderwerp en de tekst van elke mail die Nimble voor u verstuurt, in het Nederlands en het Frans. De taal van de klant bepaalt welke versie vertrekt.',
+        fr: 'Dans Modèles de mail, vous définissez l’objet et le texte de chaque e-mail que Nimble envoie pour vous, en néerlandais et en français. La langue du client détermine la version envoyée.' },
+
+      { naam: 'keuzelijsten', kop: { nl: 'Uw eigen keuzelijsten', fr: 'Vos propres listes de choix' },
+        doe: async (p) => {
+          await p.goto(`${BASIS}/administration/status-labels/offertestatus`); await p.waitForLoadState('networkidle');
+          const rij = p.locator('.dxbl-grid-table tbody tr:visible', { hasText: 'Aanvaard' }).first();
+          await rij.waitFor({ state: 'visible', timeout: 15000 });
+          await beweegNaar(p, rij);
+        },
+        // De lijst toont beide namen, in elke taal: de rijen zijn data.
+        merk: /Remplacé/,
+        nl: 'En de keuzelijsten zijn van u. Hoe uw offertestatussen, leadfases of projecttypes heten, past u hier zelf aan, in beide talen.',
+        fr: 'Et les listes de choix vous appartiennent. Le nom de vos statuts de devis, phases de lead ou types de projet, vous l’adaptez vous-même ici, dans les deux langues.' },
+    ],
+  }],
   // ── INKOOP EN VOORRAAD (19/10/2026, op vraag van Dominique: "Akkoord, schrijf het draaiboek voor Inkoop en voorraad") ──
   // Bestelling → ontvangst → aankoopfactuur goedkeuren → voorraadstand → stockbewegingen van één artikel. Er wordt
   // NIETS bewaard: Receptioneren en Deellevering boeken worden enkel aangewezen (Receptioneren boekt alles in één keer),
