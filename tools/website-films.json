@@ -1,0 +1,57 @@
+{
+  "_bron": "nimble-docs — geschreven door `node tools/bunny.mjs naar-website`, niet met de hand bewerken",
+  "films": {
+    "aan-de-slag": {
+      "nl": {
+        "guid": "60c96e98-53da-4220-a8a9-77b5135b2457",
+        "lengte": 44.16,
+        "titel": "Aan de slag met Nimble — het scherm, de lijsten, de fiches en de hulp",
+        "omschrijving": "De eerste rondleiding: het dashboard met uw kerncijfers en wat aandacht vraagt, het menu, werken in een lijst (zoeken, filteren, exporteren), een fiche met haar journaal, wat er gebeurt met niet-bewaarde wijzigingen, de hulp bij elk scherm, de assistent en uw eigen voorkeuren.",
+        "miniatuur": "https://vz-db1b2088-768.b-cdn.net/60c96e98-53da-4220-a8a9-77b5135b2457/thumbnail.jpg",
+        "gepubliceerdOp": "2026-10-19T04:44:36.788Z"
+      },
+      "fr": {
+        "guid": "b319d9f2-4e16-44d3-9724-3346c73609ea",
+        "lengte": 46.6,
+        "titel": "Premiers pas avec Nimble — l’écran, les listes, les fiches et l’aide",
+        "omschrijving": "La première visite guidée : le tableau de bord avec vos chiffres clés et ce qui demande attention, le menu, le travail dans une liste (rechercher, filtrer, exporter), une fiche et son journal, ce qui se passe avec des modifications non enregistrées, l’aide sur chaque écran, l’assistant et vos préférences.",
+        "miniatuur": "https://vz-db1b2088-768.b-cdn.net/b319d9f2-4e16-44d3-9724-3346c73609ea/thumbnail.jpg",
+        "gepubliceerdOp": "2026-10-19T04:44:51.208Z"
+      },
+      "en": {
+        "guid": "7bb12553-227e-4332-9d88-c5c021f99b1e",
+        "lengte": 43.68,
+        "titel": "Getting started with Nimble — the screen, lists, records and help",
+        "omschrijving": "A first tour of Nimble: the dashboard with your key figures and what needs attention, the menu, working in a list (search, filter, export), a record with its journal, help on every screen and your own preferences.",
+        "miniatuur": "https://vz-db1b2088-768.b-cdn.net/7bb12553-227e-4332-9d88-c5c021f99b1e/thumbnail.jpg",
+        "gepubliceerdOp": "2026-10-19T04:45:06.496Z"
+      }
+    },
+    "van-aanvraag-tot-offerte": {
+      "nl": {
+        "guid": "80e97e2c-f33a-463d-be4d-70db4a77e50a",
+        "lengte": 48.08,
+        "titel": "Van aanvraag tot offerte — lead, klant en offerte in Nimble",
+        "omschrijving": "De keten van een aanvraag tot een offerte: het leadbord, een gewonnen lead die klant wordt, het offertebord, een offerte met haar blokken en regels, en een prijsafspraak met een klant die u in één klik op een nieuwe offerte zet.",
+        "miniatuur": "https://vz-db1b2088-768.b-cdn.net/80e97e2c-f33a-463d-be4d-70db4a77e50a/thumbnail.jpg",
+        "gepubliceerdOp": "2026-10-19T04:45:14.272Z"
+      },
+      "fr": {
+        "guid": "c7b9ba14-85a7-427f-9144-1289557c6b80",
+        "lengte": 49.64,
+        "titel": "De la demande au devis — lead, client et devis dans Nimble",
+        "omschrijving": "La chaîne de la demande au devis : le tableau des leads, un lead gagné qui devient client, le tableau des devis, un devis avec ses blocs et ses lignes, et un accord de prix avec un client que vous placez en un clic dans un nouveau devis.",
+        "miniatuur": "https://vz-db1b2088-768.b-cdn.net/c7b9ba14-85a7-427f-9144-1289557c6b80/thumbnail.jpg",
+        "gepubliceerdOp": "2026-10-19T04:45:28.579Z"
+      },
+      "en": {
+        "guid": "345befa4-c9f5-4214-9a47-100ff6c51d2e",
+        "lengte": 47.24,
+        "titel": "From request to quote — leads, customers and quotes in Nimble",
+        "omschrijving": "The chain from a request to a quote: the lead board, a won lead that becomes a customer, the quote board, a quote with its sections and lines, and a price agreement with a customer that you load onto a new quote in one click.",
+        "miniatuur": "https://vz-db1b2088-768.b-cdn.net/345befa4-c9f5-4214-9a47-100ff6c51d2e/thumbnail.jpg",
+        "gepubliceerdOp": "2026-10-19T04:45:39.814Z"
+      }
+    }
+  }
+}

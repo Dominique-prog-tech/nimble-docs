@@ -467,7 +467,7 @@
     "titel": "Aan de slag met Nimble — het scherm, de lijsten, de fiches en de hulp",
     "omschrijving": "De eerste rondleiding: het dashboard met uw kerncijfers en wat aandacht vraagt, het menu, werken in een lijst (zoeken, filteren, exporteren), een fiche met haar journaal, wat er gebeurt met niet-bewaarde wijzigingen, de hulp bij elk scherm, de assistent en uw eigen voorkeuren.",
     "hash": "43a94157cd75d979",
-    "guid": null,
+    "guid": "60c96e98-53da-4220-a8a9-77b5135b2457",
     "hoofdstukken": [
       {
         "titel": "Het dashboard",
@@ -499,7 +499,11 @@
         "start": 37.44,
         "eind": 41.79
       }
-    ]
+    ],
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/60c96e98-53da-4220-a8a9-77b5135b2457/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-19T04:44:36.788",
+    "gepubliceerdeHash": "43a94157cd75d979",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/60c96e98-53da-4220-a8a9-77b5135b2457"
   },
   "aan-de-slag-website-fr": {
     "film": "aan-de-slag",
@@ -517,7 +521,7 @@
     "titel": "Premiers pas avec Nimble — l’écran, les listes, les fiches et l’aide",
     "omschrijving": "La première visite guidée : le tableau de bord avec vos chiffres clés et ce qui demande attention, le menu, le travail dans une liste (rechercher, filtrer, exporter), une fiche et son journal, ce qui se passe avec des modifications non enregistrées, l’aide sur chaque écran, l’assistant et vos préférences.",
     "hash": "c8b95d7165378181",
-    "guid": null,
+    "guid": "b319d9f2-4e16-44d3-9724-3346c73609ea",
     "hoofdstukken": [
       {
         "titel": "Le tableau de bord",
@@ -549,7 +553,11 @@
         "start": 39.89,
         "eind": 44.25
       }
-    ]
+    ],
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/b319d9f2-4e16-44d3-9724-3346c73609ea/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-19T04:44:51.208",
+    "gepubliceerdeHash": "c8b95d7165378181",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/b319d9f2-4e16-44d3-9724-3346c73609ea"
   },
   "aan-de-slag-website-en": {
     "film": "aan-de-slag",
@@ -567,7 +575,7 @@
     "titel": "Getting started with Nimble — the screen, lists, records and help",
     "omschrijving": "A first tour of Nimble: the dashboard with your key figures and what needs attention, the menu, working in a list (search, filter, export), a record with its journal, help on every screen and your own preferences.",
     "hash": "ac805fc848f11b00",
-    "guid": null,
+    "guid": "7bb12553-227e-4332-9d88-c5c021f99b1e",
     "hoofdstukken": [
       {
         "titel": "The dashboard",
@@ -599,7 +607,11 @@
         "start": 37.16,
         "eind": 41.31
       }
-    ]
+    ],
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/7bb12553-227e-4332-9d88-c5c021f99b1e/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-19T04:45:06.496",
+    "gepubliceerdeHash": "ac805fc848f11b00",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/7bb12553-227e-4332-9d88-c5c021f99b1e"
   },
   "van-aanvraag-tot-offerte-website-nl": {
     "film": "van-aanvraag-tot-offerte",
@@ -619,7 +631,7 @@
     "titel": "Van aanvraag tot offerte — lead, klant en offerte in Nimble",
     "omschrijving": "De keten van een aanvraag tot een offerte: het leadbord, een gewonnen lead die klant wordt, het offertebord, een offerte met haar blokken en regels, en een prijsafspraak met een klant die u in één klik op een nieuwe offerte zet.",
     "hash": "8367449aa6471ed7",
-    "guid": null,
+    "guid": "80e97e2c-f33a-463d-be4d-70db4a77e50a",
     "hoofdstukken": [
       {
         "titel": "Het leadbord",
@@ -646,7 +658,11 @@
         "start": 41.46,
         "eind": 45.1
       }
-    ]
+    ],
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/80e97e2c-f33a-463d-be4d-70db4a77e50a/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-19T04:45:14.272",
+    "gepubliceerdeHash": "8367449aa6471ed7",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/80e97e2c-f33a-463d-be4d-70db4a77e50a"
   },
   "van-aanvraag-tot-offerte-website-fr": {
     "film": "van-aanvraag-tot-offerte",
@@ -666,7 +682,7 @@
     "titel": "De la demande au devis — lead, client et devis dans Nimble",
     "omschrijving": "La chaîne de la demande au devis : le tableau des leads, un lead gagné qui devient client, le tableau des devis, un devis avec ses blocs et ses lignes, et un accord de prix avec un client que vous placez en un clic dans un nouveau devis.",
     "hash": "72eb320ba45f229d",
-    "guid": null,
+    "guid": "c7b9ba14-85a7-427f-9144-1289557c6b80",
     "hoofdstukken": [
       {
         "titel": "Le tableau des leads",
@@ -693,7 +709,11 @@
         "start": 43.03,
         "eind": 46.67
       }
-    ]
+    ],
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/c7b9ba14-85a7-427f-9144-1289557c6b80/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-19T04:45:28.579",
+    "gepubliceerdeHash": "72eb320ba45f229d",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/c7b9ba14-85a7-427f-9144-1289557c6b80"
   },
   "van-aanvraag-tot-offerte-website-en": {
     "film": "van-aanvraag-tot-offerte",
@@ -713,7 +733,7 @@
     "titel": "From request to quote — leads, customers and quotes in Nimble",
     "omschrijving": "The chain from a request to a quote: the lead board, a won lead that becomes a customer, the quote board, a quote with its sections and lines, and a price agreement with a customer that you load onto a new quote in one click.",
     "hash": "da30490f1b2c6918",
-    "guid": null,
+    "guid": "345befa4-c9f5-4214-9a47-100ff6c51d2e",
     "hoofdstukken": [
       {
         "titel": "The lead board",
@@ -740,6 +760,10 @@
         "start": 40.62,
         "eind": 44.12
       }
-    ]
+    ],
+    "thumbnail": "https://vz-db1b2088-768.b-cdn.net/345befa4-c9f5-4214-9a47-100ff6c51d2e/thumbnail.jpg",
+    "gepubliceerdOp": "2026-10-19T04:45:39.814",
+    "gepubliceerdeHash": "da30490f1b2c6918",
+    "embed": "https://iframe.mediadelivery.net/embed/781262/345befa4-c9f5-4214-9a47-100ff6c51d2e"
   }
 }
