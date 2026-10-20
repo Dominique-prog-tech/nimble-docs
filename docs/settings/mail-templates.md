@@ -17,6 +17,8 @@ U hebt er het recht *Documentsjablonen beheren* voor nodig.
 
 Bovenaan kiest u het **Sjabloon**:
 
+![De keuzelijst Sjabloon opengeklapt op het scherm Mailsjablonen: Offerte, de vier sjablonen van de aanmaningen en Getekende werkbon; Taak toegewezen staat eronder, na het schuiven.](../images/mailsjabloon-keuze.png)
+
 | Sjabloon | Waar het vertrekt |
 |---|---|
 | **Offerte** | Bij **Mailen** op een offerte |
@@ -117,6 +119,8 @@ wilt laten vallen.
 **Voorbeeld** toont de mail in het Nederlands en in het Frans, telkens met **Van** en **Onderwerp** erbij,
 zoals ze zou vertrekken met wat er nú in de vakken staat — ook als u nog niet bewaard hebt. De gegevens zijn
 verzonnen, zodat u ziet welke tekst uit een variabele komt.
+
+![Het venster Voorbeeld voor het sjabloon Offerte: bovenaan de Nederlandse mail met Van, Onderwerp en de tekst met een tabel van offertenummer, datum, geldig tot en bedrag; daaronder dezelfde mail in het Frans. Alle gegevens zijn verzonnen.](../images/mailsjabloon-voorbeeld.png)
 
 ## Bij het versturen
 

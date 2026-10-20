@@ -17,6 +17,8 @@ Le droit *Gérer les modèles de documents* est nécessaire.
 
 En haut, vous choisissez le **Modèle** :
 
+![La liste Modèle dépliée sur l'écran Modèles de mail : Devis, les quatre modèles de rappel et Bon de travail signé ; Tâche attribuée se trouve en dessous, après défilement.](../images/mailsjabloon-keuze-fr.png)
+
 | Modèle | Quand il part |
 |---|---|
 | **Devis** | Avec **Envoyer par e-mail** sur un devis |
@@ -116,6 +118,8 @@ d'abord si vous voulez les abandonner.
 **Aperçu** montre le mail en néerlandais et en français, chaque fois avec **De** et **Objet**, tel qu'il
 partirait avec le contenu actuel des champs — même si vous n'avez pas encore enregistré. Les données sont
 fictives, pour que vous voyiez quel texte provient d'une variable.
+
+![La fenêtre Aperçu pour le modèle Devis : en haut le mail en néerlandais avec De, Objet et le texte avec un tableau du numéro de devis, de la date, de la validité et du montant ; en dessous le même mail en français. Toutes les données sont fictives.](../images/mailsjabloon-voorbeeld-fr.png)
 
 ## Au moment de l'envoi
 

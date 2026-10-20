@@ -73,6 +73,8 @@ de cette étape — chaque étape a son propre modèle :
 - **Objet** — issu du modèle, avec le numéro de facture ;
 - **Texte** — le mail tel qu'il partira, dans la langue du client.
 
+![La fenêtre Envoyer un rappel pour la facture F-2026-0011 : De noreply@adm-concept.be, À l'adresse de De Wilde Interieur BV, l'objet avec le numéro de facture, le texte du premier rappel en néerlandais — la langue de ce client — avec le montant ouvert de 2 474,55 €, le bouton Modifier le texte, la phrase indiquant que la facture n'est pas jointe, et en bas Envoyer et enregistrer et Annuler.](../images/rappel-versturen-venster-fr.png)
+
 Qui connaît son client rédige autrement son premier rappel. **Modifier le texte** place le mail dans un
 éditeur ; ce que vous y changez ne vaut que pour ce rappel. Pour le changer pour chaque rappel, adaptez le
 modèle. Cliquez sur **Envoyer et enregistrer**. Nimble envoie l'e-mail et enregistre que le rappel est parti,
