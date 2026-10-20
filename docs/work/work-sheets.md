@@ -189,6 +189,8 @@ Op een bewaarde werkbon kunt u het materiaal daarom niet meer wijzigen. De fiche
 bestandsnaam draagt het werkordernummer en de datum. Reistijd staat er per persoon bij als *verplaatsing*:
 de klant tekent ook voor die uren.
 
+![De afgedrukte werkbon van 28/09/2026 op WO-2026-002: bovenaan de werf, daaronder de datum, de werkorder, het project en het totaal aan uren, de blokken Uren per medewerker, Dagrapport, Verbruikt materiaal en Einde van de dag, een kader Meerwerk vastgesteld, en onderaan de plaatsen om te tekenen voor de uitvoerder en voor akkoord door de klant.](../images/werkbon-afdruk.png)
+
 Is de werkbon getekend, dan staat de handtekening van de klant op het blad.
 
 Dat werkt alleen op een **bewaarde** bon.

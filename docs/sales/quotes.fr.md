@@ -223,6 +223,8 @@ d'outils au-dessus du document vous permet de feuilleter les pages, de zoomer et
 fenêtre figurent **Télécharger** — le devis arrive en PDF dans votre dossier de téléchargements — et
 **Envoyer par courriel**.
 
+![La première page du devis OFF-2026-0008 pour Résidence Beaulieu SC, un client francophone, telle qu'il la reçoit : en haut les coordonnées de votre entreprise et à droite le client, puis la date et la validité, les blocs avec leurs lignes et leur sous-total, les totaux avec la TVA et la note du devis. Les noms des blocs et des articles sont ceux saisis dans Nimble.](../images/offerte-afdruk-fr.png)
+
 En haut du document figurent vos propres coordonnées — nom, adresse, téléphone, numéro de TVA et votre logo.
 Elles proviennent de la [fiche d'entreprise](../settings/company-profile.md) dans l'administration.
 L'en-tête, la formule d'appel et les conditions se règlent dans les

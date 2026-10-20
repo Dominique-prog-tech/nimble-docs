@@ -180,6 +180,8 @@ crédit.](../images/factuur-knoppen-meer-fr.png)
 Toute personne autorisée à consulter les factures peut utiliser l'aperçu avant impression. Les autres
 boutons demandent le droit de modifier les factures.
 
+![La première page de la facture F-2026-0011 pour De Wilde Interieur BV, telle que le client la reçoit — en néerlandais, la langue de ce client : vos coordonnées et celles du client avec son numéro de TVA, les dates, les lignes, les totaux avec la TVA, et le bloc de paiement avec le compte, le montant, l'échéance et la communication structurée.](../images/factuur-afdruk-fr.png)
+
 !!! info "Un brouillon porte la marque BROUILLON"
     L'aperçu fonctionne aussi avant la finalisation. Vous contrôlez ainsi le document tant que vous pouvez
     encore le modifier. L'aperçu porte alors une marque de brouillon.

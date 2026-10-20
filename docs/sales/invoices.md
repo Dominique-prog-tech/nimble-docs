@@ -176,6 +176,8 @@ registreren, Opnieuw verstuurd en Meer…, en het menu Meer… open op Creditnot
 Afdrukvoorbeeld kan iedereen die facturen mag bekijken. Alle andere knoppen vragen het recht om facturen te
 bewerken.
 
+![De eerste bladzijde van factuur F-2026-0011 voor De Wilde Interieur BV, zoals de klant ze krijgt: uw gegevens en die van de klant met zijn btw-nummer, Factuurdatum, Datum van levering, Vervaldag en Uw referentie, de regels, de totalen met de btw, en het blok Betaling met rekening, bedrag, te betalen tegen en de gestructureerde mededeling.](../images/factuur-afdruk.png)
+
 !!! info "Op een klad staat een KLAD-merk"
     Het afdrukvoorbeeld werkt ook vóór u de factuur definitief maakt. Zo controleert u het blad terwijl u nog
     kunt wijzigen. Het voorbeeld draagt dan een KLAD-merk.

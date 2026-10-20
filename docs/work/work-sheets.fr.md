@@ -197,6 +197,8 @@ L'**Aperçu avant impression** vous donne le bon sous forme de document : la feu
 signer sur le chantier. Le nom du fichier reprend le numéro de l'ordre de travail et la date. Le temps de
 déplacement y figure par personne comme *déplacement* : le client signe aussi pour ces heures.
 
+![Le bon de travail imprimé du 28/09/2026 sur WO-2026-002 — en néerlandais, la langue de ce client : en haut le chantier, puis la date, l'ordre de travail, le projet et le total des heures, les blocs des heures par collaborateur, du rapport du jour, du matériel consommé et de la fin de journée, un cadre de travaux supplémentaires, et en bas les emplacements de signature.](../images/werkbon-afdruk-fr.png)
+
 Si le bon de travail est signé, la signature du client figure sur la feuille.
 
 Cela ne fonctionne que sur un bon **enregistré**.

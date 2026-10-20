@@ -86,6 +86,8 @@ totalen en boven uw voorwaarden.
 wat er nú in de vakken staat, ook als u nog niet bewaard hebt. Zo ziet u welke tekst uit een variabele komt
 en welke vast in uw sjabloon staat, zonder een echte offerte te openen.
 
+![Het afdrukvoorbeeld met het standaardsjabloon: offerte OFF-2026-0001 van Uw bedrijf voor Voorbeeld Klant BV, met verzonnen gegevens — een blok Voorbeeld met twee regels, het subtotaal en de totalen.](../images/documentsjabloon-afdruk.png)
+
 Staat de taal op *Beide talen*, dan volgt het voorbeeld de taal waarin u Nimble gebruikt. Met **Downloaden**
 bewaart u het voorbeeld als PDF.
 

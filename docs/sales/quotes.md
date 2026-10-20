@@ -219,6 +219,8 @@ Klik op **Afdrukvoorbeeld**. U ziet het document zoals de klant het krijgt. Met 
 document bladert u door de bladzijden, zoomt u in en drukt u af. Bovenaan het venster staan **Downloaden**
 — de offerte belandt als PDF in uw downloadmap — en **Doorsturen per mail**.
 
+![De eerste bladzijde van offerte OFF-2026-0001 voor Vandersteen Bouwprojecten BV, zoals de klant ze krijgt: bovenaan de gegevens van uw bedrijf en rechts de klant, daaronder de datum, Geldig tot en Uw referentie, de blokken Materiaal en Plaatsing en afwerking met hun regels en subtotaal, een optieregel, de totalen met de btw en de notitie van de offerte.](../images/offerte-afdruk.png)
+
 Bovenaan het document staan uw eigen gegevens — naam, adres, telefoon, btw-nummer en uw logo. Die komen uit
 de [bedrijfsfiche](../settings/company-profile.md) in het platformbeheer. Briefhoofd, aanhef en voorwaarden
 stelt u in bij [Documentsjablonen](../settings/document-templates.md).

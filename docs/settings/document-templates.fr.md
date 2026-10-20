@@ -89,6 +89,8 @@ L'aperçu utilise ce qui se trouve *maintenant* dans les champs, même si vous n
 Vous voyez ainsi quel texte provient d'une variable et lequel est fixe dans votre modèle, sans ouvrir un
 devis réel.
 
+![L'aperçu avec le modèle par défaut : le devis DEV-2026-0001 de Votre entreprise pour Client Exemple SPRL, avec des données fictives — un bloc Exemple de deux lignes, le sous-total et les totaux.](../images/documentsjabloon-afdruk-fr.png)
+
 Si la langue est sur *Les deux langues*, l'aperçu suit la langue dans laquelle vous utilisez Nimble.
 **Télécharger** enregistre l'aperçu en PDF.
 
