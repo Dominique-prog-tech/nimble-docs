@@ -28,6 +28,10 @@ De fiche heeft twee tabbladen: **Bedrijfsgegevens** met de kaarten hieronder, en
 | **Bank** | IBAN, BIC, Rekening — en een tweede rekening: IBAN (2), BIC (2), Rekening (2) |
 | **Documenten & huisstijl** | Logo |
 
+Het **E-mail**-adres van de kaart **Contact** is het antwoordadres van de mails die Nimble verstuurt: antwoordt een klant
+op een offerte, een aanmaning of een getekende werkbon, dan komt zijn antwoord daar terecht. Zie
+[Mailafzenders](mail-senders.md#waar-komt-een-antwoord-terecht).
+
 ## Website-leads naar
 
 Vult iemand het contactformulier op uw website in, dan maakt Nimble daar automatisch een lead van en

@@ -28,6 +28,10 @@ La fiche a deux onglets : **Données de l'entreprise** avec les cartes ci-dessou
 | **Banque** | IBAN, BIC, Compte — et un second compte : IBAN (2), BIC (2), Compte (2) |
 | **Documents et charte graphique** | Logo |
 
+L'adresse **E-mail** de la carte **Contact** est l'adresse de réponse des mails envoyés par Nimble : si un client répond à un
+devis, un rappel ou un bon de travail signé, sa réponse arrive là. Voir
+[Expéditeurs de mail](mail-senders.md#ou-arrive-une-reponse).
+
 ## Leads du site web vers
 
 Lorsqu'une personne remplit le formulaire de contact de votre site web, Nimble en crée automatiquement un

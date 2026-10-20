@@ -29,7 +29,18 @@ noreply@adm-concept.be.*
 
 1. De l'expéditeur choisi par le modèle de mail.
 2. Si le modèle n'en choisit pas, de l'expéditeur **par défaut**.
-3. S'il n'y a pas d'expéditeur par défaut, de noreply@adm-concept.be.
+3. S'il n'y a pas d'expéditeur par défaut, de noreply@adm-concept.be. Le mail porte alors le nom de votre entreprise
+   comme expéditeur, pour que le client voie de qui il vient.
+
+## Où arrive une réponse ?
+
+Si le client clique sur **Répondre**, sa réponse va à l'**adresse e-mail de votre [fiche d'entreprise](company-profile.md)**
+(carte **Contact**, champ **E-mail**) — même si le mail est parti de noreply@adm-concept.be. Cela vaut pour le devis, le
+rappel, le bon de travail signé et le mail lors de l'attribution d'une tâche.
+
+!!! warning "Complétez l'adresse e-mail de la fiche d'entreprise"
+    S'il n'y a pas d'adresse, ou s'il y en a plusieurs, le client répond à l'expéditeur. Sans expéditeur propre, c'est
+    noreply@adm-concept.be, et sa réponse arrive alors chez ADM au lieu de chez vous.
 
 ## Ajouter ou modifier un expéditeur
 
@@ -61,8 +72,8 @@ s'agissait de l'expéditeur par défaut lui-même, il n'y a ensuite plus d'expé
 ## Erreurs fréquentes
 
 !!! warning
-    - **Choisir une adresse sans boîte de réception.** Le client répond à l'adresse depuis laquelle le mail
-      est parti. Choisissez une adresse dont quelqu'un lit les réponses.
+    - **Pas d'adresse e-mail sur la fiche d'entreprise.** Le client répond à cette adresse, pas à l'expéditeur. Si elle
+      manque, il répond à l'expéditeur — et sans expéditeur propre, sa réponse arrive chez ADM.
     - **Un domaine non enregistré chez ADM One.** Le mail peut être refusé. Demandez à ADM d'enregistrer le
       domaine avant de choisir l'expéditeur dans un modèle.
 

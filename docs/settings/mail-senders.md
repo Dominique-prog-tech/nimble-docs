@@ -28,7 +28,18 @@ Hebt u nog geen afzenders, dan staat er: *Nog geen afzenders: alle mail vertrekt
 
 1. Van de afzender die het mailsjabloon kiest.
 2. Kiest het sjabloon er geen, van de **standaard**.
-3. Is er geen standaard, van noreply@adm-concept.be.
+3. Is er geen standaard, van noreply@adm-concept.be. De mail draagt dan de naam van uw bedrijf als afzender, zodat de
+   klant ziet van wie ze komt.
+
+## Waar komt een antwoord terecht?
+
+Drukt de klant op **Beantwoorden**, dan gaat zijn antwoord naar het **e-mailadres van uw
+[Bedrijfsfiche](company-profile.md)** (kaart **Contact**, veld **E-mail**) — ook als de mail van noreply@adm-concept.be
+vertrok. Dat geldt voor de offerte, de aanmaning, de getekende werkbon en de mail bij een toegewezen taak.
+
+!!! warning "Vul het e-mailadres van de Bedrijfsfiche in"
+    Staat daar geen adres, of staan er meerdere, dan antwoordt de klant aan de afzender. Zonder eigen afzender is dat
+    noreply@adm-concept.be, en dan komt zijn antwoord bij ADM terecht in plaats van bij u.
 
 ## Een afzender toevoegen of wijzigen
 
@@ -60,8 +71,8 @@ daarna geen standaard meer.
 ## Veelgemaakte fouten
 
 !!! warning
-    - **Een adres zonder brievenbus kiezen.** De klant antwoordt naar het adres waarvan de mail vertrok.
-      Kies een adres waar iemand de antwoorden leest.
+    - **Geen e-mailadres op de Bedrijfsfiche.** De klant antwoordt naar dat adres, niet naar de afzender. Staat het er
+      niet, dan antwoordt hij aan de afzender — en zonder eigen afzender belandt zijn antwoord bij ADM.
     - **Een domein dat niet bij ADM One geregistreerd is.** De mail kan geweigerd worden. Vraag ADM het
       domein te registreren vóór u de afzender in een sjabloon kiest.
 
