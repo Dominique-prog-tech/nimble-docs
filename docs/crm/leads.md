@@ -145,7 +145,7 @@ taken in het **Journaal** van de lead en in het scherm **Taken**.
 Vult iemand het contactformulier op uw website in, dan komt die aanvraag rechtstreeks in Nimble terecht —
 u hoeft niets over te typen.
 
-![Het tabblad Notities van een lead die via de website binnenkwam: de notitie Offerteaanvraag badkamer met de eerste zin van het bericht; de rest van de formuliertekst is ingekort.](../images/lead-tab-notities.png)
+![Het tabblad Notities van een lead die via de website binnenkwam: de notitie Offerteaanvraag badkamer met de volledige formuliertekst.](../images/lead-tab-notities.png)
 
 - Er wordt een lead aangemaakt in status **Nieuw**. De **leadbron** is de naam van de websitesleutel
   waarmee het formulier postte — zo ziet u van welk formulier de lead kwam. Zie

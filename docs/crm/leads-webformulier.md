@@ -1,8 +1,7 @@
 # Leads vanaf uw website
 
-<!-- Bewust GEEN afbeelding. Deze pagina beschrijft een koppeling, geen scherm: wat de gebruiker ziet is de
-     gewone leadlijst, en die staat al op leads-lijst.png. Een schermafdruk van een contactformulier toont
-     bovendien de website van een klant, of een verzonnen site die niets bewijst. -->
+<!-- Eén beeld, en bewust van Nimble en niet van een website (20/10/2026): de notitie die een aanvraag op de lead zet.
+     Een contactformulier zou de website van een klant tonen, of een verzonnen site die niets bewijst. -->
 
 Het contactformulier van uw website kan zijn inzendingen rechtstreeks in Nimble zetten. Wie het formulier
 invult, staat binnen de minuut in uw [leadlijst](leads.md) — zonder dat iemand een mailbox moet uitpluizen of
@@ -54,6 +53,8 @@ stil in een mailbox; de pagina toont altijd wat er nú geldt.
 De **websitesleutel** geeft u apart mee. Die hoort niet in een e-mail met de rest van de uitleg te staan.
 
 ## Wat er in de lead terechtkomt
+
+![Het tabblad Notities van een lead die via de website binnenkwam: de notitie Offerteaanvraag badkamer met het bericht, en daaronder Naam, Bedrijf, E-mail, Telefoon, Pagina, Formulier, Taal van de bezoeker, Referentie en de eigen velden van het formulier.](../images/lead-tab-notities.png)
 
 | Op de leadfiche | Waar het vandaan komt |
 |---|---|

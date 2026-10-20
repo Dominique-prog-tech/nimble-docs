@@ -1,6 +1,6 @@
 # Les leads depuis votre site web
 
-<!-- Bewust GEEN afbeelding. Deze pagina beschrijft een koppeling, geen scherm — zie de NL-versie. -->
+<!-- Eén beeld, van Nimble en niet van een website — zie de NL-versie. -->
 
 Le formulaire de contact de votre site web peut déposer ses envois directement dans Nimble. Celui qui remplit
 le formulaire figure dans la minute dans votre [liste de leads](leads.md) — sans que personne doive éplucher
@@ -54,6 +54,8 @@ La **clé de site web** se transmet séparément. Elle n'a pas sa place dans un 
 explications.
 
 ## Ce qui arrive dans le lead
+
+![L'onglet Notes d'un lead arrivé via le site web : la note Offerteaanvraag badkamer avec le message, puis le nom, l'entreprise, l'e-mail, le téléphone, la page, le formulaire, la langue du visiteur, la référence et les champs propres au formulaire.](../images/lead-tab-notities-fr.png)
 
 | Sur la fiche du lead | D'où cela provient |
 |---|---|

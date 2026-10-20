@@ -148,7 +148,7 @@ ces tâches dans le **Journal** du lead et dans l'écran **Tâches**.
 Lorsqu'une personne remplit le formulaire de contact de votre site web, cette demande arrive directement
 dans Nimble — vous n'avez rien à recopier.
 
-![L'onglet Notes d'un lead arrivé via le site web : la note Offerteaanvraag badkamer avec la première phrase du message ; le reste du texte du formulaire est raccourci.](../images/lead-tab-notities-fr.png)
+![L'onglet Notes d'un lead arrivé via le site web : la note Offerteaanvraag badkamer avec le texte complet du formulaire.](../images/lead-tab-notities-fr.png)
 
 - Un lead est créé au statut **Nouveau**. La **source** est le nom de la clé de site web avec laquelle
   le formulaire a posté — vous voyez ainsi de quel formulaire le lead provient. Voir
