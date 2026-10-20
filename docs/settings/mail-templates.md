@@ -120,7 +120,7 @@ wilt laten vallen.
 zoals ze zou vertrekken met wat er nú in de vakken staat — ook als u nog niet bewaard hebt. De gegevens zijn
 verzonnen, zodat u ziet welke tekst uit een variabele komt.
 
-![Het venster Voorbeeld voor het sjabloon Offerte: bovenaan de Nederlandse mail met Van, Onderwerp en de tekst met een tabel van offertenummer, datum, geldig tot en bedrag; daaronder dezelfde mail in het Frans. Alle gegevens zijn verzonnen.](../images/mailsjabloon-voorbeeld.png)
+![Het venster Voorbeeld voor het sjabloon Offerte: bovenaan, onder Nederlands, de mail met Van, Onderwerp en de tekst met een tabel van offertenummer, datum, geldig tot en bedrag; daaronder, onder Frans, dezelfde mail in het Frans. Alle gegevens zijn verzonnen.](../images/mailsjabloon-voorbeeld.png)
 
 ## Bij het versturen
 
