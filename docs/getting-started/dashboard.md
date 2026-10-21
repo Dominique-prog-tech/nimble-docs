@@ -65,7 +65,7 @@ al een bestelling onderweg is. Het artikel blijft op de kaart staan zolang er te
 Onderaan staan drie grafieken.
 
 ![De drie grafieken van het dashboard: de gefactureerde omzet per maand als lijn, de marge per lopend
-project als staafdiagram met de percentages eronder, en de ingeplande manuren per week.](../images/dashboard-grafieken.png)
+project als staafdiagram met de percentages eronder, en de ingeplande mandagen per week.](../images/dashboard-grafieken.png)
 
 - **Gefactureerde omzet per maand** — de laatste twaalf maanden, **exclusief btw**. Btw is doorgeefgeld en
   geen omzet. Een maand zonder omzet blijft in de reeks staan, zodat u een stille periode ziet in plaats van
@@ -75,7 +75,9 @@ project als staafdiagram met de percentages eronder, en de ingeplande manuren pe
   project met zijn percentage. Hebt u op de [bedrijfsfiche](../settings/company-profile.md) margegrenzen
   ingesteld, dan kleurt dat percentage groen, oranje of rood. Zonder grenzen blijft het neutraal, en staat er
   een zin onder die naar de bedrijfsfiche verwijst.
-- **Ingeplande manuren per week** — de komende acht weken, vanaf de maandag van deze week.
+- **Ingeplande mandagen per week** — de komende acht weken, vanaf de maandag van deze week. Een werf die
+  twee dagen duurt met een ploeg van drie, telt voor zes mandagen. Het aantal
+  leden is dat van de ploeg zoals ze er vandaag uitziet.
 
 Helemaal onderaan staan nog twee tellers: **Actieve projecten** en **Open werkorders**. Klik erop om naar de
 lijst te gaan.
@@ -91,11 +93,11 @@ staat, en waarom. Neem ze ernstig: een bedrag zonder die waarschuwing leest als 
 | *… goedgekeurde meerwerken dragen geen bedrag* | Vul het geschatte bedrag in bij het meerwerk |
 | *… uitgereikte facturen dragen geen bedrag* | Controleer die facturen. Zolang ze geen bedrag dragen, tellen ze voor € 0 mee in **Openstaand bij klanten**, en op de kaart **Vervallen facturen** staat *Bedrag onbekend* |
 | *… gefactureerd project draagt nog geen enkele kostregel* | Dat project staat niet in de margegrafiek. Zonder kosten zou de marge 100 % zijn, en dat is geen prestatie maar een ontbrekende meting |
-| *Er staan ploegen zonder leden ingepland* | Voeg medewerkers toe aan de ploeg; hun uren tellen anders niet mee |
+| *Er staan ploegen zonder leden of werven zonder ploeg ingepland* | Voeg medewerkers toe aan de ploeg, of wijs de werf een ploeg toe in de planning; die dagen tellen anders niet mee |
 
 ## Waarom er geen bezettingsgraad staat
 
-De grafiek **Ingeplande manuren per week** toont uren, geen percentage. Een bezettingsgraad zou moeten
+De grafiek **Ingeplande mandagen per week** toont dagen, geen percentage. Een bezettingsgraad zou moeten
 afzetten tegen wat een ploeg *kán* werken, en dat ligt vandaag nergens vast: er zijn geen contracturen per
 medewerker, geen kalender van werkdagen en geen verlof.
 

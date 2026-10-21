@@ -67,7 +67,7 @@ est déjà en route pour cet article. L'article reste sur la carte tant que le s
 En bas figurent trois graphiques.
 
 ![Les trois graphiques du tableau de bord : le chiffre d'affaires facturé par mois en courbe, la marge par
-projet en cours en barres avec les pourcentages en dessous, et les heures-homme planifiées par
+projet en cours en barres avec les pourcentages en dessous, et les jours-homme planifiés par
 semaine.](../images/dashboard-grafieken-fr.png)
 
 - **Chiffre d'affaires facturé par mois** — les douze derniers mois, **hors TVA**. La TVA transite par vous
@@ -79,7 +79,9 @@ semaine.](../images/dashboard-grafieken-fr.png)
   projet avec son pourcentage. Si vous avez défini des seuils de marge sur la
   [fiche entreprise](../settings/company-profile.md), ce pourcentage se colore en vert, orange ou rouge ;
   sans seuils, il reste neutre et une phrase en dessous renvoie à la fiche entreprise.
-- **Heures-homme planifiées par semaine** — les huit semaines à venir, à partir du lundi de cette semaine.
+- **Jours-homme planifiés par semaine** — les huit semaines à venir, à partir du lundi de cette semaine. Un
+  chantier de deux jours avec une équipe de trois compte pour six jours-homme. Le
+  nombre de membres est celui de l'équipe telle qu'elle est aujourd'hui.
 
 Tout en bas figurent encore deux compteurs : **Projets actifs** et **Ordres de travail ouverts**. Cliquez
 dessus pour ouvrir la liste.
@@ -96,11 +98,11 @@ complète.
 | *… travaux supplémentaires approuvés sans montant* | Renseignez le montant estimé sur le travail supplémentaire |
 | *… factures émises ne portent aucun montant* | Vérifiez ces factures. Tant qu'elles ne portent pas de montant, elles comptent pour 0 € dans **Encours clients**, et la carte **Factures échues** indique *Montant inconnu* |
 | *… projet facturé ne porte aucune ligne de coût* | Ce projet ne figure pas dans le graphique des marges. Sans coûts, la marge serait de 100 %, ce qui n'est pas une performance mais une mesure absente |
-| *Des équipes sans membres sont planifiées* | Ajoutez des collaborateurs à l'équipe ; sinon leurs heures ne sont pas comptées |
+| *Des équipes sans membres ou des chantiers sans équipe sont planifiés* | Ajoutez des collaborateurs à l'équipe, ou attribuez une équipe au chantier dans le planning ; sinon ces jours ne sont pas comptés |
 
 ## Pourquoi il n'y a pas de taux d'occupation
 
-Le graphique **Heures-homme planifiées par semaine** affiche des heures, pas un pourcentage. Un taux
+Le graphique **Jours-homme planifiés par semaine** affiche des jours, pas un pourcentage. Un taux
 d'occupation devrait se rapporter à ce qu'une équipe *peut* prester, et cela n'est défini nulle part
 aujourd'hui : ni heures contractuelles par collaborateur, ni calendrier des jours ouvrés, ni congés.
 
