@@ -139,6 +139,32 @@ sur matériel.
 Si vous passez en service ou en article de devis un article qui a un stock minimum ou un stock cible, ces deux
 champs sont vidés.
 
+### Vérifier les types
+
+Si beaucoup d'articles de devis sont encore en matériel, vous les convertissez en une fois avec **Vérifier les types**.
+Le bouton se trouve au-dessus de la liste des articles ; vous le voyez si vous pouvez modifier les articles.
+
+L'écran affiche les articles jamais utilisés comme matériel : sans fournisseur, sans mouvement de stock et pas en
+commande. Ce qui a un fournisseur ou un mouvement est du matériel et n'y figure pas. Un article d'heure ou de
+déplacement n'y figure pas non plus.
+
+| Colonne | Quoi |
+|---|---|
+| **Numéro**, **Nom**, **Famille** | Comme dans la liste des articles |
+| **Unité** | Une heure ou un jour indique le plus souvent un service, pas un article de devis |
+| **Sur devis** | Sur combien de lignes de devis l'article figure |
+| **Proposition** | *Article de devis* s'il figure sur au moins un devis, sinon *À décider* |
+
+1. Choisissez éventuellement une proposition en haut, par exemple uniquement *Article de devis*.
+2. Cochez les articles qui sont des articles de devis. La case dans l'en-tête de la liste coche toutes les lignes qui
+   répondent à la recherche et au filtre, y compris sur les pages suivantes.
+3. Cliquez sur **Définir comme Article de devis**. Le chiffre entre parenthèses indique combien d'articles vous
+   convertissez.
+
+Nimble ne demande pas de confirmation : le bouton dit ce qui se passe, et vous pouvez revenir en arrière sur la fiche
+de l'article. Chaque modification figure dans l'**Historique** de l'article. S'il n'y a plus rien à vérifier, l'écran
+l'indique.
+
 ## La composition d'un article de devis
 
 Derrière un article de devis se trouvent de vrais articles. Derrière *Hangtoilet geplaatst* se trouvent un WC

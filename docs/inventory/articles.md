@@ -137,6 +137,30 @@ Een offerteartikel kan geen leverancier krijgen. Koopt u het toch aan, zet de so
 Zet u een artikel met een minimum- of een streefvoorraad op dienst of op offerteartikel, dan worden die twee
 velden leeggemaakt.
 
+### Soorten nakijken
+
+Staan er veel offerteartikelen nog als materiaal, dan zet u ze in één keer om met **Soorten nakijken**. U vindt de
+knop boven de artikellijst; u ziet hem als u artikelen mag bewerken.
+
+Het scherm toont de artikelen die nooit als materiaal gebruikt zijn: zonder leverancier, zonder voorraadbeweging en
+niet in bestelling. Wat een leverancier of een beweging heeft, is materiaal en staat er niet. Een uur- of
+verplaatsingsartikel staat er evenmin.
+
+| Kolom | Wat |
+|---|---|
+| **Nummer**, **Naam**, **Familie** | Zoals in de artikellijst |
+| **Eenheid** | Een uur of een dag wijst meestal op een dienst, niet op een offerteartikel |
+| **Op offertes** | Op hoeveel offerteregels het artikel staat |
+| **Voorstel** | *Offerteartikel* als het op minstens één offerte staat, anders *Te beslissen* |
+
+1. Kies eventueel bovenaan een voorstel, bijvoorbeeld enkel *Offerteartikel*.
+2. Vink de artikelen aan die een offerteartikel zijn. Het vakje in de kop van de lijst vinkt alle rijen aan die aan de
+   zoekterm en de filter voldoen, ook op de volgende pagina's.
+3. Klik **Zet op Offerteartikel**. Het getal tussen haakjes is hoeveel artikelen u omzet.
+
+Nimble vraagt geen bevestiging: de knop zegt wat er gebeurt, en terugzetten kan op de fiche van het artikel. Elke
+wijziging staat in het **Logboek** van het artikel. Staat er niets meer na te kijken, dan meldt het scherm dat.
+
 ## De samenstelling van een offerteartikel
 
 Achter een offerteartikel zitten echte artikelen. Achter *Hangtoilet geplaatst* zitten een hangtoilet, een
