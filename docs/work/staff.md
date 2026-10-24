@@ -30,7 +30,7 @@ attest of een contract bij de juiste persoon te bewaren zonder de fiche te opene
 
 U opent een fiche door te dubbelklikken op een rij.
 
-![De fiche van Yves Maertens: links naam, code, type en functie, rechts telefoon, e-mail, uurkost met de uitleg eronder, en Actief.](../images/medewerker-fiche.png)
+![De fiche van Yves Maertens: links naam, code, type en functie, rechts telefoon, e-mail, uurkost met de uitleg eronder, en Actief; daaronder het blok App-toegang.](../images/medewerker-fiche.png)
 
 Links staat het tabblad **Algemeen**, rechts **Taken**, **Notities**, **Bijlagen** en **Logboek**.
 
@@ -74,6 +74,53 @@ Zijn uren op oude werkbonnen blijven kloppen.
 Een inactieve medewerker wordt niet meer voorgesteld in de keuzelijsten: bij de uren op een werkbon, bij de
 leden van een ploeg en bij de eigenaar van een opleverpunt. Staat hij ergens al ingevuld, dan blijft die
 keuze gewoon staan.
+
+## App-toegang
+
+Onderaan de fiche staat het blok **App-toegang**. Hier geeft u een medewerker toegang tot de mobiele app
+*Nimble – werf & werkbon*, en trekt u ze weer in. In de app ziet hij de planning van zijn ploeg, vult hij de
+werkbon in en laat hij de klant tekenen: zie [De werkbon in de app](../app/werkbon.md).
+
+![Het blok App-toegang op de fiche van een medewerker zonder toegang: de zin Deze medewerker kan de mobiele app nog niet gebruiken, met de knoppen Toegang geven en Bestaande gebruiker koppelen.](../images/medewerker-app-toegang.png)
+
+### Toegang geven
+
+1. Klik op **Toegang geven**.
+2. Vul het **E-mailadres** in waarmee de medewerker zich in de app aanmeldt.
+3. Vink **Ploegbaas** aan als hij de uren van de hele ploeg invult en de klok bedient.
+4. Klik op **Uitnodigen**.
+
+![Het venster Toegang geven met het veld E-mailadres, de uitleg dat de medewerker een mail krijgt om zelf een wachtwoord te kiezen, het vinkje Ploegbaas en de knoppen Uitnodigen en Annuleren.](../images/medewerker-app-toegang-geven.png)
+
+De medewerker krijgt een mail om zelf zijn wachtwoord te kiezen. Tot hij dat gedaan heeft, staat er
+*Uitgenodigd*. Kwam de mail niet aan, klik dan op **Opnieuw uitnodigen**.
+
+Werkt de medewerker al in Nimble, met een eigen gebruikersaccount? Klik dan op
+**Bestaande gebruiker koppelen** en kies zijn gebruiker. Hij meldt zich in de app aan met dat account; er wordt
+niets nieuws aangemaakt.
+
+Een medewerker die niet actief is of in de prullenbak zit, krijgt geen app-toegang.
+
+### Het vinkje Ploegbaas
+
+| | Met het vinkje | Zonder het vinkje |
+|---|---|---|
+| Uren op de werkbon | Voor iedereen van de ploeg | Enkel zijn eigen uren; die van de collega's ziet hij |
+| De klok | Starten en stoppen | Enkel zien lopen |
+| Dagrapport, materiaal, meerwerk, laten tekenen | Ja | Ja |
+
+U zet het vinkje aan of uit wanneer u wil. Het geldt bij de volgende handeling in de app.
+
+### Daarna
+
+Het blok toont de stand: *Actief*, met het adres waarmee hij zich aanmeldt en wanneer hij de app het laatst
+gebruikte.
+
+- **Nieuw wachtwoord** — de medewerker krijgt een mail om een nieuw wachtwoord te kiezen.
+- **Intrekken** — hij kan de app niet meer gebruiken. Een app die op dat moment open staat, werkt nog hoogstens
+  een uur. Met **Opnieuw toegang geven** zet u ze later terug.
+- Bij een medewerker met een eigen gebruikersaccount staat **Koppeling weghalen**. Hij behoudt zijn toegang tot
+  Nimble; enkel de app werkt niet meer. Zijn wachtwoord beheert u bij [Gebruikers](../administration/users.md).
 
 ## Zie ook
 

@@ -32,7 +32,7 @@ ouvrir la fiche.
 
 Vous ouvrez une fiche en double-cliquant sur une ligne.
 
-![La fiche d'Yves Maertens : à gauche le nom, le code, le type et la fonction, à droite le téléphone, l'e-mail, le coût horaire avec son explication, et Actif.](../images/medewerker-fiche-fr.png)
+![La fiche d'Yves Maertens : à gauche le nom, le code, le type et la fonction, à droite le téléphone, l'e-mail, le coût horaire avec son explication, et Actif ; en dessous, le bloc Accès à l'app.](../images/medewerker-fiche-fr.png)
 
 À gauche se trouve l'onglet **Général**, à droite **Tâches**, **Notes**, **Pièces jointes** et
 **Historique**.
@@ -78,6 +78,53 @@ cette liste. Ses heures sur d'anciens bons de travail restent correctes.
 Un collaborateur inactif n'est plus proposé dans les listes de choix : pour les heures d'un bon de travail,
 pour les membres d'une équipe et pour le responsable d'un point de réception. S'il est déjà choisi quelque
 part, ce choix reste simplement en place.
+
+## Accès à l'app
+
+En bas de la fiche figure le bloc **Accès à l'app**. Vous y donnez à un collaborateur l'accès à l'app mobile
+Nimble, et vous le lui retirez. Dans l'app, il voit le planning de son équipe, remplit le bon
+de travail et fait signer le client : voir [Le bon de travail dans l'app](../app/werkbon.md).
+
+![Le bloc Accès à l'app sur la fiche d'un collaborateur sans accès : la phrase Ce collaborateur ne peut pas encore utiliser l'app mobile, avec les boutons Donner l'accès et Lier un utilisateur existant.](../images/medewerker-app-toegang-fr.png)
+
+### Donner l'accès
+
+1. Cliquez sur **Donner l'accès**.
+2. Indiquez l'**Adresse e-mail** avec laquelle le collaborateur se connecte à l'app.
+3. Cochez **Chef d'équipe** s'il saisit les heures de toute l'équipe et utilise le chronomètre.
+4. Cliquez sur **Inviter**.
+
+![La fenêtre Donner l'accès avec le champ Adresse e-mail, l'explication que le collaborateur reçoit un e-mail pour choisir lui-même son mot de passe, la case Chef d'équipe et les boutons Inviter et Annuler.](../images/medewerker-app-toegang-geven-fr.png)
+
+Le collaborateur reçoit un e-mail pour choisir lui-même son mot de passe. Tant qu'il ne l'a pas fait, *Invité*
+s'affiche. Si l'e-mail n'est pas arrivé, cliquez sur **Réinviter**.
+
+Le collaborateur travaille déjà dans Nimble, avec son propre compte utilisateur ? Cliquez alors sur
+**Lier un utilisateur existant** et choisissez son utilisateur. Il se connecte à l'app avec ce compte ; rien de
+nouveau n'est créé.
+
+Un collaborateur inactif ou dans la corbeille ne reçoit pas d'accès à l'app.
+
+### La case Chef d'équipe
+
+| | Avec la case | Sans la case |
+|---|---|---|
+| Heures sur le bon de travail | Pour toute l'équipe | Uniquement ses propres heures ; il voit celles de ses collègues |
+| Le chronomètre | Démarrer et arrêter | Uniquement le voir tourner |
+| Rapport journalier, matériel, travaux supplémentaires, faire signer | Oui | Oui |
+
+Vous cochez ou décochez la case quand vous le souhaitez. Elle s'applique dès l'action suivante dans l'app.
+
+### Ensuite
+
+Le bloc indique la situation : *Actif*, avec l'adresse avec laquelle il se connecte et quand il a utilisé l'app
+pour la dernière fois.
+
+- **Nouveau mot de passe** — le collaborateur reçoit un e-mail pour choisir un nouveau mot de passe.
+- **Révoquer** — il ne peut plus utiliser l'app. Une app ouverte à ce moment fonctionne encore une heure au plus.
+  Avec **Rétablir l'accès**, vous le lui rendez plus tard.
+- Pour un collaborateur avec son propre compte utilisateur figure **Supprimer le lien**. Il garde son accès à
+  Nimble ; seule l'app ne fonctionne plus. Son mot de passe se gère sous [Utilisateurs](../administration/users.md).
 
 ## Voir aussi
 
