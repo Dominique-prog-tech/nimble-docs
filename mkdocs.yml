@@ -161,6 +161,7 @@ plugins:
             Laten tekenen: Faire signer le client
             Het project: Le projet
             Taken en Mijn uren: Tâches et Mes heures
+            Zonder bereik: Sans connexion
             Klantenportaal: Portail client
             Wanneer uw account beperkt is: Lorsque votre compte est limité
             Tweestapsverificatie en passkeys: Vérification en deux étapes et clés d'accès
@@ -291,7 +292,7 @@ nav:
     - Planning: work/planning.md
     - Medewerkers: work/staff.md
     - Ploegen: work/teams.md
-  # De mobiele app (24/10/2026): Aan de slag, Vandaag, De werkbon, Laten tekenen, Het project, Taken en Mijn uren; Zonder bereik volgt. Beelden met de hand uit de simulator
+  # De mobiele app (24/10/2026): Aan de slag, Vandaag, De werkbon, Laten tekenen, Het project, Taken en Mijn uren, Zonder bereik. Beelden met de hand uit de simulator
   # (winkelbeelden 21/10) — de automatische beeldronde bedient de app niet.
   - Mobiele app:
     - Aan de slag: app/aan-de-slag.md
@@ -300,6 +301,7 @@ nav:
     - Laten tekenen: app/laten-tekenen.md
     - Het project: app/project.md
     - Taken en Mijn uren: app/taken-en-uren.md
+    - Zonder bereik: app/zonder-bereik.md
   - Voorraad:
     - Artikelen: inventory/articles.md
     - Voorraadstand: inventory/stock-level.md
