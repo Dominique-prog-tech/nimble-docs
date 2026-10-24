@@ -326,6 +326,55 @@ De aankoopprijs en **Staffel** ziet u alleen met het recht *Marges en kostprijze
     Elke regel heeft een vanaf-aantal groter dan 0 én een prijs, en een vanaf-aantal staat maar één keer in
     de staffel van een leverancier. Klopt er iets niet, dan zegt de melding bovenaan het wanneer u bewaart.
 
+### Een prijslijst inlezen
+
+Bezorgt een leverancier zijn prijslijst als Excel, dan leest u ze in één keer in, in plaats van elk artikel apart aan
+te maken. Klik boven de artikellijst op **Prijslijst inlezen**. U ziet de knop als u artikelen mag bewerken en het recht
+*Marges en kostprijzen bekijken* hebt.
+
+Het scherm heeft vier stappen. Er wordt pas iets bewaard wanneer u onderaan op **Inlezen** klikt.
+
+1. **Leverancier en bestand** — kies de **Leverancier** en sleep het Excel-bestand in het vak (.xlsx, hoogstens 5 MB;
+   het eerste blad wordt gelezen).
+2. **Kolommen** — welke kolom het **Artikelnummer**, de **Omschrijving** en de **Prijs** draagt; die drie zijn
+   verplicht. Daarnaast eventueel de **Eenheid** en het **Aantal bij de prijs**. Nimble stelt de kolommen voor op
+   basis van de kopregel; pas aan waar nodig.
+3. **Eenheden en familie** — koppel elke eenheid uit het bestand aan een van uw eenheden, en kies de
+   **Familie voor nieuwe artikelen**. Met **Regel toevoegen** kiest u een familie volgens het begin van het
+   artikelnummer (bv. *06.* voor dakbedekking); het langste begin dat past, wint.
+4. **Voorbeeld** — per artikel wat er zal gebeuren.
+
+| Wat gebeurt er | Betekenis |
+|---|---|
+| **Nieuw** | Het artikel bestaat nog niet bij deze leverancier en wordt aangemaakt |
+| **Prijs wijzigt** | Het bestaat al; de prijs of de staffel van deze leverancier wordt bijgewerkt |
+| **Ongewijzigd** | Het bestaat al en alles is gelijk |
+| **Overgeslagen** | Het kan niet ingelezen worden — de **Toelichting** zegt waarom |
+
+Klopt het voorbeeld, klik dan **Inlezen** en bevestig.
+
+Zo worden de artikelen ingelezen:
+
+- Het artikelnummer in Nimble is dat van de leverancier. Opnieuw inlezen herkent het artikel aan de leverancier en zijn
+  artikelnummer, en werkt de prijs bij: er komen geen dubbels.
+- Een nieuw artikel krijgt deze leverancier als **voorkeursleverancier**; zijn prijs wordt de kostprijs. Een
+  verkoopprijs vult Nimble niet in.
+- Een regel zonder prijs of aan € 0 wordt niet overgenomen.
+- Met een **Aantal bij de prijs** worden de prijzen een [staffel](#staffelprijzen). Staat **Het kleinste aantal is de
+  basisprijs** aan, dan geeft de regel met het kleinste aantal de basisprijs (bij één regel is dat aantal de
+  verpakking); anders is een aantal 0 of leeg de basisprijs.
+- Een artikel met een eenheid die niet gekoppeld is, zonder familie, of met een nummer dat al bij een ander artikel
+  hoort, wordt overgeslagen — nooit met een gok ingelezen.
+
+#### De volgende lijst van dezelfde leverancier
+
+Nimble onthoudt per leverancier wat u koos: de kolommen, de eenheden en de families. Leest u later een nieuwe lijst
+van dezelfde leverancier in, dan staat er *De instellingen van de vorige keer (datum) zijn toegepast*. Kijk ze na
+voor u inleest.
+
+De kolommen worden teruggezocht op hun **koptekst**: voegt de leverancier een kolom toe of verschuift hij er een, dan
+vindt Nimble de juiste terug. Is een kolom niet terug te vinden, dan staat er welke, en stelt Nimble ze opnieuw voor.
+
 ## Een artikel verwijderen
 
 Klik op de fiche op **Verwijderen** en bevestig. Het artikel verdwijnt uit de lijst en komt in de

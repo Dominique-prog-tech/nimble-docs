@@ -336,6 +336,56 @@ Le prix d'achat et **Prix dégressifs** ne sont visibles qu'avec le droit *Voir 
     les prix dégressifs d'un fournisseur. Si quelque chose ne va pas, le message en haut le signale lorsque
     vous enregistrez.
 
+### Importer une liste de prix
+
+Si un fournisseur livre sa liste de prix en Excel, vous l'importez en une fois, au lieu de créer chaque article
+séparément. Au-dessus de la liste des articles, cliquez sur **Importer une liste de prix**. Vous voyez le bouton si vous
+pouvez modifier les articles et avez le droit *Voir les marges et prix de revient*.
+
+L'écran comporte quatre étapes. Rien n'est enregistré avant que vous cliquiez en bas sur **Importer**.
+
+1. **Fournisseur et fichier** — choisissez le **Fournisseur** et glissez le fichier Excel dans la zone (.xlsx,
+   5 Mo maximum ; la première feuille est lue).
+2. **Colonnes** — quelle colonne porte le **Numéro d'article**, la **Description** et le **Prix** ; ces trois-là sont
+   obligatoires. En plus, éventuellement l'**Unité** et la **Quantité liée au prix**. Nimble propose les colonnes sur
+   la base de la ligne d'en-tête ; adaptez si nécessaire.
+3. **Unités et famille** — associez chaque unité du fichier à l'une de vos unités, et choisissez la
+   **Famille des nouveaux articles**. Avec **Ajouter une ligne**, vous choisissez une famille selon le début du numéro
+   d'article (p. ex. *06.* pour la couverture de toiture) ; le plus long début correspondant l'emporte.
+4. **Aperçu** — pour chaque article, ce qui va se passer.
+
+| Ce qui se passe | Signification |
+|---|---|
+| **Nouveau** | L'article n'existe pas encore chez ce fournisseur et est créé |
+| **Prix modifié** | Il existe déjà ; le prix ou les paliers de ce fournisseur sont mis à jour |
+| **Inchangé** | Il existe déjà et tout est identique |
+| **Ignoré** | Il ne peut pas être importé — l'**Explication** dit pourquoi |
+
+Si l'aperçu est correct, cliquez sur **Importer** et confirmez.
+
+Les articles sont importés ainsi :
+
+- Le numéro d'article dans Nimble est celui du fournisseur. Une nouvelle importation reconnaît l'article à son
+  fournisseur et à son numéro d'article, et met le prix à jour : il n'y a pas de doublons.
+- Un nouvel article reçoit ce fournisseur comme **fournisseur préféré** ; son prix devient le prix de revient. Nimble ne
+  remplit pas de prix de vente.
+- Une ligne sans prix ou à 0 € n'est pas reprise.
+- Avec une **Quantité liée au prix**, les prix deviennent des [prix dégressifs](#prix-degressifs). Si
+  **La plus petite quantité est le prix de base** est activé, la ligne avec la plus petite quantité donne le prix de
+  base (avec une seule ligne, cette quantité est le conditionnement) ; sinon, une quantité 0 ou vide est le prix de
+  base.
+- Un article dont l'unité n'est pas associée, sans famille, ou dont le numéro appartient déjà à un autre article est
+  ignoré — jamais importé au hasard.
+
+#### La liste suivante du même fournisseur
+
+Nimble retient par fournisseur ce que vous avez choisi : les colonnes, les unités et les familles. Si vous importez plus
+tard une nouvelle liste du même fournisseur, *Les réglages de la dernière fois (date) ont été appliqués* s'affiche.
+Vérifiez-les avant d'importer.
+
+Les colonnes sont retrouvées grâce à leur **en-tête** : si le fournisseur ajoute ou déplace une colonne, Nimble retrouve
+la bonne. Si une colonne est introuvable, l'écran indique laquelle, et Nimble la propose à nouveau.
+
 ## Supprimer un article
 
 Cliquez sur **Supprimer** sur la fiche et confirmez. L'article disparaît de la liste et arrive dans la
