@@ -226,6 +226,7 @@ plugins:
             Tenants: Tenants
             Gebruikers: Utilisateurs
             Rollen: Rôles
+            App-toegang: Accès à l'app
             Prullenbak: Corbeille
             Actielogboek: Journal d'audit
             Dashboard: Tableau de bord
@@ -320,6 +321,7 @@ nav:
     - Tenants: administration/tenants.md
     - Gebruikers: administration/users.md
     - Rollen: administration/roles.md
+    - App-toegang: administration/app-access.md
     - Prullenbak: administration/recycle-bin.md
     - Actielogboek: administration/audit-log.md
     - Conversie: administration/conversion.md

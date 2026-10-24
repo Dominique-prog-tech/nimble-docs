@@ -1,12 +1,12 @@
 # Platformbeheer
 
-Op het scherm **Platformbeheer** vindt u de gedeelde instellingen en stamgegevens van uw bedrijf, gegroepeerd in tegels: de bedrijfsfiche, artikelfamilies, eenheden, de keuzelijsten voor projecten, relaties, verkoop en leads, en het beheer van rollen en verwijderde gegevens.
+Op het scherm **Platformbeheer** vindt u de gedeelde instellingen en stamgegevens van uw bedrijf, gegroepeerd in tegels: de bedrijfsfiche, artikelfamilies, eenheden, de keuzelijsten voor projecten, relaties, verkoop en leads, het beheer van rollen en verwijderde gegevens, en wie zonder medewerkersfiche de mobiele app gebruikt.
 
 ## Het scherm openen
 
 Klik onderaan in de zijbalk op **Platformbeheer**.
 
-![De hub Platformbeheer met de tegelgroepen Bedrijf, Artikelen, Projecten, Relaties, Verkoop, Leads en Gegevens en toegang. In die laatste groep staan Rollen, Prullenbak en Actielogboek.](../images/platformbeheer-hub.png)
+![De hub Platformbeheer met de tegelgroepen Bedrijf, Artikelen, Projecten, Relaties, Verkoop, Leads en Gegevens en toegang. In die laatste groep staan Rollen, App-toegang, Prullenbak en Actielogboek.](../images/platformbeheer-hub.png)
 
 !!! info "Rechten"
     U ziet enkel de tegels waarvoor u rechten hebt. Ziet u een tegel niet, vraag dan uw beheerder om het bijbehorende recht toe te kennen via **Platformbeheer → Rollen**.
@@ -21,7 +21,7 @@ Klik onderaan in de zijbalk op **Platformbeheer**.
 | **Relaties** | [Klantcategorieën](account-categories.md), [Contactfuncties](contact-functions.md), [Aansprekingen](contact-salutations.md) |
 | **Verkoop** | [Offertestatus](quote-status.md), [Factuurstatus](invoice-status.md), [Btw-codes](vat-codes.md), [Documentsjablonen](../settings/document-templates.md), [Mailsjablonen](../settings/mail-templates.md), [Mailafzenders](../settings/mail-senders.md) |
 | **Leads** | [Leadbronnen](lead-sources.md), [Types aanvraag](lead-request-types.md), [Leadfases](lead-status.md), [Leadopvolging](lead-follow-up.md) |
-| **Gegevens en toegang** | [Rollen](roles.md), [Prullenbak](recycle-bin.md), [Actielogboek](audit-log.md) |
+| **Gegevens en toegang** | [Rollen](roles.md), [App-toegang](app-access.md), [Prullenbak](recycle-bin.md), [Actielogboek](audit-log.md) |
 | **ADM-beheer** | [Tenants](tenants.md), [Gebruikers](users.md), [Conversie](conversion.md) — enkel voor ADM-operators; u ziet deze groep niet |
 
 Elke tegel opent een beheerscherm. Bovenaan elk scherm brengt **← Terug naar platformbeheer** u terug naar deze hub.
