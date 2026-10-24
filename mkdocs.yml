@@ -155,6 +155,8 @@ plugins:
                   name: Passer en mode clair
           nav_translations:
             Home: Accueil
+            Mobiele app: Application mobile
+            De werkbon: Le bon de travail
             Klantenportaal: Portail client
             Wanneer uw account beperkt is: Lorsque votre compte est limité
             Tweestapsverificatie en passkeys: Vérification en deux étapes et clés d'accès
@@ -284,6 +286,10 @@ nav:
     - Planning: work/planning.md
     - Medewerkers: work/staff.md
     - Ploegen: work/teams.md
+  # De mobiele app (24/10/2026): eerst De werkbon, de andere pagina's volgen. Beelden met de hand uit de simulator
+  # (winkelbeelden 21/10) — de automatische beeldronde bedient de app niet.
+  - Mobiele app:
+    - De werkbon: app/werkbon.md
   - Voorraad:
     - Artikelen: inventory/articles.md
     - Voorraadstand: inventory/stock-level.md
