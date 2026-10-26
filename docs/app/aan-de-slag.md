@@ -29,7 +29,7 @@ Wie al in Nimble werkt, meldt zich in de app aan met hetzelfde e-mailadres en wa
 Gebruikt u tweestapsverificatie, dan vraagt de app daarna een **Code**: uit uw authenticator-app of uit een mail.
 Hebt u uw toestel niet bij de hand, tik dan op **Ik gebruik een herstelcode**.
 
-U blijft aangemeld; de app opent op **Vandaag**. Staat er *Uw aanmelding is niet meer geldig*, meld u dan opnieuw aan.
+U blijft aangemeld; de app opent op **Vandaag**, of op het [Overzicht](overzicht.md) als u dat mag zien. Staat er *Uw aanmelding is niet meer geldig*, meld u dan opnieuw aan.
 Lukt dat niet, dan heeft kantoor uw toegang misschien ingetrokken.
 
 ## Het menu
@@ -43,6 +43,11 @@ Linksboven opent ☰ het menu:
 | **Mijn uren** | Uw uren per week, zoals ze op de werkbonnen staan |
 | **Projecten** | Enkel voor wie geen medewerker is: de projecten uit zijn bereik |
 | **Profiel** | De **Weergave** — licht, donker of zoals uw toestel — en afmelden |
+
+Wie de zaak opvolgt, ziet meer: het **Overzicht**, de **Planning**, en de schermen van **CRM**, **Verkoop**, **Inkoop**
+en **Voorraad**, met **Meerwerken** en **Openstaande punten** onder **Werk**. Het menu staat dan in groepen, zoals in de
+backoffice, en toont enkel wat u volgens uw rol ook in de backoffice mag zien. Zie
+[Overzicht en planning](overzicht.md).
 
 Onderaan het menu staat **Afmelden**. Afmelden geldt enkel voor dit toestel.
 

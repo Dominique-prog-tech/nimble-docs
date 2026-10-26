@@ -162,6 +162,8 @@ plugins:
             Het project: Le projet
             Taken en Mijn uren: Tâches et Mes heures
             Zonder bereik: Sans connexion
+            Overzicht en planning: Aperçu et planification
+            Relaties en leads: Relations et leads
             Klantenportaal: Portail client
             Wanneer uw account beperkt is: Lorsque votre compte est limité
             Tweestapsverificatie en passkeys: Vérification en deux étapes et clés d'accès
@@ -302,6 +304,13 @@ nav:
     - Het project: app/project.md
     - Taken en Mijn uren: app/taken-en-uren.md
     - Zonder bereik: app/zonder-bereik.md
+    # Voor wie de zaak opvolgt (app 2.2.0, 26/10/2026): enkel met de rechten van de backoffice. Beelden uit de widgettests van de app.
+    - Overzicht en planning: app/overzicht.md
+    - Verkoop: app/verkoop.md
+    - Relaties en leads: app/relaties-en-leads.md
+    - Inkoop: app/inkoop.md
+    - Werk: app/werk.md
+    - Voorraad: app/voorraad.md
   - Voorraad:
     - Artikelen: inventory/articles.md
     - Voorraadstand: inventory/stock-level.md

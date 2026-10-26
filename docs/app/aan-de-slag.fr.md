@@ -31,7 +31,7 @@ Si vous utilisez la vérification en deux étapes, l'app demande ensuite un **Co
 d'authentification ou d'un e-mail. Si vous n'avez pas votre appareil sous la main, touchez
 **J'utilise un code de récupération**.
 
-Vous restez connecté ; l'app s'ouvre sur **Aujourd'hui**. Si *Votre connexion n'est plus valable* s'affiche,
+Vous restez connecté ; l'app s'ouvre sur **Aujourd'hui**, ou sur l'[Aperçu](overzicht.md) si vous pouvez le voir. Si *Votre connexion n'est plus valable* s'affiche,
 reconnectez-vous. Si cela ne fonctionne pas, le bureau a peut-être retiré votre accès.
 
 ## Le menu
@@ -45,6 +45,11 @@ En haut à gauche, ☰ ouvre le menu :
 | **Mes heures** | Vos heures par semaine, telles qu'elles figurent sur les bons de travail |
 | **Projets** | Uniquement pour qui n'est pas collaborateur : les projets de sa portée |
 | **Profil** | L'**Affichage** — clair, sombre ou comme votre appareil — et la déconnexion |
+
+Celui qui suit l'entreprise voit davantage : l'**Aperçu**, la **Planification**, et les écrans **CRM**, **Ventes**,
+**Achats** et **Stock**, avec **Travaux supplémentaires** et **Points ouverts** sous **Travail**. Le menu est alors
+groupé, comme dans le back-office, et n'affiche que ce que votre rôle vous permet de voir dans le back-office. Voir
+[Aperçu et planification](overzicht.md).
 
 En bas du menu figure **Se déconnecter**. La déconnexion vaut uniquement pour cet appareil.
 
