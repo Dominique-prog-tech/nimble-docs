@@ -54,6 +54,14 @@ toont dan **… geweigerd — kijk na**, en de handeling staat in het rood met d
 
 Bij een geweigerde werkbon kijkt u eerst na wat er bij Nimble veranderde, en vult u de werkbon opnieuw in.
 
+### Te oud om nog te versturen
+
+Een handeling die meer dan 30 dagen wacht, vertrekt niet meer. Ze staat in het rood met **Te oud om nog te versturen**,
+en de strook telt ze bij de geweigerde. U kunt ze enkel **weggooien**: opnieuw proberen helpt niet, want de handeling
+blijft even oud.
+
+Kijk eerst na of het al in Nimble staat. Zo niet, doe het opnieuw en gooi de oude handeling weg.
+
 ## Afmelden met iets in de wachtrij
 
 Wat nog niet verstuurd is, staat enkel op uw toestel. Wilt u zich afmelden terwijl er nog iets wacht, dan waarschuwt

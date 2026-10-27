@@ -57,6 +57,14 @@ bande affiche alors **… refusée(s) — à vérifier**, et l'action apparaît 
 Pour un bon de travail refusé, vérifiez d'abord ce qui a changé chez Nimble, puis complétez à nouveau le bon de
 travail.
 
+### Trop ancien pour être encore envoyé
+
+Une action qui attend depuis plus de 30 jours ne part plus. Elle apparaît en rouge avec **Trop ancien pour être encore
+envoyé**, et la bande la compte parmi les refusées. Vous pouvez seulement la **supprimer** : réessayer n'y change rien,
+car l'action garde son ancienneté.
+
+Vérifiez d'abord si c'est déjà dans Nimble. Sinon, refaites-le et supprimez l'ancienne action.
+
 ## Se déconnecter avec quelque chose en attente
 
 Ce qui n'est pas encore envoyé se trouve uniquement sur votre appareil. Si vous voulez vous déconnecter alors que
