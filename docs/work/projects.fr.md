@@ -408,6 +408,11 @@ collaborateurs actifs.
 Dans la liste, vous marquez un point comme fait avec **Cocher** ; la colonne **Terminé** affiche alors la
 date. La croix supprime un point. Les points cochés figurent en bas, en gris.
 
+Dans la colonne **Photos**, un point qui a des photos affiche l'icône d'appareil photo avec leur nombre. Un clic
+montre les photos de ce point. Qui peut modifier le projet peut aussi en ajouter ou en supprimer ; l'icône figure alors
+à chaque point. L'équipe prend ces photos le plus souvent dans l'app, au point même (voir [Le projet dans
+l'app](../app/project.md)). Elles figurent uniquement au point, pas parmi les documents du projet.
+
 Une date dépassée s'affiche en rouge. Sur l'image ci-dessus, c'est le cas pour deux points.
 
 Les points ouverts de tous les projets figurent ensemble dans [Points ouverts](open-points.md).

@@ -395,6 +395,11 @@ klik **Punt toevoegen**. Als eigenaar kiest u uit de actieve medewerkers.
 In de lijst zet u een punt klaar met **Afvinken**; in de kolom **Klaar** staat dan de datum. Met het kruisje
 verwijdert u een punt. Afgevinkte punten staan onderaan, in het grijs.
 
+In de kolom **Foto's** staat bij een punt met foto's het camera-icoon met hun aantal. Een klik toont de foto's van dat
+punt. Wie het project mag bewerken, kan er daar ook een toevoegen of weggooien; het icoon staat dan bij elk punt. De
+ploeg neemt die foto's meestal in de app, bij het punt zelf (zie [Het project in de app](../app/project.md)). Ze staan
+enkel bij het punt, niet tussen de documenten van het project.
+
 Een vervallen datum staat in het rood. In het beeld hierboven is dat het geval bij twee punten.
 
 De open punten van alle projecten samen ziet u op [Openstaande punten](open-points.md).

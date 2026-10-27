@@ -37,6 +37,11 @@ Ajouter un point :
 
 Un point dont le délai est dépassé apparaît en rouge. Les points cochés restent visibles encore 14 jours.
 
+Une photo à un point, par exemple pour prouver qu'il est en ordre : touchez l'**icône d'appareil photo** à droite du
+point, prenez ou choisissez la photo et touchez **Envoyer**. Il n'y a pas de dossier à choisir : la photo appartient au
+point. Le chiffre sur l'icône indique combien de photos le point a déjà. Même sans connexion : la photo part dès que le
+réseau revient. Vous les consultez dans le back-office, sur la fiche du projet.
+
 ## Tâches
 
 Les tâches de ce projet qui vous sont attribuées ou que vous avez créées. Avec **Ajouter une tâche**, vous créez une

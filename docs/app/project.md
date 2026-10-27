@@ -35,6 +35,11 @@ Een punt toevoegen:
 
 Een punt waarvan de termijn voorbij is, staat in het rood. Afgevinkte punten blijven nog 14 dagen zichtbaar.
 
+Een foto bij een punt, bijvoorbeeld als bewijs dat het in orde is: tik op het **camera-icoon** rechts van het punt,
+neem of kies de foto en tik op **Opladen**. Er is geen map te kiezen: de foto hoort bij het punt. Het getal op het
+icoon zegt hoeveel foto's het punt al heeft. Ook zonder bereik: de foto vertrekt zodra er weer bereik is. Bekijken
+doet u in de backoffice, op de projectfiche.
+
 ## Taken
 
 De taken van dit project die aan u toegewezen zijn of die u zelf aanmaakte. Met **Taak toevoegen** maakt u een nieuwe
