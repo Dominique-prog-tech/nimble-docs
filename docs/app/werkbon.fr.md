@@ -64,8 +64,13 @@ modifie ses heures.
 ## Matériel consommé
 
 1. Touchez **Ajouter du matériel**.
-2. Choisissez un article dans **Proposé pour ce projet**, ou recherchez par nom ou code (au moins 2 caractères).
+2. Choisissez un article dans **Proposé pour ce projet**, recherchez par nom ou code (au moins 2 caractères), ou
+   touchez l'**icône de scan** dans le champ de recherche et pointez l'appareil photo vers le code-barres.
 3. Indiquez la **Quantité** et touchez **Ajouter**.
+
+Après un scan, l'app passe directement à la quantité s'il y a exactement un article avec ce code-barres, même sans
+connexion pour les articles proposés. Si elle ne trouve rien, **Aucun article avec l'EAN …** s'affiche : recherchez
+alors par nom ou code.
 
 Le matériel est aussitôt déduit du stock et figure ensuite sur le bon de travail. Modifier ou retirer une ligne
 n'est pas possible dans l'app : une erreur se corrige au bureau.
@@ -99,6 +104,11 @@ d'aujourd'hui.
     Chaque fois que vous touchez **Ajouter**, le matériel est déduit du stock. S'il figure déjà sur le bon de
     travail, ne l'ajoutez pas une seconde fois. Si quelque chose figure tout de même en double, demandez au bureau
     de le corriger.
+
+!!! warning "Nimble n'a pas accès à l'appareil photo"
+    Ce message s'affiche après avoir touché l'icône de scan si vous avez refusé l'appareil photo à Nimble.
+    Autorisez-le dans les réglages de votre appareil, pour Nimble. La recherche par nom ou code fonctionne
+    entre-temps normalement.
 
 !!! warning "Laisser tourner le chronomètre"
     Si vous oubliez d'arrêter le chronomètre, **Oublié ?** s'affiche la fois suivante. Indiquez alors l'heure de fin

@@ -15,7 +15,8 @@ trouvent les articles et l'état du stock.
 
 ## Articles
 
-Cherchez par code, nom, EAN, fabricant ou famille. La liste s'ouvre sur **Actifs** ; avec **Tous**, vous voyez aussi
+Cherchez par code, nom, EAN, fabricant ou famille, ou touchez l'**icône de scan** dans le champ de recherche et scannez
+le code-barres : s'il y a exactement un article avec ce code, la fiche s'ouvre aussitôt. La liste s'ouvre sur **Actifs** ; avec **Tous**, vous voyez aussi
 les articles qui ne sont plus actifs. Pour chaque article, vous voyez le nom, le code, la famille, le prix de vente et
 la quantité en stock.
 

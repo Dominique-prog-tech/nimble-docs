@@ -60,8 +60,12 @@ zijn uren past enkel kantoor aan.
 ## Verbruikt materiaal
 
 1. Tik op **Materiaal toevoegen**.
-2. Kies een artikel uit **Voorgesteld voor dit project**, of zoek op naam of code (minstens 2 tekens).
+2. Kies een artikel uit **Voorgesteld voor dit project**, zoek op naam of code (minstens 2 tekens), of tik op het
+   **scanicoon** in het zoekveld en richt de camera op de barcode.
 3. Vul de **Hoeveelheid** in en tik op **Toevoegen**.
+
+Na een scan gaat de app meteen naar de hoeveelheid als er precies één artikel met die barcode is, ook zonder bereik
+voor de artikelen uit het voorstel. Vindt ze niets, dan staat er **Geen artikel met EAN …**: zoek dan op naam of code.
 
 Het materiaal wordt meteen van de voorraad afgeboekt en staat daarna op de werkbon. Een regel wijzigen of
 weghalen kan in de app niet: een vergissing corrigeert kantoor.
@@ -91,6 +95,10 @@ en de klok stilstaat: de klant tekent wat bewaard is, met de uren van vandaag.
 !!! warning "Materiaal twee keer toevoegen"
     Elke keer dat u **Toevoegen** tikt, wordt het materiaal afgeboekt. Staat het al op de werkbon, voeg het dan
     niet opnieuw toe. Is er toch iets dubbel, vraag kantoor het recht te zetten.
+
+!!! warning "Nimble mag de camera niet gebruiken"
+    Dat staat er na een tik op het scanicoon als u Nimble de camera weigerde. Geef toegang in de instellingen van uw
+    toestel, bij Nimble. Zoeken op naam of code werkt intussen gewoon.
 
 !!! warning "De klok laten lopen"
     Vergeet u de klok te stoppen, dan staat er de volgende keer **Vergeten?**. Vul dan het werkelijke einduur

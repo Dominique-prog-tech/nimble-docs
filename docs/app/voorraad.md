@@ -15,7 +15,8 @@ menu staan de artikelen en de voorraadstand.
 
 ## Artikelen
 
-Zoek op code, naam, EAN, fabrikant of familie. De lijst opent op **Actief**; met **Alle** ziet u ook de artikelen die
+Zoek op code, naam, EAN, fabrikant of familie, of tik op het **scanicoon** in het zoekveld en scan de barcode: is er
+precies één artikel met die code, dan opent de fiche meteen. De lijst opent op **Actief**; met **Alle** ziet u ook de artikelen die
 niet meer actief zijn. Per artikel ziet u de naam, de code, de familie, de verkoopprijs en hoeveel er in stock ligt.
 
 Een dienst of een offerteartikel heeft geen voorraad: daar blijft de stand leeg, en het artikel draagt zijn soort.
