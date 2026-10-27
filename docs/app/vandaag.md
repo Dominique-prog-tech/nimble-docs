@@ -4,7 +4,7 @@
 u de werkbon, het project of de route naar de werf. Het is dezelfde planning die kantoor maakt in
 [Planning](../work/planning.md).
 
-![Vandaag in de app op een tablet: bovenaan woensdag 21 oktober met pijlen naar de vorige en de volgende dag, daaronder vier kaarten. De eerste kaart, Residentie Turnhoutsebaan, toont 1 dag, Ploeg sanitair en Startklaar, de werkorder WO-2026-002 met de knop Werkbon, en het werfadres met de knop Navigeren.](../images/app-vandaag.png){ width="560" }
+![Vandaag in de app op een tablet: links woensdag 7 oktober met pijlen naar de vorige en de volgende dag en twee kaarten, met de kleur van de ploeg als een staafje links. De eerste kaart, Residentie Turnhoutsebaan, is gekozen: 1 dag, Ploeg sanitair en Startklaar, de werkorder WO-2026-002 met de knop Werkbon, en het werfadres met de knop Navigeren. Rechts het project van die werf, P2026-001.](../images/app-vandaag.png){ width="560" }
 
 ## Een andere dag kiezen
 

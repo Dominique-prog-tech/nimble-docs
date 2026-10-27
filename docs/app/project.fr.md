@@ -9,7 +9,7 @@ montants n'y figurent pas. Vous y ajoutez aussi des photos, des tâches et des p
 Dans [Aujourd'hui](vandaag.md), touchez la carte d'un chantier. Qui n'est pas collaborateur ouvre aussi un projet via
 **Projets** dans le menu.
 
-![L'écran Projet sur une tablette pour P2026-001 : le statut Actif et la période, le Chantier avec l'adresse et Itinéraire, le Client avec ses personnes de contact et un bouton pour appeler et envoyer un e-mail, la Préparation Prêt à démarrer avec 7 sur 7 points obligatoires cochés, Tâches avec Ajouter une tâche, deux Points de réception avec Ajouter un point, les Ordres de travail, et les Documents avec en bas à droite le bouton Photo.](../images/app-project-fr.png){ width="560" }
+![L'écran Projet sur une tablette pour P2026-001 : le statut Actif et la période, le Chantier avec l'adresse et Itinéraire, le Client avec ses personnes de contact et un bouton pour appeler et envoyer un e-mail, la Préparation Pas prêt avec 5 sur 7 points obligatoires cochés, Tâches avec Ajouter une tâche, quatre Points de réception avec Ajouter un point et à droite de chaque point une icône d'appareil photo (la première avec 1 photo), les Ordres de travail, et en bas à droite le bouton Photo.](../images/app-project-fr.png){ width="560" }
 
 ## Chantier, client et personnes de contact
 

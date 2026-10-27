@@ -9,7 +9,7 @@ hier ook foto's, taken en opleverpunten toe.
 Tik in [Vandaag](vandaag.md) op de kaart van een werf. Wie geen medewerker is, opent een project ook via
 **Projecten** in het menu.
 
-![Het scherm Project op een tablet voor P2026-001: de status Actief en de periode, de Werf met het adres en Navigeren, de Klant met zijn contactpersonen en een bel- en mailknop, de Voorbereiding Startklaar met 7 van 7 verplichte punten afgevinkt, Taken met Taak toevoegen, twee Opleverpunten met Punt toevoegen, de Werkorders, en de Documenten met rechtsonder de knop Foto.](../images/app-project.png){ width="560" }
+![Het scherm Project op een tablet voor P2026-001: de status Actief en de periode, de Werf met het adres en Navigeren, de Klant met zijn contactpersonen en een bel- en mailknop, de Voorbereiding Niet startklaar met 5 van 7 verplichte punten afgevinkt, Taken met Taak toevoegen, vier Opleverpunten met Punt toevoegen en rechts bij elk punt een camera-icoon (het eerste met 1 foto), de Werkorders, en rechtsonder de knop Foto.](../images/app-project.png){ width="560" }
 
 ## Werf, klant en contactpersonen
 

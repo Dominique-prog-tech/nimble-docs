@@ -4,7 +4,7 @@
 De là, vous ouvrez le bon de travail, le projet ou l'itinéraire vers le chantier. C'est le même planning que celui du
 bureau dans [Planning](../work/planning.md).
 
-![Aujourd'hui dans l'app sur une tablette : en haut le mercredi 21 octobre avec des flèches vers le jour précédent et le jour suivant, puis quatre cartes. La première carte, Residentie Turnhoutsebaan, affiche 1 jour, Ploeg sanitair et Prêt à démarrer, l'ordre de travail WO-2026-002 avec le bouton Bon de travail, et l'adresse du chantier avec le bouton Itinéraire.](../images/app-vandaag-fr.png){ width="560" }
+![Aujourd'hui dans l'app sur une tablette : à gauche le mercredi 7 octobre avec des flèches vers le jour précédent et le jour suivant et deux cartes, avec la couleur de l'équipe sous forme d'une barre à gauche. La première carte, Residentie Turnhoutsebaan, est choisie : 1 jour, Ploeg sanitair et Prêt à démarrer, l'ordre de travail WO-2026-002 avec le bouton Bon de travail, et l'adresse du chantier avec le bouton Itinéraire. À droite le projet de ce chantier, P2026-001.](../images/app-vandaag-fr.png){ width="560" }
 
 ## Choisir un autre jour
 
