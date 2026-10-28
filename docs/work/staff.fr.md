@@ -121,8 +121,10 @@ Le bloc indique la situation : *Actif*, avec l'adresse avec laquelle il se conne
 pour la dernière fois.
 
 - **Nouveau mot de passe** — le collaborateur reçoit un e-mail pour choisir un nouveau mot de passe.
-- **Révoquer** — il ne peut plus utiliser l'app. Une app ouverte à ce moment fonctionne encore une heure au plus.
-  Avec **Rétablir l'accès**, vous le lui rendez plus tard.
+- **Révoquer** — il ne peut plus utiliser l'app. L'effet est immédiat : dès que l'app joint Nimble, il est
+  déconnecté et l'app efface ce qu'elle avait gardé sur son appareil. Sans connexion, l'app affiche encore ce
+  qu'elle avait gardé. Ce qu'il saisit alors attend sur l'appareil et n'est envoyé que si vous lui rendez l'accès
+  avec **Rétablir l'accès** et qu'il se reconnecte.
 - Pour un collaborateur avec son propre compte utilisateur figure **Supprimer le lien**. Il garde son accès à
   Nimble ; seule l'app ne fonctionne plus. Son mot de passe se gère sous [Utilisateurs](../administration/users.md).
 

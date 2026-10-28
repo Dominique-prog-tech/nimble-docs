@@ -117,8 +117,10 @@ Het blok toont de stand: *Actief*, met het adres waarmee hij zich aanmeldt en wa
 gebruikte.
 
 - **Nieuw wachtwoord** — de medewerker krijgt een mail om een nieuw wachtwoord te kiezen.
-- **Intrekken** — hij kan de app niet meer gebruiken. Een app die op dat moment open staat, werkt nog hoogstens
-  een uur. Met **Opnieuw toegang geven** zet u ze later terug.
+- **Intrekken** — hij kan de app niet meer gebruiken. Dat werkt meteen: zodra de app Nimble bereikt, wordt hij
+  afgemeld en wist de app wat ze op zijn toestel bewaard had. Zonder verbinding toont de app nog wat ze bewaard had.
+  Wat hij dan nog invoert, wacht op het toestel en vertrekt pas als u hem met **Opnieuw toegang geven** terug
+  toegang geeft en hij opnieuw aanmeldt.
 - Bij een medewerker met een eigen gebruikersaccount staat **Koppeling weghalen**. Hij behoudt zijn toegang tot
   Nimble; enkel de app werkt niet meer. Zijn wachtwoord beheert u bij [Gebruikers](../administration/users.md).
 
