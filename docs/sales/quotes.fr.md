@@ -182,7 +182,8 @@ d'autoliquidation, de livraison intracommunautaire ou d'exportation, le motif do
 Si le devis comporte des lignes en option, **Options (TVA comprise, hors total)** s'affiche en dessous. Deux
 choses à savoir sur ce montant :
 
-- Il n'entre **pas** dans le total ci-dessus. Si le client retient l'option, le montant vient s'y ajouter.
+- Il n'entre **pas** dans le total ci-dessus. Si le client retient l'option, le montant vient s'y ajouter. Si
+  vous [proposez le devis en ligne](#les-options-sur-le-devis-en-ligne), le client y coche lui-même les options.
 - Il est **TVA comprise**, alors que la ligne en option affiche son montant hors TVA — comme toute autre
   ligne. Les deux chiffres diffèrent donc, et c'est normal.
 
@@ -303,11 +304,31 @@ l'accepter ou le refuser. Les modifications non enregistrées sont d'abord enreg
   client* — à qui peut modifier les devis. La notification disparaît dès que quelqu'un ouvre le devis.
 - **Et par e-mail :** la personne qui a envoyé le devis, et l'adresse de **Réponses en ligne aux devis vers**
   sur la [Fiche d'entreprise](../settings/company-profile.md#reponses-en-ligne-aux-devis-vers). L'e-mail reprend
-  le devis, le client, le nom qu'il a indiqué et, en cas de refus, son motif, avec un lien vers le devis. Un devis
-  envoyé avant la version 0.5.108 ne connaît pas son expéditeur : l'e-mail part alors uniquement vers la fiche
-  d'entreprise.
+  le devis, le client, le nom qu'il a indiqué, en cas d'acceptation les options qu'il a choisies et, en cas de
+  refus, son motif, avec un lien vers le devis. Un devis envoyé avant la version 0.5.108 ne connaît pas son
+  expéditeur : l'e-mail part alors uniquement vers la fiche d'entreprise.
 
 **Plus…** → **Retirer la version en ligne** supprime la page. Le lien ne fonctionne plus.
+
+### Les options sur le devis en ligne
+
+Si le devis comporte des [lignes en option](#les-champs-dune-ligne), le client les choisit lui-même sur la page
+en ligne.
+
+- En haut figure le devis avec son total sans options. En dessous, chaque option apparaît par bloc avec une case
+  à cocher, sa description, la quantité et son montant TVA comprise.
+- Les options sont **décochées**. Si le client en coche une, la page ajoute son montant au total.
+- S'il accepte, les options qu'il a cochées deviennent des **lignes ordinaires** du devis : elles comptent dans le
+  total, sur la facture et dans l'état d'avancement. Les options qu'il n'a pas choisies restent en option.
+  L'Historique montre les lignes ainsi modifiées, et le journal d'audit cite les options choisies.
+- Si le client décoche la case du devis lui-même, son accord vaut tout de même pour le devis.
+
+!!! warning "Si vous modifiez les options alors que le devis est en ligne"
+    Si vous supprimez une option ou décochez **option** alors que le devis est en ligne, et que le client choisit
+    justement cette option, Nimble ne passe **pas** le devis en Accepté. Vous le retrouvez dans le journal
+    d'audit sous *Acceptation bloquée*, avec le motif. Contactez le client et enregistrez vous-même sa réponse.
+    Si vous adaptez les options, proposez aussitôt le devis à nouveau en ligne : le lien reste le même et affiche
+    dès lors les nouvelles options.
 
 ## Le suivi du devis
 

@@ -179,7 +179,8 @@ klopt: bij verlegde btw, een intracommunautaire levering of uitvoer hoort de red
 Staan er optieregels op de offerte, dan komt daar **Opties (incl. btw, niet in het totaal)** onder. Twee
 dingen om te weten bij dat bedrag:
 
-- Het telt **niet** mee in het totaal erboven. Kiest de klant de optie, dan komt het bedrag er nog bij.
+- Het telt **niet** mee in het totaal erboven. Kiest de klant de optie, dan komt het bedrag er nog bij. Legt u
+  de offerte [online voor](#opties-op-de-online-offerte), dan vinkt de klant de opties daar zelf aan.
 - Het is **inclusief btw**, terwijl de optieregel zelf haar bedrag exclusief btw toont — net als elke
   andere regel. De twee getallen horen dus te verschillen.
 
@@ -296,10 +297,30 @@ aanvaarden of weigeren. Onbewaarde wijzigingen worden eerst bewaard.
   aan wie offertes mag bewerken. De melding verdwijnt zodra iemand de offerte opent.
 - **En per mail:** wie de offerte mailde, en het adres bij **Online offerte-antwoorden naar** op de
   [Bedrijfsfiche](../settings/company-profile.md#online-offerte-antwoorden-naar). In de mail staan de offerte,
-  de klant, de naam die hij opgaf en bij een weigering zijn reden, met een link naar de offerte. Een offerte
-  die u mailde vóór versie 0.5.108 kent haar verzender niet: dan gaat de mail enkel naar de bedrijfsfiche.
+  de klant, de naam die hij opgaf, bij een aanvaarding de opties die hij koos en bij een weigering zijn reden,
+  met een link naar de offerte. Een offerte die u mailde vóór versie 0.5.108 kent haar verzender niet: dan gaat
+  de mail enkel naar de bedrijfsfiche.
 
 **Meer…** → **Online intrekken** haalt de pagina weg. De link werkt dan niet meer.
+
+### Opties op de online offerte
+
+Staan er [optieregels](#de-regelvelden) op de offerte, dan kiest de klant ze zelf op de online pagina.
+
+- Bovenaan staat de offerte met haar totaal zonder opties. Daaronder staat per blok elke optie met een vinkje,
+  haar omschrijving, het aantal en haar bedrag inclusief btw.
+- De opties staan **uitgevinkt**. Vinkt de klant er een aan, dan telt de pagina haar bedrag bij het totaal.
+- Aanvaardt hij, dan worden de opties die hij aanvinkte **gewone regels** van de offerte: ze tellen mee in het
+  totaal, op de factuur en in de vorderingsstaat. De opties die hij niet koos, blijven optie. Het Logboek
+  toont welke regels zo veranderden, en het actielogboek noemt de gekozen opties of zegt *zonder de opties*.
+- Vinkt de klant het vakje bij de offerte zelf uit, dan geldt zijn akkoord toch voor de offerte.
+
+!!! warning "Wijzigt u de opties nadat de offerte online staat"
+    Haalt u een optie weg of zet u het vinkje **optie** af terwijl de offerte online staat, en kiest de klant
+    net die optie, dan zet Nimble de offerte **niet** op Aanvaard. U vindt het terug in het actielogboek als
+    *Aanvaarding tegengehouden*, met de reden. Neem contact op met de klant en leg zijn antwoord zelf vast.
+    Past u de opties aan, leg de offerte dan meteen opnieuw online voor: de link blijft dezelfde en toont vanaf dan
+    de nieuwe opties.
 
 ## De offerte opvolgen
 
