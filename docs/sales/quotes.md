@@ -307,13 +307,13 @@ aanvaarden of weigeren. Onbewaarde wijzigingen worden eerst bewaard.
 
 Staan er [optieregels](#de-regelvelden) op de offerte, dan kiest de klant ze zelf op de online pagina.
 
-- Bovenaan staat de offerte met haar totaal zonder opties. Daaronder staat per blok elke optie met een vinkje,
-  haar omschrijving, het aantal en haar bedrag inclusief btw.
+- Bovenaan staat de offerte met haar totaal zonder opties, gemarkeerd als *Inbegrepen*: die kan de klant niet
+  uitvinken. Daaronder staat per blok elke optie met een vinkje, haar omschrijving, het aantal en haar bedrag
+  inclusief btw.
 - De opties staan **uitgevinkt**. Vinkt de klant er een aan, dan telt de pagina haar bedrag bij het totaal.
 - Aanvaardt hij, dan worden de opties die hij aanvinkte **gewone regels** van de offerte: ze tellen mee in het
   totaal, op de factuur en in de vorderingsstaat. De opties die hij niet koos, blijven optie. Het Logboek
   toont welke regels zo veranderden, en het actielogboek noemt de gekozen opties of zegt *zonder de opties*.
-- Vinkt de klant het vakje bij de offerte zelf uit, dan geldt zijn akkoord toch voor de offerte.
 
 !!! warning "Wijzigt u de opties nadat de offerte online staat"
     Haalt u een optie weg of zet u het vinkje **optie** af terwijl de offerte online staat, en kiest de klant

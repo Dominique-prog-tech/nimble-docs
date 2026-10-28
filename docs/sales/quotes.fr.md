@@ -315,13 +315,13 @@ l'accepter ou le refuser. Les modifications non enregistrées sont d'abord enreg
 Si le devis comporte des [lignes en option](#les-champs-dune-ligne), le client les choisit lui-même sur la page
 en ligne.
 
-- En haut figure le devis avec son total sans options. En dessous, chaque option apparaît par bloc avec une case
-  à cocher, sa description, la quantité et son montant TVA comprise.
+- En haut figure le devis avec son total sans options, marqué *Inclus* : le client ne peut pas le décocher. En
+  dessous, chaque option apparaît par bloc avec une case à cocher, sa description, la quantité et son montant TVA
+  comprise.
 - Les options sont **décochées**. Si le client en coche une, la page ajoute son montant au total.
 - S'il accepte, les options qu'il a cochées deviennent des **lignes ordinaires** du devis : elles comptent dans le
   total, sur la facture et dans l'état d'avancement. Les options qu'il n'a pas choisies restent en option.
   L'Historique montre les lignes ainsi modifiées, et le journal d'audit cite les options choisies.
-- Si le client décoche la case du devis lui-même, son accord vaut tout de même pour le devis.
 
 !!! warning "Si vous modifiez les options alors que le devis est en ligne"
     Si vous supprimez une option ou décochez **option** alors que le devis est en ligne, et que le client choisit
