@@ -262,7 +262,7 @@ blijft zoals het is. De mail vertrekt in de taal van de klant, net als de offert
 Staat in het mailsjabloon de link naar de online offerte, dan krijgt de klant die link in de mail:
 
 - Staat de offerte al online, dan is het die link.
-- Staat ze nog niet online, of is de link vervallen, dan meldt het venster: *Deze mail bevat de link naar de
+- Staat ze nog niet online, is de link vervallen, of wijzigde de offerte sinds het voorleggen, dan meldt het venster: *Deze mail bevat de link naar de
   online offerte. Bij het versturen zet Nimble de offerte online.* Dat gebeurt pas wanneer u op
   **Versturen** klikt, en enkel als de link dan nog in de mail staat.
 
@@ -306,7 +306,9 @@ aanvaarden of weigeren. Onbewaarde wijzigingen worden eerst bewaard.
   voor. Een link die u al verstuurde vóór versie 0.5.121 blijft werken zoals toen, tot u de offerte opnieuw voorlegt.
 
 **Wijzigt u de offerte nadat ze online staat**, dan blijft de pagina de oude inhoud tonen tot u **Meer…** → **Opnieuw
-online voorleggen** kiest. De link blijft dezelfde: wie de mail al kreeg, ziet de nieuwe inhoud. Had de klant de oude
+online voorleggen** kiest. De fiche meldt dat zolang het zo is, en de melding verdwijnt zodra de pagina weer klopt. Een
+wijziging die de klant niet ziet, zoals een interne notitie, geeft geen melding. Voor een link van vóór versie 0.5.121
+kan Nimble dit niet zien. De link blijft dezelfde: wie de mail al kreeg, ziet de nieuwe inhoud. Had de klant de oude
 pagina nog open en antwoordt hij daarop, dan past Nimble dat niet toe en verneemt u het, zoals hieronder beschreven.
 
 **Meer…** → **Online intrekken** haalt de pagina weg. De link werkt dan niet meer, ook niet de verstuurde.

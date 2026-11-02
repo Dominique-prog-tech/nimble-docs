@@ -267,7 +267,7 @@ quel. L'e-mail part dans la langue du client, comme le devis lui-même.
 Si le modèle de mail contient le lien vers le devis en ligne, le client reçoit ce lien dans le mail :
 
 - Si le devis est déjà en ligne, c'est ce lien-là.
-- S'il n'est pas encore en ligne, ou si le lien est expiré, la fenêtre indique : *Cet e-mail contient le lien
+- S'il n'est pas encore en ligne, si le lien est expiré, ou si le devis a changé depuis sa mise en ligne, la fenêtre indique : *Cet e-mail contient le lien
   vers le devis en ligne. À l'envoi, Nimble met le devis en ligne.* Cela se fait seulement quand vous cliquez
   sur **Envoyer**, et uniquement si le lien figure encore dans le mail.
 
@@ -314,8 +314,10 @@ l'accepter ou le refuser. Les modifications non enregistrées sont d'abord enreg
   proposiez à nouveau le devis.
 
 **Si vous modifiez le devis alors qu'il est en ligne**, la page continue d'afficher l'ancien contenu jusqu'à ce que vous
-choisissiez **Plus…** → **Proposer à nouveau en ligne**. Le lien reste le même : qui a déjà reçu le mail voit le nouveau
-contenu. Si le client avait encore l'ancienne page ouverte et y répond, Nimble ne l'applique pas et vous en êtes averti,
+choisissiez **Plus…** → **Proposer à nouveau en ligne**. La fiche le signale tant que c'est le cas, et le message disparaît
+dès que la page correspond de nouveau. Une modification que le client ne voit pas, comme une note interne, ne donne pas de
+message. Pour un lien antérieur à la version 0.5.121, Nimble ne peut pas le voir. Le lien reste le même : qui a déjà reçu le mail
+voit le nouveau contenu. Si le client avait encore l'ancienne page ouverte et y répond, Nimble ne l'applique pas et vous en êtes averti,
 comme décrit ci-dessous.
 
 **Plus…** → **Retirer la version en ligne** supprime la page. Le lien ne fonctionne plus, pas même celui déjà envoyé.
