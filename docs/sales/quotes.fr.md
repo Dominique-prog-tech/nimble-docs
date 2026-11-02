@@ -201,6 +201,7 @@ accepté, Refuser, Plus…, Annuler et Supprimer — avec le menu Plus… ouvert
 | **Aperçu avant impression** | Toujours | Affiche le document tel que le client le reçoit |
 | **Envoyer par e-mail** | Toujours | Ouvre la fenêtre d'envoi |
 | **Plus…** → **Proposer en ligne** | Brouillon et Envoyé | Met le devis en ligne, pour que le client puisse l'accepter ou le refuser |
+| **Plus…** → **Proposer à nouveau en ligne** | Brouillon et Envoyé, dès que le devis est en ligne | Affiche le devis tel qu'il est maintenant, derrière le même lien |
 | **Plus…** → **Retirer la version en ligne** | Dès que le devis est en ligne | Supprime la version en ligne |
 | **Marquer comme envoyé** | Brouillon et Refusé | Change uniquement le statut ; rien n'est envoyé |
 | **Marquer comme accepté** · **Refuser** | Envoyé | Enregistre la réponse du client. Si le devis n'est lié à aucun projet, Nimble en crée un lors de l'acceptation — voir *Le travail accepté est lié à un projet* ci-dessous |
@@ -312,7 +313,12 @@ l'accepter ou le refuser. Les modifications non enregistrées sont d'abord enreg
   en ligne. Un lien déjà envoyé avant la version 0.5.121 continue de fonctionner comme avant, jusqu'à ce que vous
   proposiez à nouveau le devis.
 
-**Plus…** → **Retirer la version en ligne** supprime la page. Le lien ne fonctionne plus.
+**Si vous modifiez le devis alors qu'il est en ligne**, la page continue d'afficher l'ancien contenu jusqu'à ce que vous
+choisissiez **Plus…** → **Proposer à nouveau en ligne**. Le lien reste le même : qui a déjà reçu le mail voit le nouveau
+contenu. Si le client avait encore l'ancienne page ouverte et y répond, Nimble ne l'applique pas et vous en êtes averti,
+comme décrit ci-dessous.
+
+**Plus…** → **Retirer la version en ligne** supprime la page. Le lien ne fonctionne plus, pas même celui déjà envoyé.
 
 ### Une réponse en ligne que Nimble ne traite pas
 
@@ -325,7 +331,7 @@ Il arrive que le client réponde en ligne, voie une confirmation, et que Nimble 
 - Une autre version du devis est déjà facturée.
 
 Le devis ne change pas. Le client pense toutefois que c'est réglé : Nimble vous avertit donc comme pour une réponse
-normale, par la cloche et par e-mail. Sur la fiche, un bloc orange *Réponse en ligne du client non traitée* indique
+normale, par la cloche et par e-mail. Sur la fiche, un bloc de couleur *Réponse en ligne du client non traitée* indique
 quand il a répondu, ce qu'il a choisi et pourquoi cela n'a pas abouti. Contactez le client. Si le devis est encore
 ouvert et qu'il doit répondre à nouveau, proposez-le à nouveau en ligne : le bloc disparaît et le lien se rouvre.
 
@@ -346,8 +352,8 @@ en ligne.
     Si vous supprimez une option ou décochez **option** alors que le devis est en ligne, et que le client choisit
     justement cette option, Nimble ne passe **pas** le devis en Accepté. C'est [une réponse que Nimble ne
     traite pas](#une-reponse-en-ligne-que-nimble-ne-traite-pas). Contactez le client et enregistrez vous-même sa réponse.
-    Si vous adaptez les options, proposez aussitôt le devis à nouveau en ligne : le lien reste le même et affiche
-    dès lors les nouvelles options.
+    Si vous adaptez les options, choisissez aussitôt **Plus…** → **Proposer à nouveau en ligne** : le lien reste le
+    même et affiche dès lors les nouvelles options.
 
 ## Le suivi du devis
 

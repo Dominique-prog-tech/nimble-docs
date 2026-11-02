@@ -198,6 +198,7 @@ Meer…, Annuleren en Verwijderen — met het menu Meer… open op Online voorle
 | **Afdrukvoorbeeld** | Altijd | Toont het document zoals de klant het krijgt |
 | **Mailen** | Altijd | Opent het verzendvenster |
 | **Meer…** → **Online voorleggen** | Klad en Verstuurd | Zet de offerte online, zodat de klant ze kan aanvaarden of weigeren |
+| **Meer…** → **Opnieuw online voorleggen** | Klad en Verstuurd, zodra de offerte online staat | Toont de offerte zoals ze nu is, achter dezelfde link |
 | **Meer…** → **Online intrekken** | Zodra de offerte online staat | Haalt de online versie weg |
 | **Markeren als verstuurd** | Klad en Geweigerd | Zet enkel de status om; er vertrekt niets |
 | **Markeren als aanvaard** · **Weigeren** | Verstuurd | Legt het antwoord van de klant vast. Hangt de offerte nog aan geen project, dan maakt Nimble er bij het aanvaarden een aan — zie *Aanvaard werk hangt aan een project* hieronder |
@@ -304,7 +305,11 @@ aanvaarden of weigeren. Onbewaarde wijzigingen worden eerst bewaard.
   om contact op te nemen met zijn contactpersoon. Moet hij opnieuw antwoorden, leg de offerte dan opnieuw online
   voor. Een link die u al verstuurde vóór versie 0.5.121 blijft werken zoals toen, tot u de offerte opnieuw voorlegt.
 
-**Meer…** → **Online intrekken** haalt de pagina weg. De link werkt dan niet meer.
+**Wijzigt u de offerte nadat ze online staat**, dan blijft de pagina de oude inhoud tonen tot u **Meer…** → **Opnieuw
+online voorleggen** kiest. De link blijft dezelfde: wie de mail al kreeg, ziet de nieuwe inhoud. Had de klant de oude
+pagina nog open en antwoordt hij daarop, dan past Nimble dat niet toe en verneemt u het, zoals hieronder beschreven.
+
+**Meer…** → **Online intrekken** haalt de pagina weg. De link werkt dan niet meer, ook niet de verstuurde.
 
 ### Een online antwoord dat Nimble niet verwerkt
 
@@ -316,7 +321,7 @@ Soms antwoordt de klant online, ziet hij een bevestiging, en past Nimble het ant
 - Een andere versie van de offerte is al gefactureerd.
 
 De offerte verandert dan niet. De klant denkt wel dat het geregeld is, dus Nimble verwittigt u op dezelfde manier
-als bij een gewoon antwoord: via het belletje en per mail. Op de fiche staat een oranje blok *Online antwoord van de
+als bij een gewoon antwoord: via het belletje en per mail. Op de fiche staat een gekleurd blok *Online antwoord van de
 klant niet verwerkt*, met wanneer hij antwoordde, wat hij koos en waarom het niet doorging. Neem contact op met de
 klant. Staat de offerte nog open en moet hij opnieuw antwoorden, leg ze dan opnieuw online voor: het blok verdwijnt
 en de link gaat weer open.
@@ -337,8 +342,8 @@ Staan er [optieregels](#de-regelvelden) op de offerte, dan kiest de klant ze zel
     Haalt u een optie weg of zet u het vinkje **optie** af terwijl de offerte online staat, en kiest de klant
     net die optie, dan zet Nimble de offerte **niet** op Aanvaard. Dat is [een antwoord dat Nimble niet
     verwerkt](#een-online-antwoord-dat-nimble-niet-verwerkt). Neem contact op met de klant en leg zijn antwoord zelf vast.
-    Past u de opties aan, leg de offerte dan meteen opnieuw online voor: de link blijft dezelfde en toont vanaf dan
-    de nieuwe opties.
+    Past u de opties aan, kies dan meteen **Meer…** → **Opnieuw online voorleggen**: de link blijft dezelfde en toont
+    vanaf dan de nieuwe opties.
 
 ## De offerte opvolgen
 
