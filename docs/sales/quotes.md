@@ -300,8 +300,26 @@ aanvaarden of weigeren. Onbewaarde wijzigingen worden eerst bewaard.
   de klant, de naam die hij opgaf, bij een aanvaarding de opties die hij koos en bij een weigering zijn reden,
   met een link naar de offerte. Een offerte die u mailde vóór versie 0.5.108 kent haar verzender niet: dan gaat
   de mail enkel naar de bedrijfsfiche.
+- **De link werkt één keer.** Heeft de klant geantwoord, dan toont de link geen formulier meer, maar een melding
+  om contact op te nemen met zijn contactpersoon. Moet hij opnieuw antwoorden, leg de offerte dan opnieuw online
+  voor. Een link die u al verstuurde vóór versie 0.5.121 blijft werken zoals toen, tot u de offerte opnieuw voorlegt.
 
 **Meer…** → **Online intrekken** haalt de pagina weg. De link werkt dan niet meer.
+
+### Een online antwoord dat Nimble niet verwerkt
+
+Soms antwoordt de klant online, ziet hij een bevestiging, en past Nimble het antwoord toch niet toe:
+
+- De offerte was al beslist of afgesloten, bijvoorbeeld omdat u ze intussen zelf op Aanvaard zette.
+- De klant had nog een tabblad open met een **oudere versie** van de pagina, van vóór u de offerte opnieuw voorlegde.
+- De klant koos een optie die niet meer op de offerte staat.
+- Een andere versie van de offerte is al gefactureerd.
+
+De offerte verandert dan niet. De klant denkt wel dat het geregeld is, dus Nimble verwittigt u op dezelfde manier
+als bij een gewoon antwoord: via het belletje en per mail. Op de fiche staat een oranje blok *Online antwoord van de
+klant niet verwerkt*, met wanneer hij antwoordde, wat hij koos en waarom het niet doorging. Neem contact op met de
+klant. Staat de offerte nog open en moet hij opnieuw antwoorden, leg ze dan opnieuw online voor: het blok verdwijnt
+en de link gaat weer open.
 
 ### Opties op de online offerte
 
@@ -317,8 +335,8 @@ Staan er [optieregels](#de-regelvelden) op de offerte, dan kiest de klant ze zel
 
 !!! warning "Wijzigt u de opties nadat de offerte online staat"
     Haalt u een optie weg of zet u het vinkje **optie** af terwijl de offerte online staat, en kiest de klant
-    net die optie, dan zet Nimble de offerte **niet** op Aanvaard. U vindt het terug in het actielogboek als
-    *Aanvaarding tegengehouden*, met de reden. Neem contact op met de klant en leg zijn antwoord zelf vast.
+    net die optie, dan zet Nimble de offerte **niet** op Aanvaard. Dat is [een antwoord dat Nimble niet
+    verwerkt](#een-online-antwoord-dat-nimble-niet-verwerkt). Neem contact op met de klant en leg zijn antwoord zelf vast.
     Past u de opties aan, leg de offerte dan meteen opnieuw online voor: de link blijft dezelfde en toont vanaf dan
     de nieuwe opties.
 

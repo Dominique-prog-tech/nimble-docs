@@ -307,8 +307,27 @@ l'accepter ou le refuser. Les modifications non enregistrées sont d'abord enreg
   le devis, le client, le nom qu'il a indiqué, en cas d'acceptation les options qu'il a choisies et, en cas de
   refus, son motif, avec un lien vers le devis. Un devis envoyé avant la version 0.5.108 ne connaît pas son
   expéditeur : l'e-mail part alors uniquement vers la fiche d'entreprise.
+- **Le lien ne fonctionne qu'une fois.** Une fois que le client a répondu, le lien n'affiche plus le formulaire, mais
+  un message l'invitant à contacter sa personne de contact. S'il doit répondre à nouveau, proposez à nouveau le devis
+  en ligne. Un lien déjà envoyé avant la version 0.5.121 continue de fonctionner comme avant, jusqu'à ce que vous
+  proposiez à nouveau le devis.
 
 **Plus…** → **Retirer la version en ligne** supprime la page. Le lien ne fonctionne plus.
+
+### Une réponse en ligne que Nimble ne traite pas
+
+Il arrive que le client réponde en ligne, voie une confirmation, et que Nimble n'applique pourtant pas sa réponse :
+
+- Le devis était déjà décidé ou clôturé, par exemple parce que vous l'aviez entre-temps mis sur Accepté.
+- Le client avait encore un onglet ouvert avec une **version antérieure** de la page, d'avant que vous proposiez à
+  nouveau le devis.
+- Le client a choisi une option qui ne figure plus sur le devis.
+- Une autre version du devis est déjà facturée.
+
+Le devis ne change pas. Le client pense toutefois que c'est réglé : Nimble vous avertit donc comme pour une réponse
+normale, par la cloche et par e-mail. Sur la fiche, un bloc orange *Réponse en ligne du client non traitée* indique
+quand il a répondu, ce qu'il a choisi et pourquoi cela n'a pas abouti. Contactez le client. Si le devis est encore
+ouvert et qu'il doit répondre à nouveau, proposez-le à nouveau en ligne : le bloc disparaît et le lien se rouvre.
 
 ### Les options sur le devis en ligne
 
@@ -325,8 +344,8 @@ en ligne.
 
 !!! warning "Si vous modifiez les options alors que le devis est en ligne"
     Si vous supprimez une option ou décochez **option** alors que le devis est en ligne, et que le client choisit
-    justement cette option, Nimble ne passe **pas** le devis en Accepté. Vous le retrouvez dans le journal
-    d'audit sous *Acceptation bloquée*, avec le motif. Contactez le client et enregistrez vous-même sa réponse.
+    justement cette option, Nimble ne passe **pas** le devis en Accepté. C'est [une réponse que Nimble ne
+    traite pas](#une-reponse-en-ligne-que-nimble-ne-traite-pas). Contactez le client et enregistrez vous-même sa réponse.
     Si vous adaptez les options, proposez aussitôt le devis à nouveau en ligne : le lien reste le même et affiche
     dès lors les nouvelles options.
 
