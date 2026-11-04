@@ -81,6 +81,15 @@ Vous récupérez encore les factures que vos fournisseurs ont envoyées via Pepp
 [Documents reçus](../purchasing/peppol-inbox.md), **Traiter** fonctionne comme d'habitude. Vous pouvez consulter
 la facture d'achat ainsi créée. L'approuver ou la modifier n'est possible qu'une fois la limitation levée.
 
+## Exporter
+
+Dans les deux formes, vous ne pouvez pas exporter. Le bouton **Exporter** au-dessus d'une liste disparaît, tout comme
+l'export du planning et les modèles Excel pour les accords de prix et les compositions. Si un écran est déjà ouvert,
+cela s'y applique aussi après un court moment.
+
+Vous pouvez toutefois toujours obtenir un seul document : un aperçu avant impression, le pdf ou le xml d'une facture,
+ou une pièce jointe.
+
 ## Lever la limitation
 
 Suivez l'indication du bandeau. Dès qu'ADM-Concept lève la limitation, tout fonctionne à nouveau. Vous ne devez

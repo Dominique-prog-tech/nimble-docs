@@ -78,6 +78,14 @@ Ook facturen die uw leveranciers via Peppol stuurden, haalt u nog binnen. Op het
 [Binnengekomen documenten](../purchasing/peppol-inbox.md) werkt **Verwerken** zoals altijd. De aankoopfactuur
 die zo ontstaat, kunt u bekijken. Goedkeuren of wijzigen kan pas wanneer de beperking is opgeheven.
 
+## Exporteren
+
+Bij beide vormen kunt u niet exporteren. De knop **Exporteren** boven een lijst verdwijnt, net als de export van de
+planning en de Excel-sjablonen voor prijsafspraken en samenstellingen. Staat een scherm al open, dan geldt dat na
+korte tijd ook daar.
+
+Eén document blijft u wel opvragen: een afdrukvoorbeeld, de pdf of de xml van een factuur, of een bijlage.
+
 ## De beperking opheffen
 
 Volg de aanwijzing in de band. Zodra ADM-Concept de beperking opheft, werkt alles weer. U hoeft niets opnieuw
