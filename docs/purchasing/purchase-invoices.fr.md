@@ -39,6 +39,9 @@ de vos achats est juste d'office. Sur la fiche, vous voyez le montant tel qu'il 
 
 Une note de crédit arrivée via Peppol devient automatiquement une note de crédit lors du traitement.
 
+Factures et notes de crédit figurent ensemble dans la liste. Avec la liste déroulante à côté du titre, vous affichez
+**Factures uniquement** ou **Notes de crédit uniquement** ; choisissez **Factures et notes de crédit** pour tout revoir.
+
 ### Les trois statuts
 
 | Statut | Signification |

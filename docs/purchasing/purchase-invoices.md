@@ -39,6 +39,9 @@ klopt. Op de fiche ziet u het bedrag zoals het op het stuk staat, zonder minteke
 
 Een creditnota die via Peppol binnenkomt, wordt bij het verwerken vanzelf een creditnota.
 
+Facturen en creditnota's staan samen in de lijst. Met de keuzelijst naast de titel toont u **Enkel facturen** of
+**Enkel creditnota's**; kies **Facturen en creditnota's** om weer alles te zien.
+
 ### De drie statussen
 
 | Status | Wat het betekent |
