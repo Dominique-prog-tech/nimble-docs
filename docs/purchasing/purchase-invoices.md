@@ -53,6 +53,13 @@ Facturen en creditnota's staan samen in de lijst. Met de keuzelijst naast de tit
 Met **Goedkeuren** zet u een factuur vrij; **Intrekken** draait dat terug zolang ze niet betaald is. Een
 betaalde factuur heeft geen knop.
 
+Met de tweede keuzelijst naast de titel, **Alle statussen**, toont u enkel de aankoopfacturen die **Niet betaald**,
+**Betaald**, **Goedgekeurd om te betalen** of **Vervallen** zijn. Ze werkt samen met de keuzelijst voor facturen en
+creditnota's: kies bijvoorbeeld **Enkel facturen** en **Vervallen** voor de facturen die al betaald hadden moeten zijn.
+
+**Vervallen** betekent: nog niet betaald, en de vervaldatum is voorbij. Een creditnota vervalt nooit. Een factuur die
+nog niet betaald is maar geen vervaldatum heeft, staat er niet bij; onder de lijst staat dan hoeveel zulke facturen er zijn.
+
 !!! warning "Goedkeuren zegt niets over de inhoud"
     De vlag betekent alleen: *deze factuur mag betaald worden*. Ze zegt niet dat de prijzen kloppen of dat
     de levering in orde was. Dat verschil telt wanneer u achteraf een factuur betwist.

@@ -53,6 +53,13 @@ Factures et notes de crédit figurent ensemble dans la liste. Avec la liste dér
 **Approuver** libère une facture ; **Retirer** annule cette approbation tant qu'elle n'est pas payée. Une
 facture payée n'a pas de bouton.
 
+Avec la seconde liste déroulante à côté du titre, **Tous les statuts**, vous n'affichez que les factures d'achat
+**Non payées**, **Payées**, **Approuvées au paiement** ou **Échues**. Elle se combine avec la liste des factures et notes
+de crédit : choisissez par exemple **Factures uniquement** et **Échues** pour les factures qui auraient déjà dû être payées.
+
+**Échue** signifie : pas encore payée, et la date d'échéance est dépassée. Une note de crédit n'est jamais échue. Une
+facture non payée sans date d'échéance n'y figure pas ; le nombre de ces factures est alors indiqué sous la liste.
+
 !!! warning "Approuver ne dit rien du contenu"
     Le drapeau signifie uniquement : *cette facture peut être payée*. Il n'affirme pas que les prix sont
     corrects ni que la livraison était conforme. Cette distinction compte si vous contestez une facture par
