@@ -37,6 +37,8 @@ Klik in de zijbalk op **CRM → Relaties**.
 
 Links staan de tabbladen **Fiche** en **Contactpersonen** — bij een klant ook **Prijsafspraken**. Rechts staat het journaal van deze klant: **Taken**, **Notities**, **Bijlagen**, **Mails** en **Logboek** — zie [Werken met een fiche](fiches.md).
 
+Maakte een ander programma de klant aan via de koppeling met Nimble (de API), dan staat naast de naam **Aangemaakt via** met de naam van dat programma. Zolang niemand die relaties mag bewerken de fiche opende, meldt het belletje rechtsboven *1 nieuwe klant aangemaakt via de API*. Zo'n programma kan geen tweede klant maken met hetzelfde btw-nummer of e-mailadres. De klant wijzigen kan het ook niet: dat doet u in Nimble.
+
 De knoppen **Bewaren**, **Annuleren** en **Verwijderen** staan onderaan en gelden voor **Fiche** en **Contactpersonen** samen — u kunt dus bewaren vanaf welk van die twee tabbladen u ook staat. Op een journaal-tabblad ziet u ze niet.
 
 Het tabblad **Fiche** is verdeeld in blokken.

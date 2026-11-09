@@ -37,6 +37,8 @@ Cliquez sur **CRM → Relations** dans la barre latérale.
 
 À gauche figurent les onglets **Fiche** et **Personnes de contact** — pour un client, aussi **Accords de prix**. À droite figure le journal de ce client : **Tâches**, **Notes**, **Pièces jointes**, **E-mails** et **Historique** — voir [Travailler avec une fiche](fiches.fr.md).
 
+Si un autre logiciel a créé le client via la connexion avec Nimble (l'API), **Créé via** suivi du nom de ce logiciel figure à côté du nom. Tant que personne pouvant modifier les relations n'a ouvert la fiche, la cloche en haut à droite indique *1 nouveau client créé via l'API*. Un tel logiciel ne peut pas créer un second client avec le même numéro de TVA ou la même adresse e-mail. Il ne peut pas non plus modifier le client : cela se fait dans Nimble.
+
 Les boutons **Enregistrer**, **Annuler** et **Supprimer** se trouvent en bas et valent pour **Fiche** et **Personnes de contact** ensemble — vous pouvez donc enregistrer depuis l'un ou l'autre de ces onglets. Sur un onglet du journal, ils ne s'affichent pas.
 
 L'onglet **Fiche** est divisé en blocs.

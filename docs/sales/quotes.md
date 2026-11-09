@@ -88,6 +88,8 @@ Afdrukvoorbeeld, Mailen, Markeren als aanvaard, Weigeren, Meer…, Annuleren en 
 De fiche heeft de tabbladen **Offerte**, **Taken**, **Notities**, **Bijlagen**, **Mails** en **Logboek**. Hoe
 die laatste vijf werken, leest u in [Werken met een fiche](../fiches.md).
 
+Kwam de offerte binnen via de koppeling met een ander programma (de API), dan staat naast het nummer **Aangemaakt via** met de naam van dat programma. Zo'n offerte staat altijd in klad: u werkt ze verder af en verstuurt ze zelf. Zolang niemand die offertes mag bewerken de fiche opende, meldt het belletje rechtsboven hoeveel zulke offertes er zijn.
+
 Is de offerte gemaild of online voorgelegd, dan staan er in het blok Offertegegevens extra regels:
 
 - **Verstuurd op** — wanneer en naar welk adres de offerte gemaild is.

@@ -91,6 +91,8 @@ Supprimer.](../images/offerte-fiche-fr.png)
 La fiche comporte les onglets **Devis**, **Tâches**, **Notes**, **Pièces jointes**, **E-mails** et
 **Historique**. Le fonctionnement des cinq derniers est décrit dans [Travailler avec une fiche](../fiches.md).
 
+Si le devis est arrivé via la connexion avec un autre logiciel (l'API), **Créé via** suivi du nom de ce logiciel figure à côté du numéro. Un tel devis est toujours en brouillon : vous le finalisez et l'envoyez vous-même. Tant que personne pouvant modifier les devis n'a ouvert la fiche, la cloche en haut à droite indique combien de devis de ce type il y a.
+
 Si le devis a été envoyé par e-mail ou proposé en ligne, le bloc Données du devis comporte des lignes
 supplémentaires :
 
