@@ -43,6 +43,10 @@ Is het document een **creditnota**, dan wordt het een aankoopfactuur van de soor
 In haar **Nota** staat aan welke leverancier en op welk btw-nummer ze gekoppeld werd. Het document verdwijnt
 uit deze lijst.
 
+Nimble neemt daarbij ook over wat in het document staat: het bedrag excl. btw, de btw per tarief en de
+factuurregels. De pdf van de leverancier en het Peppol-bestand zelf (UBL) komen onder **Bijlagen** van de
+factuur. Zie [Een factuur uit Peppol](purchase-invoices.md#een-factuur-uit-peppol).
+
 Het scherm maakt geen factuur en zegt waarom wanneer:
 
 | Geval | Wat u doet |

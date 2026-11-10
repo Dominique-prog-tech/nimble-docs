@@ -44,6 +44,10 @@ attente d'approbation*. Sa **Note** indique à quel fournisseur et sur quel num�
 document disparaît de cette liste. Si le document est une **note de crédit**, il devient une facture d'achat du
 type *Note de crédit*.
 
+Nimble reprend aussi ce que contient le document : le montant HTVA, la TVA par taux et les lignes de la facture.
+Le pdf du fournisseur et le fichier Peppol lui-même (UBL) se trouvent sous **Pièces jointes** de la facture. Voir
+[Une facture Peppol](purchase-invoices.md#une-facture-peppol).
+
 L'écran ne crée pas de facture et en donne la raison lorsque :
 
 | Cas | Ce que vous faites |

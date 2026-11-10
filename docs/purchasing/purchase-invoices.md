@@ -31,6 +31,21 @@ openen. U kunt zoeken, sorteren, filteren en exporteren zoals in de andere lijst
 | **Peppol** | Binnengekomen via het netwerk en verwerkt op het scherm [Binnengekomen documenten](peppol-inbox.md). Klik op het woord om het originele document te openen zoals de leverancier het stuurde |
 | **Ingebracht** | Met de hand ingebracht, of overgezet uit uw vorige pakket |
 
+### Een factuur uit Peppol
+
+Een factuur die via Peppol binnenkwam, draagt meer dan het totaal:
+
+- Onder **Bedrag incl. btw** staan het **bedrag excl. btw** en de **btw**, zoals op het document. Wijzigt u het
+  bedrag incl. btw, dan verdwijnen ze: ze horen dan niet meer bij het totaal.
+- Het tabblad **Regels** toont de factuurregels en de **btw per tarief**, zoals de leverancier ze stuurde. U kunt ze
+  niet wijzigen.
+- Onder **Bijlagen** staan de pdf van de leverancier en het Peppol-bestand (UBL). De pdf is wat u nakijkt vóór u
+  goedkeurt. De UBL is wat uw boekhouder inleest.
+
+Mist een Peppol-factuur die gegevens, bijvoorbeeld omdat ze verwerkt werd vóór Nimble ze overnam, kies dan op de
+fiche onder **Meer…** de handeling **Gegevens uit Peppol ophalen**. Nimble haalt het document opnieuw op. Een pdf die
+u zelf al koppelde, komt er geen tweede keer bij.
+
 ### Creditnota's
 
 Crediteert een leverancier u een bedrag, dan is dat een **creditnota**. In Nimble is dat een aankoopfactuur van de

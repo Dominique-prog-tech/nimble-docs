@@ -31,6 +31,21 @@ facture. Vous pouvez rechercher, trier, filtrer et exporter comme dans les autre
 | **Peppol** | Arrivée par le réseau et traitée sur l'écran [Documents reçus](peppol-inbox.md). Cliquez sur le mot pour ouvrir le document original tel que le fournisseur l'a envoyé |
 | **Saisie** | Saisie à la main, ou reprise de votre logiciel précédent |
 
+### Une facture Peppol
+
+Une facture arrivée via Peppol contient plus que le total :
+
+- Sous **Montant TVAC** figurent le **montant HTVA** et la **TVA**, tels que sur le document. Si vous modifiez le
+  montant TVAC, ils disparaissent : ils ne correspondent alors plus au total.
+- L'onglet **Lignes** affiche les lignes de la facture et la **TVA par taux**, telles que le fournisseur les a
+  envoyées. Vous ne pouvez pas les modifier.
+- Sous **Pièces jointes** se trouvent le pdf du fournisseur et le fichier Peppol (UBL). Le pdf est ce que vous
+  vérifiez avant d'approuver. L'UBL est ce que votre comptable importe.
+
+S'il manque ces données à une facture Peppol, par exemple parce qu'elle a été traitée avant que Nimble ne les
+reprenne, choisissez sur la fiche sous **Plus…** l'action **Récupérer les données Peppol**. Nimble récupère à nouveau
+le document. Un pdf que vous avez déjà joint vous-même n'est pas ajouté une seconde fois.
+
 ### Notes de crédit
 
 Lorsqu'un fournisseur vous crédite un montant, il s'agit d'une **note de crédit**. Dans Nimble, c'est une facture
