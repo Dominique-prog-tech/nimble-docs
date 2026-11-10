@@ -29,7 +29,8 @@ Achteraan elke rij staan de knoppen **Bekijken** en **Verwerken**. Staat er niet
 
 ## Een document bekijken
 
-**Bekijken** opent het originele document zoals de leverancier het verstuurde. Dat is het stuk waarop u
+**Bekijken** opent het originele document zoals de leverancier het verstuurde, in een venster boven de lijst.
+Sluit het venster en u staat weer in de lijst. Dat document is het stuk waarop u
 zich bij een discussie beroept — niet wat Nimble ervan gemaakt heeft.
 
 ## Een document verwerken
@@ -45,7 +46,9 @@ uit deze lijst.
 
 Nimble neemt daarbij ook over wat in het document staat: het bedrag excl. btw, de btw per tarief en de
 factuurregels. De pdf van de leverancier en het Peppol-bestand zelf (UBL) komen onder **Bijlagen** van de
-factuur. Zie [Een factuur uit Peppol](purchase-invoices.md#een-factuur-uit-peppol).
+factuur. Draagt een regel of een btw-tarief in het document geen leesbaar bedrag, dan neemt Nimble de regels en
+de btw per tarief niet over en meldt het dat. Zo staat er nooit een bedrag van nul waar de leverancier niets
+stuurde. De pdf en het Peppol-bestand komen dan wel bij de factuur. Zie [Een factuur uit Peppol](purchase-invoices.md#een-factuur-uit-peppol).
 
 Het scherm maakt geen factuur en zegt waarom wanneer:
 

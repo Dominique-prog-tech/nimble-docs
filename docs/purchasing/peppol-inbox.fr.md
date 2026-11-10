@@ -30,7 +30,8 @@ En fin de ligne figurent les boutons **Consulter** et **Traiter**. S'il n'y a ri
 
 ## Consulter un document
 
-**Consulter** ouvre le document original tel que le fournisseur l'a envoyé. C'est la pièce sur laquelle vous
+**Consulter** ouvre le document original tel que le fournisseur l'a envoyé, dans une fenêtre au-dessus de la
+liste. Fermez la fenêtre et vous êtes de retour dans la liste. Ce document est la pièce sur laquelle vous
 vous appuyez en cas de discussion — pas ce que Nimble en a fait.
 
 ## Traiter un document
@@ -45,7 +46,10 @@ document disparaît de cette liste. Si le document est une **note de crédit**, 
 type *Note de crédit*.
 
 Nimble reprend aussi ce que contient le document : le montant HTVA, la TVA par taux et les lignes de la facture.
-Le pdf du fournisseur et le fichier Peppol lui-même (UBL) se trouvent sous **Pièces jointes** de la facture. Voir
+Le pdf du fournisseur et le fichier Peppol lui-même (UBL) se trouvent sous **Pièces jointes** de la facture.
+Si une ligne ou un taux de TVA du document ne porte pas de montant lisible, Nimble ne reprend pas les lignes ni la
+TVA par taux et vous le signale. Ainsi, aucun montant de zéro n'apparaît là où le fournisseur n'a rien envoyé. Le
+pdf et le fichier Peppol sont alors bien joints à la facture. Voir
 [Une facture Peppol](purchase-invoices.md#une-facture-peppol).
 
 L'écran ne crée pas de facture et en donne la raison lorsque :

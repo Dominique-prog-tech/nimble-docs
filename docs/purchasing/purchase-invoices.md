@@ -28,7 +28,7 @@ openen. U kunt zoeken, sorteren, filteren en exporteren zoals in de andere lijst
 
 | Herkomst | Wat het betekent |
 |---|---|
-| **Peppol** | Binnengekomen via het netwerk en verwerkt op het scherm [Binnengekomen documenten](peppol-inbox.md). Klik op het woord om het originele document te openen zoals de leverancier het stuurde |
+| **Peppol** | Binnengekomen via het netwerk en verwerkt op het scherm [Binnengekomen documenten](peppol-inbox.md). Klik op het woord om het originele document zoals de leverancier het stuurde in een venster te openen; sluit het venster om terug te keren naar de lijst |
 | **Ingebracht** | Met de hand ingebracht, of overgezet uit uw vorige pakket |
 
 ### Een factuur uit Peppol

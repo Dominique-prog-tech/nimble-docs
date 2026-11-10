@@ -28,7 +28,7 @@ facture. Vous pouvez rechercher, trier, filtrer et exporter comme dans les autre
 
 | Origine | Signification |
 |---|---|
-| **Peppol** | Arrivée par le réseau et traitée sur l'écran [Documents reçus](peppol-inbox.md). Cliquez sur le mot pour ouvrir le document original tel que le fournisseur l'a envoyé |
+| **Peppol** | Arrivée par le réseau et traitée sur l'écran [Documents reçus](peppol-inbox.md). Cliquez sur le mot pour ouvrir dans une fenêtre le document original tel que le fournisseur l'a envoyé ; fermez la fenêtre pour revenir à la liste |
 | **Saisie** | Saisie à la main, ou reprise de votre logiciel précédent |
 
 ### Une facture Peppol
