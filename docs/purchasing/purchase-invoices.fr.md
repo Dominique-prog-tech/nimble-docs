@@ -53,8 +53,17 @@ Factures et notes de crédit figurent ensemble dans la liste. Avec la liste dér
 **Approuver** libère une facture ; **Retirer** annule cette approbation tant qu'elle n'est pas payée. Une
 facture payée n'a pas de bouton.
 
+### Indiquer un paiement
+
+Si vous avez payé une facture approuvée, cliquez dans la liste sur **Payée**, ou sur la fiche sur **Marquer comme payée**.
+La facture est alors **Payée**, pour le montant total. Seule une facture approuvée peut être payée : approuvez-la d'abord.
+
+En cas d'erreur, ouvrez la fiche et choisissez sous **Plus…** l'action **Annuler le paiement**. Nimble demande une
+confirmation ; la facture reste approuvée. Qui a fait quoi figure dans l'historique de la fiche.
+
 Avec la seconde liste déroulante à côté du titre, **Tous les statuts**, vous n'affichez que les factures d'achat
-**Non payées**, **Payées**, **Approuvées au paiement** ou **Échues**. Elle se combine avec la liste des factures et notes
+**En attente d'approbation**, **Non payées**, **Payées**, **Approuvées au paiement** ou **Échues**. Ce que vous devez encore
+vérifier figure sous **En attente d'approbation** ; ce que vous devez encore payer, sous **Approuvées au paiement**. Elle se combine avec la liste des factures et notes
 de crédit : choisissez par exemple **Factures uniquement** et **Échues** pour les factures qui auraient déjà dû être payées.
 
 **Échue** signifie : pas encore payée, et la date d'échéance est dépassée. Une note de crédit n'est jamais échue. Une

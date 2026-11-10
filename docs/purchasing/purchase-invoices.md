@@ -53,8 +53,18 @@ Facturen en creditnota's staan samen in de lijst. Met de keuzelijst naast de tit
 Met **Goedkeuren** zet u een factuur vrij; **Intrekken** draait dat terug zolang ze niet betaald is. Een
 betaalde factuur heeft geen knop.
 
-Met de tweede keuzelijst naast de titel, **Alle statussen**, toont u enkel de aankoopfacturen die **Niet betaald**,
-**Betaald**, **Goedgekeurd om te betalen** of **Vervallen** zijn. Ze werkt samen met de keuzelijst voor facturen en
+### Een betaling aanduiden
+
+Hebt u een goedgekeurde factuur betaald, klik dan in de lijst op **Betaald**, of op de fiche op **Markeren als betaald**.
+De factuur staat dan op **Betaald**, voor het volledige bedrag. Enkel een goedgekeurde factuur kan betaald worden: keur
+ze eerst goed.
+
+Was het een vergissing, open dan de fiche en kies onder **Meer…** de handeling **Betaling ongedaan maken**. Nimble vraagt
+een bevestiging; de factuur blijft goedgekeurd. Wie wat deed, staat in het logboek van de fiche.
+
+Met de tweede keuzelijst naast de titel, **Alle statussen**, toont u enkel de aankoopfacturen die **Wacht op
+goedkeuring**, **Niet betaald**, **Betaald**, **Goedgekeurd om te betalen** of **Vervallen** zijn. Wat u nog moet
+nakijken, staat onder **Wacht op goedkeuring**; wat u nog moet betalen, onder **Goedgekeurd om te betalen**. Ze werkt samen met de keuzelijst voor facturen en
 creditnota's: kies bijvoorbeeld **Enkel facturen** en **Vervallen** voor de facturen die al betaald hadden moeten zijn.
 
 **Vervallen** betekent: nog niet betaald, en de vervaldatum is voorbij. Een creditnota vervalt nooit. Een factuur die

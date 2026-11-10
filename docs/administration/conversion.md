@@ -161,6 +161,28 @@ goedkeuring en de betaalstatus blijven zoals ze zijn. Het blok leest enkel Nimbl
 
 Een volledige conversie zet de soort voortaan zelf. Zie [Aankoopfacturen](../purchasing/purchase-invoices.md#creditnotas).
 
+## Betaalstatus overnemen
+
+Gebruik dit **één keer**, op het moment dat uw boekhouding van het vorige pakket naar Nimble overstapt. Het neemt uit
+het vorige pakket over welke aankoopfacturen **goedgekeurd** en **betaald** zijn, voor de aankoopfacturen die al in
+Nimble staan. Zo ziet u in Nimble geen factuur als te betalen die u in het vorige pakket al betaalde.
+
+Het werkt enkel vooruit: wat in Nimble al goedgekeurd of betaald is, blijft zo. Een betaalde factuur wordt ook
+goedgekeurd. Facturen via Peppol of met de hand ingebracht blijven buiten schot.
+
+1. Klik **Nakijken**. Nimble telt wat er zou gebeuren en noemt de facturen die als betaald gezet worden.
+2. Is er iets over te nemen, dan gaat **Overnemen** aan. Klik erop.
+3. Klik daarna opnieuw **Nakijken**: er hoort niets meer over te nemen te zijn.
+
+| Kolom | Betekenis |
+|---|---|
+| **In de bron** | Hoeveel aankoopfacturen het vorige pakket bevat |
+| **In Nimble gevonden** | Daarvan hoeveel er al in Nimble staan |
+| **Goed te keuren** / **Goedgekeurd** | Hoeveel er goedgekeurd worden, of na **Overnemen**: goedgekeurd zijn |
+| **Als betaald te zetten** / **Als betaald gezet** | Hoeveel er als betaald gezet worden, of na **Overnemen**: gezet zijn |
+
+Daarna duidt u betalingen aan in Nimble zelf. Zie [Aankoopfacturen](../purchasing/purchase-invoices.md#een-betaling-aanduiden).
+
 ## Demo-gegevens genereren
 
 Dit blok staat enkel op de tenant **demo**. **Genereer demo-gegevens** vult die tenant met verzonnen maar

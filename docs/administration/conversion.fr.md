@@ -163,6 +163,28 @@ montant, l'approbation et le statut de paiement ne changent pas. Le bloc ne lit 
 
 Une conversion complète attribue désormais le type elle-même. Voir [Factures d'achat](../purchasing/purchase-invoices.md#notes-de-credit).
 
+## Reprendre le statut de paiement
+
+Utilisez ceci **une seule fois**, au moment où votre comptabilité passe de l'ancien logiciel à Nimble. Il reprend de
+l'ancien logiciel les factures d'achat **approuvées** et **payées**, pour les factures d'achat déjà présentes dans Nimble.
+Vous ne voyez ainsi dans Nimble aucune facture à payer que vous avez déjà payée dans l'ancien logiciel.
+
+Cela fonctionne uniquement dans un sens : ce qui est déjà approuvé ou payé dans Nimble le reste. Une facture payée est
+aussi approuvée. Les factures reçues via Peppol ou saisies à la main ne sont pas touchées.
+
+1. Cliquez sur **Vérifier**. Nimble compte ce qui se passerait et cite les factures qui seraient marquées payées.
+2. S'il y a quelque chose à reprendre, **Reprendre** s'active. Cliquez dessus.
+3. Cliquez ensuite à nouveau sur **Vérifier** : il ne doit plus rien y avoir à reprendre.
+
+| Colonne | Signification |
+|---|---|
+| **Dans la source** | Combien de factures d'achat l'ancien logiciel contient |
+| **Trouvées dans Nimble** | Combien d'entre elles figurent déjà dans Nimble |
+| **À approuver** / **Approuvées** | Combien seront approuvées, ou après **Reprendre** : ont été approuvées |
+| **À marquer payées** / **Marquées payées** | Combien seront marquées payées, ou après **Reprendre** : l'ont été |
+
+Ensuite, vous indiquez les paiements dans Nimble même. Voir [Factures d'achat](../purchasing/purchase-invoices.md#indiquer-un-paiement).
+
 ## Générer des données de démonstration
 
 Ce bloc n'apparaît que sur le tenant **demo**. **Générer les données de démonstration** remplit ce tenant avec
