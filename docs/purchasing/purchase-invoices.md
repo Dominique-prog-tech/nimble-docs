@@ -8,7 +8,7 @@ Klik in de zijbalk op **Inkoop → Aankoopfacturen**.
 
 ## De lijst
 
-![De lijst Aankoopfacturen met de kolommen Factuurnummer, Leverancier, Datum, Vervaldatum, Bedrag, Soort, Herkomst en Status, en achteraan de knoppen Goedkeuren en Intrekken; twee facturen wachten op goedkeuring en één is goedgekeurd om te betalen.](../images/aankoopfacturen-lijst.png)
+![De lijst Aankoopfacturen met de kolommen Factuurnummer, Leverancier, Datum, Vervaldatum, Bedrag, Soort, Herkomst en Status, en achteraan per rij één knop: Goedkeuren bij de twee facturen die op goedkeuring wachten, Betaald bij de factuur die goedgekeurd is om te betalen.](../images/aankoopfacturen-lijst.png)
 
 | Kolom | Wat het zegt |
 |---|---|
@@ -21,7 +21,7 @@ Klik in de zijbalk op **Inkoop → Aankoopfacturen**.
 | **Herkomst** | Waar de factuur vandaan komt — zie hieronder |
 | **Status** | Waar de factuur staat in de goedkeuring |
 
-Achteraan elke rij staat de knop **Goedkeuren** of **Intrekken**. Dubbelklik een rij om de factuur te
+Achteraan elke rij staat de knop **Goedkeuren** of **Betaald**: de handeling die aan de beurt is. Dubbelklik een rij om de factuur te
 openen. U kunt zoeken, sorteren, filteren en exporteren zoals in de andere lijsten.
 
 ### Waar een factuur vandaan komt
@@ -128,7 +128,8 @@ Links staat het tabblad **Algemeen**, met dezelfde velden als bij het inbrengen.
 
 Onderaan staan **Bewaren** en **Annuleren**, en rechts daarvan **Archiveren**.
 
-De goedkeuring zet u niet op de fiche maar in de lijst, met **Goedkeuren** of **Intrekken**.
+Bovenaan de fiche staat de status. Daarnaast staat **Goedkeuren** of **Markeren als betaald**; onder **Meer…** trekt u een
+goedkeuring in of maakt u een betaling ongedaan. Zie [Een betaling aanduiden](#een-betaling-aanduiden).
 
 ### De scan toevoegen
 
@@ -151,7 +152,7 @@ Opent u een gearchiveerde factuur via een oude link, dan zegt de fiche dat ze in
 
 ## Wat u hier niet doet
 
-Betalen. Dit scherm houdt bij wat er openstaat en wat er vrijgegeven is.
+Het geld overmaken. U duidt hier aan dat een factuur betaald is; de betaling zelf doet u in uw bank.
 
 ## Zie ook
 

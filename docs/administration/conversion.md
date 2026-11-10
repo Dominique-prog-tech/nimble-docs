@@ -161,6 +161,29 @@ goedkeuring en de betaalstatus blijven zoals ze zijn. Het blok leest enkel Nimbl
 
 Een volledige conversie zet de soort voortaan zelf. Zie [Aankoopfacturen](../purchasing/purchase-invoices.md#creditnotas).
 
+## Aankoopfacturen aanvullen
+
+Zet de aankoopfacturen over die in het vorige pakket binnenkwamen sinds de laatste volledige conversie. Een
+aankoopfactuur die al in Nimble staat, blijft zoals ze is: overgezet, met de hand ingebracht of via Peppol ontvangen.
+De scans van de nieuwe facturen koppelt daarna het blok **Documenten overzetten**.
+
+1. Klik **Nakijken**. Nimble telt wat er zou gebeuren.
+2. Zijn er nieuwe facturen, dan gaat **Aanvullen** aan. Klik erop.
+3. Klik daarna opnieuw **Nakijken**: er hoort niets nieuws meer te zijn.
+
+| Kolom | Betekenis |
+|---|---|
+| **In de bron** | Hoeveel aankoopfacturen het vorige pakket bevat |
+| **Al in Nimble** | Daarvan hoeveel er al overgezet zijn |
+| **Nieuw** / **Toegevoegd** | Hoeveel er bijkomen, of na **Aanvullen**: bijgekomen zijn |
+| **Leverancier niet in Nimble** | Facturen die niet over kunnen, omdat hun leverancier niet in Nimble staat |
+| **Al ingebracht in Nimble** | Facturen die al met de hand of via Peppol in Nimble staan; ze worden overgeslagen |
+
+Kan een factuur niet over omdat haar leverancier ontbreekt, dan toont Nimble onder de telling een lijst: de
+leverancier zoals hij in het vorige pakket heet, het nummer, de datum, het totaal en of de factuur goedgekeurd of
+betaald is. Staat er **Verwijderd of onbekend**, dan is die leverancier in het vorige pakket verwijderd. Maak de
+leverancier aan in Nimble of zet de factuur er met de hand in.
+
 ## Betaalstatus overnemen
 
 Gebruik dit **één keer**, op het moment dat uw boekhouding van het vorige pakket naar Nimble overstapt. Het neemt uit

@@ -163,6 +163,29 @@ montant, l'approbation et le statut de paiement ne changent pas. Le bloc ne lit 
 
 Une conversion complète attribue désormais le type elle-même. Voir [Factures d'achat](../purchasing/purchase-invoices.md#notes-de-credit).
 
+## Compléter les factures d'achat
+
+Transfère les factures d'achat arrivées dans l'ancien logiciel depuis la dernière conversion complète. Une facture
+d'achat déjà présente dans Nimble reste telle quelle : convertie, saisie à la main ou reçue via Peppol. Le bloc
+**Transférer les documents** relie ensuite les scans des nouvelles factures.
+
+1. Cliquez sur **Vérifier**. Nimble compte ce qui se passerait.
+2. S'il y a de nouvelles factures, **Compléter** s'active. Cliquez dessus.
+3. Cliquez ensuite à nouveau sur **Vérifier** : il ne doit plus y avoir de nouvelles factures.
+
+| Colonne | Signification |
+|---|---|
+| **Dans la source** | Combien de factures d'achat l'ancien logiciel contient |
+| **Déjà dans Nimble** | Combien d'entre elles ont déjà été transférées |
+| **Nouvelles** / **Ajoutées** | Combien seront ajoutées, ou après **Compléter** : l'ont été |
+| **Fournisseur absent de Nimble** | Factures qui ne peuvent pas être transférées, car leur fournisseur n'est pas dans Nimble |
+| **Déjà saisies dans Nimble** | Factures déjà dans Nimble, saisies à la main ou reçues via Peppol ; elles sont ignorées |
+
+Si une facture ne peut pas être transférée faute de fournisseur, Nimble affiche une liste sous le décompte : le
+fournisseur tel qu'il s'appelle dans l'ancien logiciel, le numéro, la date, le total et si la facture est approuvée ou
+payée. **Supprimé ou inconnu** signifie que ce fournisseur a été supprimé dans l'ancien logiciel. Créez le fournisseur
+dans Nimble ou saisissez la facture à la main.
+
 ## Reprendre le statut de paiement
 
 Utilisez ceci **une seule fois**, au moment où votre comptabilité passe de l'ancien logiciel à Nimble. Il reprend de

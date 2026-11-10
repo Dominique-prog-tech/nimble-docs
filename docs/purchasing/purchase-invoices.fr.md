@@ -8,7 +8,7 @@ Cliquez dans la barre latérale sur **Achats → Factures d'achat**.
 
 ## La liste
 
-![La liste Factures d'achat avec les colonnes Numéro de facture, Fournisseur, Date, Échéance, Montant, Type, Origine et Statut, et en fin de ligne les boutons Approuver et Retirer ; deux factures sont en attente d'approbation et une est approuvée au paiement.](../images/aankoopfacturen-lijst-fr.png)
+![La liste Factures d'achat avec les colonnes Numéro de facture, Fournisseur, Date, Échéance, Montant, Type, Origine et Statut, et en fin de ligne un seul bouton : Approuver pour les deux factures en attente d'approbation, Payée pour la facture approuvée au paiement.](../images/aankoopfacturen-lijst-fr.png)
 
 | Colonne | Ce qu'elle indique |
 |---|---|
@@ -21,7 +21,7 @@ Cliquez dans la barre latérale sur **Achats → Factures d'achat**.
 | **Origine** | D'où vient la facture — voir ci-dessous |
 | **Statut** | Où en est l'approbation |
 
-En fin de ligne figure le bouton **Approuver** ou **Retirer**. Double-cliquez une ligne pour ouvrir la
+En fin de ligne figure le bouton **Approuver** ou **Payée** : l'action qui vient ensuite. Double-cliquez une ligne pour ouvrir la
 facture. Vous pouvez rechercher, trier, filtrer et exporter comme dans les autres listes.
 
 ### D'où vient une facture
@@ -129,7 +129,8 @@ crédit, l'étiquette **Note de crédit**.
 
 En bas se trouvent **Enregistrer** et **Annuler**, et à leur droite **Archiver**.
 
-L'approbation ne se fait pas sur la fiche mais dans la liste, avec **Approuver** ou **Retirer**.
+En haut de la fiche figure le statut. À côté se trouve **Approuver** ou **Marquer comme payée** ; sous **Plus…**, vous retirez
+une approbation ou annulez un paiement. Voir [Indiquer un paiement](#indiquer-un-paiement).
 
 ### Ajouter le scan
 
@@ -153,7 +154,7 @@ Si vous ouvrez une facture archivée via un ancien lien, la fiche indique qu'ell
 
 ## Ce que vous ne faites pas ici
 
-Payer. Cet écran suit ce qui est dû et ce qui est libéré.
+Effectuer le virement. Vous indiquez ici qu'une facture est payée ; le paiement lui-même se fait dans votre banque.
 
 ## Voir aussi
 
