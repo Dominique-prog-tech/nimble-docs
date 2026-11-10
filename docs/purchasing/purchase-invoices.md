@@ -50,8 +50,9 @@ Facturen en creditnota's staan samen in de lijst. Met de keuzelijst naast de tit
 | **Goedgekeurd om te betalen** | Iemand heeft ze nagekeken en vrijgegeven |
 | **Betaald** | Het bedrag is voldaan |
 
-Met **Goedkeuren** zet u een factuur vrij; **Intrekken** draait dat terug zolang ze niet betaald is. Een
-betaalde factuur heeft geen knop.
+Met **Goedkeuren** zet u een factuur vrij, in de lijst of op de fiche. In de lijst staat per factuur één knop: de
+handeling die aan de beurt is. Een goedkeuring trekt u in op de fiche, onder **Meer…** met **Goedkeuring intrekken**,
+zolang de factuur niet betaald is. Een betaalde factuur heeft in de lijst geen knop.
 
 ### Een betaling aanduiden
 

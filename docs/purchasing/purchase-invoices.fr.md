@@ -50,8 +50,9 @@ Factures et notes de crédit figurent ensemble dans la liste. Avec la liste dér
 | **Approuvée au paiement** | Quelqu'un l'a vérifiée et l'a libérée |
 | **Payée** | Le montant est acquitté |
 
-**Approuver** libère une facture ; **Retirer** annule cette approbation tant qu'elle n'est pas payée. Une
-facture payée n'a pas de bouton.
+**Approuver** libère une facture, dans la liste ou sur la fiche. Dans la liste, chaque facture a un seul bouton :
+l'action qui vient ensuite. Une approbation se retire sur la fiche, sous **Plus…** avec **Retirer l'approbation**,
+tant que la facture n'est pas payée. Une facture payée n'a pas de bouton dans la liste.
 
 ### Indiquer un paiement
 
