@@ -163,6 +163,30 @@ montant, l'approbation et le statut de paiement ne changent pas. Le bloc ne lit 
 
 Une conversion complète attribue désormais le type elle-même. Voir [Factures d'achat](../purchasing/purchase-invoices.md#notes-de-credit).
 
+## Compléter les fournisseurs
+
+Transfère les fournisseurs ajoutés dans l'ancien logiciel depuis la dernière conversion complète. Un fournisseur déjà
+présent dans Nimble reste tel quel. Faites-le avant **Compléter les factures d'achat** : une facture d'achat ne peut être
+transférée que si son fournisseur figure dans Nimble.
+
+1. Cliquez sur **Vérifier**. Nimble compte ce qui se passerait et cite les nouveaux fournisseurs.
+2. S'il y a de nouveaux fournisseurs, **Compléter** s'active. Cliquez dessus.
+3. Cliquez ensuite à nouveau sur **Vérifier** : il ne doit plus y avoir de nouveaux fournisseurs.
+
+| Colonne | Signification |
+|---|---|
+| **Dans la source** | Combien de fournisseurs l'ancien logiciel contient |
+| **Déjà dans Nimble** | Combien d'entre eux ont déjà été transférés |
+| **Nouveaux** / **Ajoutés** | Combien seront ajoutés, ou après **Compléter** : l'ont été |
+| **Déjà saisis à la main** | Fournisseurs dont le numéro de TVA figure déjà chez un fournisseur saisi à la main ; aucun second n'est ajouté |
+| **Sans nom** | Fournisseurs sans nom ; la conversion complète les ignore aussi |
+
+Si un fournisseur figure sous **Déjà saisis à la main**, Nimble le cite avec le fournisseur déjà présent dans Nimble.
+Ses factures ne peuvent alors pas être transférées automatiquement : saisissez-les à la main.
+
+Ensuite, vous pouvez aussi lancer **Compléter les données des relations** et **Reprendre les fournisseurs par article** :
+ils trouvent aussi les nouveaux fournisseurs.
+
 ## Compléter les factures d'achat
 
 Transfère les factures d'achat arrivées dans l'ancien logiciel depuis la dernière conversion complète. Une facture
@@ -183,8 +207,9 @@ d'achat déjà présente dans Nimble reste telle quelle : convertie, saisie à l
 
 Si une facture ne peut pas être transférée faute de fournisseur, Nimble affiche une liste sous le décompte : le
 fournisseur tel qu'il s'appelle dans l'ancien logiciel, le numéro, la date, le total et si la facture est approuvée ou
-payée. **Supprimé ou inconnu** signifie que ce fournisseur a été supprimé dans l'ancien logiciel. Créez le fournisseur
-dans Nimble ou saisissez la facture à la main.
+payée. Si un nom figure, complétez ce fournisseur avec **Compléter les fournisseurs** ci-dessus, puis cliquez à
+nouveau sur **Vérifier**. **Supprimé ou inconnu** signifie que ce fournisseur a été supprimé dans l'ancien logiciel et
+n'est pas transféré : créez-le dans Nimble ou saisissez la facture à la main.
 
 ## Reprendre le statut de paiement
 

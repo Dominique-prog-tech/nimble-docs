@@ -161,6 +161,30 @@ goedkeuring en de betaalstatus blijven zoals ze zijn. Het blok leest enkel Nimbl
 
 Een volledige conversie zet de soort voortaan zelf. Zie [Aankoopfacturen](../purchasing/purchase-invoices.md#creditnotas).
 
+## Leveranciers aanvullen
+
+Zet de leveranciers over die in het vorige pakket bijkwamen sinds de laatste volledige conversie. Een leverancier die
+al in Nimble staat, blijft zoals hij is. Doe dit vóór **Aankoopfacturen aanvullen**: een aankoopfactuur kan pas over
+als haar leverancier in Nimble staat.
+
+1. Klik **Nakijken**. Nimble telt wat er zou gebeuren en noemt de nieuwe leveranciers.
+2. Zijn er nieuwe leveranciers, dan gaat **Aanvullen** aan. Klik erop.
+3. Klik daarna opnieuw **Nakijken**: er hoort niets nieuws meer te zijn.
+
+| Kolom | Betekenis |
+|---|---|
+| **In de bron** | Hoeveel leveranciers het vorige pakket bevat |
+| **Al in Nimble** | Daarvan hoeveel er al overgezet zijn |
+| **Nieuw** / **Toegevoegd** | Hoeveel er bijkomen, of na **Aanvullen**: bijgekomen zijn |
+| **Al met de hand in Nimble** | Leveranciers met een btw-nummer dat al bij een met de hand ingebrachte leverancier staat; er komt geen tweede bij |
+| **Zonder naam** | Leveranciers zonder naam; ook de volledige conversie slaat ze over |
+
+Staat een leverancier onder **Al met de hand in Nimble**, dan noemt Nimble hem met de leverancier die al in Nimble
+staat. Zijn facturen kunnen dan niet automatisch over: breng ze met de hand in.
+
+Daarna kunt u ook **Relatiegegevens aanvullen** en **Leveranciers per artikel overnemen**: die vinden de nieuwe
+leveranciers ook.
+
 ## Aankoopfacturen aanvullen
 
 Zet de aankoopfacturen over die in het vorige pakket binnenkwamen sinds de laatste volledige conversie. Een
@@ -181,8 +205,9 @@ De scans van de nieuwe facturen koppelt daarna het blok **Documenten overzetten*
 
 Kan een factuur niet over omdat haar leverancier ontbreekt, dan toont Nimble onder de telling een lijst: de
 leverancier zoals hij in het vorige pakket heet, het nummer, de datum, het totaal en of de factuur goedgekeurd of
-betaald is. Staat er **Verwijderd of onbekend**, dan is die leverancier in het vorige pakket verwijderd. Maak de
-leverancier aan in Nimble of zet de factuur er met de hand in.
+betaald is. Staat er een naam, vul die leverancier dan aan met **Leveranciers aanvullen** hierboven en klik daarna
+opnieuw **Nakijken**. Staat er **Verwijderd of onbekend**, dan is die leverancier in het vorige pakket verwijderd en
+komt hij niet over: maak hem aan in Nimble of breng de factuur met de hand in.
 
 ## Betaalstatus overnemen
 
