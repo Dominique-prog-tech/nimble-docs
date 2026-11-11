@@ -128,6 +128,23 @@ l'enregistrement, la fiche reste ouverte : vous pouvez ajouter le scan tout de s
 
 Une nouvelle facture est *En attente d'approbation* et son origine est *Saisie*.
 
+### Faire lire par l'IA
+
+Si vous avez configuré votre propre **clé IA** dans le portail ADM One et autorisé l'analyse de documents (avec la case
+*Scans, photos et PDF*), la carte **Faire lire par l'IA** apparaît en haut d'une nouvelle facture d'achat. Glissez-y le
+scan ou le PDF de la facture, ou cliquez pour le choisir (PDF, JPG, PNG ou WebP).
+
+- L'IA lit le fournisseur, le numéro de facture, la date, l'échéance, le total et la TVA par taux, et préremplit les
+  champs. **Rien n'est enregistré avant que vous cliquiez sur Enregistrer.** Vérifiez tout : l'IA peut se tromper.
+- Nimble recherche le **fournisseur** par son numéro de TVA. S'il n'en trouve aucun (ou plusieurs), le champ reste vide
+  et le message indique le nom et le numéro de TVA lus. Nimble ne crée jamais lui-même un fournisseur.
+- Nimble ne reprend la **TVA par taux** que si elle correspond au total. Elle apparaît ensuite sous le montant.
+- Après l'enregistrement, le document est joint à la facture avec la description *Lu par l'IA*.
+- Vous payez les coûts de l'IA **directement à votre fournisseur d'IA**, via votre propre clé.
+
+Si quelque chose manque encore dans le portail (pas de clé, pas d'autorisation, ou la case des scans désactivée), la
+carte indique ce qui manque.
+
 !!! info "Le même numéro chez le même fournisseur est refusé"
     Un numéro de facture est unique **par fournisseur**. Deux fournisseurs peuvent chacun avoir une facture
     *2026-001* ; un même fournisseur non. Nimble refuse la deuxième avec un message — sinon la même dette
@@ -157,6 +174,11 @@ une approbation ou annulez un paiement. Voir [Indiquer un paiement](#indiquer-un
 
 Placez une facture scannée ou le courriel qui l'accompagnait sous l'onglet **Pièces jointes**. Voir
 [Pièces jointes](../bijlagen.md).
+
+Si un scan ou un PDF est joint à une facture qui ne vient pas de Peppol, l'IA peut le lire avec **Lire depuis la pièce
+jointe** dans la carte **Faire lire par l'IA** (voir [Faire lire par l'IA](#faire-lire-par-lia)). Sur une facture existante,
+l'IA ne remplit que les champs **vides**, comme une échéance manquante ou la TVA par taux. Si le document indique autre chose
+que la fiche, le message le dit et la fiche reste telle quelle.
 
 ### Attribuer une facture à un projet
 

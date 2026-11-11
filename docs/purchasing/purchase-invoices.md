@@ -127,6 +127,23 @@ bewaren blijft de fiche open, zodat u meteen de scan kunt toevoegen.
 
 Een nieuwe factuur staat op *Wacht op goedkeuring* en heeft als herkomst *Ingebracht*.
 
+### Laten lezen door de AI
+
+Hebt u in het portaal van ADM One een eigen **AI-sleutel** ingesteld en toestemming gegeven voor documentanalyse (met
+het vinkje *Scans, foto's en pdf's*), dan staat bovenaan een nieuwe aankoopfactuur de kaart **Laten lezen door de AI**.
+Sleep de scan of pdf van de factuur erin, of klik om ze te kiezen (pdf, JPG, PNG of WebP).
+
+- De AI leest de leverancier, het factuurnummer, de datum, de vervaldatum, het totaal en de btw per tarief, en vult
+  de velden voor. **Niets wordt bewaard tot u op Bewaren klikt.** Kijk alles na: de AI kan zich vergissen.
+- De **leverancier** zoekt Nimble op zijn btw-nummer. Vindt het er geen (of meer dan één), dan blijft het veld leeg en
+  noemt de melding de gelezen naam en het btw-nummer. Nimble maakt nooit zelf een leverancier aan.
+- De **btw per tarief** neemt Nimble enkel over als ze optelt tot het totaal. Ze staat daarna onder het bedrag.
+- Het document hangt na het bewaren als bijlage aan de factuur, met de omschrijving *Gelezen door de AI*.
+- De kosten van de AI betaalt u **rechtstreeks aan uw AI-leverancier**, via uw eigen sleutel.
+
+Staat iets nog niet in orde in het portaal (geen sleutel, geen toestemming, of het vinkje voor scans uit), dan zegt
+de kaart wat er ontbreekt.
+
 !!! info "Hetzelfde nummer bij dezelfde leverancier kan niet"
     Een factuurnummer is uniek **per leverancier**. Twee leveranciers mogen elk een factuur *2026-001*
     hebben; dezelfde leverancier niet. Nimble weigert het tweede met een melding — anders stond dezelfde
@@ -156,6 +173,11 @@ goedkeuring in of maakt u een betaling ongedaan. Zie [Een betaling aanduiden](#e
 
 Een gescande factuur of de e-mail waarmee ze kwam, zet u onder het tabblad **Bijlagen**. Zie
 [Bijlagen](../bijlagen.md).
+
+Hangt er een scan of pdf aan een factuur die niet uit Peppol komt, dan kan de AI ze lezen met **Uit bijlage lezen** in de
+kaart **Laten lezen door de AI** (zie [Laten lezen door de AI](#laten-lezen-door-de-ai)). Op een bestaande factuur vult de AI
+enkel **lege** velden in, zoals een ontbrekende vervaldatum of de btw per tarief. Staat er op het document iets anders dan op
+de fiche, dan zegt de melding dat, en blijft de fiche zoals ze was.
 
 ### Een factuur aan een project toewijzen
 
