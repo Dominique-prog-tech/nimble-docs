@@ -186,6 +186,17 @@ boutons demandent le droit de modifier les factures.
     L'aperçu fonctionne aussi avant la finalisation. Vous contrôlez ainsi le document tant que vous pouvez
     encore le modifier. L'aperçu porte alors une marque de brouillon.
 
+### Le QR de paiement
+
+À côté des données de paiement figure un **code QR**. Le client le scanne avec son app bancaire, qui remplit le virement :
+votre nom, votre numéro de compte, le montant et la communication structurée (sans communication : le numéro de facture).
+Le paiement arrive ainsi avec la bonne communication et Nimble le lettre de lui-même.
+
+Le QR ne figure **pas** sur un brouillon, une facture payée ou annulée, ni sur une note de crédit. Sur un brouillon ou une
+facture payée, il inviterait à un paiement qui n'a pas lieu d'être. Sans numéro de compte dans la
+[fiche société](../settings/company-profile.fr.md), il n'y a pas de QR. Si le numéro de compte n'est pas un IBAN valide, un
+message figure sur le document à la place du QR : complétez la fiche société.
+
 ## Finaliser
 
 **Finaliser** tire le numéro suivant de la série et met la facture sur **Émise**. Elle est alors

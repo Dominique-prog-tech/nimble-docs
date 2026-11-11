@@ -182,6 +182,17 @@ bewerken.
     Het afdrukvoorbeeld werkt ook vóór u de factuur definitief maakt. Zo controleert u het blad terwijl u nog
     kunt wijzigen. Het voorbeeld draagt dan een KLAD-merk.
 
+### De betaal-QR
+
+Naast de betaalgegevens staat een **QR-code**. De klant scant hem met zijn bankapp, en die vult de overschrijving in:
+uw naam, uw rekeningnummer, het bedrag en de gestructureerde mededeling (zonder mededeling: het factuurnummer). Zo komt
+de betaling met de juiste mededeling binnen en punt Nimble ze vanzelf af.
+
+De QR staat **niet** op een klad, een betaalde of geannuleerde factuur, en een creditnota. Op een klad of een betaalde
+factuur zou hij tot een betaling uitnodigen die niet hoort. Staat er geen rekeningnummer in het
+[bedrijfsprofiel](../settings/company-profile.md), dan is er ook geen QR. Is het rekeningnummer geen geldige IBAN, dan staat
+er in de plaats van de QR een melding op het blad: vul het bedrijfsprofiel aan.
+
 ## Definitief maken
 
 **Definitief maken** trekt het volgende nummer uit de reeks en zet de factuur op **Uitgereikt**. Daarna staat
