@@ -42,6 +42,10 @@ Une facture arrivée via Peppol contient plus que le total :
 - Sous **Pièces jointes** se trouvent le pdf du fournisseur et le fichier Peppol (UBL). Le pdf est ce que vous
   vérifiez avant d'approuver. L'UBL est ce que votre comptable importe.
 
+Si le document porte un numéro de commande qui désigne exactement une commande du même fournisseur, Nimble lie la facture
+d'office à cette commande et le signale dans un message. Les majuscules et les espaces autour du numéro ne comptent pas. Une
+commande que vous avez déjà liée vous-même reste inchangée.
+
 S'il manque ces données à une facture Peppol, par exemple parce qu'elle a été traitée avant que Nimble ne les
 reprenne, choisissez sur la fiche sous **Plus…** l'action **Récupérer les données Peppol**. Nimble récupère à nouveau
 le document. Un pdf que vous avez déjà joint vous-même n'est pas ajouté une seconde fois.
@@ -116,6 +120,7 @@ Complétez la carte **Données de la facture** :
 | **Date** | Obligatoire — aujourd'hui par défaut |
 | **Échéance** | Reprenez-la de la facture |
 | **Type** | **Facture** ou **Note de crédit**. Par défaut : Facture |
+| **Commande** | Facultatif. La [commande](purchase-orders.fr.md) à laquelle la facture appartient ; la liste montre les commandes du fournisseur choisi. **Vers la commande** l'ouvre |
 | **Note** | Texte libre |
 
 Cliquez sur **Enregistrer**. S'il manque un champ obligatoire, le message en haut le cite par son nom. Après
@@ -165,6 +170,13 @@ projet](../work/projects.md#le-bloc-post-calcul), sous **Achats**.
   ou vous répartissez la ligne entre plusieurs projets, en montant ou en pourcentage.
 - Pour une facture sans lignes (papier ou scan), vous ajoutez vous-même une partie avec **Ajouter une partie**, avec une
   description.
+- Si la facture est liée à une commande dont des lignes portent un projet, **Reprendre de la commande …** apparaît tant que
+  rien n'est attribué. La fenêtre qui s'ouvre est remplie avec une partie par projet et le montant de la commande : ce qui
+  est réceptionné, sinon ce qui est commandé, fois le prix. Adaptez là où la facture diffère et cliquez **Enregistrer**. Si
+  une ligne de projet n'a pas de prix, la fenêtre le dit et vous complétez ce montant vous-même.
+
+Pour une facture Peppol, les parties qui ne sont liées à aucune ligne de facture, comme la proposition d'une commande,
+figurent à part sous les lignes, sous **Parties sans ligne de facture**.
 
 Ce qui n'est pas attribué reste simplement sur la facture : c'est du stock ou un frais général. En haut figure combien est
 attribué, et combien ne l'est pas. Une attribution ne change rien au montant ni au statut de la facture ; elle est donc

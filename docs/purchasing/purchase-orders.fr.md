@@ -1,7 +1,8 @@
 # Commandes
 
 Une **commande** consigne ce que vous avez commandé chez un fournisseur et où en est la livraison. Lors de
-la réception, Nimble comptabilise les marchandises dans le stock — vous ne devez pas le suivre séparément.
+la réception, Nimble comptabilise les marchandises dans le stock — vous ne devez pas le suivre séparément. Ce qui va
+directement sur un chantier n'entre pas dans le stock : voir [Directement vers le chantier](#directement-vers-le-chantier).
 
 ## Ouvrir l'écran
 
@@ -37,6 +38,7 @@ Cliquez sur **Nouvelle commande**. Complétez la carte **Données de la commande
 |---|---|
 | **Numéro** | Obligatoire — vous le choisissez vous-même |
 | **Fournisseur** | Obligatoire — choisissez parmi vos relations marquées comme fournisseur |
+| **Projet** | Vide signifie **Magasin**. Choisissez un projet si les marchandises vont directement au chantier : les nouvelles lignes reçoivent ce projet. Voir [Directement vers le chantier](#directement-vers-le-chantier) |
 | **Date de commande** | Obligatoire — aujourd'hui par défaut |
 | **Date de livraison prévue** | Quand le fournisseur livre. Vous voyez ainsi si le matériel critique arrive à temps |
 | **Statut** | Une nouvelle commande est en **Brouillon** |
@@ -75,6 +77,7 @@ déjà choisi, le prix proposé s'adapte.
 | Colonne | Ce qu'elle indique |
 |---|---|
 | **Article** | Numéro et nom de l'article |
+| **Projet** | **Magasin**, ou le projet où la ligne va directement |
 | **Quantité** | Ce que vous avez commandé |
 | **Reçu** | Ce qui est déjà arrivé |
 | **Encore attendu** | Ce qui est encore en route pour cette ligne |
@@ -84,6 +87,26 @@ déjà choisi, le prix proposé s'adapte.
 Sous les lignes figure le **Total**. La croix en fin de ligne supprime une ligne.
 
 N'oubliez pas d'**enregistrer** : une ligne pas encore enregistrée ne peut pas être réceptionnée.
+
+## Directement vers le chantier
+
+Vous commandez du matériel que le fournisseur livre sur le chantier, ou un service pour un seul projet ? Donnez alors un
+**Projet** à la ligne. Une telle ligne ne passe pas par le magasin :
+
+- À la réception, la quantité compte pour le statut de la commande, mais la ligne **n'entre pas dans le stock**. L'équipe
+  ne la sort donc pas non plus du magasin avec un bon de travail.
+- Le coût arrive sur le projet via la [facture d'achat](purchase-invoices.fr.md#attribuer-une-facture-a-un-projet). Si la
+  facture est liée à cette commande, Nimble propose les projets et montants de la commande.
+- Dans l'[état du stock](../inventory/stock-level.fr.md), une telle ligne ne compte pas comme **En route** : elle ne vient
+  pas au magasin.
+
+Le **Projet** de la carte **Données de la commande** vaut pour les nouvelles lignes. Si vous le modifiez, les lignes qui
+portaient le projet précédent suivent. Une ligne à laquelle vous avez donné sciemment un autre projet ou **Magasin** reste
+inchangée. Par ligne, vous choisissez dans la colonne **Projet** un autre projet, ou **Magasin**.
+
+!!! info "Après une réception, le projet est fixé"
+    Dès que quelque chose a été réceptionné sur une ligne, le projet de cette ligne ne peut plus changer. Ce qui est déjà
+    dans le stock passerait sinon vers un projet sans écriture, ou inversement. Corrigez d'abord la réception dans ce cas.
 
 ## Réceptionner des marchandises
 
@@ -109,7 +132,8 @@ Dans la fenêtre, complétez :
 Cliquez sur **Enregistrer**. Si aucune ligne ne porte de quantité, la fenêtre vous le signale. **Annuler**
 ferme la fenêtre sans rien comptabiliser.
 
-Après l'enregistrement, les marchandises sont dans le stock et le statut s'adapte : **Partiellement livré**
+Après l'enregistrement, les marchandises sont dans le stock, sauf les lignes avec un projet (elles sont allées
+directement au chantier), et le statut s'adapte : **Partiellement livré**
 tant qu'il reste quelque chose d'ouvert, **Reçu** quand tout est arrivé. Un service se réceptionne comme toute
 autre ligne, mais n'entre pas dans le stock : un service n'en a pas.
 

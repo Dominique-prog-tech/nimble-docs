@@ -1,7 +1,8 @@
 # Bestellingen
 
 Een **bestelling** legt vast wat u bij een leverancier besteld hebt en hoever de levering staat. Bij het
-ontvangen boekt Nimble de goederen in de voorraad — u hoeft dat niet apart bij te houden.
+ontvangen boekt Nimble de goederen in de voorraad — u hoeft dat niet apart bij te houden. Wat rechtstreeks naar een werf
+gaat, komt niet in de voorraad: zie [Rechtstreeks naar de werf](#rechtstreeks-naar-de-werf).
 
 ## Het scherm openen
 
@@ -37,6 +38,7 @@ Klik **Nieuwe bestelling**. Vul in de kaart **Bestelgegevens** in:
 |---|---|
 | **Nummer** | Verplicht — u kiest het zelf |
 | **Leverancier** | Verplicht — kies uit uw relaties die als leverancier gemarkeerd zijn |
+| **Project** | Leeg betekent **Magazijn**. Kies een project als de goederen rechtstreeks naar de werf gaan: nieuwe regels krijgen dat project. Zie [Rechtstreeks naar de werf](#rechtstreeks-naar-de-werf) |
 | **Besteldatum** | Verplicht — staat standaard op vandaag |
 | **Verwachte leverdatum** | Wanneer de leverancier levert. Zo ziet u of kritiek materiaal op tijd binnen is |
 | **Status** | Een nieuwe bestelling staat op **Klad** |
@@ -75,6 +77,7 @@ staat, dan past de voorgestelde prijs zich aan.
 | Kolom | Wat het zegt |
 |---|---|
 | **Artikel** | Nummer en naam van het artikel |
+| **Project** | **Magazijn**, of het project waar de regel rechtstreeks naartoe gaat |
 | **Aantal** | Wat u besteld hebt |
 | **Ontvangen** | Wat er al binnen is |
 | **Nog te komen** | Wat er van deze regel nog onderweg is |
@@ -84,6 +87,25 @@ staat, dan past de voorgestelde prijs zich aan.
 Onder de regels staat het **Totaal**. Met het kruisje achteraan haalt u een regel weg.
 
 Vergeet niet te **bewaren**: een regel die nog niet bewaard is, kan niet ontvangen worden.
+
+## Rechtstreeks naar de werf
+
+Bestelt u materiaal dat de leverancier op de werf levert, of een dienst voor één project, geef de regel dan een
+**Project**. Zo'n regel gaat niet via het magazijn:
+
+- Bij het ontvangen telt de hoeveelheid voor de status van de bestelling, maar de regel komt **niet in de voorraad**.
+  De ploeg haalt hem dus ook niet met een werkbon uit het magazijn.
+- De kost komt op het project via de [aankoopfactuur](purchase-invoices.md#een-factuur-aan-een-project-toewijzen). Is de
+  factuur aan deze bestelling gekoppeld, dan stelt Nimble de projecten en bedragen van de bestelling voor.
+- In de [voorraadstand](../inventory/stock-level.md) telt zo'n regel niet als **Onderweg**: hij komt niet naar het magazijn.
+
+Het **Project** in de kaart **Bestelgegevens** geldt voor nieuwe regels. Wijzigt u het, dan volgen de regels die het
+vorige project droegen. Een regel die u bewust een ander project of **Magazijn** gaf, blijft staan. Per regel kiest u
+in de kolom **Project** een ander project, of **Magazijn**.
+
+!!! info "Na een ontvangst ligt het project vast"
+    Is er op een regel al iets ontvangen, dan kan het project van die regel niet meer wijzigen. Wat al in de voorraad
+    zit, zou anders zonder boeking naar een project verhuizen, of omgekeerd. Zet in dat geval eerst de ontvangst recht.
 
 ## Goederen ontvangen
 
@@ -108,7 +130,8 @@ In het venster vult u in:
 Klik **Boeken**. Staat er bij geen enkele regel een hoeveelheid, dan zegt het venster dat. **Annuleren**
 sluit het venster zonder iets te boeken.
 
-Na het boeken staan de goederen in de voorraad en past de status zich aan: **Deels geleverd** zolang er
+Na het boeken staan de goederen in de voorraad, behalve de regels met een project (die gingen rechtstreeks naar de
+werf), en past de status zich aan: **Deels geleverd** zolang er
 iets openstaat, **Ontvangen** wanneer alles binnen is. Een dienst wordt ontvangen zoals elke regel, maar komt
 niet in de voorraad: een dienst heeft er geen.
 

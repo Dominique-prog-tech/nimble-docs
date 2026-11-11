@@ -42,6 +42,10 @@ Een factuur die via Peppol binnenkwam, draagt meer dan het totaal:
 - Onder **Bijlagen** staan de pdf van de leverancier en het Peppol-bestand (UBL). De pdf is wat u nakijkt vóór u
   goedkeurt. De UBL is wat uw boekhouder inleest.
 
+Draagt het document een bestelnummer dat precies één bestelling van dezelfde leverancier aanwijst, dan koppelt Nimble de
+factuur vanzelf aan die bestelling en zegt het dat in een melding. Hoofdletters en spaties rond het nummer tellen niet. Een
+bestelling die u zelf al koppelde, blijft staan.
+
 Mist een Peppol-factuur die gegevens, bijvoorbeeld omdat ze verwerkt werd vóór Nimble ze overnam, kies dan op de
 fiche onder **Meer…** de handeling **Gegevens uit Peppol ophalen**. Nimble haalt het document opnieuw op. Een pdf die
 u zelf al koppelde, komt er geen tweede keer bij.
@@ -115,6 +119,7 @@ Vul in de kaart **Factuurgegevens** in:
 | **Datum** | Verplicht — staat standaard op vandaag |
 | **Vervaldatum** | Neem ze over van de factuur |
 | **Soort** | **Factuur** of **Creditnota**. Staat standaard op Factuur |
+| **Bestelling** | Optioneel. De [bestelling](purchase-orders.md) waar de factuur bij hoort; de keuzelijst toont de bestellingen van de gekozen leverancier. Met **Naar de bestelling** opent u ze |
 | **Nota** | Vrije tekst |
 
 Klik **Bewaren**. Ontbreekt er een verplicht veld, dan noemt de melding bovenaan het veld bij naam. Na het
@@ -163,6 +168,13 @@ project](../work/projects.md#het-blok-nacalculatie), onder **Aankopen**.
 - Bij een factuur uit Peppol staat elke regel er apart. Met **Verdelen…** naast een regel kiest u een project, of verdeelt
   u de regel over meerdere projecten, in een bedrag of een percentage.
 - Bij een factuur zonder regels (papier of scan) voegt u met **Deel toevoegen** zelf een deel toe, met een omschrijving.
+- Is de factuur aan een bestelling gekoppeld waarvan regels een project dragen, dan staat er **Overnemen uit bestelling …**
+  zolang er nog niets toegewezen is. Het venster dat opent, staat ingevuld met een deel per project en het bedrag van de
+  bestelling: wat ontvangen is, anders wat besteld is, maal de prijs. Pas aan waar de factuur afwijkt en klik **Bewaren**.
+  Heeft een projectregel geen prijs, dan zegt het venster dat en vult u dat bedrag zelf in.
+
+Bij een factuur uit Peppol staan delen die aan geen factuurregel hangen, zoals het voorstel uit een bestelling, onder de
+regels apart, onder **Delen zonder factuurregel**.
 
 Wat niet toegewezen is, blijft gewoon op de factuur: dat is voorraad of een algemene kost. Bovenaan staat hoeveel er
 toegewezen is, en hoeveel niet. Een toewijzing wijzigt niets aan het bedrag of de status van de factuur; ze kan dus ook
