@@ -75,6 +75,15 @@ la tâche, ce à quoi elle se rapporte, la date de début et l'échéance, et un
 
 Par défaut, l'option est **désactivée**.
 
+## Envoyer les factures de vente via Peppol
+
+Dans la carte **Banque** figure **Envoyer les factures de vente via Peppol**. Si c'est activé, une facture émise propose, dans la
+fenêtre **Facture électronique (Peppol)**, le bouton **Envoyer via Peppol**, si le client est sur Peppol. Voir
+[Factures de vente](../sales/invoices.fr.md#envoyer-via-peppol).
+
+Par défaut, c'est **désactivé**. Laissez-le désactivé tant que votre comptable ou un autre logiciel envoie déjà vos factures via
+Peppol : sinon la même facture part par deux chemins.
+
 ## Paramètres financiers
 
 Cette carte contient les seuils que vous choisissez vous-même pour la facturation et pour la marge des projets.

@@ -72,6 +72,15 @@ hoort, de begin- en vervaldag en een link naar [Taken](../crm/tasks.md).
 
 Standaard staat het **uit**.
 
+## Verkoopfacturen via Peppol versturen
+
+In de kaart **Bank** staat **Verkoopfacturen via Peppol versturen**. Staat het aan, dan staat op een uitgereikte factuur, in het
+venster **E-factuur (Peppol)**, de knop **Versturen via Peppol**, als de klant op Peppol staat. Zie
+[Verkoopfacturen](../sales/invoices.md#versturen-via-peppol).
+
+Standaard staat het **uit**. Laat het uit zolang uw boekhouder of een ander pakket uw facturen al via Peppol verstuurt: anders
+vertrekt dezelfde factuur langs twee wegen.
+
 ## Financiële instellingen
 
 Deze kaart bevat de grenzen die u zelf kiest voor facturatie en voor de marge van projecten.

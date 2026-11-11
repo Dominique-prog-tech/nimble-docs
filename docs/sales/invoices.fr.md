@@ -252,7 +252,24 @@ reçoit.
 
 La fenêtre affiche en haut **Télécharger**, et en dessous les totaux du fichier. Ils sont toujours égaux à
 ceux de la facture : s'il y a un cent d'écart, le fichier n'est pas construit. Déposez le fichier via votre
-logiciel comptable ou un portail.
+logiciel comptable ou un portail, ou envoyez-le directement via Peppol (ci-dessous).
+
+#### Envoyer via Peppol
+
+Si [Envoyer les factures de vente via Peppol](../settings/company-profile.fr.md#envoyer-les-factures-de-vente-via-peppol) est activé
+dans la fiche société, Nimble vérifie à l'ouverture de la fenêtre si le client est sur Peppol, et le dit en toutes lettres :
+
+- **Le client est sur Peppol** et peut recevoir des factures électroniques (ou des notes de crédit) : le bouton **Envoyer via
+  Peppol** fonctionne. Après confirmation, la facture part vers le logiciel comptable du client. Cela ne peut pas être annulé.
+- **Le client n'est pas sur Peppol**, ou ne peut pas y recevoir ce type de document : envoyez la facture par e-mail.
+- **Pas de numéro d'entreprise belge :** Nimble n'envoie via Peppol qu'à des entreprises belges.
+- **Non vérifié :** ADM One n'a pas répondu. Ce n'est pas la même chose que « pas sur Peppol » ; réessayez plus tard.
+
+Après l'envoi, la fiche indique sous **Envoyée** *Peppol* avec le statut de livraison : **Acceptée par le réseau**, puis en
+général dans la minute **Livrée**. Le statut est mis à jour chaque fois que vous ouvrez la facture. Le fichier envoyé figure dans
+l'onglet **Pièces jointes**. Si la livraison échoue ou si le destinataire refuse, le motif est indiqué et vous pouvez renvoyer.
+Une même facture ne part jamais deux fois : si vous la proposez à nouveau pendant que le premier envoi est en cours, vous
+récupérez ce premier envoi.
 
 Une facture électronique doit porter une référence du client. Nimble prend **Votre référence** ; si ce champ
 est vide, le code du projet.

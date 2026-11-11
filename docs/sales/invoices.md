@@ -246,7 +246,24 @@ vragen. Dat duurt enkele seconden: de factuur gaat er ook als PDF in mee, zoals 
 
 Het venster toont bovenaan **Downloaden**, en daaronder de totalen van het bestand. Die zijn altijd gelijk aan
 die van de factuur: wijkt er één cent af, dan wordt het bestand niet gebouwd. Dien het bestand in via uw
-boekhoudpakket of een portaal.
+boekhoudpakket of een portaal, of verstuur het rechtstreeks via Peppol (hieronder).
+
+#### Versturen via Peppol
+
+Staat [Verkoopfacturen via Peppol versturen](../settings/company-profile.md#verkoopfacturen-via-peppol-versturen) aan op de
+bedrijfsfiche, dan kijkt Nimble bij het openen van het venster of de klant op Peppol staat, en zegt het dat in woorden:
+
+- **De klant staat op Peppol** en kan e-facturen (of creditnota's) ontvangen: de knop **Versturen via Peppol** werkt. Na een
+  bevestiging vertrekt de factuur naar het boekhoudpakket van de klant. Dat kan niet ongedaan gemaakt worden.
+- **De klant staat niet op Peppol**, of kan dit soort document er niet ontvangen: mail de factuur.
+- **Geen Belgisch ondernemingsnummer:** Nimble verstuurt via Peppol enkel naar Belgische ondernemingen.
+- **Niet gecontroleerd:** ADM One antwoordde niet. Dat is iets anders dan "niet op Peppol"; probeer het later opnieuw.
+
+Na het versturen staat onder **Verstuurd** op de fiche *Peppol* met de afleverstatus: **Aanvaard door het netwerk**, daarna
+doorgaans binnen een minuut **Afgeleverd**. De status wordt bijgewerkt telkens u de factuur opent. Het verstuurde bestand staat
+op het tabblad **Bijlagen**. Mislukt de aflevering of weigert de ontvanger, dan staat de reden erbij en kunt u opnieuw versturen.
+Eenzelfde factuur vertrekt nooit twee keer: biedt u ze opnieuw aan terwijl de eerste verzending nog loopt, dan krijgt u die
+eerste verzending terug.
 
 Een e-factuur moet een referentie van de klant dragen. Nimble neemt **Uw referentie**; is dat veld leeg, dan
 de code van het project.
