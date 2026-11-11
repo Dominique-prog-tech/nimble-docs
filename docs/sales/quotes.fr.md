@@ -359,6 +359,46 @@ en ligne.
     Si vous adaptez les options, choisissez aussitôt **Plus…** → **Proposer à nouveau en ligne** : le lien reste le
     même et affiche dès lors les nouvelles options.
 
+## Faire signer le devis
+
+Si votre entreprise a un contrat OKSign, lié dans ADM One, la fiche du devis affiche un bloc **Signature via
+OKSign**. Le client signe alors le PDF du devis avec une vraie signature, par exemple pour de gros travaux. C'est une
+deuxième voie à côté du devis en ligne : vous choisissez par devis.
+
+Cliquez dans le bloc sur **Faire signer**. La fenêtre montre qui peut signer : le client lui-même et ses personnes
+de contact. Choisissez le signataire et cliquez sur **Envoyer pour signature**.
+
+- OKSign demande au signataire une **adresse e-mail** et un **numéro de GSM**. S'il en manque un, ou si le numéro est
+  un fixe, c'est indiqué à côté de la personne et vous ne pouvez pas la choisir. Complétez la relation ou la
+  personne de contact.
+- Le signataire reçoit un e-mail avec un lien personnel, issu du [modèle d'e-mail](../settings/mail-templates.md)
+  **Devis à signer (OKSign)**. La page de signature est dans sa langue.
+- En bas du PDF figure un cadre **Pour accord** avec son nom : c'est là qu'il signe.
+- Si le devis était en brouillon, il passe à **Envoyé**.
+
+Ce n'est pas possible pour :
+
+- un devis avec des **options** : proposez-le [en ligne](#proposer-le-devis-en-ligne), le client y coche les options ;
+- un devis qui est **en ligne** : retirez d'abord le devis en ligne ;
+- un devis déjà accepté, refusé ou remplacé ;
+- un devis avec une ligne sans prix unitaire.
+
+Tant qu'une demande est en attente, le bloc affiche le lien du signataire. Vous pouvez alors :
+
+- **Renvoyer** — le même lien une nouvelle fois ;
+- **Vérifier l'état** — vérifie tout de suite s'il a signé ;
+- **Retirer** — si le client dit non, ou si vous voulez modifier le devis. OKSign supprime le document et le lien ne
+  fonctionne plus. OKSign n'a pas de bouton pour refuser : notez ensuite un refus avec **Refuser**.
+
+**Dès que le client a signé**, Nimble passe le devis à **Accepté**. Sous le message en haut, vous lisez *signé par
+le client via OKSign*, et le PDF signé se trouve dans les **Pièces jointes**. Vous êtes averti comme pour une réponse
+en ligne : par la cloche et par e-mail. Nimble vérifie l'état quand vous ouvrez le devis, et chaque matin.
+
+!!! warning "Si vous modifiez le devis après son envoi pour signature"
+    Le client signe le document tel qu'il est parti. Si vous modifiez le devis ensuite, Nimble ne le passe **pas**
+    automatiquement à Accepté après la signature : le bloc indique *Signé, mais PAS accepté*. Consultez le PDF signé
+    et enregistrez la décision vous-même, ou retirez la demande avant que le client signe et renvoyez le devis.
+
 ## Le suivi du devis
 
 | Statut | Ce que vous pouvez faire |
@@ -401,7 +441,8 @@ champs Date de la décision et Qui chez le client, et les boutons Accepter et An
 | **Motif** | Uniquement pour un refus : pourquoi, si vous le savez. Facultatif |
 
 Ensuite, sous le message en haut du devis, figure par exemple *Accepté le 22/09/2026 par Jan Peeters — noté
-par un collaborateur.* Si le client décide en ligne, vous lisez *en ligne, par le client*. **Annuler** laisse
+par un collaborateur.* Si le client décide en ligne, vous lisez *en ligne, par le client* ; s'il a signé via
+[OKSign](#faire-signer-le-devis), *signé par le client via OKSign*. **Annuler** laisse
 le devis tel quel ; sur le tableau, la carte revient à sa place.
 
 Si vous remettez un devis refusé avec **Marquer comme envoyé**, ce refus est annulé. Le Journal conserve ce

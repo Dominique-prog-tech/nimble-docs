@@ -349,6 +349,46 @@ Staan er [optieregels](#de-regelvelden) op de offerte, dan kiest de klant ze zel
     Past u de opties aan, kies dan meteen **Meer…** → **Opnieuw online voorleggen**: de link blijft dezelfde en toont
     vanaf dan de nieuwe opties.
 
+## De offerte laten ondertekenen
+
+Heeft uw bedrijf een OKSign-contract, gekoppeld in ADM One, dan staat er op de offertefiche een blok **Ondertekenen
+via OKSign**. Daarmee tekent de klant de pdf van de offerte met een echte handtekening, bijvoorbeeld voor grote
+werken. Het is een tweede weg naast de online offerte: u kiest per offerte welke.
+
+Klik in het blok op **Laten ondertekenen**. Het venster toont wie kan tekenen: de klant zelf en zijn
+contactpersonen. Kies wie tekent en klik op **Ter ondertekening versturen**.
+
+- OKSign vraagt van de ondertekenaar een **e-mailadres** en een **gsm-nummer**. Ontbreekt er een, of is het nummer
+  een vast nummer, dan staat dat bij die persoon en kunt u hem niet kiezen. Vul het aan op de relatie of de
+  contactpersoon.
+- De ondertekenaar krijgt een mail met een persoonlijke link, uit het [mailsjabloon](../settings/mail-templates.md)
+  **Offerte ondertekenen (OKSign)**. De tekenpagina staat in zijn taal.
+- Onderaan de pdf staat een vak **Voor akkoord** met zijn naam: daar tekent hij.
+- Stond de offerte op Klad, dan gaat ze naar **Verstuurd**.
+
+Dit kan niet bij:
+
+- een offerte met **opties**: leg die [online voor](#de-offerte-online-voorleggen), want daar vinkt de klant de opties aan;
+- een offerte die **online staat**: trek eerst de online offerte in;
+- een offerte die al aanvaard, geweigerd of vervangen is;
+- een offerte met een regel zonder eenheidsprijs.
+
+Zolang een verzoek wacht, toont het blok de link van de ondertekenaar. Daarmee kunt u:
+
+- **Opnieuw mailen** — dezelfde link nog eens;
+- **Stand nakijken** — vraagt meteen na of hij al tekende;
+- **Intrekken** — als de klant nee zegt, of als u de offerte wil aanpassen. OKSign verwijdert het document en de
+  link werkt niet meer. OKSign heeft zelf geen knop om te weigeren: noteer een weigering daarna met **Weigeren**.
+
+**Zodra de klant tekende**, zet Nimble de offerte op **Aanvaard**. Onder de melding bovenaan staat dan *door de
+klant ondertekend via OKSign*, en de getekende pdf staat bij de **Bijlagen**. U wordt verwittigd zoals bij een online
+antwoord: via het belletje en per mail. Nimble kijkt de stand na wanneer u de offerte opent, en elke ochtend.
+
+!!! warning "Wijzigt u de offerte nadat ze ter ondertekening vertrok"
+    De klant tekent het document zoals het vertrok. Wijzigt u de offerte daarna, dan zet Nimble ze na de
+    handtekening **niet** vanzelf op Aanvaard: het blok meldt *Getekend, maar NIET aanvaard*. Bekijk de getekende
+    pdf en leg de beslissing zelf vast, of trek het verzoek in vóór de klant tekent en verstuur de offerte opnieuw.
+
 ## De offerte opvolgen
 
 | Status | Wat u kunt doen |
@@ -390,7 +430,8 @@ Datum van de beslissing en Wie bij de klant, en de knoppen Aanvaarden en Annuler
 | **Reden** | Enkel bij weigeren: waarom, als u het weet. Niet verplicht |
 
 Daarna staat onder de melding bovenaan de offerte bijvoorbeeld *Aanvaard op 22/09/2026 door Jan Peeters —
-genoteerd door een medewerker.* Beslist de klant online, dan staat er *online, door de klant*. **Annuleren**
+genoteerd door een medewerker.* Beslist de klant online, dan staat er *online, door de klant*; tekende hij via
+[OKSign](#de-offerte-laten-ondertekenen), dan *door de klant ondertekend via OKSign*. **Annuleren**
 laat de offerte zoals ze was; op het bord springt de kaart terug.
 
 Zet u een geweigerde offerte terug met **Markeren als verstuurd**, dan vervalt die weigering. Het Logboek

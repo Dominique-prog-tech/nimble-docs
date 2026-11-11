@@ -17,11 +17,12 @@ Le droit *Gérer les modèles de documents* est nécessaire.
 
 En haut, vous choisissez le **Modèle** :
 
-![La liste Modèle dépliée sur l'écran Modèles de mail : Devis, les quatre modèles de rappel et Bon de travail signé ; Tâche attribuée se trouve en dessous, après défilement.](../images/mailsjabloon-keuze-fr.png)
+![La liste Modèle dépliée sur l'écran Modèles de mail : Devis, Devis à signer (OKSign) et les quatre modèles de rappel ; Bon de travail signé et Tâche attribuée se trouvent en dessous, après défilement.](../images/mailsjabloon-keuze-fr.png)
 
 | Modèle | Quand il part |
 |---|---|
 | **Devis** | Avec **Envoyer par e-mail** sur un devis |
+| **Devis à signer (OKSign)** | Avec **Faire signer** sur un devis : l'e-mail avec le lien personnel pour signer — voir [Faire signer le devis](../sales/quotes.md#faire-signer-le-devis) |
 | **Rappel — premier rappel** | Avec **Envoyer…** sur l'écran Rappels, pour la première étape |
 | **Rappel — deuxième rappel** | Idem, pour la deuxième étape |
 | **Rappel — dernier rappel** | Idem, pour la troisième étape |
@@ -62,17 +63,17 @@ montre que les variables qui fonctionnent dans le modèle choisi.
 
 | Variable | Ce qui figure dans le mail | Modèles |
 |---|---|---|
-| `{{klant}}` | Nom du client | Devis, rappels, bon de travail signé |
-| `{{nummer}}` | Numéro du devis ou de la facture | Devis, rappels |
-| `{{datum}}` | Date du document | Devis, rappels, bon de travail signé |
-| `{{geldig_tot}}` | Valable jusqu'au | Devis |
-| `{{bedrag}}` | Montant | Devis, rappels |
+| `{{klant}}` | Nom du client | Devis, devis à signer, rappels, bon de travail signé |
+| `{{nummer}}` | Numéro du devis ou de la facture | Devis, devis à signer, rappels |
+| `{{datum}}` | Date du document | Devis, devis à signer, rappels, bon de travail signé |
+| `{{geldig_tot}}` | Valable jusqu'au | Devis, devis à signer |
+| `{{bedrag}}` | Montant | Devis, devis à signer, rappels |
 | `{{vervaldag}}` | Échéance | Rappels |
 | `{{dagen_te_laat}}` | Jours de retard | Rappels |
 | `{{werkorder}}` | Ordre de travail | Bon de travail signé |
 | `{{project}}` | Projet | Bon de travail signé |
 | `{{getekend_door}}` | Signataire | Bon de travail signé |
-| `{{afzender}}` | Nom de la personne qui envoie | Devis, rappels, bon de travail signé |
+| `{{afzender}}` | Nom de la personne qui envoie | Devis, devis à signer, rappels, bon de travail signé |
 | `{{bedrijf}}` | Nom de votre entreprise | Tous |
 | `{{online_link}}` | Un lien vers le devis en ligne | Devis |
 | `{{ontvanger}}` | Destinataire de la tâche | Tâche attribuée |
@@ -83,6 +84,8 @@ montre que les variables qui fonctionnent dans le modèle choisi.
 | `{{taak_bij}}` | Ce à quoi la tâche se rapporte (projet, relation, lead) | Tâche attribuée |
 | `{{toegewezen_door}}` | Qui a attribué la tâche, ou Nimble pour une tâche automatique | Tâche attribuée |
 | `{{taak_link}}` | Un lien vers la liste des tâches dans Nimble | Tâche attribuée |
+| `{{ondertekenaar}}` | Nom de la personne qui signe le devis | Devis à signer |
+| `{{teken_link}}` | Le lien personnel pour signer le devis | Devis à signer |
 
 ### Le lien vers le devis en ligne
 

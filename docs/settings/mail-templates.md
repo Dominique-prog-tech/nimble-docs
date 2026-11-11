@@ -17,11 +17,12 @@ U hebt er het recht *Documentsjablonen beheren* voor nodig.
 
 Bovenaan kiest u het **Sjabloon**:
 
-![De keuzelijst Sjabloon opengeklapt op het scherm Mailsjablonen: Offerte, de vier sjablonen van de aanmaningen en Getekende werkbon; Taak toegewezen staat eronder, na het schuiven.](../images/mailsjabloon-keuze.png)
+![De keuzelijst Sjabloon opengeklapt op het scherm Mailsjablonen: Offerte, Offerte ondertekenen (OKSign) en de vier sjablonen van de aanmaningen; Getekende werkbon en Taak toegewezen staan eronder, na het schuiven.](../images/mailsjabloon-keuze.png)
 
 | Sjabloon | Waar het vertrekt |
 |---|---|
 | **Offerte** | Bij **Mailen** op een offerte |
+| **Offerte ondertekenen (OKSign)** | Bij **Laten ondertekenen** op een offerte: de mail met de persoonlijke link om te tekenen — zie [De offerte laten ondertekenen](../sales/quotes.md#de-offerte-laten-ondertekenen) |
 | **Aanmaning — eerste herinnering** | Bij **Versturen…** op het scherm Aanmaningen, voor de eerste stap |
 | **Aanmaning — tweede herinnering** | Idem, voor de tweede stap |
 | **Aanmaning — laatste herinnering** | Idem, voor de derde stap |
@@ -63,17 +64,17 @@ enkel de variabelen die in het gekozen sjabloon werken.
 
 | Variabele | Wat er in de mail komt | Sjablonen |
 |---|---|---|
-| `{{klant}}` | Naam van de klant | Offerte, aanmaningen, getekende werkbon |
-| `{{nummer}}` | Nummer van de offerte of factuur | Offerte, aanmaningen |
-| `{{datum}}` | Datum van het document | Offerte, aanmaningen, getekende werkbon |
-| `{{geldig_tot}}` | Geldig tot | Offerte |
-| `{{bedrag}}` | Bedrag | Offerte, aanmaningen |
+| `{{klant}}` | Naam van de klant | Offerte, offerte ondertekenen, aanmaningen, getekende werkbon |
+| `{{nummer}}` | Nummer van de offerte of factuur | Offerte, offerte ondertekenen, aanmaningen |
+| `{{datum}}` | Datum van het document | Offerte, offerte ondertekenen, aanmaningen, getekende werkbon |
+| `{{geldig_tot}}` | Geldig tot | Offerte, offerte ondertekenen |
+| `{{bedrag}}` | Bedrag | Offerte, offerte ondertekenen, aanmaningen |
 | `{{vervaldag}}` | Vervaldag | Aanmaningen |
 | `{{dagen_te_laat}}` | Dagen te laat | Aanmaningen |
 | `{{werkorder}}` | Werkorder | Getekende werkbon |
 | `{{project}}` | Project | Getekende werkbon |
 | `{{getekend_door}}` | Wie tekende | Getekende werkbon |
-| `{{afzender}}` | Naam van wie verstuurt | Offerte, aanmaningen, getekende werkbon |
+| `{{afzender}}` | Naam van wie verstuurt | Offerte, offerte ondertekenen, aanmaningen, getekende werkbon |
 | `{{bedrijf}}` | Uw bedrijfsnaam | Alle |
 | `{{online_link}}` | Een link naar de online offerte | Offerte |
 | `{{ontvanger}}` | Wie de taak krijgt | Taak toegewezen |
@@ -84,6 +85,8 @@ enkel de variabelen die in het gekozen sjabloon werken.
 | `{{taak_bij}}` | Waar de taak bij hoort (project, relatie, lead) | Taak toegewezen |
 | `{{toegewezen_door}}` | Wie de taak toewees, of Nimble bij een automatische taak | Taak toegewezen |
 | `{{taak_link}}` | Een link naar de takenlijst in Nimble | Taak toegewezen |
+| `{{ondertekenaar}}` | Naam van wie de offerte tekent | Offerte ondertekenen |
+| `{{teken_link}}` | De persoonlijke link om de offerte te ondertekenen | Offerte ondertekenen |
 
 ### De link naar de online offerte
 
