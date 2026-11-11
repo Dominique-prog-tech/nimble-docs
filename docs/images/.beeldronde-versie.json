@@ -4,5 +4,7 @@
   "datum": "2026-11-11",
   "beelden": 300,
   "commit": "4121a78848357dcc66acf296341fcdbef65e0913",
-  "vuil": []
+  "vuil": [
+    "docs/tools/gen-screenshots.mjs"
+  ]
 }
