@@ -164,8 +164,9 @@ pas un produit.
 |---|---|
 | **Coût salarial** | Les heures des bons de travail multipliées par le **Coût horaire** de chaque collaborateur, avec en dessous le nombre d'heures. S'il y a du déplacement, la part figure aussi en dessous : *dont 6 h de déplacement* |
 | **Coût matériel** | Le matériel consommé, au prix d'achat actuel de l'article |
+| **Achats** | Ce qui, dans les factures d'achat, est [attribué](../purchasing/purchase-invoices.md#attribuer-une-facture-a-un-projet) à ce projet. Uniquement s'il y a une attribution |
 | **Produit** | Ce qui a été facturé, hors TVA |
-| **Marge brute** | Le produit moins le coût salarial et le coût matériel |
+| **Marge brute** | Le produit moins le coût salarial, le coût matériel et les achats |
 | **Pas encore facturé** | Les coûts engagés qui ne sont pas encore couverts par une facture. C'est ce que le travail a coûté, pas ce qu'il vaut |
 | **Marge** | La marge brute en pourcentage du produit |
 
@@ -184,7 +185,7 @@ S'il y a un devis accepté sur le projet, trois montants suivent :
 | Montant | Ce que c'est |
 |---|---|
 | **Coût estimé** | Le prix d'achat des lignes du devis accepté |
-| **Coût réel** | Coût salarial plus coût matériel |
+| **Coût réel** | Coût salarial plus coût matériel plus achats |
 | **Écart** | La différence, en euros et en pourcentage. En rouge si le chantier revient plus cher que prévu |
 
 !!! warning "Un cadre orange signifie : les chiffres sont incomplets"
@@ -199,6 +200,19 @@ S'il y a un devis accepté sur le projet, trois montants suivent :
     Les lignes du devis accepté sans prix d'achat sont aussi signalées : le coût estimé est alors
     sous-évalué. Complétez les données manquantes sur la fiche du collaborateur ou de l'article, et le
     post-calcul sera juste.
+
+#### Le bloc Achats pour ce projet
+
+Si une partie d'une facture d'achat est attribuée au projet, le bloc **Achats pour ce projet** figure sous le post-calcul :
+pour chaque partie la date, le fournisseur, le numéro de facture, la description et le montant hors TVA, avec le total. Une
+note de crédit y figure avec un montant négatif.
+
+Cliquez sur le numéro de facture pour ouvrir le document du fournisseur dans une fenêtre, même si seule une partie de
+cette facture concerne ce projet.
+
+Si une ligne attribuée porte le même article qu'un bon de travail de ce projet, il est indiqué : *Cet article figure aussi sur
+un bon de travail de ce projet : n'est-il pas compté deux fois ?* C'est un avertissement, pas une erreur : dix tubes livrés
+directement sur le chantier et deux du magasin peuvent être justes tous les deux.
 
 #### Le bloc Devis et factures
 

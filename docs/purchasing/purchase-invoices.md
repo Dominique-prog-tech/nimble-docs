@@ -138,7 +138,8 @@ Dubbelklik een factuur in de lijst om haar fiche te openen. Bovenaan staan het f
 leverancier. Komt de factuur uit Peppol, dan staat er ook het label **Peppol**; is het een creditnota, het
 label **Creditnota**.
 
-Links staat het tabblad **Algemeen**, met dezelfde velden als bij het inbrengen. Rechts staan **Taken**,
+Links staat het tabblad **Algemeen**, met dezelfde velden als bij het inbrengen. Een factuur uit Peppol heeft ook het tabblad
+**Regels**, en elke bewaarde factuur het tabblad **Projecten** (zie [Een factuur aan een project toewijzen](#een-factuur-aan-een-project-toewijzen)). Rechts staan **Taken**,
 **Notities**, **Bijlagen** en **Logboek**. Zie [Werken met een fiche](../fiches.md).
 
 Onderaan staan **Bewaren** en **Annuleren**, en rechts daarvan **Archiveren**.
@@ -150,6 +151,27 @@ goedkeuring in of maakt u een betaling ongedaan. Zie [Een betaling aanduiden](#e
 
 Een gescande factuur of de e-mail waarmee ze kwam, zet u onder het tabblad **Bijlagen**. Zie
 [Bijlagen](../bijlagen.md).
+
+### Een factuur aan een project toewijzen
+
+Op het tabblad **Projecten** zegt u welk deel van de factuur een kost is voor welk project: een onderaannemer, de huur van een
+stelling, materiaal dat rechtstreeks op de werf geleverd werd. Dat deel komt dan in de [nacalculatie van het
+project](../work/projects.md#het-blok-nacalculatie), onder **Aankopen**.
+
+- **Hele factuur naar project…** wijst alles in één keer toe aan één project. Bij een factuur zonder gekende btw vult u
+  het bedrag exclusief btw zelf in.
+- Bij een factuur uit Peppol staat elke regel er apart. Met **Verdelen…** naast een regel kiest u een project, of verdeelt
+  u de regel over meerdere projecten, in een bedrag of een percentage.
+- Bij een factuur zonder regels (papier of scan) voegt u met **Deel toevoegen** zelf een deel toe, met een omschrijving.
+
+Wat niet toegewezen is, blijft gewoon op de factuur: dat is voorraad of een algemene kost. Bovenaan staat hoeveel er
+toegewezen is, en hoeveel niet. Een toewijzing wijzigt niets aan het bedrag of de status van de factuur; ze kan dus ook
+op een betaalde factuur.
+
+!!! warning "Materiaal uit het magazijn wijst u hier niet toe"
+    Materiaal dat de ploeg uit het magazijn meeneemt, komt in het project via de [werkbon](../work/work-sheets.md). Wijst u de
+    factuur van datzelfde materiaal ook nog aan het project toe, dan telt het twee keer. Op het project waarschuwt Nimble
+    wanneer een toegewezen regel hetzelfde artikel draagt als een werkbon van dat project.
 
 ## Een factuur archiveren
 

@@ -139,7 +139,8 @@ Double-cliquez une facture dans la liste pour ouvrir sa fiche. En haut figurent 
 fournisseur. Si la facture vient de Peppol, l'étiquette **Peppol** y figure aussi ; s'il s'agit d'une note de
 crédit, l'étiquette **Note de crédit**.
 
-À gauche se trouve l'onglet **Général**, avec les mêmes champs que lors de la saisie. À droite figurent
+À gauche se trouve l'onglet **Général**, avec les mêmes champs que lors de la saisie. Une facture Peppol a aussi l'onglet
+**Lignes**, et toute facture enregistrée l'onglet **Projets** (voir [Attribuer une facture à un projet](#attribuer-une-facture-a-un-projet)). À droite figurent
 **Tâches**, **Notes**, **Pièces jointes** et **Historique**. Voir [Travailler avec une fiche](../fiches.md).
 
 En bas se trouvent **Enregistrer** et **Annuler**, et à leur droite **Archiver**.
@@ -151,6 +152,28 @@ une approbation ou annulez un paiement. Voir [Indiquer un paiement](#indiquer-un
 
 Placez une facture scannée ou le courriel qui l'accompagnait sous l'onglet **Pièces jointes**. Voir
 [Pièces jointes](../bijlagen.md).
+
+### Attribuer une facture à un projet
+
+Dans l'onglet **Projets**, vous indiquez quelle partie de la facture est un coût pour quel projet : un sous-traitant, la
+location d'un échafaudage, du matériel livré directement sur le chantier. Cette partie entre alors dans le [post-calcul du
+projet](../work/projects.md#le-bloc-post-calcul), sous **Achats**.
+
+- **Toute la facture vers un projet…** attribue tout en une fois à un seul projet. Pour une facture dont la TVA n'est pas
+  connue, vous saisissez vous-même le montant hors TVA.
+- Pour une facture Peppol, chaque ligne figure séparément. Avec **Répartir…** à côté d'une ligne, vous choisissez un projet,
+  ou vous répartissez la ligne entre plusieurs projets, en montant ou en pourcentage.
+- Pour une facture sans lignes (papier ou scan), vous ajoutez vous-même une partie avec **Ajouter une partie**, avec une
+  description.
+
+Ce qui n'est pas attribué reste simplement sur la facture : c'est du stock ou un frais général. En haut figure combien est
+attribué, et combien ne l'est pas. Une attribution ne change rien au montant ni au statut de la facture ; elle est donc
+aussi possible sur une facture payée.
+
+!!! warning "Le matériel du magasin ne s'attribue pas ici"
+    Le matériel que l'équipe emporte du magasin entre dans le projet via le [bon de travail](../work/work-sheets.md). Si vous
+    attribuez aussi au projet la facture de ce même matériel, il compte deux fois. Sur le projet, Nimble avertit lorsqu'une
+    ligne attribuée porte le même article qu'un bon de travail de ce projet.
 
 ## Archiver une facture
 

@@ -159,8 +159,9 @@ opbrengst.
 |---|---|
 | **Loonkost** | De uren op de werkbonnen maal de **Uurkost** van elke medewerker, met eronder het aantal uren. Zit er reistijd bij, dan staat eronder ook hoeveel: *waarvan 6 u reistijd* |
 | **Materiaalkost** | Het verbruikte materiaal, aan de huidige aankoopprijs van het artikel |
+| **Aankopen** | Wat er van aankoopfacturen aan dit project [toegewezen](../purchasing/purchase-invoices.md#een-factuur-aan-een-project-toewijzen) is. Enkel als er iets toegewezen is |
 | **Opbrengst** | Wat er gefactureerd is, zonder btw |
-| **Brutowinst** | Opbrengst min loonkost en materiaalkost |
+| **Brutowinst** | Opbrengst min loonkost, materiaalkost en aankopen |
 | **Nog niet gefactureerd** | De gemaakte kosten waar nog geen factuur tegenover staat. Dit is wat het werk gekost heeft, niet wat het waard is |
 | **Marge** | De brutowinst als percentage van de opbrengst |
 
@@ -179,7 +180,7 @@ Staat er een aanvaarde offerte op het project, dan volgen nog drie bedragen:
 | Bedrag | Wat het is |
 |---|---|
 | **Geraamde kost** | De aankoopprijs van de regels op de aanvaarde offerte |
-| **Werkelijke kost** | Loonkost plus materiaalkost |
+| **Werkelijke kost** | Loonkost plus materiaalkost plus aankopen |
 | **Afwijking** | Het verschil, in euro en in procent. Rood wanneer de werf duurder uitvalt dan geraamd |
 
 !!! warning "Een oranje kader betekent: de cijfers zijn onvolledig"
@@ -193,6 +194,19 @@ Staat er een aanvaarde offerte op het project, dan volgen nog drie bedragen:
 
     Ook regels op de aanvaarde offerte zonder aankoopprijs worden gemeld: de geraamde kost staat dan te
     laag. Vul de ontbrekende gegevens aan op de medewerker- of artikelfiche, dan klopt de nacalculatie.
+
+#### Het blok Aankopen voor dit project
+
+Is er een deel van een aankoopfactuur aan het project toegewezen, dan staat onder de nacalculatie het blok **Aankopen voor
+dit project**: per deel de datum, de leverancier, het factuurnummer, de omschrijving en het bedrag exclusief btw, met het
+totaal. Een creditnota staat er met een negatief bedrag.
+
+Klik op het factuurnummer om het document van de leverancier in een venster te openen, ook als maar een deel van die
+factuur bij dit project hoort.
+
+Draagt een toegewezen regel hetzelfde artikel als een werkbon van dit project, dan staat erbij: *Dit artikel staat ook op een
+werkbon van dit project: telt het niet twee keer?* Dat is een waarschuwing, geen fout: tien buizen rechtstreeks op de werf
+geleverd en twee uit het magazijn kunnen allebei kloppen.
 
 #### Het blok Offertes en facturen
 
