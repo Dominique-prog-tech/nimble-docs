@@ -139,6 +139,26 @@ prix**, jusqu'à ce que vous modifiiez le prix manuellement.
 
 S'il reste des lignes avec la quantité 0 au moment d'imprimer ou d'envoyer, Nimble vous avertit.
 
+### Importer une offre fournisseur
+
+Vous recevez pour une partie des travaux une offre d'un fournisseur (fenêtres, pompe à chaleur, cuisine) ? L'IA en lit les
+lignes pour vous. Choisissez sous **Plus…** l'action **Importer une offre fournisseur** et glissez l'offre du fournisseur dans
+la fenêtre (PDF, JPG, PNG ou WebP).
+
+- L'IA lit pour chaque ligne la description, la quantité, l'unité et le prix net. Vous les voyez dans une liste, avec le
+  **prix d'achat** et le **prix de vente**.
+- Indiquez votre **marge** en pour cent : le prix de vente est le prix d'achat plus la marge. Décochez ce qui ne doit pas suivre.
+- Avec **Ajouter au devis**, les lignes arrivent dans un bloc portant le nom du fournisseur et le numéro de son offre (vous
+  pouvez adapter ce nom). Elles reçoivent le taux de TVA de la dernière ligne, comme avec **+ ligne**.
+- **Rien n'est enregistré avant que vous enregistriez le devis.** Vérifiez les lignes : l'IA peut se tromper. Si la somme des
+  lignes diffère du total de l'offre du fournisseur, ou si l'IA n'a pas pu lire un prix, la fenêtre le signale.
+- Le prix d'achat et le code article du fournisseur n'apparaissent **pas** sur le devis du client.
+- L'offre du fournisseur est ensuite jointe à ce devis (*Offre fournisseur, lue par l'IA*).
+
+Cela n'est possible qu'avec votre propre **clé IA** dans le portail ADM One et l'autorisation d'analyse de documents, comme pour
+[faire lire une facture d'achat](../purchasing/purchase-invoices.md#faire-lire-par-lia). Vous payez les coûts directement à votre
+fournisseur d'IA.
+
 ### Les champs d'une ligne
 
 | Champ | Signification |

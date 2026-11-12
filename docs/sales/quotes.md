@@ -135,6 +135,26 @@ de prijs met de hand wijzigt.
 
 Staan er bij het afdrukken of mailen nog regels met hoeveelheid 0 op, dan waarschuwt Nimble.
 
+### Een leveranciersofferte inlezen
+
+Krijgt u voor een deel van het werk een offerte van een leverancier (ramen, een warmtepomp, een keuken), dan leest de AI
+haar regels voor u. Kies onder **Meer…** de handeling **Leveranciersofferte inlezen** en sleep de offerte van de
+leverancier in het venster (pdf, JPG, PNG of WebP).
+
+- De AI leest per regel de omschrijving, het aantal, de eenheid en de netto prijs. U ziet ze in een lijst, met de
+  **inkoopprijs** en de **verkoopprijs**.
+- Vul uw **marge** in procent in: de verkoopprijs is de inkoopprijs plus de marge. Vink af wat niet mee moet.
+- Met **Toevoegen aan de offerte** komen de regels in een blok met de naam van de leverancier en zijn offertenummer
+  (die naam kunt u aanpassen). Ze krijgen het btw-tarief van de laatste regel, zoals bij **+ regel**.
+- **Niets wordt bewaard tot u de offerte bewaart.** Kijk de regels na: de AI kan zich vergissen. Wijkt de som van de
+  regels af van het totaal op de offerte van de leverancier, of kon de AI een prijs niet lezen, dan zegt het venster dat.
+- De inkoopprijs en de artikelcode van de leverancier komen **niet** op de offerte van de klant.
+- De offerte van de leverancier hangt daarna als bijlage aan deze offerte (*Leveranciersofferte, gelezen door de AI*).
+
+Dit kan enkel met een eigen **AI-sleutel** in het portaal van ADM One en toestemming voor documentanalyse, zoals bij het
+[laten lezen van een aankoopfactuur](../purchasing/purchase-invoices.md#laten-lezen-door-de-ai). De kosten betaalt u
+rechtstreeks aan uw AI-leverancier.
+
 ### De regelvelden
 
 | Veld | Betekenis |
