@@ -137,6 +137,13 @@ Bij een **klant** staan hier de prijzen die u met hem afsprak, elk voor een peri
 ze in met de afgesproken prijs. Het tabblad verschijnt zodra de relatie bewaard is met **Klant** aangevinkt. Zie
 [Prijsafspraken](sales/price-agreements.md).
 
+### Tabblad Portaal
+
+Bij een **klant** geeft u hier de klant zelf of een van zijn contactpersonen toegang tot het
+[portaal voor uw klanten](crm/portaal-voor-klanten.md): daar volgt hij zijn projecten, de documenten die u deelt en zijn
+facturen. U ziet wie toegang heeft en hoe ver die persoon staat; met **Uitnodigen**, **Opnieuw uitnodigen** en
+**Toegang intrekken** beheert u de toegang. Dat gebeurt meteen: daarvoor klikt u niet op **Bewaren**.
+
 ## Onderaan de fiche
 
 - **Bewaren** — bewaart de wijzigingen; u blijft op de fiche. Ontbreekt er nog iets — de naam, de documenttaal — of is een e-mailadres of telefoonnummer ongeldig, dan zegt een melding bovenaan de fiche wat er moet gebeuren. Staat het ongeldige adres bij een contactpersoon, dan verwijst de melding naar het tabblad **Contactpersonen**.

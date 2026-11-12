@@ -445,6 +445,9 @@ terwijl een map gekozen is, komt in die map.
 - Een bijlage in een andere map zetten doet u via het menu achteraan de regel.
 - Een nieuw project krijgt de [standaardmappen](../administration/default-folders.md) van uw bedrijf. Op een
   bestaand project vult **Standaardmappen invoegen** aan wat ontbreekt.
+- In de kolom **Portaal** vinkt u aan welke documenten de klant ziet in het
+  [portaal voor uw klanten](../crm/portaal-voor-klanten.md#documenten-delen). Een vinkje werkt meteen, zonder **Bewaren**.
+  Een document dat in een map met de standaard *zichtbaar in het portaal* komt, staat al aangevinkt.
 
 De mappen bestaan enkel op de projectfiche. In het journaal rechts, bij **Bijlagen**, staan dezelfde bijlagen in
 één lijst, zonder mappen.

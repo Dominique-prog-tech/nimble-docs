@@ -173,6 +173,7 @@ plugins:
             Overzicht en planning: Aperçu et planification
             Relaties en leads: Relations et leads
             Klantenportaal: Portail client
+            Portaal voor uw klanten: Portail pour vos clients
             Wanneer uw account beperkt is: Lorsque votre compte est limité
             Tweestapsverificatie en passkeys: Vérification en deux étapes et clés d'accès
             Aan de slag: Premiers pas
@@ -276,6 +277,8 @@ nav:
     - Leads vanaf uw website: crm/leads-webformulier.md
     - Relaties: relations.md
     - Contactpersonen: crm/contactpersonen.md
+    # Het portaal dat de klant zelf gebruikt (spoor P, 12/11/2026); niet het Klantenportaal van ADM One onder Aan de slag.
+    - Portaal voor uw klanten: crm/portaal-voor-klanten.md
     - Taken: crm/tasks.md
     - Agenda: crm/agenda.md
   - Verkoop:

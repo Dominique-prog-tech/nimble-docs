@@ -33,6 +33,16 @@ of onder een van haar eigen submappen; die staan dan ook niet in de keuzelijst.
 
 **Verwijderen** kan enkel bij een map zonder submappen. Verwijder of verplaats die eerst.
 
+## Zichtbaar in het portaal
+
+In het venster van een map zet u het vinkje **Nieuwe documenten standaard zichtbaar in het portaal**. Een document dat in
+die map van een project komt, ziet de klant dan meteen in het [portaal voor uw klanten](../crm/portaal-voor-klanten.md),
+ook een werffoto uit de mobiele app. Per document zet u het nog om op het tabblad Documenten van het project. Zo'n map
+draagt in de kolom **Portaal** de badge **Standaard zichtbaar**.
+
+Het vinkje geldt voor de mappen die een project daarna krijgt: bij een nieuw project, of met **Standaardmappen invoegen**.
+Een map die een project al had, en de documenten die al in een map zaten, blijven zoals ze waren.
+
 !!! info "Een wijziging raakt enkel nieuwe projecten"
     Een project dat een map al kreeg, houdt ze — ook als u de map hier hernoemt of verwijdert. Op een bestaand
     project vult **Standaardmappen invoegen** op het tabblad Documenten aan wat er nog ontbreekt.

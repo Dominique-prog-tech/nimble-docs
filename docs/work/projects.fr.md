@@ -461,6 +461,9 @@ choisi va dans ce dossier.
 - Pour placer une pièce jointe dans un autre dossier, utilisez le menu en fin de ligne.
 - Un nouveau projet reçoit les [dossiers standard](../administration/default-folders.fr.md) de votre entreprise.
   Sur un projet existant, **Insérer les dossiers standard** complète ce qui manque.
+- Dans la colonne **Portail**, vous cochez les documents que le client voit dans le
+  [portail pour vos clients](../crm/portaal-voor-klanten.fr.md#partager-des-documents). Une case agit immédiatement, sans
+  **Enregistrer**. Un document qui arrive dans un dossier réglé sur *visible par défaut dans le portail* est déjà coché.
 
 Les dossiers n'existent que sur la fiche de projet. Dans le journal à droite, sous **Pièces jointes**, les mêmes
 pièces jointes figurent dans une seule liste, sans dossiers.

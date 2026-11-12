@@ -34,6 +34,16 @@ pas dans la liste.
 
 **Supprimer** n'est possible que pour un dossier sans sous-dossiers. Supprimez-les ou déplacez-les d'abord.
 
+## Visible dans le portail
+
+Dans la fenêtre d'un dossier, cochez **Nouveaux documents visibles par défaut dans le portail**. Un document qui arrive dans
+ce dossier d'un projet est alors aussitôt visible pour le client dans le [portail pour vos clients](../crm/portaal-voor-klanten.md),
+y compris une photo de chantier de l'application mobile. Par document, vous le modifiez encore dans l'onglet Documents du
+projet. Un tel dossier porte dans la colonne **Portail** le badge **Visible par défaut**.
+
+La case vaut pour les dossiers qu'un projet reçoit ensuite : pour un nouveau projet, ou avec **Insérer les dossiers standard**.
+Un dossier qu'un projet avait déjà, et les documents qui se trouvaient déjà dans un dossier, restent tels quels.
+
 !!! info "Une modification ne concerne que les nouveaux projets"
     Un projet qui a déjà reçu un dossier le conserve — même si vous renommez ou supprimez le dossier ici. Sur un
     projet existant, **Insérer les dossiers standard** dans l'onglet Documents complète ce qui manque encore.
