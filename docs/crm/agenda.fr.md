@@ -85,6 +85,18 @@ liés, les plus récents d'abord, avec la date, l'heure et qui y participe. Un r
 Sur la fiche d'un **client** figurent aussi les rendez-vous de ses projets et du lead qui est devenu ce client. Pour un tel
 rendez-vous, il est indiqué par où il arrive, par exemple *Projet P2026-010 Herstelling lekkage kelderverdieping*.
 
+## Réservés en ligne, à attribuer
+
+Si votre entreprise utilise les [rendez-vous en ligne](online-afspraken.md), une réservation figure d'abord en haut de l'agenda,
+sous **Réservés en ligne, à attribuer**. Un tel rendez-vous n'a pas encore de responsable, et ne figure donc dans la colonne de
+personne. À côté d'**Agenda** dans la barre latérale figure le nombre de rendez-vous en attente.
+
+1. Cliquez sur **Attribuer** à côté du rendez-vous. La fenêtre habituelle du rendez-vous s'ouvre.
+2. Choisissez le **Responsable**, et éventuellement les collègues qui l'accompagnent.
+3. Cliquez sur **Enregistrer**. Le rendez-vous disparaît de la liste et figure dans l'agenda de ce collègue.
+
+<!-- AFBEELDING: l'agenda avec en haut Réservés en ligne, à attribuer, et un rendez-vous en ligne avec le bouton Attribuer. -->
+
 ## Lier votre agenda à Microsoft 365
 
 Si vous liez votre agenda, vos rendez-vous de Nimble apparaissent dans un **agenda séparé « Nimble »** de votre compte

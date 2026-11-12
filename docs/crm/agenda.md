@@ -82,6 +82,18 @@ hangen, de nieuwste eerst, met de datum, het uur en wie erbij is. Een geannuleer
 Op de fiche van een **klant** staan ook de afspraken van haar projecten en van de lead die tot deze klant werd. Bij zo'n
 afspraak staat waarlangs ze er komt, bijvoorbeeld *Project P2026-010 Herstelling lekkage kelderverdieping*.
 
+## Online geboekt, nog toe te wijzen
+
+Gebruikt uw bedrijf [online afspraken](online-afspraken.md), dan staat een boeking eerst bovenaan de agenda, bij **Online geboekt,
+nog toe te wijzen**. Zo'n afspraak heeft nog geen verantwoordelijke, en staat daarom in niemands kolom. Naast **Agenda** in de
+zijbalk staat hoeveel er wachten.
+
+1. Klik bij de afspraak op **Toewijzen**. Het gewone afspraakvenster opent.
+2. Kies de **Verantwoordelijke**, en eventueel collega's die meegaan.
+3. Klik op **Bewaren**. De afspraak verdwijnt uit de lijst en staat in de agenda van die collega.
+
+<!-- AFBEELDING: de agenda met bovenaan Online geboekt, nog toe te wijzen, en een online afspraak met de knop Toewijzen. -->
+
 ## Uw agenda koppelen met Microsoft 365
 
 Koppelt u uw agenda, dan verschijnen uw afspraken uit Nimble in een **aparte agenda "Nimble"** in uw account van Microsoft 365.

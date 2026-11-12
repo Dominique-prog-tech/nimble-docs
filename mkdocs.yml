@@ -174,6 +174,7 @@ plugins:
             Relaties en leads: Relations et leads
             Klantenportaal: Portail client
             Portaal voor uw klanten: Portail pour vos clients
+            Online afspraken: Rendez-vous en ligne
             Wanneer uw account beperkt is: Lorsque votre compte est limité
             Tweestapsverificatie en passkeys: Vérification en deux étapes et clés d'accès
             Aan de slag: Premiers pas
@@ -281,6 +282,7 @@ nav:
     - Portaal voor uw klanten: crm/portaal-voor-klanten.md
     - Taken: crm/tasks.md
     - Agenda: crm/agenda.md
+    - Online afspraken: crm/online-afspraken.md
   - Verkoop:
     - Offertes: sales/quotes.md
     - Prijsafspraken: sales/price-agreements.md
