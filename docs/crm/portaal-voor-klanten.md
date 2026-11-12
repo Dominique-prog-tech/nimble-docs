@@ -18,7 +18,7 @@ relatiefiche. Uw klant meldt zich aan met zijn eigen e-mailadres en wachtwoord e
 
 De persoon krijgt een mail met een link. Die link is **7 dagen** geldig.
 
-<!-- AFBEELDING: het tabblad Portaal op de fiche van een klant, met één persoon die toegang heeft (stand actief) en de knop Uitnodigen. Komt met de beeldronde. -->
+![Het tabblad Portaal op de fiche van De Wilde Interieur BV: Sofie De Wilde heeft toegang en staat op actief, met de knoppen Toegang intrekken en Uitnodigen.](../images/relatie-portaal.png)
 
 In de lijst **Wie** staan enkel de klant en zijn contactpersonen met een e-mailadres die nog geen toegang hebben. Staat de
 persoon er niet bij, voeg hem dan eerst toe op het tabblad **Contactpersonen**, met zijn e-mailadres.
@@ -69,7 +69,7 @@ Elk project van de klant, het nieuwste eerst, met zijn nummer, zijn naam en een 
 
 Daaronder de periode, bijvoorbeeld *Van 25/08/2026 tot 18/09/2026*. Een gearchiveerd project staat er niet bij.
 
-<!-- AFBEELDING: Mijn projecten in het portaal, met twee projecten en hun stand. Vraagt een aanmelding als klant in de demo; komt met de beeldronde. -->
+![Mijn projecten in het portaal van Sofie De Wilde: het project Ventilatie kantoorverdieping, P2026-004, met de stand Opgeleverd.](../images/portaal-projecten.png)
 
 ### Een project
 
@@ -81,7 +81,7 @@ Een klik op een project toont drie blokken:
 - **Documenten**: de documenten die u met hem deelt, met de datum. Een klik opent een foto of pdf in de browser; een ander
   bestand wordt gedownload.
 
-<!-- AFBEELDING: een project in het portaal, met de blokken Gegevens, Contact en Documenten (één gedeelde foto). Vraagt een aanmelding als klant in de demo; komt met de beeldronde. -->
+![Het project Ventilatie kantoorverdieping in het portaal, met de blokken Gegevens, Contact en Documenten; bij Documenten één gedeelde werffoto.](../images/portaal-project.png)
 
 ### Mijn facturen
 
@@ -96,7 +96,7 @@ elke factuur met haar nummer, het project, de datum, de vervaldag, het bedrag en
 Met **PDF** opent hij de factuur zoals u ze verstuurt. Staat er nog iets open, dan vraagt de betaal-QR op de pdf precies dat
 bedrag. Enkel uitgereikte facturen staan erbij: geen klad en geen geannuleerde factuur.
 
-<!-- AFBEELDING: Mijn facturen in het portaal, met Nog te betalen bovenaan en een open en een betaalde factuur. Vraagt een aanmelding als klant in de demo; komt met de beeldronde. -->
+![Mijn facturen in het portaal: bovenaan Nog te betalen, € 2.474,55; daaronder factuur F-2026-0011 met de stand Vervallen en de link PDF.](../images/portaal-facturen.png)
 
 ## Documenten delen
 

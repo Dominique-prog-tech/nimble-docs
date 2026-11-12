@@ -19,7 +19,7 @@ de Nimble.
 
 La personne reçoit un e-mail avec un lien. Ce lien est valable **7 jours**.
 
-<!-- AFBEELDING: l'onglet Portail sur la fiche d'un client, avec une personne ayant accès (état actif) et le bouton Inviter. Arrive avec la série d'images. -->
+![L'onglet Portail sur la fiche de De Wilde Interieur BV : Sofie De Wilde a accès et est actif, avec les boutons Retirer l'accès et Inviter.](../images/relatie-portaal-fr.png)
 
 La liste **Qui** ne contient que le client et ses personnes de contact qui ont une adresse e-mail et pas encore d'accès. La
 personne n'y figure pas ? Ajoutez-la d'abord dans l'onglet **Personnes de contact**, avec son adresse e-mail.
@@ -71,7 +71,7 @@ Chaque projet du client, le plus récent en premier, avec son numéro, son nom e
 
 En dessous, la période, par exemple *Du 25/08/2026 au 18/09/2026*. Un projet archivé n'y figure pas.
 
-<!-- AFBEELDING: Mes projets dans le portail, avec deux projets et leur état. Demande une connexion en tant que client dans la démo ; arrive avec la série d'images. -->
+![Mes projets dans le portail de Sofie De Wilde : le projet Ventilatie kantoorverdieping, P2026-004, avec l'état Réceptionné.](../images/portaal-projecten-fr.png)
 
 ### Un projet
 
@@ -83,7 +83,7 @@ Un clic sur un projet affiche trois blocs :
 - **Documents** : les documents que vous partagez avec lui, avec la date. Un clic ouvre une photo ou un PDF dans le
   navigateur ; un autre fichier est téléchargé.
 
-<!-- AFBEELDING: un projet dans le portail, avec les blocs Données, Contact et Documents (une photo partagée). Demande une connexion en tant que client dans la démo ; arrive avec la série d'images. -->
+![Le projet Ventilatie kantoorverdieping dans le portail, avec les blocs Données, Contact et Documents ; sous Documents, une photo de chantier partagée.](../images/portaal-project-fr.png)
 
 ### Mes factures
 
@@ -98,7 +98,7 @@ avec son numéro, le projet, la date, l'échéance, le montant et l'état :
 Avec **PDF**, il ouvre la facture telle que vous l'envoyez. S'il reste un montant ouvert, le QR de paiement sur le PDF demande
 exactement ce montant. Seules les factures émises y figurent : pas de brouillon ni de facture annulée.
 
-<!-- AFBEELDING: Mes factures dans le portail, avec Reste à payer en haut et une facture ouverte et une payée. Demande une connexion en tant que client dans la démo ; arrive avec la série d'images. -->
+![Mes factures dans le portail : en haut Reste à payer, € 2.474,55 ; en dessous la facture F-2026-0011 avec l'état Échu et le lien PDF.](../images/portaal-facturen-fr.png)
 
 ## Partager des documents
 
