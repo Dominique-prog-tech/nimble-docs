@@ -1,10 +1,8 @@
 {
-  "versie": "0.5.140",
+  "versie": "0.5.141",
   "volledig": true,
-  "datum": "2026-11-11",
-  "beelden": 300,
-  "commit": "4121a78848357dcc66acf296341fcdbef65e0913",
-  "vuil": [
-    "docs/tools/gen-screenshots.mjs"
-  ]
+  "datum": "2026-11-12",
+  "beelden": 306,
+  "commit": "bbbcc1a229ae6e7bb6abcd9d03a0532184027233",
+  "vuil": []
 }
