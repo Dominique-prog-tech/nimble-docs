@@ -84,6 +84,16 @@ fenêtre **Facture électronique (Peppol)**, le bouton **Envoyer via Peppol**, s
 Par défaut, c'est **désactivé**. Laissez-le désactivé tant que votre comptable ou un autre logiciel envoie déjà vos factures via
 Peppol : sinon la même facture part par deux chemins.
 
+## Lier l'agenda à Google ou Outlook
+
+Dans la carte **Banque** figure **Les collaborateurs peuvent envoyer leurs rendez-vous vers leur agenda Google ou Outlook**. Si
+c'est activé, le bloc avec lequel chaque collaborateur lie lui-même son agenda figure en haut de
+l'[agenda](../crm/agenda.fr.md#lier-votre-agenda-a-microsoft-365).
+
+Par défaut, c'est **désactivé**. Le titre, le client, le lieu et un lien de chaque rendez-vous sont alors envoyés à Microsoft ou
+Google, éventuellement vers une adresse personnelle. Les numéros de téléphone, les adresses e-mail et les montants ne sont pas
+envoyés. C'est à votre entreprise de décider.
+
 ## Paramètres financiers
 
 Cette carte contient les seuils que vous choisissez vous-même pour la facturation et pour la marge des projets.

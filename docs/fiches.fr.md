@@ -43,8 +43,8 @@ En haut de la fiche se trouvent deux groupes d'onglets.
 **Général** ou **Fiche** — sur la fiche de relation il y en a deux, avec **Personnes de contact**.
 
 **À droite**, le journal : **Tâches**, **Notes**, **Pièces jointes** et **Historique** — et sur une relation,
-un projet, un devis, une facture et un bon de travail aussi **E-mails**. Ce sont les éléments rattachés à
-l'enregistrement.
+un projet, un devis, une facture et un bon de travail aussi **E-mails**, et sur un lead, une relation et un projet
+aussi **Rendez-vous**. Ce sont les éléments rattachés à l'enregistrement.
 
 ![Une fiche de relation avec à gauche les onglets Fiche et Personnes de contact, à droite Tâches, Notes, Pièces jointes, E-mails et Historique.](images/fiche-tabbladen-fr.png)
 
@@ -87,6 +87,18 @@ Cliquez sur **Enregistrer**. La tâche apparaît aussi dans l'écran [Tâches](c
 enregistrement.
 
 ![La fenêtre Nouveau avec les champs vides Objet, Assignée à, Priorité sur Normale, Dès le, Au, Rappel et Texte, et en bas Enregistrer et Annuler.](images/relatie-taak-nieuw-fr.png)
+
+### L'onglet Rendez-vous
+
+Sur un lead, une relation et un projet figurent ici les rendez-vous de l'[agenda](crm/agenda.fr.md) liés à cet enregistrement,
+les plus récents d'abord, avec la date, l'heure et qui y participe. Un rendez-vous annulé est barré.
+
+**Nouveau rendez-vous** ouvre la fenêtre de l'agenda, avec **À propos de** déjà rempli. Cliquez sur un rendez-vous pour l'ouvrir.
+
+Sur un client figurent aussi les rendez-vous de ses projets et du lead qui est devenu ce client, avec l'indication par où ils
+arrivent.
+
+<!-- AFBEELDING: l'onglet Rendez-vous sur une fiche de projet avec un rendez-vous et le bouton Nouveau rendez-vous -->
 
 ### L'onglet Notes
 

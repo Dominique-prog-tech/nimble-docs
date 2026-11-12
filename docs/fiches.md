@@ -42,8 +42,8 @@ Bovenaan de fiche staan twee groepen tabbladen.
 **Fiche** — op de relatiefiche zijn het er twee, met **Contactpersonen** erbij.
 
 **Rechts** staat het journaal: **Taken**, **Notities**, **Bijlagen** en **Logboek** — en op een relatie,
-een project, een offerte, een factuur en een werkbon ook **Mails**. Dat zijn de dingen die aan het record
-hangen.
+een project, een offerte, een factuur en een werkbon ook **Mails**, en op een lead, een relatie en een project
+ook **Afspraken**. Dat zijn de dingen die aan het record hangen.
 
 ![Een relatiefiche met links de tabbladen Fiche en Contactpersonen, rechts Taken, Notities, Bijlagen, Mails en Logboek.](images/fiche-tabbladen.png)
 
@@ -85,6 +85,17 @@ zijn (**Tot …**) en wie ze opvolgt.
 Klik **Bewaren**. De taak verschijnt ook op het scherm [Taken](crm/tasks.md), waar ze aan dit record hangt.
 
 ![Het venster Nieuw met de lege velden Onderwerp, Toegewezen aan, Prioriteit op Normaal, Vanaf, Tot, Herinnering en Tekst, en onderaan Bewaren en Annuleren.](images/relatie-taak-nieuw.png)
+
+### Het tabblad Afspraken
+
+Op een lead, een relatie en een project staan hier de afspraken uit de [agenda](crm/agenda.md) die aan dit record hangen, de
+nieuwste eerst, met de datum, het uur en wie erbij is. Een geannuleerde afspraak staat doorstreept.
+
+**Nieuwe afspraak** opent het venster van de agenda, met **Waarover** al ingevuld. Klik op een afspraak om ze te openen.
+
+Op een klant staan ook de afspraken van haar projecten en van de lead die tot deze klant werd, met erbij waarlangs.
+
+<!-- AFBEELDING: het tabblad Afspraken op een projectfiche met een afspraak en de knop Nieuwe afspraak -->
 
 ### Het tabblad Notities
 

@@ -81,6 +81,15 @@ venster **E-factuur (Peppol)**, de knop **Versturen via Peppol**, als de klant o
 Standaard staat het **uit**. Laat het uit zolang uw boekhouder of een ander pakket uw facturen al via Peppol verstuurt: anders
 vertrekt dezelfde factuur langs twee wegen.
 
+## Agenda koppelen met Google of Outlook
+
+In de kaart **Bank** staat **Medewerkers mogen hun afspraken naar hun Google- of Outlook-agenda laten gaan**. Staat het aan, dan
+staat bovenaan de [agenda](../crm/agenda.md#uw-agenda-koppelen-met-microsoft-365) het blok waarmee elke medewerker zelf zijn
+agenda koppelt.
+
+Standaard staat het **uit**. De titel, de klant, de plaats en een link van elke afspraak gaan dan naar Microsoft of Google,
+mogelijk naar een persoonlijk adres. Telefoonnummers, e-mailadressen en bedragen gaan niet mee. Dat beslist uw bedrijf.
+
 ## Financiële instellingen
 
 Deze kaart bevat de grenzen die u zelf kiest voor facturatie en voor de marge van projecten.
