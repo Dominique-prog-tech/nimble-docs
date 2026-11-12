@@ -188,6 +188,10 @@ Naast de betaalgegevens staat een **QR-code**. De klant scant hem met zijn banka
 uw naam, uw rekeningnummer, het bedrag en de gestructureerde mededeling (zonder mededeling: het factuurnummer). Zo komt
 de betaling met de juiste mededeling binnen en punt Nimble ze vanzelf af.
 
+Het bedrag is **wat nog openstaat**. Is er al een deel betaald, dan staan in het betaalvak **Reeds betaald** en **Nog te
+betalen**, en vraagt de QR enkel dat laatste bedrag. Het totaal van de factuur blijft erboven staan. Is alles betaald, dan
+staat er geen QR meer.
+
 De QR staat **niet** op een klad, een betaalde of geannuleerde factuur, en een creditnota. Op een klad of een betaalde
 factuur zou hij tot een betaling uitnodigen die niet hoort. Staat er geen rekeningnummer in het
 [bedrijfsprofiel](../settings/company-profile.md), dan is er ook geen QR. Is het rekeningnummer geen geldige IBAN, dan staat

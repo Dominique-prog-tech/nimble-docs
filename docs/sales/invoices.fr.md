@@ -192,6 +192,10 @@ boutons demandent le droit de modifier les factures.
 votre nom, votre numéro de compte, le montant et la communication structurée (sans communication : le numéro de facture).
 Le paiement arrive ainsi avec la bonne communication et Nimble le lettre de lui-même.
 
+Le montant est **ce qui reste à payer**. Si une partie est déjà payée, le cadre de paiement indique **Déjà payé** et
+**Reste à payer**, et le QR ne demande que ce dernier montant. Le total de la facture reste indiqué au-dessus. Si tout est
+payé, il n'y a plus de QR.
+
 Le QR ne figure **pas** sur un brouillon, une facture payée ou annulée, ni sur une note de crédit. Sur un brouillon ou une
 facture payée, il inviterait à un paiement qui n'a pas lieu d'être. Sans numéro de compte dans la
 [fiche société](../settings/company-profile.fr.md), il n'y a pas de QR. Si le numéro de compte n'est pas un IBAN valide, un
