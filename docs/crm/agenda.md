@@ -92,7 +92,7 @@ zijbalk staat hoeveel er wachten.
 2. Kies de **Verantwoordelijke**, en eventueel collega's die meegaan.
 3. Klik op **Bewaren**. De afspraak verdwijnt uit de lijst en staat in de agenda van die collega.
 
-<!-- AFBEELDING: de agenda met bovenaan Online geboekt, nog toe te wijzen, en een online afspraak met de knop Toewijzen. -->
+![De agenda met bovenaan het blok Online geboekt, nog toe te wijzen (1): 17/11/2026 10:00, Online afspraak: Annelies Claes, met de knop Toewijzen; in de zijbalk staat 1 naast Agenda.](../images/agenda-wachtlijst.png)
 
 ## Uw agenda koppelen met Microsoft 365
 

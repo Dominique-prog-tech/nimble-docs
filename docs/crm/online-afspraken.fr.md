@@ -13,7 +13,7 @@ que vous attribuez ensuite à un collègue.
 Dans la barre latérale, cliquez sur **CRM → Rendez-vous en ligne**. Vous avez besoin du droit **Planifier et modifier les
 rendez-vous**.
 
-<!-- AFBEELDING: l'écran Rendez-vous en ligne avec la page de réservation activée, le lien pour le site et la grille avec des moments libres et réservés. -->
+![L'écran Rendez-vous en ligne : la page de réservation est activée, avec le bouton Désactiver et le Lien pour votre site ; en dessous, la grille du 16 au 20 novembre avec des moments libres en vert et deux réservés en bleu, le mardi à 10:00 et le jeudi à 9:00 ; en bas Nom et Durée d'un rendez-vous, 60 minutes.](../images/online-afspraken-fr.png)
 
 ## Activer ou désactiver la page de réservation
 

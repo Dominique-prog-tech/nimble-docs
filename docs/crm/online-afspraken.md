@@ -11,7 +11,7 @@ wanneer er geboekt kan worden. Elke boeking komt in Nimble binnen als lead en al
 
 Klik in de zijbalk op **CRM → Online afspraken**. U hebt het recht **Afspraken plannen en bewerken** nodig.
 
-<!-- AFBEELDING: het scherm Online afspraken met de boekingspagina aan, de link voor de website en het rooster met vrije en geboekte momenten. -->
+![Het scherm Online afspraken: de boekingspagina staat aan, met de knop Uitzetten en de Link voor uw website; daaronder het rooster van 16 tot 20 november met vrije momenten in het groen en twee geboekte in het blauw, op dinsdag 10:00 en donderdag 9:00; onderaan Naam en Duur van een afspraak, 60 minuten.](../images/online-afspraken.png)
 
 ## De boekingspagina aan- of uitzetten
 

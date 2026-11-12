@@ -95,7 +95,7 @@ personne. À côté d'**Agenda** dans la barre latérale figure le nombre de ren
 2. Choisissez le **Responsable**, et éventuellement les collègues qui l'accompagnent.
 3. Cliquez sur **Enregistrer**. Le rendez-vous disparaît de la liste et figure dans l'agenda de ce collègue.
 
-<!-- AFBEELDING: l'agenda avec en haut Réservés en ligne, à attribuer, et un rendez-vous en ligne avec le bouton Attribuer. -->
+![L'agenda avec en haut le bloc Réservés en ligne, à attribuer (1) : 17/11/2026 10:00, Online afspraak: Annelies Claes, avec le bouton Attribuer ; dans la barre latérale, 1 figure à côté d'Agenda.](../images/agenda-wachtlijst-fr.png)
 
 ## Lier votre agenda à Microsoft 365
 
