@@ -98,7 +98,7 @@ les plus récents d'abord, avec la date, l'heure et qui y participe. Un rendez-v
 Sur un client figurent aussi les rendez-vous de ses projets et du lead qui est devenu ce client, avec l'indication par où ils
 arrivent.
 
-<!-- AFBEELDING: l'onglet Rendez-vous sur une fiche de projet avec un rendez-vous et le bouton Nouveau rendez-vous -->
+![L'onglet Rendez-vous sur la fiche du projet P2026-002 Renovatie stookplaats Parkzicht : en haut le bouton Nouveau rendez-vous, en dessous le rendez-vous Werfvergadering stookplaats le 11/11/2026 de 09:00 à 10:30 avec Pieter Janssens et Sofie Maes.](images/fiche-afspraken-fr.png)
 
 ### L'onglet Notes
 

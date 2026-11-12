@@ -12,7 +12,7 @@ votre agenda Microsoft 365 (Outlook).
 
 Dans la barre latérale, cliquez sur **CRM → Agenda**.
 
-<!-- AFBEELDING: l'écran Agenda en affichage Semaine de travail avec quelques rendez-vous aux couleurs de deux collègues -->
+![L'écran Agenda en affichage Semaine de travail du 9 au 13 novembre : en haut Agenda de Tout le monde, les boutons Ensemble et Par personne et les collègues Elke Wouters, Pieter Janssens et Sofie Maes, chacun avec sa couleur ; dans la grille, des rendez-vous à ces couleurs, l'Offertebespreking architect annulé grisé et barré, et la journée entière Opleiding warmtepompen en haut du vendredi.](../images/agenda-scherm-fr.png)
 
 ## Consulter l'agenda
 
@@ -51,11 +51,11 @@ Cliquez sur **Enregistrer**.
     Sur la fiche d'un lead, d'une relation ou d'un projet figure l'onglet **Rendez-vous**. Un rendez-vous planifié à partir de
     là a déjà **À propos de** rempli. Voir [Les rendez-vous sur une fiche](#les-rendez-vous-sur-une-fiche).
 
-<!-- AFBEELDING: la fenêtre Nouveau rendez-vous avec Titre, Début, Fin, Journée entière, Responsable, Autres participants, À propos de, Lieu et Description -->
-
 ## Ouvrir ou déplacer un rendez-vous
 
 **Double-cliquez** sur un rendez-vous pour l'ouvrir. Vous voyez les mêmes champs que lors de la planification.
+
+![La fenêtre du rendez-vous Werfvergadering stookplaats : Titre, Début et Fin le 11/11/2026 de 09:00 à 10:30, Journée entière décochée, Responsable Pieter Janssens, Autres participants Sofie Maes, À propos de Projet P2026-002 Renovatie stookplaats Parkzicht, Lieu et Description ; en bas Enregistrer et Annuler, à droite Annuler le rendez-vous et Supprimer.](../images/agenda-afspraak-fr.png)
 
 Vous déplacez aussi un rendez-vous directement dans l'agenda :
 
@@ -109,8 +109,6 @@ l'afficher ou le masquer.
 Si tout est en ordre, le bloc n'affiche qu'une ligne : votre compte et la dernière mise à jour de votre agenda. Avec **Gérer**,
 vous l'ouvrez.
 
-<!-- AFBEELDING: le bloc Mon agenda dans Google ou Outlook, ouvert, avec Compte, Dernière mise à jour, Rendez-vous dans votre agenda et les boutons Mettre à jour et Délier -->
-
 !!! warning "Microsoft demande l'approbation d'un administrateur ?"
     Dans certaines entreprises, l'administrateur informatique doit approuver la liaison une seule fois. Si Microsoft affiche
     *Approbation de l'administrateur requise*, demandez-le à la personne qui gère Microsoft 365 chez vous. Ensuite, tout le monde
@@ -154,8 +152,6 @@ gris hachuré **Occupé**. Ainsi, un collègue qui planifie un rendez-vous pour 
 - Un bloc Occupé ne s'ouvre pas et ne se déplace pas : ce n'est pas un rendez-vous de Nimble.
 - Si l'agenda d'un collègue n'a pas pu être lu, un message figure au-dessus de l'agenda. Ne planifiez alors pas comme si ce
   collègue était libre.
-
-<!-- AFBEELDING: l'agenda avec un bloc hachuré Occupé chez un collègue -->
 
 ## Qui peut faire quoi
 

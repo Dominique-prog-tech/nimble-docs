@@ -95,7 +95,7 @@ nieuwste eerst, met de datum, het uur en wie erbij is. Een geannuleerde afspraak
 
 Op een klant staan ook de afspraken van haar projecten en van de lead die tot deze klant werd, met erbij waarlangs.
 
-<!-- AFBEELDING: het tabblad Afspraken op een projectfiche met een afspraak en de knop Nieuwe afspraak -->
+![Het tabblad Afspraken op de projectfiche P2026-002 Renovatie stookplaats Parkzicht: bovenaan de knop Nieuwe afspraak, daaronder de afspraak Werfvergadering stookplaats op 11/11/2026 van 09:00 tot 10:30 met Pieter Janssens en Sofie Maes.](images/fiche-afspraken.png)
 
 ### Het tabblad Notities
 

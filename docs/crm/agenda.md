@@ -12,7 +12,7 @@ Microsoft 365 (Outlook).
 
 Klik in de zijbalk op **CRM → Agenda**.
 
-<!-- AFBEELDING: het agendascherm in de weergave Werkweek met enkele afspraken in de kleuren van twee collega's -->
+![Het agendascherm in de weergave Werkweek van 9 tot 13 november: bovenaan Agenda van Iedereen, de knoppen Samen en Per persoon en de collega's Elke Wouters, Pieter Janssens en Sofie Maes elk met hun kleur; in het rooster afspraken in die kleuren, de geannuleerde Offertebespreking architect grijs en doorstreept, en de hele dag Opleiding warmtepompen bovenaan vrijdag.](../images/agenda-scherm.png)
 
 ## De agenda bekijken
 
@@ -48,11 +48,11 @@ Klik **Bewaren**.
     Op de fiche van een lead, een relatie of een project staat het tabblad **Afspraken**. Een afspraak die u daar plant, heeft
     **Waarover** al ingevuld. Zie [Afspraken op een fiche](#afspraken-op-een-fiche).
 
-<!-- AFBEELDING: het venster Nieuwe afspraak met Titel, Begin, Einde, Hele dag, Verantwoordelijke, Andere deelnemers, Waarover, Plaats en Omschrijving -->
-
 ## Een afspraak openen of verschuiven
 
 **Dubbelklik** op een afspraak om ze te openen. U ziet dezelfde velden als bij het plannen.
+
+![Het venster van de afspraak Werfvergadering stookplaats: Titel, Begin en Einde op 11/11/2026 van 09:00 tot 10:30, Hele dag uitgevinkt, Verantwoordelijke Pieter Janssens, Andere deelnemers Sofie Maes, Waarover Project P2026-002 Renovatie stookplaats Parkzicht, Plaats en Omschrijving; onderaan Bewaren en Annuleren, rechts Afspraak annuleren en Verwijderen.](../images/agenda-afspraak.png)
 
 Een afspraak verschuift u ook rechtstreeks in de agenda:
 
@@ -105,8 +105,6 @@ Uw eigen agenda blijft onaangeroerd. U ziet de agenda Nimble in Outlook naast uw
 Is alles in orde, dan toont het blok één regel: uw account en wanneer uw agenda het laatst bijgewerkt werd. Met **Beheren**
 klapt u het open.
 
-<!-- AFBEELDING: het blok Mijn agenda in Google of Outlook, opengeklapt, met Account, Laatst bijgewerkt, Afspraken in uw agenda en de knoppen Nu bijwerken en Ontkoppelen -->
-
 !!! warning "Vraagt Microsoft om de goedkeuring van een beheerder?"
     In sommige bedrijven moet de IT-beheerder de koppeling eenmalig goedkeuren. Meldt Microsoft *Beheerdersgoedkeuring vereist*,
     vraag het dan aan wie bij u Microsoft 365 beheert. Daarna kan iedereen van uw bedrijf koppelen.
@@ -148,8 +146,6 @@ Wie zijn agenda koppelde, toont in de agenda van Nimble ook zijn persoonlijke af
 - Een blok Bezet opent u niet en verschuift u niet: het is geen afspraak van Nimble.
 - Kon de agenda van een collega niet gelezen worden, dan staat er boven de agenda een melding. Plan dan niet alsof die collega
   vrij is.
-
-<!-- AFBEELDING: de agenda met een gearceerd blok Bezet bij een collega -->
 
 ## Wie wat mag
 
