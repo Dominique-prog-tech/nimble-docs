@@ -42,7 +42,7 @@ op het volgende hele uur. Met een dubbelklik staat ze klaar op het uur en bij de
 | **Plaats** | Waar de afspraak doorgaat |
 | **Omschrijving** | De details |
 
-Klik **Bewaren**.
+Klik **Bewaren**. Met **Sluiten** gaat het venster dicht zonder te bewaren.
 
 !!! tip "Plan vanaf de fiche"
     Op de fiche van een lead, een relatie of een project staat het tabblad **Afspraken**. Een afspraak die u daar plant, heeft
@@ -52,7 +52,7 @@ Klik **Bewaren**.
 
 **Dubbelklik** op een afspraak om ze te openen. U ziet dezelfde velden als bij het plannen.
 
-![Het venster van de afspraak Werfvergadering stookplaats: Titel, Begin en Einde op 11/11/2026 van 09:00 tot 10:30, Hele dag uitgevinkt, Verantwoordelijke Pieter Janssens, Andere deelnemers Sofie Maes, Waarover Project P2026-002 Renovatie stookplaats Parkzicht, Plaats en Omschrijving; onderaan Bewaren en Annuleren, rechts Afspraak annuleren en Verwijderen.](../images/agenda-afspraak.png)
+![Het venster van de afspraak Werfvergadering stookplaats: Titel, Begin en Einde op 11/11/2026 van 09:00 tot 10:30, Hele dag uitgevinkt, Verantwoordelijke Pieter Janssens, Andere deelnemers Sofie Maes, Waarover Project P2026-002 Renovatie stookplaats Parkzicht, Plaats en Omschrijving; onderaan Bewaren en Sluiten, rechts Afspraak annuleren en Verwijderen.](../images/agenda-afspraak.png)
 
 Een afspraak verschuift u ook rechtstreeks in de agenda:
 

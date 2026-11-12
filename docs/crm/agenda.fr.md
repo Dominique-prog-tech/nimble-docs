@@ -45,7 +45,7 @@ vous avez cliqué.
 | **Lieu** | Où le rendez-vous a lieu |
 | **Description** | Les détails |
 
-Cliquez sur **Enregistrer**.
+Cliquez sur **Enregistrer**. Avec **Fermer**, la fenêtre se ferme sans enregistrer.
 
 !!! tip "Planifiez depuis la fiche"
     Sur la fiche d'un lead, d'une relation ou d'un projet figure l'onglet **Rendez-vous**. Un rendez-vous planifié à partir de
@@ -55,7 +55,7 @@ Cliquez sur **Enregistrer**.
 
 **Double-cliquez** sur un rendez-vous pour l'ouvrir. Vous voyez les mêmes champs que lors de la planification.
 
-![La fenêtre du rendez-vous Werfvergadering stookplaats : Titre, Début et Fin le 11/11/2026 de 09:00 à 10:30, Journée entière décochée, Responsable Pieter Janssens, Autres participants Sofie Maes, À propos de Projet P2026-002 Renovatie stookplaats Parkzicht, Lieu et Description ; en bas Enregistrer et Annuler, à droite Annuler le rendez-vous et Supprimer.](../images/agenda-afspraak-fr.png)
+![La fenêtre du rendez-vous Werfvergadering stookplaats : Titre, Début et Fin le 11/11/2026 de 09:00 à 10:30, Journée entière décochée, Responsable Pieter Janssens, Autres participants Sofie Maes, À propos de Projet P2026-002 Renovatie stookplaats Parkzicht, Lieu et Description ; en bas Enregistrer et Fermer, à droite Annuler le rendez-vous et Supprimer.](../images/agenda-afspraak-fr.png)
 
 Vous déplacez aussi un rendez-vous directement dans l'agenda :
 
