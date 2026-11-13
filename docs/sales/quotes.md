@@ -463,9 +463,9 @@ terug met **Markeren als verstuurd**.
 
 ### Een opvolgtaak en een herinnering
 
-Staat een gemailde offerte een week op **Verstuurd** zonder antwoord, dan maakt Nimble 's nachts een taak **Offerte opvolgen**
-voor wie de offerte mailde. De taak staat op het tabblad **Taken** van de offerte en in uw [takenlijst](../crm/tasks.md). Mailt u de
-offerte opnieuw, dan begint de telling opnieuw. Na hoeveel dagen, en of dat gebeurt, stelt u in bij
+Staat de offerteopvolging aan, dan maakt Nimble 's nachts een taak **Offerte opvolgen** voor wie de offerte mailde, zodra een
+gemailde offerte een week op **Verstuurd** staat zonder antwoord. Standaard staat ze uit. De taak staat op het tabblad **Taken** van de offerte en in uw [takenlijst](../crm/tasks.md). Mailt u de
+offerte opnieuw, dan begint de telling opnieuw. Aanzetten, en na hoeveel dagen, doet u bij
 [Opvolging van leads en offertes](../administration/lead-follow-up.md).
 
 Nimble stuurt de klant zelf niets. Wilt u hem herinneren, klik dan **Meer…** → **Herinnering sturen**. Het verzendvenster opent

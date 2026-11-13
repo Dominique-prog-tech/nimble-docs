@@ -66,7 +66,7 @@ Un devis envoyé par e-mail qui reste sur **Envoyé** sans réponse reçoit une 
 Nimble n'envoie rien au client ; vous envoyez le rappel depuis le devis avec **Plus…** → **Envoyer un rappel** (voir
 [Devis](../sales/quotes.md#une-tache-de-suivi-et-un-rappel)).
 
-- **Suivre les devis sans réponse** active ou désactive ce suivi. Les tâches existantes sont conservées.
+- **Suivre les devis sans réponse** active ou désactive ce suivi. **Par défaut, il est désactivé.** Les tâches existantes sont conservées.
 - **Suivre après (jours)** : **7** par défaut, compté à partir du jour où le devis a été envoyé. Si vous le renvoyez, le compte
   recommence et une nouvelle tâche peut suivre.
 - Un devis qui dépasse ce délai de plus de 30 jours ne reçoit plus de tâche : ce n'est plus un suivi mais un devis oublié. Vérifiez-le

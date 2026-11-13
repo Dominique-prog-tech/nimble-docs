@@ -473,9 +473,9 @@ Un devis accepté ne change pas de statut, pas même sur le tableau. Un devis re
 
 ### Une tâche de suivi et un rappel
 
-Si un devis envoyé par e-mail reste une semaine sur **Envoyé** sans réponse, Nimble crée la nuit une tâche **Suivre le devis** pour la
-personne qui l'a envoyé. La tâche figure dans l'onglet **Tâches** du devis et dans votre [liste de tâches](../crm/tasks.md). Si vous
-renvoyez le devis, le compte recommence. Après combien de jours, et si cela se fait, vous le réglez dans
+Si le suivi des devis est activé, Nimble crée la nuit une tâche **Suivre le devis** pour la personne qui l'a envoyé, dès qu'un devis
+envoyé par e-mail reste une semaine sur **Envoyé** sans réponse. Par défaut, il est désactivé. La tâche figure dans l'onglet **Tâches** du devis et dans votre [liste de tâches](../crm/tasks.md). Si vous
+renvoyez le devis, le compte recommence. L'activation, et après combien de jours, se règlent dans
 [Suivi des leads et des devis](../administration/lead-follow-up.md).
 
 Nimble n'envoie rien au client. Pour lui rappeler le devis, cliquez sur **Plus…** → **Envoyer un rappel**. La fenêtre d'envoi s'ouvre
