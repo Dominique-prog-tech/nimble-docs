@@ -8,7 +8,7 @@ faites une commande.
 Dans la barre latérale, cliquez sur **Achats → À commander**. Vous avez besoin du droit de consulter les achats ; pour créer une
 commande, du droit de les modifier.
 
-<!-- AFBEELDING: À commander avec un bloc par fournisseur, les articles cochés avec quantité et projet, et le bouton Créer la commande. -->
+![À commander avec le bloc du fournisseur Elektro Partner Distributie NV et le bouton Créer la commande ; on y voit l'article coché Inbouwreservoir 1120 mm, quantité 5, pour le projet P2026-001 Nieuwbouw sanitair en verwarming.](../images/te-bestellen-fr.png)
 
 ## Ce qui y figure
 

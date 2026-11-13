@@ -7,7 +7,7 @@ De **statistieken** tonen uw omzet per klant en per artikel, en uw aankopen per 
 Klik in de zijbalk op **Verkoop → Statistieken**. U hebt het recht nodig om facturen te bekijken. Het tabblad **Aankoop** ziet u
 enkel met het recht om de inkoop te bekijken.
 
-<!-- AFBEELDING: de statistieken op het tabblad Verkoop met de periode, de zin met de omzet van de periode, en naast elkaar Omzet per klant en Omzet per artikel. -->
+![De statistieken op het tabblad Verkoop met de periode Van en Tot en met, de zin met de omzet excl. btw van de periode, en naast elkaar Omzet per klant (klant, facturen, omzet) en Omzet per artikel (artikel, aantal, omzet), elk met Exporteren.](../images/statistieken.png)
 
 ## De periode
 

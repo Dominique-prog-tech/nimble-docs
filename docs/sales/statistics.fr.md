@@ -8,7 +8,7 @@ vous choisissez.
 Dans la barre latérale, cliquez sur **Ventes → Statistiques**. Vous avez besoin du droit de consulter les factures. L'onglet
 **Achats** n'apparaît qu'avec le droit de consulter les achats.
 
-<!-- AFBEELDING: les statistiques dans l'onglet Ventes avec la période, la phrase avec le chiffre d'affaires de la période, et côte à côte Chiffre d'affaires par client et Chiffre d'affaires par article. -->
+![Les statistiques dans l'onglet Ventes avec la période Du et Au, la phrase avec le chiffre d'affaires hors TVA de la période, et côte à côte Chiffre d'affaires par client (client, factures, chiffre d'affaires) et Chiffre d'affaires par article (article, quantité, chiffre d'affaires), chacun avec Exporter.](../images/statistieken-fr.png)
 
 ## La période
 

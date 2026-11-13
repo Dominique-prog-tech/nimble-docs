@@ -8,7 +8,7 @@ een bestelling van.
 Klik in de zijbalk op **Inkoop → Te bestellen**. U hebt het recht nodig om de inkoop te bekijken; om een bestelling te maken, het
 recht om ze te bewerken.
 
-<!-- AFBEELDING: Te bestellen met een blok per leverancier, de aangevinkte artikelen met aantal en project, en de knop Bestelling maken. -->
+![Te bestellen met het blok van de leverancier Elektro Partner Distributie NV en de knop Bestelling maken; daarin het aangevinkte artikel Inbouwreservoir 1120 mm, aantal 5, voor project P2026-001 Nieuwbouw sanitair en verwarming.](../images/te-bestellen.png)
 
 ## Wat erop staat
 
