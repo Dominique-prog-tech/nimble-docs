@@ -36,12 +36,14 @@ vous appuyez en cas de discussion — pas ce que Nimble en a fait.
 
 ## Traiter un document
 
-**Traiter** en fait une facture d'achat. Nimble recherche le fournisseur sur son **numéro de TVA**. Les
-points, les espaces et les tirets n'entrent pas en ligne de compte, les majuscules non plus. Seules les
-relations marquées comme fournisseur sont prises en compte.
+**Traiter** en fait une facture d'achat. Nimble recherche le fournisseur sur son **numéro de TVA** et sur son
+**numéro d'entreprise**. Les points, les espaces et les tirets n'entrent pas en ligne de compte, les majuscules
+non plus. Un numéro d'entreprise belge et le numéro de TVA précédé de BE désignent la même entreprise :
+`0429.001.603` trouve aussi un fournisseur avec `BE0429001603`, et inversement. Seules les relations marquées
+comme fournisseur sont prises en compte.
 
 En cas de succès, la facture apparaît dans [Factures d'achat](purchase-invoices.md) avec la mention *En
-attente d'approbation*. Sa **Note** indique à quel fournisseur et sur quel numéro de TVA elle a été liée. Le
+attente d'approbation*. Sa **Note** indique à quel fournisseur et sur quel numéro elle a été liée. Le
 document disparaît de cette liste. Si le document est une **note de crédit**, il devient une facture d'achat du
 type *Note de crédit*.
 
@@ -52,13 +54,42 @@ TVA par taux et vous le signale. Ainsi, aucun montant de zéro n'apparaît là o
 pdf et le fichier Peppol sont alors bien joints à la facture. Voir
 [Une facture Peppol](purchase-invoices.md#une-facture-peppol).
 
+## Un fournisseur que Nimble ne connaît pas
+
+Si Nimble ne trouve aucun fournisseur avec le numéro du document, ou si le document ne porte pas de numéro, la
+fenêtre **Fournisseur de ce document** s'ouvre. La raison figure en haut. C'est le cas par exemple pour une
+première facture d'un nouveau fournisseur, ou pour un assureur : il est exempté de TVA et n'a qu'un numéro
+d'entreprise.
+
+Sous **Que voulez-vous faire ?**, vous choisissez :
+
+- **Créer un nouveau fournisseur.** La fenêtre montre ce que Nimble reprend du document : le nom, le numéro de
+  TVA (ou le numéro d'entreprise), l'adresse, l'adresse e-mail et le numéro de téléphone. Cliquez sur
+  **Traiter** : le fournisseur est ajouté sous [Relations](../relations.md) et la facture est créée
+  aussitôt. Si vous voulez compléter ou corriger quelque chose, faites-le ensuite sur la fiche de la relation.
+- **Choisir un fournisseur existant.** Choisissez le fournisseur dans la liste et cliquez sur **Traiter**.
+  Utilisez ceci quand le fournisseur existe déjà, mais sans numéro ou avec un autre numéro.
+
+Un fournisseur sans numéro de TVA reçoit son numéro d'entreprise dans le champ **Numéro de TVA**, sans BE devant.
+Nimble le retrouve ainsi tout seul à sa facture suivante.
+
+La **Note** de la facture indique si le fournisseur a été créé à partir du document, ou choisi à la main.
+
+!!! info "Vous ne pouvez pas créer de relations ?"
+    La fenêtre s'ouvre alors sur **Choisir un fournisseur existant**. Si le fournisseur n'existe pas encore,
+    demandez à un collègue qui peut modifier les relations de le créer.
+
+!!! warning "Un numéro qui existe déjà"
+    Si le numéro du document désigne un fournisseur qui existe déjà, Nimble n'en crée pas un deuxième.
+    Choisissez alors ce fournisseur sous **Choisir un fournisseur existant**.
+
+## Quand l'écran ne crée pas de facture
+
 L'écran ne crée pas de facture et en donne la raison lorsque :
 
 | Cas | Ce que vous faites |
 |---|---|
-| Le document ne porte **pas de numéro de TVA** | Ouvrez-le pour voir de qui il vient, et saisissez-le avec **Nouvelle facture d'achat** sur l'écran Factures d'achat |
-| **Aucune relation** ne porte ce numéro de TVA | Créez le fournisseur, ou complétez le numéro de TVA sur la relation existante |
-| **Deux relations ou plus** portent le même numéro de TVA | Corrigez d'abord cela — impossible sinon de déterminer laquelle est visée |
+| **Deux relations ou plus** portent le même numéro | Corrigez d'abord cela — impossible sinon de déterminer laquelle est visée |
 | Le document ne porte **pas de numéro de facture ou pas de montant total** | Ouvrez-le et saisissez-le à la main |
 | Le document est **déjà traité** | Le message cite la facture qui en est issue |
 

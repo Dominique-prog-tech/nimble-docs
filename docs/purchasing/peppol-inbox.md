@@ -35,13 +35,15 @@ zich bij een discussie beroept — niet wat Nimble ervan gemaakt heeft.
 
 ## Een document verwerken
 
-**Verwerken** maakt er een aankoopfactuur van. Nimble zoekt de leverancier op zijn **btw-nummer**. Punten,
-spaties en koppeltekens spelen daarbij geen rol, hoofdletters evenmin. Enkel relaties die als leverancier
-gemarkeerd zijn, komen in aanmerking.
+**Verwerken** maakt er een aankoopfactuur van. Nimble zoekt de leverancier op zijn **btw-nummer** en op zijn
+**ondernemingsnummer**. Punten, spaties en koppeltekens spelen daarbij geen rol, hoofdletters evenmin. Een
+Belgisch ondernemingsnummer en het btw-nummer met BE ervoor horen bij dezelfde onderneming: `0429.001.603` vindt
+ook een leverancier met `BE0429001603`, en omgekeerd. Enkel relaties die als leverancier gemarkeerd zijn, komen
+in aanmerking.
 
 Lukt het, dan verschijnt de factuur bij [Aankoopfacturen](purchase-invoices.md) met *Wacht op goedkeuring*.
 Is het document een **creditnota**, dan wordt het een aankoopfactuur van de soort *Creditnota*.
-In haar **Nota** staat aan welke leverancier en op welk btw-nummer ze gekoppeld werd. Het document verdwijnt
+In haar **Nota** staat aan welke leverancier en op welk nummer ze gekoppeld werd. Het document verdwijnt
 uit deze lijst.
 
 Nimble neemt daarbij ook over wat in het document staat: het bedrag excl. btw, de btw per tarief en de
@@ -50,13 +52,42 @@ factuur. Draagt een regel of een btw-tarief in het document geen leesbaar bedrag
 de btw per tarief niet over en meldt het dat. Zo staat er nooit een bedrag van nul waar de leverancier niets
 stuurde. De pdf en het Peppol-bestand komen dan wel bij de factuur. Zie [Een factuur uit Peppol](purchase-invoices.md#een-factuur-uit-peppol).
 
+## Een leverancier die Nimble niet kent
+
+Vindt Nimble geen leverancier met het nummer uit het document, of draagt het document geen nummer, dan opent het
+venster **Leverancier van dit document**. Bovenaan staat waarom. Dat gebeurt bijvoorbeeld bij een eerste factuur
+van een nieuwe leverancier, of bij een verzekeraar: die is vrijgesteld van btw en heeft enkel een
+ondernemingsnummer.
+
+Bij **Wat wilt u doen?** kiest u:
+
+- **Nieuwe leverancier aanmaken.** Het venster toont wat Nimble uit het document overneemt: de naam, het
+  btw-nummer (of het ondernemingsnummer), het adres, het e-mailadres en het telefoonnummer. Klik op
+  **Verwerken**: de leverancier komt bij [Relaties](../relations.md) en de factuur wordt meteen
+  gemaakt. Wilt u iets aanvullen of verbeteren, dan doet u dat daarna op de relatiefiche.
+- **Bestaande leverancier kiezen.** Kies de leverancier in de lijst en klik op **Verwerken**. Gebruik dit
+  wanneer de leverancier er al staat, maar zonder nummer of met een ander nummer.
+
+Een leverancier zonder btw-nummer krijgt zijn ondernemingsnummer in het veld **Btw-nummer**, zonder BE ervoor.
+Zo vindt Nimble hem bij zijn volgende factuur vanzelf terug.
+
+In de **Nota** van de factuur staat of de leverancier uit het document aangemaakt werd, of met de hand gekozen.
+
+!!! info "Mag u geen relaties aanmaken?"
+    Dan opent het venster bij **Bestaande leverancier kiezen**. Staat de leverancier er nog niet, vraag dan
+    een collega die relaties mag bewerken om hem aan te maken.
+
+!!! warning "Een nummer dat al bestaat"
+    Wijst het nummer uit het document naar een leverancier die er al staat, dan maakt Nimble geen tweede aan.
+    Kies dan die leverancier bij **Bestaande leverancier kiezen**.
+
+## Wanneer het scherm geen factuur maakt
+
 Het scherm maakt geen factuur en zegt waarom wanneer:
 
 | Geval | Wat u doet |
 |---|---|
-| Het document draagt **geen btw-nummer** | Open het om te zien van wie het komt, en breng het in met **Nieuwe aankoopfactuur** op het scherm Aankoopfacturen |
-| **Geen enkele relatie** draagt dat btw-nummer | Maak de leverancier aan, of vul het btw-nummer aan op de bestaande relatie |
-| **Twee of meer relaties** dragen hetzelfde btw-nummer | Zet dat eerst recht — dan is niet uit te maken welke bedoeld is |
+| **Twee of meer relaties** dragen hetzelfde nummer | Zet dat eerst recht — dan is niet uit te maken welke bedoeld is |
 | Het document draagt **geen factuurnummer of geen totaalbedrag** | Open het en breng het met de hand in |
 | Het document is **al verwerkt** | De melding noemt de factuur die eruit ontstond |
 
