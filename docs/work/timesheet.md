@@ -8,7 +8,7 @@ medewerker. Handig voor de loonverwerking of om na te kijken wie waar gewerkt he
 
 Klik in de zijbalk op **Werk → Urenstaat**. U hebt het recht nodig om werkorders en werkbonnen te bekijken.
 
-![De urenstaat met bovenaan Van, Tot en met en Medewerker op Iedereen; daaronder het blok Totaal per medewerker met per medewerker de uren Werk, Verplaatsing, Samen en het aantal Dagen, onder wie Dieter Cools, Kris Van Damme en Sam Rombouts; en de lijst Urenstaat met Datum, Medewerker, Werkorder, Project, Soort, Uren, Getekend en Notitie.](../images/urenstaat.png)
+![De urenstaat met bovenaan Van, Tot en met en een lege keuze Medewerker; daaronder het blok Totaal per medewerker met per medewerker de uren Werk, Verplaatsing, Samen en het aantal Dagen, onder wie Dieter Cools, Kris Van Damme en Sam Rombouts; en de lijst Urenstaat met Datum, Medewerker, Werkorder, Project, Soort, Uren, Getekend en Notitie.](../images/urenstaat.png)
 
 ## De periode en de medewerker
 

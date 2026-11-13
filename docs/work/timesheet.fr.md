@@ -9,7 +9,7 @@ avec un total par collaborateur. Pratique pour la paie ou pour vérifier qui a t
 Dans la barre latérale, cliquez sur **Travail → Relevé des heures**. Vous avez besoin du droit de consulter les ordres et bons de
 travail.
 
-![Le relevé des heures avec en haut Du, Au et Collaborateur sur Tout le monde ; en dessous le bloc Total par collaborateur avec par collaborateur les heures Travail, Déplacement, Ensemble et le nombre de Jours, dont Dieter Cools, Kris Van Damme et Sam Rombouts ; et la liste avec Date, Collaborateur, Ordre de travail, Projet, Type, Heures, Signé et Note.](../images/urenstaat-fr.png)
+![Le relevé des heures avec en haut Du, Au et un choix Collaborateur vide ; en dessous le bloc Total par collaborateur avec par collaborateur les heures Travail, Déplacement, Ensemble et le nombre de Jours, dont Dieter Cools, Kris Van Damme et Sam Rombouts ; et la liste avec Date, Collaborateur, Ordre de travail, Projet, Type, Heures, Signé et Note.](../images/urenstaat-fr.png)
 
 ## La période et le collaborateur
 
