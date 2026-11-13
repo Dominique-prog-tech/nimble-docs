@@ -245,7 +245,8 @@ Meer…, Annuleren en Verwijderen — met het menu Meer… open op Online voorle
 | **Markeren als verstuurd** | Klad en Geweigerd | Zet enkel de status om; er vertrekt niets |
 | **Markeren als aanvaard** · **Weigeren** | Verstuurd | Legt het antwoord van de klant vast. Hangt de offerte nog aan geen project, dan maakt Nimble er bij het aanvaarden een aan — zie *Aanvaard werk hangt aan een project* hieronder |
 | **Project maken** | Aanvaard, zonder project | Opent een nieuw project met de klant en het werfadres van de offerte al ingevuld. Bij het bewaren hangt de offerte, met al haar versies, aan dat project |
-| **Factureren** | Aanvaard | Maakt een kladfactuur met de regels van de offerte |
+| **Factureren** | Aanvaard | Maakt een kladfactuur met de regels van de offerte, min de voorschotten |
+| **Meer…** → **Voorschotfactuur** | Aanvaard, zolang Factureren kan | Maakt een kladfactuur voor een deel van de offerte, zie *Een voorschot factureren* |
 | **Meer…** → **Nieuwe versie** | Aanvaard, Geweigerd en Vervangen | Maakt een bewerkbare kopie |
 | **Meer…** → **Herinnering sturen** | Verstuurd | Opent het verzendvenster met de herinnering, zie *De offerte opvolgen* |
 | **Meer…** → **Sjabloon invoegen** · **Opslaan als sjabloon** | Klad en Verstuurd · altijd | Zie *Een sjabloon gebruiken* |
@@ -522,6 +523,35 @@ Kan het niet, dan staat de knop grijs en staat de reden ernaast:
   staan.
 - *Dit project wordt per vorderingsstaat gefactureerd.* — het resterende werk factureert u via een volgende
   staat; zie [Vorderingsstaten](progress-reports.md).
+
+### Een voorschot factureren
+
+Vraagt u een voorschot bij de bestelling, dan factureert u dat vóór het werk klaar is:
+
+1. Open de aanvaarde offerte en kies onder **Meer…** de keuze **Voorschotfactuur**.
+2. Kies bij **Voorschot als** een **Percentage van de offerte** (standaard 30 %) of een **Vast bedrag (excl. btw)**.
+   Het venster toont meteen het bedrag excl. en incl. btw.
+3. Klik op **Voorschot maken**. Nimble maakt een kladfactuur "Voorschot 30 % op offerte …" en opent ze. Maak ze
+   definitief en verstuur ze zoals elke factuur.
+
+Draagt de offerte meer dan één btw-tarief, dan verdeelt Nimble het voorschot in dezelfde verhouding over die
+tarieven: één regel per tarief, met de btw-code van de offerte. Ook medecontractant en de vermelding bij 6 % komen
+zo mee.
+
+Naast **Factureren** staan de voorschotten van de offerte, met een link naar elk. U kunt er meer dan één maken,
+zolang ze samen niet boven het offertebedrag uitkomen.
+
+Is het werk klaar, dan klikt u zoals gewoonlijk op **Factureren**. De kladfactuur bevat alle regels van de offerte
+en onderaan, per voorschot en per btw-tarief, een regel **Verrekening voorschotfactuur F-… van …** met een negatief
+bedrag. Het totaal is wat de klant nog moet betalen, en het blad zegt in één zin hoeveel er al als voorschot
+gefactureerd is.
+
+- Enkel een voorschotfactuur die **definitief** is, wordt verrekend. Staat er nog een in klad, dan vraagt Nimble
+  of u toch wilt factureren.
+- Een voorschot dat al verrekend is, kunt u niet meer crediteren. Crediteer eerst de factuur die het verrekent;
+  dan komt het voorschot weer vrij.
+- Een project dat per vorderingsstaat gefactureerd wordt, krijgt geen voorschot: de staten zouden het nooit
+  aftrekken.
 
 ## Versies en varianten
 

@@ -15,7 +15,7 @@ Klik in de zijbalk op **Verkoop → Facturen**.
 | Kolom | Wat u ziet |
 |---|---|
 | **Nummer** | Het factuurnummer. Een klad heeft er nog geen; een creditnota begint met `CN-` |
-| **Soort** | **Factuur** of **Creditnota** |
+| **Soort** | **Factuur**, **Creditnota** of **Voorschot** (een voorschotfactuur, zie [Offertes](quotes.md)) |
 | **Klant** | Voor wie de factuur is |
 | **Datum** | De factuurdatum |
 | **Mededeling** | De gestructureerde mededeling waarmee de klant betaalt |
@@ -77,7 +77,7 @@ U kunt een aanvaarde offerte ook factureren vanaf de offerte zelf, met **Facture
 ![De fiche van F-2026-0012: status Uitgereikt en op slot, met de blokken Factuurgegevens, Betaling en verzending en Regels.](../images/factuur-fiche.png)
 
 Bovenaan staan het nummer en de status. Bij een uitgereikte factuur staat er **op slot** naast; bij een
-creditnota het label **Creditnota**.
+creditnota het label **Creditnota**, bij een voorschotfactuur het label **Voorschot**.
 
 De fiche heeft de tabbladen **Algemeen**, **Taken**, **Notities**, **Bijlagen**, **Mails** en **Logboek**. Hoe
 die laatste vijf werken, leest u in [Werken met een fiche](../fiches.md). Bij **Mails** staan de

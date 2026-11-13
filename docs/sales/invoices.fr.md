@@ -15,7 +15,7 @@ Dans la barre latérale, cliquez sur **Ventes → Factures**.
 | Colonne | Ce que vous voyez |
 |---|---|
 | **Numéro** | Le numéro de facture. Un brouillon n'en a pas encore ; une note de crédit commence par `CN-` |
-| **Type** | **Facture** ou **Note de crédit** |
+| **Type** | **Facture**, **Note de crédit** ou **Acompte** (une facture d'acompte, voir [Devis](quotes.md)) |
 | **Client** | Pour qui est la facture |
 | **Date** | La date de facture |
 | **Communication** | La communication structurée avec laquelle le client paie |
@@ -78,7 +78,7 @@ Vous pouvez aussi facturer un devis accepté depuis le devis lui-même, avec **F
 ![La fiche de F-2026-0012 : statut Émise et verrouillée, avec les blocs Données de la facture, Paiement et envoi et Lignes.](../images/factuur-fiche-fr.png)
 
 En haut figurent le numéro et le statut. Une facture émise porte en plus la mention **verrouillée** ; une
-note de crédit l'étiquette **Note de crédit**.
+note de crédit l'étiquette **Note de crédit**, une facture d'acompte l'étiquette **Acompte**.
 
 La fiche comporte les onglets **Général**, **Tâches**, **Notes**, **Pièces jointes**, **E-mails** et
 **Historique**. Le fonctionnement des cinq derniers est décrit dans [Travailler avec une fiche](../fiches.md).

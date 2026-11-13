@@ -248,7 +248,8 @@ accepté, Refuser, Plus…, Annuler et Supprimer — avec le menu Plus… ouvert
 | **Marquer comme envoyé** | Brouillon et Refusé | Change uniquement le statut ; rien n'est envoyé |
 | **Marquer comme accepté** · **Refuser** | Envoyé | Enregistre la réponse du client. Si le devis n'est lié à aucun projet, Nimble en crée un lors de l'acceptation — voir *Le travail accepté est lié à un projet* ci-dessous |
 | **Créer un projet** | Accepté, sans projet | Ouvre un nouveau projet avec le client et l'adresse du chantier du devis déjà remplis. À l'enregistrement, le devis et toutes ses versions sont rattachés à ce projet |
-| **Facturer** | Accepté | Crée un brouillon de facture avec les lignes du devis |
+| **Facturer** | Accepté | Crée un brouillon de facture avec les lignes du devis, moins les acomptes |
+| **Plus…** → **Facture d'acompte** | Accepté, tant que Facturer est possible | Crée un brouillon de facture pour une partie du devis, voir *Facturer un acompte* |
 | **Plus…** → **Nouvelle version** | Accepté, Refusé et Remplacé | Crée une copie modifiable |
 | **Plus…** → **Envoyer un rappel** | Envoyé | Ouvre la fenêtre d'envoi avec le rappel, voir *Le suivi du devis* |
 | **Plus…** → **Insérer un modèle** · **Enregistrer comme modèle** | Brouillon et Envoyé · toujours | Voir *Utiliser un modèle* |
@@ -533,6 +534,33 @@ Si ce n'est pas possible, le bouton est grisé et la raison figure à côté :
   option.
 - *Ce projet est facturé par état d'avancement.* — le travail restant se facture via un état suivant ; voir
   [États d'avancement](progress-reports.md).
+
+### Facturer un acompte
+
+Si vous demandez un acompte à la commande, vous le facturez avant que le travail soit terminé :
+
+1. Ouvrez le devis accepté et choisissez **Facture d'acompte** sous **Plus…**.
+2. Sous **Acompte en**, choisissez un **Pourcentage du devis** (30 % par défaut) ou un **Montant fixe (HTVA)**.
+   La fenêtre affiche aussitôt le montant HTVA et TVAC.
+3. Cliquez sur **Créer l'acompte**. Nimble crée un brouillon de facture « Acompte 30 % sur le devis … » et l'ouvre.
+   Finalisez-la et envoyez-la comme toute facture.
+
+Si le devis porte plus d'un taux de TVA, Nimble répartit l'acompte dans la même proportion sur ces taux : une ligne
+par taux, avec le code TVA du devis. Le cocontractant et la mention à 6 % suivent ainsi.
+
+À côté de **Facturer** figurent les acomptes du devis, avec un lien vers chacun. Vous pouvez en créer plusieurs, tant
+qu'ensemble ils ne dépassent pas le montant du devis.
+
+Une fois le travail terminé, vous cliquez comme d'habitude sur **Facturer**. Le brouillon de facture contient toutes
+les lignes du devis et, en bas, par acompte et par taux de TVA, une ligne **Déduction facture d'acompte F-… du …**
+avec un montant négatif. Le total est ce que le client doit encore payer, et le document indique en une phrase le
+montant déjà facturé en acompte.
+
+- Seule une facture d'acompte **finalisée** est déduite. S'il en reste une en brouillon, Nimble vous demande si vous
+  voulez facturer quand même.
+- Un acompte déjà déduit ne peut plus être crédité. Créditez d'abord la facture qui le déduit ; l'acompte est alors
+  libéré.
+- Un projet facturé par état d'avancement ne reçoit pas d'acompte : les états ne le déduiraient jamais.
 
 ## Versions et variantes
 
