@@ -121,6 +121,12 @@ Chaque bloc offre deux façons d'ajouter une ligne :
 - **+ article** — choisissez un article dans votre [catalogue](../inventory/articles.md). La description,
   l'unité et le prix de vente suivent. La ligne arrive dans ce bloc-là.
 
+Pour copier :
+
+- L'**icône de copie** à côté du ✕ rouge d'une ligne place une copie de cette ligne juste en dessous, avec l'article, la
+  quantité, le prix, la TVA et l'option. La quantité est prête à être modifiée.
+- **Copier le bloc** dans le titre d'un bloc place une copie du bloc avec toutes ses lignes juste sous l'original.
+
 ![La fenêtre Choisir un article, avec numéro, description, famille et prix.](../images/offerte-artikelzoeker-fr.png)
 
 !!! tip "Recherchez par numéro ou par description"
@@ -158,6 +164,20 @@ la fenêtre (PDF, JPG, PNG ou WebP).
 Cela n'est possible qu'avec votre propre **clé IA** dans le portail ADM One et l'autorisation d'analyse de documents, comme pour
 [faire lire une facture d'achat](../purchasing/purchase-invoices.md#faire-lire-par-lia). Vous payez les coûts directement à votre
 fournisseur d'IA.
+
+### Utiliser un modèle
+
+Si vous faites souvent un devis semblable, enregistrez les blocs et les lignes comme **modèle**.
+
+- **Plus…** → **Enregistrer comme modèle** : donnez un nom, par exemple *Salle de bain standard*, et cliquez sur **Enregistrer**. Le
+  modèle conserve les blocs et les lignes de ce devis, sans client.
+- **Plus…** → **Insérer un modèle** : choisissez un modèle et cliquez sur **Insérer**. Les blocs et les lignes s'ajoutent en bas de ce
+  devis. Une ligne avec un article reçoit le prix du jour : l'accord de prix du client, sinon le prix de vente. Une ligne sans article
+  garde le prix enregistré. Enregistrez ensuite le devis.
+- Un modèle dont vous n'avez plus besoin se supprime avec le ✕ rouge dans la fenêtre **Insérer un modèle**. Il va dans la
+  [corbeille](../administration/recycle-bin.md). Les devis créés avec lui restent inchangés.
+
+**Insérer un modèle** apparaît dès que le devis a été enregistré une fois.
 
 ### Les champs d'une ligne
 
@@ -230,6 +250,8 @@ accepté, Refuser, Plus…, Annuler et Supprimer — avec le menu Plus… ouvert
 | **Créer un projet** | Accepté, sans projet | Ouvre un nouveau projet avec le client et l'adresse du chantier du devis déjà remplis. À l'enregistrement, le devis et toutes ses versions sont rattachés à ce projet |
 | **Facturer** | Accepté | Crée un brouillon de facture avec les lignes du devis |
 | **Plus…** → **Nouvelle version** | Accepté, Refusé et Remplacé | Crée une copie modifiable |
+| **Plus…** → **Envoyer un rappel** | Envoyé | Ouvre la fenêtre d'envoi avec le rappel, voir *Le suivi du devis* |
+| **Plus…** → **Insérer un modèle** · **Enregistrer comme modèle** | Brouillon et Envoyé · toujours | Voir *Utiliser un modèle* |
 | **Annuler** | Brouillon et Envoyé | Abandonne vos modifications. Sur un devis clôturé, le bouton n'y figure pas : vous revenez avec **← Retour aux devis** en haut |
 | **Supprimer** | Brouillon, Envoyé et Refusé | Après confirmation, place le devis dans la corbeille. Un devis accepté, remplacé ou facturé ne peut pas être supprimé |
 
@@ -257,6 +279,10 @@ L'en-tête, la formule d'appel et les conditions se règlent dans les
 !!! info "Le devis suit la langue du client"
     Le document est établi dans la langue indiquée sur la fiche client sous **Langue des documents**, et non
     dans celle où vous travaillez. Si ce champ est vide, le devis suit la langue de votre entreprise.
+
+Si vous cochez **Photos des articles sur le devis** dans les données du devis, chaque ligne avec un article affiche la photo de
+cet article. Vous choisissez cette photo sur la [fiche article](../inventory/articles.md#la-photo-dun-article). Un article sans photo
+n'en reçoit pas.
 
 Les lignes de titre et les lignes vides apparaissent sur le document comme intertitre et comme espace, sans
 quantité ni montant. Le sous-total figure sous chaque bloc, et le détail en bas de page.
@@ -444,6 +470,17 @@ en ligne : par la cloche et par e-mail. Nimble vérifie l'état quand vous ouvre
 
 Un devis accepté ne change pas de statut, pas même sur le tableau. Un devis refusé, si : remettez-le avec
 **Marquer comme envoyé**.
+
+### Une tâche de suivi et un rappel
+
+Si un devis envoyé par e-mail reste une semaine sur **Envoyé** sans réponse, Nimble crée la nuit une tâche **Suivre le devis** pour la
+personne qui l'a envoyé. La tâche figure dans l'onglet **Tâches** du devis et dans votre [liste de tâches](../crm/tasks.md). Si vous
+renvoyez le devis, le compte recommence. Après combien de jours, et si cela se fait, vous le réglez dans
+[Suivi des leads et des devis](../administration/lead-follow-up.md).
+
+Nimble n'envoie rien au client. Pour lui rappeler le devis, cliquez sur **Plus…** → **Envoyer un rappel**. La fenêtre d'envoi s'ouvre
+avec le texte du rappel et le devis en pièce jointe ; adaptez le texte et cliquez sur **Envoyer**. Ce texte se règle dans
+[Modèles de mail](../settings/mail-templates.md), sous *Rappel d'un devis*.
 
 
 ### Enregistrer la réponse du client

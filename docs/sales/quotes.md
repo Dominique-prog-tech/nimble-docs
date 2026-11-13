@@ -117,6 +117,12 @@ Per blok hebt u twee manieren om een regel toe te voegen:
 - **+ artikel** — kies een artikel uit uw [catalogus](../inventory/articles.md). Omschrijving, eenheid en
   verkoopprijs komen mee. De regel komt in dát blok terecht.
 
+Kopiëren gaat zo:
+
+- Het **kopieericoon** naast het rode ✕ van een regel zet een kopie van die regel er meteen onder, met artikel, aantal,
+  prijs, btw en optie. Het aantal is meteen klaar om aan te passen.
+- **Blok kopiëren** in de kop van een blok zet een kopie van het blok met al zijn regels meteen onder het origineel.
+
 ![Het venster Artikel kiezen, met nummer, omschrijving, familie en prijs.](../images/offerte-artikelzoeker.png)
 
 !!! tip "Zoek op nummer of op omschrijving"
@@ -154,6 +160,20 @@ leverancier in het venster (pdf, JPG, PNG of WebP).
 Dit kan enkel met een eigen **AI-sleutel** in het portaal van ADM One en toestemming voor documentanalyse, zoals bij het
 [laten lezen van een aankoopfactuur](../purchasing/purchase-invoices.md#laten-lezen-door-de-ai). De kosten betaalt u
 rechtstreeks aan uw AI-leverancier.
+
+### Een sjabloon gebruiken
+
+Maakt u vaak een gelijkaardige offerte, bewaar dan de blokken en regels als **sjabloon**.
+
+- **Meer…** → **Opslaan als sjabloon**: geef een naam, bijvoorbeeld *Badkamer standaard*, en klik **Bewaren**. Het sjabloon
+  bewaart de blokken en regels van deze offerte, zonder klant.
+- **Meer…** → **Sjabloon invoegen**: kies een sjabloon en klik **Invoegen**. De blokken en regels komen onderaan deze offerte bij.
+  Een regel met een artikel krijgt de prijs van vandaag: de prijsafspraak van de klant, anders de verkoopprijs. Een regel zonder
+  artikel houdt de bewaarde prijs. Bewaar daarna de offerte.
+- Een sjabloon dat u niet meer nodig hebt, verwijdert u met het rode ✕ in het venster **Sjabloon invoegen**. Het gaat naar de
+  [prullenbak](../administration/recycle-bin.md). Offertes die ermee gemaakt zijn, blijven zoals ze zijn.
+
+**Sjabloon invoegen** staat er zodra de offerte één keer bewaard is.
 
 ### De regelvelden
 
@@ -227,6 +247,8 @@ Meer…, Annuleren en Verwijderen — met het menu Meer… open op Online voorle
 | **Project maken** | Aanvaard, zonder project | Opent een nieuw project met de klant en het werfadres van de offerte al ingevuld. Bij het bewaren hangt de offerte, met al haar versies, aan dat project |
 | **Factureren** | Aanvaard | Maakt een kladfactuur met de regels van de offerte |
 | **Meer…** → **Nieuwe versie** | Aanvaard, Geweigerd en Vervangen | Maakt een bewerkbare kopie |
+| **Meer…** → **Herinnering sturen** | Verstuurd | Opent het verzendvenster met de herinnering, zie *De offerte opvolgen* |
+| **Meer…** → **Sjabloon invoegen** · **Opslaan als sjabloon** | Klad en Verstuurd · altijd | Zie *Een sjabloon gebruiken* |
 | **Annuleren** | Klad en Verstuurd | Laat uw wijzigingen vallen. Op een afgesloten offerte staat de knop er niet: u gaat terug met **← Terug naar offertes** bovenaan |
 | **Verwijderen** | Klad, Verstuurd en Geweigerd | Verplaatst de offerte na bevestiging naar de prullenbak. Een aanvaarde, vervangen of gefactureerde offerte kan niet weg |
 
@@ -252,6 +274,10 @@ stelt u in bij [Documentsjablonen](../settings/document-templates.md).
 !!! info "De offerte volgt de taal van de klant"
     Het document wordt opgemaakt in de taal die op de klantenfiche bij **Documenttaal** staat, niet in de
     taal waarin u zelf werkt. Is dat veld leeg, dan volgt de offerte de taal van uw bedrijf.
+
+Vinkt u bij de offertegegevens **Foto's van de artikelen op de offerte** aan, dan staat bij elke regel met een artikel de foto
+van dat artikel. Welke foto dat is, kiest u op de [artikelfiche](../inventory/articles.md#de-foto-van-een-artikel). Een artikel
+zonder foto krijgt er geen.
 
 Kopregels en witregels komen op het blad als tussentitel en als witruimte, zonder aantal of bedrag. Per blok
 staat het subtotaal eronder, en onderaan de opsplitsing.
@@ -434,6 +460,17 @@ antwoord: via het belletje en per mail. Nimble kijkt de stand na wanneer u de of
 
 Een aanvaarde offerte wisselt niet van status, ook niet op het bord. Een geweigerde wel: die zet u
 terug met **Markeren als verstuurd**.
+
+### Een opvolgtaak en een herinnering
+
+Staat een gemailde offerte een week op **Verstuurd** zonder antwoord, dan maakt Nimble 's nachts een taak **Offerte opvolgen**
+voor wie de offerte mailde. De taak staat op het tabblad **Taken** van de offerte en in uw [takenlijst](../crm/tasks.md). Mailt u de
+offerte opnieuw, dan begint de telling opnieuw. Na hoeveel dagen, en of dat gebeurt, stelt u in bij
+[Opvolging van leads en offertes](../administration/lead-follow-up.md).
+
+Nimble stuurt de klant zelf niets. Wilt u hem herinneren, klik dan **Meer…** → **Herinnering sturen**. Het verzendvenster opent
+met de tekst van de herinnering en de offerte als bijlage; u past de tekst aan en klikt **Versturen**. Die tekst stelt u in bij
+[Mailsjablonen](../settings/mail-templates.md), onder *Herinnering bij een offerte*.
 
 ### Het antwoord van de klant vastleggen
 

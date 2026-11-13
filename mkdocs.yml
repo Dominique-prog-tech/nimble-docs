@@ -233,6 +233,9 @@ plugins:
             Facturen: Factures
             Vorderingsstaten: États d'avancement
             Orderboek: Carnet de commandes
+            Statistieken: Statistiques
+            Te bestellen: À commander
+            Urenstaat: Relevé des heures
             Btw-codes: Codes TVA
             Offertestatus: Statuts de devis
             # ⚠️ Deze vijf stonden tot 26/08/2026 ONVERTAALD in de Franse navigatie. De Franse pagina's
@@ -287,6 +290,7 @@ nav:
     - Offertes: sales/quotes.md
     - Prijsafspraken: sales/price-agreements.md
     - Orderboek: sales/order-book.md
+    - Statistieken: sales/statistics.md
     - Facturen: sales/invoices.md
     - Vorderingsstaten: sales/progress-reports.md
     - Aanmaningen: sales/reminders.md
@@ -297,6 +301,7 @@ nav:
   # Volgorde van het app-menu (NimbleNav.cs): Bestellingen, Binnengekomen documenten, Aankoopfacturen.
   - Inkoop:
     - Bestellingen: purchasing/purchase-orders.md
+    - Te bestellen: purchasing/to-order.md
     - Binnengekomen documenten: purchasing/peppol-inbox.md
     - Aankoopfacturen: purchasing/purchase-invoices.md
   - Werk:
@@ -307,6 +312,7 @@ nav:
     - Openstaande punten: work/open-points.md
     - Planning: work/planning.md
     - Medewerkers: work/staff.md
+    - Urenstaat: work/timesheet.md
     - Ploegen: work/teams.md
   # De mobiele app (24/10/2026): Aan de slag, Vandaag, De werkbon, Laten tekenen, Het project, Taken en Mijn uren, Zonder bereik. Beelden met de hand uit de simulator
   # (winkelbeelden 21/10) — de automatische beeldronde bedient de app niet.

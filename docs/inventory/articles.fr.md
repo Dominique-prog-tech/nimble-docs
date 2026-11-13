@@ -76,6 +76,16 @@ l'enregistrement, vous restez sur la fiche.
 À droite de la fiche figurent les onglets **Stock**, **Tâches**, **Notes**, **Pièces jointes** et
 **Historique** — les mêmes que dans le journal à côté de la liste.
 
+## La photo d'un article
+
+Sur la fiche d'un article enregistré figure le bloc **Photo**. Choisissez-y une image parmi les pièces jointes de l'article ; Nimble
+enregistre le choix tout de suite. Avec **Pas de photo**, vous la retirez.
+
+- Une nouvelle image s'ajoute via l'onglet **Pièces jointes** de l'article. Vous la choisissez ensuite ici.
+- La photo figure sur un devis qui a coché **Photos des articles sur le devis**, à chaque ligne avec cet article. Voir
+  [Imprimer le devis](../sales/quotes.md#imprimer-le-devis).
+- Une image de plus de 2 Mo ne figure pas sur le devis : un PDF avec de grandes photos s'envoie mal.
+
 ## Le type d'un article
 
 Chaque article a un **Type**. Il détermine où vous pouvez utiliser l'article.

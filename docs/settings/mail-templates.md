@@ -17,11 +17,12 @@ U hebt er het recht *Documentsjablonen beheren* voor nodig.
 
 Bovenaan kiest u het **Sjabloon**:
 
-![De keuzelijst Sjabloon opengeklapt op het scherm Mailsjablonen: Offerte, Offerte ondertekenen (OKSign) en de vier sjablonen van de aanmaningen; Getekende werkbon en Taak toegewezen staan eronder, na het schuiven.](../images/mailsjabloon-keuze.png)
+![De keuzelijst Sjabloon opengeklapt op het scherm Mailsjablonen: Offerte, Herinnering bij een offerte, Offerte ondertekenen (OKSign) en de vier sjablonen van de aanmaningen; Getekende werkbon en Taak toegewezen staan eronder, na het schuiven.](../images/mailsjabloon-keuze.png)
 
 | Sjabloon | Waar het vertrekt |
 |---|---|
 | **Offerte** | Bij **Mailen** op een offerte |
+| **Herinnering bij een offerte** | Bij **Meer…** → **Herinnering sturen** op een verstuurde offerte — zie [De offerte opvolgen](../sales/quotes.md#een-opvolgtaak-en-een-herinnering). Zelfde variabelen als de offerte |
 | **Offerte ondertekenen (OKSign)** | Bij **Laten ondertekenen** op een offerte: de mail met de persoonlijke link om te tekenen — zie [De offerte laten ondertekenen](../sales/quotes.md#de-offerte-laten-ondertekenen) |
 | **Aanmaning — eerste herinnering** | Bij **Versturen…** op het scherm Aanmaningen, voor de eerste stap |
 | **Aanmaning — tweede herinnering** | Idem, voor de tweede stap |

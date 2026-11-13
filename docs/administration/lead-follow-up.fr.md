@@ -1,14 +1,14 @@
-# Suivi des leads
+# Suivi des leads et des devis
 
-Chaque matin, Nimble vérifie quels leads restent en plan et en crée une tâche. Cet écran détermine quand
-cela se produit.
+Chaque matin, Nimble vérifie quels leads restent en plan et quels devis envoyés n'ont pas encore de réponse, et en
+crée une tâche. Cet écran détermine quand cela se produit.
 
 ## Ouvrir l'écran
 
 1. Cliquez sur **Administration** en bas de la barre latérale.
-2. Dans le groupe **Leads**, cliquez sur la tuile **Suivi des leads**.
+2. Dans le groupe **Leads**, cliquez sur la tuile **Suivi des leads et des devis**.
 
-![L'écran de réglages Suivi des leads avec la case Suivi automatique activé, le champ Silencieux après (jours) et les boutons Enregistrer et Lancer le suivi maintenant.](../images/leadopvolging-scherm-fr.png)
+![L'écran de réglages Suivi des leads et des devis avec la case Suivi automatique activé, le champ Silencieux après (jours), le bloc Devis envoyés avec Suivre les devis sans réponse et Suivre après (jours), et les boutons Enregistrer et Lancer le suivi maintenant.](../images/leadopvolging-scherm-fr.png)
 
 ## Les trois règles
 
@@ -48,7 +48,7 @@ conservées — désactiver ne peut pas faire disparaître du travail déjà att
 Le bouton **Lancer le suivi maintenant** se trouve à côté d'**Enregistrer**. Vous lancez ainsi un cycle immédiatement au lieu d'attendre le lendemain matin. Pratique juste après avoir
 modifié le délai : vous voyez directement combien de tâches cela donne.
 
-Le message affiche trois chiffres, par exemple *12 leads examinés, 2 nouvelles tâches, 3 existaient déjà.*
+Le message indique ce que la ronde a fait, par exemple *12 leads examinés, 2 nouvelles tâches, 3 existaient déjà. Devis : 1 nouvelles tâches.*
 
 !!! info "Enregistrez d'abord"
     Le bouton s'exécute avec ce qui se trouve dans la base de données, pas avec ce qui est à l'écran. Si
@@ -59,6 +59,21 @@ Le message affiche trois chiffres, par exemple *12 leads examinés, 2 nouvelles 
     Si une tâche est déjà ouverte pour un lead, il n'y en a pas de deuxième — même si vous lancez le cycle
     dix fois. Si vous la clôturez et que le lead reste ensuite de nouveau en plan, une nouvelle tâche suit
     bien.
+
+## Devis envoyés
+
+Un devis envoyé par e-mail qui reste sur **Envoyé** sans réponse reçoit une tâche **Suivre le devis** pour la personne qui l'a envoyé.
+Nimble n'envoie rien au client ; vous envoyez le rappel depuis le devis avec **Plus…** → **Envoyer un rappel** (voir
+[Devis](../sales/quotes.md#une-tache-de-suivi-et-un-rappel)).
+
+- **Suivre les devis sans réponse** active ou désactive ce suivi. Les tâches existantes sont conservées.
+- **Suivre après (jours)** : **7** par défaut, compté à partir du jour où le devis a été envoyé. Si vous le renvoyez, le compte
+  recommence et une nouvelle tâche peut suivre.
+- Un devis qui dépasse ce délai de plus de 30 jours ne reçoit plus de tâche : ce n'est plus un suivi mais un devis oublié. Vérifiez-le
+  dans la [liste des devis](../sales/quotes.md).
+- Chaque envoi donne une seule tâche, même si vous la terminez sans que le client réponde.
+
+Cliquez sur **Enregistrer** après une modification.
 
 ## Où arrivent les tâches
 
@@ -78,3 +93,4 @@ Le message affiche trois chiffres, par exemple *12 leads examinés, 2 nouvelles 
 
 - [Leads](../crm/leads.md)
 - [Tâches](../crm/tasks.md)
+- [Devis](../sales/quotes.md)

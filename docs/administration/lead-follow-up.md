@@ -1,14 +1,14 @@
-# Leadopvolging
+# Opvolging van leads en offertes
 
-Elke ochtend kijkt Nimble na welke leads blijven liggen en maakt daar een taak van. Op dit scherm bepaalt u
-wanneer dat gebeurt.
+Elke ochtend kijkt Nimble na welke leads blijven liggen en welke verstuurde offertes nog geen antwoord hebben, en
+maakt daar een taak van. Op dit scherm bepaalt u wanneer dat gebeurt.
 
 ## Het scherm openen
 
 1. Klik onderaan in de zijbalk op **Platformbeheer**.
-2. Klik in de groep **Leads** op de tegel **Leadopvolging**.
+2. Klik in de groep **Leads** op de tegel **Opvolging van leads en offertes**.
 
-![Het instellingenscherm Leadopvolging met het vinkje Automatische opvolging aan, het veld Stil na (dagen) en de knoppen Bewaren en Opvolging nu draaien.](../images/leadopvolging-scherm.png)
+![Het instellingenscherm Opvolging van leads en offertes met het vinkje Automatische opvolging aan, het veld Stil na (dagen), het blok Verstuurde offertes met Offertes zonder antwoord opvolgen en Opvolgen na (dagen), en de knoppen Bewaren en Opvolging nu draaien.](../images/leadopvolging-scherm.png)
 
 ## De drie regels
 
@@ -48,7 +48,7 @@ gewoon staan — uitzetten mag geen werk laten verdwijnen dat al aan iemand toeg
 De knop **Opvolging nu draaien** staat naast **Bewaren**. Hiermee draait u meteen een ronde in plaats van tot morgenochtend te wachten. Handig net nadat u de termijn
 gewijzigd hebt: u ziet direct hoeveel taken dat oplevert.
 
-De melding toont drie getallen, bijvoorbeeld *12 leads bekeken, 2 nieuwe taken, 3 bestonden al.*
+De melding toont wat de ronde deed, bijvoorbeeld *12 leads bekeken, 2 nieuwe taken, 3 bestonden al. Offertes: 1 nieuwe taken.*
 
 !!! info "Bewaar eerst"
     De knop draait met wat er in de databank staat, niet met wat er op het scherm staat. Wijzigt u de
@@ -58,6 +58,21 @@ De melding toont drie getallen, bijvoorbeeld *12 leads bekeken, 2 nieuwe taken, 
 !!! info "U krijgt nooit twee keer dezelfde herinnering"
     Staat een taak al open voor een lead, dan komt er geen tweede bij — ook niet als u de ronde tien keer
     draait. Werkt u de taak af en blijft de lead daarna opnieuw liggen, dan volgt er wél een nieuwe.
+
+## Verstuurde offertes
+
+Een gemailde offerte die op **Verstuurd** blijft staan zonder antwoord, krijgt één taak **Offerte opvolgen** voor wie de offerte
+mailde. Nimble stuurt de klant zelf niets; de herinnering verstuurt u vanuit de offerte met **Meer…** → **Herinnering sturen** (zie
+[Offertes](../sales/quotes.md#een-opvolgtaak-en-een-herinnering)).
+
+- **Offertes zonder antwoord opvolgen** zet dit aan of uit. Taken die er al staan, blijven staan.
+- **Opvolgen na (dagen)**: standaard **7**, geteld vanaf de dag dat de offerte gemaild werd. Mailt u ze opnieuw, dan begint de
+  telling opnieuw en kan er een nieuwe taak komen.
+- Een offerte die al meer dan 30 dagen over die termijn is, krijgt geen taak meer: dat is geen opvolging meer maar een vergeten
+  offerte. Kijk die na in de [offertelijst](../sales/quotes.md).
+- Per verzending komt er één taak, ook als u ze afwerkt zonder dat de klant antwoordt.
+
+Klik op **Bewaren** na een wijziging.
 
 ## Waar de taken terechtkomen
 
@@ -78,3 +93,4 @@ De melding toont drie getallen, bijvoorbeeld *12 leads bekeken, 2 nieuwe taken, 
 
 - [Leads](../crm/leads.md)
 - [Taken](../crm/tasks.md)
+- [Offertes](../sales/quotes.md)

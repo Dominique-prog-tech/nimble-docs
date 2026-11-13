@@ -75,6 +75,16 @@ na het bewaren op de fiche.
 Rechts op de fiche staan de tabbladen **Stock**, **Taken**, **Notities**, **Bijlagen** en **Logboek** —
 dezelfde als in het journaal naast de lijst.
 
+## De foto van een artikel
+
+Op de fiche van een bewaard artikel staat het blok **Foto**. Kies daar een beeld uit de bijlagen van het artikel; Nimble bewaart
+de keuze meteen. Met **Geen foto** haalt u ze weg.
+
+- Een nieuw beeld laadt u op via het tabblad **Bijlagen** van het artikel. Daarna kiest u het hier.
+- De foto komt op een offerte die **Foto's van de artikelen op de offerte** aangevinkt heeft, bij elke regel met dit artikel. Zie
+  [De offerte afdrukken](../sales/quotes.md#de-offerte-afdrukken).
+- Een beeld groter dan 2 MB komt niet op de offerte: een pdf met grote foto's mailt slecht.
+
 ## De soort van een artikel
 
 Elk artikel heeft een **Soort**. Ze bepaalt waar u het artikel kunt gebruiken.

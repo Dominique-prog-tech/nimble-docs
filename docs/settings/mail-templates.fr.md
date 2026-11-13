@@ -17,11 +17,12 @@ Le droit *Gérer les modèles de documents* est nécessaire.
 
 En haut, vous choisissez le **Modèle** :
 
-![La liste Modèle dépliée sur l'écran Modèles de mail : Devis, Devis à signer (OKSign) et les quatre modèles de rappel ; Bon de travail signé et Tâche attribuée se trouvent en dessous, après défilement.](../images/mailsjabloon-keuze-fr.png)
+![La liste Modèle dépliée sur l'écran Modèles de mail : Devis, Rappel d'un devis, Devis à signer (OKSign) et les quatre modèles de rappel ; Bon de travail signé et Tâche attribuée se trouvent en dessous, après défilement.](../images/mailsjabloon-keuze-fr.png)
 
 | Modèle | Quand il part |
 |---|---|
 | **Devis** | Avec **Envoyer par e-mail** sur un devis |
+| **Rappel d'un devis** | Avec **Plus…** → **Envoyer un rappel** sur un devis envoyé — voir [Le suivi du devis](../sales/quotes.md#une-tache-de-suivi-et-un-rappel). Mêmes variables que le devis |
 | **Devis à signer (OKSign)** | Avec **Faire signer** sur un devis : l'e-mail avec le lien personnel pour signer — voir [Faire signer le devis](../sales/quotes.md#faire-signer-le-devis) |
 | **Rappel — premier rappel** | Avec **Envoyer…** sur l'écran Rappels, pour la première étape |
 | **Rappel — deuxième rappel** | Idem, pour la deuxième étape |

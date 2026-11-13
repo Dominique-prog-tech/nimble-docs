@@ -20,7 +20,7 @@ Cliquez sur **Administration** en bas de la barre latérale.
 | **Projets** | [Statuts de production](production-statuses.md), [Statuts pipeline](pipeline-statuses.md), [Types de projet](project-types.md), [Préparation du chantier](site-preparation.md), [Dossiers standard](default-folders.md) |
 | **Relations** | [Catégories client](account-categories.md), [Fonctions de contact](contact-functions.md), [Formules d'appel](contact-salutations.md) |
 | **Ventes** | [Statut de devis](quote-status.md), [Statut de facture](invoice-status.md), [Codes TVA](vat-codes.md), [Modèles de documents](../settings/document-templates.md), [Modèles de mail](../settings/mail-templates.md), [Expéditeurs de mail](../settings/mail-senders.md) |
-| **Leads** | [Sources de leads](lead-sources.md), [Types de demande](lead-request-types.md), [Phases de lead](lead-status.md), [Suivi des leads](lead-follow-up.md) |
+| **Leads** | [Sources de leads](lead-sources.md), [Types de demande](lead-request-types.md), [Phases de lead](lead-status.md), [Suivi des leads et des devis](lead-follow-up.md) |
 | **Données et accès** | [Rôles](roles.md), [Accès à l'app](app-access.md), [Corbeille](recycle-bin.md), [Journal d'audit](audit-log.md) |
 | **Gestion ADM** | [Tenants](tenants.md), [Utilisateurs](users.md), [Conversion](conversion.md) — réservé aux opérateurs ADM ; vous ne voyez pas ce groupe |
 
