@@ -23,6 +23,7 @@ La fiche a deux onglets : **Données de l'entreprise** avec les cartes ci-dessou
 | **Identité** | Nom (obligatoire), TVA / n° d'entreprise avec le bouton **Récupérer**, Numéro FSMA |
 | **Contact** | Téléphone, Fax, E-mail, Site web, **Leads du site web vers**, **Réponses en ligne aux devis vers**, **E-mail lors de l'attribution d'une tâche** |
 | **Paramètres financiers** | Délai de paiement par défaut (jours), Premier rappel après (jours), Ensuite tous les (jours), Marge verte à partir de (%), Marge orange à partir de (%), Article horaire standard (régie), Enregistrer le temps de déplacement, Article pour le déplacement (régie) |
+| **Numérotation des factures** | Prochain numéro de facture, Prochain numéro de note de crédit |
 | **Planning** | Le samedi est un jour ouvrable, Le dimanche est un jour ouvrable |
 | **Adresse** | Rue, N°, Boîte, Code postal, Commune, Pays |
 | **Banque** | IBAN, BIC, Compte — et un second compte : IBAN (2), BIC (2), Compte (2) |
@@ -140,6 +141,26 @@ suivant existe déjà, Nimble le saute. Les projets qui ont déjà un numéro le
 Si vous utilisez le numéro de la pièce dont naît le projet, comme un devis ou un bon de commande, laissez le
 préfixe vide.
 
+## Numérotation des factures
+
+Vous voyez ici quel numéro reçoivent la prochaine facture et la prochaine note de crédit de cette année, et vous
+pouvez augmenter ce numéro.
+
+| Champ | Ce qu'il fait |
+|---|---|
+| **Prochain numéro de facture** | Le numéro d'ordre de la prochaine facture. En dessous, vous voyez à quoi ressemble le numéro, par exemple **F-2026-0166** |
+| **Prochain numéro de note de crédit** | La même chose pour les notes de crédit, qui ont leur propre série : **CN-2026-0013** |
+
+Une facture ne reçoit son numéro qu'au moment de **Finaliser**. Ainsi, aucun trou n'apparaît dans la série
+lorsque vous supprimez un brouillon.
+
+Si vous reprenez votre facturation d'un autre logiciel, indiquez le numéro qui suit la dernière facture de cette
+année dans ce logiciel. Si c'était 20260165, vous indiquez 166, et votre première facture dans Nimble devient
+F-2026-0166. La série continue ainsi sans trou. Faites de même pour les notes de crédit.
+
+Vous pouvez seulement augmenter un numéro. Un numéro plus bas peut déjà figurer sur une facture ; le champ revient
+alors au numéro actuel. Cliquez sur **Enregistrer** pour enregistrer le nouveau numéro.
+
 ## Planning
 
 Votre entreprise travaille aussi le samedi ou le dimanche ? Cochez alors **Le samedi est un jour ouvrable** ou
@@ -199,6 +220,7 @@ l'enregistrement.
     - **Lire un champ de rappel vide comme « pas de rappels »** — vide signifie quatorze jours.
     - **Ne remplir que le seuil orange** — sans seuil vert, rien ne se colore, et l'écran refuse d'enregistrer.
     - **Logo trop grand** — 4 Mo maximum ; réduisez d'abord l'image.
+    - **Indiquer un prochain numéro de facture trop élevé.** Il n'est plus possible de le diminuer : les numéros intermédiaires restent alors inutilisés, et c'est un trou dans votre série de factures. Vérifiez le numéro avant d'enregistrer.
 
 ## Voir aussi
 

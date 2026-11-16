@@ -23,6 +23,7 @@ De fiche heeft twee tabbladen: **Bedrijfsgegevens** met de kaarten hieronder, en
 | **Identiteit** | Naam (verplicht), BTW / ondernemingsnr. met de knop **Ophalen**, FSMA-nummer |
 | **Contact** | Telefoon, Fax, E-mail, Website, **Website-leads naar**, **Online offerte-antwoorden naar**, **Mail bij het toewijzen van een taak** |
 | **Financiële instellingen** | Standaard betalingstermijn (dagen), Eerste aanmaning na (dagen), Daarna elke (dagen), Marge groen vanaf (%), Marge oranje vanaf (%), Standaard-uurartikel (regie), Reistijd registreren, Artikel voor reistijd (regie) |
+| **Factuurnummering** | Volgend factuurnummer, Volgend creditnotanummer |
 | **Planning** | Zaterdag is een werkdag, Zondag is een werkdag |
 | **Adres** | Straat, Nr., Bus, Postcode, Gemeente, Land |
 | **Bank** | IBAN, BIC, Rekening — en een tweede rekening: IBAN (2), BIC (2), Rekening (2) |
@@ -135,6 +136,26 @@ het volgende nummer al, dan slaat Nimble het over. Projecten die al een nummer h
 Werkt u met het nummer van het stuk waaruit het project ontstaat, zoals een offerte of een bestelbon, laat
 het voorvoegsel dan leeg.
 
+## Factuurnummering
+
+Hier ziet u welk nummer de volgende factuur en de volgende creditnota van dit jaar krijgen, en kunt u dat
+nummer verhogen.
+
+| Veld | Wat het doet |
+|---|---|
+| **Volgend factuurnummer** | Het volgnummer van de volgende factuur. Eronder ziet u hoe het nummer eruitziet, bijvoorbeeld **F-2026-0166** |
+| **Volgend creditnotanummer** | Hetzelfde voor de creditnota's, die een eigen reeks hebben: **CN-2026-0013** |
+
+Een factuur krijgt haar nummer pas bij **Definitief maken**. Zo valt er geen gat in de reeks wanneer u een
+klad weggooit.
+
+Neemt u uw facturatie over uit een ander pakket, vul dan het nummer in dat volgt op de laatste factuur van dit
+jaar in dat pakket. Was dat 20260165, dan vult u 166 in, en uw eerste factuur in Nimble wordt F-2026-0166. Zo
+loopt de reeks zonder gat door. Doe hetzelfde voor de creditnota's.
+
+U kunt een nummer enkel verhogen. Een lager nummer kan al op een factuur staan; het veld springt dan terug naar
+het huidige nummer. Klik op **Bewaren** om het nieuwe nummer vast te leggen.
+
 ## Planning
 
 Werkt uw bedrijf ook op zaterdag of zondag, vink dan **Zaterdag is een werkdag** of **Zondag is een werkdag**
@@ -192,6 +213,7 @@ artikel. Het logboek leest opnieuw telkens u het tabblad opent, dus ook meteen n
     - **Een leeg aanmaningsveld lezen als "geen aanmaningen"** — leeg betekent veertien dagen.
     - **Enkel een oranjegrens invullen** — zonder groengrens kleurt er niets, en het scherm weigert te bewaren.
     - **Logo te groot** — maximaal 4 MB; verklein de afbeelding eerst.
+    - **Het volgende factuurnummer te hoog invullen.** Verlagen kan niet meer: de nummers ertussen blijven dan onbenut, en dat is een gat in uw factuurreeks. Kijk het nummer na vóór u bewaart.
 
 ## Zie ook
 
