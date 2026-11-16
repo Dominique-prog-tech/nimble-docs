@@ -227,8 +227,9 @@ Nimble refuse, en indiquant pourquoi, lorsque :
 
 ## Envoyer une facture
 
-Nimble n'envoie pas lui-même une facture, ni par e-mail ni par Peppol. Vous la transmettez via l'aperçu avant
-impression ou la facture électronique, puis vous notez qu'elle est partie.
+Nimble n'envoie pas lui-même une facture par e-mail. L'envoi direct est possible via Peppol, vers une entreprise
+belge (voir [Envoyer via Peppol](#envoyer-via-peppol)) ; Nimble note alors lui-même qu'elle est partie. Sinon, vous
+transmettez la facture via l'aperçu avant impression ou la facture électronique, puis vous notez qu'elle est partie.
 
 ### Marquer comme envoyée
 

@@ -154,9 +154,9 @@ pouvez augmenter ce numéro.
 Une facture ne reçoit son numéro qu'au moment de **Finaliser**. Ainsi, aucun trou n'apparaît dans la série
 lorsque vous supprimez un brouillon.
 
-Si vous reprenez votre facturation d'un autre logiciel, indiquez le numéro qui suit la dernière facture de cette
-année dans ce logiciel. Si c'était 20260165, vous indiquez 166, et votre première facture dans Nimble devient
-F-2026-0166. La série continue ainsi sans trou. Faites de même pour les notes de crédit.
+Si votre série de factures de cette année est déjà en cours, indiquez le numéro d'ordre qui suit votre dernière
+facture. Si c'était 20260165, vous indiquez 166, et votre première facture dans Nimble devient F-2026-0166. La
+série continue ainsi sans trou. Faites de même pour les notes de crédit.
 
 Vous pouvez seulement augmenter un numéro. Un numéro plus bas peut déjà figurer sur une facture ; le champ revient
 alors au numéro actuel. Cliquez sur **Enregistrer** pour enregistrer le nouveau numéro.

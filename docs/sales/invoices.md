@@ -222,8 +222,9 @@ Nimble weigert en zegt waarom, wanneer:
 
 ## Een factuur versturen
 
-Nimble mailt of verstuurt een factuur niet zelf. U bezorgt ze via het afdrukvoorbeeld of de e-factuur, en
-schrijft daarna op dát ze vertrokken is.
+Nimble mailt een factuur niet zelf. Rechtstreeks versturen kan wel via Peppol, naar een Belgische onderneming
+(zie [Versturen via Peppol](#versturen-via-peppol)); dan houdt Nimble zelf bij dat ze vertrokken is. Anders bezorgt u
+de factuur via het afdrukvoorbeeld of de e-factuur, en schrijft u daarna op dát ze vertrokken is.
 
 ### Markeren als verstuurd
 

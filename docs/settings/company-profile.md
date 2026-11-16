@@ -149,9 +149,9 @@ nummer verhogen.
 Een factuur krijgt haar nummer pas bij **Definitief maken**. Zo valt er geen gat in de reeks wanneer u een
 klad weggooit.
 
-Neemt u uw facturatie over uit een ander pakket, vul dan het nummer in dat volgt op de laatste factuur van dit
-jaar in dat pakket. Was dat 20260165, dan vult u 166 in, en uw eerste factuur in Nimble wordt F-2026-0166. Zo
-loopt de reeks zonder gat door. Doe hetzelfde voor de creditnota's.
+Loopt uw factuurreeks van dit jaar al, vul dan het volgnummer in dat volgt op uw laatste factuur. Was dat
+20260165, dan vult u 166 in, en uw eerste factuur in Nimble wordt F-2026-0166. Zo loopt de reeks zonder gat door.
+Doe hetzelfde voor de creditnota's.
 
 U kunt een nummer enkel verhogen. Een lager nummer kan al op een factuur staan; het veld springt dan terug naar
 het huidige nummer. Klik op **Bewaren** om het nieuwe nummer vast te leggen.
