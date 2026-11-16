@@ -10,7 +10,7 @@ Klik in de zijbalk op **Verkoop → Facturen**.
 
 ## De lijst
 
-![De lijst Verkoopfacturen met de kolommen Nummer, Soort, Klant, Datum, Mededeling, Vervaldatum, Openstaand en Status; er staan een creditnota met een negatief bedrag, een klad zonder nummer, twee vervallen facturen en een betaalde factuur.](../images/facturen-lijst.png)
+![De lijst Verkoopfacturen met de kolommen Nummer, Soort, Klant, Datum, Mededeling, Vervaldatum, Openstaand en Status; er staan een creditnota met een negatief bedrag, een klad zonder nummer, twee vervallen facturen met de knop Betaald en een betaalde factuur.](../images/facturen-lijst.png)
 
 | Kolom | Wat u ziet |
 |---|---|
@@ -41,6 +41,9 @@ Boven de lijst staan:
 - **Nieuwe factuur** — opent een lege fiche.
 - Een keuzelijst naast de titel: **Facturen en creditnota's**, **Enkel facturen** of **Enkel creditnota's**.
 - **Exporteren**, de filterknoppen en het zoekveld.
+
+Bij een uitgereikte factuur met een openstaand bedrag staat rechts de knop **Betaald**: zie
+[Met één klik vanuit de lijst](#met-een-klik-vanuit-de-lijst).
 
 **Dubbelklik** een rij om de factuur te openen. Rechts van de lijst staat de smalle balk **Journaal**: klap
 ze open voor de taken, notities, bijlagen, mails en het logboek van de factuur die u in de lijst aangeklikt hebt.
@@ -315,6 +318,19 @@ Betalingen die via de bank binnenkomen, boekt u het makkelijkst op het scherm
 !!! tip "Verkeerd geboekt?"
     Verwijder de betaling in het blok Betalingen; de status past zich aan het openstaande bedrag aan. Staat
     een factuur toch ten onrechte op Betaald, dan zet **Terug naar openstaand** ze terug op Uitgereikt.
+
+### Met één klik vanuit de lijst
+
+Weet u dat een factuur volledig betaald is, dan hoeft u ze niet te openen. Klik in de lijst op **Betaald**
+naast de factuur. Nimble registreert één betaling voor het volledige openstaande bedrag, met de datum van
+vandaag, de betaalwijze **Overschrijving** en de notitie *Als betaald gemarkeerd in de facturenlijst*. De
+factuur gaat naar **Betaald** en de knop verdwijnt.
+
+De knop staat enkel bij een uitgereikte factuur met een openstaand bedrag: niet bij een klad, niet bij een
+creditnota, en niet bij een factuur die al voldaan is.
+
+Kent u de dag waarop het geld binnenkwam, of was het een deelbetaling, gebruik dan **Betaling registreren** op
+de fiche. Verkeerd gemarkeerd? Verwijder de betaling in het blok Betalingen op de fiche.
 
 ## Creditnota's
 

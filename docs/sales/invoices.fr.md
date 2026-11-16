@@ -10,7 +10,7 @@ Dans la barre latérale, cliquez sur **Ventes → Factures**.
 
 ## La liste
 
-![La liste Factures de vente avec les colonnes Numéro, Type, Client, Date, Communication, Date d'échéance, Solde ouvert et Statut ; on y voit une note de crédit avec un montant négatif, un brouillon sans numéro, deux factures échues et une facture payée.](../images/facturen-lijst-fr.png)
+![La liste Factures de vente avec les colonnes Numéro, Type, Client, Date, Communication, Date d'échéance, Solde ouvert et Statut ; on y voit une note de crédit avec un montant négatif, un brouillon sans numéro, deux factures échues avec le bouton Payée et une facture payée.](../images/facturen-lijst-fr.png)
 
 | Colonne | Ce que vous voyez |
 |---|---|
@@ -41,6 +41,9 @@ Au-dessus de la liste figurent :
 - **Nouvelle facture** — ouvre une fiche vide.
 - Une liste de choix à côté du titre : **Factures et notes de crédit**, **Factures uniquement** ou **Notes de crédit uniquement**.
 - **Exporter**, les boutons de filtre et le champ de recherche.
+
+Pour une facture émise avec un solde ouvert, le bouton **Payée** figure à droite : voir
+[En un clic depuis la liste](#en-un-clic-depuis-la-liste).
 
 **Double-cliquez** une ligne pour ouvrir la facture. À droite de la liste se trouve la barre étroite
 **Journal** : dépliez-la pour voir les tâches, notes, pièces jointes, e-mails et l'historique de la facture
@@ -321,6 +324,19 @@ Les paiements arrivés par la banque s'enregistrent le plus facilement sur l'éc
 !!! tip "Paiement erroné ?"
     Supprimez le paiement dans le bloc Paiements ; le statut s'adapte au solde ouvert. Si une facture est
     malgré tout à tort sur Payée, **Remettre en ouverte** la remet sur Émise.
+
+### En un clic depuis la liste
+
+Si vous savez qu'une facture est entièrement payée, vous n'avez pas besoin de l'ouvrir. Cliquez dans la liste sur
+**Payée** à côté de la facture. Nimble enregistre un seul paiement pour tout le solde ouvert, à la date du jour,
+avec le mode de paiement **Virement** et la note *Marquée comme payée dans la liste des factures*. La facture passe
+sur **Payée** et le bouton disparaît.
+
+Le bouton ne figure que pour une facture émise avec un solde ouvert : pas pour un brouillon, pas pour une note de
+crédit, et pas pour une facture déjà soldée.
+
+Si vous connaissez le jour où l'argent est arrivé, ou s'il s'agit d'un paiement partiel, utilisez **Enregistrer
+un paiement** sur la fiche. Marquée par erreur ? Supprimez le paiement dans le bloc Paiements sur la fiche.
 
 ## Notes de crédit
 
