@@ -209,6 +209,38 @@ betaald is. Staat er een naam, vul die leverancier dan aan met **Leveranciers aa
 opnieuw **Nakijken**. Staat er **Verwijderd of onbekend**, dan is die leverancier in het vorige pakket verwijderd en
 komt hij niet over: maak hem aan in Nimble of breng de factuur met de hand in.
 
+## Vorderingsstaten aanvullen
+
+Brengt de staten uit het vorige pakket bij. De staten die sinds de laatste volledige conversie gemaakt zijn, komen
+erbij; een staat die er al stond, volgt wat het vorige pakket nu zegt (status, bedrag en lijnen); een staat die daar
+verwijderd is, gaat ook uit Nimble. Ze blijven alleen-lezen, met de status **Oude toepassing**. Een staat die in
+Nimble gemaakt is, blijft zoals hij is.
+
+1. Klik **Nakijken**. Nimble telt wat er zou gebeuren en schrijft nog niets.
+2. Is er iets te doen, dan gaat **Aanvullen** aan. Klik erop.
+3. Klik daarna opnieuw **Nakijken**: er hoort niets meer te doen te zijn.
+
+| Kolom | Betekenis |
+|---|---|
+| **In de bron** | Hoeveel staten het vorige pakket bevat |
+| **Ongewijzigd** | Staten die al in Nimble staan zoals het vorige pakket ze nu draagt |
+| **Nieuw** / **Toegevoegd** | Staten die erbij komen, of na **Aanvullen**: bijgekomen zijn |
+| **Bij te werken** / **Bijgewerkt** | Staten waarvan de status, het bedrag of de lijnen veranderden |
+| **Project niet in Nimble** | Staten van een project dat niet in Nimble staat: ze komen niet over |
+| **Te wissen** / **Gewist** | Staten die in het vorige pakket verwijderd zijn |
+
+Onder de telling staan drie lijsten:
+
+- **Projecten in Nimble met staten uit de oude toepassing**: per project de laatste staat, wat er al gefactureerd is
+  en hoeveel daarvan Nimble herkent in de aanvaarde offerte. Dat laatste bepaalt hoeveel **Overnemen uit de vorige
+  toepassing** straks invult op de eerste staat in Nimble (zie [Vorderingsstaten](../sales/progress-reports.md)).
+- **Staten van projecten die niet in Nimble staan**: met het projectnummer uit het vorige pakket en de referentie van
+  de laatste staat. Moet zo'n project in Nimble verder, dan maakt u eerst het project en zijn offerte aan.
+- **Verwijderd in de oude toepassing**: de staten die **Aanvullen** uit Nimble wist, met hun bedrag en status.
+
+Leest Nimble geen enkele staat in het vorige pakket, dan wist het niets. Zou het meer dan de helft van de staten in
+Nimble moeten wissen, dan weigert het, met de reden erbij: dat wijst eerder op een leesfout dan op wat u deed.
+
 ## Betaalstatus overnemen
 
 Gebruik dit **één keer**, op het moment dat uw boekhouding van het vorige pakket naar Nimble overstapt. Het neemt uit

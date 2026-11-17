@@ -211,6 +211,40 @@ payée. Si un nom figure, complétez ce fournisseur avec **Compléter les fourni
 nouveau sur **Vérifier**. **Supprimé ou inconnu** signifie que ce fournisseur a été supprimé dans l'ancien logiciel et
 n'est pas transféré : créez-le dans Nimble ou saisissez la facture à la main.
 
+## Compléter les états d'avancement
+
+Met à jour les états de l'ancien logiciel. Les états créés depuis la dernière conversion complète sont ajoutés ; un
+état déjà présent suit ce que dit maintenant l'ancien logiciel (statut, montant et lignes) ; un état supprimé là-bas
+est aussi supprimé de Nimble. Ils restent en lecture seule, avec le statut **Ancienne application**. Un état créé dans
+Nimble reste tel quel.
+
+1. Cliquez sur **Vérifier**. Nimble compte ce qui se passerait et n'écrit encore rien.
+2. S'il y a quelque chose à faire, **Compléter** s'active. Cliquez dessus.
+3. Cliquez ensuite à nouveau sur **Vérifier** : il ne doit plus rien y avoir à faire.
+
+| Colonne | Signification |
+|---|---|
+| **Dans la source** | Combien d'états contient l'ancien logiciel |
+| **Inchangés** | États déjà présents dans Nimble tels que l'ancien logiciel les porte maintenant |
+| **Nouveaux** / **Ajoutés** | États qui s'ajoutent, ou après **Compléter** : qui ont été ajoutés |
+| **À mettre à jour** / **Mis à jour** | États dont le statut, le montant ou les lignes ont changé |
+| **Projet absent de Nimble** | États d'un projet absent de Nimble : ils ne sont pas transférés |
+| **À supprimer** / **Supprimés** | États supprimés dans l'ancien logiciel |
+
+Sous le décompte figurent trois listes :
+
+- **Projets dans Nimble avec des états de l'ancienne application** : par projet le dernier état, ce qui a déjà été
+  facturé et la part que Nimble reconnaît dans le devis accepté. C'est ce que **Reprendre de l'application
+  précédente** remplira ensuite sur le premier état dans Nimble (voir [États d'avancement](../sales/progress-reports.md)).
+- **États de projets absents de Nimble** : avec le numéro de projet de l'ancien logiciel et la référence du dernier
+  état. Si un tel projet doit continuer dans Nimble, créez d'abord le projet et son devis.
+- **Supprimés dans l'ancienne application** : les états que **Compléter** supprime de Nimble, avec leur montant et
+  leur statut.
+
+Si Nimble ne lit aucun état dans l'ancien logiciel, il ne supprime rien. S'il devait supprimer plus de la moitié des
+états présents dans Nimble, il refuse, avec la raison : cela indique plutôt une erreur de lecture qu'une action de
+votre part.
+
 ## Reprendre le statut de paiement
 
 Utilisez ceci **une seule fois**, au moment où votre comptabilité passe de l'ancien logiciel à Nimble. Il reprend de

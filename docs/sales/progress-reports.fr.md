@@ -57,6 +57,23 @@ Si des avancements ont déjà été facturés pour ce projet avant de commencer 
 **premier** état, sous **État précédent**, combien avait déjà été facturé par poste. Sur un état suivant, cette
 colonne est figée : elle provient de l'état précédent.
 
+Si le projet a des états de l'application précédente, le bouton **Reprendre de l'application précédente** figure
+au-dessus des postes. Il remplit **État précédent** pour vous :
+
+- Nimble additionne par poste ce que les états **facturés** de l'application précédente ont avancé. Un état qui y
+  attend encore une approbation n'est pas pris en compte : refaites cet avancement sur cet état, et facturez-le dans
+  Nimble.
+- Une ligne est placée sur un poste si la description et le prix sont identiques, ou sinon l'article et le prix, et
+  uniquement si exactement un poste correspond.
+- Ce qui ne correspond à aucun poste figure en dessous, avec la description, le prix, la quantité et le montant.
+  Souvent, il s'agit de travaux supplémentaires absents du devis. Placez-les vous-même, ou ignorez-les s'ils ont déjà
+  été réglés.
+- Si **Cumulé** était inférieur au nouvel état précédent, il est relevé. Indiquez ensuite ce qui s'est ajouté depuis
+  le dernier état.
+
+Le bouton n'enregistre rien. Comparez le résultat à votre dernier état de l'application précédente, puis cliquez sur
+**Enregistrer**.
+
 ## Le total
 
 Sous les postes figurent :
@@ -104,7 +121,8 @@ Si vous supprimez le brouillon de facture, l'état redevient **Approuvé** et pe
 ## États avec le statut Ancienne application
 
 Un état avec le statut **Ancienne application** est en lecture seule. Vous en voyez la date, la référence et le
-montant ; il ne comporte pas de postes et ne compte pas comme état précédent.
+montant ; il ne comporte pas de postes et ne compte pas comme état précédent. Ce que ces états ont déjà facturé est
+repris par **Reprendre de l'application précédente** sur le premier état dans Nimble (voir ci-dessus).
 
 ## Voir aussi
 

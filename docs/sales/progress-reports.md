@@ -53,6 +53,20 @@ Werd er voor dit project al gevorderd vóór u in Nimble begon, vul dan op de **
 staat** per post in hoeveel er al gefactureerd was. Op een volgende staat is die kolom vast: ze komt van de
 vorige staat.
 
+Heeft het project staten uit de vorige toepassing, dan staat boven de posten de knop **Overnemen uit de vorige
+toepassing**. Hij vult **Vorige staat** voor u in:
+
+- Nimble telt per post op wat de **gefactureerde** staten van de vorige toepassing vorderden. Een staat die daar nog
+  op goedkeuring wacht, telt niet mee: die vordering maakt u opnieuw op deze staat, en factureert u in Nimble.
+- Een lijn komt op een post als omschrijving en prijs gelijk zijn, of anders artikel en prijs, en enkel als er
+  precies één post past.
+- Wat niet op een post past, staat eronder met omschrijving, prijs, hoeveelheid en bedrag. Vaak is dat meerwerk dat
+  niet in de offerte stond. Plaats het zelf, of laat het weg als het al afgerekend is.
+- Was **Cumulatief** lager dan de nieuwe vorige staat, dan gaat het mee omhoog. Vul daarna in wat er sinds de laatste
+  staat bijkwam.
+
+De knop bewaart niets. Leg het resultaat naast uw laatste staat uit de vorige toepassing en klik dan op **Bewaren**.
+
 ## Het totaal
 
 Onder de posten staat:
@@ -101,7 +115,8 @@ Gooit u de kladfactuur weg, dan staat de staat weer op **Goedgekeurd** en kan ze
 ## Staten met de status Oude toepassing
 
 Een staat met de status **Oude toepassing** is alleen-lezen. U ziet er de datum, de referentie en het bedrag
-van; posten staan er niet bij, en ze telt niet mee als vorige staat.
+van; posten staan er niet bij, en ze telt niet mee als vorige staat. Wat zulke staten al gefactureerd hebben, neemt
+**Overnemen uit de vorige toepassing** over op de eerste staat in Nimble (zie hierboven).
 
 ## Zie ook
 
