@@ -272,6 +272,8 @@ dans la fiche société, Nimble vérifie à l'ouverture de la fenêtre si le cli
 - **Le client n'est pas sur Peppol**, ou ne peut pas y recevoir ce type de document : envoyez la facture par e-mail.
 - **Pas de numéro d'entreprise belge :** Nimble n'envoie via Peppol qu'à des entreprises belges.
 - **Non vérifié :** ADM One n'a pas répondu. Ce n'est pas la même chose que « pas sur Peppol » ; réessayez plus tard.
+- **Facture de l'application précédente :** il n'y a pas de bouton. Une telle facture y a déjà été envoyée, et Nimble ne
+  l'envoie pas une seconde fois. Vous pouvez toujours télécharger le fichier.
 
 Après l'envoi, la fiche indique sous **Envoyée** *Peppol* avec le statut de livraison : **Acceptée par le réseau**, puis en
 général dans la minute **Livrée**. Le statut est mis à jour chaque fois que vous ouvrez la facture. Le fichier envoyé figure dans

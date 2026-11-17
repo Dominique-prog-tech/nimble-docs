@@ -266,6 +266,8 @@ bedrijfsfiche, dan kijkt Nimble bij het openen van het venster of de klant op Pe
 - **De klant staat niet op Peppol**, of kan dit soort document er niet ontvangen: mail de factuur.
 - **Geen Belgisch ondernemingsnummer:** Nimble verstuurt via Peppol enkel naar Belgische ondernemingen.
 - **Niet gecontroleerd:** ADM One antwoordde niet. Dat is iets anders dan "niet op Peppol"; probeer het later opnieuw.
+- **Factuur uit de vorige toepassing:** er staat geen knop. Zo'n factuur werd daar al verstuurd, en Nimble verstuurt ze niet
+  een tweede keer. Het bestand downloaden kan wel.
 
 Na het versturen staat onder **Verstuurd** op de fiche *Peppol* met de afleverstatus: **Aanvaard door het netwerk**, daarna
 doorgaans binnen een minuut **Afgeleverd**. De status wordt bijgewerkt telkens u de factuur opent. Het verstuurde bestand staat
