@@ -223,7 +223,7 @@ Nimble gemaakt is, blijft zoals hij is.
 | Kolom | Betekenis |
 |---|---|
 | **In de bron** | Hoeveel staten het vorige pakket bevat |
-| **Ongewijzigd** | Staten die al in Nimble staan zoals het vorige pakket ze nu draagt |
+| **Ongewijzigd** | Staten van een project in Nimble die er al staan zoals het vorige pakket ze nu draagt |
 | **Nieuw** / **Toegevoegd** | Staten die erbij komen, of na **Aanvullen**: bijgekomen zijn |
 | **Bij te werken** / **Bijgewerkt** | Staten waarvan de status, het bedrag of de lijnen veranderden |
 | **Project niet in Nimble** | Staten van een project dat niet in Nimble staat: ze komen niet over |

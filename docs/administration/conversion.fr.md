@@ -225,7 +225,7 @@ Nimble reste tel quel.
 | Colonne | Signification |
 |---|---|
 | **Dans la source** | Combien d'états contient l'ancien logiciel |
-| **Inchangés** | États déjà présents dans Nimble tels que l'ancien logiciel les porte maintenant |
+| **Inchangés** | États d'un projet dans Nimble déjà présents tels que l'ancien logiciel les porte maintenant |
 | **Nouveaux** / **Ajoutés** | États qui s'ajoutent, ou après **Compléter** : qui ont été ajoutés |
 | **À mettre à jour** / **Mis à jour** | États dont le statut, le montant ou les lignes ont changé |
 | **Projet absent de Nimble** | États d'un projet absent de Nimble : ils ne sont pas transférés |
