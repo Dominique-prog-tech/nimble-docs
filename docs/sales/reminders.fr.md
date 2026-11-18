@@ -126,6 +126,13 @@ compte plus et n'apparaît plus dans le compteur. **Réintégrer dans les rappel
     malgré tout dans la liste, avec cette raison — pour que vous puissiez compléter l'échéance sur la facture
     elle-même.
 
+## Une garantie retenue
+
+Si le client a retenu une garantie, celle-ci ne compte pas jusqu'à sa date de libération. S'il reste autre chose
+d'ouvert à côté de la garantie, le rappel ne mentionne que cette partie. S'il ne reste que la garantie, la facture
+ne figure pas dans la liste. Après la date de libération, la garantie compte à nouveau normalement. Voir
+[Une garantie retenue](invoices.md#une-garantie-retenue).
+
 ## Voir aussi
 
 - [Factures](invoices.md) — enregistrer des paiements et compenser des notes de crédit

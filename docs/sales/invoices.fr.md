@@ -35,11 +35,15 @@ Dans la colonne **Statut**, l'étiquette **Échue** s'ajoute à une facture émi
 dépassée, et **Sans échéance** lorsqu'aucune date d'échéance n'est complétée. Une note de crédit ne reçoit
 aucune des deux étiquettes : elle n'est jamais échue, et son montant ne figure jamais en rouge.
 
+Si le client a retenu une garantie, l'étiquette **Garantie** apparaît. Survolez-la pour voir le montant et la date
+de libération. Après cette date, l'étiquette devient **Garantie libérée**. Voir [Une garantie retenue](#une-garantie-retenue).
+
 Au-dessus de la liste figurent :
 
 - **Facture à partir d'un devis** — crée une facture sur la base d'un devis accepté.
 - **Nouvelle facture** — ouvre une fiche vide.
-- Une liste de choix à côté du titre : **Factures et notes de crédit**, **Factures uniquement** ou **Notes de crédit uniquement**.
+- Une liste de choix à côté du titre : **Factures et notes de crédit**, **Factures uniquement**, **Notes de crédit uniquement**,
+  **Factures avec garantie** ou **Garantie possible (5 % ouvert)**.
 - **Exporter**, les boutons de filtre et le champ de recherche.
 
 Pour une facture émise avec un solde ouvert, le bouton **Payée** figure à droite : voir
@@ -115,7 +119,7 @@ Sous **E-mails** figurent les [rappels](reminders.md) envoyés pour cette factur
 
 | Champ | Ce que c'est |
 |---|---|
-| **Solde ouvert** | Ce que le client doit encore payer, en rouge avec **Échue** si l'échéance est dépassée — pas sur une note de crédit. Si tout est rentré, il indique **Soldée**. S'il y a des paiements, *Déjà payé* et le montant figurent en dessous |
+| **Solde ouvert** | Ce que le client doit encore payer, en rouge avec **Échue** si l'échéance est dépassée — pas sur une note de crédit. Si tout est rentré, il indique **Soldée**. S'il y a des paiements, *Déjà payé* et le montant figurent en dessous. Si le client a retenu une garantie, *Dont garantie retenue* figure en dessous, avec le montant et la date de libération |
 | **Communication structurée** | Le numéro avec lequel le client paie. Nimble l'attribue automatiquement à l'enregistrement ; il n'est pas modifiable |
 | **Envoyée** | Quand, par quelle voie et à qui la facture est partie. Si le champ n'apparaît pas, elle n'a pas encore été marquée comme envoyée |
 | **Notes de crédit** | Les notes de crédit rattachées à cette facture, avec leur montant. Cliquez un numéro pour l'ouvrir |
@@ -176,6 +180,7 @@ crédit.](../images/factuur-knoppen-meer-fr.png)
 | **Enregistrer un paiement** | Émise | Comptabilise une recette |
 | **Marquer comme envoyée** | Émise | Note que la facture est partie, et comment. Ensuite, le bouton s'appelle **Envoyée à nouveau** |
 | **Plus…** → **Créer une note de crédit** | Facture numérotée | Crée une note de crédit pour cette facture |
+| **Plus…** → **Garantie retenue…** | Émise | Définit, modifie ou supprime la garantie retenue par le client. Voir [Une garantie retenue](#une-garantie-retenue) |
 | **Remettre en ouverte** | Payée | Remet la facture sur Émise |
 | **Annuler** | Brouillon | Abandonne vos modifications. Sur une facture émise ou payée, le bouton n'y figure pas : il n'y a rien à enregistrer, et vous revenez avec **Vers la liste** en haut |
 | **Supprimer** | Brouillon sans numéro | Met le brouillon dans la corbeille, après confirmation. Vous pouvez l'y restaurer |
@@ -314,7 +319,7 @@ Virement, un champ Note vide, et les boutons Enregistrer et Annuler.](../images/
 |---|---|
 | **Montant** | Déjà rempli avec le solde ouvert, moins une note de crédit pas encore compensée. Adaptez-le pour un paiement partiel |
 | **Date** | Le jour où l'argent est arrivé, pas celui où vous le saisissez |
-| **Mode de paiement** | **Virement**, **Espèces**, **Carte / Bancontact** ou **Compensé** |
+| **Mode de paiement** | **Virement**, **Espèces**, **Carte / Bancontact**, **Compensé** ou **Escompte pour paiement comptant** |
 | **Note** | Par exemple une référence bancaire ou « partie 1 sur 2 » |
 
 Cliquez sur **Enregistrer**. Vous pouvez enregistrer plusieurs paiements ; le solde ouvert s'adapte. Lorsque
@@ -326,6 +331,60 @@ Les paiements arrivés par la banque s'enregistrent le plus facilement sur l'éc
 !!! tip "Paiement erroné ?"
     Supprimez le paiement dans le bloc Paiements ; le statut s'adapte au solde ouvert. Si une facture est
     malgré tout à tort sur Payée, **Remettre en ouverte** la remet sur Émise.
+
+### Escompte pour paiement comptant
+
+Si le client a payé rapidement en retenant quelques pour cent, vous comptabilisez cette différence comme escompte.
+Indiquez dans **Montant** ce qui est réellement rentré. S'il est inférieur au solde ouvert, le champ
+**La différence de** … apparaît, avec les choix **Reste ouverte**, **Comptabiliser comme escompte pour paiement
+comptant** (avec le pourcentage) et **Garantie retenue**. Choisissez l'escompte et cliquez sur **Enregistrer**.
+
+Nimble enregistre alors deux lignes à la même date : le paiement, et l'escompte avec le mode de paiement
+**Escompte pour paiement comptant**. La facture passe à **Payée**.
+
+Exemple : une facture de 1.947,18 €, payée avec 1.908,24 €. Le champ s'intitule *La différence de 38,94 €* et le
+choix de l'escompte affiche *2,00 %*.
+
+- L'escompte ne figure parmi les choix que si la différence représente au maximum 5 % du total de la facture.
+  Au-delà, il s'agit d'un paiement partiel ordinaire et le reste reste ouvert.
+- S'il restait déjà un petit montant ouvert, par exemple après le rapprochement bancaire, enregistrez un paiement
+  avec le mode **Escompte pour paiement comptant** pour ce montant. La même limite de 5 % s'applique.
+- La facture elle-même ne change pas : pas de note de crédit, pas d'autre total, pas d'autre TVA. La manière dont
+  l'escompte entre en comptabilité relève de votre comptable.
+
+### Une garantie retenue
+
+Certains clients retiennent une partie du montant comme garantie, souvent 5 % jusqu'à la réception. Cette
+garantie n'est ni un paiement ni un escompte : le client la doit toujours. Elle reste donc ouverte jusqu'à son
+paiement.
+
+Ce qui change : jusqu'à la date de libération, cette partie n'est pas exigible.
+
+- La facture ne passe pas en rouge et ne reçoit pas l'étiquette **Échue** si seule la garantie reste ouverte.
+- La garantie n'apparaît pas dans les [rappels](reminders.md).
+- Dans la liste figure l'étiquette **Garantie**, sur la fiche *Dont garantie retenue*.
+
+Après la date de libération, la garantie compte à nouveau normalement : en rouge après l'échéance, et dans les
+rappels. Sans date, la garantie reste non exigible jusqu'à ce que vous en indiquiez une.
+
+**Lors du paiement.** Indiquez dans **Montant** ce qui est rentré. S'il est inférieur au solde ouvert, choisissez
+**Garantie retenue** dans **La différence de** …. Complétez éventuellement **À libérer le** et cliquez sur
+**Enregistrer**. Si la réception du projet est complétée, Nimble propose cette date plus un an.
+
+**Après coup.** Cliquez en bas de la facture sur **Plus…** → **Garantie retenue…**. Vous y définissez ou modifiez
+le montant et la date, ou supprimez la garantie avec **Supprimer la garantie**. Le montant ne dépasse pas le solde
+ouvert.
+
+**Quand la garantie rentre**, enregistrez un paiement ordinaire. La facture passe à **Payée**.
+
+**La liste des garanties en cours** : choisissez **Factures avec garantie** dans la liste de choix au-dessus de la
+liste.
+
+!!! tip "Factures dont il reste exactement 5 % ouvert"
+    Choisissez **Garantie possible (5 % ouvert)** dans la liste de choix. Vous voyez les factures émises sans
+    garantie dont il reste exactement 5 % du total ouvert, TVAC ou HTVA. Pour chaque facture qui est une
+    garantie, cliquez sur **Garantie** : le solde ouvert devient la garantie, encore sans date. Vous la complétez
+    plus tard sur la fiche. Nimble ne marque rien de lui-même.
 
 ### En un clic depuis la liste
 

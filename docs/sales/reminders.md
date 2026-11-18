@@ -127,6 +127,13 @@ dat om.
     Er is dan niets om vanaf te tellen, en Nimble verzint geen termijn. Zo'n factuur staat wél in de lijst,
     met die reden erbij — zodat u de vervaldag kunt aanvullen op de factuur zelf.
 
+## Een ingehouden borg
+
+Hield de klant een borg in, dan telt die borg niet mee tot de datum waarop hij vrijkomt. Staat er naast de
+borg nog iets open, dan vermeldt de aanmaning enkel dat deel. Staat er enkel nog de borg open, dan staat de
+factuur niet in de lijst. Na de vrijgavedatum telt de borg weer gewoon mee. Zie
+[Een ingehouden borg](invoices.md#een-ingehouden-borg).
+
 ## Zie ook
 
 - [Facturen](invoices.md) — betalingen registreren en creditnota's verrekenen

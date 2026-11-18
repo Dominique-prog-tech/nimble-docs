@@ -35,11 +35,15 @@ In de kolom **Status** komt het label **Vervallen** bij een uitgereikte factuur 
 is, en **Geen vervaldag** wanneer er geen vervaldatum ingevuld is. Een creditnota krijgt geen van beide
 labels: zij vervalt niet, en haar bedrag staat nooit in het rood.
 
+Hield de klant een borg in, dan staat er het label **Borg**. Beweeg de muis erover voor het bedrag en de datum
+waarop de borg vrijkomt. Na die datum heet het label **Borg vrij**. Zie [Een ingehouden borg](#een-ingehouden-borg).
+
 Boven de lijst staan:
 
 - **Factuur uit offerte** — maakt een factuur op basis van een aanvaarde offerte.
 - **Nieuwe factuur** — opent een lege fiche.
-- Een keuzelijst naast de titel: **Facturen en creditnota's**, **Enkel facturen** of **Enkel creditnota's**.
+- Een keuzelijst naast de titel: **Facturen en creditnota's**, **Enkel facturen**, **Enkel creditnota's**,
+  **Facturen met borg** of **Mogelijk een borg (5 % open)**.
 - **Exporteren**, de filterknoppen en het zoekveld.
 
 Bij een uitgereikte factuur met een openstaand bedrag staat rechts de knop **Betaald**: zie
@@ -114,7 +118,7 @@ die laatste vijf werken, leest u in [Werken met een fiche](../fiches.md). Bij **
 
 | Veld | Wat het is |
 |---|---|
-| **Openstaand** | Wat de klant nog moet betalen, in het rood met **Vervallen** erbij als de vervaldatum voorbij is — niet op een creditnota. Is alles binnen, dan staat er **Voldaan**. Zijn er betalingen, dan staat eronder *Al betaald* met het bedrag |
+| **Openstaand** | Wat de klant nog moet betalen, in het rood met **Vervallen** erbij als de vervaldatum voorbij is — niet op een creditnota. Is alles binnen, dan staat er **Voldaan**. Zijn er betalingen, dan staat eronder *Al betaald* met het bedrag. Hield de klant een borg in, dan staat eronder *Waarvan ingehouden borg* met het bedrag en de datum waarop hij vrijkomt |
 | **Gestructureerde mededeling** | Het nummer waarmee de klant betaalt. Nimble kent het automatisch toe bij het bewaren; het is niet te wijzigen |
 | **Verstuurd** | Wanneer, langs welke weg en naar wie de factuur vertrokken is. Staat het veld er niet, dan is ze nog niet als verstuurd gemarkeerd |
 | **Creditnota's** | De creditnota's die bij deze factuur horen, met hun bedrag. Klik een nummer om ze te openen |
@@ -172,6 +176,7 @@ registreren, Opnieuw verstuurd en Meer…, en het menu Meer… open op Creditnot
 | **Betaling registreren** | Uitgereikt | Boekt een ontvangst |
 | **Markeren als verstuurd** | Uitgereikt | Schrijft op dát en hoe de factuur vertrokken is. Daarna heet de knop **Opnieuw verstuurd** |
 | **Meer…** → **Creditnota maken** | Factuur met een nummer | Maakt een creditnota bij deze factuur |
+| **Meer…** → **Ingehouden borg…** | Uitgereikt | Zet, wijzigt of wist de borg die de klant inhield. Zie [Een ingehouden borg](#een-ingehouden-borg) |
 | **Terug naar openstaand** | Betaald | Zet de factuur terug op Uitgereikt |
 | **Annuleren** | Klad | Laat uw wijzigingen vallen. Op een uitgereikte of betaalde factuur staat de knop er niet: er valt niets te bewaren, en u gaat terug met **Naar de lijst** bovenaan |
 | **Verwijderen** | Klad zonder nummer | Zet de klad in de Prullenbak, na bevestiging. Daar kunt u ze terugzetten |
@@ -308,7 +313,7 @@ Overschrijving, een leeg veld Notitie, en de knoppen Optekenen en Annuleren.](..
 |---|---|
 | **Bedrag** | Staat al op wat er openstaat, min een creditnota die nog niet verrekend is. Pas het aan bij een deelbetaling |
 | **Datum** | De dag waarop het geld binnenkwam, niet de dag waarop u het intikt |
-| **Betaalwijze** | **Overschrijving**, **Contant**, **Kaart / Bancontact** of **Verrekend** |
+| **Betaalwijze** | **Overschrijving**, **Contant**, **Kaart / Bancontact**, **Verrekend** of **Korting contante betaling** |
 | **Notitie** | Bijvoorbeeld een bankreferentie of "deel 1 van 2" |
 
 Klik op **Optekenen**. U kunt meerdere betalingen registreren; het openstaande bedrag past zich aan. Is alles
@@ -320,6 +325,56 @@ Betalingen die via de bank binnenkomen, boekt u het makkelijkst op het scherm
 !!! tip "Verkeerd geboekt?"
     Verwijder de betaling in het blok Betalingen; de status past zich aan het openstaande bedrag aan. Staat
     een factuur toch ten onrechte op Betaald, dan zet **Terug naar openstaand** ze terug op Uitgereikt.
+
+### Korting voor contante betaling
+
+Betaalde de klant vroeg en hield hij een paar procent in, dan boekt u dat verschil af als korting. Vul in
+**Bedrag** in wat er werkelijk binnenkwam. Is dat minder dan wat er openstaat, dan verschijnt het veld
+**Het verschil van €** …, met de keuzes **Blijft openstaan**, **Afboeken als korting contante betaling** (met
+het percentage) en **Ingehouden borg**. Kies de korting en klik op **Optekenen**.
+
+Nimble registreert dan twee regels op dezelfde datum: de betaling, en de korting met de betaalwijze
+**Korting contante betaling**. De factuur gaat naar **Betaald**.
+
+Voorbeeld: een factuur van € 1.947,18, betaald met € 1.908,24. Het veld heet *Het verschil van € 38,94* en de
+keuze voor de korting toont *2,00 %*.
+
+- De korting staat enkel tussen de keuzes als het verschil hoogstens 5 % van het factuurtotaal is. Is het
+  meer, dan is het een gewone deelbetaling en blijft de rest openstaan.
+- Bleef er al een klein bedrag openstaan, bijvoorbeeld na het afpunten van de bank, dan registreert u een
+  betaling met de betaalwijze **Korting contante betaling** voor dat bedrag. Dezelfde grens van 5 % geldt.
+- De factuur zelf verandert niet: geen creditnota, geen ander totaal, geen andere btw. Hoe de korting in de
+  boekhouding komt, regelt uw boekhouder.
+
+### Een ingehouden borg
+
+Sommige klanten houden een deel van het bedrag in als borg, vaak 5 % tot de oplevering. Die borg is geen
+betaling en geen korting: de klant blijft hem verschuldigd. Hij blijft dus openstaan tot hij betaald is.
+
+Wat verandert: tot de datum waarop de borg vrijkomt, is dat deel niet eisbaar.
+
+- De factuur wordt niet rood en krijgt geen label **Vervallen** als enkel nog de borg openstaat.
+- De borg komt niet in de [aanmaningen](reminders.md).
+- In de lijst staat het label **Borg**, op de fiche *Waarvan ingehouden borg*.
+
+Na de datum waarop de borg vrijkomt, telt hij weer gewoon mee: rood na de vervaldatum, en in de aanmaningen.
+Zonder datum blijft de borg niet eisbaar tot u er een invult.
+
+**Bij de betaling.** Vul in **Bedrag** in wat er binnenkwam. Is dat minder dan wat er openstaat, kies dan bij
+**Het verschil van €** … voor **Ingehouden borg**. Vul eventueel **Vrij te geven op** in en klik op **Optekenen**. Is de oplevering van het project ingevuld, dan stelt Nimble die datum plus één jaar voor.
+
+**Achteraf.** Klik onderaan de factuur op **Meer…** → **Ingehouden borg…**. Daar zet of wijzigt u het bedrag en de
+datum, of wist u de borg met **Borg wissen**. Het bedrag is hoogstens wat er openstaat.
+
+**Wanneer de borg binnenkomt**, registreert u een gewone betaling. De factuur gaat naar **Betaald**.
+
+**De lijst van uitstaande borgen**: kies in de keuzelijst boven de lijst **Facturen met borg**.
+
+!!! tip "Facturen waar nog precies 5 % openstaat"
+    Kies in de keuzelijst **Mogelijk een borg (5 % open)**. U ziet de uitgereikte facturen zonder borg waarop
+    nog precies 5 % van het totaal openstaat, incl. of excl. btw. Klik bij elke factuur die een borg is op
+    **Als borg**: het openstaande bedrag wordt de borg, nog zonder datum. Die zet u later op de fiche. Nimble
+    markeert niets uit zichzelf.
 
 ### Met één klik vanuit de lijst
 
