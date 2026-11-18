@@ -29,7 +29,8 @@ In de kolom **Openstaand** kunt u dit tegenkomen:
 - **Voldaan**: alles is binnen.
 - Een bedrag in het **rood**: de factuur is over haar vervaldatum.
 - Een **negatief** bedrag bij een creditnota: wat er nog verrekend of terugbetaald moet worden.
-- Het label **Bedrag onbekend** bij een uitgereikte factuur van € 0,00. Beweeg de muis erover voor de uitleg.
+- Het label **Bedrag onbekend** bij een uitgereikte factuur van € 0,00. Beweeg de muis erover voor de uitleg. Is zo'n factuur
+  afgehandeld, zie dan [Een factuur zonder bedrag afsluiten](#een-factuur-zonder-bedrag-afsluiten).
 
 In de kolom **Status** komt het label **Vervallen** bij een uitgereikte factuur die over haar vervaldatum
 is, en **Geen vervaldag** wanneer er geen vervaldatum ingevuld is. Een creditnota krijgt geen van beide
@@ -182,6 +183,7 @@ registreren, Opnieuw verstuurd en Meer…, en het menu Meer… open op Creditnot
 | **Meer…** → **Creditnota maken** | Factuur met een nummer | Maakt een creditnota bij deze factuur |
 | **Meer…** → **Ingehouden borg…** | Uitgereikt | Zet, wijzigt of wist de borg die de klant inhield. Zie [Een ingehouden borg](#een-ingehouden-borg) |
 | **Meer…** → **Factuur annuleren** | Uitgereikt, nooit verstuurd, zonder betalingen | Annuleert de factuur. Zie [Een factuur annuleren](#een-factuur-annuleren) |
+| **Meer…** → **Als voldaan markeren** | Uitgereikt, totaal € 0,00, zonder betalingen | Zet de factuur op Betaald. Zie [Een factuur zonder bedrag afsluiten](#een-factuur-zonder-bedrag-afsluiten) |
 | **Terug naar openstaand** | Betaald | Zet de factuur terug op Uitgereikt |
 | **Annuleren** | Klad | Laat uw wijzigingen vallen. Op een uitgereikte of betaalde factuur staat de knop er niet: er valt niets te bewaren, en u gaat terug met **Naar de lijst** bovenaan |
 | **Verwijderen** | Klad zonder nummer | Zet de klad in de Prullenbak, na bevestiging. Daar kunt u ze terugzetten |
@@ -438,6 +440,21 @@ De knop staat er enkel wanneer het mag:
 
 Ging de factuur wél naar de klant, maak dan een [creditnota](#creditnotas). Een creditnota die nooit vertrok,
 annuleert u op dezelfde manier, met **Meer…** → **Creditnota annuleren**.
+
+## Een factuur zonder bedrag afsluiten
+
+Een overgezette factuur of creditnota kan in Nimble op **€ 0,00** staan, omdat haar bedrag bij het overzetten niet meekwam. In de lijst
+staat dan **Bedrag onbekend**, en ze blijft bij de **Openstaande facturen** staan. Een betaling registreren kan niet: een
+betaling van € 0,00 bestaat niet.
+
+Kent uw boekhouding het stuk als afgehandeld, klik dan onderaan op **Meer…** → **Als voldaan markeren** en bevestig.
+
+- Het stuk staat daarna op **Betaald** en telt niet meer mee bij wat openstaat.
+- In het actielogboek staat wie het markeerde en wanneer.
+- Vergist? Klik op **Terug naar openstaand**.
+
+De knop staat er enkel bij een uitgereikt stuk met een totaal van € 0,00 en zonder betalingen. Een factuur met een bedrag
+sluit u af door de betaling te registreren.
 
 ## Een creditnota verrekenen
 

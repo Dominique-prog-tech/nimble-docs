@@ -29,7 +29,8 @@ Dans la colonne **Solde ouvert**, vous pouvez rencontrer :
 - **Soldée** : tout est rentré.
 - Un montant en **rouge** : la facture a dépassé sa date d'échéance.
 - Un montant **négatif** pour une note de crédit : ce qui reste à compenser ou à rembourser.
-- L'étiquette **Montant inconnu** pour une facture émise de 0,00 €. Survolez-la pour lire l'explication.
+- L'étiquette **Montant inconnu** pour une facture émise de 0,00 €. Survolez-la pour lire l'explication. Si une telle facture
+  est réglée, voir [Clôturer une facture sans montant](#cloturer-une-facture-sans-montant).
 
 Dans la colonne **Statut**, l'étiquette **Échue** s'ajoute à une facture émise dont la date d'échéance est
 dépassée, et **Sans échéance** lorsqu'aucune date d'échéance n'est complétée. Une note de crédit ne reçoit
@@ -187,6 +188,7 @@ crédit.](../images/factuur-knoppen-meer-fr.png)
 | **Plus…** → **Créer une note de crédit** | Facture numérotée | Crée une note de crédit pour cette facture |
 | **Plus…** → **Garantie retenue…** | Émise | Définit, modifie ou supprime la garantie retenue par le client. Voir [Une garantie retenue](#une-garantie-retenue) |
 | **Plus…** → **Annuler la facture** | Émise, jamais envoyée, sans paiements | Annule la facture. Voir [Annuler une facture](#annuler-une-facture) |
+| **Plus…** → **Marquer comme soldée** | Émise, total 0,00 €, sans paiements | Passe la facture à Payée. Voir [Clôturer une facture sans montant](#cloturer-une-facture-sans-montant) |
 | **Remettre en ouverte** | Payée | Remet la facture sur Émise |
 | **Annuler** | Brouillon | Abandonne vos modifications. Sur une facture émise ou payée, le bouton n'y figure pas : il n'y a rien à enregistrer, et vous revenez avec **Vers la liste** en haut |
 | **Supprimer** | Brouillon sans numéro | Met le brouillon dans la corbeille, après confirmation. Vous pouvez l'y restaurer |
@@ -427,6 +429,21 @@ Le bouton n'apparaît que lorsque c'est permis :
 
 La facture a bien été envoyée au client ? Créez alors une [note de crédit](#notes-de-credit). Une note de crédit
 jamais envoyée s'annule de la même manière, avec **Plus…** → **Annuler la note de crédit**.
+
+## Clôturer une facture sans montant
+
+Une facture ou une note de crédit transférée peut figurer dans Nimble à **0,00 €**, parce que son montant n'a pas été repris
+lors du transfert. La liste indique alors **Montant inconnu**, et elle reste parmi les **Factures ouvertes**. Enregistrer un
+paiement n'est pas possible : un paiement de 0,00 € n'existe pas.
+
+Si votre comptabilité considère la pièce comme réglée, cliquez en bas sur **Plus…** → **Marquer comme soldée** et confirmez.
+
+- La pièce passe ensuite à **Payée** et ne compte plus dans les montants ouverts.
+- Le journal des actions indique qui l'a marquée et quand.
+- Une erreur ? Cliquez sur **Remettre en ouverte**.
+
+Le bouton n'apparaît que pour une pièce émise d'un total de 0,00 € et sans paiements. Une facture avec un montant se clôture en
+enregistrant le paiement.
 
 ## Notes de crédit
 
