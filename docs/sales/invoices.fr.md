@@ -423,6 +423,7 @@ Cliquez en bas de la facture sur **Plus…** → **Annuler la facture** et confi
 Le bouton n'apparaît que lorsque c'est permis :
 
 - la facture a un numéro et est **Émise** ;
+- elle a été créée dans Nimble : une facture transférée a été envoyée au client à l'époque, vous la corrigez donc par une note de crédit ;
 - elle n'a jamais été envoyée : ni marquée comme envoyée, ni via Peppol ;
 - elle ne porte aucun paiement et aucune note de crédit ne s'y rapporte ;
 - elle n'a pas été déduite comme acompte sur une autre facture.

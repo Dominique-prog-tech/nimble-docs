@@ -434,6 +434,7 @@ Klik onderaan de factuur op **Meer…** → **Factuur annuleren** en bevestig.
 De knop staat er enkel wanneer het mag:
 
 - de factuur heeft een nummer en staat op **Uitgereikt**;
+- ze werd in Nimble gemaakt: een overgezette factuur ging destijds naar de klant, dus die corrigeert u met een creditnota;
 - ze werd nooit verstuurd: niet gemarkeerd als verstuurd en niet via Peppol;
 - er staat geen betaling op, en er hangt geen creditnota aan;
 - ze werd niet als voorschot afgetrokken op een andere factuur.
