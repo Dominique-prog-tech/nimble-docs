@@ -418,6 +418,11 @@ Een vervallen datum staat in het rood. In het beeld hierboven is dat het geval b
 
 De open punten van alle projecten samen ziet u op [Openstaande punten](open-points.md).
 
+**Afdrukken voor de ploeg.** Werkt een ploeg (nog) niet met de app, klik dan rechts boven de lijst op **Afdrukken voor
+de ploeg**. U krijgt een werfblad met de open punten van dit project, in dezelfde volgorde als hier: per punt wat er moet
+gebeuren, wie het doet, tegen wanneer, de foto's (tot vier per punt) en een vakje **Opgelost** met ruimte voor een
+opmerking. Er staat geen enkel bedrag op, dus u kunt het gerust meegeven. Afgevinkte punten staan er niet op.
+
 #### Facturatievrijgave
 
 Onderaan het tabblad staat of het project vrij is om te factureren. Is het nog niet volledig afgehandeld,

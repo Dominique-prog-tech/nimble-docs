@@ -431,6 +431,12 @@ Une date dépassée s'affiche en rouge. Sur l'image ci-dessus, c'est le cas pour
 
 Les points ouverts de tous les projets figurent ensemble dans [Points ouverts](open-points.md).
 
+**Imprimer pour l'équipe.** Si une équipe ne travaille pas (encore) avec l'app, cliquez en haut à droite de la liste sur
+**Imprimer pour l'équipe**. Vous obtenez une feuille de chantier avec les points ouverts de ce projet, dans le même ordre
+qu'ici : pour chaque point ce qu'il faut faire, qui s'en charge, pour quand, les photos (jusqu'à quatre par point) et une
+case **Résolu** avec de la place pour une remarque. Aucun montant n'y figure : vous pouvez donc la remettre sans souci. Les
+points cochés n'y figurent pas.
+
 #### Autorisation de facturation
 
 Au bas de l'onglet, vous voyez si le projet peut être facturé. S'il n'est pas encore entièrement clôturé,
