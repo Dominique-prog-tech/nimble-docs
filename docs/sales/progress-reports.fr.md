@@ -124,6 +124,20 @@ Un état avec le statut **Ancienne application** est en lecture seule. Vous en v
 montant ; il ne comporte pas de postes et ne compte pas comme état précédent. Ce que ces états ont déjà facturé est
 repris par **Reprendre de l'application précédente** sur le premier état dans Nimble (voir ci-dessus).
 
+### Un ancien état facturé dans Nimble
+
+Si vous facturez un ancien état dans Nimble, par exemple avec une ou plusieurs factures que vous établissez vous-même, l'ancien
+état ne le sait pas : son statut provient de l'ancienne application. Marquez-le alors comme facturé :
+
+1. Ouvrez l'état et cliquez sur **Marquer comme facturé**.
+2. Indiquez sous **Facturé avec** la ou les factures, par exemple *2026-208 et 2026-209*.
+3. Cliquez sur **Enregistrer**.
+
+L'état s'appelle ensuite **Facturé (ancien état)** et compte comme facturé pour **Reprendre de l'application précédente** sur
+un état suivant. Une erreur ? Cliquez sur **Facturé avec…** puis sur **Effacer le marquage**.
+
+Le bouton n'apparaît pas pour un ancien état déjà facturé dans l'ancienne application : il compte déjà.
+
 ## Voir aussi
 
 - [Projets](../work/projects.md) — l'onglet États d'avancement sur la fiche projet

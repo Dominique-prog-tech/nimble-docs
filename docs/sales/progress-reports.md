@@ -118,6 +118,20 @@ Een staat met de status **Oude toepassing** is alleen-lezen. U ziet er de datum,
 van; posten staan er niet bij, en ze telt niet mee als vorige staat. Wat zulke staten al gefactureerd hebben, neemt
 **Overnemen uit de vorige toepassing** over op de eerste staat in Nimble (zie hierboven).
 
+### Een oude staat die u in Nimble factureerde
+
+Factureert u een oude staat in Nimble, bijvoorbeeld met een of meer facturen die u zelf opmaakt, dan weet de oude staat dat
+niet: zijn status komt uit de oude toepassing. Markeer hem dan als gefactureerd:
+
+1. Open de staat en klik op **Als gefactureerd markeren**.
+2. Vul bij **Gefactureerd met** in met welke factuur of facturen, bijvoorbeeld *2026-208 en 2026-209*.
+3. Klik op **Bewaren**.
+
+De staat heet daarna **Gefactureerd (oude staat)**, en telt mee als gefactureerd bij **Overnemen uit de vorige toepassing**
+op een volgende staat. Vergist? Klik op **Gefactureerd met…** en daarna op **Markering wissen**.
+
+De knop staat er niet bij een oude staat die in de oude toepassing al gefactureerd was: die telt al mee.
+
 ## Zie ook
 
 - [Projecten](../work/projects.md) — het tabblad Vorderingsstaten op de projectfiche
