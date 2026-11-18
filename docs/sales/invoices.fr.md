@@ -42,8 +42,10 @@ Au-dessus de la liste figurent :
 
 - **Facture à partir d'un devis** — crée une facture sur la base d'un devis accepté.
 - **Nouvelle facture** — ouvre une fiche vide.
-- Une liste de choix à côté du titre : **Factures et notes de crédit**, **Factures uniquement**, **Notes de crédit uniquement**,
-  **Factures avec garantie** ou **Garantie possible (5 % ouvert)**.
+- Une liste de choix à côté du titre : **Factures et notes de crédit**, **Factures ouvertes**, **Factures uniquement**,
+  **Notes de crédit uniquement**, **Factures avec garantie** ou **Garantie possible (5 % ouvert)**. **Factures ouvertes**
+  affiche uniquement les factures sur lesquelles il reste quelque chose à payer, garantie retenue comprise. Les notes de
+  crédit n'y figurent pas.
 - **Exporter**, les boutons de filtre et le champ de recherche.
 
 Pour une facture émise avec un solde ouvert, le bouton **Payée** figure à droite : voir
@@ -60,6 +62,7 @@ sélectionnée dans la liste.
 | **Brouillon** | Pas encore émise. La facture n'a pas encore de numéro et vous pouvez tout modifier |
 | **Émise** | Elle a reçu un numéro et est verrouillée |
 | **Payée** | Le montant complet a été reçu |
+| **Annulée** | Émise mais jamais envoyée, puis annulée. Voir [Annuler une facture](#annuler-une-facture) |
 
 Vous définissez vous-même le texte des statuts dans [Statuts de facture](../administration/invoice-status.md).
 
@@ -141,6 +144,8 @@ la TVA par taux et le total TVA comprise, avec la mention légale du code TVA en
 
 Sur un brouillon, vous pouvez encore adapter les lignes :
 
+- Modifiez la **description** directement dans la ligne. Cliquez sur **+ précision** sous la description pour un texte
+  plus long, sur plusieurs lignes. Cette précision figure sur la facture sous la description.
 - Choisissez un autre code **TVA** par ligne, ou supprimez la ligne avec le ✕ rouge.
 - Ajoutez une ligne avec la rangée de saisie en bas : **Article**, **Description**, **Quantité**, **Prix** et
   **TVA**, puis cliquez sur **Ajouter une ligne**.
@@ -181,6 +186,7 @@ crédit.](../images/factuur-knoppen-meer-fr.png)
 | **Marquer comme envoyée** | Émise | Note que la facture est partie, et comment. Ensuite, le bouton s'appelle **Envoyée à nouveau** |
 | **Plus…** → **Créer une note de crédit** | Facture numérotée | Crée une note de crédit pour cette facture |
 | **Plus…** → **Garantie retenue…** | Émise | Définit, modifie ou supprime la garantie retenue par le client. Voir [Une garantie retenue](#une-garantie-retenue) |
+| **Plus…** → **Annuler la facture** | Émise, jamais envoyée, sans paiements | Annule la facture. Voir [Annuler une facture](#annuler-une-facture) |
 | **Remettre en ouverte** | Payée | Remet la facture sur Émise |
 | **Annuler** | Brouillon | Abandonne vos modifications. Sur une facture émise ou payée, le bouton n'y figure pas : il n'y a rien à enregistrer, et vous revenez avec **Vers la liste** en haut |
 | **Supprimer** | Brouillon sans numéro | Met le brouillon dans la corbeille, après confirmation. Vous pouvez l'y restaurer |
@@ -398,6 +404,29 @@ crédit, et pas pour une facture déjà soldée.
 
 Si vous connaissez le jour où l'argent est arrivé, ou s'il s'agit d'un paiement partiel, utilisez **Enregistrer
 un paiement** sur la fiche. Marquée par erreur ? Supprimez le paiement dans le bloc Paiements sur la fiche.
+
+## Annuler une facture
+
+Une facture a reçu un numéro mais n'a jamais été envoyée au client, par exemple un essai ou une erreur ? Annulez-la.
+Une note de crédit n'est pas la bonne voie : c'est une pièce officielle pour une facture que le client et votre
+comptable n'ont jamais vue.
+
+Cliquez en bas de la facture sur **Plus…** → **Annuler la facture** et confirmez.
+
+- La facture reste dans la liste, **avec son numéro** et le statut **Annulée**. La numérotation ne présente donc
+  pas de trou.
+- Elle ne compte plus dans les montants ouverts, les rappels et les statistiques.
+- L'annulation est définitive : une facture annulée ne peut pas revenir en arrière.
+
+Le bouton n'apparaît que lorsque c'est permis :
+
+- la facture a un numéro et est **Émise** ;
+- elle n'a jamais été envoyée : ni marquée comme envoyée, ni via Peppol ;
+- elle ne porte aucun paiement et aucune note de crédit ne s'y rapporte ;
+- elle n'a pas été déduite comme acompte sur une autre facture.
+
+La facture a bien été envoyée au client ? Créez alors une [note de crédit](#notes-de-credit). Une note de crédit
+jamais envoyée s'annule de la même manière, avec **Plus…** → **Annuler la note de crédit**.
 
 ## Notes de crédit
 

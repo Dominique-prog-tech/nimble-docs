@@ -42,8 +42,9 @@ Boven de lijst staan:
 
 - **Factuur uit offerte** — maakt een factuur op basis van een aanvaarde offerte.
 - **Nieuwe factuur** — opent een lege fiche.
-- Een keuzelijst naast de titel: **Facturen en creditnota's**, **Enkel facturen**, **Enkel creditnota's**,
-  **Facturen met borg** of **Mogelijk een borg (5 % open)**.
+- Een keuzelijst naast de titel: **Facturen en creditnota's**, **Openstaande facturen**, **Enkel facturen**,
+  **Enkel creditnota's**, **Facturen met borg** of **Mogelijk een borg (5 % open)**. **Openstaande facturen**
+  toont enkel de facturen waarop nog iets te betalen is, een ingehouden borg inbegrepen. Creditnota's staan er niet in.
 - **Exporteren**, de filterknoppen en het zoekveld.
 
 Bij een uitgereikte factuur met een openstaand bedrag staat rechts de knop **Betaald**: zie
@@ -59,6 +60,7 @@ ze open voor de taken, notities, bijlagen, mails en het logboek van de factuur d
 | **Klad** | Nog niet uitgereikt. De factuur heeft nog géén nummer en u kunt alles nog wijzigen |
 | **Uitgereikt** | Ze heeft een nummer gekregen en staat op slot |
 | **Betaald** | Het volledige bedrag is ontvangen |
+| **Geannuleerd** | Uitgereikt maar nooit verstuurd, en nadien geannuleerd. Zie [Een factuur annuleren](#een-factuur-annuleren) |
 
 De tekst van de statussen stelt u zelf in onder [Factuurstatus](../administration/invoice-status.md).
 
@@ -140,6 +142,8 @@ btw per tarief en het totaal inclusief btw, met de wettelijke vermelding van de 
 
 Op een klad kunt u de regels nog aanpassen:
 
+- Wijzig de **omschrijving** rechtstreeks in de regel. Klik op **+ toelichting** onder de omschrijving voor een
+  langere tekst, over meerdere lijnen. Die toelichting komt op de factuur onder de omschrijving te staan.
 - Kies per regel een andere **Btw**-code, of verwijder de regel met het rode ✕.
 - Voeg een regel toe met de invoerrij onderaan: **Artikel**, **Omschrijving**, **Aantal**, **Prijs** en
   **Btw**, en klik op **Regel toevoegen**.
@@ -177,6 +181,7 @@ registreren, Opnieuw verstuurd en Meer…, en het menu Meer… open op Creditnot
 | **Markeren als verstuurd** | Uitgereikt | Schrijft op dát en hoe de factuur vertrokken is. Daarna heet de knop **Opnieuw verstuurd** |
 | **Meer…** → **Creditnota maken** | Factuur met een nummer | Maakt een creditnota bij deze factuur |
 | **Meer…** → **Ingehouden borg…** | Uitgereikt | Zet, wijzigt of wist de borg die de klant inhield. Zie [Een ingehouden borg](#een-ingehouden-borg) |
+| **Meer…** → **Factuur annuleren** | Uitgereikt, nooit verstuurd, zonder betalingen | Annuleert de factuur. Zie [Een factuur annuleren](#een-factuur-annuleren) |
 | **Terug naar openstaand** | Betaald | Zet de factuur terug op Uitgereikt |
 | **Annuleren** | Klad | Laat uw wijzigingen vallen. Op een uitgereikte of betaalde factuur staat de knop er niet: er valt niets te bewaren, en u gaat terug met **Naar de lijst** bovenaan |
 | **Verwijderen** | Klad zonder nummer | Zet de klad in de Prullenbak, na bevestiging. Daar kunt u ze terugzetten |
@@ -410,6 +415,29 @@ tweede creditnota maken voor de rest — tot het totaal van de factuur.
 
 Nimble weigert een creditnota op een klad (pas die gewoon aan) en op een factuur die al volledig
 gecrediteerd is.
+
+## Een factuur annuleren
+
+Kreeg een factuur een nummer maar ging ze nooit naar de klant, bijvoorbeeld een proef of een vergissing, dan
+annuleert u ze. Een creditnota is daar niet de juiste weg: dat is een officieel stuk voor een factuur die de klant
+en uw boekhouder nooit zagen.
+
+Klik onderaan de factuur op **Meer…** → **Factuur annuleren** en bevestig.
+
+- De factuur blijft in de lijst staan, **met haar nummer** en de status **Geannuleerd**. Er komt dus geen gat
+  in de nummering.
+- Ze telt niet meer mee in wat openstaat, in de aanmaningen en in de statistieken.
+- Annuleren is definitief: een geannuleerde factuur kan niet terug.
+
+De knop staat er enkel wanneer het mag:
+
+- de factuur heeft een nummer en staat op **Uitgereikt**;
+- ze werd nooit verstuurd: niet gemarkeerd als verstuurd en niet via Peppol;
+- er staat geen betaling op, en er hangt geen creditnota aan;
+- ze werd niet als voorschot afgetrokken op een andere factuur.
+
+Ging de factuur wél naar de klant, maak dan een [creditnota](#creditnotas). Een creditnota die nooit vertrok,
+annuleert u op dezelfde manier, met **Meer…** → **Creditnota annuleren**.
 
 ## Een creditnota verrekenen
 
