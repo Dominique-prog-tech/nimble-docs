@@ -34,7 +34,11 @@ Naast het bedrag staat **Inkomend** of **Uitgaand**. Dat woord staat er met opze
 `-89,90` toont, leest bij vluchtig kijken als 89,90. Heeft de bank de verrichting nog niet definitief
 geboekt, dan staat er ook **In afwachting bij de bank**.
 
-Helemaal rechts ziet u of de rij nog iets van u vraagt: **Nog te doen** of **Afgehandeld**.
+Helemaal rechts ziet u of de rij nog iets van u vraagt:
+
+- **Nog te doen**: er is nog niets mee gebeurd.
+- **Afgepunt op** gevolgd door het factuurnummer en het bedrag: de betaling staat op die factuur. Klik op het nummer om de factuur te openen.
+- **Afgehandeld zonder factuur**: u zette ze op afgehandeld zonder iets te boeken.
 
 Vink **Enkel wat nog te doen is** aan om de afgehandelde verrichtingen te verbergen.
 
@@ -44,6 +48,16 @@ Niet elke verrichting hoort bij een factuur. Loon, huur, een bankkost: die zet u
 **Afgehandeld**, zonder dat er iets geboekt wordt. De rij verdwijnt dan ook van het scherm Afpunten. Hier
 blijft ze staan, tenzij **Enkel wat nog te doen is** aangevinkt is. Vergist u zich, dan zet **Terug
 openzetten** de rij weer op Nog te doen.
+
+## Een afpunting ongedaan maken
+
+Staat een betaling op de verkeerde factuur, klik dan op **Afpunting ongedaan maken** in die rij. Nimble vraagt
+eerst of u zeker bent, met het bedrag en de factuur erbij. Daarna is de betaling van de factuur verdwenen en
+staat de verrichting weer op het scherm Afpunten, waar u ze opnieuw kunt boeken.
+
+Een afgepunte verrichting kunt u niet met **Terug openzetten** heropenen. Dan zou de betaling op de factuur
+blijven staan, en kon hetzelfde geld een tweede keer geboekt worden. Nimble boekt ook nooit een tweede keer op
+een verrichting waarop al een betaling staat.
 
 !!! warning "Een verrichting in afwachting kunt u niet afhandelen"
     Zolang de bank ze niet definitief geboekt heeft, kan ze nog wijzigen of verdwijnen. Ze afhandelen zou

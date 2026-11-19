@@ -35,7 +35,11 @@ rien de neuf — pas qu'une erreur s'est produite.
 `-89,90` se lit, d'un coup d'œil, comme 89,90. Si la banque n'a pas encore comptabilisé l'opération
 définitivement, **En attente à la banque** s'affiche aussi.
 
-Tout à droite, vous voyez si la ligne demande encore quelque chose : **À traiter** ou **Traité**.
+Tout à droite, vous voyez si la ligne demande encore quelque chose :
+
+- **À traiter** : rien n'a encore été fait.
+- **Lettré sur** suivi du numéro de facture et du montant : le paiement figure sur cette facture. Cliquez sur le numéro pour ouvrir la facture.
+- **Traité sans facture** : vous l'avez marquée comme traitée sans rien comptabiliser.
 
 Cochez **Uniquement à traiter** pour masquer les opérations traitées.
 
@@ -44,6 +48,16 @@ Cochez **Uniquement à traiter** pour masquer les opérations traitées.
 Toutes les opérations ne concernent pas une facture. Salaire, loyer, frais bancaires : **Traiter** les met
 sur **Traité**, sans rien comptabiliser. La ligne disparaît alors aussi de l'écran Lettrage. Ici, elle reste
 affichée, sauf si **Uniquement à traiter** est coché. En cas d'erreur, **Rouvrir** la remet sur À traiter.
+
+## Annuler un lettrage
+
+Si un paiement figure sur la mauvaise facture, cliquez sur **Annuler le lettrage** dans cette ligne. Nimble vous
+demande d'abord de confirmer, avec le montant et la facture. Ensuite, le paiement est retiré de la facture et
+l'opération revient sur l'écran Lettrage, où vous pouvez l'enregistrer à nouveau.
+
+Une opération lettrée ne se rouvre pas avec **Rouvrir** : le paiement resterait sur la facture et le même
+montant pourrait être enregistré une seconde fois. Nimble n'enregistre d'ailleurs jamais une seconde fois une
+opération sur laquelle un paiement figure déjà.
 
 !!! warning "Une opération en attente ne peut pas être traitée"
     Tant que la banque ne l'a pas comptabilisée définitivement, elle peut encore changer ou disparaître. La
