@@ -46,9 +46,13 @@ Si le document porte un numéro de commande qui désigne exactement une commande
 d'office à cette commande et le signale dans un message. Les majuscules et les espaces autour du numéro ne comptent pas. Une
 commande que vous avez déjà liée vous-même reste inchangée.
 
+Si le document porte une référence de paiement, Nimble la reprend dans le champ **Référence de paiement**. Une référence que
+vous avez déjà saisie vous-même reste inchangée.
+
 S'il manque ces données à une facture Peppol, par exemple parce qu'elle a été traitée avant que Nimble ne les
 reprenne, choisissez sur la fiche sous **Plus…** l'action **Récupérer les données Peppol**. Nimble récupère à nouveau
-le document. Un pdf que vous avez déjà joint vous-même n'est pas ajouté une seconde fois.
+le document. Un pdf que vous avez déjà joint vous-même n'est pas ajouté une seconde fois. L'action figure aussi sur une
+facture ouverte sans référence de paiement ; si le document n'en porte pas, le message le dit.
 
 ### Notes de crédit
 
@@ -80,6 +84,11 @@ La facture est alors **Payée**, pour le montant total. Seule une facture approu
 
 En cas d'erreur, ouvrez la fiche et choisissez sous **Plus…** l'action **Annuler le paiement**. Nimble demande une
 confirmation ; la facture reste approuvée. Qui a fait quoi figure dans l'historique de la fiche.
+
+Si votre banque est connectée, vous n'indiquez pas un paiement à la main : vous le lettrez sur [Lettrage](../finance/reconciliation.md#paiements-aux-fournisseurs),
+onglet **Paiements**. La fiche montre ces paiements dans le bloc **Paiements provenant de la banque**, avec leur date et leur
+montant. Un tel paiement ne s'annule pas avec **Annuler le paiement**, et tant qu'il y figure, vous ne retirez pas non plus
+l'approbation : Nimble renvoie alors à l'écran [Opérations bancaires](../finance/bank.md), où vous annulez le lettrage.
 
 Avec la seconde liste déroulante à côté du titre, **Tous les statuts**, vous n'affichez que les factures d'achat
 **En attente d'approbation**, **Non payées**, **Payées**, **Approuvées au paiement** ou **Échues**. Ce que vous devez encore
@@ -119,6 +128,7 @@ Complétez la carte **Données de la facture** :
 | **Montant TVAC** | Obligatoire — supérieur à zéro, tel qu'il figure sur la pièce. Aussi pour une note de crédit : Nimble ajoute lui-même le signe moins |
 | **Date** | Obligatoire — aujourd'hui par défaut |
 | **Échéance** | Reprenez-la de la facture |
+| **Référence de paiement** | La communication structurée demandée par le fournisseur, telle qu'elle figure sur sa facture. Pour une facture venue de Peppol, Nimble la remplit d'office. Elle permet au [lettrage](../finance/reconciliation.md#paiements-aux-fournisseurs) de lier votre paiement à cette facture avec certitude |
 | **Type** | **Facture** ou **Note de crédit**. Par défaut : Facture |
 | **Commande** | Facultatif. La [commande](purchase-orders.fr.md) à laquelle la facture appartient ; la liste montre les commandes du fournisseur choisi. **Vers la commande** l'ouvre |
 | **Note** | Texte libre |

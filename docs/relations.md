@@ -109,6 +109,9 @@ naam anders schrijft.
 Hoort een rekening niet bij deze klant, bijvoorbeeld omdat een boekhoudkantoor één keer voor hem betaalde, klik dan
 **Verwijderen**. Nimble gebruikt die rekening dan niet meer om de klant te herkennen, en leert ze ook niet opnieuw.
 
+Bij een leverancier heet het blok **Rekeningnummers van deze leverancier**. Nimble leert die nummers bij het afpunten van
+[betalingen aan leveranciers](finance/reconciliation.md#betalingen-aan-leveranciers): het rekeningnummer waarnaar het geld ging.
+
 ### Blok Afkomstig van een lead
 
 Dit blok verschijnt alleen bij een relatie die uit een **lead** is ontstaan, en alleen als u leads mag inkijken. Het toont, leesbaar en niet wijzigbaar: leadnummer, status, type aanvraag, omvang, budget, timing, urgentie, volgende actie met datum, en wanneer de lead is aangemaakt. Velden die de lead niet had, blijven weg.

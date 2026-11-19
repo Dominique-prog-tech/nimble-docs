@@ -38,7 +38,7 @@ définitivement, **En attente à la banque** s'affiche aussi.
 Tout à droite, vous voyez si la ligne demande encore quelque chose :
 
 - **À traiter** : rien n'a encore été fait.
-- **Lettré sur** suivi du numéro de facture et du montant : le paiement figure sur cette facture. Cliquez sur le numéro pour ouvrir la facture.
+- **Lettré sur** suivi du numéro de facture et du montant : le paiement figure sur cette facture. Cliquez sur le numéro pour ouvrir la facture. Pour un paiement sortant, c'est le numéro de la facture d'achat, tel que le fournisseur l'a écrit.
 - **Traité sans facture** : vous l'avez marquée comme traitée sans rien comptabiliser.
 
 Cochez **Uniquement à traiter** pour masquer les opérations traitées.

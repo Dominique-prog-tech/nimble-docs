@@ -6,6 +6,10 @@ Quel paiement correspond à quelle facture ouverte. Nimble propose ; **vous** co
 
 Cliquez dans la barre latérale sur **Ventes → Lettrage**. L'écran demande le droit de modifier les factures.
 
+L'écran compte deux onglets : **Encaissements**, l'argent reçu, face à vos factures de vente, et **Paiements**, l'argent
+parti, face à vos factures d'achat. Vous voyez l'onglet Paiements si vous pouvez aussi modifier les factures d'achat. Le
+nombre après un onglet indique combien d'opérations attendent. Voir [Paiements aux fournisseurs](#paiements-aux-fournisseurs).
+
 En bas figure **Récupérer à la banque**, comme sur [Opérations bancaires](bank.md) : vous récupérez ainsi
 les nouvelles opérations sans changer d'écran.
 
@@ -81,6 +85,28 @@ Sur une facture, cela ne peut pas dépasser ce qui reste ouvert, et au total pas
 choisissez qu'une facture et qu'il reste un solde, vous pouvez ici aussi enregistrer la différence comme escompte ou
 garantie.
 
+## Paiements aux fournisseurs
+
+Dans l'onglet **Paiements**, Nimble propose la facture d'achat à laquelle correspond un paiement sortant. Cela fonctionne
+comme pour les encaissements, avec trois différences.
+
+![L'onglet Paiements avec deux propositions : l'une avec la certitude Certain qui désigne la facture d'achat 2026-4417 d'Elektro Partner Distributie NV, l'autre avec la certitude Possible pour laquelle aucun poste ouvert n'a été trouvé. En bas figure le nombre de factures d'achat qui attendent encore leur approbation.](../images/afpunten-betalingen-fr.png)
+
+- **Seules les factures d'achat approuvées.** Une facture qui attend encore son approbation ne peut pas être lettrée. Sous la
+  liste figure le nombre de ces factures ouvertes, avec un lien vers [Factures d'achat](../purchasing/purchase-invoices.md).
+- **Certain** signifie ici : la communication de votre paiement est la **référence de paiement** de la facture d'achat. Elle
+  figure sur la fiche de la facture ; pour une facture venue de Peppol, Nimble la remplit d'office.
+- **La différence reste ouverte.** Si vous avez payé moins que le solde ouvert, le reste demeure sur la facture. Il n'y a pas
+  ici de choix pour un escompte ou une garantie.
+
+**Enregistrer** comptabilise le paiement sur la facture d'achat, à la date de valeur de la banque. Si tout est ainsi payé, la
+facture passe à *Payée*. **Attribuer soi-même** et **Sans objet** fonctionnent comme ci-dessus ; un salaire, un loyer ou des
+frais bancaires se traitent avec **Sans objet**.
+
+Lorsque vous enregistrez un paiement sur des factures d'un seul fournisseur, Nimble retient le numéro de compte vers lequel
+l'argent est parti. Un paiement suivant vers ce compte est reconnu comme destiné à ce fournisseur : la proposition indique
+alors **Fournisseur reconnu grâce au numéro de compte du bénéficiaire.**
+
 ## Sans objet
 
 Si une recette ne correspond à aucune facture — un remboursement, un versement d'un tiers — **Sans objet**
@@ -91,9 +117,11 @@ pouvez au besoin la rouvrir.
     Si un paiement a été enregistré sur la mauvaise facture, annulez le lettrage dans
     [Opérations bancaires](bank.md). L'opération revient alors dans cette liste. Nimble n'enregistre jamais deux
     fois la même opération bancaire. Un escompte pour paiement comptant disparaît avec le paiement ; une garantie
-    retenue reste sur la facture. Modifiez-la au besoin avec **Garantie retenue…** sur la facture.
+    retenue reste sur la facture. Modifiez-la au besoin avec **Garantie retenue…** sur la facture. Un paiement d'une
+    facture d'achat s'annule au même endroit.
 
 ## Ce que vous ne trouverez pas ici
 
-Les paiements sortants. Seule une recette peut lettrer une facture de vente ; ce que vous avez payé
-vous-même figure dans **Opérations bancaires**.
+L'imputation des notes de crédit. Une note de crédit d'un client ou d'un fournisseur ne se lettre pas ici face à une facture.
+
+Seule une recette peut lettrer une facture de vente, et seul un paiement sortant une facture d'achat.

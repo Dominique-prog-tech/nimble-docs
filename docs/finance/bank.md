@@ -37,7 +37,7 @@ geboekt, dan staat er ook **In afwachting bij de bank**.
 Helemaal rechts ziet u of de rij nog iets van u vraagt:
 
 - **Nog te doen**: er is nog niets mee gebeurd.
-- **Afgepunt op** gevolgd door het factuurnummer en het bedrag: de betaling staat op die factuur. Klik op het nummer om de factuur te openen.
+- **Afgepunt op** gevolgd door het factuurnummer en het bedrag: de betaling staat op die factuur. Klik op het nummer om de factuur te openen. Bij een uitgaande betaling is dat het nummer van de aankoopfactuur, zoals de leverancier het schreef.
 - **Afgehandeld zonder factuur**: u zette ze op afgehandeld zonder iets te boeken.
 
 Vink **Enkel wat nog te doen is** aan om de afgehandelde verrichtingen te verbergen.

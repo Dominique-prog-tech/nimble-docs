@@ -6,6 +6,10 @@ Welke betaling hoort bij welke openstaande factuur. Nimble stelt voor; **u** bev
 
 Klik in de zijbalk op **Verkoop → Afpunten**. Het scherm vraagt het recht om facturen te bewerken.
 
+Het scherm heeft twee tabbladen: **Ontvangsten**, het geld dat binnenkwam, tegen uw verkoopfacturen, en **Betalingen**,
+het geld dat vertrok, tegen uw aankoopfacturen. Het tabblad Betalingen ziet u als u ook aankoopfacturen mag bewerken. Het
+getal achter een tabblad zegt hoeveel verrichtingen er wachten. Zie [Betalingen aan leveranciers](#betalingen-aan-leveranciers).
+
 Onderaan staat **Ophalen bij de bank**, net als op [Bankverrichtingen](bank.md): daarmee haalt u nieuwe
 verrichtingen binnen zonder van scherm te wisselen.
 
@@ -79,6 +83,28 @@ dan **Zelf toewijzen**. Er opent een venster met alle openstaande verkoopfacture
 Op één factuur kan dat niet meer zijn dan er openstaat, en samen niet meer dan er binnenkwam. Kiest u maar één factuur
 en blijft er iets open, dan kunt u ook hier het verschil als korting of borg boeken.
 
+## Betalingen aan leveranciers
+
+Op het tabblad **Betalingen** stelt Nimble voor op welke aankoopfactuur een uitgaande betaling hoort. Het werkt zoals bij de
+ontvangsten, met drie verschillen.
+
+![Het tabblad Betalingen met twee voorstellen: één met zekerheid Zeker dat naar de aankoopfactuur 2026-4417 van Elektro Partner Distributie NV wijst, en één met zekerheid Mogelijk waarvoor geen openstaande post gevonden werd. Onderaan staat hoeveel aankoopfacturen nog op goedkeuring wachten.](../images/afpunten-betalingen.png)
+
+- **Enkel goedgekeurde aankoopfacturen.** Een factuur die nog op goedkeuring wacht, kan niet afgepunt worden. Onder de lijst
+  staat hoeveel zulke facturen er openstaan, met een link naar [Aankoopfacturen](../purchasing/purchase-invoices.md).
+- **Zeker** betekent hier: de mededeling van uw betaling is de **betaalreferentie** van de aankoopfactuur. Die staat op de fiche
+  van de factuur; bij een factuur uit Peppol vult Nimble ze vanzelf in.
+- **Het verschil blijft openstaan.** Betaalde u minder dan er openstaat, dan blijft de rest op de factuur. Er is hier geen
+  keuze voor korting of borg.
+
+**Boeken** registreert de betaling op de aankoopfactuur, met de valutadatum van de bank. Is daarmee alles betaald, dan staat
+de factuur op *Betaald*. **Zelf toewijzen** en **Niet van toepassing** werken zoals hierboven; loon, huur of een bankkost
+handelt u af met **Niet van toepassing**.
+
+Wie een betaling boekt op facturen van één leverancier, leert Nimble het rekeningnummer waarnaar het geld ging. Een volgende
+betaling naar die rekening herkent Nimble als aan die leverancier: het voorstel zegt dan **Leverancier herkend aan het
+rekeningnummer van de begunstigde.**
+
 ## Niet van toepassing
 
 Hoort een ontvangst bij geen enkele factuur — een teruggave, een storting van een derde — dan haalt **Niet
@@ -89,9 +115,11 @@ desnoods weer openzet.
     Werd een betaling op de verkeerde factuur geboekt, maak de afpunting dan ongedaan op
     [Bankverrichtingen](bank.md). De verrichting komt dan terug in deze lijst. Nimble boekt dezelfde
     bankverrichting nooit twee keer. Een korting voor contante betaling verdwijnt mee; een ingehouden borg blijft
-    op de factuur staan. Die past u zo nodig aan met **Ingehouden borg…** op de factuur.
+    op de factuur staan. Die past u zo nodig aan met **Ingehouden borg…** op de factuur. Ook een betaling van een
+    aankoopfactuur maakt u daar ongedaan.
 
 ## Wat u hier niet vindt
 
-Uitgaande betalingen. Alleen een ontvangst kan een verkoopfactuur afpunten; wat u zelf betaalde, staat bij
-**Bankverrichtingen**.
+Het verrekenen van creditnota's. Een creditnota van een klant of een leverancier punt u hier niet af tegen een factuur.
+
+Alleen een ontvangst kan een verkoopfactuur afpunten, en alleen een uitgaande betaling een aankoopfactuur.

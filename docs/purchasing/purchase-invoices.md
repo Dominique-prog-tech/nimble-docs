@@ -46,9 +46,13 @@ Draagt het document een bestelnummer dat precies één bestelling van dezelfde l
 factuur vanzelf aan die bestelling en zegt het dat in een melding. Hoofdletters en spaties rond het nummer tellen niet. Een
 bestelling die u zelf al koppelde, blijft staan.
 
+Draagt het document een betaalreferentie, dan neemt Nimble die over in het veld **Betaalreferentie**. Een referentie die u
+zelf al invulde, blijft staan.
+
 Mist een Peppol-factuur die gegevens, bijvoorbeeld omdat ze verwerkt werd vóór Nimble ze overnam, kies dan op de
 fiche onder **Meer…** de handeling **Gegevens uit Peppol ophalen**. Nimble haalt het document opnieuw op. Een pdf die
-u zelf al koppelde, komt er geen tweede keer bij.
+u zelf al koppelde, komt er geen tweede keer bij. De handeling staat er ook bij een open factuur zonder betaalreferentie;
+draagt het document er geen, dan zegt de melding dat.
 
 ### Creditnota's
 
@@ -81,6 +85,11 @@ ze eerst goed.
 
 Was het een vergissing, open dan de fiche en kies onder **Meer…** de handeling **Betaling ongedaan maken**. Nimble vraagt
 een bevestiging; de factuur blijft goedgekeurd. Wie wat deed, staat in het logboek van de fiche.
+
+Is uw bank gekoppeld, dan duidt u een betaling niet met de hand aan: u punt ze af op [Afpunten](../finance/reconciliation.md#betalingen-aan-leveranciers),
+tabblad **Betalingen**. De fiche toont die betalingen in het blok **Betalingen uit de bank**, met hun datum en bedrag. Zo'n
+betaling draait u niet terug met **Betaling ongedaan maken**, en zolang ze erop staat, trekt u ook de goedkeuring niet in:
+Nimble verwijst dan naar het scherm [Bankverrichtingen](../finance/bank.md), waar u de afpunting ongedaan maakt.
 
 Met de tweede keuzelijst naast de titel, **Alle statussen**, toont u enkel de aankoopfacturen die **Wacht op
 goedkeuring**, **Niet betaald**, **Betaald**, **Goedgekeurd om te betalen** of **Vervallen** zijn. Wat u nog moet
@@ -118,6 +127,7 @@ Vul in de kaart **Factuurgegevens** in:
 | **Bedrag incl. btw** | Verplicht — groter dan nul, zoals het op het stuk staat. Ook bij een creditnota: Nimble zet er zelf het minteken voor |
 | **Datum** | Verplicht — staat standaard op vandaag |
 | **Vervaldatum** | Neem ze over van de factuur |
+| **Betaalreferentie** | De gestructureerde mededeling die de leverancier vraagt, zoals op zijn factuur. Bij een factuur uit Peppol vult Nimble ze vanzelf in. Ze laat het [afpunten](../finance/reconciliation.md#betalingen-aan-leveranciers) uw betaling met zekerheid aan deze factuur koppelen |
 | **Soort** | **Factuur** of **Creditnota**. Staat standaard op Factuur |
 | **Bestelling** | Optioneel. De [bestelling](purchase-orders.md) waar de factuur bij hoort; de keuzelijst toont de bestellingen van de gekozen leverancier. Met **Naar de bestelling** opent u ze |
 | **Nota** | Vrije tekst |

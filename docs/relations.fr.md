@@ -108,6 +108,9 @@ de ce client, même si la banque écrit le nom autrement.
 Si un compte n'appartient pas à ce client, par exemple parce qu'une fiduciaire a payé une fois pour lui, cliquez sur
 **Supprimer**. Nimble n'utilise alors plus ce compte pour reconnaître le client et ne l'apprend plus à nouveau.
 
+Pour un fournisseur, le bloc s'appelle **Numéros de compte de ce fournisseur**. Nimble apprend ces numéros lors du lettrage des
+[paiements aux fournisseurs](finance/reconciliation.md#paiements-aux-fournisseurs) : le numéro de compte vers lequel l'argent est parti.
+
 ### Bloc Issu d'un lead
 
 Ce bloc n'apparaît que pour une relation née d'un **lead**, et uniquement si vous êtes autorisé à consulter les leads. Il affiche, en lecture seule : numéro de lead, statut, type de demande, ampleur, budget, timing, urgence, prochaine action avec sa date, et la date de création du lead. Les champs que le lead n'avait pas restent absents.
