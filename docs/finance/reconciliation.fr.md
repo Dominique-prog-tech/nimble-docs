@@ -96,8 +96,10 @@ comme pour les encaissements, avec trois différences.
   liste figure le nombre de ces factures ouvertes, avec un lien vers [Factures d'achat](../purchasing/purchase-invoices.md).
 - **Certain** signifie ici : la communication de votre paiement est la **référence de paiement** de la facture d'achat. Elle
   figure sur la fiche de la facture ; pour une facture venue de Peppol, Nimble la remplit d'office.
-- **La différence reste ouverte.** Si vous avez payé moins que le solde ouvert, le reste demeure sur la facture. Il n'y a pas
-  ici de choix pour un escompte ou une garantie.
+- **Pour la différence, seulement un escompte.** Si vous avez payé moins que le solde ouvert, le reste demeure par défaut sur
+  la facture. Si le paiement porte sur une seule facture et que la différence ne dépasse pas 5 % du total de la facture, vous
+  pouvez la comptabiliser comme **escompte pour paiement comptant** : la facture est alors entièrement payée, avec l'escompte
+  sur une ligne à part sur la fiche. Une garantie retenue n'existe pas ici.
 
 **Enregistrer** comptabilise le paiement sur la facture d'achat, à la date de valeur de la banque. Si tout est ainsi payé, la
 facture passe à *Payée*. **Attribuer soi-même** et **Sans objet** fonctionnent comme ci-dessus ; un salaire, un loyer ou des

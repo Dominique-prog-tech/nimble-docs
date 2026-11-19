@@ -170,7 +170,7 @@ Alle meerwerken over alle projecten heen ziet u op het scherm [Meerwerken](extra
 
 ### Verbruikt materiaal
 
-![Het blok Verbruikt materiaal op een bewaarde werkbon: bovenaan de melding dat het materiaal bij het aanmaken van de voorraad is afgeboekt en hier niet meer wijzigt, daaronder twee regels met artikel en aantal.](../images/werkbon-blok-materiaal.png)
+![Het blok Verbruikt materiaal op een bewaarde werkbon: bovenaan de melding dat het materiaal bij het aanmaken van de voorraad is afgeboekt en hier niet meer wijzigt, daaronder twee regels met artikel, aantal en wat er nu in voorraad is.](../images/werkbon-blok-materiaal.png)
 
 Materiaal voegt u toe bij het **aanmaken** van de werkbon: kies een **Artikel**, vul het **Aantal** in en
 klik **Toevoegen**. Bij het bewaren wordt dat materiaal van de voorraad afgeboekt. De keuzelijst toont enkel
@@ -178,6 +178,11 @@ materiaal; een dienst of een [offerteartikel](../inventory/articles.md#de-soort-
 in. Werkuren boekt u als uren, niet als materiaal.
 
 Op een bewaarde werkbon kunt u het materiaal daarom niet meer wijzigen. De fiche zegt dat ook.
+
+Naast elke regel staat **Nu in voorraad**: wat er op dit moment van dat artikel ligt, niet wat er lag toen de werkbon
+gemaakt werd. Kiest u een artikel om toe te voegen, dan staat de voorraad ook onder de keuzelijst. Op een nieuwe werkbon
+staat **te weinig** bij een regel als de regels van dat artikel samen meer vragen dan er ligt; op een bewaarde werkbon,
+waar het materiaal al afgeboekt is, als de voorraad onder nul staat. Bewaren kan in beide gevallen.
 
 !!! warning "Materiaal wijzigt u niet achteraf op de bon"
     De voorraad is al bewogen. Klopt er iets niet, corrigeer dat dan met een aparte voorraadcorrectie in

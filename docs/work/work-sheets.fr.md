@@ -178,7 +178,7 @@ Tous les travaux supplémentaires, tous projets confondus, figurent sur l'écran
 
 ### Matériel consommé
 
-![Le bloc Matériel consommé sur un bon enregistré : en haut le message indiquant que le matériel a été déduit du stock à la création et ne peut plus être modifié ici, en dessous deux lignes avec l'article et la quantité.](../images/werkbon-blok-materiaal-fr.png)
+![Le bloc Matériel consommé sur un bon enregistré : en haut le message indiquant que le matériel a été déduit du stock à la création et ne peut plus être modifié ici, en dessous deux lignes avec l'article, la quantité et ce qui est en stock actuellement.](../images/werkbon-blok-materiaal-fr.png)
 
 Le matériel s'ajoute à la **création** du bon : choisissez un **Article**, saisissez la **Quantité** et
 cliquez sur **Ajouter**. À l'enregistrement, ce matériel est déduit du stock. La liste de choix n'affiche que
@@ -186,6 +186,11 @@ le matériel ; un service ou un [article de devis](../inventory/articles.md#le-t
 pas. Les heures de travail s'encodent comme heures, pas comme matériel.
 
 Sur un bon enregistré, vous ne pouvez donc plus modifier le matériel. La fiche l'indique aussi.
+
+À côté de chaque ligne figure **En stock actuellement** : ce qu'il y a en ce moment de cet article, pas ce qu'il y avait lors
+de la création du bon. Lorsque vous choisissez un article à ajouter, le stock figure aussi sous la liste de choix. Sur un
+nouveau bon, **insuffisant** figure à côté d'une ligne si les lignes de cet article demandent ensemble plus que le stock ; sur
+un bon enregistré, où le matériel est déjà déduit, si le stock est négatif. L'enregistrement reste possible dans les deux cas.
 
 !!! warning "Le matériel ne se corrige pas après coup sur le bon"
     Le stock a déjà bougé. Si quelque chose ne va pas, corrigez-le par un mouvement de stock distinct plutôt

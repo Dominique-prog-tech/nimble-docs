@@ -94,8 +94,10 @@ ontvangsten, met drie verschillen.
   staat hoeveel zulke facturen er openstaan, met een link naar [Aankoopfacturen](../purchasing/purchase-invoices.md).
 - **Zeker** betekent hier: de mededeling van uw betaling is de **betaalreferentie** van de aankoopfactuur. Die staat op de fiche
   van de factuur; bij een factuur uit Peppol vult Nimble ze vanzelf in.
-- **Het verschil blijft openstaan.** Betaalde u minder dan er openstaat, dan blijft de rest op de factuur. Er is hier geen
-  keuze voor korting of borg.
+- **Voor het verschil enkel een korting.** Betaalde u minder dan er openstaat, dan blijft de rest standaard op de factuur. Gaat
+  de betaling naar één factuur en is het verschil hoogstens 5 % van het factuurtotaal, dan kunt u het afboeken als **korting
+  contante betaling**: de factuur staat dan volledig betaald, met de korting als eigen regel op de fiche. Een ingehouden borg
+  bestaat hier niet.
 
 **Boeken** registreert de betaling op de aankoopfactuur, met de valutadatum van de bank. Is daarmee alles betaald, dan staat
 de factuur op *Betaald*. **Zelf toewijzen** en **Niet van toepassing** werken zoals hierboven; loon, huur of een bankkost

@@ -87,7 +87,8 @@ confirmation ; la facture reste approuvée. Qui a fait quoi figure dans l'histor
 
 Si votre banque est connectée, vous n'indiquez pas un paiement à la main : vous le lettrez sur [Lettrage](../finance/reconciliation.md#paiements-aux-fournisseurs),
 onglet **Paiements**. La fiche montre ces paiements dans le bloc **Paiements provenant de la banque**, avec leur date et leur
-montant. Un tel paiement ne s'annule pas avec **Annuler le paiement**, et tant qu'il y figure, vous ne retirez pas non plus
+montant. Si la différence a été comptabilisée comme escompte pour paiement comptant, cet escompte y figure sur une ligne à part,
+avec **Escompte pour paiement comptant**. Un tel paiement ne s'annule pas avec **Annuler le paiement**, et tant qu'il y figure, vous ne retirez pas non plus
 l'approbation : Nimble renvoie alors à l'écran [Opérations bancaires](../finance/bank.md), où vous annulez le lettrage.
 
 Avec la seconde liste déroulante à côté du titre, **Tous les statuts**, vous n'affichez que les factures d'achat

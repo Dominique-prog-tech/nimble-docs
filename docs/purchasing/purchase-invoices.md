@@ -87,7 +87,9 @@ Was het een vergissing, open dan de fiche en kies onder **Meer…** de handeling
 een bevestiging; de factuur blijft goedgekeurd. Wie wat deed, staat in het logboek van de fiche.
 
 Is uw bank gekoppeld, dan duidt u een betaling niet met de hand aan: u punt ze af op [Afpunten](../finance/reconciliation.md#betalingen-aan-leveranciers),
-tabblad **Betalingen**. De fiche toont die betalingen in het blok **Betalingen uit de bank**, met hun datum en bedrag. Zo'n
+tabblad **Betalingen**. De fiche toont die betalingen in het blok **Betalingen uit de bank**, met hun datum en bedrag. Werd
+het verschil afgeboekt als korting voor contante betaling, dan staat die korting er als eigen regel bij, met **Korting contante
+betaling**. Zo'n
 betaling draait u niet terug met **Betaling ongedaan maken**, en zolang ze erop staat, trekt u ook de goedkeuring niet in:
 Nimble verwijst dan naar het scherm [Bankverrichtingen](../finance/bank.md), waar u de afpunting ongedaan maakt.
 
