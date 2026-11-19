@@ -196,6 +196,18 @@ Met de pijltjes ↑ en ↓ verplaatst u een regel binnen zijn blok. Het rode ✕
     hoeft u dat dus niet op elke regel opnieuw te kiezen. Op een lege offerte krijgt de eerste regel de
     eerste code uit uw lijst met btw-codes.
 
+### Btw voor alle regels
+
+Staat de offerte al vol en moet alles naar een ander tarief, bijvoorbeeld van 21 % naar 6 % voor een renovatie,
+of na een ingevoegd sjabloon met een ander tarief:
+
+1. Kies **Meer…** → **Btw voor alle regels…**.
+2. Kies de btw-code. Het venster zegt hoeveel regels ze krijgen.
+3. Klik **Toepassen**, en daarna **Bewaren**.
+
+Titels, tussenkoppen en witregels blijven zoals ze zijn; een optieregel krijgt de code wel. Zolang u niet bewaard
+hebt, zet **Annuleren** alles terug. Op een aanvaarde of geweigerde offerte staat de handeling er niet.
+
 ## De totalen
 
 Onder de blokken staat de opsplitsing:

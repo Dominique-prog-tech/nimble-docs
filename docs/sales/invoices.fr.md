@@ -148,6 +148,8 @@ Sur un brouillon, vous pouvez encore adapter les lignes :
 - Modifiez la **description** directement dans la ligne. Cliquez sur **+ précision** sous la description pour un texte
   plus long, sur plusieurs lignes. Cette précision figure sur la facture sous la description.
 - Choisissez un autre code **TVA** par ligne, ou supprimez la ligne avec le ✕ rouge.
+- Si toutes les lignes doivent changer de TVA, choisissez **Plus…** → **TVA pour toutes les lignes…**. Choisissez le
+  code, cliquez sur **Appliquer** puis sur **Enregistrer**. Les lignes de titre restent inchangées.
 - Ajoutez une ligne avec la rangée de saisie en bas : **Article**, **Description**, **Quantité**, **Prix** et
   **TVA**, puis cliquez sur **Ajouter une ligne**.
 
@@ -186,6 +188,7 @@ crédit.](../images/factuur-knoppen-meer-fr.png)
 | **Enregistrer un paiement** | Émise | Comptabilise une recette |
 | **Marquer comme envoyée** | Émise | Note que la facture est partie, et comment. Ensuite, le bouton s'appelle **Envoyée à nouveau** |
 | **Plus…** → **Créer une note de crédit** | Facture numérotée | Crée une note de crédit pour cette facture |
+| **Plus…** → **TVA pour toutes les lignes…** | Brouillon | Applique un seul code TVA à toutes les lignes. Enregistrez ensuite pour le confirmer |
 | **Plus…** → **Garantie retenue…** | Émise | Définit, modifie ou supprime la garantie retenue par le client. Voir [Une garantie retenue](#une-garantie-retenue) |
 | **Plus…** → **Annuler la facture** | Émise, jamais envoyée, sans paiements | Annule la facture. Voir [Annuler une facture](#annuler-une-facture) |
 | **Plus…** → **Marquer comme soldée** | Émise, total 0,00 €, sans paiements | Passe la facture à Payée. Voir [Clôturer une facture sans montant](#cloturer-une-facture-sans-montant) |

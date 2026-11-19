@@ -200,6 +200,18 @@ n'est qu'un espace sur le document ; vous pouvez aussi la déplacer ou la suppri
     vous ne devez donc pas le choisir sur chaque ligne. Sur un devis vide, la première ligne reçoit le
     premier code de votre liste de codes TVA.
 
+### TVA pour toutes les lignes
+
+Si le devis est déjà rempli et que tout doit passer à un autre taux, par exemple de 21 % à 6 % pour une
+rénovation, ou après l'insertion d'un modèle avec un autre taux :
+
+1. Choisissez **Plus…** → **TVA pour toutes les lignes…**.
+2. Choisissez le code TVA. La fenêtre indique combien de lignes le reçoivent.
+3. Cliquez sur **Appliquer**, puis sur **Enregistrer**.
+
+Les titres, sous-titres et lignes vides restent inchangés ; une ligne en option reçoit bien le code. Tant que vous
+n'avez pas enregistré, **Annuler** remet tout comme avant. Sur un devis accepté ou refusé, l'action n'apparaît pas.
+
 ## Les totaux
 
 Sous les blocs figure le détail :

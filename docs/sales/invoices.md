@@ -146,6 +146,8 @@ Op een klad kunt u de regels nog aanpassen:
 - Wijzig de **omschrijving** rechtstreeks in de regel. Klik op **+ toelichting** onder de omschrijving voor een
   langere tekst, over meerdere lijnen. Die toelichting komt op de factuur onder de omschrijving te staan.
 - Kies per regel een andere **Btw**-code, of verwijder de regel met het rode ✕.
+- Moeten alle regels een andere btw krijgen, kies dan **Meer…** → **Btw voor alle regels…**. Kies de code, klik
+  **Toepassen** en daarna **Bewaren**. Kopregels blijven zoals ze zijn.
 - Voeg een regel toe met de invoerrij onderaan: **Artikel**, **Omschrijving**, **Aantal**, **Prijs** en
   **Btw**, en klik op **Regel toevoegen**.
 
@@ -181,6 +183,7 @@ registreren, Opnieuw verstuurd en Meer…, en het menu Meer… open op Creditnot
 | **Betaling registreren** | Uitgereikt | Boekt een ontvangst |
 | **Markeren als verstuurd** | Uitgereikt | Schrijft op dát en hoe de factuur vertrokken is. Daarna heet de knop **Opnieuw verstuurd** |
 | **Meer…** → **Creditnota maken** | Factuur met een nummer | Maakt een creditnota bij deze factuur |
+| **Meer…** → **Btw voor alle regels…** | Klad | Zet één btw-code op alle regels. Bewaar daarna om het vast te leggen |
 | **Meer…** → **Ingehouden borg…** | Uitgereikt | Zet, wijzigt of wist de borg die de klant inhield. Zie [Een ingehouden borg](#een-ingehouden-borg) |
 | **Meer…** → **Factuur annuleren** | Uitgereikt, nooit verstuurd, zonder betalingen | Annuleert de factuur. Zie [Een factuur annuleren](#een-factuur-annuleren) |
 | **Meer…** → **Als voldaan markeren** | Uitgereikt, totaal € 0,00, zonder betalingen | Zet de factuur op Betaald. Zie [Een factuur zonder bedrag afsluiten](#een-factuur-zonder-bedrag-afsluiten) |
