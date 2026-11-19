@@ -91,6 +91,15 @@ agenda koppelt.
 Standaard staat het **uit**. De titel, de klant, de plaats en een link van elke afspraak gaan dan naar Microsoft of Google,
 mogelijk naar een persoonlijk adres. Telefoonnummers, e-mailadressen en bedragen gaan niet mee. Dat beslist uw bedrijf.
 
+## Planning tonen in het klantenportaal
+
+In de kaart **Bank** staat **Bouwheren zien in het klantenportaal wanneer er aan hun project gewerkt wordt**. Staat het aan,
+dan toont de projectpagina in het [portaal voor uw klanten](../crm/portaal-voor-klanten.md#een-project) het blok
+**Planning**: de geplande dagen die nog komen of lopen, met hun duur.
+
+Standaard staat het **uit**. De omschrijving, de ploeg en de notitie van een planning gaan nooit mee. Een klant rekent op
+een datum die hij ziet: zet het pas aan als uw planning dat draagt.
+
 ## Financiële instellingen
 
 Deze kaart bevat de grenzen die u zelf kiest voor facturatie en voor de marge van projecten.

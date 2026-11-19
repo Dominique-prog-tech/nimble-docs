@@ -291,7 +291,7 @@ Vous pouvez acheter un article chez plus d'un fournisseur, chacun avec son propr
 propre prix. Vous l'enregistrez dans l'onglet **Fournisseurs** de la fiche. Pour un nouvel article,
 enregistrez d'abord la fiche ; l'onglet apparaît ensuite.
 
-![L'onglet Fournisseurs de l'article SAN-1001 avec deux fournisseurs : Sanitair Depot België BV avec le code SD-1001 à 112,00 € comme préféré, et Thermotech Groothandel NV avec le code TT-1001 à 118,50 €. Derrière chaque fournisseur figurent Prix dégressifs et Supprimer.](../images/artikel-leveranciers-fr.png)
+![L'onglet Fournisseurs de l'article SAN-1001 avec deux fournisseurs : Sanitair Depot België BV avec le code SD-1001 à 112,00 € comme préféré et avec l'étiquette Moins cher, et Thermotech Groothandel NV avec le code TT-1001 à 118,50 €. Derrière chaque fournisseur figurent Prix dégressifs et Supprimer.](../images/artikel-leveranciers-fr.png)
 
 | Colonne | Ce que c'est |
 |---|---|
@@ -317,6 +317,19 @@ d'achat reste en place et vous le saisissez à nouveau vous-même dans l'onglet 
     Si un article a des fournisseurs, exactement un doit être le préféré : son prix est le prix de revient.
     Si vous supprimez le fournisseur préféré, Nimble n'en choisit pas un autre lui-même — le message en haut
     vous demande d'indiquer un **Fournisseur préféré** avant d'enregistrer.
+
+### Le fournisseur le moins cher
+
+Si un article a au moins deux fournisseurs avec un prix d'achat, l'étiquette **Moins cher** figure à côté de la case
+**Préféré** du fournisseur au prix le plus bas. Si deux fournisseurs coûtent autant, elle figure chez les deux.
+
+Si le fournisseur préféré n'est pas le moins cher, une phrase sous la liste indique la différence, par exemple
+*Sanitair Depot België BV est 6,50 € moins cher que le fournisseur préféré Thermotech Groothandel NV.* Nimble ne change rien
+lui-même : le préféré continue de déterminer ce que coûte l'article. Pour acheter chez le moins cher, cochez **Préféré** chez
+ce fournisseur et cliquez sur **Enregistrer**.
+
+Nimble compare le prix d'achat de chaque fournisseur, pas ses prix dégressifs. Un fournisseur sans prix n'est pas pris en
+compte. Qui ne peut pas voir les prix d'achat ne voit ni l'étiquette ni la phrase.
 
 ### Prix dégressifs
 

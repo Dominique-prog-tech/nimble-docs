@@ -75,11 +75,16 @@ En dessous, la période, par exemple *Du 25/08/2026 au 18/09/2026*. Un projet ar
 
 ### Un projet
 
-Un clic sur un projet affiche trois blocs :
+Un clic sur un projet affiche trois blocs, et un quatrième si votre entreprise l'active :
 
 - **Données** : l'adresse du chantier, le début, la fin et la date de réception.
 - **Contact** : le responsable du projet comme **Votre personne de contact**, et le nom, l'adresse, le numéro de téléphone et
   l'adresse e-mail de votre entreprise.
+- **Planning** : seulement si **Les maîtres d'ouvrage voient dans le portail client quand on travaille à leur projet** est
+  activé sur la [fiche entreprise](../settings/company-profile.fr.md#afficher-le-planning-dans-le-portail-client). Pour
+  chaque bloc planifié, le jour où il commence et combien de jours ouvrables il dure, par exemple
+  *jeu. 26/11/2026 2,5 jours ouvrables*. Ce qui est déjà passé et ce qui n'a pas encore de jour n'y figurent pas. Si deux
+  équipes travaillent le même jour aussi longtemps, ce jour n'y figure qu'une fois.
 - **Documents** : les documents que vous partagez avec lui, avec la date. Un clic ouvre une photo ou un PDF dans le
   navigateur ; un autre fichier est téléchargé.
 
@@ -117,7 +122,7 @@ Le [journal des actions](../administration/audit-log.md) garde une trace de qui 
 ## Ce que votre client ne voit jamais
 
 Les notes et tâches internes, l'historique, les factures d'achat et les fournisseurs, les marges, le post-calcul et le
-budget, les bons de travail, les heures par monteur et les noms des monteurs, les remises et les accords de prix. Il ne voit
+budget, les bons de travail, les heures par monteur et les noms des monteurs, la description et l'équipe d'un planning, les remises et les accords de prix. Il ne voit
 pas non plus les projets d'un autre client, même s'il connaissait l'adresse d'une telle page.
 
 ## Erreurs fréquentes
@@ -132,6 +137,8 @@ pas non plus les projets d'un autre client, même s'il connaissait l'adresse d'u
     - **Un document n'apparaît pas dans son portail.** La case de la colonne **Portail** n'est pas cochée. La case dans
       Dossiers standard ne vaut que pour les dossiers qu'un projet reçoit ensuite, et pour les documents qui arrivent
       ensuite dans un tel dossier.
+    - **Le client ne voit pas de planning.** Sur la fiche entreprise, **Les maîtres d'ouvrage voient dans le portail client
+      quand on travaille à leur projet** est désactivé, ou le projet n'a pas de jour planifié à venir ou en cours.
     - **Utiliser l'adresse e-mail d'un collègue.** Sur une adresse qui appartient déjà à un utilisateur de Nimble, vous ne
       pouvez pas donner accès au portail. Choisissez une autre adresse.
 

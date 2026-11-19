@@ -73,11 +73,15 @@ Daaronder de periode, bijvoorbeeld *Van 25/08/2026 tot 18/09/2026*. Een gearchiv
 
 ### Een project
 
-Een klik op een project toont drie blokken:
+Een klik op een project toont drie blokken, en een vierde als uw bedrijf het aanzet:
 
 - **Gegevens**: het werfadres, de start, het einde en de datum van oplevering.
 - **Contact**: de verantwoordelijke van het project als **Uw contactpersoon**, en de naam, het adres, het telefoonnummer en
   het e-mailadres van uw bedrijf.
+- **Planning**: enkel als op de [bedrijfsfiche](../settings/company-profile.md#planning-tonen-in-het-klantenportaal)
+  **Bouwheren zien in het klantenportaal wanneer er aan hun project gewerkt wordt** aan staat. Per gepland blok de dag
+  waarop het begint en hoeveel werkdagen het duurt, bijvoorbeeld *do 26/11/2026 2,5 werkdagen*. Wat al voorbij is en wat
+  nog geen dag heeft, staat er niet. Werken twee ploegen op dezelfde dag even lang, dan staat die dag er één keer.
 - **Documenten**: de documenten die u met hem deelt, met de datum. Een klik opent een foto of pdf in de browser; een ander
   bestand wordt gedownload.
 
@@ -115,7 +119,7 @@ Het [actielogboek](../administration/audit-log.md) houdt bij wie een document zi
 ## Wat uw klant nooit ziet
 
 Interne notities en taken, het logboek, aankoopfacturen en leveranciers, marges, nacalculatie en budget, werkbonnen, uren
-per monteur en de namen van monteurs, kortingen en prijsafspraken. Ook de projecten van een andere klant ziet hij niet,
+per monteur en de namen van monteurs, de omschrijving en de ploeg van een planning, kortingen en prijsafspraken. Ook de projecten van een andere klant ziet hij niet,
 ook niet als hij het adres van zo'n pagina zou kennen.
 
 ## Veelgemaakte fouten
@@ -129,6 +133,8 @@ ook niet als hij het adres van zo'n pagina zou kennen.
     - **Een document staat niet in zijn portaal.** Het vinkje in de kolom **Portaal** staat niet aan. Het vinkje op
       Standaardmappen geldt enkel voor mappen die een project daarna krijgt, en voor documenten die daarna in zo'n map
       komen.
+    - **De klant ziet geen planning.** Op de bedrijfsfiche staat **Bouwheren zien in het klantenportaal wanneer er aan
+      hun project gewerkt wordt** uit, of het project heeft geen geplande dag die nog komt of loopt.
     - **Een e-mailadres van een collega gebruiken.** Op een adres waarop al een gebruiker van Nimble staat, kunt u geen
       toegang tot het portaal geven. Kies een ander adres.
 

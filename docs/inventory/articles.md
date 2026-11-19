@@ -284,7 +284,7 @@ Een artikel kunt u bij meer dan één leverancier kopen, elk met zijn eigen arti
 Dat legt u vast op het tabblad **Leveranciers** van de fiche. Bij een nieuw artikel bewaart u eerst de fiche;
 daarna verschijnt het tabblad.
 
-![Het tabblad Leveranciers van artikel SAN-1001 met twee leveranciers: Sanitair Depot België BV met code SD-1001 aan € 112,00 als voorkeur, en Thermotech Groothandel NV met code TT-1001 aan € 118,50. Achter elke leverancier staan Staffel en Verwijderen.](../images/artikel-leveranciers.png)
+![Het tabblad Leveranciers van artikel SAN-1001 met twee leveranciers: Sanitair Depot België BV met code SD-1001 aan € 112,00 als voorkeur en met het label Goedkoopst, en Thermotech Groothandel NV met code TT-1001 aan € 118,50. Achter elke leverancier staan Staffel en Verwijderen.](../images/artikel-leveranciers.png)
 
 | Kolom | Wat het is |
 |---|---|
@@ -310,6 +310,19 @@ laatste aankoopprijs staan en vult u ze weer zelf in op het tabblad Algemeen.
     Heeft een artikel leveranciers, dan moet er precies één de voorkeur hebben: zijn prijs is de kostprijs.
     Verwijdert u de voorkeursleverancier, dan kiest Nimble niet zelf een andere — de melding bovenaan vraagt
     u een **Voorkeursleverancier** aan te duiden voor u bewaart.
+
+### De goedkoopste leverancier
+
+Heeft een artikel minstens twee leveranciers met een aankoopprijs, dan staat het label **Goedkoopst** naast het vinkje
+**Voorkeur** van de leverancier met de laagste prijs. Kosten er twee evenveel, dan staat het bij allebei.
+
+Is de voorkeursleverancier niet de goedkoopste, dan zegt een zin onder de lijst hoeveel het scheelt, bijvoorbeeld
+*Sanitair Depot België BV is € 6,50 goedkoper dan de voorkeursleverancier Thermotech Groothandel NV.* Nimble verandert zelf
+niets: de voorkeur blijft bepalen wat het artikel kost. Wilt u bij de goedkoopste kopen, vink dan bij die leverancier
+**Voorkeur** aan en klik **Bewaren**.
+
+Nimble vergelijkt de aankoopprijs van elke leverancier, niet zijn staffelprijzen. Een leverancier zonder prijs telt niet
+mee. Wie de aankoopprijzen niet mag zien, ziet het label en de zin ook niet.
 
 ### Staffelprijzen
 

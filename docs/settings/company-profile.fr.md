@@ -95,6 +95,15 @@ Par défaut, c'est **désactivé**. Le titre, le client, le lieu et un lien de c
 Google, éventuellement vers une adresse personnelle. Les numéros de téléphone, les adresses e-mail et les montants ne sont pas
 envoyés. C'est à votre entreprise de décider.
 
+## Afficher le planning dans le portail client
+
+Dans la carte **Banque** figure **Les maîtres d'ouvrage voient dans le portail client quand on travaille à leur projet**.
+Si c'est activé, la page du projet dans le [portail pour vos clients](../crm/portaal-voor-klanten.fr.md#un-projet) affiche
+le bloc **Planning** : les jours planifiés à venir ou en cours, avec leur durée.
+
+Par défaut, c'est **désactivé**. La description, l'équipe et la note d'un planning ne sont jamais envoyées. Un client
+compte sur une date qu'il voit : activez-le seulement si votre planning le permet.
+
 ## Paramètres financiers
 
 Cette carte contient les seuils que vous choisissez vous-même pour la facturation et pour la marge des projets.
