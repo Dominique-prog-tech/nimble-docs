@@ -61,7 +61,7 @@ Betaalt de klant iets minder dan er op **één** factuur openstaat, dan vraagt h
 |---|---|
 | **Blijft openstaan** | Het verschil blijft op de factuur staan. Dat is de standaard. |
 | **Afboeken als korting contante betaling** | Het verschil wordt als korting afgeboekt en de factuur is volledig betaald. Enkel als het verschil hoogstens 5 % van het factuurtotaal is. |
-| **Ingehouden borg** | Het verschil blijft openstaan als borg: niet als achterstallig en niet in de aanmaningen. Enkel als er nog geen borg op de factuur staat. |
+| **Ingehouden borg** | Het verschil blijft openstaan als borg: niet als achterstallig en niet in de aanmaningen. Enkel als er nog geen borg op de factuur staat. Is het project van de factuur opgeleverd, dan krijgt de borg als vrijgavedatum de oplevering plus één jaar. |
 
 Gaat de betaling over meer dan één factuur, dan is er geen keuze: niemand weet dan op welke factuur het verschil hoort.
 
@@ -88,7 +88,8 @@ desnoods weer openzet.
 !!! note "Een afpunting rechtzetten"
     Werd een betaling op de verkeerde factuur geboekt, maak de afpunting dan ongedaan op
     [Bankverrichtingen](bank.md). De verrichting komt dan terug in deze lijst. Nimble boekt dezelfde
-    bankverrichting nooit twee keer.
+    bankverrichting nooit twee keer. Een korting voor contante betaling verdwijnt mee; een ingehouden borg blijft
+    op de factuur staan. Die past u zo nodig aan met **Ingehouden borg…** op de factuur.
 
 ## Wat u hier niet vindt
 

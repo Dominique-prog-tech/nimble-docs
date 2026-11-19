@@ -61,7 +61,7 @@ faire de **La différence de** ce montant. Ce sont les mêmes choix que pour un 
 |---|---|
 | **Reste ouverte** | La différence reste sur la facture. C'est le choix par défaut. |
 | **Comptabiliser comme escompte pour paiement comptant** | La différence est comptabilisée comme escompte et la facture est entièrement payée. Seulement si la différence ne dépasse pas 5 % du total de la facture. |
-| **Garantie retenue** | La différence reste ouverte comme garantie : ni en retard, ni dans les rappels. Seulement s'il n'y a pas encore de garantie sur la facture. |
+| **Garantie retenue** | La différence reste ouverte comme garantie : ni en retard, ni dans les rappels. Seulement s'il n'y a pas encore de garantie sur la facture. Si le projet de la facture est réceptionné, la garantie reçoit comme date de libération la réception plus un an. |
 
 Si le paiement porte sur plus d'une facture, il n'y a pas de choix : personne ne sait alors à quelle facture la
 différence appartient.
@@ -90,7 +90,8 @@ pouvez au besoin la rouvrir.
 !!! note "Corriger un lettrage"
     Si un paiement a été enregistré sur la mauvaise facture, annulez le lettrage dans
     [Opérations bancaires](bank.md). L'opération revient alors dans cette liste. Nimble n'enregistre jamais deux
-    fois la même opération bancaire.
+    fois la même opération bancaire. Un escompte pour paiement comptant disparaît avec le paiement ; une garantie
+    retenue reste sur la facture. Modifiez-la au besoin avec **Garantie retenue…** sur la facture.
 
 ## Ce que vous ne trouverez pas ici
 
