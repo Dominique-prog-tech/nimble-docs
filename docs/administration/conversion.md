@@ -64,6 +64,7 @@ de keuzelijsten productiestatus, pipeline-status en projecttypes.
     er staat een melding boven de knop, de knop is uitgeschakeld en Nimble converteert niets. De blokken
     **Aanmaakdatums bijwerken**, **Leveranciers per artikel overnemen**, **Relatiegegevens aanvullen** en
     **Aankoopcreditnota's markeren** hieronder werken wél: ze overschrijven niets wat de klant in Nimble instelde.
+    Ook **Offertes bijwerken** werkt: het slaat elke offerte over waaraan in Nimble al iets gebeurde.
 
 ## Legacy-gebruikers importeren
 
@@ -240,6 +241,43 @@ Onder de telling staan drie lijsten:
 
 Leest Nimble geen enkele staat in het vorige pakket, dan wist het niets. Zou het meer dan de helft van de staten in
 Nimble moeten wissen, dan weigert het, met de reden erbij: dat wijst eerder op een leesfout dan op wat u deed.
+
+## Offertes bijwerken
+
+Voor een klant die na de laatste volledige conversie nog offertes in het vorige pakket afwerkte. Een overgezette
+offerte die in Nimble niet aangeraakt is, volgt wat het vorige pakket nu zegt: kop, regels en bedragen. Een offerte
+waaraan in Nimble al iets gebeurde, wordt **niet** overschreven. Offertes die nog niet in Nimble staan, komen erbij met
+hun eigen nummer. Een offerte die in het vorige pakket verwijderd is, blijft in Nimble staan.
+
+1. Klik **Nakijken**. Nimble vergelijkt elke offerte en schrijft nog niets.
+2. Is er iets te doen, dan gaat **Aanvullen** aan. Klik erop.
+3. Klik daarna opnieuw **Nakijken**: er hoort niets meer bij te werken te zijn.
+
+| Kolom | Betekenis |
+|---|---|
+| **In de bron** | Hoeveel offertes het vorige pakket bevat |
+| **Ongewijzigd** | Offertes die al in Nimble staan zoals het vorige pakket ze nu draagt |
+| **Bij te werken** / **Bijgewerkt** | Offertes die in Nimble niet aangeraakt zijn en waarvan iets veranderde |
+| **Nieuw** / **Toegevoegd** | Offertes die nog niet in Nimble stonden |
+| **Bewerkt in Nimble** | Offertes die verschillen, maar waaraan in Nimble al iets gebeurde: ze blijven zoals ze zijn |
+| **Verwijderd in de bron** | Offertes die in het vorige pakket verwijderd zijn: ze blijven in Nimble staan |
+
+Onder de telling staan de lijsten per offerte, met het bedrag in Nimble en in het vorige pakket, de status, en wat er
+verschilt (kop, secties of regels).
+
+**Wanneer is een offerte bewerkt in Nimble?** Als ze in Nimble verstuurd, online aangeboden, ter ondertekening
+gestuurd of gefactureerd is, als er een nieuwe versie van gemaakt is, of als iemand er na de laatste conversie iets aan
+wijzigde. Dat laatste leest Nimble uit het logboek. Een conversie herkent het aan de honderden wijzigingen in dezelfde
+minuut; de lijn onder de telling toont wanneer de laatste was. Bij zo'n offerte staat in de kolom **Waarom niet** wat
+er gebeurde, en wanneer en door wie. Spreek met de klant af welke versie geldt.
+
+**Klanten die nog niet in Nimble stonden.** Staat de klant van een nieuwe offerte niet in Nimble, dan zoekt Nimble een
+klant met hetzelfde btw-nummer of dezelfde naam. Vindt het er geen, dan komt de klant mee uit het vorige pakket. Is de
+klant daar gewist, dan komt de offerte niet over, zoals bij een volledige conversie. De lijst **Klanten van nieuwe
+offertes** toont wat er met elke klant gebeurt.
+
+Zou Nimble meer dan een kwart van de overgezette offertes moeten bijwerken, dan weigert het, met de reden erbij: dat
+wijst eerder op een fout in de bron of in het logboek dan op wat de klant deed.
 
 ## Betaalstatus overnemen
 

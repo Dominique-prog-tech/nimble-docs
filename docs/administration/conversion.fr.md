@@ -66,6 +66,7 @@ production, statuts pipeline et types de projet.
     **Mettre à jour les dates de création**, **Reprendre les fournisseurs par article**, **Compléter les données
     des relations** et **Marquer les notes de crédit d'achat** ci-dessous fonctionnent bien : ils n'écrasent rien de
     ce que le client a configuré dans Nimble.
+    **Mettre à jour les devis** fonctionne aussi : il passe chaque devis déjà traité dans Nimble.
 
 ## Importer les utilisateurs hérités
 
@@ -244,6 +245,43 @@ Sous le décompte figurent trois listes :
 Si Nimble ne lit aucun état dans l'ancien logiciel, il ne supprime rien. S'il devait supprimer plus de la moitié des
 états présents dans Nimble, il refuse, avec la raison : cela indique plutôt une erreur de lecture qu'une action de
 votre part.
+
+## Mettre à jour les devis
+
+Pour un client qui a encore finalisé des devis dans l'ancien logiciel après la dernière conversion complète. Un devis
+transféré qui n'a pas été modifié dans Nimble suit ce que dit maintenant l'ancien logiciel : en-tête, lignes et
+montants. Un devis déjà traité dans Nimble n'est **pas** écrasé. Les devis qui ne sont pas encore dans Nimble sont
+ajoutés avec leur propre numéro. Un devis supprimé dans l'ancien logiciel reste dans Nimble.
+
+1. Cliquez sur **Vérifier**. Nimble compare chaque devis et n'écrit encore rien.
+2. S'il y a quelque chose à faire, **Compléter** s'active. Cliquez dessus.
+3. Cliquez ensuite à nouveau sur **Vérifier** : il ne doit plus rien y avoir à mettre à jour.
+
+| Colonne | Signification |
+|---|---|
+| **Dans la source** | Combien de devis contient l'ancien logiciel |
+| **Inchangés** | Devis déjà dans Nimble tels que l'ancien logiciel les porte maintenant |
+| **À mettre à jour** / **Mis à jour** | Devis non modifiés dans Nimble dont quelque chose a changé |
+| **Nouveaux** / **Ajoutés** | Devis qui n'étaient pas encore dans Nimble |
+| **Modifiés dans Nimble** | Devis qui diffèrent, mais déjà traités dans Nimble : ils restent tels quels |
+| **Supprimés dans la source** | Devis supprimés dans l'ancien logiciel : ils restent dans Nimble |
+
+Sous le décompte figurent les listes par devis, avec le montant dans Nimble et dans l'ancien logiciel, le statut, et ce
+qui diffère (en-tête, sections ou lignes).
+
+**Quand un devis est-il modifié dans Nimble ?** S'il a été envoyé, proposé en ligne, envoyé à la signature ou facturé
+dans Nimble, si une nouvelle version en a été créée, ou si quelqu'un l'a modifié après la dernière conversion. Nimble
+lit ce dernier point dans l'historique. Il reconnaît une conversion aux centaines de modifications dans la même minute ;
+la ligne sous le décompte indique quand a eu lieu la dernière. Pour un tel devis, la colonne **Pourquoi pas** indique
+ce qui s'est passé, quand et par qui. Convenez avec le client quelle version vaut.
+
+**Clients pas encore dans Nimble.** Si le client d'un nouveau devis n'est pas dans Nimble, Nimble cherche un client avec
+le même numéro de TVA ou le même nom. S'il n'en trouve pas, le client est repris de l'ancien logiciel. Si le client y a
+été supprimé, le devis n'est pas transféré, comme lors d'une conversion complète. La liste **Clients de nouveaux devis**
+montre ce qui se passe pour chaque client.
+
+Si Nimble devait mettre à jour plus d'un quart des devis transférés, il refuse, avec la raison : cela indique plutôt
+une erreur dans la source ou dans l'historique que ce que le client a fait.
 
 ## Reprendre le statut de paiement
 
