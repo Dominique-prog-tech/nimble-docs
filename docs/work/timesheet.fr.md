@@ -20,7 +20,8 @@ travail.
 
 Par collaborateur figurent les heures de **Travail**, les heures de **Déplacement**, la somme (**Ensemble**) et le nombre de **Jours**
 travaillés. Un jour avec deux bons de travail compte une fois. Le déplacement n'apparaît que si votre entreprise enregistre le temps de
-trajet sur la [fiche entreprise](../settings/company-profile.md).
+trajet sur la [fiche entreprise](../settings/company-profile.md), ou si la période choisie contient tout de même des heures de
+déplacement, par exemple d'avant la désactivation.
 
 ## La liste
 

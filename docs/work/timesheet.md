@@ -19,7 +19,8 @@ Klik in de zijbalk op **Werk → Urenstaat**. U hebt het recht nodig om werkorde
 
 Per medewerker staan de uren **Werk**, de uren **Verplaatsing**, de som (**Samen**) en het aantal **Dagen** waarop hij werkte. Een dag
 met twee werkbonnen telt één keer. Verplaatsing staat er enkel als uw bedrijf reistijd registreert op de
-[bedrijfsfiche](../settings/company-profile.md).
+[bedrijfsfiche](../settings/company-profile.md), of als er in de gekozen periode toch verplaatsingsuren staan, bijvoorbeeld van vóór
+u het uitzette.
 
 ## De lijst
 
