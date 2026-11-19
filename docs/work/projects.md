@@ -404,9 +404,11 @@ tellers:
     klaar moet zijn, wordt in de praktijk niet afgewerkt. Zet er dus altijd een naam en een datum bij.
 
 Onder de lijst voegt u een punt toe: vul **Wat** in, kies een **Eigenaar**, zet een datum bij **Tegen** en
-klik **Punt toevoegen**. Als eigenaar kiest u uit de actieve medewerkers.
+klik **Punt toevoegen**. Als eigenaar kiest u uit de actieve medewerkers. Bij **Vastgesteld op** staat de dag van
+vandaag; stelde u het punt op een andere dag vast op de werf, zet dan die datum.
 
-In de lijst zet u een punt klaar met **Afvinken**; in de kolom **Klaar** staat dan de datum. Met het kruisje
+In de lijst zet u een punt klaar met **Afvinken**; in de kolom **Klaar** staat dan de datum. Met het potlood
+past u een punt aan: wat er moet gebeuren, de eigenaar, **Vastgesteld op** en **Tegen**. Met het kruisje
 verwijdert u een punt. Afgevinkte punten staan onderaan, in het grijs.
 
 In de kolom **Foto's** staat bij een punt met foto's het camera-icoon met hun aantal. Een klik toont de foto's van dat
@@ -419,9 +421,12 @@ Een vervallen datum staat in het rood. In het beeld hierboven is dat het geval b
 De open punten van alle projecten samen ziet u op [Openstaande punten](open-points.md).
 
 **Afdrukken voor de ploeg.** Werkt een ploeg (nog) niet met de app, klik dan rechts boven de lijst op **Afdrukken voor
-de ploeg**. U krijgt een werfblad met de open punten van dit project, in dezelfde volgorde als hier: per punt wat er moet
-gebeuren, wie het doet, tegen wanneer, de foto's (tot vier per punt) en een vakje **Opgelost** met ruimte voor een
-opmerking. Er staat geen enkel bedrag op, dus u kunt het gerust meegeven. Afgevinkte punten staan er niet op.
+de ploeg**. Eerst kiest u welke punten op het blad komen: alle open punten staan aangevinkt, en wat de ploeg nu nog niet
+kan afwerken (bijvoorbeeld omdat het op derden wacht) vinkt u uit. Klik dan **Afdrukvoorbeeld**. U krijgt een werfblad
+met de gekozen punten, in dezelfde volgorde als hier: per punt wat er moet gebeuren, wie het doet, wanneer het
+vastgesteld is, tegen wanneer, de foto's (tot vier per punt) en een vakje **Opgelost** met ruimte voor een opmerking.
+Bovenaan staat de dag van het afdrukken, zodat u twee werfbladen van hetzelfde project uit elkaar houdt. Er staat geen
+enkel bedrag op, dus u kunt het gerust meegeven. Afgevinkte punten staan er niet op.
 
 #### Facturatievrijgave
 

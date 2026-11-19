@@ -417,10 +417,12 @@ de la liste figurent quatre compteurs :
 
 Sous la liste, vous ajoutez un point : remplissez **Quoi**, choisissez un **Responsable**, mettez une date
 sous **Pour le** et cliquez sur **Ajouter un point**. Comme responsable, vous choisissez parmi les
-collaborateurs actifs.
+collaborateurs actifs. **Constaté le** indique la date du jour ; si vous avez constaté le point un autre jour
+sur le chantier, indiquez cette date.
 
 Dans la liste, vous marquez un point comme fait avec **Cocher** ; la colonne **Terminé** affiche alors la
-date. La croix supprime un point. Les points cochés figurent en bas, en gris.
+date. Le crayon permet de modifier un point : ce qu'il faut faire, le responsable, **Constaté le** et
+**Pour le**. La croix supprime un point. Les points cochés figurent en bas, en gris.
 
 Dans la colonne **Photos**, un point qui a des photos affiche l'icône d'appareil photo avec leur nombre. Un clic
 montre les photos de ce point. Qui peut modifier le projet peut aussi en ajouter ou en supprimer ; l'icône figure alors
@@ -432,10 +434,13 @@ Une date dépassée s'affiche en rouge. Sur l'image ci-dessus, c'est le cas pour
 Les points ouverts de tous les projets figurent ensemble dans [Points ouverts](open-points.md).
 
 **Imprimer pour l'équipe.** Si une équipe ne travaille pas (encore) avec l'app, cliquez en haut à droite de la liste sur
-**Imprimer pour l'équipe**. Vous obtenez une feuille de chantier avec les points ouverts de ce projet, dans le même ordre
-qu'ici : pour chaque point ce qu'il faut faire, qui s'en charge, pour quand, les photos (jusqu'à quatre par point) et une
-case **Résolu** avec de la place pour une remarque. Aucun montant n'y figure : vous pouvez donc la remettre sans souci. Les
-points cochés n'y figurent pas.
+**Imprimer pour l'équipe**. Vous choisissez d'abord les points qui figurent sur la feuille : tous les points ouverts sont
+cochés, et vous décochez ce que l'équipe ne peut pas encore terminer (par exemple parce qu'il attend des tiers). Cliquez
+ensuite sur **Aperçu avant impression**. Vous obtenez une feuille de chantier avec les points choisis, dans le même ordre
+qu'ici : pour chaque point ce qu'il faut faire, qui s'en charge, quand il a été constaté, pour quand, les photos (jusqu'à
+quatre par point) et une case **Résolu** avec de la place pour une remarque. En haut figure la date d'impression, pour
+distinguer deux feuilles du même projet. Aucun montant n'y figure : vous pouvez donc la remettre sans souci. Les points
+cochés n'y figurent pas.
 
 #### Autorisation de facturation
 
