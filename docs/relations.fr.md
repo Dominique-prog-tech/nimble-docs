@@ -98,6 +98,16 @@ Saisissez le numéro de TVA et cliquez sur **Récupérer**. Le nom, la rue, le n
 
 ![Le bloc Classification avec catégorie, source, langue des documents et les cases Client, Fournisseur et Actif.](images/relatie-blok-classificatie-fr.png)
 
+### Bloc Numéros de compte de ce client
+
+Ce bloc n'apparaît que pour un client dont Nimble connaît déjà un numéro de compte. Nimble apprend ces numéros lors du
+[lettrage](finance/reconciliation.md) : quand vous enregistrez un paiement sur des factures d'un seul client, Nimble
+apprend le numéro de compte d'où provient l'argent. Un paiement suivant depuis ce compte est alors reconnu comme venant
+de ce client, même si la banque écrit le nom autrement.
+
+Si un compte n'appartient pas à ce client, par exemple parce qu'une fiduciaire a payé une fois pour lui, cliquez sur
+**Supprimer**. Nimble n'utilise alors plus ce compte pour reconnaître le client et ne l'apprend plus à nouveau.
+
 ### Bloc Issu d'un lead
 
 Ce bloc n'apparaît que pour une relation née d'un **lead**, et uniquement si vous êtes autorisé à consulter les leads. Il affiche, en lecture seule : numéro de lead, statut, type de demande, ampleur, budget, timing, urgence, prochaine action avec sa date, et la date de création du lead. Les champs que le lead n'avait pas restent absents.

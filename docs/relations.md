@@ -99,6 +99,16 @@ Vul het btw-nummer in en klik op **Ophalen**. Naam, straat, nummer, postcode, ge
 
 ![Het blok Classificatie met categorie, bron, documenttaal en de vinkjes Klant, Leverancier en Actief.](images/relatie-blok-classificatie.png)
 
+### Blok Rekeningnummers van deze klant
+
+Dit blok verschijnt alleen bij een klant van wie Nimble al een rekeningnummer kent. Nimble leert die nummers bij het
+[afpunten](finance/reconciliation.md): wie een betaling boekt op facturen van één klant, leert Nimble het rekeningnummer
+waarvan het geld kwam. Een volgende betaling van die rekening herkent Nimble dan als van deze klant, ook als de bank de
+naam anders schrijft.
+
+Hoort een rekening niet bij deze klant, bijvoorbeeld omdat een boekhoudkantoor één keer voor hem betaalde, klik dan
+**Verwijderen**. Nimble gebruikt die rekening dan niet meer om de klant te herkennen, en leert ze ook niet opnieuw.
+
 ### Blok Afkomstig van een lead
 
 Dit blok verschijnt alleen bij een relatie die uit een **lead** is ontstaan, en alleen als u leads mag inkijken. Het toont, leesbaar en niet wijzigbaar: leadnummer, status, type aanvraag, omvang, budget, timing, urgentie, volgende actie met datum, en wanneer de lead is aangemaakt. Velden die de lead niet had, blijven weg.

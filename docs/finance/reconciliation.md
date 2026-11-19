@@ -24,6 +24,12 @@ verrichtingen binnen zonder van scherm te wisselen.
 | **Waarschijnlijk** | Het bedrag klopt exact met één openstaande factuur van deze klant |
 | **Mogelijk** | Het bedrag is de som van meerdere facturen, of een deelbetaling — of Nimble vond geen enkele openstaande post |
 
+!!! tip "Nimble herkent een klant aan zijn rekeningnummer"
+    Wanneer u een betaling boekt op facturen van één klant, onthoudt Nimble het rekeningnummer waarvan ze kwam. Komt er
+    later geld van die rekening binnen, dan zoekt Nimble bij die klant, ook als de bank zijn naam anders schrijft dan in
+    Nimble. Het voorstel zegt dan **Klant herkend aan het rekeningnummer van de betaler.** De geleerde nummers staan op de
+    [fiche van de klant](../relations.md#blok-rekeningnummers-van-deze-klant), waar u er een kunt verwijderen.
+
 Elk voorstel toont de tegenpartij, de valutadatum, de mededeling en het bedrag. Daaronder staan de facturen
 waarop Nimble wil boeken; klik een factuurnummer om die factuur te openen. Onder elk voorstel staat
 **waarom** Nimble het voorstelt. Lees die zin bij *Waarschijnlijk* en *Mogelijk* —
@@ -43,13 +49,46 @@ Bij een deelbetaling blijft de rest openstaan, en de volgende betaling van die k
 deze lijst.
 
 Past het bedrag niet volledig op de voorgestelde facturen, dan staat er **Blijft over:** met het restbedrag.
-Vond Nimble geen enkele factuur, dan staat **Boeken** grijs: er is niets om op te boeken.
+Vond Nimble geen enkele factuur, dan staat **Boeken** grijs: er is niets om op te boeken. Gebruik dan
+**Zelf toewijzen**.
+
+### Het verschil: korting of borg
+
+Betaalt de klant iets minder dan er op **één** factuur openstaat, dan vraagt het voorstel wat er met
+**Het verschil van** dat bedrag moet gebeuren. Het zijn dezelfde keuzes als bij een betaling op de factuur zelf:
+
+| Keuze | Wat er gebeurt |
+|---|---|
+| **Blijft openstaan** | Het verschil blijft op de factuur staan. Dat is de standaard. |
+| **Afboeken als korting contante betaling** | Het verschil wordt als korting afgeboekt en de factuur is volledig betaald. Enkel als het verschil hoogstens 5 % van het factuurtotaal is. |
+| **Ingehouden borg** | Het verschil blijft openstaan als borg: niet als achterstallig en niet in de aanmaningen. Enkel als er nog geen borg op de factuur staat. |
+
+Gaat de betaling over meer dan één factuur, dan is er geen keuze: niemand weet dan op welke factuur het verschil hoort.
+
+## Zelf toewijzen
+
+Vindt Nimble de juiste factuur niet, bijvoorbeeld omdat de klant zonder gestructureerde mededeling betaalde, klik
+dan **Zelf toewijzen**. Er opent een venster met alle openstaande verkoopfacturen.
+
+1. Zoek op factuurnummer of klant.
+2. Vink de facturen aan waarop het bedrag hoort. Nimble vult bij elke factuur voor wat er openstaat, tot het bedrag op is.
+   U kunt elk bedrag aanpassen.
+3. Onderaan ziet u hoeveel er toegewezen is en hoeveel er overblijft.
+4. Klik **Boeken**.
+
+Op één factuur kan dat niet meer zijn dan er openstaat, en samen niet meer dan er binnenkwam. Kiest u maar één factuur
+en blijft er iets open, dan kunt u ook hier het verschil als korting of borg boeken.
 
 ## Niet van toepassing
 
 Hoort een ontvangst bij geen enkele factuur — een teruggave, een storting van een derde — dan haalt **Niet
 van toepassing** ze uit de lijst zonder te boeken. Ze blijft zichtbaar bij **Bankverrichtingen**, waar u ze
 desnoods weer openzet.
+
+!!! note "Een afpunting rechtzetten"
+    Werd een betaling op de verkeerde factuur geboekt, maak de afpunting dan ongedaan op
+    [Bankverrichtingen](bank.md). De verrichting komt dan terug in deze lijst. Nimble boekt dezelfde
+    bankverrichting nooit twee keer.
 
 ## Wat u hier niet vindt
 
