@@ -29,6 +29,8 @@ Bovenaan kiest u het **Sjabloon**:
 | **Aanmaning — laatste herinnering** | Idem, voor de derde stap |
 | **Aanmaning — ingebrekestelling (incasso)** | Idem, voor de aankondiging van de incasso |
 | **Getekende werkbon** | Wanneer de ploegbaas de getekende werkbon vanuit de app naar de klant mailt |
+| **Bestelbon naar de leverancier** | Bij **Mailen naar de leverancier** op een bestelling — zie [De bestelbon](../purchasing/purchase-orders.md#de-bestelbon-afdrukken-en-mailen) |
+| **Prijsaanvraag naar een leverancier** | Bij **Meer…** → **Prijsaanvraag naar een leverancier** op een offerte — zie [Een prijsaanvraag](../sales/quotes.md#een-prijsaanvraag-naar-een-leverancier) |
 | **Taak toegewezen** | Wanneer iemand een taak toegewezen krijgt — enkel als dat aanstaat op de [Bedrijfsfiche](company-profile.md#mail-bij-het-toewijzen-van-een-taak) |
 
 Elke stap van de aanmaningen heeft een eigen sjabloon: een eerste herinnering schrijft u anders dan een
@@ -66,16 +68,16 @@ enkel de variabelen die in het gekozen sjabloon werken.
 | Variabele | Wat er in de mail komt | Sjablonen |
 |---|---|---|
 | `{{klant}}` | Naam van de klant | Offerte, offerte ondertekenen, aanmaningen, getekende werkbon |
-| `{{nummer}}` | Nummer van de offerte of factuur | Offerte, offerte ondertekenen, aanmaningen |
-| `{{datum}}` | Datum van het document | Offerte, offerte ondertekenen, aanmaningen, getekende werkbon |
+| `{{nummer}}` | Nummer van de offerte, factuur of bestelling. Bij een prijsaanvraag: het nummer van uw offerte, uw referentie | Offerte, offerte ondertekenen, aanmaningen, bestelbon, prijsaanvraag |
+| `{{datum}}` | Datum van het document | Offerte, offerte ondertekenen, aanmaningen, getekende werkbon, bestelbon, prijsaanvraag |
 | `{{geldig_tot}}` | Geldig tot | Offerte, offerte ondertekenen |
 | `{{bedrag}}` | Bedrag | Offerte, offerte ondertekenen, aanmaningen |
 | `{{vervaldag}}` | Vervaldag | Aanmaningen |
 | `{{dagen_te_laat}}` | Dagen te laat | Aanmaningen |
 | `{{werkorder}}` | Werkorder | Getekende werkbon |
-| `{{project}}` | Project | Getekende werkbon |
+| `{{project}}` | Project | Getekende werkbon, bestelbon, prijsaanvraag |
 | `{{getekend_door}}` | Wie tekende | Getekende werkbon |
-| `{{afzender}}` | Naam van wie verstuurt | Offerte, offerte ondertekenen, aanmaningen, getekende werkbon |
+| `{{afzender}}` | Naam van wie verstuurt | Offerte, offerte ondertekenen, aanmaningen, getekende werkbon, bestelbon, prijsaanvraag |
 | `{{bedrijf}}` | Uw bedrijfsnaam | Alle |
 | `{{online_link}}` | Een link naar de online offerte | Offerte |
 | `{{ontvanger}}` | Wie de taak krijgt | Taak toegewezen |
@@ -88,6 +90,9 @@ enkel de variabelen die in het gekozen sjabloon werken.
 | `{{taak_link}}` | Een link naar de takenlijst in Nimble | Taak toegewezen |
 | `{{ondertekenaar}}` | Naam van wie de offerte tekent | Offerte ondertekenen |
 | `{{teken_link}}` | De persoonlijke link om de offerte te ondertekenen | Offerte ondertekenen |
+| `{{leverancier}}` | Naam van de leverancier | Bestelbon, prijsaanvraag |
+| `{{leverdatum}}` | De gewenste leverdatum van de bestelling, of *in overleg* | Bestelbon |
+| `{{antwoord_voor}}` | Tegen wanneer u het antwoord op de prijsaanvraag wilt | Prijsaanvraag |
 
 ### De link naar de online offerte
 

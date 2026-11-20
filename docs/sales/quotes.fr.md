@@ -145,6 +145,23 @@ prix**, jusqu'à ce que vous modifiiez le prix manuellement.
 
 S'il reste des lignes avec la quantité 0 au moment d'imprimer ou d'envoyer, Nimble vous avertit.
 
+### Une demande de prix à un fournisseur
+
+Si vous avez d'abord besoin d'un prix d'un fournisseur ou d'un sous-traitant pour une partie du travail, choisissez sous
+**Plus…** **Demande de prix à un fournisseur…**. Dans la fenêtre, vous choisissez :
+
+- le **fournisseur ou sous-traitant** ;
+- pour quand vous souhaitez la **réponse** (par défaut dans une semaine) ;
+- quels **blocs** partent, si le devis en a plus d'un.
+
+**Aperçu** affiche la demande de prix en pdf, **Rédiger l'e-mail** ouvre la fenêtre d'envoi avec le modèle **Demande de
+prix à un fournisseur** (voir [Modèles de mail](../settings/mail-templates.md)). Les postes partent avec leur description,
+leur quantité et leur unité, **sans aucun prix** : votre prix de vente avec marge ne regarde pas le fournisseur. Le numéro
+de ce devis y figure comme votre référence, avec le chantier si le projet a une adresse de chantier.
+
+L'e-mail figure ensuite dans l'onglet **E-mails** du devis, et une copie du pdf dans les **Pièces jointes**. Enregistrez
+d'abord le devis : la demande de prix vient du devis enregistré. Vous importez la réponse du fournisseur comme ci-dessous.
+
 ### Importer une offre fournisseur
 
 Vous recevez pour une partie des travaux une offre d'un fournisseur (fenêtres, pompe à chaleur, cuisine) ? L'IA en lit les

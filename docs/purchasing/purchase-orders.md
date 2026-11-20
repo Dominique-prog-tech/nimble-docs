@@ -143,6 +143,25 @@ Zodra er iets ontvangen is, verschijnt de kaart **Leveringen**. Daar staat per o
 Is een regel aan een andere prijs geleverd dan besteld, dan staat die prijs in het oranje. Daaronder
 verschijnt de melding om dat na te kijken vóór u de aankoopfactuur goedkeurt.
 
+## De bestelbon afdrukken en mailen
+
+**Bestelbon** toont de bewaarde bestelling als pdf: uw briefhoofd, de leverancier, de besteldatum en de gewenste levering,
+het leveradres, en per regel de code van de leverancier (als die op de artikelfiche staat), het aantal, de prijs en het
+totaal. Het **leveradres** is de werf van het project van de bestelling, en zonder project het adres van uw bedrijf. De
+**Notitie** komt onderaan: zet daar dus enkel wat de leverancier mag lezen. Een bestelling in **Klad** draagt het woord
+*ONTWERP* in de titel.
+
+**Mailen naar de leverancier** opent een venster met zijn e-mailadres, het onderwerp en de tekst van het mailsjabloon
+**Bestelbon naar de leverancier** (zie [Mailsjablonen](../settings/mail-templates.md)), en de bestelbon als bijlage. Pas
+aan wat nodig is en klik **Versturen**.
+
+- Staat de bestelling nog in **Klad**, dan gaat ze na het versturen op **Besteld**: wie mailt, heeft besteld. De
+  bestelbon in de mail draagt daarom nooit *ONTWERP*.
+- De mail staat daarna op het tabblad **Mails** van de bestelling, en een kopie van de pdf bij de **Bijlagen**.
+- Bewaar eerst: de bestelbon komt uit de bewaarde bestelling. Met onbewaarde wijzigingen vraagt Nimble om eerst te
+  bewaren.
+- De bestelbon en de mail volgen de **documenttaal** van de leverancier.
+
 ## De status
 
 | Status | Betekenis |

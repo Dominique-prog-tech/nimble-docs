@@ -29,6 +29,8 @@ En haut, vous choisissez le **Modèle** :
 | **Rappel — dernier rappel** | Idem, pour la troisième étape |
 | **Rappel — mise en demeure (recouvrement)** | Idem, pour l'annonce du recouvrement |
 | **Bon de travail signé** | Quand le chef d'équipe envoie le bon de travail signé au client depuis l'application |
+| **Bon de commande au fournisseur** | Avec **Envoyer au fournisseur** sur une commande — voir [Le bon de commande](../purchasing/purchase-orders.md#imprimer-et-envoyer-le-bon-de-commande) |
+| **Demande de prix à un fournisseur** | Avec **Plus…** → **Demande de prix à un fournisseur** sur un devis — voir [Une demande de prix](../sales/quotes.md#une-demande-de-prix-a-un-fournisseur) |
 | **Tâche attribuée** | Quand une tâche est attribuée à quelqu'un — uniquement si c'est activé dans la [Fiche entreprise](company-profile.md#e-mail-lors-de-lattribution-dune-tache) |
 
 Chaque étape des rappels a son propre modèle : un premier rappel ne s'écrit pas comme une mise en demeure.
@@ -65,16 +67,16 @@ montre que les variables qui fonctionnent dans le modèle choisi.
 | Variable | Ce qui figure dans le mail | Modèles |
 |---|---|---|
 | `{{klant}}` | Nom du client | Devis, devis à signer, rappels, bon de travail signé |
-| `{{nummer}}` | Numéro du devis ou de la facture | Devis, devis à signer, rappels |
-| `{{datum}}` | Date du document | Devis, devis à signer, rappels, bon de travail signé |
+| `{{nummer}}` | Numéro du devis, de la facture ou de la commande. Pour une demande de prix : le numéro de votre devis, votre référence | Devis, devis à signer, rappels, bon de commande, demande de prix |
+| `{{datum}}` | Date du document | Devis, devis à signer, rappels, bon de travail signé, bon de commande, demande de prix |
 | `{{geldig_tot}}` | Valable jusqu'au | Devis, devis à signer |
 | `{{bedrag}}` | Montant | Devis, devis à signer, rappels |
 | `{{vervaldag}}` | Échéance | Rappels |
 | `{{dagen_te_laat}}` | Jours de retard | Rappels |
 | `{{werkorder}}` | Ordre de travail | Bon de travail signé |
-| `{{project}}` | Projet | Bon de travail signé |
+| `{{project}}` | Projet | Bon de travail signé, bon de commande, demande de prix |
 | `{{getekend_door}}` | Signataire | Bon de travail signé |
-| `{{afzender}}` | Nom de la personne qui envoie | Devis, devis à signer, rappels, bon de travail signé |
+| `{{afzender}}` | Nom de la personne qui envoie | Devis, devis à signer, rappels, bon de travail signé, bon de commande, demande de prix |
 | `{{bedrijf}}` | Nom de votre entreprise | Tous |
 | `{{online_link}}` | Un lien vers le devis en ligne | Devis |
 | `{{ontvanger}}` | Destinataire de la tâche | Tâche attribuée |
@@ -87,6 +89,9 @@ montre que les variables qui fonctionnent dans le modèle choisi.
 | `{{taak_link}}` | Un lien vers la liste des tâches dans Nimble | Tâche attribuée |
 | `{{ondertekenaar}}` | Nom de la personne qui signe le devis | Devis à signer |
 | `{{teken_link}}` | Le lien personnel pour signer le devis | Devis à signer |
+| `{{leverancier}}` | Nom du fournisseur | Bon de commande, demande de prix |
+| `{{leverdatum}}` | La date de livraison souhaitée de la commande, ou *à convenir* | Bon de commande |
+| `{{antwoord_voor}}` | La date à laquelle vous souhaitez la réponse à la demande de prix | Demande de prix |
 
 ### Le lien vers le devis en ligne
 

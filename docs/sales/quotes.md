@@ -141,6 +141,23 @@ de prijs met de hand wijzigt.
 
 Staan er bij het afdrukken of mailen nog regels met hoeveelheid 0 op, dan waarschuwt Nimble.
 
+### Een prijsaanvraag naar een leverancier
+
+Hebt u voor een deel van het werk eerst een prijs nodig van een leverancier of onderaannemer, kies dan onder **Meer…**
+**Prijsaanvraag naar een leverancier…**. In het venster kiest u:
+
+- de **leverancier of onderaannemer**;
+- tegen wanneer u het **antwoord** wilt (standaard over een week);
+- welke **blokken** meegaan, als de offerte er meer dan één heeft.
+
+**Voorbeeld** toont de prijsaanvraag als pdf, **Mail opstellen** opent het mailvenster met het sjabloon **Prijsaanvraag
+naar een leverancier** (zie [Mailsjablonen](../settings/mail-templates.md)). De posten gaan mee met hun omschrijving,
+aantal en eenheid, **zonder één prijs**: uw verkoopprijs met marge hoort niet bij de leverancier. Het nummer van deze
+offerte staat erop als uw referentie, met de werf als het project een werfadres heeft.
+
+De mail staat daarna op het tabblad **Mails** van de offerte, en een kopie van de pdf bij de **Bijlagen**. Bewaar de
+offerte eerst: de prijsaanvraag komt uit de bewaarde offerte. Het antwoord van de leverancier leest u in zoals hieronder.
+
 ### Een leveranciersofferte inlezen
 
 Krijgt u voor een deel van het werk een offerte van een leverancier (ramen, een warmtepomp, een keuken), dan leest de AI

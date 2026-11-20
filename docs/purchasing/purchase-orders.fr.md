@@ -145,6 +145,25 @@ l'**Article**, la **Quantité** et le **Prix**.
 Si une ligne a été livrée à un autre prix que celui commandé, ce prix apparaît en orange. En dessous, un
 message vous invite à le vérifier avant d'approuver la facture d'achat.
 
+## Imprimer et envoyer le bon de commande
+
+**Bon de commande** affiche la commande enregistrée en pdf : votre en-tête, le fournisseur, la date de commande et la
+livraison souhaitée, l'adresse de livraison, et par ligne le code du fournisseur (s'il figure sur la fiche article), la
+quantité, le prix et le total. L'**adresse de livraison** est le chantier du projet de la commande, et sans projet
+l'adresse de votre entreprise. La **Note** figure en bas : n'y mettez donc que ce que le fournisseur peut lire. Une
+commande en **Brouillon** porte le mot *PROJET* dans le titre.
+
+**Envoyer au fournisseur** ouvre une fenêtre avec son adresse e-mail, l'objet et le texte du modèle de mail **Bon de
+commande au fournisseur** (voir [Modèles de mail](../settings/mail-templates.md)), et le bon de commande en pièce jointe.
+Adaptez ce qu'il faut et cliquez sur **Envoyer**.
+
+- Si la commande est encore en **Brouillon**, elle passe à **Commandé** après l'envoi : qui envoie, commande. Le bon dans
+  l'e-mail ne porte donc jamais *PROJET*.
+- L'e-mail figure ensuite dans l'onglet **E-mails** de la commande, et une copie du pdf dans les **Pièces jointes**.
+- Enregistrez d'abord : le bon de commande vient de la commande enregistrée. Avec des modifications non enregistrées,
+  Nimble vous demande d'enregistrer d'abord.
+- Le bon et l'e-mail suivent la **langue des documents** du fournisseur.
+
 ## Le statut
 
 | Statut | Signification |
