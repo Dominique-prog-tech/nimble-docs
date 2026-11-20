@@ -51,17 +51,17 @@ jobs:
       - name: Zoeken per taal controleren
         run: python3 _appkit/tools/docs-site/check-zoeken.py site
       # Staat elke gepubliceerde film onder de H1 van zijn pagina, met een volledig VideoObject? Meet de GEBOUWDE site.
-      # --min-paginas: 6 films × 2 talen = 12 handleidingrijen, PLUS 6 websiterijen (19/10/2026). check-films telt elke
-      # gepubliceerde rij met een pagina, ook de websiteversies (2 films × nl/fr/en) — die wijzen naar dezelfde pagina en
-      # meten daar de handleidingspeler opnieuw. Met 12 zou een verdwenen handleidingfilm dus niet meer opvallen; met 18 wel.
-      # Gemeld aan adm-appkit: de websiterijen horen daar overgeslagen te worden (uitvoering == 'website'). Verhoog bij elke nieuwe film — de bodem vangt een uitslagtabel
-      # die stil gekrompen is; daarom komt hij niet uit diezelfde tabel.
+      # --min-paginas: 6 handleidingfilms × 2 talen = 12. Sinds adm-appkit c9a7c48 (20/11/2026) telt check-films enkel de
+      # handleidingrijen; de websiteversies (2 films × nl/fr/en) wijzen naar dezelfde pagina maar staan er niet op. Tot dan
+      # telde hij ze mee en stond hier 18 (12 + 6): met 12 kwam toen een verdwenen handleidingfilm groen door (16 ≥ 12,
+      # gemeten 20/11). Verhoog bij elke nieuwe handleidingfilm met 2 — de bodem vangt een uitslagtabel die stil gekrompen
+      # is; daarom komt hij niet uit diezelfde tabel.
       # Staat elk beeld uit de bron ook als <img> in de gebouwde site? 19/10/2026 verdwenen alle schermafdrukken bij het
       # bouwen (selectolax 1.0.1, zie requirements.txt) terwijl alle stappen hieronder groen bleven.
       - name: Beelden controleren (bron tegen gebouwde site)
         run: python3 tools/check-beelden.py site
       - name: Films controleren (plaatsing + videogegevens)
-        run: python3 _appkit/tools/filmgenerator/check-films.py --min-paginas=18
+        run: python3 _appkit/tools/filmgenerator/check-films.py --min-paginas=12
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
