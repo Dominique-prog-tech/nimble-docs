@@ -1,12 +1,13 @@
 # Statistiques
 
-Les **statistiques** montrent votre chiffre d'affaires par client et par article, et vos achats par fournisseur, sur une période que
-vous choisissez.
+Les **statistiques** montrent votre chiffre d'affaires par client et par article, vos achats par fournisseur et votre marge brute par
+mois, sur une période que vous choisissez.
 
 ## Ouvrir l'écran
 
 Dans la barre latérale, cliquez sur **Ventes → Statistiques**. Vous avez besoin du droit de consulter les factures. L'onglet
-**Achats** n'apparaît qu'avec le droit de consulter les achats.
+**Achats** n'apparaît qu'avec le droit de consulter les achats, l'onglet **Bénéfice** qu'avec le droit de voir les marges et les prix de
+revient.
 
 ![Les statistiques dans l'onglet Ventes avec la période Du et Au, la phrase avec le chiffre d'affaires hors TVA de la période, et côte à côte Chiffre d'affaires par client (client, factures, chiffre d'affaires) et Chiffre d'affaires par article (article, quantité, chiffre d'affaires), chacun avec Exporter.](../images/statistieken-fr.png)
 
@@ -32,6 +33,27 @@ TVA comprise, parce que pour une facture papier la ventilation hors TVA n'est pa
 
 Par article n'est pas possible ici : une facture d'achat ne connaît pas ses articles.
 
+## Bénéfice
+
+**Marge brute par mois** met en regard, par mois, le chiffre d'affaires sur des projets et ce que le travail a coûté ce mois-là :
+
+- **CA hors TVA** : ce qui a été facturé ce mois-là sur des projets, selon la date de facture.
+- **Coût salarial** : les heures des bons de travail de ce mois, au tarif du collaborateur.
+- **Coût matériel** : le matériel des bons de travail de ce mois, au prix d'achat de l'article.
+- **Achats** : ce qui, dans les factures d'achat de ce mois, a été imputé à un projet.
+- **Marge brute** et **Marge** : ce qui reste, et quelle part du chiffre d'affaires cela représente.
+
+En haut figure le total sur toute la période. Le travail et la facture ne tombent pas toujours le même mois : un mois avec beaucoup de
+travail et peu de factures peut donc afficher une perte. Sur une période plus longue, cela s'équilibre. Les frais généraux ne sont pas
+pris en compte.
+
+Un mois sans chiffre d'affaires, sans aucun coût enregistré ou avec uniquement une note de crédit n'a pas de marge : ce chiffre ne
+voudrait rien dire.
+
+S'il manque quelque chose, un message apparaît au-dessus de la liste : des heures d'un collaborateur sans tarif, du matériel sans prix
+d'achat, ou des factures sans projet. Ces dernières ne comptent pas dans la marge, car aucun coût ne leur fait face. Tant qu'un message
+sur des heures ou du matériel est affiché, la marge est trop élevée.
+
 ## Exporter
 
 Chaque liste a **Exporter**, vers Excel ou CSV.
@@ -41,3 +63,4 @@ Chaque liste a **Exporter**, vers Excel ou CSV.
 - [Factures](invoices.md)
 - [Factures d'achat](../purchasing/purchase-invoices.md)
 - [Carnet de commandes](order-book.md)
+- [Projets](../work/projects.md) : le post-calcul par projet

@@ -43,6 +43,12 @@ draagt in de kolom **Portaal** de badge **Standaard zichtbaar**.
 Het vinkje geldt voor de mappen die een project daarna krijgt: bij een nieuw project, of met **Standaardmappen invoegen**.
 Een map die een project al had, en de documenten die al in een map zaten, blijven zoals ze waren.
 
+## Een map voor één projecttype
+
+Gebruikt uw bedrijf [projecttypes](project-types.md), dan kiest u in het venster van een map ook een **Projecttype**. Dan
+krijgen enkel de projecten van dat type deze map. Laat u het leeg, dan krijgt elk project ze. De submappen volgen hun map: een
+submap komt enkel op een project als de map erboven er ook komt. Een project zonder type krijgt enkel de mappen zonder type.
+
 !!! info "Een wijziging raakt enkel nieuwe projecten"
     Een project dat een map al kreeg, houdt ze — ook als u de map hier hernoemt of verwijdert. Op een bestaand
     project vult **Standaardmappen invoegen** op het tabblad Documenten aan wat er nog ontbreekt.

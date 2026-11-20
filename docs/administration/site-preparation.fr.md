@@ -23,6 +23,7 @@ Cliquez sur **Nouveau point**, ou double-cliquez sur un point de la liste. Dans 
 | **Ordre** | La place du point dans la liste du projet. Un nouveau point se place à la fin |
 | **Obligatoire** | Un chantier n'est **prêt à démarrer** que lorsque tous les points obligatoires sont cochés |
 | **Contact client** | Voir ci-dessous |
+| **Type de projet** | Uniquement si votre entreprise utilise des [types de projet](project-types.md). Voir ci-dessous |
 
 Cliquez sur **Enregistrer**.
 
@@ -37,6 +38,15 @@ de *Client : date confirmée, contact connu*.
 Si ce point est encore ouvert une semaine avant le début du chantier, Nimble crée pendant la nuit une
 [tâche](../crm/tasks.md), avec un rappel. Un seul point peut porter **Contact client** : si vous le cochez sur un
 autre point, il disparaît du point précédent.
+
+## Un point pour un seul type de projet
+
+Si vous choisissez un type sous **Type de projet**, seuls les projets de ce type reçoivent ce point. Si vous le laissez vide,
+chaque projet le reçoit. Une rénovation reçoit ainsi par exemple un point qui n'a pas sa place dans une construction neuve.
+Un projet sans type ne reçoit que les points sans type. Dans la liste, le type figure dans la colonne **Type de projet**.
+
+Si le type d'un projet existant change, **Ajouter la liste standard** ajoute les points du nouveau type. Les points que le
+projet avait déjà restent.
 
 ## Supprimer un point
 

@@ -14,9 +14,11 @@ rénovation, entretien, réparation … Vous choisissez vous-même la classifica
 
 - Sur la **fiche projet**, dans la colonne de droite sous Statut de production.
 - Comme **colonne dans la liste des projets**, où vous pouvez trier et filtrer dessus.
+- Dans les modèles pour les nouveaux projets : un point de la [préparation du chantier](site-preparation.md) ou un
+  [dossier standard](default-folders.md) peut ne valoir que pour un seul type.
 
-Le type sert purement à votre propre classement : Nimble n'en calcule rien. Il est pratique pour filtrer
-et pour voir comment votre travail se répartit.
+Nimble ne calcule rien avec le type. Il est pratique pour filtrer et pour voir comment votre travail se répartit, et il
+détermine quels points et dossiers des modèles un nouveau projet reçoit.
 
 ## Ajouter ou modifier un type
 

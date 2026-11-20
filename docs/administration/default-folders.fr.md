@@ -44,6 +44,13 @@ projet. Un tel dossier porte dans la colonne **Portail** le badge **Visible par 
 La case vaut pour les dossiers qu'un projet reçoit ensuite : pour un nouveau projet, ou avec **Insérer les dossiers standard**.
 Un dossier qu'un projet avait déjà, et les documents qui se trouvaient déjà dans un dossier, restent tels quels.
 
+## Un dossier pour un seul type de projet
+
+Si votre entreprise utilise des [types de projet](project-types.md), vous choisissez aussi un **Type de projet** dans la fenêtre
+d'un dossier. Seuls les projets de ce type reçoivent alors ce dossier. Si vous le laissez vide, chaque projet le reçoit. Les
+sous-dossiers suivent leur dossier : un sous-dossier n'arrive sur un projet que si le dossier au-dessus y arrive aussi. Un projet
+sans type ne reçoit que les dossiers sans type.
+
 !!! info "Une modification ne concerne que les nouveaux projets"
     Un projet qui a déjà reçu un dossier le conserve — même si vous renommez ou supprimez le dossier ici. Sur un
     projet existant, **Insérer les dossiers standard** dans l'onglet Documents complète ce qui manque encore.

@@ -22,6 +22,7 @@ Klik **Nieuw punt**, of dubbelklik op een punt in de lijst. In het venster vult 
 | **Volgorde** | De plaats van het punt in de lijst van het project. Een nieuw punt komt achteraan |
 | **Verplicht** | Een werf is pas **startklaar** wanneer alle verplichte punten afgevinkt zijn |
 | **Klantcontact** | Zie hieronder |
+| **Projecttype** | Enkel als uw bedrijf [projecttypes](project-types.md) gebruikt. Zie hieronder |
 
 Klik **Bewaren**.
 
@@ -36,6 +37,15 @@ Vink **Klantcontact** aan bij het punt dat zegt dat de klant gecontacteerd is. I
 Staat dat punt een week vóór de start van de werf nog open, dan maakt Nimble 's nachts een
 [taak](../crm/tasks.md) aan, met een herinnering. Eén punt kan **Klantcontact** dragen: vinkt u het bij een ander
 punt aan, dan verdwijnt het bij het vorige.
+
+## Een punt voor één projecttype
+
+Kiest u bij **Projecttype** een type, dan krijgen enkel de projecten van dat type dit punt. Laat u het leeg, dan krijgt elk
+project het. Zo krijgt een renovatie bijvoorbeeld een punt dat bij nieuwbouw niet hoort. Een project zonder type krijgt
+enkel de punten zonder type. In de lijst staat het type in de kolom **Projecttype**.
+
+Verandert het type van een bestaand project, dan voegt **Standaardlijst toevoegen** de punten van het nieuwe type toe. De
+punten die het project al had, blijven staan.
 
 ## Een punt verwijderen
 

@@ -14,9 +14,11 @@ herstelling … U kiest zelf welke indeling zinvol is voor uw bedrijf.
 
 - Op de **projectfiche**, in de rechterkolom onder Productiestatus.
 - Als **kolom in de projectenlijst**, waar u erop kunt sorteren en filteren.
+- In de sjablonen voor nieuwe projecten: een punt van de [werfvoorbereiding](site-preparation.md) of een
+  [standaardmap](default-folders.md) kan enkel voor één type gelden.
 
-Het type is puur voor uw eigen indeling: Nimble rekent er niets mee. Het is handig om te filteren en om
-te zien hoe uw werk verdeeld is.
+Nimble rekent niets met het type. Het is handig om te filteren en om te zien hoe uw werk verdeeld is, en het bepaalt
+welke punten en mappen van de sjablonen een nieuw project krijgt.
 
 ## Een type toevoegen of wijzigen
 
