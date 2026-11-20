@@ -68,8 +68,14 @@ export const FILMS = [
       // Het Engels toont het NEDERLANDSE scherm (de app spreekt geen Engels) met Engelse tekst in beeld.
       // Eigen omschrijving (content-hub, 20/11/2026): die van de film beloofde wat deze selectie NIET toont (filteren en exporteren,
       // bewaren, de hulp, de assistent, de voorkeuren). Ze komt via website-films.json in het VideoObject van de startpagina.
+      // Eigen titel (Dominique, 20/11/2026): die van de film eindigt op "en de hulp", en de hulp zit niet in deze selectie.
       website: { stem: false, scenes: ['dashboard', 'aandacht', 'menu', 'lijst', 'fiche', 'journaal'],
         talen: [{ ui: 'nl-BE', tekst: 'nl' }, { ui: 'fr-BE', tekst: 'fr' }, { ui: 'nl-BE', tekst: 'en' }],
+        titel: {
+          nl: 'Aan de slag met Nimble: het dashboard, de lijsten en de fiches',
+          fr: 'Premiers pas avec Nimble : le tableau de bord, les listes et les fiches',
+          en: 'Getting started with Nimble: the dashboard, lists and records',
+        },
         omschrijving: {
           nl: 'Een korte rondleiding door Nimble: het dashboard met uw kerncijfers en wat vandaag aandacht vraagt, het menu met CRM, '
             + 'verkoop, werk, inkoop en voorraad, een lijst die filtert terwijl u typt, en een klantenfiche met haar journaal van '
