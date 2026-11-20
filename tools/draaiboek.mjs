@@ -66,8 +66,21 @@ export const FILMS = [
       handleiding: { stem: true },
       // Websiteversie voor de startpagina van nimble-website (content-hub, 19/10/2026). Zonder stem: de site speelt gedempt in een lus, de zin staat in beeld.
       // Het Engels toont het NEDERLANDSE scherm (de app spreekt geen Engels) met Engelse tekst in beeld.
+      // Eigen omschrijving (content-hub, 20/11/2026): die van de film beloofde wat deze selectie NIET toont (filteren en exporteren,
+      // bewaren, de hulp, de assistent, de voorkeuren). Ze komt via website-films.json in het VideoObject van de startpagina.
       website: { stem: false, scenes: ['dashboard', 'aandacht', 'menu', 'lijst', 'fiche', 'journaal'],
-        talen: [{ ui: 'nl-BE', tekst: 'nl' }, { ui: 'fr-BE', tekst: 'fr' }, { ui: 'nl-BE', tekst: 'en' }] },
+        talen: [{ ui: 'nl-BE', tekst: 'nl' }, { ui: 'fr-BE', tekst: 'fr' }, { ui: 'nl-BE', tekst: 'en' }],
+        omschrijving: {
+          nl: 'Een korte rondleiding door Nimble: het dashboard met uw kerncijfers en wat vandaag aandacht vraagt, het menu met CRM, '
+            + 'verkoop, werk, inkoop en voorraad, een lijst die filtert terwijl u typt, en een klantenfiche met haar journaal van '
+            + 'taken, notities, mails en historiek.',
+          fr: 'Une courte visite de Nimble : le tableau de bord avec vos chiffres clés et ce qui demande votre attention aujourd’hui, '
+            + 'le menu avec CRM, ventes, travail, achats et stock, une liste qui se filtre au fur et à mesure que vous tapez, et une '
+            + 'fiche client avec son journal de tâches, notes, e-mails et historique.',
+          en: 'A short tour of Nimble: the dashboard with your key figures and what needs attention today, the menu with CRM, '
+            + 'sales, work, purchasing and stock, a list that filters as you type, and a customer record with its journal of '
+            + 'tasks, notes, emails and history.',
+        } },
     },
     scenes: [
       { naam: 'dashboard', kop: { nl: 'Het dashboard', fr: 'Le tableau de bord', en: 'The dashboard' },
@@ -625,8 +638,21 @@ export const FILMS = [
       // Websiteversie voor de functiepagina /offertes/ van nimble-website (content-hub, 19/10/2026). Zonder 'nieuw' en 'inladen': die bewaren een offerte.
       // Zonder 'klant': die opname duurde 60 s (richtduur 30–45); zoeken + fiche openen kostte 12 s, en die scène is CRM, niet offertes. Zonder stem: de site speelt gedempt in een lus, de zin staat in beeld.
       // Het Engels toont het NEDERLANDSE scherm (de app spreekt geen Engels) met Engelse tekst in beeld.
+      // Eigen omschrijving (content-hub, 20/11/2026): die van de film beloofde de lead die klant wordt en de prijsafspraak die u in
+      // één klik op een nieuwe offerte zet, en net die scènes laat deze selectie weg. Ze komt in het VideoObject van /offertes/.
       website: { stem: false, scenes: ['leadbord', 'offertebord', 'offerte', 'afspraken', 'afspraak'],
-        talen: [{ ui: 'nl-BE', tekst: 'nl' }, { ui: 'fr-BE', tekst: 'fr' }, { ui: 'nl-BE', tekst: 'en' }] },
+        talen: [{ ui: 'nl-BE', tekst: 'nl' }, { ui: 'fr-BE', tekst: 'fr' }, { ui: 'nl-BE', tekst: 'en' }],
+        omschrijving: {
+          nl: 'Van aanvraag tot offerte in Nimble: het leadbord met elke aanvraag van eerste contact tot gewonnen, het offertebord '
+            + 'met uw offertes per status, een offerte in blokken en regels waarvan Nimble de totalen rekent, en de vaste prijzen '
+            + 'die u met een klant voor een periode afspreekt, met de afgesproken prijs, de kostprijs en de marge naast elkaar.',
+          fr: 'De la demande au devis dans Nimble : le tableau des leads avec chaque demande, du premier contact à l’affaire conclue, '
+            + 'le tableau des devis avec vos devis par statut, un devis en blocs et en lignes dont Nimble calcule les totaux, et les '
+            + 'prix fixes convenus avec un client pour une période, avec le prix convenu, le prix de revient et la marge côte à côte.',
+          en: 'From request to quote in Nimble: the lead board with every request from first contact to won, the quote board with '
+            + 'your quotes by status, a quote in sections and lines with the totals calculated for you, and the fixed prices you '
+            + 'agree with a customer for a set period, with the agreed price, cost price and margin side by side.',
+        } },
     },
     scenes: [
       { naam: 'leadbord', kop: { nl: 'Het leadbord', fr: 'Le tableau des leads', en: 'The lead board' },

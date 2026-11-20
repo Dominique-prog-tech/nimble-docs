@@ -467,7 +467,7 @@
       "vuil": false
     },
     "titel": "Aan de slag met Nimble — het scherm, de lijsten, de fiches en de hulp",
-    "omschrijving": "De eerste rondleiding: het dashboard met uw kerncijfers en wat aandacht vraagt, het menu, werken in een lijst (zoeken, filteren, exporteren), een fiche met haar journaal, wat er gebeurt met niet-bewaarde wijzigingen, de hulp bij elk scherm, de assistent en uw eigen voorkeuren.",
+    "omschrijving": "Een korte rondleiding door Nimble: het dashboard met uw kerncijfers en wat vandaag aandacht vraagt, het menu met CRM, verkoop, werk, inkoop en voorraad, een lijst die filtert terwijl u typt, en een klantenfiche met haar journaal van taken, notities, mails en historiek.",
     "hash": "43a94157cd75d979",
     "guid": "60c96e98-53da-4220-a8a9-77b5135b2457",
     "hoofdstukken": [
@@ -521,7 +521,7 @@
       "vuil": false
     },
     "titel": "Premiers pas avec Nimble — l’écran, les listes, les fiches et l’aide",
-    "omschrijving": "La première visite guidée : le tableau de bord avec vos chiffres clés et ce qui demande attention, le menu, le travail dans une liste (rechercher, filtrer, exporter), une fiche et son journal, ce qui se passe avec des modifications non enregistrées, l’aide sur chaque écran, l’assistant et vos préférences.",
+    "omschrijving": "Une courte visite de Nimble : le tableau de bord avec vos chiffres clés et ce qui demande votre attention aujourd’hui, le menu avec CRM, ventes, travail, achats et stock, une liste qui se filtre au fur et à mesure que vous tapez, et une fiche client avec son journal de tâches, notes, e-mails et historique.",
     "hash": "c8b95d7165378181",
     "guid": "b319d9f2-4e16-44d3-9724-3346c73609ea",
     "hoofdstukken": [
@@ -575,7 +575,7 @@
       "vuil": false
     },
     "titel": "Getting started with Nimble — the screen, lists, records and help",
-    "omschrijving": "A first tour of Nimble: the dashboard with your key figures and what needs attention, the menu, working in a list (search, filter, export), a record with its journal, help on every screen and your own preferences.",
+    "omschrijving": "A short tour of Nimble: the dashboard with your key figures and what needs attention today, the menu with CRM, sales, work, purchasing and stock, a list that filters as you type, and a customer record with its journal of tasks, notes, emails and history.",
     "hash": "ac805fc848f11b00",
     "guid": "7bb12553-227e-4332-9d88-c5c021f99b1e",
     "hoofdstukken": [
@@ -631,7 +631,7 @@
       "vuil": false
     },
     "titel": "Van aanvraag tot offerte — lead, klant en offerte in Nimble",
-    "omschrijving": "De keten van een aanvraag tot een offerte: het leadbord, een gewonnen lead die klant wordt, het offertebord, een offerte met haar blokken en regels, en een prijsafspraak met een klant die u in één klik op een nieuwe offerte zet.",
+    "omschrijving": "Van aanvraag tot offerte in Nimble: het leadbord met elke aanvraag van eerste contact tot gewonnen, het offertebord met uw offertes per status, een offerte in blokken en regels waarvan Nimble de totalen rekent, en de vaste prijzen die u met een klant voor een periode afspreekt, met de afgesproken prijs, de kostprijs en de marge naast elkaar.",
     "hash": "8367449aa6471ed7",
     "guid": "195eacde-4b7b-4cde-a137-d0f8d3fa6258",
     "hoofdstukken": [
@@ -683,7 +683,7 @@
       "vuil": false
     },
     "titel": "De la demande au devis — lead, client et devis dans Nimble",
-    "omschrijving": "La chaîne de la demande au devis : le tableau des leads, un lead gagné qui devient client, le tableau des devis, un devis avec ses blocs et ses lignes, et un accord de prix avec un client que vous placez en un clic dans un nouveau devis.",
+    "omschrijving": "De la demande au devis dans Nimble : le tableau des leads avec chaque demande, du premier contact à l’affaire conclue, le tableau des devis avec vos devis par statut, un devis en blocs et en lignes dont Nimble calcule les totaux, et les prix fixes convenus avec un client pour une période, avec le prix convenu, le prix de revient et la marge côte à côte.",
     "hash": "72eb320ba45f229d",
     "guid": "83cd919a-76f6-4172-b5ff-bbc37eed96d3",
     "hoofdstukken": [
@@ -735,7 +735,7 @@
       "vuil": false
     },
     "titel": "From request to quote — leads, customers and quotes in Nimble",
-    "omschrijving": "The chain from a request to a quote: the lead board, a won lead that becomes a customer, the quote board, a quote with its sections and lines, and a price agreement with a customer that you load onto a new quote in one click.",
+    "omschrijving": "From request to quote in Nimble: the lead board with every request from first contact to won, the quote board with your quotes by status, a quote in sections and lines with the totals calculated for you, and the fixed prices you agree with a customer for a set period, with the agreed price, cost price and margin side by side.",
     "hash": "da30490f1b2c6918",
     "guid": "327a3e89-b7ee-4aa6-a705-4f318bb36c08",
     "hoofdstukken": [
