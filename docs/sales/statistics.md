@@ -42,6 +42,8 @@ Per artikel kan hier niet: een aankoopfactuur kent haar artikelen niet.
 - **Aankopen**: wat er van de aankoopfacturen van die maand aan een project toegewezen is.
 - **Brutowinst** en **Marge**: wat overblijft, en welk deel van de omzet dat is.
 
+![Het tabblad Winst met de periode Van en Tot en met, het totaal over de hele periode, de meldingen over uren zonder tarief en materiaal zonder aankoopprijs, en Brutowinst per maand met per maand de omzet excl. btw, loonkost, materiaalkost, aankopen, brutowinst en marge.](../images/statistieken-winst.png)
+
 Bovenaan staat het totaal over de hele periode. Werk en factuur vallen niet altijd in dezelfde maand: een maand met veel werk en
 weinig facturen kan dus verlies tonen. Over een langere periode valt dat weg. Algemene kosten tellen niet mee.
 

@@ -43,6 +43,8 @@ Par article n'est pas possible ici : une facture d'achat ne connaît pas ses art
 - **Achats** : ce qui, dans les factures d'achat de ce mois, a été imputé à un projet.
 - **Marge brute** et **Marge** : ce qui reste, et quelle part du chiffre d'affaires cela représente.
 
+![L'onglet Bénéfice avec la période Du et Au, le total sur toute la période, les avertissements sur les heures sans tarif et le matériel sans prix d'achat, et Marge brute par mois avec par mois le CA hors TVA, le coût salarial, le coût matériel, les achats, la marge brute et la marge.](../images/statistieken-winst-fr.png)
+
 En haut figure le total sur toute la période. Le travail et la facture ne tombent pas toujours le même mois : un mois avec beaucoup de
 travail et peu de factures peut donc afficher une perte. Sur une période plus longue, cela s'équilibre. Les frais généraux ne sont pas
 pris en compte.
