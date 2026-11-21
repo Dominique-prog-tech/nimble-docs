@@ -59,6 +59,17 @@ de lijst** bovenaan.
 
 Klikt u **Bewaren** terwijl **Nummer** of **Project** leeg is, dan zegt de fiche bovenaan wat er ontbreekt.
 
+### Toestellen
+
+Op een bewaarde werkorder staat de kaart **Toestellen**: de toestellen waaraan op deze werkorder gewerkt wordt, met hun soort,
+serienummer en locatie. Komt de werkorder van een [onderhoudsbezoek](maintenance.md), dan neemt hij de toestellen van dat bezoek
+over. Bij een herstelling kiest u ze zelf met **Toestellen kiezen**: het venster toont de toestellen van het project eerst, daarna
+de andere van dezelfde klant.
+
+![De kaart Toestellen op werkorder WO-2026-005 met de ventilatie-unit van De Wilde Interieur BV, met haar soort, merk, model, serienummer en locatie, en rechts de knop Toestellen kiezen.](../images/werkorder-toestellen.png)
+
+Op de werkbonnen van deze werkorder vinkt de technieker per toestel af wat hij nakeek, zie [Werkbonnen](work-sheets.md#toestellen).
+
 ### Uitvoering
 
 Dit blok staat op een bewaarde werkorder. U vult het **niet** in — het leest van de werkbonnen die onder

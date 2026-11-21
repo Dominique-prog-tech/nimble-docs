@@ -1,14 +1,14 @@
-# Suivi des leads et des devis
+# Suivi des leads, des devis et de l'entretien
 
 Chaque matin, Nimble vérifie quels leads restent en plan et quels devis envoyés n'ont pas encore de réponse, et en
-crée une tâche. Cet écran détermine quand cela se produit.
+crée une tâche. Le même tour prépare la prochaine visite d'entretien. Cet écran détermine quand cela se produit.
 
 ## Ouvrir l'écran
 
 1. Cliquez sur **Administration** en bas de la barre latérale.
-2. Dans le groupe **Leads**, cliquez sur la tuile **Suivi des leads et des devis**.
+2. Dans le groupe **Leads**, cliquez sur la tuile **Suivi des leads, des devis et de l'entretien**.
 
-![L'écran de réglages Suivi des leads et des devis avec la case Suivi automatique activé, le champ Silencieux après (jours), le bloc Devis envoyés avec Suivre les devis sans réponse et Suivre après (jours), et les boutons Enregistrer et Lancer le suivi maintenant.](../images/leadopvolging-scherm-fr.png)
+![L'écran de réglages Suivi des leads, des devis et de l'entretien avec la case Suivi automatique activé, le champ Silencieux après (jours), le bloc Devis envoyés avec Suivre les devis sans réponse et Suivre après (jours), le bloc Contrats d'entretien avec Préparer (jours avant) et la case Avertir le client de sa visite d'entretien, et les boutons Enregistrer et Lancer le suivi maintenant.](../images/leadopvolging-scherm-fr.png)
 
 ## Les trois règles
 
@@ -48,7 +48,8 @@ conservées — désactiver ne peut pas faire disparaître du travail déjà att
 Le bouton **Lancer le suivi maintenant** se trouve à côté d'**Enregistrer**. Vous lancez ainsi un cycle immédiatement au lieu d'attendre le lendemain matin. Pratique juste après avoir
 modifié le délai : vous voyez directement combien de tâches cela donne.
 
-Le message indique ce que la ronde a fait, par exemple *12 leads examinés, 2 nouvelles tâches, 3 existaient déjà. Devis : 1 nouvelles tâches.*
+Le message indique ce que la ronde a fait, par exemple *Leads examinés : 12. Nouvelles tâches : 2. Déjà existantes : 3. Devis, nouvelles tâches : 1.*
+Si la ronde a préparé une visite d'entretien, le message l'indique aussi, par exemple *Entretien : 1 préparé(s), 0 terminé(s).*
 
 !!! info "Enregistrez d'abord"
     Le bouton s'exécute avec ce qui se trouve dans la base de données, pas avec ce qui est à l'écran. Si
@@ -72,6 +73,18 @@ Nimble n'envoie rien au client ; vous envoyez le rappel depuis le devis avec **P
 - Un devis qui dépasse ce délai de plus de 30 jours ne reçoit plus de tâche : ce n'est plus un suivi mais un devis oublié. Vérifiez-le
   dans la [liste des devis](../sales/quotes.md).
 - Chaque envoi donne une seule tâche, même si vous la terminez sans que le client réponde.
+
+Cliquez sur **Enregistrer** après une modification.
+
+## Contrats d'entretien
+
+Le même tour prépare les visites de vos [contrats d'entretien](../work/maintenance.md).
+
+- **Préparer (jours avant)** : autant de jours avant la prochaine visite, Nimble prépare le matin un ordre de travail dans
+  **À planifier** sur le tableau de planning, avec une tâche pour le responsable du projet. Par défaut **30 jours**.
+- **Avertir le client de sa visite d'entretien** : un e-mail lorsque la visite est préparée (*nous vous contactons*), et une
+  confirmation dès qu'elle a un jour sur le tableau de planning. **Par défaut, c'est désactivé.** Par contrat, vous le désactivez
+  encore dans l'onglet Entretien du projet ; les textes se trouvent dans **Modèles de mail**.
 
 Cliquez sur **Enregistrer** après une modification.
 

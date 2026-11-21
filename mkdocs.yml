@@ -216,6 +216,9 @@ plugins:
             Bestellingen: Commandes
             Productiestatus: Statut de production
             Projecttypes: Types de projet
+            Soorten installatie: Types d'installation
+            Onderhoud: Entretien
+            Installaties: Installations
             Standaardmappen: Dossiers standard
             Werfvoorbereiding: Préparation du chantier
             Pipeline-status: Statut pipeline
@@ -311,6 +314,8 @@ nav:
     - Meerwerken: work/extra-work.md
     - Openstaande punten: work/open-points.md
     - Planning: work/planning.md
+    - Onderhoud: work/maintenance.md
+    - Installaties: work/installations.md
     - Medewerkers: work/staff.md
     - Urenstaat: work/timesheet.md
     - Ploegen: work/teams.md
@@ -345,6 +350,7 @@ nav:
     - Stamgegevens: administration/master-data.md
     - Productiestatus: administration/production-statuses.md
     - Projecttypes: administration/project-types.md
+    - Soorten installatie: administration/installation-types.md
     - Werfvoorbereiding: administration/site-preparation.md
     - Standaardmappen: administration/default-folders.md
     - Pipeline-status: administration/pipeline-statuses.md

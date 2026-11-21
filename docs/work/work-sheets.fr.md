@@ -54,7 +54,7 @@ Vous ouvrez une fiche en double-cliquant sur une ligne.
 ![La fiche d'un bon de travail : en haut le numéro de l'ordre de travail avec la date et un lien vers le projet, en dessous les blocs La journée de travail, Heures par collaborateur, Avancement et travaux supplémentaires, et Matériel consommé.](../images/werkbon-fiche-fr.png)
 
 En haut figurent le numéro de l'ordre de travail et la date, et en dessous un lien vers le **projet** dont
-relève cet ordre. À gauche se trouve l'onglet **La journée de travail**, à droite **Tâches**, **Notes**,
+relève cet ordre. À gauche se trouvent les onglets **La journée de travail** et **Appareils**, à droite **Tâches**, **Notes**,
 **Pièces jointes**, **E-mails** et **Historique**.
 
 En bas se trouve la barre de boutons : **Enregistrer**, **Aperçu avant impression**, **Annuler** et, à part
@@ -196,6 +196,29 @@ un bon enregistré, où le matériel est déjà déduit, si le stock est négati
     Le stock a déjà bougé. Si quelque chose ne va pas, corrigez-le par un mouvement de stock distinct plutôt
     que de modifier le bon — sinon votre bon de travail et votre stock divergent.
 
+### Appareils
+
+Dans l'onglet **Appareils**, vous cochez pour chaque appareil de l'ordre de travail ce qui a été contrôlé. Chaque appareil a sa
+propre carte.
+
+![L'onglet Appareils d'un bon de travail avec la carte du groupe de ventilation de De Wilde Interieur BV : les points « Debietmeting », « Filters » et « Condensafvoer » avec leur résultat et leur remarque, la conclusion Suivi nécessaire avec une remarque, et le bouton Enregistrer le contrôle.](../images/werkbon-toestellen-fr.png)
+
+- Les **points** proviennent du champ **À vérifier** de la [visite d'entretien](maintenance.md#les-visites-dentretien). Tant que
+  vous n'avez rien enregistré, la carte indique *Points de la visite, pas encore enregistrés*. Avec **Ajouter un point**, vous en
+  ajoutez un ; avec la croix, vous en retirez un.
+- Pour chaque point, vous choisissez un **Résultat** : *Pas encore contrôlé*, *En ordre*, *Pas en ordre* ou *N.a.*, avec une
+  **Remarque**.
+- La **Conclusion** sur l'appareil est *En ordre* ou *Suivi nécessaire*. Tant qu'elle reste ouverte, la carte en propose une sur
+  la base des points.
+- **Enregistrer le contrôle** n'enregistre que cette carte. Ce que vous avez rempli sur une autre carte reste en place jusqu'à ce
+  que vous l'enregistriez aussi.
+
+Si le bon de travail est signé par le client, les contrôles sont figés. Chaque contrôle enregistré figure aussi dans l'onglet
+[Historique](installations.md#historique) de l'appareil.
+
+Si aucun appareil n'est lié à l'ordre de travail, l'onglet l'indique. Choisissez-les sur l'[ordre de travail](work-orders.md#appareils)
+ou lors de la visite d'entretien.
+
 ## Faire signer la feuille
 
 L'**Aperçu avant impression** vous donne le bon sous forme de document : la feuille que l'équipe fait
@@ -205,6 +228,9 @@ déplacement y figure par personne comme *déplacement* : le client signe aussi 
 ![Le bon de travail imprimé du 28/09/2026 sur WO-2026-002 — en néerlandais, la langue de ce client : en haut le chantier, puis la date, l'ordre de travail, le projet et le total des heures, les blocs des heures par collaborateur, du rapport du jour, du matériel consommé et de la fin de journée, un cadre de travaux supplémentaires, et en bas les emplacements de signature.](../images/werkbon-afdruk-fr.png)
 
 Si le bon de travail est signé, la signature du client figure sur la feuille.
+
+Si un contrôle est enregistré dans l'onglet **Appareils**, la feuille reçoit pour chaque appareil un **rapport d'entretien** : les
+points avec leur résultat et leur remarque, et la conclusion.
 
 Cela ne fonctionne que sur un bon **enregistré**.
 

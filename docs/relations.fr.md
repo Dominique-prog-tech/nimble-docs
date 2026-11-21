@@ -35,7 +35,7 @@ Cliquez sur **CRM → Relations** dans la barre latérale.
 
 ## La fiche de relation
 
-À gauche figurent les onglets **Fiche** et **Personnes de contact** — pour un client, aussi **Accords de prix**. À droite figure le journal de ce client : **Tâches**, **Notes**, **Pièces jointes**, **E-mails** et **Historique** — voir [Travailler avec une fiche](fiches.fr.md).
+À gauche figurent les onglets **Fiche** et **Personnes de contact** ; pour un client, aussi **Accords de prix**, **Portail** et **Installations**. À droite figure le journal de ce client : **Tâches**, **Notes**, **Pièces jointes**, **E-mails** et **Historique** — voir [Travailler avec une fiche](fiches.fr.md).
 
 Si un autre logiciel a créé le client via la connexion avec Nimble (l'API), **Créé via** suivi du nom de ce logiciel figure à côté du nom. Tant que personne pouvant modifier les relations n'a ouvert la fiche, la cloche en haut à droite indique *1 nouveau client créé via l'API*. Un tel logiciel ne peut pas créer un second client avec le même numéro de TVA ou la même adresse e-mail. Il ne peut pas non plus modifier le client : cela se fait dans Nimble.
 
@@ -155,6 +155,14 @@ Pour un **client**, vous donnez ici accès au client lui-même ou à l'une de se
 [portail pour vos clients](crm/portaal-voor-klanten.md) : il y suit ses projets, les documents que vous partagez et ses
 factures. Vous voyez qui a accès et où en est cette personne ; avec **Inviter**, **Inviter à nouveau** et **Retirer
 l'accès**, vous gérez l'accès. Cela se fait immédiatement : vous ne cliquez pas sur **Enregistrer** pour cela.
+
+### Onglet Installations
+
+Pour un **client**, vous trouvez ici ses appareils : type, numéro de série, projet, emplacement, garantie et état. Double-cliquez sur
+une ligne pour ouvrir la fiche de l'appareil ; **Nouvelle installation** ouvre une fiche vide avec le client déjà rempli. Vous voyez
+cet onglet si vous pouvez consulter les projets. Pour en savoir plus : [Installations](work/installations.md).
+
+![L'onglet Installations de Residentie Parkzicht VME : les deux anciennes chaudières du projet P2026-002 à l'état Remplacé et le groupe de ventilation dans le local technique, avec leur numéro de série, leur projet, leur emplacement, leur garantie et leur état.](images/relatie-installaties-fr.png)
 
 ## En bas de la fiche
 

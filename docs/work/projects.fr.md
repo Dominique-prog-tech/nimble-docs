@@ -69,7 +69,7 @@ Votre choix entre **Liste** et **Tableau** est conservé.
 
 Vous ouvrez une fiche en double-cliquant sur une ligne.
 
-En haut figurent à gauche les onglets **Général**, **Transmission**, **Préparation**, **Planning**, **Matériel**,
+En haut figurent à gauche les onglets **Général**, **Transmission**, **Préparation**, **Planning**, **Entretien**, **Matériel**,
 **Réception** et **Documents** — et **États d'avancement** pour un projet avec un devis accepté — et à droite
 **Tâches**, **Notes**, **Pièces jointes**, **E-mails** et **Historique**.
 
@@ -83,7 +83,9 @@ droite, **Supprimer**. La barre reste en place pendant que vous faites défiler 
 
 ### Onglet Général
 
-![La fiche du projet P2026-001 sur l'onglet Général : à gauche le numéro, le nom, le client et la description, à droite le statut, le statut de production, le type de projet, le statut pipeline, les dates, le budget, la case Commandé et l'adresse du chantier.](../images/project-fiche-fr.png)
+![La fiche du projet P2026-001 sur l'onglet Général : la carte Général avec à gauche le numéro, le nom, le client, le responsable et les dates, à droite le statut, le statut de production, le type de projet, le statut pipeline, le budget et la case Commandé, et la description sur toute la largeur ; en dessous la carte Chantier avec le chantier, la rue et le contact sur le chantier à gauche, et le code postal, la commune et le pays à droite.](../images/project-fiche-fr.png)
+
+Les champs figurent dans deux cartes : **Général** et **Chantier**.
 
 | Champ | Remarque |
 |---|---|
@@ -292,6 +294,12 @@ vous les remplissez vous-même.
 
 Vous ne voyez cet onglet que si vous pouvez consulter le planning ; ajouter ou modifier des blocs demande le droit
 de modifier le planning.
+
+### Onglet Entretien
+
+Vous y enregistrez un contrat d'entretien : le **contrat** avec sa durée et son prix, les **installations** du projet et les
+**visites d'entretien** qui reviennent. Nimble prépare chaque visite à temps sous la forme d'un ordre de travail. Tout cela est
+expliqué dans [Entretien](maintenance.md#longlet-entretien-du-projet).
 
 ### Onglet Matériel
 
@@ -509,6 +517,8 @@ exemple *24/09/2026 — WO-2026-0001 — Werkuur installateur*, le nombre d'heur
   jamais au prix de l'article horaire du travail. Si aucun article pour le déplacement n'est défini, le
   déplacement n'apparaît pas sur la facture et la fenêtre indique combien d'heures cela représente. Cela ne
   bloque pas la facture.
+- Si le projet a un [contrat d'entretien](maintenance.md#le-contrat) avec un prix fixe, les heures des visites d'entretien sont
+  comprises dans ce prix : la fenêtre ne les montre pas. Une réparation sur le même projet y figure bien.
 - Cochez les lignes à facturer et cliquez sur **Créer un brouillon de facture**. Vous arrivez sur un brouillon
   que vous pouvez encore vérifier ; la TVA suit le taux du devis accepté du projet.
 

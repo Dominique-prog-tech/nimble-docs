@@ -35,7 +35,7 @@ Klik in de zijbalk op **CRM → Relaties**.
 
 ## De relatiefiche
 
-Links staan de tabbladen **Fiche** en **Contactpersonen** — bij een klant ook **Prijsafspraken**. Rechts staat het journaal van deze klant: **Taken**, **Notities**, **Bijlagen**, **Mails** en **Logboek** — zie [Werken met een fiche](fiches.md).
+Links staan de tabbladen **Fiche** en **Contactpersonen**; bij een klant ook **Prijsafspraken**, **Portaal** en **Installaties**. Rechts staat het journaal van deze klant: **Taken**, **Notities**, **Bijlagen**, **Mails** en **Logboek** — zie [Werken met een fiche](fiches.md).
 
 Maakte een ander programma de klant aan via de koppeling met Nimble (de API), dan staat naast de naam **Aangemaakt via** met de naam van dat programma. Zolang niemand die relaties mag bewerken de fiche opende, meldt het belletje rechtsboven *1 nieuwe klant aangemaakt via de API*. Zo'n programma kan geen tweede klant maken met hetzelfde btw-nummer of e-mailadres. De klant wijzigen kan het ook niet: dat doet u in Nimble.
 
@@ -156,6 +156,14 @@ Bij een **klant** geeft u hier de klant zelf of een van zijn contactpersonen toe
 [portaal voor uw klanten](crm/portaal-voor-klanten.md): daar volgt hij zijn projecten, de documenten die u deelt en zijn
 facturen. U ziet wie toegang heeft en hoe ver die persoon staat; met **Uitnodigen**, **Opnieuw uitnodigen** en
 **Toegang intrekken** beheert u de toegang. Dat gebeurt meteen: daarvoor klikt u niet op **Bewaren**.
+
+### Tabblad Installaties
+
+Bij een **klant** staan hier zijn toestellen: soort, serienummer, project, locatie, garantie en toestand. Dubbelklik op een rij om
+de fiche van het toestel te openen; **Nieuwe installatie** opent een lege fiche met de klant al ingevuld. U ziet het tabblad
+wanneer u projecten mag bekijken. Meer in [Installaties](work/installations.md).
+
+![Het tabblad Installaties van Residentie Parkzicht VME: de twee oude ketels van project P2026-002 op Vervangen en de ventilatie-unit in de technische ruimte, met hun serienummer, project, locatie, garantie en toestand.](images/relatie-installaties.png)
 
 ## Onderaan de fiche
 

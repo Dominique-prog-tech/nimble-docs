@@ -1,14 +1,15 @@
-# Opvolging van leads en offertes
+# Opvolging van leads, offertes en onderhoud
 
 Elke ochtend kijkt Nimble na welke leads blijven liggen en welke verstuurde offertes nog geen antwoord hebben, en
-maakt daar een taak van. Op dit scherm bepaalt u wanneer dat gebeurt.
+maakt daar een taak van. Dezelfde ronde zet het volgende onderhoudsbezoek klaar. Op dit scherm bepaalt u wanneer dat
+gebeurt.
 
 ## Het scherm openen
 
 1. Klik onderaan in de zijbalk op **Platformbeheer**.
-2. Klik in de groep **Leads** op de tegel **Opvolging van leads en offertes**.
+2. Klik in de groep **Leads** op de tegel **Opvolging van leads, offertes en onderhoud**.
 
-![Het instellingenscherm Opvolging van leads en offertes met het vinkje Automatische opvolging aan, het veld Stil na (dagen), het blok Verstuurde offertes met Offertes zonder antwoord opvolgen en Opvolgen na (dagen), en de knoppen Bewaren en Opvolging nu draaien.](../images/leadopvolging-scherm.png)
+![Het instellingenscherm Opvolging van leads, offertes en onderhoud met het vinkje Automatische opvolging aan, het veld Stil na (dagen), het blok Verstuurde offertes met Offertes zonder antwoord opvolgen en Opvolgen na (dagen), het blok Onderhoudscontracten met Klaarzetten (dagen vooraf) en het vinkje De klant verwittigen over zijn onderhoudsbezoek, en de knoppen Bewaren en Opvolging nu draaien.](../images/leadopvolging-scherm.png)
 
 ## De drie regels
 
@@ -48,7 +49,8 @@ gewoon staan — uitzetten mag geen werk laten verdwijnen dat al aan iemand toeg
 De knop **Opvolging nu draaien** staat naast **Bewaren**. Hiermee draait u meteen een ronde in plaats van tot morgenochtend te wachten. Handig net nadat u de termijn
 gewijzigd hebt: u ziet direct hoeveel taken dat oplevert.
 
-De melding toont wat de ronde deed, bijvoorbeeld *12 leads bekeken, 2 nieuwe taken, 3 bestonden al. Offertes: 1 nieuwe taken.*
+De melding toont wat de ronde deed, bijvoorbeeld *Leads bekeken: 12. Nieuwe taken: 2. Al aanwezig: 3. Offertes, nieuwe taken: 1.*
+Zette de ronde een onderhoudsbezoek klaar, dan staat dat er ook bij, bijvoorbeeld *Onderhoud: 1 klaargezet, 0 afgewerkt.*
 
 !!! info "Bewaar eerst"
     De knop draait met wat er in de databank staat, niet met wat er op het scherm staat. Wijzigt u de
@@ -71,6 +73,18 @@ mailde. Nimble stuurt de klant zelf niets; de herinnering verstuurt u vanuit de 
 - Een offerte die al meer dan 30 dagen over die termijn is, krijgt geen taak meer: dat is geen opvolging meer maar een vergeten
   offerte. Kijk die na in de [offertelijst](../sales/quotes.md).
 - Per verzending komt er één taak, ook als u ze afwerkt zonder dat de klant antwoordt.
+
+Klik op **Bewaren** na een wijziging.
+
+## Onderhoudscontracten
+
+Dezelfde ronde zet de bezoeken van uw [onderhoudscontracten](../work/maintenance.md) klaar.
+
+- **Klaarzetten (dagen vooraf)**: zoveel dagen vóór het volgende bezoek zet Nimble 's ochtends een werkorder klaar bij **Nog in
+  te plannen** op het planbord, met een taak voor de verantwoordelijke van het project. Standaard **30 dagen**.
+- **De klant verwittigen over zijn onderhoudsbezoek**: een mail wanneer het bezoek klaargezet wordt (*wij nemen contact op*), en
+  een bevestiging zodra het een dag heeft op het planbord. **Standaard staat het uit.** Per contract zet u het nog uit op het
+  tabblad Onderhoud van het project; de teksten staan bij **Mailsjablonen**.
 
 Klik op **Bewaren** na een wijziging.
 

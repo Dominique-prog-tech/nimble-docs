@@ -67,7 +67,7 @@ Met **Bord** naast de titel ziet u dezelfde projecten als kaarten, met een kolom
 
 U opent een fiche door te dubbelklikken op een rij.
 
-Bovenaan staan links de tabbladen **Algemeen**, **Overdracht**, **Voorbereiding**, **Planning**, **Materiaal**,
+Bovenaan staan links de tabbladen **Algemeen**, **Overdracht**, **Voorbereiding**, **Planning**, **Onderhoud**, **Materiaal**,
 **Oplevering** en **Documenten** — en **Vorderingsstaten** bij een project met een aanvaarde offerte — en rechts
 **Taken**, **Notities**, **Bijlagen**, **Mails** en **Logboek**.
 
@@ -81,7 +81,9 @@ Onderaan staat de knoppenbalk: **Bewaren**, **Projectdossier**, **Annuleren** en
 
 ### Tabblad Algemeen
 
-![De projectfiche P2026-001 op het tabblad Algemeen: links nummer, naam, klant en omschrijving, rechts status, productiestatus, projecttype, pipeline-status, de datums, het budget, het vinkje Besteld en het werfadres.](../images/project-fiche.png)
+![De projectfiche P2026-001 op het tabblad Algemeen: de kaart Algemeen met links nummer, naam, klant, verantwoordelijke en de datums, rechts status, productiestatus, projecttype, pipeline-status, budget en het vinkje Besteld, en de omschrijving over de volle breedte; daaronder de kaart Werf met werf, straat en werfcontact links en postcode, gemeente en land rechts.](../images/project-fiche.png)
+
+De velden staan in twee kaarten: **Algemeen** en **Werf**.
 
 | Veld | Opmerking |
 |---|---|
@@ -282,6 +284,12 @@ vanzelf aan: die vult u zelf in.
 
 Het tabblad ziet u enkel wanneer u de planning mag bekijken; blokken toevoegen of wijzigen vraagt het recht
 om de planning te bewerken.
+
+### Tabblad Onderhoud
+
+Hier legt u een onderhoudscontract vast: het **contract** met zijn looptijd en prijs, de **installaties** van het project en
+de **onderhoudsbezoeken** die terugkomen. Nimble zet elk bezoek op tijd klaar als werkorder. Alles daarover staat op
+[Onderhoud](maintenance.md#het-tabblad-onderhoud-van-het-project).
 
 ### Tabblad Materiaal
 
@@ -490,6 +498,8 @@ Werkuur installateur*, het aantal uren, de prijs en het totaal.
   reistijd** uit de [bedrijfsgegevens](../settings/company-profile.md), nooit tegen het uurartikel van het werk.
   Is er geen artikel voor reistijd ingesteld, dan komt reistijd niet op de factuur en zegt het venster hoeveel
   uren dat zijn. Dat houdt de factuur niet tegen.
+- Heeft het project een [onderhoudscontract](maintenance.md#het-contract) met een vaste prijs, dan zitten de uren van de
+  onderhoudsbezoeken in die prijs: het venster toont ze niet. Een herstelling op hetzelfde project staat er wel.
 - Vink de regels aan die u wilt factureren en klik op **Klad-factuur maken**. U komt op een klad-factuur die u
   nog kunt nakijken; de btw staat op het tarief van de aanvaarde offerte van het project.
 
