@@ -15,7 +15,7 @@ hoort altijd bij een project.
 
 ## De lijst
 
-![De lijst Werkorders met de kolommen Nummer, Project, Omschrijving, Ploeg, Status en Gepland; vijf werkorders op vier verschillende projecten, en rechts de dichtgeklapte lade Journaal.](../images/werkorders-lijst.png)
+![De lijst Werkorders met de kolommen Nummer, Project, Omschrijving, Ploeg, Status en Gepland; zes werkorders op vijf verschillende projecten, met bovenaan de werkorder die de opvolging klaarzette voor het onderhoud van P2026-006, en rechts de dichtgeklapte lade Journaal.](../images/werkorders-lijst.png)
 
 | Kolom | Wat het is |
 |---|---|
