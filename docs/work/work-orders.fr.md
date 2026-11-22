@@ -39,7 +39,9 @@ Vous ouvrez une fiche en double-cliquant sur une ligne.
 
 ![La fiche de l'ordre de travail WO-2026-004 avec en haut le numéro et le statut En cours, le bloc La mission, et en dessous le bloc Exécution avec 36 heures prestées, 3 bons de travail, la tuile Bons avec travaux supplémentaires et la liste des bons avec date, heures et fin de journée.](../images/werkorder-fiche-fr.png)
 
-En haut figurent le numéro de l'ordre de travail et son statut. À gauche se trouvent les onglets **La
+En haut figurent le numéro de l'ordre de travail et son statut. Si l'ordre de travail vient d'une
+[demande d'intervention](service-requests.md), le lien **Créé pour la demande d'intervention** avec le numéro de la demande figure à
+côté. À gauche se trouvent les onglets **La
 mission** et **Préparation du chantier**, à droite **Tâches**, **Notes**, **Pièces jointes** et
 **Historique**.
 

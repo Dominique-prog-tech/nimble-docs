@@ -55,6 +55,10 @@ La carte **Emplacement** indique où se trouve l'appareil : un **Nom de l'emplac
 **Reprendre l'adresse du client** et **Reprendre l'adresse du chantier** remplissent l'adresse à partir du client ou du chantier du
 projet.
 
+Si le client signale une panne sur cet appareil, cliquez sur **Nouvelle demande d'intervention**. La fenêtre s'ouvre avec le client et
+l'appareil déjà remplis, voir [Demandes d'intervention](service-requests.md#une-nouvelle-demande). Vous voyez le bouton si vous pouvez
+modifier le travail.
+
 ### Historique
 
 L'onglet **Historique** montre deux cartes :

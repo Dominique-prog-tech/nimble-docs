@@ -53,6 +53,9 @@ Dubbelklik op een rij om de fiche te openen. Bovenaan staat de naam van het toes
 In de kaart **Locatie** staat waar het toestel staat: een **Naam van de locatie** (bijvoorbeeld *stookruimte*) en het adres.
 **Adres van de klant overnemen** en **Werfadres overnemen** vullen het adres in vanuit de klant of de werf van het project.
 
+Meldt de klant een storing aan dit toestel, klik dan op **Nieuw serviceverzoek**. Het venster opent met de klant en het toestel al
+ingevuld, zie [Serviceverzoeken](service-requests.md#een-nieuw-verzoek). U ziet de knop wanneer u werk mag bewerken.
+
 ### Geschiedenis
 
 Het tabblad **Geschiedenis** toont twee kaarten:

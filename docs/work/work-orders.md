@@ -39,7 +39,8 @@ U opent een fiche door te dubbelklikken op een rij.
 
 ![De fiche van werkorder WO-2026-004 met bovenaan het nummer en de status Bezig, het blok De opdracht, en daaronder het blok Uitvoering met 36 gewerkte uren, 3 werkbonnen, de tegel Werkbonnen met meerwerk en een lijst van de werkbonnen met datum, uren en einde van de dag.](../images/werkorder-fiche.png)
 
-Bovenaan staat het nummer van de werkorder met zijn status. Links staan de tabbladen **De opdracht** en
+Bovenaan staat het nummer van de werkorder met zijn status. Komt de werkorder uit een [serviceverzoek](service-requests.md), dan
+staat daarnaast de link **Gemaakt voor serviceverzoek** met het nummer van het verzoek. Links staan de tabbladen **De opdracht** en
 **Werfvoorbereiding**, rechts **Taken**, **Notities**, **Bijlagen** en **Logboek**.
 
 Onderaan staat de knoppenbalk: **Bewaren**, **Werkbon toevoegen**, **Annuleren** en, apart rechts,

@@ -45,11 +45,11 @@ Cliquez sur **Nouvel utilisateur**. Une fenêtre s'ouvre :
 | **Nom d'utilisateur** | Le nom de connexion, généralement l'adresse e-mail, p. ex. `jean@client.be` |
 | **Nom affiché** | Le nom qui apparaît à l'écran, p. ex. `Jean Testeur` |
 | **Mot de passe** | Le premier mot de passe |
-| **Tenant** | Le client auquel appartient cet utilisateur. **— Opérateur (aucun) —** crée un opérateur |
+| **Tenant** | Obligatoire : le client auquel appartient cet utilisateur. La liste commence sur **— Choisir —**. **— Opérateur (aucun) —** en bas crée un opérateur ; la fenêtre avertit alors : *Un opérateur d'ADM voit tous les clients et peut les gérer.* |
 | **Rôle** | **Utilisateur** ou **Administrateur** |
 
-Cliquez sur **Créer l'utilisateur**. Ce bouton ne fonctionne que lorsque **Nom d'utilisateur** et **Mot de
-passe** sont remplis. **Annuler** ferme la fenêtre.
+Cliquez sur **Créer l'utilisateur**. S'il manque encore quelque chose, la fenêtre l'indique, par exemple *Il manque encore 3 données :
+Nom d'utilisateur, Mot de passe, Tenant*. **Annuler** ferme la fenêtre.
 
 ## Modifier le rôle
 

@@ -32,6 +32,10 @@ Bovenaan kiest u het **Sjabloon**:
 | **Bestelbon naar de leverancier** | Bij **Mailen naar de leverancier** op een bestelling — zie [De bestelbon](../purchasing/purchase-orders.md#de-bestelbon-afdrukken-en-mailen) |
 | **Prijsaanvraag naar een leverancier** | Bij **Meer…** → **Prijsaanvraag naar een leverancier** op een offerte — zie [Een prijsaanvraag](../sales/quotes.md#een-prijsaanvraag-naar-een-leverancier) |
 | **Taak toegewezen** | Wanneer iemand een taak toegewezen krijgt — enkel als dat aanstaat op de [Bedrijfsfiche](company-profile.md#mail-bij-het-toewijzen-van-een-taak) |
+| **Onderhoud komt eraan (aan de klant)** | Wanneer Nimble een onderhoudsbezoek klaarzet, als u de klant verwittigt: zie [Onderhoud](../work/maintenance.md#de-klant-verwittigen) |
+| **Onderhoud gepland (aan de klant)** | Zodra het klaargezette onderhoudsbezoek een dag heeft op het planbord |
+| **Serviceverzoek ontvangen (aan de klant)** | Bij een nieuw serviceverzoek, als het vinkje **Ontvangstbevestiging mailen** aanstaat: zie [Serviceverzoeken](../work/service-requests.md#de-klant-verwittigen) |
+| **Serviceverzoek ingepland (aan de klant)** | Zodra de werkorder van een serviceverzoek een dag heeft op het planbord, en opnieuw als die dag verschuift |
 
 Elke stap van de aanmaningen heeft een eigen sjabloon: een eerste herinnering schrijft u anders dan een
 ingebrekestelling.
@@ -67,7 +71,7 @@ enkel de variabelen die in het gekozen sjabloon werken.
 
 | Variabele | Wat er in de mail komt | Sjablonen |
 |---|---|---|
-| `{{klant}}` | Naam van de klant | Offerte, offerte ondertekenen, aanmaningen, getekende werkbon |
+| `{{klant}}` | Naam van de klant | Offerte, offerte ondertekenen, aanmaningen, getekende werkbon, onderhoud, serviceverzoeken |
 | `{{nummer}}` | Nummer van de offerte, factuur of bestelling. Bij een prijsaanvraag: het nummer van uw offerte, uw referentie | Offerte, offerte ondertekenen, aanmaningen, bestelbon, prijsaanvraag |
 | `{{datum}}` | Datum van het document | Offerte, offerte ondertekenen, aanmaningen, getekende werkbon, bestelbon, prijsaanvraag |
 | `{{geldig_tot}}` | Geldig tot | Offerte, offerte ondertekenen |
@@ -75,7 +79,7 @@ enkel de variabelen die in het gekozen sjabloon werken.
 | `{{vervaldag}}` | Vervaldag | Aanmaningen |
 | `{{dagen_te_laat}}` | Dagen te laat | Aanmaningen |
 | `{{werkorder}}` | Werkorder | Getekende werkbon |
-| `{{project}}` | Project | Getekende werkbon, bestelbon, prijsaanvraag |
+| `{{project}}` | Project | Getekende werkbon, bestelbon, prijsaanvraag, onderhoud |
 | `{{getekend_door}}` | Wie tekende | Getekende werkbon |
 | `{{afzender}}` | Naam van wie verstuurt | Offerte, offerte ondertekenen, aanmaningen, getekende werkbon, bestelbon, prijsaanvraag |
 | `{{bedrijf}}` | Uw bedrijfsnaam | Alle |
@@ -93,6 +97,13 @@ enkel de variabelen die in het gekozen sjabloon werken.
 | `{{leverancier}}` | Naam van de leverancier | Bestelbon, prijsaanvraag |
 | `{{leverdatum}}` | De gewenste leverdatum van de bestelling, of *in overleg* | Bestelbon |
 | `{{antwoord_voor}}` | Tegen wanneer u het antwoord op de prijsaanvraag wilt | Prijsaanvraag |
+| `{{bezoek}}` | De omschrijving van het onderhoudsbezoek | Onderhoud |
+| `{{voorzien}}` | De dag waarop het bezoek voorzien is (nog niet ingepland) | Onderhoud komt eraan |
+| `{{afspraak_link}}` | Een link naar uw boekingspagina, als u online afspraken gebruikt (anders leeg) | Onderhoud komt eraan |
+| `{{geplande_dag}}` | De dag waarop het bezoek ingepland is op het planbord | Onderhoud gepland, serviceverzoek ingepland |
+| `{{verzoek_nummer}}` | Het nummer van het serviceverzoek | Serviceverzoeken |
+| `{{verzoek}}` | Wat de klant meldde: de eerste regel van de omschrijving | Serviceverzoeken |
+| `{{toestel}}` | Het toestel van het verzoek, met merk, model en serienummer (leeg zonder toestel) | Serviceverzoeken |
 
 ### De link naar de online offerte
 

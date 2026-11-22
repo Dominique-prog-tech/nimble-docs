@@ -44,11 +44,11 @@ Klik op **Nieuwe gebruiker**. Er opent een venster:
 | **Gebruikersnaam** | De naam waarmee de persoon zich aanmeldt, meestal het e-mailadres, bv. `jan@klant.be` |
 | **Weergavenaam** | De naam die in het scherm verschijnt, bv. `Jan Tester` |
 | **Wachtwoord** | Het eerste wachtwoord |
-| **Tenant** | De klant waartoe deze gebruiker behoort. **— Operator (geen) —** maakt een operator |
+| **Tenant** | Verplicht: de klant waartoe deze gebruiker behoort. De lijst begint op **— Kies —**. **— Operator (geen) —** onderaan maakt een operator; het venster waarschuwt dan: *Een operator van ADM ziet alle klanten en mag ze beheren.* |
 | **Rol** | **Gebruiker** of **Beheerder** |
 
-Klik op **Gebruiker aanmaken**. Die knop werkt pas wanneer **Gebruikersnaam** en **Wachtwoord** ingevuld
-zijn. Met **Annuleren** sluit u het venster.
+Klik op **Gebruiker aanmaken**. Ontbreekt er nog iets, dan zegt het venster wat, bijvoorbeeld *Er ontbreken nog 3 gegevens:
+Gebruikersnaam, Wachtwoord, Tenant*. Met **Annuleren** sluit u het venster.
 
 ## De rol wijzigen
 

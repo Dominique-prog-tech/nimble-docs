@@ -32,6 +32,10 @@ En haut, vous choisissez le **Modèle** :
 | **Bon de commande au fournisseur** | Avec **Envoyer au fournisseur** sur une commande — voir [Le bon de commande](../purchasing/purchase-orders.md#imprimer-et-envoyer-le-bon-de-commande) |
 | **Demande de prix à un fournisseur** | Avec **Plus…** → **Demande de prix à un fournisseur** sur un devis — voir [Une demande de prix](../sales/quotes.md#une-demande-de-prix-a-un-fournisseur) |
 | **Tâche attribuée** | Quand une tâche est attribuée à quelqu'un — uniquement si c'est activé dans la [Fiche entreprise](company-profile.md#e-mail-lors-de-lattribution-dune-tache) |
+| **Entretien à venir (au client)** | Quand Nimble prépare une visite d'entretien, si vous avertissez le client : voir [Entretien](../work/maintenance.md#avertir-le-client) |
+| **Entretien planifié (au client)** | Dès que la visite d'entretien préparée a un jour au planning |
+| **Demande d'intervention reçue (au client)** | Pour une nouvelle demande d'intervention, si la case **Envoyer un accusé de réception** est cochée : voir [Demandes d'intervention](../work/service-requests.md#avertir-le-client) |
+| **Demande d'intervention planifiée (au client)** | Dès que l'ordre de travail d'une demande d'intervention a un jour au planning, et à nouveau si ce jour change |
 
 Chaque étape des rappels a son propre modèle : un premier rappel ne s'écrit pas comme une mise en demeure.
 
@@ -66,7 +70,7 @@ montre que les variables qui fonctionnent dans le modèle choisi.
 
 | Variable | Ce qui figure dans le mail | Modèles |
 |---|---|---|
-| `{{klant}}` | Nom du client | Devis, devis à signer, rappels, bon de travail signé |
+| `{{klant}}` | Nom du client | Devis, devis à signer, rappels, bon de travail signé, entretien, demandes d'intervention |
 | `{{nummer}}` | Numéro du devis, de la facture ou de la commande. Pour une demande de prix : le numéro de votre devis, votre référence | Devis, devis à signer, rappels, bon de commande, demande de prix |
 | `{{datum}}` | Date du document | Devis, devis à signer, rappels, bon de travail signé, bon de commande, demande de prix |
 | `{{geldig_tot}}` | Valable jusqu'au | Devis, devis à signer |
@@ -74,7 +78,7 @@ montre que les variables qui fonctionnent dans le modèle choisi.
 | `{{vervaldag}}` | Échéance | Rappels |
 | `{{dagen_te_laat}}` | Jours de retard | Rappels |
 | `{{werkorder}}` | Ordre de travail | Bon de travail signé |
-| `{{project}}` | Projet | Bon de travail signé, bon de commande, demande de prix |
+| `{{project}}` | Projet | Bon de travail signé, bon de commande, demande de prix, entretien |
 | `{{getekend_door}}` | Signataire | Bon de travail signé |
 | `{{afzender}}` | Nom de la personne qui envoie | Devis, devis à signer, rappels, bon de travail signé, bon de commande, demande de prix |
 | `{{bedrijf}}` | Nom de votre entreprise | Tous |
@@ -92,6 +96,13 @@ montre que les variables qui fonctionnent dans le modèle choisi.
 | `{{leverancier}}` | Nom du fournisseur | Bon de commande, demande de prix |
 | `{{leverdatum}}` | La date de livraison souhaitée de la commande, ou *à convenir* | Bon de commande |
 | `{{antwoord_voor}}` | La date à laquelle vous souhaitez la réponse à la demande de prix | Demande de prix |
+| `{{bezoek}}` | La description de la visite d'entretien | Entretien |
+| `{{voorzien}}` | Le jour prévu pour la visite (pas encore planifiée) | Entretien à venir |
+| `{{afspraak_link}}` | Un lien vers votre page de réservation, si vous utilisez les rendez-vous en ligne (sinon vide) | Entretien à venir |
+| `{{geplande_dag}}` | Le jour où la visite est planifiée sur le tableau de planning | Entretien planifié, demande d'intervention planifiée |
+| `{{verzoek_nummer}}` | Le numéro de la demande d'intervention | Demandes d'intervention |
+| `{{verzoek}}` | Ce que le client a signalé : la première ligne de la description | Demandes d'intervention |
+| `{{toestel}}` | L'appareil de la demande, avec marque, modèle et numéro de série (vide sans appareil) | Demandes d'intervention |
 
 ### Le lien vers le devis en ligne
 

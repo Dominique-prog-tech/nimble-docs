@@ -9,7 +9,7 @@ gebeurt.
 1. Klik onderaan in de zijbalk op **Platformbeheer**.
 2. Klik in de groep **Leads** op de tegel **Opvolging van leads, offertes en onderhoud**.
 
-![Het instellingenscherm Opvolging van leads, offertes en onderhoud met het vinkje Automatische opvolging aan, het veld Stil na (dagen), het blok Verstuurde offertes met Offertes zonder antwoord opvolgen en Opvolgen na (dagen), het blok Onderhoudscontracten met Klaarzetten (dagen vooraf) en het vinkje De klant verwittigen over zijn onderhoudsbezoek, en de knoppen Bewaren en Opvolging nu draaien.](../images/leadopvolging-scherm.png)
+![Het instellingenscherm Opvolging van leads, offertes en onderhoud met het vinkje Automatische opvolging aan, het veld Stil na (dagen), het blok Verstuurde offertes met Offertes zonder antwoord opvolgen en Opvolgen na (dagen), het blok Onderhoudscontracten met Klaarzetten (dagen vooraf) en het vinkje De klant verwittigen over zijn onderhoudsbezoek, het blok Serviceverzoeken met Projecttype voor een nieuw project en het vinkje De klant verwittigen over zijn serviceverzoek, en de knoppen Bewaren en Opvolging nu draaien.](../images/leadopvolging-scherm.png)
 
 ## De drie regels
 
@@ -50,7 +50,8 @@ De knop **Opvolging nu draaien** staat naast **Bewaren**. Hiermee draait u metee
 gewijzigd hebt: u ziet direct hoeveel taken dat oplevert.
 
 De melding toont wat de ronde deed, bijvoorbeeld *Leads bekeken: 12. Nieuwe taken: 2. Al aanwezig: 3. Offertes, nieuwe taken: 1.*
-Zette de ronde een onderhoudsbezoek klaar, dan staat dat er ook bij, bijvoorbeeld *Onderhoud: 1 klaargezet, 0 afgewerkt.*
+Zette de ronde een onderhoudsbezoek klaar, dan staat dat er ook bij, bijvoorbeeld *Onderhoud: 1 klaargezet, 0 afgewerkt.* Vertrok er een
+bevestiging van de dag voor een serviceverzoek, dan ziet u bijvoorbeeld *Serviceverzoeken bevestigd: 1. Zonder e-mailadres: 0. Niet verstuurd: 0.*
 
 !!! info "Bewaar eerst"
     De knop draait met wat er in de databank staat, niet met wat er op het scherm staat. Wijzigt u de
@@ -85,6 +86,21 @@ Dezelfde ronde zet de bezoeken van uw [onderhoudscontracten](../work/maintenance
 - **De klant verwittigen over zijn onderhoudsbezoek**: een mail wanneer het bezoek klaargezet wordt (*wij nemen contact op*), en
   een bevestiging zodra het een dag heeft op het planbord. **Standaard staat het uit.** Per contract zet u het nog uit op het
   tabblad Onderhoud van het project; de teksten staan bij **Mailsjablonen**.
+
+Klik op **Bewaren** na een wijziging.
+
+## Serviceverzoeken
+
+Twee instellingen voor de [serviceverzoeken](../work/service-requests.md):
+
+- **Projecttype voor een nieuw project**: krijgt een serviceverzoek een werkorder en heeft de klant geen lopend project, dan maakt
+  Nimble een project van dit type. Leeg: het nieuwe project krijgt geen type, tenzij u er een kiest in het venster.
+- **De klant verwittigen over zijn serviceverzoek**: een ontvangstbevestiging bij een nieuw verzoek (in het venster met een vinkje),
+  en een bevestiging zodra de werkorder een dag heeft op het planbord. **Standaard staat het aan.** De teksten staan bij
+  **Mailsjablonen**.
+
+De bevestiging van de dag vertrekt niet enkel 's ochtends: Nimble kijkt elk kwartier na of een werkorder van een verzoek een dag
+kreeg.
 
 Klik op **Bewaren** na een wijziging.
 

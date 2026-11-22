@@ -170,6 +170,8 @@ wanneer u projecten mag bekijken. Meer in [Installaties](work/installations.md).
 - **Bewaren** — bewaart de wijzigingen; u blijft op de fiche. Ontbreekt er nog iets — de naam, de documenttaal — of is een e-mailadres of telefoonnummer ongeldig, dan zegt een melding bovenaan de fiche wat er moet gebeuren. Staat het ongeldige adres bij een contactpersoon, dan verwijst de melding naar het tabblad **Contactpersonen**.
 - **Annuleren** — gaat terug naar de lijst zonder te bewaren.
 - **Verwijderen** — alleen bij een bestaande relatie, zie hieronder.
+- **Nieuw serviceverzoek**: bij een bestaande relatie, wanneer u werk mag bewerken. Het venster opent met de klant al ingevuld, zie
+  [Serviceverzoeken](work/service-requests.md#een-nieuw-verzoek).
 
 ## Verwijderen
 

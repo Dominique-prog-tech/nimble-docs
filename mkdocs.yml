@@ -219,6 +219,7 @@ plugins:
             Soorten installatie: Types d'installation
             Onderhoud: Entretien
             Installaties: Installations
+            Serviceverzoeken: Demandes d'intervention
             Standaardmappen: Dossiers standard
             Werfvoorbereiding: Préparation du chantier
             Pipeline-status: Statut pipeline
@@ -309,6 +310,7 @@ nav:
     - Aankoopfacturen: purchasing/purchase-invoices.md
   - Werk:
     - Projecten: work/projects.md
+    - Serviceverzoeken: work/service-requests.md
     - Werkorders: work/work-orders.md
     - Werkbonnen: work/work-sheets.md
     - Meerwerken: work/extra-work.md

@@ -8,7 +8,7 @@ crée une tâche. Le même tour prépare la prochaine visite d'entretien. Cet é
 1. Cliquez sur **Administration** en bas de la barre latérale.
 2. Dans le groupe **Leads**, cliquez sur la tuile **Suivi des leads, des devis et de l'entretien**.
 
-![L'écran de réglages Suivi des leads, des devis et de l'entretien avec la case Suivi automatique activé, le champ Silencieux après (jours), le bloc Devis envoyés avec Suivre les devis sans réponse et Suivre après (jours), le bloc Contrats d'entretien avec Préparer (jours avant) et la case Avertir le client de sa visite d'entretien, et les boutons Enregistrer et Lancer le suivi maintenant.](../images/leadopvolging-scherm-fr.png)
+![L'écran de réglages Suivi des leads, des devis et de l'entretien avec la case Suivi automatique activé, le champ Silencieux après (jours), le bloc Devis envoyés avec Suivre les devis sans réponse et Suivre après (jours), le bloc Contrats d'entretien avec Préparer (jours avant) et la case Avertir le client de sa visite d'entretien, le bloc Demandes d'intervention avec Type de projet pour un nouveau projet et la case Avertir le client de sa demande d'intervention, et les boutons Enregistrer et Lancer le suivi maintenant.](../images/leadopvolging-scherm-fr.png)
 
 ## Les trois règles
 
@@ -49,7 +49,8 @@ Le bouton **Lancer le suivi maintenant** se trouve à côté d'**Enregistrer**. 
 modifié le délai : vous voyez directement combien de tâches cela donne.
 
 Le message indique ce que la ronde a fait, par exemple *Leads examinés : 12. Nouvelles tâches : 2. Déjà existantes : 3. Devis, nouvelles tâches : 1.*
-Si la ronde a préparé une visite d'entretien, le message l'indique aussi, par exemple *Entretien : 1 préparé(s), 0 terminé(s).*
+Si la ronde a préparé une visite d'entretien, le message l'indique aussi, par exemple *Entretien : 1 préparé(s), 0 terminé(s).* Si une
+confirmation du jour est partie pour une demande d'intervention, vous voyez par exemple *Demandes d'intervention confirmées : 1. Sans adresse e-mail : 0. Non envoyées : 0.*
 
 !!! info "Enregistrez d'abord"
     Le bouton s'exécute avec ce qui se trouve dans la base de données, pas avec ce qui est à l'écran. Si
@@ -85,6 +86,22 @@ Le même tour prépare les visites de vos [contrats d'entretien](../work/mainten
 - **Avertir le client de sa visite d'entretien** : un e-mail lorsque la visite est préparée (*nous vous contactons*), et une
   confirmation dès qu'elle a un jour sur le tableau de planning. **Par défaut, c'est désactivé.** Par contrat, vous le désactivez
   encore dans l'onglet Entretien du projet ; les textes se trouvent dans **Modèles de mail**.
+
+Cliquez sur **Enregistrer** après une modification.
+
+## Demandes d'intervention
+
+Deux réglages pour les [demandes d'intervention](../work/service-requests.md) :
+
+- **Type de projet pour un nouveau projet** : si une demande d'intervention reçoit un ordre de travail et que le client n'a pas de
+  projet en cours, Nimble crée un projet de ce type. Vide : le nouveau projet n'a pas de type, sauf si vous en choisissez un dans la
+  fenêtre.
+- **Avertir le client de sa demande d'intervention** : un accusé de réception pour une nouvelle demande (dans la fenêtre avec une
+  case à cocher), et une confirmation dès que l'ordre de travail a un jour au planning. **Par défaut, c'est activé.** Les textes se
+  trouvent dans **Modèles de mail**.
+
+La confirmation du jour ne part pas seulement le matin : Nimble vérifie tous les quarts d'heure si un ordre de travail d'une demande a
+reçu un jour.
 
 Cliquez sur **Enregistrer** après une modification.
 
