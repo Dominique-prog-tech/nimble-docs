@@ -53,7 +53,7 @@ Klik op **Nieuw serviceverzoek** om te bewaren. De fiche van het verzoek opent. 
 **Telefoon** en het adres van het bezoek is dat van het toestel, anders dat van de klant. Dat alles past u aan op de fiche.
 
 Nimble maakt meteen een taak **Serviceverzoek behandelen** voor de verantwoordelijke. Ze vervalt morgen, bij een dringend verzoek
-vandaag.
+vandaag. Maakt u een werkorder of sluit u het verzoek af zonder bezoek, dan vinkt Nimble die taak af.
 
 !!! info "Het vinkje Ontvangstbevestiging mailen"
     Het vinkje staat er enkel als uw bedrijf de klant verwittigt over zijn serviceverzoek, zie

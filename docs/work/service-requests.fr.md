@@ -54,7 +54,7 @@ Cliquez sur **Nouvelle demande d'intervention** pour enregistrer. La fiche de la
 est **Téléphone** et l'adresse de la visite est celle de l'appareil, sinon celle du client. Vous adaptez tout cela sur la fiche.
 
 Nimble crée immédiatement une tâche **Traiter la demande d'intervention** pour le responsable. Elle arrive à échéance demain, pour une
-demande urgente aujourd'hui.
+demande urgente aujourd'hui. Quand vous créez un ordre de travail ou clôturez la demande sans visite, Nimble coche cette tâche.
 
 !!! info "La case Envoyer un accusé de réception"
     La case n'apparaît que si votre entreprise avertit le client de sa demande d'intervention, voir
