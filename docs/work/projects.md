@@ -67,9 +67,10 @@ Met **Bord** naast de titel ziet u dezelfde projecten als kaarten, met een kolom
 
 U opent een fiche door te dubbelklikken op een rij.
 
-Bovenaan staan links de tabbladen **Algemeen**, **Overdracht**, **Voorbereiding**, **Planning**, **Onderhoud**, **Materiaal**,
-**Oplevering** en **Documenten** — en **Vorderingsstaten** bij een project met een aanvaarde offerte — en rechts
-**Taken**, **Notities**, **Bijlagen**, **Mails** en **Logboek**.
+Bovenaan staan links de tabbladen **Algemeen**, **Overdracht**, **Voorbereiding**, **Planning**, **Onderhoud**, **Materiaal**
+en **Oplevering**, en **Vorderingsstaten** bij een project met een aanvaarde offerte. Rechts staat **Journaal**, met
+**Taken**, **Afspraken**, **Notities**, **Bijlagen**, **Documenten**, **Mails** en **Logboek**. Zie
+[Werken met een fiche](../fiches.md#tabbladen).
 
 Onderaan staat de knoppenbalk: **Bewaren**, **Projectdossier**, **Annuleren** en, apart rechts,
 **Verwijderen**. De balk blijft staan terwijl u door de fiche scrolt.
@@ -449,9 +450,9 @@ Wilt u het project toch uitdrukkelijk vrijgeven, vink dan **Toch vrijgeven om te
 
 ### Tabblad Documenten
 
-Hier staan de bijlagen van dit project, in mappen.
+Hier staan de bijlagen van dit project, in mappen. U vindt het onder **Journaal**, naast **Bijlagen**.
 
-![Het tabblad Documenten van P2026-001: links de mappen, met Foto's tijdens gekozen; rechts de bijlagen in die map.](../images/project-documenten.png)
+![Het tabblad Documenten onder Journaal van P2026-001: links de mappen, met Foto's tijdens gekozen; rechts de bijlagen in die map.](../images/project-documenten.png)
 
 Links staat de mappenboom. **Alle bijlagen** toont alles, **Zonder map** wat nog in geen map zit; achter elke
 map staat hoeveel bijlagen erin zitten. Kies een map, dan ziet u rechts enkel haar bijlagen. Wat u oplaadt

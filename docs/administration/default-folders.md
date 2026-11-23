@@ -37,7 +37,7 @@ of onder een van haar eigen submappen; die staan dan ook niet in de keuzelijst.
 
 In het venster van een map zet u het vinkje **Nieuwe documenten standaard zichtbaar in het portaal**. Een document dat in
 die map van een project komt, ziet de klant dan meteen in het [portaal voor uw klanten](../crm/portaal-voor-klanten.md),
-ook een werffoto uit de mobiele app. Per document zet u het nog om op het tabblad Documenten van het project. Zo'n map
+ook een werffoto uit de mobiele app. Per document zet u het nog om onder **Journaal** › **Documenten** van het project. Zo'n map
 draagt in de kolom **Portaal** de badge **Standaard zichtbaar**.
 
 Het vinkje geldt voor de mappen die een project daarna krijgt: bij een nieuw project, of met **Standaardmappen invoegen**.
@@ -51,7 +51,7 @@ submap komt enkel op een project als de map erboven er ook komt. Een project zon
 
 !!! info "Een wijziging raakt enkel nieuwe projecten"
     Een project dat een map al kreeg, houdt ze — ook als u de map hier hernoemt of verwijdert. Op een bestaand
-    project vult **Standaardmappen invoegen** op het tabblad Documenten aan wat er nog ontbreekt.
+    project vult **Standaardmappen invoegen** onder **Journaal** › **Documenten** aan wat er nog ontbreekt.
 
 ## Zie ook
 

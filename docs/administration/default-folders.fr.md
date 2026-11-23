@@ -38,7 +38,7 @@ pas dans la liste.
 
 Dans la fenêtre d'un dossier, cochez **Nouveaux documents visibles par défaut dans le portail**. Un document qui arrive dans
 ce dossier d'un projet est alors aussitôt visible pour le client dans le [portail pour vos clients](../crm/portaal-voor-klanten.md),
-y compris une photo de chantier de l'application mobile. Par document, vous le modifiez encore dans l'onglet Documents du
+y compris une photo de chantier de l'application mobile. Par document, vous le modifiez encore sous **Journal** › **Documents** du
 projet. Un tel dossier porte dans la colonne **Portail** le badge **Visible par défaut**.
 
 La case vaut pour les dossiers qu'un projet reçoit ensuite : pour un nouveau projet, ou avec **Insérer les dossiers standard**.
@@ -53,7 +53,7 @@ sans type ne reçoit que les dossiers sans type.
 
 !!! info "Une modification ne concerne que les nouveaux projets"
     Un projet qui a déjà reçu un dossier le conserve — même si vous renommez ou supprimez le dossier ici. Sur un
-    projet existant, **Insérer les dossiers standard** dans l'onglet Documents complète ce qui manque encore.
+    projet existant, **Insérer les dossiers standard** sous **Journal** › **Documents** complète ce qui manque encore.
 
 ## Voir aussi
 

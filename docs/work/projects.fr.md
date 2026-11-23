@@ -69,9 +69,10 @@ Votre choix entre **Liste** et **Tableau** est conservé.
 
 Vous ouvrez une fiche en double-cliquant sur une ligne.
 
-En haut figurent à gauche les onglets **Général**, **Transmission**, **Préparation**, **Planning**, **Entretien**, **Matériel**,
-**Réception** et **Documents** — et **États d'avancement** pour un projet avec un devis accepté — et à droite
-**Tâches**, **Notes**, **Pièces jointes**, **E-mails** et **Historique**.
+En haut figurent à gauche les onglets **Général**, **Transmission**, **Préparation**, **Planning**, **Entretien**, **Matériel**
+et **Réception**, et **États d'avancement** pour un projet avec un devis accepté. À droite figure **Journal**, avec
+**Tâches**, **Rendez-vous**, **Notes**, **Pièces jointes**, **Documents**, **E-mails** et **Historique**. Voir
+[Travailler avec une fiche](../fiches.md#onglets).
 
 En bas se trouve la barre de boutons : **Enregistrer**, **Dossier de projet**, **Annuler** et, à part à
 droite, **Supprimer**. La barre reste en place pendant que vous faites défiler la fiche.
@@ -465,9 +466,10 @@ motif, l'autorisation ne compte pas.
 
 ### Onglet Documents
 
-Vous trouvez ici les pièces jointes de ce projet, classées en dossiers.
+Vous trouvez ici les pièces jointes de ce projet, classées en dossiers. Il se trouve sous **Journal**, à côté de
+**Pièces jointes**.
 
-![L'onglet Documents de P2026-001 : à gauche les dossiers, avec Foto's tijdens choisi ; à droite les pièces jointes de ce dossier.](../images/project-documenten-fr.png)
+![L'onglet Documents sous Journal de P2026-001 : à gauche les dossiers, avec Foto's tijdens choisi ; à droite les pièces jointes de ce dossier.](../images/project-documenten-fr.png)
 
 À gauche figure l'arborescence. **Toutes les pièces jointes** montre tout, **Sans dossier** ce qui n'est encore
 dans aucun dossier ; derrière chaque dossier figure le nombre de pièces jointes qu'il contient. Choisissez un
