@@ -90,7 +90,7 @@ Sous les postes figurent :
 |---|---|---|
 | **En préparation** | **Enregistrer** | Vous complétez les postes. Un état en préparation peut encore être supprimé |
 | **Soumis** | **Soumettre** | L'état est chez le maître d'ouvrage ou l'architecte. Il peut encore être modifié |
-| **Approuvé** | **Approuvé** | L'état est figé. **Retirer l'approbation** le ramène à Soumis |
+| **Approuvé** | **Approuver** | L'état est figé. **Retirer l'approbation** le ramène à Soumis |
 | **Facturé** | **Facturer** | Une facture existe pour cet état |
 
 **Revenir en préparation** ramène un état soumis en préparation. Si le maître d'ouvrage signe sur le chantier,

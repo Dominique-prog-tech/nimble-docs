@@ -83,7 +83,7 @@ Onder de posten staat:
 |---|---|---|
 | **In opmaak** | **Bewaren** | U vult de posten in. Een staat in opmaak kan nog verwijderd worden |
 | **Ingediend** | **Indienen** | De staat is naar de bouwheer of de architect. Aanpassen kan nog |
-| **Goedgekeurd** | **Goedgekeurd** | De staat ligt vast. **Goedkeuring intrekken** zet ze terug op Ingediend |
+| **Goedgekeurd** | **Goedkeuren** | De staat ligt vast. **Goedkeuring intrekken** zet ze terug op Ingediend |
 | **Gefactureerd** | **Factureren** | Er bestaat een factuur voor deze staat |
 
 **Terug naar opmaak** brengt een ingediende staat terug in opmaak. Tekent de bouwheer op de werf, dan mag u
