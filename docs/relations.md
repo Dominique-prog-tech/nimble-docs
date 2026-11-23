@@ -65,7 +65,7 @@ Vul het btw-nummer in en klik op **Ophalen**. Naam, straat, nummer, postcode, ge
 | **Straat** en **Nr** | Vrije tekst. |
 | **Postcode** | Zoeklijst — typ een postcode of een gemeentenaam. De gemeente wordt mee ingevuld. Staat bij **Land** een ander land dan België, dan typt u de postcode gewoon zelf in. |
 | **Gemeente** | Volgt uit de postcode. U kunt ze daarna nog aanpassen, bijvoorbeeld naar een deelgemeente. |
-| **Land** | Zoeklijst met de landenlijst. |
+| **Land** | Zoeklijst met de landenlijst. Bij een nieuwe relatie staat het land van uw bedrijfsfiche al ingevuld (meestal België); pas het aan voor een buitenlandse relatie. Zonder land vertrekt er geen e-factuur via Peppol. |
 
 ![Het blok Adres met straat, nummer, postcode, gemeente en land.](images/relatie-blok-adres.png)
 

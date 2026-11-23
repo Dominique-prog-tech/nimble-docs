@@ -311,6 +311,30 @@ lire et ne change rien.
 
 Ensuite, vous indiquez les paiements dans Nimble même. Voir [Factures d'achat](../purchasing/purchase-invoices.md#indiquer-un-paiement).
 
+## Compléter le pays
+
+Une facture électronique via Peppol ne part pas sans le pays du client. S'il manque pour beaucoup de relations, cette
+étape le complète, pour que vous n'ayez pas à compléter la fiche de relation avant chaque facture.
+
+L'étape remplit le pays de votre **fiche d'entreprise** (le plus souvent la Belgique) sur chaque relation qui n'a pas
+encore de pays, si son code postal peut se trouver dans ce pays ou est vide. Une relation avec un autre code postal, par
+exemple un fournisseur allemand avec le code postal 49767, ne le reçoit pas : elle figure dans une liste à vérifier à la
+main. Une relation qui a déjà un pays n'est pas modifiée. L'étape ne lit que Nimble, elle fonctionne donc aussi lorsque
+la conversion complète est verrouillée.
+
+1. Cliquez sur **Vérifier**. Nimble compte les relations sans pays et montre celles qui ne le recevront pas.
+2. S'il y a quelque chose à compléter, **Compléter** s'active. Cliquez dessus.
+3. Complétez vous-même le pays des relations de la liste sur leur fiche de relation.
+
+| Colonne | Signification |
+|---|---|
+| **Sans pays** | Combien de relations n'ont pas encore de pays |
+| **Recevront BE** / **Ont reçu BE** | Combien recevront le pays, ou après **Compléter** : l'ont reçu |
+| **À vérifier à la main** | Combien ont un code postal qui ne correspond pas au pays |
+
+Vous pouvez relancer l'étape plus tard : elle ne trouve alors que les relations ajoutées entre-temps sans pays. Une
+nouvelle relation reçoit le pays de la fiche d'entreprise dès sa création.
+
 ## Générer des données de démonstration
 
 Ce bloc n'apparaît que sur le tenant **demo**. **Générer les données de démonstration** remplit ce tenant avec

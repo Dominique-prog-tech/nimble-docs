@@ -306,6 +306,29 @@ ook uit. **Nakijken** kan altijd: dat leest enkel en verandert niets.
 
 Daarna duidt u betalingen aan in Nimble zelf. Zie [Aankoopfacturen](../purchasing/purchase-invoices.md#een-betaling-aanduiden).
 
+## Land aanvullen
+
+Een e-factuur via Peppol vertrekt niet zonder het land van de klant. Ontbreekt het bij veel relaties, dan vult deze stap
+het in, zodat u niet bij elke factuur eerst de relatiefiche moet aanvullen.
+
+De stap vult het land van uw **bedrijfsfiche** in (meestal België) op elke relatie die nog geen land heeft, als haar
+postcode in dat land kan liggen of leeg is. Een relatie met een andere postcode, bijvoorbeeld een Duitse leverancier
+met postcode 49767, krijgt het niet: die staat in een lijst om met de hand na te kijken. Een relatie die al een land
+heeft, blijft zoals ze is. De stap leest enkel Nimble, en kan dus ook wanneer de volledige conversie vergrendeld is.
+
+1. Klik **Nakijken**. Nimble telt de relaties zonder land en toont welke het land niet krijgen.
+2. Is er iets aan te vullen, dan gaat **Aanvullen** aan. Klik erop.
+3. Vul het land van de relaties in de lijst zelf in op hun relatiefiche.
+
+| Kolom | Betekenis |
+|---|---|
+| **Zonder land** | Hoeveel relaties nog geen land hebben |
+| **Krijgen BE** / **Kregen BE** | Hoeveel er het land krijgen, of na **Aanvullen**: kregen |
+| **Met de hand nakijken** | Hoeveel er een postcode hebben die niet bij het land past |
+
+U kunt de stap later opnieuw draaien: ze vindt dan enkel de relaties die er intussen zonder land bijkwamen. Een nieuwe
+relatie krijgt het land van de bedrijfsfiche al bij het aanmaken.
+
 ## Demo-gegevens genereren
 
 Dit blok staat enkel op de tenant **demo**. **Genereer demo-gegevens** vult die tenant met verzonnen maar

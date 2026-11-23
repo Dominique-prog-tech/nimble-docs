@@ -65,7 +65,7 @@ Saisissez le numéro de TVA et cliquez sur **Récupérer**. Le nom, la rue, le n
 | **Rue** et **N°** | Texte libre. |
 | **Code postal** | Liste de recherche — tapez un code postal ou un nom de commune. La commune est remplie automatiquement. Si **Pays** indique un autre pays que la Belgique, vous tapez simplement le code postal vous-même. |
 | **Commune** | Découle du code postal. Vous pouvez encore l'adapter ensuite, par exemple pour une section de commune. |
-| **Pays** | Liste de recherche avec la liste des pays. |
+| **Pays** | Liste de recherche avec la liste des pays. Pour une nouvelle relation, le pays de votre fiche d'entreprise est déjà rempli (le plus souvent la Belgique) ; adaptez-le pour une relation étrangère. Sans pays, aucune facture électronique ne part via Peppol. |
 
 ![Le bloc Adresse avec rue, numéro, code postal, commune et pays.](images/relatie-blok-adres-fr.png)
 
