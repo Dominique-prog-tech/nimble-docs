@@ -294,7 +294,13 @@ aussi approuvée. Les factures reçues via Peppol ou saisies à la main ne sont 
 
 1. Cliquez sur **Vérifier**. Nimble compte ce qui se passerait et cite les factures qui seraient marquées payées.
 2. S'il y a quelque chose à reprendre, **Reprendre** s'active. Cliquez dessus.
-3. Cliquez ensuite à nouveau sur **Vérifier** : il ne doit plus rien y avoir à reprendre.
+3. Cliquez ensuite à nouveau sur **Vérifier** : il ne doit plus rien y avoir à reprendre. Sous le tableau figure alors la
+   date à laquelle le statut de paiement a été repris.
+
+**La reprise ne se fait qu'une fois.** Après la première reprise réussie, le bouton reste désactivé et Nimble indique la
+date à laquelle elle a eu lieu : à partir de ce moment, l'ancien logiciel ne détermine plus rien. Si un client travaille
+définitivement dans Nimble, **Reprendre** reste aussi désactivé. **Vérifier** reste toujours possible : cela ne fait que
+lire et ne change rien.
 
 | Colonne | Signification |
 |---|---|

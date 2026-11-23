@@ -290,7 +290,12 @@ goedgekeurd. Facturen via Peppol of met de hand ingebracht blijven buiten schot.
 
 1. Klik **Nakijken**. Nimble telt wat er zou gebeuren en noemt de facturen die als betaald gezet worden.
 2. Is er iets over te nemen, dan gaat **Overnemen** aan. Klik erop.
-3. Klik daarna opnieuw **Nakijken**: er hoort niets meer over te nemen te zijn.
+3. Klik daarna opnieuw **Nakijken**: er hoort niets meer over te nemen te zijn. Onder de tabel staat dan op welke datum de
+   betaalstatus overgenomen is.
+
+**Overnemen kan één keer.** Na de eerste geslaagde overname blijft de knop uit, en Nimble meldt de datum waarop het
+gebeurde: vanaf dan bepaalt het vorige pakket niets meer. Werkt een klant definitief in Nimble, dan blijft **Overnemen**
+ook uit. **Nakijken** kan altijd: dat leest enkel en verandert niets.
 
 | Kolom | Betekenis |
 |---|---|
