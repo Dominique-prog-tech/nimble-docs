@@ -69,7 +69,9 @@ Het tabblad **Geschiedenis** toont twee kaarten:
 ## De QR-sticker
 
 Elk toestel kan een QR-sticker krijgen. Wie hem scant met de app van Nimble, opent meteen dat toestel. Met een gewone camera ziet
-men enkel de naam en het telefoonnummer van uw firma.
+men enkel de naam en het telefoonnummer van uw firma. Zet u **Iedereen met de sticker kan een storing melden** aan bij
+[Opvolging](../administration/lead-follow-up.md#serviceverzoeken), dan staat daar ook de knop **Storing melden**: zie
+[Een melding via de QR-sticker](service-requests.md#een-melding-via-de-qr-sticker).
 
 - Op de fiche: **Etiket afdrukken**.
 - In de lijst: vink de toestellen aan en klik op **Etiketten afdrukken**.

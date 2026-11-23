@@ -9,7 +9,7 @@ arrivent les demandes d'intervention.
 1. Cliquez sur **Administration** en bas de la barre latérale.
 2. Dans le groupe **Leads**, cliquez sur la tuile **Suivi des leads, des devis, de l'entretien et des demandes d'intervention**.
 
-![L'écran de réglages Suivi des leads, des devis, de l'entretien et des demandes d'intervention avec la case Suivi automatique activé, le champ Silencieux après (jours), le bloc Devis envoyés avec Suivre les devis sans réponse et Suivre après (jours), le bloc Contrats d'entretien avec Préparer (jours avant) et la case Avertir le client de sa visite d'entretien, le bloc Demandes d'intervention avec Type de projet pour un nouveau projet et la case Avertir le client de sa demande d'intervention, la case Les clients peuvent signaler une panne dans le portail et le champ Responsable des demandes du portail, et les boutons Enregistrer et Lancer le suivi maintenant.](../images/leadopvolging-scherm-fr.png)
+![L'écran de réglages Suivi des leads, des devis, de l'entretien et des demandes d'intervention avec la case Suivi automatique activé, le champ Silencieux après (jours), le bloc Devis envoyés avec Suivre les devis sans réponse et Suivre après (jours), le bloc Contrats d'entretien avec Préparer (jours avant) et la case Avertir le client de sa visite d'entretien, le bloc Demandes d'intervention avec Type de projet pour un nouveau projet et la case Avertir le client de sa demande d'intervention, la case Les clients peuvent signaler une panne dans le portail, la case Toute personne disposant de l'autocollant peut signaler une panne et le champ Responsable des demandes du portail et de l'autocollant, et les boutons Enregistrer et Lancer le suivi maintenant.](../images/leadopvolging-scherm-fr.png)
 
 ## Les trois règles
 
@@ -92,7 +92,7 @@ Cliquez sur **Enregistrer** après une modification.
 
 ## Demandes d'intervention
 
-Quatre réglages pour les [demandes d'intervention](../work/service-requests.md) :
+Cinq réglages pour les [demandes d'intervention](../work/service-requests.md) :
 
 - **Type de projet pour un nouveau projet** : si une demande d'intervention reçoit un ordre de travail et que le client n'a pas de
   projet en cours, Nimble crée un projet de ce type. Vide : le nouveau projet n'a pas de type, sauf si vous en choisissez un dans la
@@ -104,8 +104,13 @@ Quatre réglages pour les [demandes d'intervention](../work/service-requests.md)
   [portail pour vos clients](../crm/portaal-voor-klanten.md#signaler-une-panne) signale lui-même une panne pour l'un de ses
   appareils, avec des photos, et suit le statut dans **Mes signalements**. La demande arrive comme une demande du bureau. **Par
   défaut, c'est désactivé.**
-- **Responsable des demandes du portail** : qui reçoit une demande du portail si le client n'a pas de responsable. Vide : la tâche
-  **Traiter la demande d'intervention** reste sans responsable.
+- **Toute personne disposant de l'autocollant peut signaler une panne** : celui qui scanne
+  l'[autocollant QR](../work/installations.md#lautocollant-qr) d'un appareil signale une panne sans se connecter : nom, téléphone, le
+  problème et des photos. La demande arrive avec le canal **Autocollant QR** ; rappelez le demandeur avant de planifier une visite. Voir
+  [Un signalement via l'autocollant QR](../work/service-requests.md#un-signalement-via-lautocollant-qr). **Par défaut, c'est
+  désactivé.**
+- **Responsable des demandes du portail et de l'autocollant** : qui reçoit une demande du portail ou de l'autocollant si le client n'a
+  pas de responsable. Vide : la tâche **Traiter la demande d'intervention** reste sans responsable.
 
 La confirmation du jour ne part pas seulement le matin : Nimble vérifie tous les quarts d'heure si un ordre de travail d'une demande a
 reçu un jour.

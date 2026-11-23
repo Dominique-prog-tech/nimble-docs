@@ -72,7 +72,10 @@ L'onglet **Historique** montre deux cartes :
 ## L'autocollant QR
 
 Chaque appareil peut recevoir un autocollant QR. Celui qui le scanne avec l'app Nimble ouvre directement cet appareil. Avec un
-appareil photo ordinaire, on ne voit que le nom et le numéro de téléphone de votre entreprise.
+appareil photo ordinaire, on ne voit que le nom et le numéro de téléphone de votre entreprise. Si vous activez **Toute personne
+disposant de l'autocollant peut signaler une panne** dans [Suivi](../administration/lead-follow-up.md#demandes-dintervention), le
+bouton **Signaler une panne** y apparaît aussi : voir
+[Un signalement via l'autocollant QR](service-requests.md#un-signalement-via-lautocollant-qr).
 
 - Sur la fiche : **Imprimer l'étiquette**.
 - Dans la liste : cochez les appareils et cliquez sur **Imprimer les étiquettes**.

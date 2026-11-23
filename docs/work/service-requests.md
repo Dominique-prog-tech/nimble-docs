@@ -142,6 +142,42 @@ binnen zoals een verzoek van kantoor: met de stand **Nieuw** en de taak **Servic
 
 U behandelt het verder zoals elk verzoek. De klant volgt de stand in het portaal bij **Mijn meldingen**.
 
+## Een melding via de QR-sticker
+
+Staat **Iedereen met de sticker kan een storing melden** aan bij
+[Opvolging van leads, offertes, onderhoud en serviceverzoeken](../administration/lead-follow-up.md#serviceverzoeken), dan staat de
+knop **Storing melden** op de pagina die opent wanneer iemand de [QR-sticker](installations.md#de-qr-sticker) van een toestel scant
+met zijn gsm. Wie meldt, hoeft niet aan te melden: een huurder, de poetsdienst of de conciërge kan het ook. Hij vult in:
+
+- zijn **naam** en **telefoonnummer** (verplicht);
+- een **e-mailadres** voor de bevestiging (niet verplicht);
+- **wat er is**, en of het **dringend** is;
+- hoogstens 3 **foto's** van elk 8 MB. Op een gsm opent de camera of de fotogalerij.
+
+Na **Versturen** ziet hij het nummer van zijn melding en uw telefoonnummer. Het verzoek komt binnen met de stand **Nieuw**, de taak
+**Serviceverzoek behandelen**, en met:
+
+- het kanaal **QR-sticker**;
+- de klant en het toestel van de sticker. Wat de melder intikt, verandert daar niets aan;
+- bij **Melder en adres** zijn naam, telefoonnummer en e-mailadres. Is hij een contactpersoon van de klant met hetzelfde
+  e-mailadres, dan staat hij ook bij **Contactpersoon**;
+- het adres van het toestel, anders dat van de klant;
+- als **Verantwoordelijke** de verantwoordelijke van de klant, anders wie bij **Verantwoordelijke voor verzoeken uit het portaal en
+  via de sticker** staat;
+- de foto's op het tabblad **Bijlagen**.
+
+Bovenaan de fiche staat dan: *Gemeld via de QR-sticker door iemand die niet aangemeld is. Bel de melder na voor u een bezoek plant.*
+Die melding verdwijnt zodra u het verzoek opneemt of er een werkorder van maakt. Is de melding vals, dan haalt u het verzoek weg met
+**Verwijderen**.
+
+De melder krijgt een ontvangstbevestiging als hij een e-mailadres invulde en **De klant verwittigen over zijn serviceverzoek** aan
+staat.
+
+!!! info "Grenzen tegen misbruik"
+    Via één sticker komen hoogstens 3 meldingen per 24 uur binnen, en via alle stickers van uw bedrijf samen 30. Daarboven ziet de
+    melder uw telefoonnummer in plaats van het formulier. Een geweigerde melding staat in het [Actielogboek](../administration/audit-log.md)
+    op **Platformbeheer**. De pagina toont niets over uw klant of het toestel: enkel uw firma.
+
 ## De klant verwittigen
 
 Staat **De klant verwittigen over zijn serviceverzoek** aan bij
@@ -160,6 +196,10 @@ De mail gaat naar de contactpersoon, anders naar de melder, anders naar de klant
 
 !!! warning "De klant kreeg geen ontvangstbevestiging"
     Kijk bij **Ontvangen op** op de fiche. Er was geen e-mailadres, het vinkje stond uit, of uw bedrijf verwittigt de klant niet.
+
+!!! warning "De knop Storing melden staat niet op de pagina van de sticker"
+    Het vinkje **Iedereen met de sticker kan een storing melden** staat uit, of het toestel is niet **In gebruik** of hoort bij geen
+    klant.
 
 ## Zie ook
 

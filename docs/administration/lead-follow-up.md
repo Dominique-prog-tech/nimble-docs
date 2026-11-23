@@ -9,7 +9,7 @@ gebeurt, en hoe serviceverzoeken binnenkomen.
 1. Klik onderaan in de zijbalk op **Platformbeheer**.
 2. Klik in de groep **Leads** op de tegel **Opvolging van leads, offertes, onderhoud en serviceverzoeken**.
 
-![Het instellingenscherm Opvolging van leads, offertes, onderhoud en serviceverzoeken met het vinkje Automatische opvolging aan, het veld Stil na (dagen), het blok Verstuurde offertes met Offertes zonder antwoord opvolgen en Opvolgen na (dagen), het blok Onderhoudscontracten met Klaarzetten (dagen vooraf) en het vinkje De klant verwittigen over zijn onderhoudsbezoek, het blok Serviceverzoeken met Projecttype voor een nieuw project en het vinkje De klant verwittigen over zijn serviceverzoek, het vinkje Klanten kunnen een storing melden in het portaal en het veld Verantwoordelijke voor verzoeken uit het portaal, en de knoppen Bewaren en Opvolging nu draaien.](../images/leadopvolging-scherm.png)
+![Het instellingenscherm Opvolging van leads, offertes, onderhoud en serviceverzoeken met het vinkje Automatische opvolging aan, het veld Stil na (dagen), het blok Verstuurde offertes met Offertes zonder antwoord opvolgen en Opvolgen na (dagen), het blok Onderhoudscontracten met Klaarzetten (dagen vooraf) en het vinkje De klant verwittigen over zijn onderhoudsbezoek, het blok Serviceverzoeken met Projecttype voor een nieuw project en het vinkje De klant verwittigen over zijn serviceverzoek, het vinkje Klanten kunnen een storing melden in het portaal, het vinkje Iedereen met de sticker kan een storing melden en het veld Verantwoordelijke voor verzoeken uit het portaal en via de sticker, en de knoppen Bewaren en Opvolging nu draaien.](../images/leadopvolging-scherm.png)
 
 ## De drie regels
 
@@ -91,7 +91,7 @@ Klik op **Bewaren** na een wijziging.
 
 ## Serviceverzoeken
 
-Vier instellingen voor de [serviceverzoeken](../work/service-requests.md):
+Vijf instellingen voor de [serviceverzoeken](../work/service-requests.md):
 
 - **Projecttype voor een nieuw project**: krijgt een serviceverzoek een werkorder en heeft de klant geen lopend project, dan maakt
   Nimble een project van dit type. Leeg: het nieuwe project krijgt geen type, tenzij u er een kiest in het venster.
@@ -102,8 +102,12 @@ Vier instellingen voor de [serviceverzoeken](../work/service-requests.md):
   [portaal voor uw klanten](../crm/portaal-voor-klanten.md#storing-melden) meldt zelf een storing voor een van zijn toestellen,
   met foto's, en volgt de stand bij **Mijn meldingen**. Het verzoek komt binnen zoals een verzoek van kantoor. **Standaard staat het
   uit.**
-- **Verantwoordelijke voor verzoeken uit het portaal**: wie een verzoek uit het portaal krijgt als de klant zelf geen
-  verantwoordelijke heeft. Leeg: de taak **Serviceverzoek behandelen** staat bij **Niemand**.
+- **Iedereen met de sticker kan een storing melden**: wie de [QR-sticker](../work/installations.md#de-qr-sticker) op een toestel
+  scant, meldt een storing zonder aan te melden: naam, telefoon, wat er is en foto's. Het verzoek komt binnen met het kanaal
+  **QR-sticker**; bel de melder na voor u een bezoek plant. Zie [Een melding via de QR-sticker](../work/service-requests.md#een-melding-via-de-qr-sticker).
+  **Standaard staat het uit.**
+- **Verantwoordelijke voor verzoeken uit het portaal en via de sticker**: wie een verzoek uit het portaal of via de sticker krijgt als
+  de klant zelf geen verantwoordelijke heeft. Leeg: de taak **Serviceverzoek behandelen** staat bij **Niemand**.
 
 De bevestiging van de dag vertrekt niet enkel 's ochtends: Nimble kijkt elk kwartier na of een werkorder van een verzoek een dag
 kreeg.

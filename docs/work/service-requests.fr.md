@@ -147,6 +147,44 @@ avec :
 
 Vous la traitez ensuite comme toute demande. Le client suit le statut dans le portail, sous **Mes signalements**.
 
+## Un signalement via l'autocollant QR
+
+Si **Toute personne disposant de l'autocollant peut signaler une panne** est activé dans
+[Suivi des leads, des devis, de l'entretien et des demandes d'intervention](../administration/lead-follow-up.md#demandes-dintervention),
+le bouton **Signaler une panne** apparaît sur la page qui s'ouvre quand quelqu'un scanne avec son téléphone
+l'[autocollant QR](installations.md#lautocollant-qr) d'un appareil. La personne qui signale ne doit pas se connecter : un locataire,
+le service de nettoyage ou le concierge peut aussi le faire. Elle remplit :
+
+- son **nom** et son **numéro de téléphone** (obligatoires) ;
+- une **adresse e-mail** pour la confirmation (facultative) ;
+- **le problème**, et s'il est **urgent** ;
+- au maximum 3 **photos** de 8 Mo chacune. Sur un téléphone, l'appareil photo ou la galerie s'ouvre.
+
+Après **Envoyer**, elle voit le numéro de son signalement et votre numéro de téléphone. La demande arrive avec le statut **Nouvelle**,
+la tâche **Traiter la demande d'intervention**, et avec :
+
+- le canal **Autocollant QR** ;
+- le client et l'appareil de l'autocollant. Ce que la personne tape n'y change rien ;
+- sous **Demandeur et adresse**, son nom, son numéro de téléphone et son adresse e-mail. Si c'est une personne de contact du client
+  avec la même adresse e-mail, elle figure aussi sous **Personne de contact** ;
+- l'adresse de l'appareil, sinon celle du client ;
+- comme **Responsable** le responsable du client, sinon la personne indiquée sous **Responsable des demandes du portail et de
+  l'autocollant** ;
+- les photos dans l'onglet **Pièces jointes**.
+
+En haut de la fiche figure alors : *Signalé via l'autocollant QR par une personne non connectée. Rappelez le demandeur avant de
+planifier une visite.* Ce message disparaît dès que vous prenez la demande en charge ou que vous en créez un ordre de travail. Si le
+signalement est faux, supprimez la demande avec **Supprimer**.
+
+La personne reçoit un accusé de réception si elle a indiqué une adresse e-mail et que **Avertir le client de sa demande
+d'intervention** est activé.
+
+!!! info "Limites contre les abus"
+    Un autocollant accepte au maximum 3 signalements par 24 heures, et l'ensemble des autocollants de votre entreprise 30. Au-delà,
+    la personne voit votre numéro de téléphone au lieu du formulaire. Un signalement refusé figure dans le
+    [Journal des actions](../administration/audit-log.md) sous **Administration**. La page ne montre rien de votre client ni de
+    l'appareil : uniquement votre entreprise.
+
 ## Avertir le client
 
 Si **Avertir le client de sa demande d'intervention** est activé dans
@@ -167,6 +205,10 @@ textes dans [Modèles de mail](../settings/mail-templates.md).
 !!! warning "Le client n'a pas reçu d'accusé de réception"
     Regardez sous **Reçue le** sur la fiche. Il n'y avait pas d'adresse e-mail, la case était décochée, ou votre entreprise n'avertit
     pas le client.
+
+!!! warning "Le bouton Signaler une panne n'apparaît pas sur la page de l'autocollant"
+    La case **Toute personne disposant de l'autocollant peut signaler une panne** est décochée, ou l'appareil n'est pas **En
+    service** ou n'appartient à aucun client.
 
 ## Voir aussi
 
