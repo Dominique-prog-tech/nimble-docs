@@ -590,6 +590,9 @@ montant déjà facturé en acompte.
 - Un acompte déjà déduit ne peut plus être crédité. Créditez d'abord la facture qui le déduit ; l'acompte est alors
   libéré.
 - Un projet facturé par état d'avancement ne reçoit pas d'acompte : les états ne le déduiraient jamais.
+- Un acompte appartient à l'**offre**, pas à une seule version. Si vous créez une nouvelle version (v2) après un
+  acompte et que le client l'accepte, l'acompte figure aussi sur la v2 et la facture de la v2 le déduit. Une autre
+  **variante** (A, B) ne le reprend pas : c'est une autre proposition.
 
 ## Versions et variantes
 
@@ -613,7 +616,8 @@ conservée, mais ne compte plus dans le montant *Convenu* du projet, et ne peut 
 !!! warning "Si une version précédente est déjà facturée, une nouvelle ne peut pas être acceptée"
     Nimble refuse alors avec le message *La version … de ce devis a déjà été facturée.* Une modification
     après facturation passe par des [travaux supplémentaires](../work/extra-work.md) ou une note de crédit,
-    pas par une nouvelle version — sinon vous facturez deux fois le même travail.
+    pas par une nouvelle version — sinon vous facturez deux fois le même travail. Un **acompte** ne compte pas
+    comme facturation : il suit la nouvelle version (voir *Facturer un acompte*).
 
     Si le client accepte une telle version en ligne, elle n'est pas appliquée. Vous la retrouvez dans le
     journal d'audit sous *Acceptation bloquée*.

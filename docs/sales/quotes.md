@@ -581,6 +581,9 @@ gefactureerd is.
   dan komt het voorschot weer vrij.
 - Een project dat per vorderingsstaat gefactureerd wordt, krijgt geen voorschot: de staten zouden het nooit
   aftrekken.
+- Een voorschot hoort bij het **aanbod**, niet bij één versie. Maakt u na een voorschot nog een nieuwe versie (v2)
+  en aanvaardt de klant die, dan staat het voorschot ook op v2, en trekt de factuur van v2 het af. Een andere
+  **variant** (A, B) neemt het niet over: dat is een ander voorstel.
 
 ## Versies en varianten
 
@@ -603,7 +606,8 @@ maar telt niet meer mee in het bedrag *Afgesproken* op het project, en ze kan ni
 !!! warning "Is een vorige versie al gefactureerd, dan kan een nieuwe niet aanvaard worden"
     Nimble weigert dan met de melding *Versie … van deze offerte is al gefactureerd.* Een wijziging na de
     facturatie hoort in een [meerwerk](../work/extra-work.md) of een creditnota, niet in een nieuwe versie —
-    anders factureert u hetzelfde werk twee keer.
+    anders factureert u hetzelfde werk twee keer. Een **voorschot** telt hier niet als facturatie: dat gaat mee
+    naar de nieuwe versie (zie *Een voorschot factureren*).
 
     Aanvaardt de klant zo'n versie online, dan wordt dat niet toegepast. U vindt het terug in het
     actielogboek als *Aanvaarding tegengehouden*.
