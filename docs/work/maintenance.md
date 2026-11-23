@@ -22,7 +22,7 @@ Klik in de zijbalk op **Werk → Onderhoud**.
 
 De lijst toont de bezoeken van alle onderhoudscontracten, het vroegste bovenaan. Zo staat wat te laat is altijd eerst.
 
-![De lijst Onderhoud met de kolommen Volgend bezoek, Stand, Werkorder, Project, Klant, Omschrijving, Interval, Ploeg en Laatste bezoek: het jaarlijkse onderhoud van de gastoestellen van Gemeente Nijlen staat Klaargezet met zijn werkorder, de controle van de warmtepomp van de bibliotheek staat Gepland.](../images/onderhoud-lijst.png)
+![De lijst Onderhoud met de kolommen Volgend bezoek, Stand, Werkorder, Klant, Omschrijving, Ploeg en Laatste bezoek: het jaarlijkse onderhoud van de gastoestellen van Gemeente Nijlen staat Klaargezet met zijn werkorder, de controle van de warmtepomp van de bibliotheek staat Gepland.](../images/onderhoud-lijst.png)
 
 | Kolom | Wat het is |
 |---|---|
@@ -35,6 +35,9 @@ De lijst toont de bezoeken van alle onderhoudscontracten, het vroegste bovenaan.
 | **Interval** | Hoe vaak het bezoek terugkomt, bijvoorbeeld *elk jaar* of *om de 6 maanden* |
 | **Ploeg** | De ploeg die het bezoek doet |
 | **Laatste bezoek** | De dag van het laatste afgewerkte bezoek |
+
+**Project** en **Interval** staan standaard verborgen, zodat de lijst op een gewoon scherm past. U zet ze aan met
+**Kolommen kiezen** boven de lijst.
 
 | Stand | Betekenis |
 |---|---|

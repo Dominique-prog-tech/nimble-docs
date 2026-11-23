@@ -24,7 +24,7 @@ Dans la barre latérale, cliquez sur **Travail → Entretien**.
 La liste montre les visites de tous les contrats d'entretien, la plus proche en haut. Ce qui est en retard apparaît donc toujours
 en premier.
 
-![La liste Entretien avec les colonnes Prochaine visite, État, Ordre de travail, Projet, Client, Description, Intervalle, Équipe et Dernière visite : la visite « Jaarlijks onderhoud gastoestellen » de Gemeente Nijlen est Préparée avec son ordre de travail, la visite « Controle warmtepomp bibliotheek » est Planifiée.](../images/onderhoud-lijst-fr.png)
+![La liste Entretien avec les colonnes Prochaine visite, État, Ordre de travail, Client, Description, Équipe et Dernière visite : la visite « Jaarlijks onderhoud gastoestellen » de Gemeente Nijlen est Préparée avec son ordre de travail, la visite « Controle warmtepomp bibliotheek » est Planifiée.](../images/onderhoud-lijst-fr.png)
 
 | Colonne | Ce que c'est |
 |---|---|
@@ -37,6 +37,9 @@ en premier.
 | **Intervalle** | La fréquence de la visite, par exemple *chaque année* ou *tous les 6 mois* |
 | **Équipe** | L'équipe qui effectue la visite |
 | **Dernière visite** | Le jour de la dernière visite terminée |
+
+**Projet** et **Intervalle** sont masqués par défaut, pour que la liste tienne sur un écran ordinaire. Affichez-les
+avec **Choisir les colonnes** au-dessus de la liste.
 
 | État | Signification |
 |---|---|

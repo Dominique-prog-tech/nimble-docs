@@ -11,7 +11,11 @@ Dans la barre latérale, cliquez sur **Travail → Projets**.
 
 ## La liste
 
-![La liste des projets avec les colonnes Numéro, Nom, Client, Statut, Responsable, Date de début, Fin, Type de projet et Statut de production avec un carré de couleur ; les colonnes plus à droite s'affichent en faisant défiler ; à droite le tiroir Journal replié.](../images/projecten-lijst-fr.png)
+![La liste des projets avec les colonnes Numéro, Nom, Client, Statut, Responsable, Date de début, Fin et Statut de production avec un carré de couleur ; à droite le tiroir Journal replié.](../images/projecten-lijst-fr.png)
+
+Par défaut, la liste affiche huit colonnes, pour tenir sur un écran ordinaire. Affichez **Type de projet**,
+**Statut pipeline**, **Budget (HTVA)**, **Commandé** et **Créé le** avec **Choisir les colonnes** au-dessus de la
+liste ; Nimble retient votre choix.
 
 | Colonne | Ce que c'est |
 |---|---|

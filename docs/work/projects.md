@@ -10,7 +10,11 @@ Klik in de zijbalk op **Werk → Projecten**.
 
 ## De lijst
 
-![De projectenlijst met de kolommen Nummer, Naam, Klant, Status, Verantwoordelijke, Startdatum, Einde, Projecttype en Productiestatus met een gekleurd blokje; de kolommen verder rechts ziet u door opzij te schuiven; rechts de dichtgeklapte lade Journaal.](../images/projecten-lijst.png)
+![De projectenlijst met de kolommen Nummer, Naam, Klant, Status, Verantwoordelijke, Startdatum, Einde en Productiestatus met een gekleurd blokje; rechts de dichtgeklapte lade Journaal.](../images/projecten-lijst.png)
+
+Standaard toont de lijst acht kolommen, zodat ze op een gewoon scherm past. **Projecttype**, **Pipeline-status**,
+**Budget (excl. btw)**, **Besteld** en **Aangemaakt** zet u aan met **Kolommen kiezen** boven de lijst; Nimble onthoudt
+uw keuze.
 
 | Kolom | Wat het is |
 |---|---|
