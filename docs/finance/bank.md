@@ -40,6 +40,13 @@ Helemaal rechts ziet u of de rij nog iets van u vraagt:
 - **Afgepunt op** gevolgd door het factuurnummer en het bedrag: de betaling staat op die factuur. Klik op het nummer om de factuur te openen. Bij een uitgaande betaling is dat het nummer van de aankoopfactuur, zoals de leverancier het schreef.
 - **Afgehandeld zonder factuur**: u zette ze op afgehandeld zonder iets te boeken.
 
+Staat maar een deel van een verrichting op facturen, dan staat daaronder **nog toe te wijzen** met het bedrag, en een knop
+**Rest afsluiten**. Een afgesloten rest toont **rest … afgesloten zonder factuur**, met **Terug openzetten**. Zie
+[Meer betaald dan gevraagd](reconciliation.md#meer-betaald-dan-gevraagd).
+
+Een uitgaande verrichting, of een betaling op een aankoopfactuur, handelt u enkel af of maakt u enkel ongedaan als u ook
+aankoopfacturen mag bewerken. Zonder dat recht ziet u de stand, maar geen knoppen.
+
 Vink **Enkel wat nog te doen is** aan om de afgehandelde verrichtingen te verbergen.
 
 ## Een verrichting afhandelen
@@ -56,8 +63,8 @@ eerst of u zeker bent, met het bedrag en de factuur erbij. Daarna is de betaling
 staat de verrichting weer op het scherm Afpunten, waar u ze opnieuw kunt boeken.
 
 Een afgepunte verrichting kunt u niet met **Terug openzetten** heropenen. Dan zou de betaling op de factuur
-blijven staan, en kon hetzelfde geld een tweede keer geboekt worden. Nimble boekt ook nooit een tweede keer op
-een verrichting waarop al een betaling staat.
+blijven staan, en kon hetzelfde geld een tweede keer geboekt worden. Nimble boekt ook nooit meer op een verrichting dan
+er binnenkwam of vertrok: staat ze volledig op facturen, dan boekt het er niets meer op.
 
 !!! warning "Een verrichting in afwachting kunt u niet afhandelen"
     Zolang de bank ze niet definitief geboekt heeft, kan ze nog wijzigen of verdwijnen. Ze afhandelen zou

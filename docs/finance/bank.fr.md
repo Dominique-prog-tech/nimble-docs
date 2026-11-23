@@ -41,6 +41,13 @@ Tout à droite, vous voyez si la ligne demande encore quelque chose :
 - **Lettré sur** suivi du numéro de facture et du montant : le paiement figure sur cette facture. Cliquez sur le numéro pour ouvrir la facture. Pour un paiement sortant, c'est le numéro de la facture d'achat, tel que le fournisseur l'a écrit.
 - **Traité sans facture** : vous l'avez marquée comme traitée sans rien comptabiliser.
 
+Si une partie seulement d'une opération figure sur des factures, **reste à attribuer** apparaît en dessous avec le montant, et un
+bouton **Clôturer le reste**. Un reste clôturé indique **reste de … clôturé sans facture**, avec **Rouvrir**. Voir
+[Plus payé que demandé](reconciliation.fr.md#plus-paye-que-demande).
+
+Une opération sortante, ou un paiement sur une facture d'achat, ne se traite ou ne s'annule que si vous pouvez aussi modifier les
+factures d'achat. Sans ce droit, vous voyez l'état, mais pas de boutons.
+
 Cochez **Uniquement à traiter** pour masquer les opérations traitées.
 
 ## Traiter une opération
@@ -56,8 +63,8 @@ demande d'abord de confirmer, avec le montant et la facture. Ensuite, le paiemen
 l'opération revient sur l'écran Lettrage, où vous pouvez l'enregistrer à nouveau.
 
 Une opération lettrée ne se rouvre pas avec **Rouvrir** : le paiement resterait sur la facture et le même
-montant pourrait être enregistré une seconde fois. Nimble n'enregistre d'ailleurs jamais une seconde fois une
-opération sur laquelle un paiement figure déjà.
+montant pourrait être enregistré une seconde fois. Nimble n'enregistre d'ailleurs jamais plus sur une opération que ce qui
+est entré ou sorti : si elle figure entièrement sur des factures, rien de plus n'y est enregistré.
 
 !!! warning "Une opération en attente ne peut pas être traitée"
     Tant que la banque ne l'a pas comptabilisée définitivement, elle peut encore changer ou disparaître. La

@@ -13,7 +13,7 @@ getal achter een tabblad zegt hoeveel verrichtingen er wachten. Zie [Betalingen 
 Onderaan staat **Ophalen bij de bank**, net als op [Bankverrichtingen](bank.md): daarmee haalt u nieuwe
 verrichtingen binnen zonder van scherm te wisselen.
 
-![Het scherm Afpunten met twee voorstellen: één met zekerheid Zeker dat naar factuur F-2026-0011 wijst, en één met zekerheid Mogelijk waarvoor geen openstaande post gevonden werd.](../images/afpunten-voorstel.png)
+![Het scherm Afpunten met twee voorstellen: één met zekerheid Zeker dat naar factuur F-2026-0011 wijst, en één zonder voorstel, waarvoor geen openstaande post gevonden werd.](../images/afpunten-voorstel.png)
 
 !!! warning "Er wordt niets automatisch geboekt"
     Ook een voorstel met zekerheid **Zeker** wacht op uw klik. Een verkeerde automatische afpunting is
@@ -26,7 +26,9 @@ verrichtingen binnen zonder van scherm te wisselen.
 |---|---|
 | **Zeker** | De gestructureerde mededeling wijst één factuur aan. Dat nummer staat op uw factuur en de klant nam het over |
 | **Waarschijnlijk** | Het bedrag klopt exact met één openstaande factuur van deze klant |
-| **Mogelijk** | Het bedrag is de som van meerdere facturen, of een deelbetaling — of Nimble vond geen enkele openstaande post |
+| **Mogelijk** | Het bedrag is de som van meerdere facturen, of een deelbetaling |
+
+Vond Nimble geen enkele openstaande post, dan staat er **Geen voorstel**.
 
 !!! tip "Nimble herkent een klant aan zijn rekeningnummer"
     Wanneer u een betaling boekt op facturen van één klant, onthoudt Nimble het rekeningnummer waarvan ze kwam. Komt er
@@ -56,6 +58,15 @@ Past het bedrag niet volledig op de voorgestelde facturen, dan staat er **Blijft
 Vond Nimble geen enkele factuur, dan staat **Boeken** grijs: er is niets om op te boeken. Gebruik dan
 **Zelf toewijzen**.
 
+### Meer betaald dan gevraagd
+
+Kwam er meer binnen dan de facturen vragen, dan boekt Nimble op elke factuur wat er openstaat. De rest gaat niet verloren:
+de verrichting blijft in de lijst staan met **Al toegewezen** en **nog te verdelen**. Wijs de rest toe aan een andere factuur
+met **Boeken** of **Zelf toewijzen**, of sluit ze af met **Rest afsluiten**, bijvoorbeeld als u het verschil terugbetaalt.
+
+Met de hand een betaling optekenen die groter is dan wat er op een factuur openstaat, kan niet: dat overschot hoort bij de
+bankverrichting, niet op de factuur.
+
 ### Het verschil: korting of borg
 
 Betaalt de klant iets minder dan er op **één** factuur openstaat, dan vraagt het voorstel wat er met
@@ -80,7 +91,7 @@ dan **Zelf toewijzen**. Er opent een venster met alle openstaande verkoopfacture
 3. Onderaan ziet u hoeveel er toegewezen is en hoeveel er overblijft.
 4. Klik **Boeken**.
 
-Op één factuur kan dat niet meer zijn dan er openstaat, en samen niet meer dan er binnenkwam. Kiest u maar één factuur
+Op één factuur kan dat niet meer zijn dan er openstaat, en samen niet meer dan er nog te verdelen is. Kiest u maar één factuur
 en blijft er iets open, dan kunt u ook hier het verschil als korting of borg boeken.
 
 ## Betalingen aan leveranciers
@@ -88,7 +99,7 @@ en blijft er iets open, dan kunt u ook hier het verschil als korting of borg boe
 Op het tabblad **Betalingen** stelt Nimble voor op welke aankoopfactuur een uitgaande betaling hoort. Het werkt zoals bij de
 ontvangsten, met drie verschillen.
 
-![Het tabblad Betalingen met twee voorstellen: één met zekerheid Zeker dat naar de aankoopfactuur 2026-4417 van Elektro Partner Distributie NV wijst, en één met zekerheid Mogelijk waarvoor geen openstaande post gevonden werd. Onderaan staat hoeveel aankoopfacturen nog op goedkeuring wachten.](../images/afpunten-betalingen.png)
+![Het tabblad Betalingen met twee voorstellen: één met zekerheid Zeker dat naar de aankoopfactuur 2026-4417 van Elektro Partner Distributie NV wijst, en één zonder voorstel, waarvoor geen openstaande post gevonden werd. Onderaan staat hoeveel aankoopfacturen nog op goedkeuring wachten.](../images/afpunten-betalingen.png)
 
 - **Enkel goedgekeurde aankoopfacturen.** Een factuur die nog op goedkeuring wacht, kan niet afgepunt worden. Onder de lijst
   staat hoeveel zulke facturen er openstaan, met een link naar [Aankoopfacturen](../purchasing/purchase-invoices.md).
@@ -112,6 +123,9 @@ rekeningnummer van de begunstigde.**
 Hoort een ontvangst bij geen enkele factuur — een teruggave, een storting van een derde — dan haalt **Niet
 van toepassing** ze uit de lijst zonder te boeken. Ze blijft zichtbaar bij **Bankverrichtingen**, waar u ze
 desnoods weer openzet.
+
+Staat een deel van de verrichting al op een factuur, dan heet die knop **Rest afsluiten**. De rest wordt dan afgesloten
+zonder factuur, en het **Actielogboek** noemt het bedrag. Ook die zet u op Bankverrichtingen weer open.
 
 !!! note "Een afpunting rechtzetten"
     Werd een betaling op de verkeerde factuur geboekt, maak de afpunting dan ongedaan op

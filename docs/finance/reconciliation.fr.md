@@ -13,7 +13,7 @@ nombre après un onglet indique combien d'opérations attendent. Voir [Paiements
 En bas figure **Récupérer à la banque**, comme sur [Opérations bancaires](bank.md) : vous récupérez ainsi
 les nouvelles opérations sans changer d'écran.
 
-![L'écran Lettrage avec deux propositions : l'une avec la certitude Certain qui désigne la facture F-2026-0011, l'autre avec la certitude Possible pour laquelle aucun poste ouvert n'a été trouvé.](../images/afpunten-voorstel-fr.png)
+![L'écran Lettrage avec deux propositions : l'une avec la certitude Certain qui désigne la facture F-2026-0011, l'autre sans proposition, pour laquelle aucun poste ouvert n'a été trouvé.](../images/afpunten-voorstel-fr.png)
 
 !!! warning "Rien n'est enregistré automatiquement"
     Même une proposition **Certain** attend votre clic. Un lettrage automatique erroné coûte plus cher qu'un
@@ -25,7 +25,9 @@ les nouvelles opérations sans changer d'écran.
 |---|---|
 | **Certain** | La communication structurée désigne une seule facture. Ce numéro figure sur votre facture et le client l'a repris |
 | **Probable** | Le montant correspond exactement à une seule facture ouverte de ce client |
-| **Possible** | Le montant est la somme de plusieurs factures, ou un paiement partiel — ou Nimble n'a trouvé aucun poste ouvert |
+| **Possible** | Le montant est la somme de plusieurs factures, ou un paiement partiel |
+
+Si Nimble n'a trouvé aucun poste ouvert, la proposition indique **Aucune proposition**.
 
 !!! tip "Nimble reconnaît un client à son numéro de compte"
     Lorsque vous enregistrez un paiement sur des factures d'un seul client, Nimble retient le numéro de compte d'où il
@@ -44,17 +46,26 @@ Sous chaque proposition figure **pourquoi** Nimble la propose. Lisez cette phras
     montant. Le montant seul ne permet alors **pas** de déterminer laquelle est visée. L'explication indique
     combien il y en a : deux, c'est une vérification ; douze signifie qu'il vous faut la communication.
 
-## Enregistrer
+## Lettrer
 
-**Enregistrer** comptabilise un paiement sur la facture, à la **date de valeur de la banque** — pas au jour
+**Lettrer** comptabilise un paiement sur la facture, à la **date de valeur de la banque** — pas au jour
 où vous cliquez. Si le client solde ainsi la facture, celle-ci passe d'elle-même à *Payée*.
 
 En cas de paiement partiel, le solde reste ouvert, et le paiement suivant de ce client réapparaîtra
 simplement dans cette liste.
 
 Si le montant ne se répartit pas entièrement sur les factures proposées, **Reste :** indique le montant
-restant. Si Nimble n'a trouvé aucune facture, **Enregistrer** est grisé : il n'y a rien sur quoi enregistrer.
+restant. Si Nimble n'a trouvé aucune facture, **Lettrer** est grisé : il n'y a rien à lettrer.
 Utilisez alors **Attribuer soi-même**.
+
+### Plus payé que demandé
+
+S'il est entré plus que ce que les factures demandent, Nimble enregistre sur chaque facture ce qui reste ouvert. Le reste n'est
+pas perdu : l'opération reste dans la liste avec **Déjà attribué** et **reste à répartir**. Attribuez le reste à une autre facture
+avec **Lettrer** ou **Attribuer soi-même**, ou clôturez-le avec **Clôturer le reste**, par exemple si vous remboursez la différence.
+
+Enregistrer à la main un paiement supérieur à ce qui reste ouvert sur une facture n'est pas possible : cet excédent appartient à
+l'opération bancaire, pas à la facture.
 
 ### La différence : escompte ou garantie
 
@@ -79,9 +90,9 @@ cliquez sur **Attribuer soi-même**. Une fenêtre s'ouvre avec toutes les factur
 2. Cochez les factures auxquelles le montant se rapporte. Nimble propose pour chaque facture ce qui reste ouvert,
    jusqu'à épuisement du montant. Vous pouvez modifier chaque montant.
 3. En bas, vous voyez combien a été attribué et combien il reste.
-4. Cliquez sur **Enregistrer**.
+4. Cliquez sur **Lettrer**.
 
-Sur une facture, cela ne peut pas dépasser ce qui reste ouvert, et au total pas plus que le montant reçu. Si vous ne
+Sur une facture, cela ne peut pas dépasser ce qui reste ouvert, et au total pas plus que ce qui reste à répartir. Si vous ne
 choisissez qu'une facture et qu'il reste un solde, vous pouvez ici aussi enregistrer la différence comme escompte ou
 garantie.
 
@@ -90,7 +101,7 @@ garantie.
 Dans l'onglet **Paiements**, Nimble propose la facture d'achat à laquelle correspond un paiement sortant. Cela fonctionne
 comme pour les encaissements, avec trois différences.
 
-![L'onglet Paiements avec deux propositions : l'une avec la certitude Certain qui désigne la facture d'achat 2026-4417 d'Elektro Partner Distributie NV, l'autre avec la certitude Possible pour laquelle aucun poste ouvert n'a été trouvé. En bas figure le nombre de factures d'achat qui attendent encore leur approbation.](../images/afpunten-betalingen-fr.png)
+![L'onglet Paiements avec deux propositions : l'une avec la certitude Certain qui désigne la facture d'achat 2026-4417 d'Elektro Partner Distributie NV, l'autre sans proposition, pour laquelle aucun poste ouvert n'a été trouvé. En bas figure le nombre de factures d'achat qui attendent encore leur approbation.](../images/afpunten-betalingen-fr.png)
 
 - **Seules les factures d'achat approuvées.** Une facture qui attend encore son approbation ne peut pas être lettrée. Sous la
   liste figure le nombre de ces factures ouvertes, avec un lien vers [Factures d'achat](../purchasing/purchase-invoices.md).
@@ -101,7 +112,7 @@ comme pour les encaissements, avec trois différences.
   pouvez la comptabiliser comme **escompte pour paiement comptant** : la facture est alors entièrement payée, avec l'escompte
   sur une ligne à part sur la fiche. Une garantie retenue n'existe pas ici.
 
-**Enregistrer** comptabilise le paiement sur la facture d'achat, à la date de valeur de la banque. Si tout est ainsi payé, la
+**Lettrer** comptabilise le paiement sur la facture d'achat, à la date de valeur de la banque. Si tout est ainsi payé, la
 facture passe à *Payée*. **Attribuer soi-même** et **Sans objet** fonctionnent comme ci-dessus ; un salaire, un loyer ou des
 frais bancaires se traitent avec **Sans objet**.
 
@@ -114,6 +125,9 @@ alors **Fournisseur reconnu grâce au numéro de compte du bénéficiaire.**
 Si une recette ne correspond à aucune facture — un remboursement, un versement d'un tiers — **Sans objet**
 la retire de la liste sans rien comptabiliser. Elle reste visible dans **Opérations bancaires**, où vous
 pouvez au besoin la rouvrir.
+
+Si une partie de l'opération figure déjà sur une facture, ce bouton s'appelle **Clôturer le reste**. Le reste est alors clôturé
+sans facture, et le **Journal des actions** mentionne le montant. Vous le rouvrez aussi dans Opérations bancaires.
 
 !!! note "Corriger un lettrage"
     Si un paiement a été enregistré sur la mauvaise facture, annulez le lettrage dans
