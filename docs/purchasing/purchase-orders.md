@@ -105,7 +105,8 @@ in de kolom **Project** een ander project, of **Magazijn**.
 
 !!! info "Na een ontvangst ligt het project vast"
     Is er op een regel al iets ontvangen, dan kan het project van die regel niet meer wijzigen. Wat al in de voorraad
-    zit, zou anders zonder boeking naar een project verhuizen, of omgekeerd. Zet in dat geval eerst de ontvangst recht.
+    zit, zou anders zonder boeking naar een project verhuizen, of omgekeerd. Maak in dat geval eerst de levering
+    ongedaan (zie [Een levering ongedaan maken](#een-levering-ongedaan-maken)).
 
 ## Goederen ontvangen
 
@@ -142,6 +143,20 @@ Zodra er iets ontvangen is, verschijnt de kaart **Leveringen**. Daar staat per o
 
 Is een regel aan een andere prijs geleverd dan besteld, dan staat die prijs in het oranje. Daaronder
 verschijnt de melding om dat na te kijken vóór u de aankoopfactuur goedkeurt.
+
+### Een levering ongedaan maken
+
+Tikte u een levering verkeerd in (een verkeerd aantal, de verkeerde bestelling), klik dan naast die levering op
+**Ongedaan maken** en bevestig. U maakt telkens een hele levering ongedaan, met al haar regels.
+
+- Wat naar de voorraad ging, wordt teruggeboekt. Op het tabblad Stock van het artikel staan dan allebei de
+  boekingen: de ontvangst en de tegenboeking *Ontvangst ongedaan gemaakt*.
+- Een regel met een project ging nooit naar de voorraad en wordt dus ook niet teruggeboekt.
+- De status volgt: **Deels geleverd** als er nog een andere levering staat, anders weer **Besteld**.
+- Daarna ontvangt u opnieuw, met **Receptioneren** of **Deellevering boeken**.
+
+Het actielogboek noteert wie welke levering ongedaan maakte. Heeft u onbewaarde wijzigingen op de fiche,
+bewaar die dan eerst.
 
 ## De bestelbon afdrukken en mailen
 

@@ -106,7 +106,8 @@ inchangée. Par ligne, vous choisissez dans la colonne **Projet** un autre proje
 
 !!! info "Après une réception, le projet est fixé"
     Dès que quelque chose a été réceptionné sur une ligne, le projet de cette ligne ne peut plus changer. Ce qui est déjà
-    dans le stock passerait sinon vers un projet sans écriture, ou inversement. Corrigez d'abord la réception dans ce cas.
+    dans le stock passerait sinon vers un projet sans écriture, ou inversement. Annulez d'abord la livraison dans ce cas
+    (voir [Annuler une livraison](#annuler-une-livraison)).
 
 ## Réceptionner des marchandises
 
@@ -144,6 +145,20 @@ l'**Article**, la **Quantité** et le **Prix**.
 
 Si une ligne a été livrée à un autre prix que celui commandé, ce prix apparaît en orange. En dessous, un
 message vous invite à le vérifier avant d'approuver la facture d'achat.
+
+### Annuler une livraison
+
+Si vous avez mal encodé une livraison (une mauvaise quantité, la mauvaise commande), cliquez à côté de cette
+livraison sur **Annuler la réception** et confirmez. Vous annulez toujours une livraison entière, avec toutes ses lignes.
+
+- Ce qui est entré en stock est contre-passé. L'onglet Stock de l'article montre alors les deux écritures : la
+  réception et la contre-passation *Réception annulée*.
+- Une ligne avec un projet n'est jamais entrée en stock et n'est donc pas contre-passée.
+- Le statut suit : **Partiellement livré** s'il reste une autre livraison, sinon de nouveau **Commandé**.
+- Ensuite, vous réceptionnez à nouveau avec **Réceptionner** ou **Enregistrer une livraison partielle**.
+
+Le journal des actions note qui a annulé quelle livraison. Si la fiche contient des modifications non
+enregistrées, enregistrez-les d'abord.
 
 ## Imprimer et envoyer le bon de commande
 
