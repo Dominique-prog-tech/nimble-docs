@@ -122,7 +122,7 @@ puis les autres du même client, avec leur numéro de série et leur emplacement
 ## Comment une visite est préparée
 
 Chaque matin, Nimble regarde quelles visites tombent dans le délai. Par défaut, c'est **30 jours** ; vous le réglez dans
-[Suivi des leads, des devis et de l'entretien](../administration/lead-follow-up.md#contrats-dentretien).
+[Suivi des leads, des devis, de l'entretien et des demandes d'intervention](../administration/lead-follow-up.md#contrats-dentretien).
 
 Pour chaque visite à l'échéance, vous obtenez :
 
@@ -163,4 +163,4 @@ ne reçoit rien ; l'e-mail figure dans l'onglet **E-mails** du projet.
 - [Projets](projects.md)
 - [Planning](planning.md)
 - [Bons de travail](work-sheets.md)
-- [Suivi des leads, des devis et de l'entretien](../administration/lead-follow-up.md)
+- [Suivi des leads, des devis, de l'entretien et des demandes d'intervention](../administration/lead-follow-up.md)

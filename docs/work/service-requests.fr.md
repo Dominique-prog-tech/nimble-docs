@@ -58,7 +58,7 @@ demande urgente aujourd'hui. Quand vous créez un ordre de travail ou clôturez 
 
 !!! info "La case Envoyer un accusé de réception"
     La case n'apparaît que si votre entreprise avertit le client de sa demande d'intervention, voir
-    [Suivi des leads, des devis et de l'entretien](../administration/lead-follow-up.md#demandes-dintervention). Elle est grisée s'il
+    [Suivi des leads, des devis, de l'entretien et des demandes d'intervention](../administration/lead-follow-up.md#demandes-dintervention). Elle est grisée s'il
     n'y a pas d'adresse e-mail : ni chez la personne de contact, ni chez le client. Celui qui téléphone a souvent déjà tout entendu :
     décochez-la alors.
 
@@ -80,7 +80,8 @@ responsable, le **Canal** (téléphone, e-mail, portail client, autocollant QR o
 vous voyez aussi si l'accusé de réception est parti.
 
 Vous ne remplissez la carte **Demandeur et adresse** que si le demandeur n'est pas une personne de contact du client, par exemple un
-locataire : son nom, son téléphone et son adresse e-mail. L'adresse est l'endroit où la visite a lieu.
+locataire : son nom, son téléphone et son adresse e-mail. Pour un [signalement du portail](#un-signalement-du-portail), Nimble la
+remplit lui-même. L'adresse est l'endroit où la visite a lieu.
 
 La carte **Ordres de travail** montre les ordres de travail de la demande, avec le jour au planning ou *à planifier*.
 
@@ -127,10 +128,29 @@ La demande quitte le travail ouvert. **Rouvrir** la remet sur **Nouvelle**.
     Si la demande a un ordre de travail, le statut suit cet ordre de travail. Si la visite n'est plus nécessaire, supprimez l'ordre de
     travail.
 
+## Un signalement du portail
+
+Si **Les clients peuvent signaler une panne dans le portail** est activé dans
+[Suivi des leads, des devis, de l'entretien et des demandes d'intervention](../administration/lead-follow-up.md#demandes-dintervention),
+un client qui a accès au [portail pour vos clients](../crm/portaal-voor-klanten.md#signaler-une-panne) signale lui-même une panne.
+La demande arrive comme une demande du bureau : avec le statut **Nouvelle** et la tâche **Traiter la demande d'intervention**, et
+avec :
+
+- le canal **Portail client** ;
+- le client, l'appareil s'il l'a choisi, la description et l'urgence, comme il les a remplis ;
+- comme **Personne de contact** la personne qui a signalé, si c'est une personne de contact du client avec la même adresse e-mail.
+  Sous **Demandeur et adresse** figurent son nom, son adresse e-mail et le numéro de téléphone pour le rappeler ;
+- l'adresse de l'appareil, sinon celle du client ;
+- comme **Responsable** le responsable du client sur la [fiche relation](../relations.md), sinon la personne indiquée sous
+  **Responsable des demandes du portail**. S'il n'y a personne, la tâche reste sans responsable ;
+- les photos dans l'onglet **Pièces jointes**.
+
+Vous la traitez ensuite comme toute demande. Le client suit le statut dans le portail, sous **Mes signalements**.
+
 ## Avertir le client
 
 Si **Avertir le client de sa demande d'intervention** est activé dans
-[Suivi des leads, des devis et de l'entretien](../administration/lead-follow-up.md#demandes-dintervention), le client reçoit deux
+[Suivi des leads, des devis, de l'entretien et des demandes d'intervention](../administration/lead-follow-up.md#demandes-dintervention), le client reçoit deux
 e-mails :
 
 - l'**accusé de réception**, quand vous créez la demande et laissez la case cochée ;
@@ -153,5 +173,6 @@ textes dans [Modèles de mail](../settings/mail-templates.md).
 - [Ordres de travail](work-orders.md)
 - [Planning](planning.md)
 - [Installations](installations.md)
-- [Suivi des leads, des devis et de l'entretien](../administration/lead-follow-up.md)
+- [Suivi des leads, des devis, de l'entretien et des demandes d'intervention](../administration/lead-follow-up.md)
+- [Portail pour vos clients](../crm/portaal-voor-klanten.md#signaler-une-panne)
 - [Modèles de mail](../settings/mail-templates.md)

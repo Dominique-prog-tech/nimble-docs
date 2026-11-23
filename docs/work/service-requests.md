@@ -57,7 +57,7 @@ vandaag. Maakt u een werkorder of sluit u het verzoek af zonder bezoek, dan vink
 
 !!! info "Het vinkje Ontvangstbevestiging mailen"
     Het vinkje staat er enkel als uw bedrijf de klant verwittigt over zijn serviceverzoek, zie
-    [Opvolging van leads, offertes en onderhoud](../administration/lead-follow-up.md#serviceverzoeken). Het is grijs als er geen
+    [Opvolging van leads, offertes, onderhoud en serviceverzoeken](../administration/lead-follow-up.md#serviceverzoeken). Het is grijs als er geen
     e-mailadres is: niet bij de contactpersoon en niet bij de klant. Wie belt, heeft vaak al alles gehoord: vink het dan uit.
 
 ## De fiche
@@ -77,7 +77,8 @@ het **Kanaal** (telefoon, e-mail, klantenportaal, QR-sticker of ander) en of het
 de ontvangstbevestiging vertrok.
 
 De kaart **Melder en adres** vult u enkel in als wie meldde geen contactpersoon van de klant is, bijvoorbeeld een huurder: zijn naam,
-telefoon en e-mailadres. Het adres is waar het bezoek gebeurt.
+telefoon en e-mailadres. Bij een [melding uit het portaal](#een-melding-uit-het-portaal) vult Nimble ze zelf in. Het adres is waar
+het bezoek gebeurt.
 
 De kaart **Werkorders** toont de werkorders van het verzoek, met de dag op het planbord of *nog in te plannen*.
 
@@ -123,10 +124,28 @@ Het verzoek verdwijnt uit het open werk. **Heropenen** zet het terug op **Nieuw*
 !!! info "Afsluiten kan enkel zonder werkorder"
     Heeft het verzoek een werkorder, dan volgt de stand die werkorder. Is het bezoek niet meer nodig, haal dan de werkorder weg.
 
+## Een melding uit het portaal
+
+Staat **Klanten kunnen een storing melden in het portaal** aan bij
+[Opvolging van leads, offertes, onderhoud en serviceverzoeken](../administration/lead-follow-up.md#serviceverzoeken), dan meldt een
+klant met toegang tot het [portaal voor uw klanten](../crm/portaal-voor-klanten.md#storing-melden) zelf een storing. Het verzoek komt
+binnen zoals een verzoek van kantoor: met de stand **Nieuw** en de taak **Serviceverzoek behandelen**, en met:
+
+- het kanaal **Klantenportaal**;
+- de klant, het toestel als hij het koos, de omschrijving en of het dringend is, zoals hij ze invulde;
+- als **Contactpersoon** de persoon die meldde, als hij een contactpersoon van de klant is met hetzelfde e-mailadres. Bij
+  **Melder en adres** staan zijn naam, zijn e-mailadres en het telefoonnummer om hem terug te bellen;
+- het adres van het toestel, anders dat van de klant;
+- als **Verantwoordelijke** de verantwoordelijke van de klant op de [relatiefiche](../relations.md), anders wie bij **Verantwoordelijke
+  voor verzoeken uit het portaal** staat. Staat daar niemand, dan staat de taak bij **Niemand**;
+- de foto's op het tabblad **Bijlagen**.
+
+U behandelt het verder zoals elk verzoek. De klant volgt de stand in het portaal bij **Mijn meldingen**.
+
 ## De klant verwittigen
 
 Staat **De klant verwittigen over zijn serviceverzoek** aan bij
-[Opvolging van leads, offertes en onderhoud](../administration/lead-follow-up.md#serviceverzoeken), dan krijgt de klant twee mails:
+[Opvolging van leads, offertes, onderhoud en serviceverzoeken](../administration/lead-follow-up.md#serviceverzoeken), dan krijgt de klant twee mails:
 
 - de **ontvangstbevestiging**, wanneer u het verzoek maakt en het vinkje aanlaat;
 - een **bevestiging van de dag**, zodra de werkorder een dag heeft op het planbord, en opnieuw als die dag verschuift.
@@ -147,5 +166,6 @@ De mail gaat naar de contactpersoon, anders naar de melder, anders naar de klant
 - [Werkorders](work-orders.md)
 - [Planning](planning.md)
 - [Installaties](installations.md)
-- [Opvolging van leads, offertes en onderhoud](../administration/lead-follow-up.md)
+- [Opvolging van leads, offertes, onderhoud en serviceverzoeken](../administration/lead-follow-up.md)
+- [Portaal voor uw klanten](../crm/portaal-voor-klanten.md#storing-melden)
 - [Mailsjablonen](../settings/mail-templates.md)

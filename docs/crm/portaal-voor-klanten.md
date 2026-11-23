@@ -57,7 +57,8 @@ Daarna vraagt het portaal bij elke aanmelding de code uit die app. Bovenaan kies
 ## Wat uw klant ziet
 
 Bovenaan het portaal staan het logo en de naam van uw bedrijf, zoals op de [bedrijfsfiche](../settings/company-profile.md).
-Eronder het menu met **Mijn projecten** en **Mijn facturen**.
+Eronder het menu met **Mijn projecten** en **Mijn facturen**, en **Mijn meldingen** als uw bedrijf het
+[melden van storingen](#storing-melden) aanzette.
 
 ### Mijn projecten
 
@@ -67,13 +68,15 @@ Elk project van de klant, het nieuwste eerst, met zijn nummer, zijn naam en een 
 - **In uitvoering**: de startdatum is voorbij.
 - **Opgeleverd**: het project heeft een opleverdatum of is afgerond.
 
-Daaronder de periode, bijvoorbeeld *Van 25/08/2026 tot 18/09/2026*. Een gearchiveerd project staat er niet bij.
+Daaronder de periode, bijvoorbeeld *Van 25/08/2026 tot 18/09/2026*. Een gearchiveerd project staat er niet bij. Staat het
+melden van storingen aan, dan staat rechtsboven de knop **Storing melden**.
 
-![Mijn projecten in het portaal van Sofie De Wilde: het project Ventilatie kantoorverdieping, P2026-004, met de stand Opgeleverd.](../images/portaal-projecten.png)
+![Mijn projecten in het portaal van Sofie De Wilde: het project Ventilatie kantoorverdieping, P2026-004, met de stand Opgeleverd, en rechtsboven de knop Storing melden.](../images/portaal-projecten.png)
 
 ### Een project
 
-Een klik op een project toont drie blokken, en een vierde als uw bedrijf het aanzet:
+Een klik op een project toont deze blokken. **Planning** en **Toestellen en onderhoud** staan er enkel als ze iets te tonen
+hebben:
 
 - **Gegevens**: het werfadres, de start, het einde en de datum van oplevering.
 - **Contact**: de verantwoordelijke van het project als **Uw contactpersoon**, en de naam, het adres, het telefoonnummer en
@@ -82,10 +85,14 @@ Een klik op een project toont drie blokken, en een vierde als uw bedrijf het aan
   **Bouwheren zien in het klantenportaal wanneer er aan hun project gewerkt wordt** aan staat. Per gepland blok de dag
   waarop het begint en hoeveel werkdagen het duurt, bijvoorbeeld *do 26/11/2026 2,5 werkdagen*. Wat al voorbij is en wat
   nog geen dag heeft, staat er niet. Werken twee ploegen op dezelfde dag even lang, dan staat die dag er één keer.
+- **Toestellen en onderhoud**: enkel als het project [toestellen](../work/installations.md) of een
+  [onderhoudscontract](../work/maintenance.md) heeft. Per toestel wanneer het laatst nagekeken werd, met het **Verslag** van dat
+  bezoek. Staat het melden van storingen aan, dan staat bij elk toestel in gebruik **Storing melden**. Daaronder het contract en
+  de onderhoudsbezoeken.
 - **Documenten**: de documenten die u met hem deelt, met de datum. Een klik opent een foto of pdf in de browser; een ander
   bestand wordt gedownload.
 
-![Het project Ventilatie kantoorverdieping in het portaal, met de blokken Gegevens, Contact en Documenten; bij Documenten één gedeelde werffoto.](../images/portaal-project.png)
+![Het project Ventilatie kantoorverdieping in het portaal, met de blokken Gegevens en Contact, het blok Toestellen en onderhoud met de ventilatie-unit en de link Storing melden, en het blok Documenten met één gedeelde werffoto.](../images/portaal-project.png)
 
 ### Mijn facturen
 
@@ -101,6 +108,43 @@ Met **PDF** opent hij de factuur zoals u ze verstuurt. Staat er nog iets open, d
 bedrag. Enkel uitgereikte facturen staan erbij: geen klad en geen geannuleerde factuur.
 
 ![Mijn facturen in het portaal: bovenaan Nog te betalen, € 2.474,55; daaronder factuur F-2026-0011 met de stand Vervallen en de link PDF.](../images/portaal-facturen.png)
+
+### Storing melden
+
+Staat **Klanten kunnen een storing melden in het portaal** aan op
+[Opvolging van leads, offertes, onderhoud en serviceverzoeken](../administration/lead-follow-up.md#serviceverzoeken), dan meldt uw
+klant zelf een storing. Hij klikt op **Storing melden** bij een toestel op de projectpagina, of rechtsboven op **Mijn projecten** of
+**Mijn meldingen**.
+
+![Het formulier Storing melden in het portaal: het toestel Renson Endura Delta 450 is al gekozen, daaronder Wat is er? met een beschrijving, het vinkje Dringend, het vak voor foto's, het telefoonnummer om terug te bellen en de knoppen Versturen en Mijn meldingen.](../images/portaal-storing-melden.png)
+
+| Veld | Wat het is |
+|---|---|
+| **Voor** | Enkel als hij toegang heeft voor meer dan één klant: voor wie hij meldt |
+| **Toestel** | Een toestel van hem dat in gebruik is, of **Weet ik niet / geen toestel**. Vanaf een toestel staat het al ingevuld |
+| **Wat is er?** | Verplicht: wat er is |
+| **Dringend** | Bijvoorbeeld geen verwarming of een waterlek |
+| **Foto's** | Hoogstens 5 foto's van elk hoogstens 10 MB |
+| **Telefoon om u terug te bellen** | Ingevuld met het nummer dat u van hem kent. Hij mag het aanpassen |
+
+Na **Versturen** ziet hij het nummer van zijn melding, bijvoorbeeld *SV-2026-0005*. Bij u komt een
+[serviceverzoek](../work/service-requests.md#een-melding-uit-het-portaal) binnen. Staat het verwittigen van de klant aan, dan krijgt
+hij ook de ontvangstbevestiging per mail.
+
+### Mijn meldingen
+
+Elk serviceverzoek van de klant, ook wat u voor hem noteerde, met het nummer, de dag van de melding, het toestel, wat er is en
+de stand in zijn woorden:
+
+- **Ontvangen**: het verzoek kwam binnen.
+- **In behandeling**: iemand nam het op, of er is een werkorder zonder dag.
+- **Ingepland op** een dag: de werkorder staat op het planbord.
+- **Afgewerkt**: het werk is gedaan.
+- **Afgesloten**, met de reden: u sloot het af zonder bezoek, bijvoorbeeld *Afgesloten: telefonisch opgelost*.
+
+Wie het behandelt, de werkorder en de ploeg ziet hij niet.
+
+![Mijn meldingen in het portaal: melding SV-2026-0005 voor de Renson Endura Delta 450, Ventilatie maakt een luid zoemend geluid, met de stand Ingepland op een dag, en rechtsboven de knop Storing melden.](../images/portaal-meldingen.png)
 
 ## Documenten delen
 
@@ -119,7 +163,8 @@ Het [actielogboek](../administration/audit-log.md) houdt bij wie een document zi
 ## Wat uw klant nooit ziet
 
 Interne notities en taken, het logboek, aankoopfacturen en leveranciers, marges, nacalculatie en budget, werkbonnen, uren
-per monteur en de namen van monteurs, de omschrijving en de ploeg van een planning, kortingen en prijsafspraken. Ook de projecten van een andere klant ziet hij niet,
+per monteur en de namen van monteurs, de omschrijving en de ploeg van een planning, kortingen en prijsafspraken, en wie zijn
+melding behandelt. Ook de projecten van een andere klant ziet hij niet,
 ook niet als hij het adres van zo'n pagina zou kennen.
 
 ## Veelgemaakte fouten
@@ -135,6 +180,10 @@ ook niet als hij het adres van zo'n pagina zou kennen.
       komen.
     - **De klant ziet geen planning.** Op de bedrijfsfiche staat **Bouwheren zien in het klantenportaal wanneer er aan
       hun project gewerkt wordt** uit, of het project heeft geen geplande dag die nog komt of loopt.
+    - **De klant ziet geen knop Storing melden.** Het melden staat uit op Opvolging van leads, offertes, onderhoud en
+      serviceverzoeken. Staat het aan maar ontbreekt de link bij één toestel, dan is dat toestel niet in gebruik.
+    - **De klant kan geen melding meer versturen.** Hij meldde de voorbije 24 uur al 10 storingen. Het portaal vraagt hem dan
+      te bellen.
     - **Een e-mailadres van een collega gebruiken.** Op een adres waarop al een gebruiker van Nimble staat, kunt u geen
       toegang tot het portaal geven. Kies een ander adres.
 
@@ -144,3 +193,4 @@ ook niet als hij het adres van zo'n pagina zou kennen.
 - [Projecten](../work/projects.md#tabblad-documenten): het tabblad Documenten
 - [Standaardmappen](../administration/default-folders.md)
 - [Facturen](../sales/invoices.md#de-betaal-qr): de betaal-QR
+- [Serviceverzoeken](../work/service-requests.md#een-melding-uit-het-portaal): een melding uit het portaal

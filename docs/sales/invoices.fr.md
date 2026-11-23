@@ -39,6 +39,9 @@ aucune des deux étiquettes : elle n'est jamais échue, et son montant ne figure
 Si le client a retenu une garantie, l'étiquette **Garantie** apparaît. Survolez-la pour voir le montant et la date
 de libération. Après cette date, l'étiquette devient **Garantie libérée**. Voir [Une garantie retenue](#une-garantie-retenue).
 
+Si la facture est partie via Peppol, le statut de livraison figure aussi : **Livrée** (vert), **En cours** (bleu) ou **Non livrée**
+(rouge). Survolez-le pour voir le statut tel qu'il figure sur la fiche. Voir [Envoyer via Peppol](#envoyer-via-peppol).
+
 Au-dessus de la liste figurent :
 
 - **Facture à partir d'un devis** — crée une facture sur la base d'un devis accepté.
@@ -292,10 +295,19 @@ dans la fiche société, Nimble vérifie à l'ouverture de la fenêtre si le cli
   l'envoie pas une seconde fois. Vous pouvez toujours télécharger le fichier.
 
 Après l'envoi, la fiche indique sous **Envoyée** *Peppol* avec le statut de livraison : **Acceptée par le réseau**, puis en
-général dans la minute **Livrée**. Le statut est mis à jour chaque fois que vous ouvrez la facture. Le fichier envoyé figure dans
-l'onglet **Pièces jointes**. Si la livraison échoue ou si le destinataire refuse, le motif est indiqué et vous pouvez renvoyer.
+général dans la minute **Livrée**. Le statut est mis à jour chaque fois que vous ouvrez la facture, et chaque nuit. Le fichier
+envoyé figure dans l'onglet **Pièces jointes**. Si la livraison échoue ou si le destinataire refuse, le motif est indiqué et vous pouvez renvoyer.
 Une même facture ne part jamais deux fois : si vous la proposez à nouveau pendant que le premier envoi est en cours, vous
 récupérez ce premier envoi.
+
+Si la facture est livrée, le lien **Preuve de livraison** figure à côté de **Livrée**. Il montre la preuve du réseau Peppol que la
+facture est arrivée chez le destinataire, en PDF dans votre langue, avec l'original signé en pièce jointe dans le PDF. C'est le
+document que vous transmettez si un client affirme ne pas avoir reçu la facture. Nimble conserve aussi la preuve, une seule fois,
+dans l'onglet **Pièces jointes**, dans la langue du client.
+
+Une preuve existe pour les factures livrées depuis le 23/11/2026. Pour une facture plus ancienne, le lien indique qu'il n'y a pas
+(encore) de preuve. Si Nimble ne parvient pas à récupérer la preuve, vous le lisez aussi : réessayez plus tard. Cela ne signifie
+pas qu'il n'y a pas de preuve.
 
 Une facture électronique doit porter une référence du client. Nimble prend **Votre référence** ; si ce champ
 est vide, le code du projet.

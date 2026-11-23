@@ -39,6 +39,9 @@ labels: zij vervalt niet, en haar bedrag staat nooit in het rood.
 Hield de klant een borg in, dan staat er het label **Borg**. Beweeg de muis erover voor het bedrag en de datum
 waarop de borg vrijkomt. Na die datum heet het label **Borg vrij**. Zie [Een ingehouden borg](#een-ingehouden-borg).
 
+Vertrok de factuur via Peppol, dan staat er ook de afleverstatus: **Afgeleverd** (groen), **Onderweg** (blauw) of **Niet
+afgeleverd** (rood). Beweeg de muis erover voor de status zoals op de fiche. Zie [Versturen via Peppol](#versturen-via-peppol).
+
 Boven de lijst staan:
 
 - **Factuur uit offerte** — maakt een factuur op basis van een aanvaarde offerte.
@@ -285,10 +288,19 @@ bedrijfsfiche, dan kijkt Nimble bij het openen van het venster of de klant op Pe
   een tweede keer. Het bestand downloaden kan wel.
 
 Na het versturen staat onder **Verstuurd** op de fiche *Peppol* met de afleverstatus: **Aanvaard door het netwerk**, daarna
-doorgaans binnen een minuut **Afgeleverd**. De status wordt bijgewerkt telkens u de factuur opent. Het verstuurde bestand staat
-op het tabblad **Bijlagen**. Mislukt de aflevering of weigert de ontvanger, dan staat de reden erbij en kunt u opnieuw versturen.
+doorgaans binnen een minuut **Afgeleverd**. De status wordt bijgewerkt telkens u de factuur opent, en elke nacht. Het verstuurde
+bestand staat op het tabblad **Bijlagen**. Mislukt de aflevering of weigert de ontvanger, dan staat de reden erbij en kunt u opnieuw versturen.
 Eenzelfde factuur vertrekt nooit twee keer: biedt u ze opnieuw aan terwijl de eerste verzending nog loopt, dan krijgt u die
 eerste verzending terug.
+
+Is de factuur afgeleverd, dan staat naast **Afgeleverd** de link **Afleverbewijs**. Die toont het bewijs van het Peppol-netwerk dat
+de factuur bij de ontvanger aankwam, als pdf in uw taal, met het ondertekende origineel als bijlage in de pdf. Dat is het stuk dat u
+doorstuurt als een klant zegt dat hij de factuur niet kreeg. Nimble bewaart het bewijs ook zelf, één keer, op het tabblad
+**Bijlagen**, in de taal van de klant.
+
+Een bewijs bestaat voor facturen die afgeleverd zijn sinds 23/11/2026. Bij een oudere factuur zegt de link dat er (nog) geen
+bewijs is. Kan Nimble het bewijs niet ophalen, dan leest u dat ook: probeer het later opnieuw. Dat betekent niet dat er geen bewijs
+is.
 
 Een e-factuur moet een referentie van de klant dragen. Nimble neemt **Uw referentie**; is dat veld leeg, dan
 de code van het project.

@@ -1,14 +1,15 @@
-# Suivi des leads, des devis et de l'entretien
+# Suivi des leads, des devis, de l'entretien et des demandes d'intervention
 
 Chaque matin, Nimble vérifie quels leads restent en plan et quels devis envoyés n'ont pas encore de réponse, et en
-crée une tâche. Le même tour prépare la prochaine visite d'entretien. Cet écran détermine quand cela se produit.
+crée une tâche. Le même tour prépare la prochaine visite d'entretien. Cet écran détermine quand cela se produit, et comment
+arrivent les demandes d'intervention.
 
 ## Ouvrir l'écran
 
 1. Cliquez sur **Administration** en bas de la barre latérale.
-2. Dans le groupe **Leads**, cliquez sur la tuile **Suivi des leads, des devis et de l'entretien**.
+2. Dans le groupe **Leads**, cliquez sur la tuile **Suivi des leads, des devis, de l'entretien et des demandes d'intervention**.
 
-![L'écran de réglages Suivi des leads, des devis et de l'entretien avec la case Suivi automatique activé, le champ Silencieux après (jours), le bloc Devis envoyés avec Suivre les devis sans réponse et Suivre après (jours), le bloc Contrats d'entretien avec Préparer (jours avant) et la case Avertir le client de sa visite d'entretien, le bloc Demandes d'intervention avec Type de projet pour un nouveau projet et la case Avertir le client de sa demande d'intervention, et les boutons Enregistrer et Lancer le suivi maintenant.](../images/leadopvolging-scherm-fr.png)
+![L'écran de réglages Suivi des leads, des devis, de l'entretien et des demandes d'intervention avec la case Suivi automatique activé, le champ Silencieux après (jours), le bloc Devis envoyés avec Suivre les devis sans réponse et Suivre après (jours), le bloc Contrats d'entretien avec Préparer (jours avant) et la case Avertir le client de sa visite d'entretien, le bloc Demandes d'intervention avec Type de projet pour un nouveau projet et la case Avertir le client de sa demande d'intervention, la case Les clients peuvent signaler une panne dans le portail et le champ Responsable des demandes du portail, et les boutons Enregistrer et Lancer le suivi maintenant.](../images/leadopvolging-scherm-fr.png)
 
 ## Les trois règles
 
@@ -91,7 +92,7 @@ Cliquez sur **Enregistrer** après une modification.
 
 ## Demandes d'intervention
 
-Deux réglages pour les [demandes d'intervention](../work/service-requests.md) :
+Quatre réglages pour les [demandes d'intervention](../work/service-requests.md) :
 
 - **Type de projet pour un nouveau projet** : si une demande d'intervention reçoit un ordre de travail et que le client n'a pas de
   projet en cours, Nimble crée un projet de ce type. Vide : le nouveau projet n'a pas de type, sauf si vous en choisissez un dans la
@@ -99,6 +100,12 @@ Deux réglages pour les [demandes d'intervention](../work/service-requests.md) :
 - **Avertir le client de sa demande d'intervention** : un accusé de réception pour une nouvelle demande (dans la fenêtre avec une
   case à cocher), et une confirmation dès que l'ordre de travail a un jour au planning. **Par défaut, c'est activé.** Les textes se
   trouvent dans **Modèles de mail**.
+- **Les clients peuvent signaler une panne dans le portail** : un client qui a accès au
+  [portail pour vos clients](../crm/portaal-voor-klanten.md#signaler-une-panne) signale lui-même une panne pour l'un de ses
+  appareils, avec des photos, et suit le statut dans **Mes signalements**. La demande arrive comme une demande du bureau. **Par
+  défaut, c'est désactivé.**
+- **Responsable des demandes du portail** : qui reçoit une demande du portail si le client n'a pas de responsable. Vide : la tâche
+  **Traiter la demande d'intervention** reste sans responsable.
 
 La confirmation du jour ne part pas seulement le matin : Nimble vérifie tous les quarts d'heure si un ordre de travail d'une demande a
 reçu un jour.

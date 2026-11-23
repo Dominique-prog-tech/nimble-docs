@@ -59,7 +59,8 @@ Ensuite, le portail demande le code de cette application à chaque connexion. En
 ## Ce que voit votre client
 
 En haut du portail figurent le logo et le nom de votre entreprise, tels qu'ils sont sur la
-[fiche entreprise](../settings/company-profile.md). En dessous, le menu avec **Mes projets** et **Mes factures**.
+[fiche entreprise](../settings/company-profile.md). En dessous, le menu avec **Mes projets** et **Mes factures**, et
+**Mes signalements** si votre entreprise a activé le [signalement des pannes](#signaler-une-panne).
 
 ### Mes projets
 
@@ -69,13 +70,15 @@ Chaque projet du client, le plus récent en premier, avec son numéro, son nom e
 - **En cours** : la date de début est passée.
 - **Réceptionné** : le projet a une date de réception ou est terminé.
 
-En dessous, la période, par exemple *Du 25/08/2026 au 18/09/2026*. Un projet archivé n'y figure pas.
+En dessous, la période, par exemple *Du 25/08/2026 au 18/09/2026*. Un projet archivé n'y figure pas. Si le signalement des
+pannes est activé, le bouton **Signaler une panne** figure en haut à droite.
 
-![Mes projets dans le portail de Sofie De Wilde : le projet Ventilatie kantoorverdieping, P2026-004, avec l'état Réceptionné.](../images/portaal-projecten-fr.png)
+![Mes projets dans le portail de Sofie De Wilde : le projet Ventilatie kantoorverdieping, P2026-004, avec l'état Réceptionné, et en haut à droite le bouton Signaler une panne.](../images/portaal-projecten-fr.png)
 
 ### Un projet
 
-Un clic sur un projet affiche trois blocs, et un quatrième si votre entreprise l'active :
+Un clic sur un projet affiche ces blocs. **Planning** et **Appareils et entretien** n'y figurent que s'ils ont quelque chose à
+montrer :
 
 - **Données** : l'adresse du chantier, le début, la fin et la date de réception.
 - **Contact** : le responsable du projet comme **Votre personne de contact**, et le nom, l'adresse, le numéro de téléphone et
@@ -85,10 +88,14 @@ Un clic sur un projet affiche trois blocs, et un quatrième si votre entreprise 
   chaque bloc planifié, le jour où il commence et combien de jours ouvrables il dure, par exemple
   *jeu. 26/11/2026 2,5 jours ouvrables*. Ce qui est déjà passé et ce qui n'a pas encore de jour n'y figurent pas. Si deux
   équipes travaillent le même jour aussi longtemps, ce jour n'y figure qu'une fois.
+- **Appareils et entretien** : seulement si le projet a des [appareils](../work/installations.md) ou un
+  [contrat d'entretien](../work/maintenance.md). Pour chaque appareil, quand il a été contrôlé pour la dernière fois, avec le
+  **Rapport** de cette visite. Si le signalement des pannes est activé, **Signaler une panne** figure à côté de chaque appareil en
+  service. En dessous, le contrat et les visites d'entretien.
 - **Documents** : les documents que vous partagez avec lui, avec la date. Un clic ouvre une photo ou un PDF dans le
   navigateur ; un autre fichier est téléchargé.
 
-![Le projet Ventilatie kantoorverdieping dans le portail, avec les blocs Données, Contact et Documents ; sous Documents, une photo de chantier partagée.](../images/portaal-project-fr.png)
+![Le projet Ventilatie kantoorverdieping dans le portail, avec les blocs Données et Contact, le bloc Appareils et entretien avec l'unité de ventilation et le lien Signaler une panne, et le bloc Documents avec une photo de chantier partagée.](../images/portaal-project-fr.png)
 
 ### Mes factures
 
@@ -104,6 +111,43 @@ Avec **PDF**, il ouvre la facture telle que vous l'envoyez. S'il reste un montan
 exactement ce montant. Seules les factures émises y figurent : pas de brouillon ni de facture annulée.
 
 ![Mes factures dans le portail : en haut Reste à payer, € 2.474,55 ; en dessous la facture F-2026-0011 avec l'état Échu et le lien PDF.](../images/portaal-facturen-fr.png)
+
+### Signaler une panne
+
+Si **Les clients peuvent signaler une panne dans le portail** est activé dans
+[Suivi des leads, des devis, de l'entretien et des demandes d'intervention](../administration/lead-follow-up.md#demandes-dintervention),
+votre client signale lui-même une panne. Il clique sur **Signaler une panne** à côté d'un appareil sur la page du projet, ou en haut à
+droite de **Mes projets** ou **Mes signalements**.
+
+![Le formulaire Signaler une panne dans le portail : l'appareil Renson Endura Delta 450 est déjà choisi, en dessous Quel est le problème ? avec une description, la case Urgent, la zone pour les photos, le numéro de téléphone pour rappeler et les boutons Envoyer et Mes signalements.](../images/portaal-storing-melden-fr.png)
+
+| Champ | Ce que c'est |
+|---|---|
+| **Pour** | Seulement s'il a accès pour plus d'un client : pour qui il signale |
+| **Appareil** | Un de ses appareils en service, ou **Inconnu / aucun appareil**. Depuis un appareil, il est déjà rempli |
+| **Quel est le problème ?** | Obligatoire : le problème |
+| **Urgent** | Par exemple pas de chauffage ou une fuite d'eau |
+| **Photos** | Au maximum 5 photos de 10 Mo chacune |
+| **Téléphone pour vous rappeler** | Rempli avec le numéro que vous connaissez de lui. Il peut le modifier |
+
+Après **Envoyer**, il voit le numéro de son signalement, par exemple *SV-2026-0005*. Chez vous arrive une
+[demande d'intervention](../work/service-requests.md#un-signalement-du-portail). Si l'avertissement du client est activé, il reçoit
+aussi l'accusé de réception par e-mail.
+
+### Mes signalements
+
+Chaque demande d'intervention du client, y compris celles que vous avez notées pour lui, avec le numéro, le jour du
+signalement, l'appareil, le problème et le statut dans ses mots :
+
+- **Reçu** : la demande est arrivée.
+- **En cours** : quelqu'un l'a prise en charge, ou il y a un ordre de travail sans jour.
+- **Planifié le** un jour : l'ordre de travail est au planning.
+- **Terminé** : le travail est fait.
+- **Clôturé**, avec le motif : vous l'avez clôturée sans visite, par exemple *Clôturé : résolue par téléphone*.
+
+Il ne voit pas qui la traite, ni l'ordre de travail, ni l'équipe.
+
+![Mes signalements dans le portail : le signalement SV-2026-0005 pour la Renson Endura Delta 450, Ventilatie maakt een luid zoemend geluid, avec le statut Planifié le, et en haut à droite le bouton Signaler une panne.](../images/portaal-meldingen-fr.png)
 
 ## Partager des documents
 
@@ -122,8 +166,8 @@ Le [journal des actions](../administration/audit-log.md) garde une trace de qui 
 ## Ce que votre client ne voit jamais
 
 Les notes et tâches internes, l'historique, les factures d'achat et les fournisseurs, les marges, le post-calcul et le
-budget, les bons de travail, les heures par monteur et les noms des monteurs, la description et l'équipe d'un planning, les remises et les accords de prix. Il ne voit
-pas non plus les projets d'un autre client, même s'il connaissait l'adresse d'une telle page.
+budget, les bons de travail, les heures par monteur et les noms des monteurs, la description et l'équipe d'un planning, les remises et les accords de prix, et qui
+traite son signalement. Il ne voit pas non plus les projets d'un autre client, même s'il connaissait l'adresse d'une telle page.
 
 ## Erreurs fréquentes
 
@@ -139,6 +183,11 @@ pas non plus les projets d'un autre client, même s'il connaissait l'adresse d'u
       ensuite dans un tel dossier.
     - **Le client ne voit pas de planning.** Sur la fiche entreprise, **Les maîtres d'ouvrage voient dans le portail client
       quand on travaille à leur projet** est désactivé, ou le projet n'a pas de jour planifié à venir ou en cours.
+    - **Le client ne voit pas de bouton Signaler une panne.** Le signalement est désactivé dans Suivi des leads, des devis, de
+      l'entretien et des demandes d'intervention. S'il est activé mais que le lien manque pour un appareil, cet appareil n'est pas
+      en service.
+    - **Le client ne peut plus envoyer de signalement.** Il a déjà signalé 10 pannes au cours des dernières 24 heures. Le portail
+      lui demande alors de téléphoner.
     - **Utiliser l'adresse e-mail d'un collègue.** Sur une adresse qui appartient déjà à un utilisateur de Nimble, vous ne
       pouvez pas donner accès au portail. Choisissez une autre adresse.
 
@@ -148,3 +197,4 @@ pas non plus les projets d'un autre client, même s'il connaissait l'adresse d'u
 - [Projets](../work/projects.md#onglet-documents) : l'onglet Documents
 - [Dossiers standard](../administration/default-folders.md)
 - [Factures](../sales/invoices.md#le-qr-de-paiement) : le QR de paiement
+- [Demandes d'intervention](../work/service-requests.md#un-signalement-du-portail) : un signalement du portail

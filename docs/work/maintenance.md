@@ -119,7 +119,7 @@ daarna de andere van dezelfde klant, met hun serienummer en locatie.
 ## Hoe een bezoek klaargezet wordt
 
 Elke ochtend kijkt Nimble welke bezoeken binnen de termijn vallen. Standaard is dat **30 dagen**; u stelt het in bij
-[Opvolging van leads, offertes en onderhoud](../administration/lead-follow-up.md#onderhoudscontracten).
+[Opvolging van leads, offertes, onderhoud en serviceverzoeken](../administration/lead-follow-up.md#onderhoudscontracten).
 
 Voor elk bezoek dat aan de beurt is, komt er:
 
@@ -160,4 +160,4 @@ staat in het tabblad **Mails** van het project.
 - [Projecten](projects.md)
 - [Planning](planning.md)
 - [Werkbonnen](work-sheets.md)
-- [Opvolging van leads, offertes en onderhoud](../administration/lead-follow-up.md)
+- [Opvolging van leads, offertes, onderhoud en serviceverzoeken](../administration/lead-follow-up.md)
