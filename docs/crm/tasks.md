@@ -13,7 +13,7 @@ Klik in de zijbalk op **CRM → Taken**.
 
 | Kolom | Betekenis |
 |---|---|
-| **Klaar** | Het vinkje om de taak af te werken — zie hieronder |
+| **Afvinken** | Het vinkje om de taak af te werken — zie hieronder |
 | **Titel** | Wat er moet gebeuren |
 | **Hangt aan** | Waar de taak bij hoort, met het soort ervoor: *Lead — …*, *Relatie — …*, *Werkorder — …*. Een taak die nergens aan hangt, toont *Losse taak* |
 | **Start** | Wanneer u eraan begint |
@@ -41,7 +41,7 @@ Bovenaan staan twee filters en een teller.
 
 ## Een taak afwerken
 
-Klik het vinkje in de eerste kolom, **Klaar**. De taak is meteen afgewerkt. Het vinkje is enkel aanklikbaar
+Klik het vinkje in de eerste kolom, **Afvinken**. De taak is meteen afgewerkt. Het vinkje is enkel aanklikbaar
 als u taken mag wijzigen.
 
 Staat de lijst op **Enkel openstaand**, dan verdwijnt ze uit beeld. Was u te snel, zet het filter dan op

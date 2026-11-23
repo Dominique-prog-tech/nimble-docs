@@ -13,7 +13,7 @@ Dans la barre latérale, cliquez sur **CRM → Tâches**.
 
 | Colonne | Signification |
 |---|---|
-| **Fait** | La coche pour terminer la tâche — voir ci-dessous |
+| **Cocher** | La coche pour terminer la tâche — voir ci-dessous |
 | **Titre** | Ce qui doit être fait |
 | **Rattachée à** | Ce à quoi la tâche appartient — un lead, une relation, un ordre de travail … —, précédé de son type, par exemple *Lead — …*. Une tâche rattachée à rien affiche *Tâche libre* |
 | **Début** | Quand vous commencez |
@@ -41,7 +41,7 @@ En haut se trouvent deux filtres et un compteur.
 
 ## Terminer une tâche
 
-Cliquez sur la coche dans la première colonne, **Fait**. La tâche est aussitôt terminée. La coche n'est
+Cliquez sur la coche dans la première colonne, **Cocher**. La tâche est aussitôt terminée. La coche n'est
 cliquable que si vous pouvez modifier les tâches.
 
 Si la liste est sur **En cours uniquement**, elle disparaît de la vue. Vous avez été trop vite ? Passez le
