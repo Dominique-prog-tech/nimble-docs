@@ -136,6 +136,10 @@ taken in het **Journaal** van de lead en in het scherm **Taken**.
 | Een lead op **On hold** heeft zijn **heractivatiedatum** bereikt | Taak *"Lead weer oppakken"* |
 | Er staat **geen volgende actie** gepland en er gebeurde al een tijd niets | Taak *"Lead ligt stil"* |
 
+De fase beslist, niet het omzetten: ook een lead die u al naar klant omzette, volgt Nimble op zolang zijn fase
+**Lopend** of **Gepauzeerd** betekent. Pas in een fase die **Gewonnen** of **Verloren** betekent, stopt de opvolging. De taak blijft aan de
+lead hangen, niet aan de klant.
+
 !!! info "U krijgt nooit twee keer dezelfde herinnering"
     Staat de taak er al open, dan maakt Nimble er geen tweede bij. Werkt u de taak af en blijft de lead
     daarna opnieuw liggen, dan volgt er wél een nieuwe.

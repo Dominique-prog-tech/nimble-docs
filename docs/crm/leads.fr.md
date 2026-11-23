@@ -139,6 +139,10 @@ ces tâches dans le **Journal** du lead et dans l'écran **Tâches**.
 | Un lead **En attente** a atteint sa **date de réactivation** | Tâche *« Reprendre le lead »* |
 | Aucune **action suivante** n'est prévue et il ne s'est rien passé depuis un moment | Tâche *« Lead à l'arrêt »* |
 
+C'est la phase qui décide, pas la conversion : même un lead que vous avez déjà converti en client reste suivi tant
+que sa phase signifie **En cours** ou **En pause**. Le suivi ne s'arrête que dans une phase qui signifie **Gagné** ou **Perdu**. La tâche reste
+liée au lead, pas au client.
+
 !!! info "Vous ne recevez jamais deux fois le même rappel"
     Si la tâche est déjà ouverte, Nimble n'en crée pas une seconde. Si vous la clôturez et que le lead
     reste ensuite de nouveau en plan, une nouvelle tâche suit bien.
