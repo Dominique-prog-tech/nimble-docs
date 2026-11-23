@@ -18,7 +18,7 @@ Dans la barre latérale, cliquez sur **CRM → Tâches**.
 | **Rattachée à** | Ce à quoi la tâche appartient — un lead, une relation, un ordre de travail … —, précédé de son type, par exemple *Lead — …*. Une tâche rattachée à rien affiche *Tâche libre* |
 | **Début** | Quand vous commencez |
 | **Échéance** | Quand ce doit être prêt. Si ce jour est passé et que la tâche est encore ouverte, la date s'affiche en rouge |
-| **Statut** | En cours, En traitement, Terminée ou Annulée |
+| **Statut** | Ouverte, En traitement, Terminée ou Annulée |
 | **Priorité** | Basse, Normale, Haute ou Urgente |
 | **Responsable** | Qui assure le suivi |
 
@@ -26,9 +26,9 @@ Dans la barre latérale, cliquez sur **CRM → Tâches**.
 
 En haut se trouvent deux filtres et un compteur.
 
-![Le filtre de statut de l'écran Tâches déplié, avec les trois choix Tous les statuts, En cours uniquement et Y compris terminées ; à côté le filtre Tout le monde et le compteur.](../images/taken-filter-status-fr.png)
+![Le filtre de statut de l'écran Tâches déplié, avec les trois choix Tous les statuts, Ouvertes uniquement et Y compris terminées ; à côté le filtre Tout le monde et le compteur.](../images/taken-filter-status-fr.png)
 
-- **En cours uniquement** — le réglage par défaut. Les tâches terminées restent hors de vue.
+- **Ouvertes uniquement** — le réglage par défaut. Les tâches terminées restent hors de vue.
     - **Y compris terminées** les réaffiche.
     - **Tous les statuts** abandonne complètement la distinction.
 - **Tout le monde** — ou un seul responsable. Vous ne voyez alors que ce qui vous revient.
@@ -37,28 +37,28 @@ En haut se trouvent deux filtres et un compteur.
 
 !!! info "Vous en voyez moins que prévu ?"
     Regardez les deux filtres. Une tâche sans responsable disparaît dès que vous filtrez sur une personne,
-    et une tâche terminée disparaît sous **En cours uniquement**.
+    et une tâche terminée disparaît sous **Ouvertes uniquement**.
 
 ## Terminer une tâche
 
 Cliquez sur la coche dans la première colonne, **Cocher**. La tâche est aussitôt terminée. La coche n'est
 cliquable que si vous pouvez modifier les tâches.
 
-Si la liste est sur **En cours uniquement**, elle disparaît de la vue. Vous avez été trop vite ? Passez le
+Si la liste est sur **Ouvertes uniquement**, elle disparaît de la vue. Vous avez été trop vite ? Passez le
 filtre sur **Y compris terminées** et recliquez la coche — la tâche est de nouveau ouverte.
 
 ## Ouvrir ou créer une tâche
 
 **Double-cliquez** sur une tâche pour l'ouvrir. Une fenêtre **Modifier la tâche** s'ouvre avec ces champs :
 
-![La fenêtre Modifier la tâche pour la tâche Plan opvragen bij de architect : Titre, Description, Début, Échéance, Statut En cours, Priorité Haute, Responsable Sofie Maes, et Rattachée à Relation — Vandersteen Bouwprojecten BV ; en bas Enregistrer, Annuler et à droite Supprimer.](../images/taak-bewerken-fr.png)
+![La fenêtre Modifier la tâche pour la tâche Plan opvragen bij de architect : Titre, Description, Début, Échéance, Statut Ouverte, Priorité Haute, Responsable Sofie Maes, et Rattachée à Relation — Vandersteen Bouwprojecten BV ; en bas Enregistrer, Annuler et à droite Supprimer.](../images/taak-bewerken-fr.png)
 
 | Champ | Remarque |
 |---|---|
 | **Titre** | Ce qui doit être fait. Obligatoire |
 | **Description** | Texte libre avec les détails |
 | **Début** et **Échéance** | Quand vous commencez et quand ce doit être prêt |
-| **Statut** | En cours, En traitement, Terminée ou Annulée |
+| **Statut** | Ouverte, En traitement, Terminée ou Annulée |
 | **Priorité** | Basse, Normale, Haute ou Urgente |
 | **Responsable** | Qui assure le suivi. Choisissez **Personne** pour la laisser libre |
 
