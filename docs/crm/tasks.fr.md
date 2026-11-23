@@ -80,7 +80,7 @@ droit, vous voyez la liste, mais un double-clic n'ouvre rien et le bouton **Nouv
     **Rattachée à**.
 
 !!! info "La fenêtre sur la fiche utilise d'autres mots"
-    Si vous créez une tâche dans l'onglet **Tâches** d'une fiche, les champs s'appellent **Objet**,
+    Si vous créez une tâche sous **Journal** › **Tâches** d'une fiche, les champs s'appellent **Objet**,
     **Attribuée à**, **Dès le**, **Au** et **Texte**, et il y a aussi un **Rappel**. Voir
     [Travailler avec une fiche](../fiches.fr.md#longlet-taches).
 
@@ -113,7 +113,7 @@ Si une tâche porte un **rappel** et que ce moment est passé, un compteur appar
 à droite. Un clic vous amène à cet écran.
 
 !!! info "Le rappel se règle sur la fiche, pas ici"
-    Le champ **Rappel** se trouve dans l'onglet **Tâches** du journal — sur la fiche du lead, du client ou
+    Le champ **Rappel** se trouve sous **Journal** › **Tâches** — sur la fiche du lead, du client ou
     du projet. Vous ne pouvez pas le régler depuis cet aperçu. Un rappel existant reste bien en place si
     vous modifiez la tâche ici.
 

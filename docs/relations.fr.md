@@ -35,7 +35,7 @@ Cliquez sur **CRM → Relations** dans la barre latérale.
 
 ## La fiche de relation
 
-À gauche figurent les onglets **Fiche** et **Personnes de contact** ; pour un client, aussi **Accords de prix**, **Portail** et **Installations**. À droite figure le journal de ce client : **Tâches**, **Notes**, **Pièces jointes**, **E-mails** et **Historique** — voir [Travailler avec une fiche](fiches.fr.md).
+À gauche figurent les onglets **Fiche** et **Personnes de contact** ; pour un client, aussi **Accords de prix**, **Portail** et **Installations**. À droite figure l'onglet **Journal** avec ce qui est rattaché à ce client : **Tâches**, **Rendez-vous**, **Notes**, **Pièces jointes**, **E-mails** et **Historique**. Voir [Travailler avec une fiche](fiches.fr.md#onglets).
 
 Si un autre logiciel a créé le client via la connexion avec Nimble (l'API), **Créé via** suivi du nom de ce logiciel figure à côté du nom. Tant que personne pouvant modifier les relations n'a ouvert la fiche, la cloche en haut à droite indique *1 nouveau client créé via l'API*. Un tel logiciel ne peut pas créer un second client avec le même numéro de TVA ou la même adresse e-mail. Il ne peut pas non plus modifier le client : cela se fait dans Nimble.
 
@@ -82,7 +82,7 @@ Saisissez le numéro de TVA et cliquez sur **Récupérer**. Le nom, la rue, le n
 | **GSM** | Un deuxième numéro. Optionnel, avec la même règle que **Téléphone**. |
 
 !!! note "Remarques sur une relation"
-    L'onglet **Notes** peut contenir une note *Opmerkingen* : les remarques libres connues pour cette relation.
+    Sous **Journal** › **Notes** peut figurer une note *Opmerkingen* : les remarques libres connues pour cette relation.
 
 ### Bloc Classification
 

@@ -142,7 +142,7 @@ Dat gebeurt enkel als beide aanstaan:
 2. per contract: **Klant verwittigen over zijn bezoeken** in het contract. Standaard staat dat aan.
 
 De teksten van beide mails past u aan bij **Platformbeheer → Mailsjablonen**. Een klant zonder e-mailadres krijgt niets; de mail
-staat in het tabblad **Mails** van het project.
+staat onder **Journaal** › **Mails** van het project.
 
 ## Veelgemaakte fouten
 

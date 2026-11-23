@@ -85,7 +85,7 @@ remplit lui-même. L'adresse est l'endroit où la visite a lieu.
 
 La carte **Ordres de travail** montre les ordres de travail de la demande, avec le jour au planning ou *à planifier*.
 
-À côté de **Général** se trouvent les onglets **Tâches**, **Notes**, **Pièces jointes** et **Historique**.
+À côté de **Général** se trouve l'onglet **Journal**, avec **Tâches**, **Notes**, **Pièces jointes** et **Historique**.
 
 ## Le statut
 
@@ -143,7 +143,7 @@ avec :
 - l'adresse de l'appareil, sinon celle du client ;
 - comme **Responsable** le responsable du client sur la [fiche relation](../relations.md), sinon la personne indiquée sous
   **Responsable des demandes du portail**. S'il n'y a personne, la tâche reste sans responsable ;
-- les photos dans l'onglet **Pièces jointes**.
+- les photos sous **Journal** › **Pièces jointes**.
 
 Vous la traitez ensuite comme toute demande. Le client suit le statut dans le portail, sous **Mes signalements**.
 
@@ -170,7 +170,7 @@ la tâche **Traiter la demande d'intervention**, et avec :
 - l'adresse de l'appareil, sinon celle du client ;
 - comme **Responsable** le responsable du client, sinon la personne indiquée sous **Responsable des demandes du portail et de
   l'autocollant** ;
-- les photos dans l'onglet **Pièces jointes**.
+- les photos sous **Journal** › **Pièces jointes**.
 
 En haut de la fiche figure alors : *Signalé via l'autocollant QR par une personne non connectée. Rappelez le demandeur avant de
 planifier une visite.* Ce message disparaît dès que vous prenez la demande en charge ou que vous en créez un ordre de travail. Si le

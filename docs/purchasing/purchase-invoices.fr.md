@@ -183,7 +183,7 @@ une approbation ou annulez un paiement. Voir [Indiquer un paiement](#indiquer-un
 
 ### Ajouter le scan
 
-Placez une facture scannée ou le courriel qui l'accompagnait sous l'onglet **Pièces jointes**. Voir
+Placez une facture scannée ou le courriel qui l'accompagnait sous **Journal** › **Pièces jointes**. Voir
 [Pièces jointes](../bijlagen.md).
 
 Si un scan ou un PDF est joint à une facture qui ne vient pas de Peppol, l'IA peut le lire avec **Lire depuis la pièce

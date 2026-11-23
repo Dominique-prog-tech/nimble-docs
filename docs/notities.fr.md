@@ -17,11 +17,11 @@ Le fonctionnement est identique partout : cette page vaut donc pour tous les éc
 Le journal est rattaché à *chaque* enregistrement, et deux chemins y mènent :
 
 - **Sur la fiche** — ouvrez l'enregistrement (double-cliquez dessus dans la liste) et cliquez en haut à
-  droite sur **Notes**.
+  droite sur **Journal**, puis sur **Notes**.
 - **Depuis la liste** — sélectionnez une ligne et cliquez à droite sur le rail **Journal**. Cliquez-y en
   haut sur le nom de l'onglet et choisissez **Notes**.
 
-![La fiche d'un article avec les onglets en haut et l'onglet Notes ouvert : le bouton Note, le champ de recherche et quelques notes en dessous.](images/notities-tab-fr.png)
+![La fiche d'un article avec les onglets en haut, Journal ouvert et l'onglet Notes à l'intérieur : le bouton Note, le champ de recherche et quelques notes en dessous.](images/notities-tab-fr.png)
 
 ## Ajouter une note
 

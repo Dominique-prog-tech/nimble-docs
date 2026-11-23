@@ -289,7 +289,7 @@ bedrijfsfiche, dan kijkt Nimble bij het openen van het venster of de klant op Pe
 
 Na het versturen staat onder **Verstuurd** op de fiche *Peppol* met de afleverstatus: **Aanvaard door het netwerk**, daarna
 doorgaans binnen een minuut **Afgeleverd**. De status wordt bijgewerkt telkens u de factuur opent, en elke nacht. Het verstuurde
-bestand staat op het tabblad **Bijlagen**. Mislukt de aflevering of weigert de ontvanger, dan staat de reden erbij en kunt u opnieuw versturen.
+bestand staat onder **Journaal** › **Bijlagen**. Mislukt de aflevering of weigert de ontvanger, dan staat de reden erbij en kunt u opnieuw versturen.
 Eenzelfde factuur vertrekt nooit twee keer: biedt u ze opnieuw aan terwijl de eerste verzending nog loopt, dan krijgt u die
 eerste verzending terug.
 

@@ -150,7 +150,7 @@ u hoeft niets over te typen.
 - Er wordt een lead aangemaakt in status **Nieuw**. De **leadbron** is de naam van de websitesleutel
   waarmee het formulier postte — zo ziet u van welk formulier de lead kwam. Zie
   [Leads vanaf uw website](leads-webformulier.md).
-- De **volledige inhoud van het formulier** komt als notitie op het tabblad **Notities** van die lead te
+- De **volledige inhoud van het formulier** komt als notitie onder **Journaal** › **Notities** van die lead te
   staan, ook de velden die enkel op uw eigen formulier voorkomen. Zo gaat er niets verloren.
 - Er komt een **taak** bij, en er vertrekt een **e-mail** naar het adres dat u instelde bij
   [Bedrijfsfiche → Website-leads naar](../settings/company-profile.md).

@@ -183,7 +183,7 @@ goedkeuring in of maakt u een betaling ongedaan. Zie [Een betaling aanduiden](#e
 
 ### De scan toevoegen
 
-Een gescande factuur of de e-mail waarmee ze kwam, zet u onder het tabblad **Bijlagen**. Zie
+Een gescande factuur of de e-mail waarmee ze kwam, zet u onder **Journaal** › **Bijlagen**. Zie
 [Bijlagen](../bijlagen.md).
 
 Hangt er een scan of pdf aan een factuur die niet uit Peppol komt, dan kan de AI ze lezen met **Uit bijlage lezen** in de

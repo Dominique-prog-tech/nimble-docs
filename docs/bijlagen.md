@@ -10,7 +10,7 @@ Dit werkt overal op dezelfde manier, dus deze pagina geldt voor alle schermen me
 
 Er zijn twee wegen naartoe:
 
-- **Op de fiche** — open het record (dubbelklik erop in de lijst) en klik bovenaan rechts op **Bijlagen**.
+- **Op de fiche** — open het record (dubbelklik erop in de lijst) en klik bovenaan rechts op **Journaal** en daarna op **Bijlagen**.
 - **Vanuit de lijst** — selecteer een rij, klik rechts op de rail **Journaal**, klik bovenaan op de naam van
   het tabblad en kies **Bijlagen**.
 

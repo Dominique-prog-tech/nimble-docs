@@ -157,7 +157,7 @@ aan wat nodig is en klik **Versturen**.
 
 - Staat de bestelling nog in **Klad**, dan gaat ze na het versturen op **Besteld**: wie mailt, heeft besteld. De
   bestelbon in de mail draagt daarom nooit *ONTWERP*.
-- De mail staat daarna op het tabblad **Mails** van de bestelling, en een kopie van de pdf bij de **Bijlagen**.
+- De mail staat daarna onder **Journaal** › **Mails** van de bestelling, en een kopie van de pdf bij de **Bijlagen**.
 - Bewaar eerst: de bestelbon komt uit de bewaarde bestelling. Met onbewaarde wijzigingen vraagt Nimble om eerst te
   bewaren.
 - De bestelbon en de mail volgen de **documenttaal** van de leverancier.

@@ -88,8 +88,8 @@ votre référence, la barre Versions avec v1, v2 et v3, et le premier bloc avec 
 Enregistrer, Aperçu avant impression, Envoyer par e-mail, Marquer comme accepté, Refuser, Plus…, Annuler et
 Supprimer.](../images/offerte-fiche-fr.png)
 
-La fiche comporte les onglets **Devis**, **Tâches**, **Notes**, **Pièces jointes**, **E-mails** et
-**Historique**. Le fonctionnement des cinq derniers est décrit dans [Travailler avec une fiche](../fiches.md).
+La fiche comporte les onglets **Devis** et **Journal**, avec en dessous **Tâches**, **Notes**, **Pièces jointes**,
+**E-mails** et **Historique**. Le fonctionnement des cinq derniers est décrit dans [Travailler avec une fiche](../fiches.md).
 
 Si le devis est arrivé via la connexion avec un autre logiciel (l'API), **Créé via** suivi du nom de ce logiciel figure à côté du numéro. Un tel devis est toujours en brouillon : vous le finalisez et l'envoyez vous-même. Tant que personne pouvant modifier les devis n'a ouvert la fiche, la cloche en haut à droite indique combien de devis de ce type il y a.
 
@@ -159,7 +159,7 @@ prix à un fournisseur** (voir [Modèles de mail](../settings/mail-templates.md)
 leur quantité et leur unité, **sans aucun prix** : votre prix de vente avec marge ne regarde pas le fournisseur. Le numéro
 de ce devis y figure comme votre référence, avec le chantier si le projet a une adresse de chantier.
 
-L'e-mail figure ensuite dans l'onglet **E-mails** du devis, et une copie du pdf dans les **Pièces jointes**. Enregistrez
+L'e-mail figure ensuite sous **Journal** › **E-mails** du devis, et une copie du pdf dans les **Pièces jointes**. Enregistrez
 d'abord le devis : la demande de prix vient du devis enregistré. Vous importez la réponse du fournisseur comme ci-dessous.
 
 ### Importer une offre fournisseur
@@ -504,7 +504,7 @@ Un devis accepté ne change pas de statut, pas même sur le tableau. Un devis re
 ### Une tâche de suivi et un rappel
 
 Si le suivi des devis est activé, Nimble crée la nuit une tâche **Suivre le devis** pour la personne qui l'a envoyé, dès qu'un devis
-envoyé par e-mail reste une semaine sur **Envoyé** sans réponse. Par défaut, il est désactivé. La tâche figure dans l'onglet **Tâches** du devis et dans votre [liste de tâches](../crm/tasks.md). Si vous
+envoyé par e-mail reste une semaine sur **Envoyé** sans réponse. Par défaut, il est désactivé. La tâche figure sous **Journal** › **Tâches** du devis et dans votre [liste de tâches](../crm/tasks.md). Si vous
 renvoyez le devis, le compte recommence. L'activation, et après combien de jours, se règlent dans
 [Suivi des leads et des devis](../administration/lead-follow-up.md).
 

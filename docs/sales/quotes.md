@@ -85,7 +85,7 @@ Totaal incl. btw van € 9.662,96; daaronder de Offertegegevens met nummer, datu
 referentie, de balk Versies met v1, v2 en v3, en het eerste blok met de regels. Onderaan de knoppen Bewaren,
 Afdrukvoorbeeld, Mailen, Markeren als aanvaard, Weigeren, Meer…, Annuleren en Verwijderen.](../images/offerte-fiche.png)
 
-De fiche heeft de tabbladen **Offerte**, **Taken**, **Notities**, **Bijlagen**, **Mails** en **Logboek**. Hoe
+De fiche heeft de tabbladen **Offerte** en **Journaal**, met daaronder **Taken**, **Notities**, **Bijlagen**, **Mails** en **Logboek**. Hoe
 die laatste vijf werken, leest u in [Werken met een fiche](../fiches.md).
 
 Kwam de offerte binnen via de koppeling met een ander programma (de API), dan staat naast het nummer **Aangemaakt via** met de naam van dat programma. Zo'n offerte staat altijd in klad: u werkt ze verder af en verstuurt ze zelf. Zolang niemand die offertes mag bewerken de fiche opende, meldt het belletje rechtsboven hoeveel zulke offertes er zijn.
@@ -155,7 +155,7 @@ naar een leverancier** (zie [Mailsjablonen](../settings/mail-templates.md)). De 
 aantal en eenheid, **zonder één prijs**: uw verkoopprijs met marge hoort niet bij de leverancier. Het nummer van deze
 offerte staat erop als uw referentie, met de werf als het project een werfadres heeft.
 
-De mail staat daarna op het tabblad **Mails** van de offerte, en een kopie van de pdf bij de **Bijlagen**. Bewaar de
+De mail staat daarna onder **Journaal** › **Mails** van de offerte, en een kopie van de pdf bij de **Bijlagen**. Bewaar de
 offerte eerst: de prijsaanvraag komt uit de bewaarde offerte. Het antwoord van de leverancier leest u in zoals hieronder.
 
 ### Een leveranciersofferte inlezen
@@ -494,7 +494,7 @@ terug met **Markeren als verstuurd**.
 ### Een opvolgtaak en een herinnering
 
 Staat de offerteopvolging aan, dan maakt Nimble 's nachts een taak **Offerte opvolgen** voor wie de offerte mailde, zodra een
-gemailde offerte een week op **Verstuurd** staat zonder antwoord. Standaard staat ze uit. De taak staat op het tabblad **Taken** van de offerte en in uw [takenlijst](../crm/tasks.md). Mailt u de
+gemailde offerte een week op **Verstuurd** staat zonder antwoord. Standaard staat ze uit. De taak staat onder **Journaal** › **Taken** van de offerte en in uw [takenlijst](../crm/tasks.md). Mailt u de
 offerte opnieuw, dan begint de telling opnieuw. Aanzetten, en na hoeveel dagen, doet u bij
 [Opvolging van leads en offertes](../administration/lead-follow-up.md).
 

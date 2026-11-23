@@ -153,7 +153,7 @@ dans Nimble — vous n'avez rien à recopier.
 - Un lead est créé au statut **Nouveau**. La **source** est le nom de la clé de site web avec laquelle
   le formulaire a posté — vous voyez ainsi de quel formulaire le lead provient. Voir
   [Les leads depuis votre site web](leads-webformulier.md).
-- Le **contenu complet du formulaire** est repris comme note dans l'onglet **Notes** de ce lead, y compris les champs
+- Le **contenu complet du formulaire** est repris comme note sous **Journal** › **Notes** de ce lead, y compris les champs
   propres à votre formulaire. Ainsi, rien ne se perd.
 - Une **tâche** est ajoutée et un **e-mail** part vers l'adresse configurée dans
   [Fiche d'entreprise → Leads du site web vers](../settings/company-profile.md).

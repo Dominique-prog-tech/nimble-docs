@@ -118,7 +118,7 @@ Klik op **Bewaren** na een wijziging.
 
 - In het scherm **Taken** (**CRM → Taken**). Een lead zonder verantwoordelijke levert een taak zonder
   verantwoordelijke; in de filter op verantwoordelijke vindt u die taken onder **Niemand**.
-- Op de leadfiche zelf, in het tabblad **Taken**.
+- Op de leadfiche zelf, onder **Journaal** › **Taken**.
 
 !!! tip "Zorg dat elke lead een verantwoordelijke heeft"
     Een taak zonder verantwoordelijke staat bij niemand op naam. Wie in het scherm **Taken** filtert op zijn

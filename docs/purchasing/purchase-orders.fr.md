@@ -159,7 +159,7 @@ Adaptez ce qu'il faut et cliquez sur **Envoyer**.
 
 - Si la commande est encore en **Brouillon**, elle passe à **Commandé** après l'envoi : qui envoie, commande. Le bon dans
   l'e-mail ne porte donc jamais *PROJET*.
-- L'e-mail figure ensuite dans l'onglet **E-mails** de la commande, et une copie du pdf dans les **Pièces jointes**.
+- L'e-mail figure ensuite sous **Journal** › **E-mails** de la commande, et une copie du pdf dans les **Pièces jointes**.
 - Enregistrez d'abord : le bon de commande vient de la commande enregistrée. Avec des modifications non enregistrées,
   Nimble vous demande d'enregistrer d'abord.
 - Le bon et l'e-mail suivent la **langue des documents** du fournisseur.

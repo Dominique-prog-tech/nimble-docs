@@ -121,7 +121,7 @@ Cliquez sur **Enregistrer** après une modification.
 
 - Dans l'écran **Tâches** (**CRM → Tâches**). Un lead sans responsable donne une tâche sans responsable ;
   dans le filtre sur le responsable, vous trouvez ces tâches sous **Personne**.
-- Sur la fiche du lead elle-même, dans l'onglet **Tâches**.
+- Sur la fiche du lead elle-même, sous **Journal** › **Tâches**.
 
 !!! tip "Veillez à ce que chaque lead ait un responsable"
     Une tâche sans responsable n'est au nom de personne. Celui qui filtre l'écran **Tâches** sur son propre

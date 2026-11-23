@@ -11,7 +11,7 @@ Le fonctionnement est identique partout ; cette page vaut donc pour tous les éc
 Deux chemins y mènent :
 
 - **Sur la fiche** — ouvrez l'enregistrement (double-cliquez dessus dans la liste) et cliquez en haut à
-  droite sur **Pièces jointes**.
+  droite sur **Journal**, puis sur **Pièces jointes**.
 - **Depuis la liste** — sélectionnez une ligne, cliquez à droite sur le rail **Journal**, cliquez en haut
   sur le nom de l'onglet et choisissez **Pièces jointes**.
 

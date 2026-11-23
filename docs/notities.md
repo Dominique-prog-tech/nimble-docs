@@ -16,11 +16,11 @@ Dit werkt overal op dezelfde manier, dus deze pagina geldt voor alle schermen me
 
 Het journaal hangt aan élk record, en er zijn twee wegen naartoe:
 
-- **Op de fiche** — open het record (dubbelklik erop in de lijst) en klik bovenaan rechts op **Notities**.
+- **Op de fiche** — open het record (dubbelklik erop in de lijst) en klik bovenaan rechts op **Journaal** en daarna op **Notities**.
 - **Vanuit de lijst** — selecteer een rij en klik rechts op de rail **Journaal**. Klik daar bovenaan op de
   naam van het tabblad en kies **Notities**.
 
-![De fiche van een artikel met bovenaan de tabbladen en het tabblad Notities open: de knop Notitie, het zoekvak en enkele notities eronder.](images/notities-tab.png)
+![De fiche van een artikel met bovenaan de tabbladen, Journaal open en daarin het tabblad Notities: de knop Notitie, het zoekvak en enkele notities eronder.](images/notities-tab.png)
 
 ## Een notitie toevoegen
 

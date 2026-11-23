@@ -296,14 +296,14 @@ dans la fiche société, Nimble vérifie à l'ouverture de la fenêtre si le cli
 
 Après l'envoi, la fiche indique sous **Envoyée** *Peppol* avec le statut de livraison : **Acceptée par le réseau**, puis en
 général dans la minute **Livrée**. Le statut est mis à jour chaque fois que vous ouvrez la facture, et chaque nuit. Le fichier
-envoyé figure dans l'onglet **Pièces jointes**. Si la livraison échoue ou si le destinataire refuse, le motif est indiqué et vous pouvez renvoyer.
+envoyé figure sous **Journal** › **Pièces jointes**. Si la livraison échoue ou si le destinataire refuse, le motif est indiqué et vous pouvez renvoyer.
 Une même facture ne part jamais deux fois : si vous la proposez à nouveau pendant que le premier envoi est en cours, vous
 récupérez ce premier envoi.
 
 Si la facture est livrée, le lien **Preuve de livraison** figure à côté de **Livrée**. Il montre la preuve du réseau Peppol que la
 facture est arrivée chez le destinataire, en PDF dans votre langue, avec l'original signé en pièce jointe dans le PDF. C'est le
 document que vous transmettez si un client affirme ne pas avoir reçu la facture. Nimble conserve aussi la preuve, une seule fois,
-dans l'onglet **Pièces jointes**, dans la langue du client.
+sous **Journal** › **Pièces jointes**, dans la langue du client.
 
 Une preuve existe pour les factures livrées depuis le 23/11/2026. Pour une facture plus ancienne, le lien indique qu'il n'y a pas
 (encore) de preuve. Si Nimble ne parvient pas à récupérer la preuve, vous le lisez aussi : réessayez plus tard. Cela ne signifie

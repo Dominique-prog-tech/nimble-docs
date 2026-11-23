@@ -82,7 +82,7 @@ het bezoek gebeurt.
 
 De kaart **Werkorders** toont de werkorders van het verzoek, met de dag op het planbord of *nog in te plannen*.
 
-Naast **Algemeen** staan de tabbladen **Taken**, **Notities**, **Bijlagen** en **Logboek**.
+Naast **Algemeen** staat het tabblad **Journaal**, met **Taken**, **Notities**, **Bijlagen** en **Logboek**.
 
 ## De stand
 
@@ -138,7 +138,7 @@ binnen zoals een verzoek van kantoor: met de stand **Nieuw** en de taak **Servic
 - het adres van het toestel, anders dat van de klant;
 - als **Verantwoordelijke** de verantwoordelijke van de klant op de [relatiefiche](../relations.md), anders wie bij **Verantwoordelijke
   voor verzoeken uit het portaal** staat. Staat daar niemand, dan staat de taak bij **Niemand**;
-- de foto's op het tabblad **Bijlagen**.
+- de foto's onder **Journaal** › **Bijlagen**.
 
 U behandelt het verder zoals elk verzoek. De klant volgt de stand in het portaal bij **Mijn meldingen**.
 
@@ -164,7 +164,7 @@ Na **Versturen** ziet hij het nummer van zijn melding en uw telefoonnummer. Het 
 - het adres van het toestel, anders dat van de klant;
 - als **Verantwoordelijke** de verantwoordelijke van de klant, anders wie bij **Verantwoordelijke voor verzoeken uit het portaal en
   via de sticker** staat;
-- de foto's op het tabblad **Bijlagen**.
+- de foto's onder **Journaal** › **Bijlagen**.
 
 Bovenaan de fiche staat dan: *Gemeld via de QR-sticker door iemand die niet aangemeld is. Bel de melder na voor u een bezoek plant.*
 Die melding verdwijnt zodra u het verzoek opneemt of er een werkorder van maakt. Is de melding vals, dan haalt u het verzoek weg met

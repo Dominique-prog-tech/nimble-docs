@@ -145,7 +145,7 @@ Cela n'a lieu que si les deux réglages sont activés :
 2. par contrat : **Avertir le client de ses visites** dans le contrat. Par défaut, c'est activé.
 
 Vous adaptez les textes des deux e-mails dans **Administration → Modèles de mail**. Un client sans adresse e-mail
-ne reçoit rien ; l'e-mail figure dans l'onglet **E-mails** du projet.
+ne reçoit rien ; l'e-mail figure sous **Journal** › **E-mails** du projet.
 
 ## Erreurs fréquentes
 

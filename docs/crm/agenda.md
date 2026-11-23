@@ -45,7 +45,7 @@ op het volgende hele uur. Met een dubbelklik staat ze klaar op het uur en bij de
 Klik **Bewaren**. Met **Sluiten** gaat het venster dicht zonder te bewaren.
 
 !!! tip "Plan vanaf de fiche"
-    Op de fiche van een lead, een relatie of een project staat het tabblad **Afspraken**. Een afspraak die u daar plant, heeft
+    Op de fiche van een lead, een relatie of een project staat onder **Journaal** het tabblad **Afspraken**. Een afspraak die u daar plant, heeft
     **Waarover** al ingevuld. Zie [Afspraken op een fiche](#afspraken-op-een-fiche).
 
 ## Een afspraak openen of verschuiven
@@ -73,7 +73,7 @@ In het venster van een bestaande afspraak staan rechtsonder twee knoppen.
 
 ## Afspraken op een fiche
 
-Op de fiche van een **lead**, een **relatie** en een **project** staat het tabblad **Afspraken**: de afspraken die eraan
+Op de fiche van een **lead**, een **relatie** en een **project** staat onder **Journaal** het tabblad **Afspraken**: de afspraken die eraan
 hangen, de nieuwste eerst, met de datum, het uur en wie erbij is. Een geannuleerde afspraak staat doorstreept.
 
 - **Nieuwe afspraak** opent het venster met **Waarover** al ingevuld.

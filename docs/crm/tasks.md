@@ -79,7 +79,7 @@ de lijst, maar opent een dubbelklik niets en staat er geen knop **Nieuwe taak**.
     **Hangt aan**.
 
 !!! info "Het venster op de fiche gebruikt andere woorden"
-    Maakt u een taak aan op het tabblad **Taken** van een fiche, dan heten de velden **Onderwerp**,
+    Maakt u een taak aan onder **Journaal** › **Taken** van een fiche, dan heten de velden **Onderwerp**,
     **Toegewezen aan**, **Vanaf**, **Tot** en **Tekst**, en is er ook een **Herinnering**. Zie
     [Werken met een fiche](../fiches.md#het-tabblad-taken).
 
@@ -112,7 +112,7 @@ Staat er een **herinnering** op een taak en is dat moment voorbij, dan verschijn
 belletje rechtsboven. Klikken brengt u naar dit scherm.
 
 !!! info "De herinnering zet u op de fiche, niet hier"
-    Het veld **Herinnering** staat in het tabblad **Taken** van het journaal — op de fiche van de lead,
+    Het veld **Herinnering** staat onder **Journaal** › **Taken** — op de fiche van de lead,
     de klant of het project. Op dit overzicht kunt u het niet instellen. Een bestaande herinnering blijft
     wel gewoon staan als u de taak hier bewerkt.
 

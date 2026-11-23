@@ -35,7 +35,7 @@ Klik in de zijbalk op **CRM → Relaties**.
 
 ## De relatiefiche
 
-Links staan de tabbladen **Fiche** en **Contactpersonen**; bij een klant ook **Prijsafspraken**, **Portaal** en **Installaties**. Rechts staat het journaal van deze klant: **Taken**, **Notities**, **Bijlagen**, **Mails** en **Logboek** — zie [Werken met een fiche](fiches.md).
+Links staan de tabbladen **Fiche** en **Contactpersonen**; bij een klant ook **Prijsafspraken**, **Portaal** en **Installaties**. Rechts staat het tabblad **Journaal** met wat aan deze klant hangt: **Taken**, **Afspraken**, **Notities**, **Bijlagen**, **Mails** en **Logboek**. Zie [Werken met een fiche](fiches.md#tabbladen).
 
 Maakte een ander programma de klant aan via de koppeling met Nimble (de API), dan staat naast de naam **Aangemaakt via** met de naam van dat programma. Zolang niemand die relaties mag bewerken de fiche opende, meldt het belletje rechtsboven *1 nieuwe klant aangemaakt via de API*. Zo'n programma kan geen tweede klant maken met hetzelfde btw-nummer of e-mailadres. De klant wijzigen kan het ook niet: dat doet u in Nimble.
 
@@ -82,7 +82,7 @@ Vul het btw-nummer in en klik op **Ophalen**. Naam, straat, nummer, postcode, ge
 | **Gsm** | Een tweede nummer. Optioneel, met dezelfde regel als **Telefoon**. |
 
 !!! note "Opmerkingen bij een relatie"
-    Op het tabblad **Notities** kan een notitie *Opmerkingen* staan: de vrije opmerkingen die bij deze relatie
+    Onder **Journaal** › **Notities** kan een notitie *Opmerkingen* staan: de vrije opmerkingen die bij deze relatie
     bekend zijn.
 
 ### Blok Classificatie

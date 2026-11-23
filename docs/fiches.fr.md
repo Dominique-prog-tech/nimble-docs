@@ -39,14 +39,19 @@ Quitter quand même ? »* Avec **Rester**, vous restez sur la fiche et vos modif
 
 En haut de la fiche se trouvent deux groupes d'onglets.
 
-**À gauche**, les données de l'enregistrement lui-même. Sur la plupart des fiches il n'y en a qu'un —
-**Général** ou **Fiche** — sur la fiche de relation il y en a deux, avec **Personnes de contact**.
+**À gauche**, les données de l'enregistrement lui-même. Sur la plupart des fiches il n'y en a qu'un,
+**Général** ou **Fiche**. Sur la fiche de relation il y en a davantage, avec **Personnes de contact**.
 
-**À droite**, le journal : **Tâches**, **Notes**, **Pièces jointes** et **Historique** — et sur une relation,
-un projet, un devis, une facture et un bon de travail aussi **E-mails**, et sur un lead, une relation et un projet
-aussi **Rendez-vous**. Ce sont les éléments rattachés à l'enregistrement.
+**À droite** figure l'onglet **Journal** : ce qui est rattaché à l'enregistrement. Quand vous cliquez dessus, une
+deuxième rangée d'onglets apparaît en dessous : **Tâches**, **Notes**, **Pièces jointes** et **Historique**, sur une
+relation, un projet, un devis, une facture et un bon de travail aussi **E-mails**, et sur un lead, une relation et un
+projet aussi **Rendez-vous**. La rangée du haut reste ainsi courte pendant que vous remplissez les données.
+**Journal** retient l'onglet que vous y avez ouvert en dernier, tant que la fiche est ouverte.
 
-![Une fiche de relation avec à gauche les onglets Fiche et Personnes de contact, à droite Tâches, Notes, Pièces jointes, E-mails et Historique.](images/fiche-tabbladen-fr.png)
+Si un écran n'a qu'un seul de ces onglets, comme la fiche d'entreprise avec uniquement **Historique**, cet onglet
+reste simplement à côté des données.
+
+![Une fiche de relation avec à gauche les onglets Fiche et Personnes de contact, à droite l'onglet Journal ouvert avec en dessous une deuxième rangée : Tâches, Rendez-vous, Notes, Pièces jointes, E-mails et Historique.](images/fiche-tabbladen-fr.png)
 
 !!! info "Les boutons disparaissent sur un onglet du journal"
     Enregistrer et Supprimer appartiennent au formulaire. Si vous êtes sur **Pièces jointes**, ces boutons

@@ -48,7 +48,7 @@ vous avez cliqué.
 Cliquez sur **Enregistrer**. Avec **Fermer**, la fenêtre se ferme sans enregistrer.
 
 !!! tip "Planifiez depuis la fiche"
-    Sur la fiche d'un lead, d'une relation ou d'un projet figure l'onglet **Rendez-vous**. Un rendez-vous planifié à partir de
+    Sur la fiche d'un lead, d'une relation ou d'un projet figure sous **Journal** l'onglet **Rendez-vous**. Un rendez-vous planifié à partir de
     là a déjà **À propos de** rempli. Voir [Les rendez-vous sur une fiche](#les-rendez-vous-sur-une-fiche).
 
 ## Ouvrir ou déplacer un rendez-vous
@@ -76,7 +76,7 @@ Dans la fenêtre d'un rendez-vous existant figurent deux boutons, en bas à droi
 
 ## Les rendez-vous sur une fiche
 
-Sur la fiche d'un **lead**, d'une **relation** et d'un **projet** figure l'onglet **Rendez-vous** : les rendez-vous qui y sont
+Sur la fiche d'un **lead**, d'une **relation** et d'un **projet** figure sous **Journal** l'onglet **Rendez-vous** : les rendez-vous qui y sont
 liés, les plus récents d'abord, avec la date, l'heure et qui y participe. Un rendez-vous annulé est barré.
 
 - **Nouveau rendez-vous** ouvre la fenêtre avec **À propos de** déjà rempli.
