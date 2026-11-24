@@ -251,6 +251,9 @@ pas figure auprès du dossier lui-même.
 
 #### Ce qui doit être prêt
 
+Sur un nouveau projet qui n'est pas encore enregistré, vous lisez ici *Enregistrez d'abord le projet.* Nimble
+vérifie ensuite ce qui manque.
+
 S'il manque le **client** ou l'**adresse de chantier** (rue et commune), un message apparaît en haut. Sans
 ces deux éléments, le chef de projet ne peut rien planifier : il n'y a ni donneur d'ordre, ni lieu où se
 rendre.
@@ -461,8 +464,9 @@ Au bas de l'onglet, vous voyez si le projet peut être facturé. S'il n'est pas 
 vous lisez pourquoi : le chantier n'est pas encore réceptionné, ou des points de réception sont encore
 ouverts.
 
-Ce bloc ne vous empêche **pas** de facturer : un état d'avancement précède justement la réception. C'est
-un avertissement, pas un verrou.
+Ce bloc ne vous empêche **pas** de facturer : un état d'avancement précède justement la réception. Il figure
+comme un conseil, en bleu, et n'est pas un verrou. Sur un nouveau projet qui n'est pas encore enregistré, vous
+lisez *Enregistrez d'abord le projet.*
 
 Pour autoriser malgré tout la facturation de façon explicite, cochez **Autoriser malgré tout la
 facturation** et indiquez le motif sous **Pourquoi**. Ce motif figure dans l'historique du projet. Sans

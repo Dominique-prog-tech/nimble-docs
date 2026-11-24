@@ -244,6 +244,9 @@ verkoop omdat er iets ontbrak, zet dan hier waarom. Zo staat bij het dossier zel
 
 #### Wat er klaar moet zijn
 
+Op een nieuw project dat nog niet bewaard is, staat hier *Bewaar het project eerst.* Daarna kijkt Nimble na wat er
+ontbreekt.
+
 Ontbreekt de **klant** of het **werfadres** (straat en gemeente), dan staat er bovenaan een melding. Zonder
 die twee kan de projectleider niets plannen: er is geen opdrachtgever en geen plaats om naartoe te gaan.
 
@@ -446,8 +449,9 @@ enkel bedrag op, dus u kunt het gerust meegeven. Afgevinkte punten staan er niet
 Onderaan het tabblad staat of het project vrij is om te factureren. Is het nog niet volledig afgehandeld,
 dan leest u waarom: de werf is nog niet opgeleverd, of er staan nog opleverpunten open.
 
-Dat blok belet u **niet** om te factureren: een vorderingsstaat hoort net vóór de oplevering. Het is een
-waarschuwing, geen grendel.
+Dat blok belet u **niet** om te factureren: een vorderingsstaat hoort net vóór de oplevering. Het staat er als
+advies, in het blauw, en is geen grendel. Op een nieuw project dat nog niet bewaard is, staat er *Bewaar het
+project eerst.*
 
 Wilt u het project toch uitdrukkelijk vrijgeven, vink dan **Toch vrijgeven om te factureren** aan en vul bij
 **Waarom** de reden in. Die reden komt in het logboek van het project. Zonder reden telt de vrijgave niet.

@@ -103,6 +103,9 @@ Le deuxième onglet de l'ordre de travail affiche ces points, avec leur état. S
 indique **quel** point manque — et pas seulement qu'il manque quelque chose. Le lien en bas vous mène à la
 préparation du projet.
 
+Si un nouvel ordre de travail n'a pas encore de projet, vous lisez *Choisissez d'abord un projet : la préparation
+fait partie du projet.*
+
 ![L'onglet Préparation du chantier de l'ordre de travail WO-2026-003, statut À démarrer : les sept points obligatoires du projet, trois cochés et quatre ouverts, un cadre rouge qui nomme les quatre points manquants, et en bas le lien Vers la préparation du projet. Les points gardent la langue du tenant — ici le néerlandais.](../images/werkorder-werfvoorbereiding-fr.png)
 
 Lorsque tous les points obligatoires du projet sont cochés, l'ordre de travail porte en haut la mention

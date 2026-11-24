@@ -99,6 +99,9 @@ Op het tweede tabblad van de werkorder ziet u die punten, met hun stand. Ontbree
 kader **welk** punt ontbreekt — niet alleen dát er iets ontbreekt. Met de link onderaan gaat u naar de
 voorbereiding van het project.
 
+Heeft een nieuwe werkorder nog geen project, dan staat er *Kies eerst een project: de voorbereiding hoort bij het
+project.*
+
 ![Het tabblad Werfvoorbereiding van werkorder WO-2026-003, status Nog te starten: de zeven verplichte punten van het project, drie afgevinkt en vier open, een rood kader dat de vier ontbrekende punten noemt, en onderaan de link Naar de voorbereiding van het project.](../images/werkorder-werfvoorbereiding.png)
 
 Zijn alle verplichte punten van het project afgevinkt, dan krijgt de werkorder bovenaan de vermelding
