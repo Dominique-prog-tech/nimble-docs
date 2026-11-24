@@ -75,12 +75,12 @@ Cliquez ensuite sur **Enregistrer**.
     *Enregistrez d'abord le devis ; vous pourrez ensuite ajouter des blocs et des lignes.*
 
 S'il manque un champ obligatoire, le haut de la fiche indique lequel. Si vous avez modifié quelque chose sans
-enregistrer, *Non enregistré* s'affiche à côté du numéro.
+enregistrer, *Non enregistré* s'affiche en haut, après le statut.
 
 ## La fiche du devis
 
-En haut figurent le numéro, le client et la date. En haut à droite figure le **Total TVAC** ; il reste
-visible lorsque vous faites défiler la page.
+En haut figurent le numéro, le client, la date et le statut du devis. En haut à droite figure le **Total TVAC** ;
+il reste visible lorsque vous faites défiler la page. Une facture et un état d'avancement ont le même en-tête.
 
 ![La fiche du devis OFF-2026-0002 pour Familie Peeters-Claes : en haut le numéro, le client, la date et à droite le
 Total TVAC de 9 662,96 € ; en dessous les Données du devis avec le numéro, la date, le client, la validité, le projet et
@@ -91,7 +91,7 @@ Supprimer.](../images/offerte-fiche-fr.png)
 La fiche comporte les onglets **Devis** et **Journal**, avec en dessous **Tâches**, **Notes**, **Pièces jointes**,
 **E-mails** et **Historique**. Le fonctionnement des cinq derniers est décrit dans [Travailler avec une fiche](../fiches.md).
 
-Si le devis est arrivé via la connexion avec un autre logiciel (l'API), **Créé via** suivi du nom de ce logiciel figure à côté du numéro. Un tel devis est toujours en brouillon : vous le finalisez et l'envoyez vous-même. Tant que personne pouvant modifier les devis n'a ouvert la fiche, la cloche en haut à droite indique combien de devis de ce type il y a.
+Si le devis est arrivé via la connexion avec un autre logiciel (l'API), **Créé via** suivi du nom de ce logiciel figure après le statut. Un tel devis est toujours en brouillon : vous le finalisez et l'envoyez vous-même. Tant que personne pouvant modifier les devis n'a ouvert la fiche, la cloche en haut à droite indique combien de devis de ce type il y a.
 
 Si le devis a été envoyé par e-mail ou proposé en ligne, le bloc Données du devis comporte des lignes
 supplémentaires :
@@ -282,7 +282,7 @@ accepté, Refuser, Plus…, Annuler et Supprimer — avec le menu Plus… ouvert
 | **Plus…** → **Nouvelle version** | Accepté, Refusé et Remplacé | Crée une copie modifiable |
 | **Plus…** → **Envoyer un rappel** | Envoyé | Ouvre la fenêtre d'envoi avec le rappel, voir *Le suivi du devis* |
 | **Plus…** → **Insérer un modèle** · **Enregistrer comme modèle** | Brouillon et Envoyé · toujours | Voir *Utiliser un modèle* |
-| **Annuler** | Brouillon et Envoyé | Abandonne vos modifications. Sur un devis clôturé, le bouton n'y figure pas : vous revenez avec **← Retour aux devis** en haut |
+| **Annuler** | Brouillon et Envoyé | Abandonne vos modifications. Sur un devis clôturé, le bouton n'y figure pas : vous revenez avec **Vers la liste** en haut |
 | **Supprimer** | Brouillon, Envoyé et Refusé | Après confirmation, place le devis dans la corbeille. Un devis accepté, remplacé ou facturé ne peut pas être supprimé |
 
 Toute personne autorisée à consulter les devis peut utiliser l'aperçu avant impression. Les autres boutons
@@ -480,7 +480,7 @@ en ligne : par la cloche et par e-mail. Nimble vérifie l'état quand vous ouvre
 | Statut | Ce que vous pouvez faire |
 |---|---|
 | **Brouillon** | Modifier, envoyer par e-mail, proposer en ligne, ou **Marquer comme envoyé** |
-| **Envoyé** | Encore modifier, ou enregistrer la réponse avec **Marquer comme accepté** ou **Refuser** |
+| **Envoyé** | Encore modifier (voir [Modifier un devis envoyé](#modifier-un-devis-envoye)), ou enregistrer la réponse avec **Marquer comme accepté** ou **Refuser** |
 | **Accepté** | **Facturer**, ou créer une **Nouvelle version** sous **Plus…** |
 | **Refusé** | **Marquer comme envoyé** si le client revient, ou créer une **Nouvelle version** sous **Plus…** |
 | **Remplacé** | Plus rien : une version plus récente du même devis a été acceptée. Elle reste conservée pour vérifier ce que le client a reçu auparavant |
@@ -488,7 +488,7 @@ en ligne : par la cloche et par e-mail. Nimble vérifie l'état quand vous ouvre
 !!! warning "Un devis accepté ou refusé est clôturé"
     Dès que le client a répondu, le document est figé. En haut figure *Ce devis est clôturé et ne peut plus
     être modifié.* Les champs, blocs et lignes ne sont pas modifiables, et en bas ne figurent ni
-    Enregistrer ni Annuler : vous revenez avec **← Retour aux devis** en haut. C'est voulu : le client a reçu un prix, et celui-ci ne doit pas changer en
+    Enregistrer ni Annuler : vous revenez avec **Vers la liste** en haut. C'est voulu : le client a reçu un prix, et celui-ci ne doit pas changer en
     silence.
 
     Si une modification s'impose malgré tout, cliquez sous **Plus…** sur **Nouvelle version**. Vous obtenez une copie avec
@@ -500,6 +500,19 @@ en ligne : par la cloche et par e-mail. Nimble vérifie l'état quand vous ouvre
 
 Un devis accepté ne change pas de statut, pas même sur le tableau. Un devis refusé, si : remettez-le avec
 **Marquer comme envoyé**.
+
+### Modifier un devis envoyé
+
+Si vous enregistrez un devis au statut **Envoyé**, la fenêtre **Ce devis a déjà été envoyé** s'ouvre d'abord. Si vous
+modifiez le devis, il ne correspond en effet plus à ce que le client a reçu. Vous choisissez :
+
+- **Créer une nouvelle version** (le bouton principal) : le devis envoyé reste tel que le client l'a reçu, et la
+  nouvelle version reprend vos modifications. Elle s'ouvre aussitôt, en Brouillon et avec un numéro de version de
+  plus, comme toute [nouvelle version](#versions-et-variantes).
+- **Annuler** : rien n'est enregistré. Vos modifications restent à l'écran.
+- **Modifier quand même celui-ci** : enregistre les modifications sur le devis envoyé lui-même, par exemple pour
+  corriger une faute de frappe avant que le client ne réagisse. Tant que vous restez sur la fiche, Nimble ne pose
+  plus la question.
 
 ### Une tâche de suivi et un rappel
 

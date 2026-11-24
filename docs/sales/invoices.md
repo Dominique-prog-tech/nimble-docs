@@ -89,8 +89,9 @@ U kunt een aanvaarde offerte ook factureren vanaf de offerte zelf, met **Facture
 
 ![De fiche van F-2026-0012: status Uitgereikt en op slot, met de blokken Factuurgegevens, Betaling en verzending en Regels.](../images/factuur-fiche.png)
 
-Bovenaan staan het nummer en de status. Bij een uitgereikte factuur staat er **op slot** naast; bij een
-creditnota het label **Creditnota**, bij een voorschotfactuur het label **Voorschot**.
+Bovenaan staan het nummer, de klant, de datum en de status, en rechts het **Totaal incl. btw**. Na de status staat
+bij een uitgereikte factuur **op slot**, bij een creditnota het label **Creditnota** en bij een voorschotfactuur het
+label **Voorschot**.
 
 De fiche heeft de tabbladen **Algemeen**, **Taken**, **Notities**, **Bijlagen**, **Mails** en **Logboek**. Hoe
 die laatste vijf werken, leest u in [Werken met een fiche](../fiches.md). Bij **Mails** staan de

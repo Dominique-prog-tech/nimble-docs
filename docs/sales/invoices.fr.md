@@ -91,8 +91,9 @@ Vous pouvez aussi facturer un devis accepté depuis le devis lui-même, avec **F
 
 ![La fiche de F-2026-0012 : statut Émise et verrouillée, avec les blocs Données de la facture, Paiement et envoi et Lignes.](../images/factuur-fiche-fr.png)
 
-En haut figurent le numéro et le statut. Une facture émise porte en plus la mention **verrouillée** ; une
-note de crédit l'étiquette **Note de crédit**, une facture d'acompte l'étiquette **Acompte**.
+En haut figurent le numéro, le client, la date et le statut, et à droite le **Total TVAC**. Après le statut, une
+facture émise porte la mention **verrouillée**, une note de crédit l'étiquette **Note de crédit** et une facture
+d'acompte l'étiquette **Acompte**.
 
 La fiche comporte les onglets **Général**, **Tâches**, **Notes**, **Pièces jointes**, **E-mails** et
 **Historique**. Le fonctionnement des cinq derniers est décrit dans [Travailler avec une fiche](../fiches.md).

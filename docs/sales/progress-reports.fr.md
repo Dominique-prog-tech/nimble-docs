@@ -26,6 +26,12 @@ précédent, plus les travaux supplémentaires approuvés entre-temps.
 Un nouvel état n'est possible que lorsque le précédent est **approuvé** : il poursuit le calcul à partir de ce
 que cet état a figé. Sinon, l'onglet indique quel état est encore ouvert.
 
+## L'en-tête de l'état
+
+En haut de l'état figurent le numéro (par exemple *État 2*), le client, la date, le statut et le projet. Si l'état
+est facturé, le lien **Vers la facture** y figure aussi. À droite figure le **Total TVAC** : ce que le client paie
+pour cet état. Un devis et une facture ont le même en-tête. Avec **Vers la liste** en haut, vous revenez au projet.
+
 ## Compléter les postes
 
 ![Un état d'avancement soumis : par poste le devis, l'état précédent, cet état et le cumul, et en bas le bloc des totaux.](../images/vorderingsstaat-fr.png)

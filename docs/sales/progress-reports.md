@@ -24,6 +24,13 @@ over, plus meerwerk dat intussen goedgekeurd is.
 Een nieuwe staat kan pas als de vorige **goedgekeurd** is: ze rekent verder op wat die vorige staat vastlegde.
 Anders zegt het tabblad welke staat nog openstaat.
 
+## De kop van de staat
+
+Bovenaan de staat staan het nummer (bijvoorbeeld *Staat 2*), de klant, de datum, de status en het project. Is de
+staat gefactureerd, dan staat er ook de link **Naar de factuur**. Rechts staat het **Totaal incl. btw**: wat de klant
+voor deze staat betaalt. Een offerte en een factuur hebben dezelfde kop. Met **Naar de lijst** bovenaan gaat u terug
+naar het project.
+
 ## De posten invullen
 
 ![Een ingediende vorderingsstaat: per post de offerte, de vorige staat, deze staat en het cumulatief, en onderaan het totaalblok.](../images/vorderingsstaat.png)

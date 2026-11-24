@@ -73,12 +73,12 @@ Klik daarna op **Bewaren**.
     offerte; daarna kunt u blokken en regels toevoegen.*
 
 Ontbreekt er een verplicht veld, dan staat bovenaan de fiche welk. Hebt u iets gewijzigd en nog niet bewaard,
-dan staat *Niet bewaard* naast het nummer.
+dan staat *Niet bewaard* bovenaan, na de status.
 
 ## De offertefiche
 
-Bovenaan staan het nummer, de klant en de datum. Rechtsboven staat het **Totaal incl. btw**; dat blijft
-staan wanneer u naar beneden scrolt.
+Bovenaan staan het nummer, de klant, de datum en de status van de offerte. Rechtsboven staat het **Totaal incl. btw**;
+dat blijft staan wanneer u naar beneden scrolt. Een factuur en een vorderingsstaat hebben dezelfde kop.
 
 ![De fiche van offerte OFF-2026-0002 voor Familie Peeters-Claes: bovenaan het nummer, de klant, de datum en rechts het
 Totaal incl. btw van € 9.662,96; daaronder de Offertegegevens met nummer, datum, klant, geldig tot, project en uw
@@ -88,7 +88,7 @@ Afdrukvoorbeeld, Mailen, Markeren als aanvaard, Weigeren, Meer…, Annuleren en 
 De fiche heeft de tabbladen **Offerte** en **Journaal**, met daaronder **Taken**, **Notities**, **Bijlagen**, **Mails** en **Logboek**. Hoe
 die laatste vijf werken, leest u in [Werken met een fiche](../fiches.md).
 
-Kwam de offerte binnen via de koppeling met een ander programma (de API), dan staat naast het nummer **Aangemaakt via** met de naam van dat programma. Zo'n offerte staat altijd in klad: u werkt ze verder af en verstuurt ze zelf. Zolang niemand die offertes mag bewerken de fiche opende, meldt het belletje rechtsboven hoeveel zulke offertes er zijn.
+Kwam de offerte binnen via de koppeling met een ander programma (de API), dan staat na de status **Aangemaakt via** met de naam van dat programma. Zo'n offerte staat altijd in klad: u werkt ze verder af en verstuurt ze zelf. Zolang niemand die offertes mag bewerken de fiche opende, meldt het belletje rechtsboven hoeveel zulke offertes er zijn.
 
 Is de offerte gemaild of online voorgelegd, dan staan er in het blok Offertegegevens extra regels:
 
@@ -279,7 +279,7 @@ Meer…, Annuleren en Verwijderen — met het menu Meer… open op Online voorle
 | **Meer…** → **Nieuwe versie** | Aanvaard, Geweigerd en Vervangen | Maakt een bewerkbare kopie |
 | **Meer…** → **Herinnering sturen** | Verstuurd | Opent het verzendvenster met de herinnering, zie *De offerte opvolgen* |
 | **Meer…** → **Sjabloon invoegen** · **Opslaan als sjabloon** | Klad en Verstuurd · altijd | Zie *Een sjabloon gebruiken* |
-| **Annuleren** | Klad en Verstuurd | Laat uw wijzigingen vallen. Op een afgesloten offerte staat de knop er niet: u gaat terug met **← Terug naar offertes** bovenaan |
+| **Annuleren** | Klad en Verstuurd | Laat uw wijzigingen vallen. Op een afgesloten offerte staat de knop er niet: u gaat terug met **Naar de lijst** bovenaan |
 | **Verwijderen** | Klad, Verstuurd en Geweigerd | Verplaatst de offerte na bevestiging naar de prullenbak. Een aanvaarde, vervangen of gefactureerde offerte kan niet weg |
 
 Afdrukvoorbeeld kan iedereen die offertes mag bekijken. Alle andere knoppen vragen het recht om offertes te
@@ -470,7 +470,7 @@ antwoord: via het belletje en per mail. Nimble kijkt de stand na wanneer u de of
 | Status | Wat u kunt doen |
 |---|---|
 | **Klad** | Aanpassen, mailen, online voorleggen, of **Markeren als verstuurd** |
-| **Verstuurd** | Nog aanpassen, of het antwoord vastleggen met **Markeren als aanvaard** of **Weigeren** |
+| **Verstuurd** | Nog aanpassen (zie [Een verstuurde offerte aanpassen](#een-verstuurde-offerte-aanpassen)), of het antwoord vastleggen met **Markeren als aanvaard** of **Weigeren** |
 | **Aanvaard** | **Factureren**, of onder **Meer…** een **Nieuwe versie** maken |
 | **Geweigerd** | **Markeren als verstuurd** als de klant toch terugkomt, of onder **Meer…** een **Nieuwe versie** maken |
 | **Vervangen** | Niets meer: een nieuwere versie van dezelfde offerte is aanvaard. Ze blijft bewaard om na te kijken wat de klant eerder kreeg |
@@ -478,7 +478,7 @@ antwoord: via het belletje en per mail. Nimble kijkt de stand na wanneer u de of
 !!! warning "Een aanvaarde of geweigerde offerte is afgesloten"
     Zodra de klant geantwoord heeft, staat het document vast. Bovenaan staat *Deze offerte is afgesloten en
     kan niet meer gewijzigd worden.* Velden, blokken en regels zijn niet aan te passen, en onderaan staan geen
-    Bewaren en Annuleren: u gaat terug met **← Terug naar offertes** bovenaan. Dat is met opzet: de klant heeft een
+    Bewaren en Annuleren: u gaat terug met **Naar de lijst** bovenaan. Dat is met opzet: de klant heeft een
     prijs gekregen, en die hoort niet stilzwijgend te veranderen.
 
     Moet er toch iets wijzigen, klik dan onder **Meer…** op **Nieuwe versie**. U krijgt een kopie met de regels van nu, in
@@ -490,6 +490,18 @@ antwoord: via het belletje en per mail. Nimble kijkt de stand na wanneer u de of
 
 Een aanvaarde offerte wisselt niet van status, ook niet op het bord. Een geweigerde wel: die zet u
 terug met **Markeren als verstuurd**.
+
+### Een verstuurde offerte aanpassen
+
+Bewaart u een offerte die op **Verstuurd** staat, dan opent eerst het venster **Deze offerte is al verstuurd**. Past u
+de offerte aan, dan klopt ze immers niet meer met wat de klant kreeg. U kiest:
+
+- **Nieuwe versie maken** (de hoofdknop): de verstuurde offerte blijft zoals de klant ze kreeg, en de nieuwe versie
+  neemt uw wijzigingen mee. Ze opent meteen, in Klad en één versienummer hoger, zoals elke
+  [nieuwe versie](#versies-en-varianten).
+- **Annuleren**: er wordt niets bewaard. Uw wijzigingen blijven op het scherm staan.
+- **Toch deze aanpassen**: bewaart de wijzigingen op de verstuurde offerte zelf, bijvoorbeeld om een tikfout recht te
+  zetten voor de klant reageerde. Zolang u op de fiche blijft, vraagt Nimble het daarna niet opnieuw.
 
 ### Een opvolgtaak en een herinnering
 
