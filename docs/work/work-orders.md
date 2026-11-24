@@ -51,7 +51,7 @@ de lijst** bovenaan.
 
 | Veld | Opmerking |
 |---|---|
-| **Nummer** | Verplicht. Nimble stelt het volgende nummer voor, zoals *WO-2026-0001*; u mag het overschrijven |
+| **Nummer** | Laat u het leeg, dan krijgt de werkorder bij het bewaren het volgende nummer, zoals *WO-2026-0001*. Vult u zelf een nummer in, dan blijft dat staan |
 | **Project** | Verplicht. Het project waar de werkorder onder valt |
 | **Omschrijving** | Wat er moet gebeuren. Dit is wat de werkorder ván het project onderscheidt |
 | **Ploeg** | Wie de werf doet. U kiest uit de actieve ploegen |

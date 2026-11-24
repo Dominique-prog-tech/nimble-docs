@@ -60,7 +60,7 @@ Cliquez sur **Nouveau devis**. Vous complétez d'abord le bloc **Données du dev
 
 | Champ | Signification |
 |---|---|
-| **Numéro** | Obligatoire. Attribué automatiquement (`OFF-2026-0001`) ; vous pouvez le modifier. Il doit rester unique |
+| **Numéro** | Si vous le laissez vide, le devis reçoit le numéro suivant à l'enregistrement (`OFF-2026-0001`). Si vous saisissez vous-même un numéro, il est conservé ; il doit être unique |
 | **Client** | Obligatoire. À choisir parmi vos [relations](../relations.md) |
 | **Projet** | Facultatif. Si le devis se rattache à un projet, il fait partie du dossier de ce projet. Il vaut pour toutes les versions et variantes du devis, et vous pouvez encore le choisir ou le modifier après l'acceptation |
 | **Date** | Obligatoire. La date de la proposition ; aujourd'hui par défaut |
@@ -210,7 +210,8 @@ Si vous faites souvent un devis semblable, enregistrez les blocs et les lignes c
 | **Net** | Quantité × prix, calculé |
 
 Les flèches ↑ et ↓ déplacent une ligne dans son bloc. Le ✕ rouge la supprime. Une ligne *— ligne vide —*
-n'est qu'un espace sur le document ; vous pouvez aussi la déplacer ou la supprimer.
+n'est qu'un espace sur le document ; vous pouvez aussi la déplacer ou la supprimer. Un **sous-titre** dans un bloc
+est affiché en gras comme titre, sans quantité, unité, TVA ni prix ; vous le déplacez ou le supprimez de la même façon.
 
 !!! tip "Une nouvelle ligne reprend la TVA de la précédente"
     Une nouvelle ligne reçoit le code TVA de la dernière ligne du devis. Si vous travaillez en cocontractant,

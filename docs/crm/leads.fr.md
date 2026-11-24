@@ -74,7 +74,7 @@ informations au téléphone.
 | **Téléphone** | Optionnel, mais doit être un numéro de téléphone valide si renseigné |
 | **E-mail** | Optionnel, mais doit être valide si renseigné — une alerte s'affiche immédiatement en cas d'adresse invalide |
 | **Catégorie** | Catégorie client optionnelle |
-| **Numéro de TVA** | Optionnel — voir ci-dessous |
+| **Numéro de TVA** | Optionnel, voir ci-dessous. Nimble vérifie le numéro comme sur une relation : s'il n'est pas valide, un message apparaît sous le champ et le lead n'est pas enregistré |
 
 ![Le bloc Contact d'une fiche de lead.](../images/lead-blok-contact-fr.png)
 
@@ -108,7 +108,7 @@ automatiquement.
 |---|---|
 | **Statut** | Le statut du pipeline ; les statuts masqués sans lead n'apparaissent pas dans la liste |
 | **Responsable** | L'utilisateur qui suit le lead |
-| **Numéro de lead** | Proposé automatiquement pour un nouveau lead — vous pouvez l'écraser, mais le champ reste obligatoire |
+| **Numéro de lead** | Si vous le laissez vide, le lead reçoit le numéro suivant de la série à l'enregistrement. Si vous saisissez vous-même un numéro, il est conservé |
 | **Prochaine action** / **Prochaine action pour le** | Quelle est la prochaine étape et pour quand |
 | **Motif de perte** | Apparaît et devient **obligatoire** dès que le statut est **Perdu** |
 | **Date de réactivation** | Apparaît et devient **obligatoire** dès que le statut est **En attente** |
@@ -240,7 +240,7 @@ devient gagné lorsqu'un devis issu de ce lead est accepté — voir [Créer un 
 ### Ce client existe-t-il déjà ?
 
 Avant de créer un nouveau client, Nimble vérifie s'il en existe déjà un qui ressemble à ce lead — sur le
-**numéro de TVA**, sur l'**adresse e-mail**, ou sur le **nom et le code postal** ensemble. En cas de
+**numéro de TVA**, sur l'**adresse e-mail**, sur le **numéro de téléphone**, ou sur le **nom et le code postal** ensemble. En cas de
 correspondance, la question vous est posée :
 
 ![La fenêtre demandant si ce client existe déjà, avec une correspondance sur le numéro de TVA.](../images/lead-ontdubbelen-fr.png)
@@ -254,6 +254,10 @@ correspondance, la question vous est posée :
     Deux clients portant le même nom, cela existe : deux implantations, ou le père et le fils. Nimble ne le
     sait pas et ne décide donc pas à votre place. Le numéro de TVA est normalisé au passage — *BE 0123.456.749*
     et *BE0123456749* comptent comme le même numéro.
+
+Le même contrôle a déjà lieu à l'enregistrement d'un **nouveau** lead. S'il ressemble à une relation existante,
+la fenêtre **Ce lead est peut-être déjà un client** s'ouvre. **Enregistrer quand même** enregistre le lead ; lors
+de la conversion, vous le liez alors à cette relation. **Annuler** n'enregistre rien.
 
 ## Erreurs fréquentes
 

@@ -72,7 +72,7 @@ telefoon te horen krijgt.
 | **Telefoon** | Optioneel, maar moet een geldig telefoonnummer zijn als u iets invult |
 | **E-mail** | Optioneel, maar moet geldig zijn als u iets invult — u krijgt meteen een melding bij een ongeldig adres |
 | **Categorie** | Optionele klantcategorie |
-| **Btw-nummer** | Optioneel — zie hieronder |
+| **Btw-nummer** | Optioneel, zie hieronder. Nimble controleert het nummer zoals op een relatie: klopt het niet, dan staat er een melding onder het veld en wordt de lead niet bewaard |
 
 ![Het blok Contact van een leadfiche.](../images/lead-blok-contact.png)
 
@@ -104,7 +104,7 @@ Het adres van de lead staat in een eigen kaart: **Straat** en **Nr** links, **Po
 |---|---|
 | **Status** | De pijplijnstatus; verborgen statussen zonder leads verschijnen niet in de lijst |
 | **Verantwoordelijke** | De gebruiker die de lead opvolgt |
-| **Leadnummer** | Wordt bij een nieuwe lead automatisch voorgesteld — u mag het overschrijven, maar het veld is verplicht |
+| **Leadnummer** | Laat u het leeg, dan krijgt de lead bij het bewaren het volgende nummer uit de reeks. Vult u zelf een nummer in, dan blijft dat staan |
 | **Volgende actie** / **Volgende actie tegen** | Wat de volgende stap is en tegen wanneer |
 | **Verliesreden** | Verschijnt en is **verplicht** zodra de status **Verloren** is |
 | **Heractivatiedatum** | Verschijnt en is **verplicht** zodra de fase *gepauzeerd* betekent (standaard: **On hold**) |
@@ -232,7 +232,7 @@ lead wanneer een offerte uit deze lead aanvaard wordt — zie [Een offerte maken
 ### Bestaat die klant al?
 
 Voor Nimble een nieuwe klant aanmaakt, kijkt het na of er al een klant is die op deze lead lijkt — op
-**btw-nummer**, op **e-mailadres**, of op **naam en postcode** samen. Is er een treffer, dan krijgt u de vraag:
+**btw-nummer**, op **e-mailadres**, op **telefoonnummer**, of op **naam en postcode** samen. Is er een treffer, dan krijgt u de vraag:
 
 ![Het venster dat vraagt of deze klant al bestaat, met een treffer op het btw-nummer.](../images/lead-ontdubbelen.png)
 
@@ -245,6 +245,10 @@ Voor Nimble een nieuwe klant aanmaakt, kijkt het na of er al een klant is die op
     Twee klanten met dezelfde naam bestaan echt: twee vestigingen, of vader en zoon. Nimble weet dat niet en
     beslist het dus niet voor u. Het btw-nummer wordt daarbij genormaliseerd — *BE 0123.456.749* en
     *BE0123456749* gelden als hetzelfde nummer.
+
+Dezelfde controle gebeurt al bij het bewaren van een **nieuwe** lead. Lijkt die op een bestaande relatie, dan
+opent het venster **Deze lead is mogelijk al een klant**. **Toch bewaren** bewaart de lead; bij het omzetten
+koppelt u hem dan aan die relatie. **Annuleren** bewaart niets.
 
 ## Veelgemaakte fouten
 

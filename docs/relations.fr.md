@@ -50,13 +50,25 @@ L'onglet **Fiche** est divisé en blocs.
 | **Nom** | Obligatoire. Nom d'entreprise ou nom d'affichage. |
 | **Numéro de relation** | Attribué automatiquement (`K0001`, `K0002`, …) si vous le laissez vide. Si vous saisissez vous-même une valeur, elle est conservée — les numéros existants de votre ancien logiciel ne sont pas écrasés. |
 | **Forme juridique** | Liste de choix (SRL, SA, ASBL …). Recherchez en tapant. |
-| **Numéro de TVA** | Numéro d'entreprise, avec le bouton **Récupérer** à côté. |
+| **Numéro de TVA** | Numéro d'entreprise, avec le bouton **Récupérer** à côté. Nimble vérifie le numéro : un numéro belge compte 10 chiffres avec un chiffre de contrôle correct, un numéro étranger commence par le code pays (p. ex. NL). S'il n'est pas valide, un message apparaît sous le champ et la fiche n'est pas enregistrée. Un particulier laisse le champ vide. |
 
 ![Le bloc Identification d'une fiche de relation, avec nom, forme juridique, numéro de relation et numéro de TVA.](images/relatie-blok-identificatie-fr.png)
 
 #### Récupérer les données de la BCE
 
 Saisissez le numéro de TVA et cliquez sur **Récupérer**. Le nom, la rue, le numéro, le code postal, la commune et le pays sont remplis avec les données de la Banque-Carrefour des Entreprises. Si le numéro n'existe pas, un message s'affiche et la fiche reste inchangée.
+
+#### Cette relation existe-t-elle déjà ?
+
+À l'enregistrement d'une **nouvelle** relation, Nimble vérifie s'il existe déjà une relation avec le même
+**numéro de TVA**, la même **adresse e-mail** ou le même **numéro de téléphone**, ou avec le même **nom et code
+postal**. Le numéro de TVA et le numéro de téléphone comptent comme identiques même écrits autrement :
+*BE 0123.456.749* et *0123456749*, ou *0471 12 34 56* et *+32 471 12 34 56*. En cas de correspondance, la fenêtre
+**Cette relation existe peut-être déjà** s'ouvre, avec chaque relation trouvée et la raison. Le nom ouvre la fiche
+de cette relation dans un nouvel onglet.
+
+- **Annuler** — rien n'est enregistré.
+- **Enregistrer quand même** — vous savez qu'il s'agit d'une autre, par exemple un deuxième établissement.
 
 ### Bloc Adresse
 

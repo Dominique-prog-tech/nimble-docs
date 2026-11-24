@@ -50,13 +50,24 @@ Het tabblad **Fiche** is verdeeld in blokken.
 | **Naam** | Verplicht. Bedrijfsnaam of weergavenaam. |
 | **Relatienummer** | Wordt automatisch toegekend (`K0001`, `K0002`, …) wanneer u het leeg laat. Vult u zelf iets in, dan blijft dat staan — bestaande nummers uit uw vorige pakket worden niet overschreven. |
 | **Rechtsvorm** | Keuzelijst (BV, NV, VZW …). Zoek door te typen. |
-| **Btw-nummer** | Ondernemingsnummer, met de knop **Ophalen** ernaast. |
+| **Btw-nummer** | Ondernemingsnummer, met de knop **Ophalen** ernaast. Nimble controleert het nummer: een Belgisch nummer heeft 10 cijfers met een kloppend controlegetal, een buitenlands begint met de landcode (bv. NL). Klopt het niet, dan staat er een melding onder het veld en wordt de fiche niet bewaard. Een particulier laat het veld leeg. |
 
 ![Het blok Identificatie van een relatiefiche, met naam, rechtsvorm, relatienummer en btw-nummer.](images/relatie-blok-identificatie.png)
 
 #### Gegevens ophalen uit de KBO
 
 Vul het btw-nummer in en klik op **Ophalen**. Naam, straat, nummer, postcode, gemeente en land worden ingevuld met de gegevens uit de Kruispuntbank van Ondernemingen. Bestaat het nummer niet, dan verschijnt een melding en blijft de fiche ongewijzigd.
+
+#### Bestaat deze relatie al?
+
+Bij het bewaren van een **nieuwe** relatie kijkt Nimble na of er al een relatie is met hetzelfde **btw-nummer**,
+**e-mailadres** of **telefoonnummer**, of met dezelfde **naam en postcode**. Het btw-nummer en het telefoonnummer
+gelden ook in een andere schrijfwijze als hetzelfde: *BE 0123.456.749* en *0123456749*, of *0471 12 34 56* en
+*+32 471 12 34 56*. Is er een treffer, dan opent het venster **Deze relatie bestaat mogelijk al**, met elke
+gevonden relatie en de reden erbij. De naam opent de fiche van die relatie in een nieuw tabblad.
+
+- **Annuleren** — er wordt niets bewaard.
+- **Toch bewaren** — u weet dat het een andere is, bijvoorbeeld een tweede vestiging.
 
 ### Blok Adres
 

@@ -12,6 +12,7 @@ Les **unités de mesure** sont utilisées sur les articles : pièce, mètre, mè
 | Colonne | Signification |
 |---|---|
 | **Code** | Code court (p. ex. `st`, `m`, `kg`) |
+| **Code en français** | Le code court sur les documents et écrans en français, p. ex. `pce` pour `st`. Vide = le même code |
 | **Nom (NL)** | Nom néerlandais |
 | **Nom (FR)** | Nom français |
 
@@ -23,7 +24,7 @@ Double-cliquez sur une ligne pour la modifier, ou cliquez sur **Nouvelle unité*
 
 Une fenêtre **Nouvelle unité** ou **Modifier l'unité** s'ouvre.
 
-1. Remplissez le **Code** — obligatoire.
+1. Remplissez le **Code** — obligatoire. Si le code diffère en français, remplissez aussi **Code en français**, p. ex. `pce` pour `st` ou `j` pour `dag`. Un document en français, comme un devis, une facture ou un bon de commande, affiche ce code.
 2. Remplissez le nom dans la **langue de base de votre entreprise** — obligatoire. L'autre langue porte la mention **optionnel**, par exemple **Nom (FR, optionnel)**.
 3. Cliquez sur **Enregistrer**, ou sur **Annuler** pour fermer la fenêtre sans enregistrer.
 

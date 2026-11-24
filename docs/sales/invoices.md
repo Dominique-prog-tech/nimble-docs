@@ -243,6 +243,10 @@ uit de reeks en wordt vergrendeld, rechtzetten kan enkel met een creditnota, en 
 Onderaan de knoppen Definitief maken en Annuleren.](../images/factuur-definitief-bevestiging.png)
 **Annuleren** laat ze in klad.
 
+Draagt de factuur een datum vóór die van een factuur die al uitgereikt is, dan zegt de vraag dat erbij: welke
+factuur, en met welke datum. Factuurnummers horen in de tijd op te lopen. Pas eerst de factuurdatum aan, of klik op
+**Toch uitreiken** als de datum klopt.
+
 Nimble weigert en zegt waarom, wanneer:
 
 - de factuur geen enkele regel heeft, of alleen kop- en witregels;

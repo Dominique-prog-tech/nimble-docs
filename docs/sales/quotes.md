@@ -58,7 +58,7 @@ Klik op **Nieuwe offerte**. U vult eerst het blok **Offertegegevens** in:
 
 | Veld | Betekenis |
 |---|---|
-| **Nummer** | Verplicht. Wordt automatisch toegekend (`OFF-2026-0001`); u mag het aanpassen. Het moet uniek blijven |
+| **Nummer** | Laat u het leeg, dan krijgt de offerte bij het bewaren het volgende nummer (`OFF-2026-0001`). Vult u zelf een nummer in, dan blijft dat staan; het moet uniek zijn |
 | **Klant** | Verplicht. Kies uit uw [relaties](../relations.md) |
 | **Project** | Optioneel. Hangt de offerte aan een project, dan hoort ze bij het dossier van dat project. Het geldt voor alle versies en varianten van de offerte, en u kunt het ook na het aanvaarden nog kiezen of wijzigen |
 | **Datum** | Verplicht. De datum van het voorstel; staat standaard op vandaag |
@@ -206,7 +206,8 @@ Maakt u vaak een gelijkaardige offerte, bewaar dan de blokken en regels als **sj
 | **Netto** | Aantal × prijs, berekend |
 
 Met de pijltjes ↑ en ↓ verplaatst u een regel binnen zijn blok. Het rode ✕ verwijdert ze. Een regel
-*— witregel —* is enkel witruimte op het document; ook die kunt u verplaatsen of verwijderen.
+*— witregel —* is enkel witruimte op het document; ook die kunt u verplaatsen of verwijderen. Een **tussentitel**
+binnen een blok staat vet als kop, zonder aantal, eenheid, btw of prijs; ook die verplaatst of verwijdert u zo.
 
 !!! tip "Een nieuwe regel krijgt de btw van de vorige"
     Een nieuwe regel krijgt de btw-code van de laatste regel op de offerte. Werkt u met medecontractant, dan

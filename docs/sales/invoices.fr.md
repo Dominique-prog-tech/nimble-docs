@@ -247,6 +247,10 @@ en brouillon.
 verrouillée, une correction ne pourra se faire que par une note de crédit, et l'action est irréversible. En bas les
 boutons Finaliser et Annuler.](../images/factuur-definitief-bevestiging-fr.png)
 
+Si la facture porte une date antérieure à celle d'une facture déjà émise, la question l'indique : quelle
+facture, et à quelle date. Les numéros de facture doivent suivre l'ordre chronologique. Adaptez d'abord la date de
+facture, ou cliquez sur **Émettre quand même** si la date est correcte.
+
 Nimble refuse, en indiquant pourquoi, lorsque :
 
 - la facture n'a aucune ligne, ou seulement des lignes de titre et des lignes vides ;

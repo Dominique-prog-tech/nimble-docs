@@ -12,6 +12,7 @@
 | Kolom | Betekenis |
 |---|---|
 | **Code** | Korte code (bv. `st`, `m`, `kg`) |
+| **Code in het Frans** | De korte code op Franse documenten en schermen, bv. `pce` voor `st`. Leeg = dezelfde code |
 | **Naam (NL)** | Nederlandstalige naam |
 | **Naam (FR)** | Franstalige naam |
 
@@ -23,7 +24,7 @@ Dubbelklik op een rij om ze te bewerken, of klik op **Nieuwe eenheid**. Met **Ex
 
 Er opent een venster **Nieuwe eenheid** of **Eenheid bewerken**.
 
-1. Vul de **Code** in — verplicht.
+1. Vul de **Code** in — verplicht. Verschilt de code in het Frans, vul dan ook **Code in het Frans** in, bv. `pce` voor `st` of `j` voor `dag`. Een document in het Frans, zoals een offerte, factuur of bestelbon, toont die code.
 2. Vul de naam in de **basistaal van uw bedrijf** in — verplicht. De andere taal draagt het label **optioneel**, bijvoorbeeld **Naam (FR, optioneel)**.
 3. Klik op **Bewaren**, of op **Annuleren** om het venster te sluiten zonder te bewaren.
 
