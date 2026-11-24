@@ -249,7 +249,10 @@ Nimble weigert en zegt waarom, wanneer:
 - er een regel zonder eenheidsprijs op staat — vul een prijs in, of 0 als de regel echt gratis is;
 - er geen vervaldag ingevuld is;
 - de factuurdatum in een ander jaar valt dan vandaag — het nummer komt uit de reeks van het huidige jaar;
-- een creditnota meer zou crediteren dan er op de factuur nog te crediteren valt.
+- een creditnota meer zou crediteren dan er op de factuur nog te crediteren valt;
+- een klad uit een offerte die u uit de prullenbak terugzette, terwijl die offerte intussen al een andere factuur heeft, of
+  een voorschot dat later uitgereikt werd. Die klad trekt dat voorschot niet af. Verwijder ze en factureer de offerte
+  opnieuw met **Factureren**: dan staat de aftrek erop.
 
 ## Een factuur versturen
 

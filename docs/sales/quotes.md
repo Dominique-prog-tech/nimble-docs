@@ -559,7 +559,8 @@ meteen. Het project en **Uw referentie** gaan mee. Het factuurnummer komt pas wa
 
 Kan het niet, dan staat de knop grijs en staat de reden ernaast:
 
-- *Deze offerte is al gefactureerd.*
+- *Deze offerte is al gefactureerd.* Een kladfactuur die u verwijderde, telt daarbij niet mee: de offerte kan opnieuw
+  gefactureerd worden, ook met een voorschot.
 - *Deze offerte bevat geen enkele factureerbare regel.* — bijvoorbeeld wanneer er enkel optieregels op
   staan.
 - *Dit project wordt per vorderingsstaat gefactureerd.* — het resterende werk factureert u via een volgende

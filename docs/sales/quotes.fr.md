@@ -571,7 +571,8 @@ aussitôt. Le projet et **Votre référence** suivent. Le numéro de facture n'e
 
 Si ce n'est pas possible, le bouton est grisé et la raison figure à côté :
 
-- *Ce devis a déjà été facturé.*
+- *Ce devis a déjà été facturé.* Un brouillon de facture que vous avez supprimé n'entre pas en compte : le devis peut à
+  nouveau être facturé, aussi avec un acompte.
 - *Ce devis ne contient aucune ligne facturable.* — par exemple lorsqu'il ne contient que des lignes en
   option.
 - *Ce projet est facturé par état d'avancement.* — le travail restant se facture via un état suivant ; voir

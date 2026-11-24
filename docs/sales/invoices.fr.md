@@ -254,7 +254,10 @@ Nimble refuse, en indiquant pourquoi, lorsque :
 - aucune date d'échéance n'est complétée ;
 - la date de facture tombe dans une autre année qu'aujourd'hui — le numéro provient de la série de l'année
   en cours ;
-- une note de crédit créditerait plus que ce qui reste à créditer sur la facture.
+- une note de crédit créditerait plus que ce qui reste à créditer sur la facture ;
+- un brouillon issu d'un devis que vous avez restauré depuis la corbeille, alors que ce devis a entre-temps une autre
+  facture, ou un acompte émis plus tard. Ce brouillon ne déduit pas cet acompte. Supprimez-le et facturez à nouveau le
+  devis avec **Facturer** : la déduction y figurera.
 
 ## Envoyer une facture
 
