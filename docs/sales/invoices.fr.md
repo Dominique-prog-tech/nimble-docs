@@ -292,14 +292,16 @@ dans la fiche société, Nimble vérifie à l'ouverture de la fenêtre si le cli
 - **Le client n'est pas sur Peppol**, ou ne peut pas y recevoir ce type de document : envoyez la facture par e-mail.
 - **Pas de numéro d'entreprise belge :** Nimble n'envoie via Peppol qu'à des entreprises belges.
 - **Non vérifié :** ADM One n'a pas répondu. Ce n'est pas la même chose que « pas sur Peppol » ; réessayez plus tard.
-- **Facture de l'application précédente :** il n'y a pas de bouton. Une telle facture y a déjà été envoyée, et Nimble ne
-  l'envoie pas une seconde fois. Vous pouvez toujours télécharger le fichier.
+- **Facture de l'application précédente :** le bouton habituel n'y est pas. Une telle facture y est peut-être déjà partie via
+  Peppol, et Nimble ne sait pas lesquelles. N'est-elle pas arrivée à l'époque, ou le client la redemande-t-il ? Envoyez-la alors
+  avec **Envoyer quand même via Peppol**. La confirmation prévient que le client la recevra une deuxième fois si elle était déjà
+  partie, et qui l'a envoyée figure dans le journal des actions. Vous pouvez toujours télécharger le fichier.
 
 Après l'envoi, la fiche indique sous **Envoyée** *Peppol* avec le statut de livraison : **Acceptée par le réseau**, puis en
 général dans la minute **Livrée**. Le statut est mis à jour chaque fois que vous ouvrez la facture, et chaque nuit. Le fichier
 envoyé figure sous **Journal** › **Pièces jointes**. Si la livraison échoue ou si le destinataire refuse, le motif est indiqué et vous pouvez renvoyer.
 Une même facture ne part jamais deux fois : si vous la proposez à nouveau pendant que le premier envoi est en cours, vous
-récupérez ce premier envoi.
+récupérez ce premier envoi, et Nimble indique qu'elle était déjà partie.
 
 Si la facture est livrée, le lien **Preuve de livraison** figure à côté de **Livrée**. Il montre la preuve du réseau Peppol que la
 facture est arrivée chez le destinataire, en PDF dans votre langue, avec l'original signé en pièce jointe dans le PDF. C'est le

@@ -285,14 +285,16 @@ bedrijfsfiche, dan kijkt Nimble bij het openen van het venster of de klant op Pe
 - **De klant staat niet op Peppol**, of kan dit soort document er niet ontvangen: mail de factuur.
 - **Geen Belgisch ondernemingsnummer:** Nimble verstuurt via Peppol enkel naar Belgische ondernemingen.
 - **Niet gecontroleerd:** ADM One antwoordde niet. Dat is iets anders dan "niet op Peppol"; probeer het later opnieuw.
-- **Factuur uit de vorige toepassing:** er staat geen knop. Zo'n factuur werd daar al verstuurd, en Nimble verstuurt ze niet
-  een tweede keer. Het bestand downloaden kan wel.
+- **Factuur uit de vorige toepassing:** de gewone knop staat er niet. Zo'n factuur kan daar al via Peppol vertrokken zijn, en
+  Nimble weet niet welke. Kwam ze toen niet aan, of vraagt de klant ze opnieuw? Dan verstuurt u ze met **Toch via Peppol
+  versturen**. De bevestiging waarschuwt dat de klant ze een tweede keer krijgt als ze toen al vertrok, en wie ze verstuurde,
+  staat in het actielogboek. Het bestand downloaden kan altijd.
 
 Na het versturen staat onder **Verstuurd** op de fiche *Peppol* met de afleverstatus: **Aanvaard door het netwerk**, daarna
 doorgaans binnen een minuut **Afgeleverd**. De status wordt bijgewerkt telkens u de factuur opent, en elke nacht. Het verstuurde
 bestand staat onder **Journaal** › **Bijlagen**. Mislukt de aflevering of weigert de ontvanger, dan staat de reden erbij en kunt u opnieuw versturen.
 Eenzelfde factuur vertrekt nooit twee keer: biedt u ze opnieuw aan terwijl de eerste verzending nog loopt, dan krijgt u die
-eerste verzending terug.
+eerste verzending terug, en Nimble meldt dat ze al eerder vertrokken was.
 
 Is de factuur afgeleverd, dan staat naast **Afgeleverd** de link **Afleverbewijs**. Die toont het bewijs van het Peppol-netwerk dat
 de factuur bij de ontvanger aankwam, als pdf in uw taal, met het ondertekende origineel als bijlage in de pdf. Dat is het stuk dat u
