@@ -453,8 +453,7 @@ een creditnota is altijd een creditering.
 
 ### Een creditnota zonder factuur in Nimble
 
-Staat de factuur niet in Nimble, bijvoorbeeld omdat ze in uw vorige software gemaakt werd, of geeft u een korting
-achteraf, dan maakt u de creditnota zelf:
+Staat de factuur niet in Nimble, of geeft u een korting achteraf, dan maakt u de creditnota zelf:
 
 1. Klik op de facturenlijst op **Nieuwe factuur**.
 2. Kies bij **Soort** de keuze **Creditnota**.

@@ -504,8 +504,8 @@ nouvelle ligne sur une note de crédit est toujours un crédit.
 
 ### Une note de crédit sans facture dans Nimble
 
-Si la facture ne se trouve pas dans Nimble, par exemple parce qu'elle a été faite dans votre ancien logiciel, ou si
-vous accordez une remise après coup, vous créez la note de crédit vous-même :
+Si la facture ne se trouve pas dans Nimble, ou si vous accordez une remise après coup, vous créez la note de crédit
+vous-même :
 
 1. Dans la liste des factures, cliquez sur **Nouvelle facture**.
 2. Sous **Type**, choisissez **Note de crédit**.
