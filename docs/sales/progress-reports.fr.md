@@ -30,7 +30,7 @@ que cet état a figé. Sinon, l'onglet indique quel état est encore ouvert.
 
 En haut de l'état figurent le numéro (par exemple *État 2*), le client, la date, le statut et le projet. Si l'état
 est facturé, le lien **Vers la facture** y figure aussi. À droite figure le **Total TVAC** : ce que le client paie
-pour cet état. Un devis et une facture ont le même en-tête. Avec **Vers la liste** en haut, vous revenez au projet.
+pour cet état. Un devis et une facture ont le même en-tête. **Vers le projet** en haut vous ramène à la fiche du projet.
 
 ## Compléter les postes
 

@@ -28,8 +28,8 @@ Anders zegt het tabblad welke staat nog openstaat.
 
 Bovenaan de staat staan het nummer (bijvoorbeeld *Staat 2*), de klant, de datum, de status en het project. Is de
 staat gefactureerd, dan staat er ook de link **Naar de factuur**. Rechts staat het **Totaal incl. btw**: wat de klant
-voor deze staat betaalt. Een offerte en een factuur hebben dezelfde kop. Met **Naar de lijst** bovenaan gaat u terug
-naar het project.
+voor deze staat betaalt. Een offerte en een factuur hebben dezelfde kop. **Naar het project** bovenaan brengt u terug
+naar de projectfiche.
 
 ## De posten invullen
 
