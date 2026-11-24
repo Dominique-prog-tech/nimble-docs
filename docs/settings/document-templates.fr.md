@@ -10,24 +10,29 @@ ici que vous les définissez.
 
 Le droit *Gérer les modèles de documents* est nécessaire.
 
-![L'écran Modèles de documents avec les onglets Modèle et Historique : en haut les listes Document et Langue avec les boutons Enregistrer, Aperçu avant impression et Rétablir le modèle par défaut ; à gauche les champs En-tête et coordonnées du client, Formule d'introduction et Conditions, à droite la liste Variables.](../images/documentsjablonen-scherm-fr.png)
+![L'écran Modèles de documents avec les onglets Modèle et Historique : en haut la liste Document et les onglets Les deux langues, Nederlands et Français ; à gauche les champs En-tête et coordonnées du client, Formule d'introduction et Conditions, à droite la liste Variables, et en bas les boutons Enregistrer, Annuler et Aperçu avant impression.](../images/documentsjablonen-scherm-fr.png)
 
 ## Document et langue
 
-En haut, vous choisissez le **Document** — aujourd'hui le devis — et la **Langue**. Si vous choisissez *Les
-deux langues*, votre texte vaut pour les clients néerlandophones comme francophones. Pour les différencier,
-créez une version par langue ; c'est la langue du client qui détermine celle qui figure sur la page.
+En haut, vous choisissez le **Document** (aujourd'hui le devis) et, avec les onglets sous **Langue**, la langue :
+**Les deux langues**, **Nederlands** ou **Français**. Sur **Les deux langues**, votre texte vaut pour les clients
+néerlandophones comme francophones. Pour les différencier, créez une version par langue ; c'est la langue du
+client qui détermine celle qui figure sur la page.
 
-Choisir une autre langue charge immédiatement la version de cette langue. Enregistrez donc d'abord ce que
-vous venez de modifier.
+Choisir un autre onglet charge immédiatement la version de cette langue. Enregistrez donc d'abord ce que vous
+venez de modifier.
 
 ## Les boutons
+
+Les boutons figurent en bas, dans la barre fixe : **Enregistrer**, **Annuler** et **Aperçu avant impression**, et
+de l'autre côté **Rétablir le modèle par défaut**.
 
 | Bouton | Ce qu'il fait |
 |---|---|
 | **Enregistrer** | Enregistre les trois champs pour le document et la langue choisis |
+| **Annuler** | Vous ramène sans enregistrer à l'**Administration** |
 | **Aperçu avant impression** | Affiche votre modèle sur un devis d'exemple — voir **Vérifier votre travail** ci-dessous |
-| **Rétablir le modèle par défaut** | Supprime votre propre texte pour ce document et cette langue, après confirmation. Actif uniquement lorsqu'un modèle propre est enregistré |
+| **Rétablir le modèle par défaut** | Supprime votre propre texte pour ce document et cette langue, après confirmation. Le bouton n'apparaît que lorsqu'un modèle propre est enregistré |
 
 ## Les trois champs
 

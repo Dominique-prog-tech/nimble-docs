@@ -9,23 +9,28 @@ Uw offerte draagt uw eigen briefhoofd, uw eigen aanhef en uw eigen voorwaarden. 
 
 U hebt er het recht *Documentsjablonen beheren* voor nodig.
 
-![Het scherm Documentsjablonen met de tabbladen Sjabloon en Logboek: bovenaan de keuzelijsten Document en Taal met de knoppen Bewaren, Afdrukvoorbeeld en Standaard herstellen; links de vakken Briefhoofd en klantgegevens, Aanhef en Voorwaarden, rechts de lijst Variabelen.](../images/documentsjablonen-scherm.png)
+![Het scherm Documentsjablonen met de tabbladen Sjabloon en Logboek: bovenaan de keuzelijst Document en de tabbladen Beide talen, Nederlands en Français; links de vakken Briefhoofd en klantgegevens, Aanhef en Voorwaarden, rechts de lijst Variabelen, en onderaan de knoppen Bewaren, Annuleren en Afdrukvoorbeeld.](../images/documentsjablonen-scherm.png)
 
 ## Document en taal
 
-Bovenaan kiest u het **Document** — vandaag is dat de offerte — en de **Taal**. Kiest u *Beide talen*, dan
-geldt uw tekst voor Nederlandstalige én Franstalige klanten. Wilt u ze laten verschillen, dan maakt u per
-taal een eigen versie; de taal van de klant bepaalt welke er op het blad komt.
+Bovenaan kiest u het **Document** (vandaag is dat de offerte) en, met de tabbladen bij **Taal**, de taal:
+**Beide talen**, **Nederlands** of **Français**. Op **Beide talen** geldt uw tekst voor Nederlandstalige én
+Franstalige klanten. Wilt u ze laten verschillen, dan maakt u per taal een eigen versie; de taal van de klant
+bepaalt welke er op het blad komt.
 
-Een andere taal kiezen laadt meteen de versie van die taal. Bewaar dus eerst wat u net wijzigde.
+Een ander tabblad kiezen laadt meteen de versie van die taal. Bewaar dus eerst wat u net wijzigde.
 
 ## De knoppen
+
+De knoppen staan onderaan in de vaste balk: **Bewaren**, **Annuleren** en **Afdrukvoorbeeld**, en aan de overkant
+**Standaard herstellen**.
 
 | Knop | Wat hij doet |
 |---|---|
 | **Bewaren** | Bewaart de drie vakken voor het gekozen document en de gekozen taal |
+| **Annuleren** | Brengt u zonder te bewaren terug naar **Platformbeheer** |
 | **Afdrukvoorbeeld** | Toont uw sjabloon op een voorbeeldofferte — zie **Uw werk nakijken** hieronder |
-| **Standaard herstellen** | Verwijdert uw eigen tekst voor dit document en deze taal, na bevestiging. Enkel actief wanneer er een eigen sjabloon bewaard is |
+| **Standaard herstellen** | Verwijdert uw eigen tekst voor dit document en deze taal, na bevestiging. De knop staat er enkel wanneer er een eigen sjabloon bewaard is |
 
 ## De drie vakken
 
