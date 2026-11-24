@@ -20,7 +20,7 @@ modèles de documents* est nécessaire.
 | **Nom** | Ce que le destinataire voit comme expéditeur |
 | **Adresse** | L'adresse e-mail |
 | **Par défaut** | L'expéditeur de chaque modèle sans expéditeur propre |
-| **Vérifié** | **Autorisée** ou **Non enregistrée** : voir ci-dessous |
+| **Vérifié** | **Oui** ou **Non** : voir ci-dessous. Vide : la vérification n'a pas pu être faite à ce moment-là. |
 
 Si vous n'avez pas encore d'expéditeur, l'écran indique : *Aucun expéditeur : tous les mails partent de
 l'adresse de Nimble (noreply@adm-concept.be).*

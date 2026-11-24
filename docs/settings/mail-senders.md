@@ -20,7 +20,7 @@ U komt er ook via de link **Afzenders beheren** op het scherm Mailsjablonen. U h
 | **Naam** | Wat de ontvanger als afzender ziet |
 | **Adres** | Het mailadres |
 | **Standaard** | De afzender voor elk sjabloon zonder eigen afzender |
-| **Geverifieerd** | **Toegelaten** of **Niet geregistreerd**: zie hieronder |
+| **Geverifieerd** | **Ja** of **Nee**: zie hieronder. Leeg: dat kon op dat moment niet nagekeken worden. |
 
 Hebt u nog geen afzenders, dan staat er: *Nog geen afzenders: alle mail vertrekt van het adres van Nimble
 (noreply@adm-concept.be).*
