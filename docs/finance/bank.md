@@ -27,7 +27,7 @@ niet dat er iets misging.
 |---|---|
 | **Valutadatum** | De dag die de bank aan de verrichting geeft. Daarop wordt een betaling geboekt |
 | **Tegenpartij** | De naam zoals de bank ze aanlevert — bij een inkomende betaling dus uw klant |
-| **Mededeling** | Staat er een gestructureerde mededeling, dan is dat de sleutel waarmee het afpunten werkt |
+| **Mededeling** | Staat er een gestructureerde mededeling, dan staat ze in de vorm +++000/0000/01717+++. Dat is de sleutel waarmee het afpunten werkt |
 | **Bedrag** | Negatief en in het rood = geld dat wegging |
 
 Naast het bedrag staat **Inkomend** of **Uitgaand**. Dat woord staat er met opzet bij: een rij die enkel

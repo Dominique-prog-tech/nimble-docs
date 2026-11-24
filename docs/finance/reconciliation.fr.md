@@ -36,7 +36,8 @@ Si Nimble n'a trouvé aucun poste ouvert, la proposition indique **Aucune propos
     numéros appris figurent sur la [fiche du client](../relations.md#bloc-numeros-de-compte-de-ce-client), où vous pouvez
     en supprimer un.
 
-Chaque proposition affiche la contrepartie, la date de valeur, la communication et le montant. En dessous
+Chaque proposition affiche la contrepartie, la date de valeur, la communication et le montant. Une communication
+structurée figure sous la forme +++000/0000/01717+++. En dessous
 figurent les factures sur lesquelles Nimble veut enregistrer ; cliquez un numéro de facture pour l'ouvrir.
 Sous chaque proposition figure **pourquoi** Nimble la propose. Lisez cette phrase pour *Probable* et
 *Possible* — elle dit précisément ce qui n'est pas établi.

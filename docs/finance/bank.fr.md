@@ -28,7 +28,7 @@ rien de neuf — pas qu'une erreur s'est produite.
 |---|---|
 | **Date de valeur** | Le jour que la banque attribue à l'opération. C'est à cette date qu'un paiement est comptabilisé |
 | **Contrepartie** | Le nom tel que la banque le fournit — pour un paiement entrant, votre client |
-| **Communication** | S'il y a une communication structurée, c'est la clé sur laquelle repose le lettrage |
+| **Communication** | S'il y a une communication structurée, elle figure sous la forme +++000/0000/01717+++. C'est la clé sur laquelle repose le lettrage |
 | **Montant** | Négatif et en rouge = de l'argent sorti |
 
 À côté du montant figure **Entrant** ou **Sortant**. Ce mot est là à dessein : une ligne qui n'affiche que

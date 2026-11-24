@@ -36,7 +36,8 @@ Vond Nimble geen enkele openstaande post, dan staat er **Geen voorstel**.
     Nimble. Het voorstel zegt dan **Klant herkend aan het rekeningnummer van de betaler.** De geleerde nummers staan op de
     [fiche van de klant](../relations.md#blok-rekeningnummers-van-deze-klant), waar u er een kunt verwijderen.
 
-Elk voorstel toont de tegenpartij, de valutadatum, de mededeling en het bedrag. Daaronder staan de facturen
+Elk voorstel toont de tegenpartij, de valutadatum, de mededeling en het bedrag. Een gestructureerde mededeling staat
+in de vorm +++000/0000/01717+++. Daaronder staan de facturen
 waarop Nimble wil boeken; klik een factuurnummer om die factuur te openen. Onder elk voorstel staat
 **waarom** Nimble het voorstelt. Lees die zin bij *Waarschijnlijk* en *Mogelijk* —
 ze zegt precies wat er niet zeker is.
