@@ -41,7 +41,7 @@ Chaque étape des rappels a son propre modèle : un premier rappel ne s'écrit p
 
 Vous choisissez ensuite l'**Expéditeur** parmi vos [expéditeurs de mail](mail-senders.md). Si vous laissez le
 champ vide, il affiche *Par défaut :* avec l'adresse qui s'applique alors : votre expéditeur par défaut, ou
-*Nimble <noreply@adm-concept.be>* si vous n'en avez pas. **Gérer les expéditeurs** ouvre la liste des expéditeurs.
+le nom de votre entreprise avec *noreply@adm-concept.be* si vous n'en avez pas. C'est aussi ainsi que le mail part. **Gérer les expéditeurs** ouvre la liste des expéditeurs.
 
 Si l'expéditeur choisi se trouve dans la Corbeille, l'écran indique que le mail part de l'adresse par défaut.
 Choisissez alors un autre expéditeur, ou restaurez-le depuis la Corbeille.

@@ -41,8 +41,8 @@ Elke stap van de aanmaningen heeft een eigen sjabloon: een eerste aanmaning schr
 ingebrekestelling.
 
 Daarnaast kiest u de **Afzender** uit uw [mailafzenders](mail-senders.md). Laat u het veld leeg, dan staat er
-*Standaard:* met het adres dat dan geldt: uw standaardafzender, of *Nimble <noreply@adm-concept.be>* als u er geen
-hebt.
+*Standaard:* met het adres dat dan geldt: uw standaardafzender, of de naam van uw bedrijf met
+*noreply@adm-concept.be* als u er geen hebt. Zo vertrekt de mail ook.
 Met **Afzenders beheren** opent u de lijst van afzenders.
 
 Staat de gekozen afzender in de Prullenbak, dan meldt het scherm dat de mail van de standaard vertrekt. Kies
