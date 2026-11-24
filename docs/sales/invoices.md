@@ -153,17 +153,20 @@ Op een klad kunt u de regels nog aanpassen:
 
 - Wijzig de **omschrijving** rechtstreeks in de regel. Klik op **+ toelichting** onder de omschrijving voor een
   langere tekst, over meerdere lijnen. Die toelichting komt op de factuur onder de omschrijving te staan.
+- Vul de **eenheid** in of wijzig ze rechtstreeks in de regel (m², st, h, …). Aantal en prijs liggen vast: wilt u die
+  anders, verwijder de regel en voeg ze opnieuw toe.
 - Kies per regel een andere **Btw**-code, of verwijder de regel met het rode ✕.
 - Moeten alle regels een andere btw krijgen, kies dan **Meer…** → **Btw voor alle regels…**. Kies de code, klik
   **Toepassen** en daarna **Bewaren**. Kopregels blijven zoals ze zijn.
-- Voeg een regel toe met de invoerrij onderaan: **Artikel**, **Omschrijving**, **Aantal**, **Prijs** en
-  **Btw**, en klik op **Regel toevoegen**.
+- Voeg een regel toe met de invoerrij onderaan: **Artikel**, **Omschrijving**, **Aantal**, **Eenh.**, **Prijs**
+  en **Btw**, en klik op **Regel toevoegen**.
 
 Bij het toevoegen geldt:
 
 - Een artikel is niet verplicht. Een post als "Voorschot" of "Werfinrichting" typt u gewoon bij Omschrijving.
 - Laat u Omschrijving leeg, dan wordt het de naam van het artikel.
-- Laat u Prijs leeg, dan geldt de verkoopprijs van het artikel. De eenheid komt ook mee uit het artikel.
+- Laat u Prijs leeg, dan geldt de verkoopprijs van het artikel. Laat u Eenh. leeg, dan komt de eenheid uit het
+  artikel; een regel zonder artikel krijgt de eenheid die u invult.
 - Kiest u geen btw-code, dan krijgt de regel de code van de laatste regel op de factuur.
 - De knop werkt pas wanneer het aantal groter is dan nul.
 

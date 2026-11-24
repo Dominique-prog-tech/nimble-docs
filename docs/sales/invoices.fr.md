@@ -155,19 +155,21 @@ Sur un brouillon, vous pouvez encore adapter les lignes :
 
 - Modifiez la **description** directement dans la ligne. Cliquez sur **+ précision** sous la description pour un texte
   plus long, sur plusieurs lignes. Cette précision figure sur la facture sous la description.
+- Saisissez ou modifiez l'**unité** directement dans la ligne (m², pc, h, …). La quantité et le prix sont fixes : pour
+  les changer, supprimez la ligne et ajoutez-la à nouveau.
 - Choisissez un autre code **TVA** par ligne, ou supprimez la ligne avec le ✕ rouge.
 - Si toutes les lignes doivent changer de TVA, choisissez **Plus…** → **TVA pour toutes les lignes…**. Choisissez le
   code, cliquez sur **Appliquer** puis sur **Enregistrer**. Les lignes de titre restent inchangées.
-- Ajoutez une ligne avec la rangée de saisie en bas : **Article**, **Description**, **Quantité**, **Prix** et
-  **TVA**, puis cliquez sur **Ajouter une ligne**.
+- Ajoutez une ligne avec la rangée de saisie en bas : **Article**, **Description**, **Quantité**, **Unité**,
+  **Prix** et **TVA**, puis cliquez sur **Ajouter une ligne**.
 
 Lors de l'ajout :
 
 - Un article n'est pas obligatoire. Un poste comme « Acompte » ou « Installation de chantier » se saisit
   simplement sous Description.
 - Si vous laissez Description vide, le nom de l'article est repris.
-- Si vous laissez Prix vide, le prix de vente de l'article s'applique. L'unité est aussi reprise de
-  l'article.
+- Si vous laissez Prix vide, le prix de vente de l'article s'applique. Si vous laissez Unité vide, l'unité est
+  reprise de l'article ; une ligne sans article reçoit l'unité que vous saisissez.
 - Si vous ne choisissez pas de code TVA, la ligne reçoit celui de la dernière ligne de la facture.
 - Le bouton ne fonctionne que si la quantité est supérieure à zéro.
 
