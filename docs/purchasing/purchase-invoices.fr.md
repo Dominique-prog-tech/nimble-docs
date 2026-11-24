@@ -21,7 +21,7 @@ Cliquez dans la barre latérale sur **Achats → Factures d'achat**.
 | **Origine** | D'où vient la facture — voir ci-dessous |
 | **Statut** | Où en est l'approbation |
 
-En fin de ligne figure le bouton **Approuver** ou **Payée** : l'action qui vient ensuite. Double-cliquez une ligne pour ouvrir la
+En fin de ligne figure le bouton **Approuver** ou **Marquer comme payée** : l'action qui vient ensuite. Double-cliquez une ligne pour ouvrir la
 facture. Vous pouvez rechercher, trier, filtrer et exporter comme dans les autres listes.
 
 ### D'où vient une facture
@@ -79,7 +79,7 @@ tant que la facture n'est pas payée. Une facture payée n'a pas de bouton dans 
 
 ### Indiquer un paiement
 
-Si vous avez payé une facture approuvée, cliquez dans la liste sur **Payée**, ou sur la fiche sur **Marquer comme payée**.
+Si vous avez payé une facture approuvée, cliquez dans la liste ou sur la fiche sur **Marquer comme payée**.
 La facture est alors **Payée**, pour le montant total. Seule une facture approuvée peut être payée : approuvez-la d'abord.
 
 En cas d'erreur, ouvrez la fiche et choisissez sous **Plus…** l'action **Annuler le paiement**. Nimble demande une

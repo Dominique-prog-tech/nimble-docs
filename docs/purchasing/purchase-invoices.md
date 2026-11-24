@@ -21,7 +21,7 @@ Klik in de zijbalk op **Inkoop → Aankoopfacturen**.
 | **Herkomst** | Waar de factuur vandaan komt — zie hieronder |
 | **Status** | Waar de factuur staat in de goedkeuring |
 
-Achteraan elke rij staat de knop **Goedkeuren** of **Betaald**: de handeling die aan de beurt is. Dubbelklik een rij om de factuur te
+Achteraan elke rij staat de knop **Goedkeuren** of **Markeren als betaald**: de handeling die aan de beurt is. Dubbelklik een rij om de factuur te
 openen. U kunt zoeken, sorteren, filteren en exporteren zoals in de andere lijsten.
 
 ### Waar een factuur vandaan komt
@@ -79,7 +79,7 @@ zolang de factuur niet betaald is. Een betaalde factuur heeft in de lijst geen k
 
 ### Een betaling aanduiden
 
-Hebt u een goedgekeurde factuur betaald, klik dan in de lijst op **Betaald**, of op de fiche op **Markeren als betaald**.
+Hebt u een goedgekeurde factuur betaald, klik dan in de lijst of op de fiche op **Markeren als betaald**.
 De factuur staat dan op **Betaald**, voor het volledige bedrag. Enkel een goedgekeurde factuur kan betaald worden: keur
 ze eerst goed.
 

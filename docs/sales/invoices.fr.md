@@ -26,7 +26,7 @@ Dans la barre latérale, cliquez sur **Ventes → Factures**.
 Dans la colonne **Solde ouvert**, vous pouvez rencontrer :
 
 - **—** pour un brouillon : il n'a pas encore été remis au client, rien n'est donc dû.
-- **Soldée** : tout est rentré.
+- **Payée** : tout est rentré.
 - Un montant en **rouge** : la facture a dépassé sa date d'échéance.
 - Un montant **négatif** pour une note de crédit : ce qui reste à compenser ou à rembourser.
 - L'étiquette **Montant inconnu** pour une facture émise de 0,00 €. Survolez-la pour lire l'explication. Si une telle facture
@@ -52,7 +52,7 @@ Au-dessus de la liste figurent :
   crédit n'y figurent pas.
 - **Exporter**, les boutons de filtre et le champ de recherche.
 
-Pour une facture émise avec un solde ouvert, le bouton **Payée** figure à droite : voir
+Pour une facture émise avec un solde ouvert, le bouton **Marquer comme payée** figure à droite : voir
 [En un clic depuis la liste](#en-un-clic-depuis-la-liste).
 
 **Double-cliquez** une ligne pour ouvrir la facture. À droite de la liste se trouve la barre étroite
@@ -126,7 +126,7 @@ Sous **E-mails** figurent les [rappels](reminders.md) envoyés pour cette factur
 
 | Champ | Ce que c'est |
 |---|---|
-| **Solde ouvert** | Ce que le client doit encore payer, en rouge avec **Échue** si l'échéance est dépassée — pas sur une note de crédit. Si tout est rentré, il indique **Soldée**. S'il y a des paiements, *Déjà payé* et le montant figurent en dessous. Si le client a retenu une garantie, *Dont garantie retenue* figure en dessous, avec le montant et la date de libération |
+| **Solde ouvert** | Ce que le client doit encore payer, en rouge avec **Échue** si l'échéance est dépassée — pas sur une note de crédit. Si tout est rentré, il indique **Payée**. S'il y a des paiements, *Déjà payé* et le montant figurent en dessous. Si le client a retenu une garantie, *Dont garantie retenue* figure en dessous, avec le montant et la date de libération |
 | **Communication structurée** | Le numéro avec lequel le client paie. Nimble l'attribue automatiquement à l'enregistrement ; il n'est pas modifiable |
 | **Envoyée** | Quand, par quelle voie et à qui la facture est partie. Si le champ n'apparaît pas, elle n'a pas encore été marquée comme envoyée |
 | **Notes de crédit** | Les notes de crédit rattachées à cette facture, avec leur montant. Cliquez un numéro pour l'ouvrir |
@@ -194,7 +194,7 @@ crédit.](../images/factuur-knoppen-meer-fr.png)
 | **Plus…** → **TVA pour toutes les lignes…** | Brouillon | Applique un seul code TVA à toutes les lignes. Enregistrez ensuite pour le confirmer |
 | **Plus…** → **Garantie retenue…** | Émise | Définit, modifie ou supprime la garantie retenue par le client. Voir [Une garantie retenue](#une-garantie-retenue) |
 | **Plus…** → **Annuler la facture** | Émise, jamais envoyée, sans paiements | Annule la facture. Voir [Annuler une facture](#annuler-une-facture) |
-| **Plus…** → **Marquer comme soldée** | Émise, total 0,00 €, sans paiements | Passe la facture à Payée. Voir [Clôturer une facture sans montant](#cloturer-une-facture-sans-montant) |
+| **Plus…** → **Marquer comme payée** | Émise, total 0,00 €, sans paiements | Passe la facture à Payée. Voir [Clôturer une facture sans montant](#cloturer-une-facture-sans-montant) |
 | **Remettre en ouverte** | Payée | Remet la facture sur Émise |
 | **Annuler** | Brouillon | Abandonne vos modifications. Sur une facture émise ou payée, le bouton n'y figure pas : il n'y a rien à enregistrer, et vous revenez avec **Vers la liste** en haut |
 | **Supprimer** | Brouillon sans numéro | Met le brouillon dans la corbeille, après confirmation. Vous pouvez l'y restaurer |
@@ -412,12 +412,12 @@ liste.
 ### En un clic depuis la liste
 
 Si vous savez qu'une facture est entièrement payée, vous n'avez pas besoin de l'ouvrir. Cliquez dans la liste sur
-**Payée** à côté de la facture. Nimble enregistre un seul paiement pour tout le solde ouvert, à la date du jour,
+**Marquer comme payée** à côté de la facture. Nimble enregistre un seul paiement pour tout le solde ouvert, à la date du jour,
 avec le mode de paiement **Virement** et la note *Marquée comme payée dans la liste des factures*. La facture passe
 sur **Payée** et le bouton disparaît.
 
 Le bouton ne figure que pour une facture émise avec un solde ouvert : pas pour un brouillon, pas pour une note de
-crédit, et pas pour une facture déjà soldée.
+crédit, et pas pour une facture déjà payée.
 
 Si vous connaissez le jour où l'argent est arrivé, ou s'il s'agit d'un paiement partiel, utilisez **Enregistrer
 un paiement** sur la fiche. Marquée par erreur ? Supprimez le paiement dans le bloc Paiements sur la fiche.
@@ -452,7 +452,7 @@ Une facture ou une note de crédit transférée peut figurer dans Nimble à **0,
 lors du transfert. La liste indique alors **Montant inconnu**, et elle reste parmi les **Factures ouvertes**. Enregistrer un
 paiement n'est pas possible : un paiement de 0,00 € n'existe pas.
 
-Si votre comptabilité considère la pièce comme réglée, cliquez en bas sur **Plus…** → **Marquer comme soldée** et confirmez.
+Si votre comptabilité considère la pièce comme réglée, cliquez en bas sur **Plus…** → **Marquer comme payée** et confirmez.
 
 - La pièce passe ensuite à **Payée** et ne compte plus dans les montants ouverts.
 - Le journal des actions indique qui l'a marquée et quand.
@@ -506,7 +506,7 @@ Vous pouvez aussi enregistrer vous-même ces deux mêmes paiements :
 1. Sur la **facture** : un paiement du montant de la note de crédit. Le solde ouvert de la facture diminue
    d'autant.
 2. Sur la **note de crédit** : un paiement Compensé. Le montant est déjà rempli avec le solde ouvert
-   négatif. La note de crédit indique ensuite **Soldée**.
+   négatif. La note de crédit indique ensuite **Payée**.
 
 ![La fenêtre Enregistrer un paiement sur la note de crédit CN-2026-0003 : Montant -1445,84 €, Date, Mode de paiement Compensé, une Note vide et en bas Enregistrer et Annuler.](../images/creditnota-betaling-verrekend-fr.png)
 

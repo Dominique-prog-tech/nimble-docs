@@ -26,7 +26,7 @@ Klik in de zijbalk op **Verkoop → Facturen**.
 In de kolom **Openstaand** kunt u dit tegenkomen:
 
 - **—** bij een klad: die is nog niet bij de klant geweest, dus er staat niets open.
-- **Voldaan**: alles is binnen.
+- **Betaald**: alles is binnen.
 - Een bedrag in het **rood**: de factuur is over haar vervaldatum.
 - Een **negatief** bedrag bij een creditnota: wat er nog verrekend of terugbetaald moet worden.
 - Het label **Bedrag onbekend** bij een uitgereikte factuur van € 0,00. Beweeg de muis erover voor de uitleg. Is zo'n factuur
@@ -51,7 +51,7 @@ Boven de lijst staan:
   toont enkel de facturen waarop nog iets te betalen is, een ingehouden borg inbegrepen. Creditnota's staan er niet in.
 - **Exporteren**, de filterknoppen en het zoekveld.
 
-Bij een uitgereikte factuur met een openstaand bedrag staat rechts de knop **Betaald**: zie
+Bij een uitgereikte factuur met een openstaand bedrag staat rechts de knop **Markeren als betaald**: zie
 [Met één klik vanuit de lijst](#met-een-klik-vanuit-de-lijst).
 
 **Dubbelklik** een rij om de factuur te openen. Rechts van de lijst staat de smalle balk **Journaal**: klap
@@ -124,7 +124,7 @@ die laatste vijf werken, leest u in [Werken met een fiche](../fiches.md). Bij **
 
 | Veld | Wat het is |
 |---|---|
-| **Openstaand** | Wat de klant nog moet betalen, in het rood met **Vervallen** erbij als de vervaldatum voorbij is — niet op een creditnota. Is alles binnen, dan staat er **Voldaan**. Zijn er betalingen, dan staat eronder *Al betaald* met het bedrag. Hield de klant een borg in, dan staat eronder *Waarvan ingehouden borg* met het bedrag en de datum waarop hij vrijkomt |
+| **Openstaand** | Wat de klant nog moet betalen, in het rood met **Vervallen** erbij als de vervaldatum voorbij is — niet op een creditnota. Is alles binnen, dan staat er **Betaald**. Zijn er betalingen, dan staat eronder *Al betaald* met het bedrag. Hield de klant een borg in, dan staat eronder *Waarvan ingehouden borg* met het bedrag en de datum waarop hij vrijkomt |
 | **Gestructureerde mededeling** | Het nummer waarmee de klant betaalt. Nimble kent het automatisch toe bij het bewaren; het is niet te wijzigen |
 | **Verstuurd** | Wanneer, langs welke weg en naar wie de factuur vertrokken is. Staat het veld er niet, dan is ze nog niet als verstuurd gemarkeerd |
 | **Creditnota's** | De creditnota's die bij deze factuur horen, met hun bedrag. Klik een nummer om ze te openen |
@@ -189,7 +189,7 @@ registreren, Opnieuw verstuurd en Meer…, en het menu Meer… open op Creditnot
 | **Meer…** → **Btw voor alle regels…** | Klad | Zet één btw-code op alle regels. Bewaar daarna om het vast te leggen |
 | **Meer…** → **Ingehouden borg…** | Uitgereikt | Zet, wijzigt of wist de borg die de klant inhield. Zie [Een ingehouden borg](#een-ingehouden-borg) |
 | **Meer…** → **Factuur annuleren** | Uitgereikt, nooit verstuurd, zonder betalingen | Annuleert de factuur. Zie [Een factuur annuleren](#een-factuur-annuleren) |
-| **Meer…** → **Als voldaan markeren** | Uitgereikt, totaal € 0,00, zonder betalingen | Zet de factuur op Betaald. Zie [Een factuur zonder bedrag afsluiten](#een-factuur-zonder-bedrag-afsluiten) |
+| **Meer…** → **Markeren als betaald** | Uitgereikt, totaal € 0,00, zonder betalingen | Zet de factuur op Betaald. Zie [Een factuur zonder bedrag afsluiten](#een-factuur-zonder-bedrag-afsluiten) |
 | **Terug naar openstaand** | Betaald | Zet de factuur terug op Uitgereikt |
 | **Annuleren** | Klad | Laat uw wijzigingen vallen. Op een uitgereikte of betaalde factuur staat de knop er niet: er valt niets te bewaren, en u gaat terug met **Naar de lijst** bovenaan |
 | **Verwijderen** | Klad zonder nummer | Zet de klad in de Prullenbak, na bevestiging. Daar kunt u ze terugzetten |
@@ -400,13 +400,13 @@ datum, of wist u de borg met **Borg wissen**. Het bedrag is hoogstens wat er ope
 
 ### Met één klik vanuit de lijst
 
-Weet u dat een factuur volledig betaald is, dan hoeft u ze niet te openen. Klik in de lijst op **Betaald**
+Weet u dat een factuur volledig betaald is, dan hoeft u ze niet te openen. Klik in de lijst op **Markeren als betaald**
 naast de factuur. Nimble registreert één betaling voor het volledige openstaande bedrag, met de datum van
 vandaag, de betaalwijze **Overschrijving** en de notitie *Als betaald gemarkeerd in de facturenlijst*. De
 factuur gaat naar **Betaald** en de knop verdwijnt.
 
 De knop staat enkel bij een uitgereikte factuur met een openstaand bedrag: niet bij een klad, niet bij een
-creditnota, en niet bij een factuur die al voldaan is.
+creditnota, en niet bij een factuur die al betaald is.
 
 Kent u de dag waarop het geld binnenkwam, of was het een deelbetaling, gebruik dan **Betaling registreren** op
 de fiche. Verkeerd gemarkeerd? Verwijder de betaling in het blok Betalingen op de fiche.
@@ -463,7 +463,7 @@ Een overgezette factuur of creditnota kan in Nimble op **€ 0,00** staan, omdat
 staat dan **Bedrag onbekend**, en ze blijft bij de **Openstaande facturen** staan. Een betaling registreren kan niet: een
 betaling van € 0,00 bestaat niet.
 
-Kent uw boekhouding het stuk als afgehandeld, klik dan onderaan op **Meer…** → **Als voldaan markeren** en bevestig.
+Kent uw boekhouding het stuk als afgehandeld, klik dan onderaan op **Meer…** → **Markeren als betaald** en bevestig.
 
 - Het stuk staat daarna op **Betaald** en telt niet meer mee bij wat openstaat.
 - In het actielogboek staat wie het markeerde en wanneer.
@@ -492,7 +492,7 @@ Dezelfde twee betalingen kunt u ook zelf registreren:
 1. Op de **factuur**: een betaling ter waarde van de creditnota. Het openstaande bedrag van de factuur daalt
    met dat bedrag.
 2. Op de **creditnota**: een betaling Verrekend. Het bedrag staat al op het negatieve openstaande bedrag.
-   Daarna staat de creditnota op **Voldaan**.
+   Daarna staat de creditnota op **Betaald**.
 
 ![Het venster Betaling registreren op creditnota CN-2026-0003: Bedrag € -1.445,84, Datum, Betaalwijze Verrekend, een leeg veld Notitie en onderaan Optekenen en Annuleren.](../images/creditnota-betaling-verrekend.png)
 
