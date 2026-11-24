@@ -74,7 +74,7 @@ van die stap — elke stap heeft een eigen sjabloon:
 - **Onderwerp** — uit het sjabloon, met het factuurnummer;
 - **Tekst** — de mail zoals ze vertrekt, in de taal van de klant.
 
-![Het venster Aanmaning versturen voor factuur F-2026-0011: Van noreply@adm-concept.be, Aan het adres van De Wilde Interieur BV, het onderwerp met het factuurnummer, de tekst van de eerste aanmaning met het openstaande bedrag van € 2.474,55, de knop Tekst aanpassen, de zin dat de factuur niet als bijlage meegaat, en onderaan Versturen en optekenen en Annuleren.](../images/rappel-versturen-venster.png)
+![Het venster Aanmaning versturen voor factuur F-2026-0001: Van noreply@adm-concept.be, Aan het adres van De Wilde Interieur BV, het onderwerp met het factuurnummer, de tekst van de eerste aanmaning met het openstaande bedrag van € 2.474,55, de knop Tekst aanpassen, de zin dat de factuur niet als bijlage meegaat, en onderaan Versturen en optekenen en Annuleren.](../images/rappel-versturen-venster.png)
 
 Wie zijn klant kent, schrijft de eerste aanmaning anders. Met **Tekst aanpassen** zet u de mail in een
 editor; wat u daar wijzigt, geldt enkel voor deze aanmaning. Wilt u het voor elke aanmaning anders, pas dan

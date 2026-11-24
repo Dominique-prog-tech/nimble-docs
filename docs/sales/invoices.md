@@ -91,7 +91,7 @@ U kunt een aanvaarde offerte ook factureren vanaf de offerte zelf, met **Facture
 
 ## De factuurfiche
 
-![De fiche van F-2026-0012: status Uitgereikt en op slot, met de blokken Factuurgegevens, Betaling en verzending en Regels.](../images/factuur-fiche.png)
+![De fiche van F-2026-0003: status Uitgereikt en op slot, met de blokken Factuurgegevens, Betaling en verzending en Regels.](../images/factuur-fiche.png)
 
 Bovenaan staan het nummer, de klant, de datum en de status, en rechts het **Totaal incl. btw**. Na de status staat
 bij een uitgereikte factuur **op slot**, bij een creditnota het label **Creditnota** en bij een voorschotfactuur het
@@ -184,7 +184,7 @@ en bedrag, met onderaan wat er nog openstaat. Met het rode ✕ verwijdert u een 
 Welke knoppen er staan, hangt af van de status en van uw rechten. Van links naar rechts. Minder gebruikte
 handelingen staan onder **Meer…**.
 
-![Factuur F-2026-0011, uitgereikt en op slot, met onderaan de knoppen Afdrukvoorbeeld, E-factuur (Peppol), Betaling
+![Factuur F-2026-0001, uitgereikt en op slot, met onderaan de knoppen Afdrukvoorbeeld, E-factuur (Peppol), Betaling
 registreren, Opnieuw verstuurd en Meer…, en het menu Meer… open op Creditnota maken.](../images/factuur-knoppen-meer.png)
 
 | Knop | Wanneer | Wat ze doet |
@@ -207,7 +207,7 @@ registreren, Opnieuw verstuurd en Meer…, en het menu Meer… open op Creditnot
 Afdrukvoorbeeld kan iedereen die facturen mag bekijken. Alle andere knoppen vragen het recht om facturen te
 bewerken.
 
-![De eerste bladzijde van factuur F-2026-0011 voor De Wilde Interieur BV, zoals de klant ze krijgt: uw gegevens en die van de klant met zijn btw-nummer, Factuurdatum, Datum van levering, Vervaldag en Uw referentie, de regels, de totalen met de btw, en het blok Betaling met rekening, bedrag, te betalen tegen en de gestructureerde mededeling.](../images/factuur-afdruk.png)
+![De eerste bladzijde van factuur F-2026-0001 voor De Wilde Interieur BV, zoals de klant ze krijgt: uw gegevens en die van de klant met zijn btw-nummer, Factuurdatum, Datum van levering, Vervaldag en Uw referentie, de regels, de totalen met de btw, en het blok Betaling met rekening, bedrag, te betalen tegen en de gestructureerde mededeling.](../images/factuur-afdruk.png)
 
 !!! info "Op een klad staat een KLAD-merk"
     Het afdrukvoorbeeld werkt ook vóór u de factuur definitief maakt. Zo controleert u het blad terwijl u nog
@@ -431,7 +431,7 @@ de fiche. Verkeerd gemarkeerd? Verwijder de betaling in het blok Betalingen op d
 Een creditnota corrigeert een factuur die al een nummer heeft. Klik onderaan de factuur op **Meer…** →
 **Creditnota maken**. Nimble maakt een creditnota in klad en opent ze.
 
-![De creditnota CN-2026-0003, uitgereikt, met een negatieve regel en de verwijzing Bij factuur F-2026-0012.](../images/factuur-creditnota.png)
+![De creditnota CN-2026-0001, uitgereikt, met een negatieve regel en de verwijzing Bij factuur F-2026-0003.](../images/factuur-creditnota.png)
 
 Een creditnota is hetzelfde scherm als een factuur, met deze verschillen:
 
@@ -518,7 +518,7 @@ factuur blijft haar volle bedrag tonen, en de creditnota toont een negatief open
 er nog iets te regelen valt.
 
 Zolang een creditnota niet verrekend is, staat ze onder het openstaande bedrag van de factuur, bijvoorbeeld
-*Creditnota CN-2026-0003 van € 1.445,84 is nog niet verrekend.* Klikt u **Betaling registreren**, dan stelt
+*Creditnota CN-2026-0001 van € 1.445,84 is nog niet verrekend.* Klikt u **Betaling registreren**, dan stelt
 Nimble het openstaande bedrag **min** die creditnota voor: wat de klant nog werkelijk moet betalen.
 
 Trekt u de creditnota af van wat de klant moet betalen, klik dan naast die melding op **Verrekenen**. Nimble
@@ -533,7 +533,7 @@ Dezelfde twee betalingen kunt u ook zelf registreren:
 2. Op de **creditnota**: een betaling Verrekend. Het bedrag staat al op het negatieve openstaande bedrag.
    Daarna staat de creditnota op **Betaald**.
 
-![Het venster Betaling registreren op creditnota CN-2026-0003: Bedrag € -1.445,84, Datum, Betaalwijze Verrekend, een leeg veld Notitie en onderaan Optekenen en Annuleren.](../images/creditnota-betaling-verrekend.png)
+![Het venster Betaling registreren op creditnota CN-2026-0001: Bedrag € -1.445,84, Datum, Betaalwijze Verrekend, een leeg veld Notitie en onderaan Optekenen en Annuleren.](../images/creditnota-betaling-verrekend.png)
 
 Betaalt u het bedrag van de creditnota integendeel terug aan de klant, registreer dan op de creditnota een
 betaling met de betaalwijze waarmee u terugbetaalde. Nimble stelt het negatieve openstaande bedrag voor.

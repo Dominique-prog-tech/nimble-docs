@@ -93,7 +93,7 @@ Vous pouvez aussi facturer un devis accepté depuis le devis lui-même, avec **F
 
 ## La fiche de facture
 
-![La fiche de F-2026-0012 : statut Émise et verrouillée, avec les blocs Données de la facture, Paiement et envoi et Lignes.](../images/factuur-fiche-fr.png)
+![La fiche de F-2026-0003 : statut Émise et verrouillée, avec les blocs Données de la facture, Paiement et envoi et Lignes.](../images/factuur-fiche-fr.png)
 
 En haut figurent le numéro, le client, la date et le statut, et à droite le **Total TVAC**. Après le statut, une
 facture émise porte la mention **verrouillée**, une note de crédit l'étiquette **Note de crédit** et une facture
@@ -187,7 +187,7 @@ montant, avec le solde ouvert en dessous. Le ✕ rouge supprime un paiement, apr
 Les boutons affichés dépendent du statut et de vos droits. De gauche à droite. Les actions moins utilisées se
 trouvent sous **Plus…**.
 
-![La facture F-2026-0011, émise et verrouillée, avec en bas les boutons Aperçu avant impression, Facture électronique
+![La facture F-2026-0001, émise et verrouillée, avec en bas les boutons Aperçu avant impression, Facture électronique
 (Peppol), Enregistrer un paiement, Envoyée à nouveau et Plus…, et le menu Plus… ouvert sur Créer une note de
 crédit.](../images/factuur-knoppen-meer-fr.png)
 
@@ -211,7 +211,7 @@ crédit.](../images/factuur-knoppen-meer-fr.png)
 Toute personne autorisée à consulter les factures peut utiliser l'aperçu avant impression. Les autres
 boutons demandent le droit de modifier les factures.
 
-![La première page de la facture F-2026-0011 pour De Wilde Interieur BV, telle que le client la reçoit — en néerlandais, la langue de ce client : vos coordonnées et celles du client avec son numéro de TVA, les dates, les lignes, les totaux avec la TVA, et le bloc de paiement avec le compte, le montant, l'échéance et la communication structurée.](../images/factuur-afdruk-fr.png)
+![La première page de la facture F-2026-0001 pour De Wilde Interieur BV, telle que le client la reçoit — en néerlandais, la langue de ce client : vos coordonnées et celles du client avec son numéro de TVA, les dates, les lignes, les totaux avec la TVA, et le bloc de paiement avec le compte, le montant, l'échéance et la communication structurée.](../images/factuur-afdruk-fr.png)
 
 !!! info "Un brouillon porte la marque BROUILLON"
     L'aperçu fonctionne aussi avant la finalisation. Vous contrôlez ainsi le document tant que vous pouvez
@@ -480,7 +480,7 @@ enregistrant le paiement.
 Une note de crédit corrige une facture qui a déjà un numéro. Cliquez en bas de la facture sur **Plus…** →
 **Créer une note de crédit**. Nimble crée une note de crédit en brouillon et l'ouvre.
 
-![La note de crédit CN-2026-0003, émise, avec une ligne négative et la mention Relative à la facture F-2026-0012.](../images/factuur-creditnota-fr.png)
+![La note de crédit CN-2026-0001, émise, avec une ligne négative et la mention Relative à la facture F-2026-0003.](../images/factuur-creditnota-fr.png)
 
 Une note de crédit utilise le même écran qu'une facture, avec ces différences :
 
@@ -532,7 +532,7 @@ facture continue d'afficher son montant complet, et la note de crédit un solde 
 ainsi qu'il reste quelque chose à régler.
 
 Tant qu'une note de crédit n'est pas compensée, elle figure sous le solde ouvert de la facture, par exemple
-*La note de crédit CN-2026-0003 de 1 445,84 € n'est pas encore compensée.* Si vous cliquez sur
+*La note de crédit CN-2026-0001 de 1 445,84 € n'est pas encore compensée.* Si vous cliquez sur
 **Enregistrer un paiement**, Nimble propose le solde ouvert **moins** cette note de crédit : ce que le client
 doit encore réellement payer.
 
@@ -548,7 +548,7 @@ Vous pouvez aussi enregistrer vous-même ces deux mêmes paiements :
 2. Sur la **note de crédit** : un paiement Compensé. Le montant est déjà rempli avec le solde ouvert
    négatif. La note de crédit indique ensuite **Payée**.
 
-![La fenêtre Enregistrer un paiement sur la note de crédit CN-2026-0003 : Montant -1445,84 €, Date, Mode de paiement Compensé, une Note vide et en bas Enregistrer et Annuler.](../images/creditnota-betaling-verrekend-fr.png)
+![La fenêtre Enregistrer un paiement sur la note de crédit CN-2026-0001 : Montant -1445,84 €, Date, Mode de paiement Compensé, une Note vide et en bas Enregistrer et Annuler.](../images/creditnota-betaling-verrekend-fr.png)
 
 Si vous remboursez au contraire le montant de la note de crédit au client, enregistrez sur la note de crédit
 un paiement avec le mode par lequel vous avez remboursé. Nimble propose le solde ouvert négatif.
