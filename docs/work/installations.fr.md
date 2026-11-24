@@ -13,7 +13,7 @@ et ceux d'un projet dans l'onglet [Entretien](maintenance.md#longlet-entretien-d
 
 ## La liste
 
-![La liste Installations avec les colonnes Type, Marque, Modèle, Numéro de série, Client, Projet, Commune, Garantie jusqu'au et État : des installations de Gemeente Nijlen, de Residentie Parkzicht VME et de De Wilde Interieur BV, dont deux anciennes chaudières à l'état Remplacé.](../images/installaties-lijst-fr.png)
+![La liste Installations avec les colonnes Type, Marque, Modèle, Numéro de série, Client, Projet, Commune, Garantie jusqu'au et État : des installations de Gemeente Nijlen, de Residentie Parkzicht VME et de De Wilde Interieur BV, dont deux anciennes chaudières à l'état Remplacée.](../images/installaties-lijst-fr.png)
 
 | Colonne | Ce que c'est |
 |---|---|
@@ -24,7 +24,7 @@ et ceux d'un projet dans l'onglet [Entretien](maintenance.md#longlet-entretien-d
 | **Projet** | Le projet auquel l'installation appartient, s'il y en a un |
 | **Commune** | Où se trouve l'installation |
 | **Garantie jusqu'au** | Le dernier jour de la garantie |
-| **État** | En service, Hors service ou Remplacé |
+| **État** | En service, Hors service ou Remplacée |
 
 - **Nouvelle installation** ouvre une fiche vide.
 - **Importer des installations** importe une liste depuis Excel, voir [Importer des installations](#importer-des-installations).
