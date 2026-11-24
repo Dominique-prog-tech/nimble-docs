@@ -60,8 +60,8 @@ eigen pagina met een eigen adres, die u kunt doorsturen. Links staat het tabblad
 **Taken**, **Notities**, **Bijlagen** en **Logboek**. De knoppen onderaan horen bij de fiche; op een
 journaal-tabblad ziet u ze niet. Zie [Werken met een fiche](../fiches.md).
 
-Het tabblad **Fiche** is opgebouwd in drie blokken — dezelfde volgorde waarin u de informatie doorgaans
-aan de telefoon te horen krijgt.
+Het tabblad **Fiche** is opgebouwd in vier blokken, in de volgorde waarin u de informatie doorgaans aan de
+telefoon te horen krijgt.
 
 ### Blok Contact
 
@@ -71,8 +71,6 @@ aan de telefoon te horen krijgt.
 | **Naam** | Verplicht — de persoon die contact opnam |
 | **Telefoon** | Optioneel, maar moet een geldig telefoonnummer zijn als u iets invult |
 | **E-mail** | Optioneel, maar moet geldig zijn als u iets invult — u krijgt meteen een melding bij een ongeldig adres |
-| **Straat / Nr** | |
-| **Postcode / Gemeente** | Typ in **Postcode** een postcode of een gemeentenaam en kies uit de lijst; de gemeente vult automatisch aan |
 | **Categorie** | Optionele klantcategorie |
 | **Btw-nummer** | Optioneel — zie hieronder |
 
@@ -81,6 +79,11 @@ aan de telefoon te horen krijgt.
 **Gegevens ophalen uit de KBO:** vul het btw-nummer in en klik op **Ophalen**. Nimble vult naam en adres
 automatisch aan vanuit de Kruispuntbank van Ondernemingen (KBO/BCE), in de taal van uw scherm. Wordt er
 niets gevonden, dan verschijnt een melding en blijven de velden zoals u ze zelf invulde.
+
+### Blok Adres
+
+Het adres van de lead staat in een eigen kaart: **Straat** en **Nr** links, **Postcode** en **Gemeente** rechts. Typ in
+**Postcode** een postcode of een gemeentenaam en kies uit de lijst; de gemeente vult automatisch aan.
 
 ### Blok De aanvraag
 

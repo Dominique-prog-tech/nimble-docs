@@ -2,7 +2,7 @@
 
 Sur l'écran **Personnes de contact**, vous gérez les personnes derrière vos clients et fournisseurs : qui vous appelez, qui reçoit le devis, qui suit le chantier.
 
-Une même personne peut être liée à **plusieurs entreprises**, chaque fois avec un rôle propre. Celui qui est gérant dans une entreprise peut être chef de chantier dans une autre.
+Une même personne peut être liée à **plusieurs relations**, chaque fois avec un rôle propre. Celui qui est gérant chez une relation peut être chef de chantier chez une autre.
 
 ## Ouvrir l'écran
 
@@ -17,20 +17,20 @@ Cliquez sur **CRM → Personnes de contact** dans la barre latérale.
 |---|---|
 | **Nom** | Prénom et nom de famille |
 | **Fonction** | Le titre de fonction, issu de la liste [Fonctions de contact](../administration/contact-functions.fr.md) |
-| **Entreprises** | Toutes les entreprises auxquelles cette personne est liée |
+| **Relations** | Toutes les relations auxquelles cette personne est liée |
 | **E-mail** | L'adresse personnelle |
 | **GSM** et **Téléphone** | Les numéros |
 | **Langue** | La langue de cette personne |
 
 ![Le journal ouvert à côté de la liste des contacts.](../images/contactenlijst-rail-fr.png)
 
-![La liste des contacts avec la colonne Entreprises remplie.](../images/contactpersonen-lijst-fr.png)
+![La liste des contacts avec la colonne Relations remplie.](../images/contactpersonen-lijst-fr.png)
 
-La recherche porte sur toutes les colonnes, y compris **Entreprises** — tapez un nom d'entreprise pour voir qui y travaille. Une personne liée à aucune entreprise affiche le message *liée à aucune entreprise* ; vous la retrouvez donc également ici.
+La recherche porte sur toutes les colonnes, y compris **Relations** : tapez un nom pour voir qui y travaille. Une personne liée à aucune relation affiche le message *liée à aucune relation* ; vous la retrouvez donc également ici.
 
 - **Nouveau** — cliquez sur **Nouvelle personne de contact**. Ce bouton n'apparaît que si vous pouvez modifier les relations.
 - **Modifier** — **double-cliquez** une ligne.
-- **Aller au client** — cliquez un nom d'entreprise dans la colonne **Entreprises** ; la fiche client s'ouvre directement.
+- **Aller au client** — cliquez un nom dans la colonne **Relations** ; la fiche client s'ouvre directement.
 - **Exporter** — la liste vers Excel ou CSV.
 - **Journal** — cliquez à droite sur le rail **Journal** pour le côté de la personne sélectionnée :
     - **Tâches** — ce qui doit encore être fait pour cette personne.
@@ -66,19 +66,19 @@ personne : **Tâches**, **Notes**, **Pièces jointes** et **Historique** — voi
 
 Rue, code postal, commune et pays. Dans le champ **Code postal**, vous cherchez par code postal ou par nom de commune ; la commune se remplit toute seule. Pour une adresse hors de Belgique, vous tapez le code postal vous-même. Ce bloc reste généralement vide pour quelqu'un que vous joignez à une adresse professionnelle ; il est surtout utile pour les clients particuliers.
 
-### Bloc Entreprises
+### Bloc Relations
 
-Vous liez ici la personne aux entreprises où elle travaille.
+Vous liez ici la personne aux relations chez qui elle travaille.
 
-![Le bloc Entreprises sur une fiche de contact, avec la relation liée, le rôle et l'adresse e-mail.](../images/contactpersoon-blok-bedrijven-fr.png)
+![Le bloc Relations sur une fiche de contact, avec la relation liée, le rôle et l'adresse e-mail.](../images/contactpersoon-blok-bedrijven-fr.png)
 
 | Colonne | Explication |
 |---|---|
-| **Entreprise** | La relation. |
-| **Rôle** | Ce que cette personne fait dans **cette** entreprise — indépendamment de son titre de fonction ci-dessus. |
-| **E-mail dans cette entreprise** | Une adresse différente de l'adresse personnelle. Laissez vide pour utiliser l'adresse personnelle ; elle apparaît en gris dans le champ. |
+| **Relation** | Le client ou le fournisseur auquel vous liez la personne. |
+| **Rôle** | Ce que cette personne fait chez **cette** relation — indépendamment de son titre de fonction ci-dessus. |
+| **E-mail auprès de cette relation** | Une adresse différente de l'adresse personnelle. Laissez vide pour utiliser l'adresse personnelle ; elle apparaît en gris dans le champ. |
 
-- **Lier** — choisissez une entreprise dans la liste de recherche et cliquez sur **Lier**.
+- **Lier** — choisissez une relation dans la liste de recherche et cliquez sur **Lier**.
 - **Délier** — supprime le lien. La personne elle-même subsiste.
 
 !!! note "Tout est enregistré avec Enregistrer"
@@ -86,20 +86,20 @@ Vous liez ici la personne aux entreprises où elle travaille.
 
 ## En bas de la fiche
 
-- **Enregistrer** — conserve ; vous restez sur la fiche. Si le nom de famille manque, ou si une adresse e-mail ou un numéro de téléphone n'est pas valide, un message en haut de la fiche indique ce qu'il faut faire. Si l'adresse non valide est liée à une entreprise, le message renvoie au bloc **Entreprises**.
+- **Enregistrer** — conserve ; vous restez sur la fiche. Si le nom de famille manque, ou si une adresse e-mail ou un numéro de téléphone n'est pas valide, un message en haut de la fiche indique ce qu'il faut faire. Si l'adresse non valide est liée à une relation, le message renvoie au bloc **Relations**.
 - **Annuler** — revient à la liste sans conserver.
-- **Supprimer** — uniquement pour une personne existante, et uniquement si vous pouvez modifier les relations. La fiche est **archivée** dans la **Corbeille** ; les liens avec les entreprises subsistent, si bien que la restauration ramène la personne avec ses entreprises.
+- **Supprimer** — uniquement pour une personne existante, et uniquement si vous pouvez modifier les relations. La fiche est **archivée** dans la **Corbeille** ; les liens avec les relations subsistent, si bien que la restauration ramène la personne avec ses relations.
 
 ## Erreurs fréquentes
 
 !!! warning
-    - **Confondre fonction et rôle** — la **fonction** est ce que la personne *est* (comptable), le **rôle** est ce qu'elle fait dans une entreprise précise. Qui porte deux casquettes chez deux clients a une fonction et deux rôles.
-    - **Remplir l'e-mail d'une entreprise avec la même adresse** — laissez vide ; l'adresse personnelle suivra automatiquement, même si elle change plus tard.
+    - **Confondre fonction et rôle** — la **fonction** est ce que la personne *est* (comptable), le **rôle** est ce qu'elle fait chez une relation précise. Qui porte deux casquettes chez deux clients a une fonction et deux rôles.
+    - **Remplir l'e-mail d'une relation avec la même adresse** — laissez vide ; l'adresse personnelle suivra automatiquement, même si elle change plus tard.
     - **Supprimer une personne pour la retirer d'un client** — utilisez **Délier**. Supprimer archive la personne partout.
     - **Décocher Actif pour supprimer quelqu'un** — c'est **Supprimer** qui sert à cela.
 
 ## Voir aussi
 
-- [Relations](../relations.fr.md) — les entreprises auxquelles ces personnes sont liées
+- [Relations](../relations.fr.md) — les relations auxquelles ces personnes sont liées
 - [Fonctions de contact](../administration/contact-functions.fr.md) — la liste des titres de fonction
 - [Travailler avec une fiche](../fiches.md) — adresse propre, onglets, enregistrer et archiver

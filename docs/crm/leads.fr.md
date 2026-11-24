@@ -62,7 +62,7 @@ page à part entière, avec sa propre adresse, que vous pouvez transmettre. À g
 droite **Tâches**, **Notes**, **Pièces jointes** et **Historique**. Les boutons du bas appartiennent à la fiche ; sur un
 onglet du journal, ils ne s'affichent pas. Voir [Travailler avec une fiche](../fiches.md).
 
-L'onglet **Fiche** est structuré en trois blocs — dans l'ordre où vous recevez généralement ces
+L'onglet **Fiche** est structuré en quatre blocs, dans l'ordre où vous recevez généralement ces
 informations au téléphone.
 
 ### Bloc Contact
@@ -73,8 +73,6 @@ informations au téléphone.
 | **Nom** | Obligatoire — la personne qui a pris contact |
 | **Téléphone** | Optionnel, mais doit être un numéro de téléphone valide si renseigné |
 | **E-mail** | Optionnel, mais doit être valide si renseigné — une alerte s'affiche immédiatement en cas d'adresse invalide |
-| **Rue / N°** | |
-| **Code postal / Commune** | Tapez dans **Code postal** un code postal ou un nom de commune et choisissez dans la liste ; la commune se complète automatiquement |
 | **Catégorie** | Catégorie client optionnelle |
 | **Numéro de TVA** | Optionnel — voir ci-dessous |
 
@@ -84,6 +82,12 @@ informations au téléphone.
 complète automatiquement le nom et l'adresse depuis la Banque-Carrefour des Entreprises (KBO/BCE), dans
 la langue de votre écran. Si rien n'est trouvé, un message s'affiche et les champs restent tels que vous
 les avez saisis.
+
+### Bloc Adresse
+
+L'adresse du lead figure dans une carte à part : **Rue** et **N°** à gauche, **Code postal** et **Commune** à droite.
+Tapez dans **Code postal** un code postal ou un nom de commune et choisissez dans la liste ; la commune se complète
+automatiquement.
 
 ### Bloc La demande
 
