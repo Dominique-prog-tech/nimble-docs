@@ -45,7 +45,7 @@ afgeleverd** (rood). Beweeg de muis erover voor de status zoals op de fiche. Zie
 Boven de lijst staan:
 
 - **Factuur uit offerte** — maakt een factuur op basis van een aanvaarde offerte.
-- **Nieuwe factuur** — opent een lege fiche.
+- **Nieuwe factuur** — opent een lege fiche. Bij **Soort** kiest u Factuur of Creditnota.
 - Een keuzelijst naast de titel: **Facturen en creditnota's**, **Openstaande facturen**, **Enkel facturen**,
   **Enkel creditnota's**, **Facturen met borg** of **Mogelijk een borg (5 % open)**. **Openstaande facturen**
   toont enkel de facturen waarop nog iets te betalen is, een ingehouden borg inbegrepen. Creditnota's staan er niet in.
@@ -438,7 +438,7 @@ Een creditnota is hetzelfde scherm als een factuur, met deze verschillen:
 - Bovenaan staat het label **Creditnota**.
 - Ze krijgt bij Definitief maken een *eigen* nummerreeks, die met `CN-` begint.
 - Haar regels staan *negatief*, en haar totaal dus ook.
-- Bij **Bij factuur** staat naar welke factuur ze verwijst — die verwijzing is wettelijk verplicht.
+- Bij **Bij factuur** staat naar welke factuur ze verwijst. De Belgische regel vraagt die verwijzing.
 - Er staat geen knop **Creditnota maken**: een creditnota crediteert u niet.
 
 De creditnota begint als klad, zodat u regels kunt schrappen wanneer u maar een **deel** crediteert. In het
@@ -447,6 +447,31 @@ tweede creditnota maken voor de rest — tot het totaal van de factuur.
 
 Nimble weigert een creditnota op een klad (pas die gewoon aan) en op een factuur die al volledig
 gecrediteerd is.
+
+Voegt u op een creditnota een regel toe, typ het aantal dan positief: Nimble zet het minteken. Een nieuwe regel op
+een creditnota is altijd een creditering.
+
+### Een creditnota zonder factuur in Nimble
+
+Staat de factuur niet in Nimble, bijvoorbeeld omdat ze in uw vorige software gemaakt werd, of geeft u een korting
+achteraf, dan maakt u de creditnota zelf:
+
+1. Klik op de facturenlijst op **Nieuwe factuur**.
+2. Kies bij **Soort** de keuze **Creditnota**.
+3. Kies de klant.
+4. Vul onder **Bij factuur** in naar welke factuur ze verwijst:
+    - een factuur in Nimble: kies ze in de lijst met de uitgereikte facturen van deze klant;
+    - een factuur buiten Nimble: vul het **nummer** en de **datum** in, zoals ze op die factuur staan.
+5. Voeg de regels toe met een positief aantal, en bewaar.
+
+![Het blok Betaling en verzending van een nieuwe creditnota: Bij factuur op Geen factuur in Nimble, met daaronder het nummer 2025-114 en de datum 12/03/2025 van een factuur buiten Nimble en de uitleg over de Belgische regel.](../images/creditnota-zonder-factuur.png)
+
+De verwijzing is niet nodig om de creditnota uit te reiken, maar de Belgische regel vraagt het nummer en de datum van de
+factuur die u crediteert. Ze staan op het blad (*Bij factuur 2025-114 van 12/03/2025*) en in de e-factuur. Laat u ze
+leeg, dan zegt het afdrukvoorbeeld van de klad dat.
+
+Kiest u een factuur in Nimble, dan is het hetzelfde als **Creditnota maken** op die factuur, maar zonder haar regels:
+Nimble bewaakt dat u niet meer crediteert dan de factuur, en u verrekent vanaf die factuur.
 
 ## Een factuur annuleren
 
@@ -512,7 +537,11 @@ Dezelfde twee betalingen kunt u ook zelf registreren:
 ![Het venster Betaling registreren op creditnota CN-2026-0003: Bedrag € -1.445,84, Datum, Betaalwijze Verrekend, een leeg veld Notitie en onderaan Optekenen en Annuleren.](../images/creditnota-betaling-verrekend.png)
 
 Betaalt u het bedrag van de creditnota integendeel terug aan de klant, registreer dan op de creditnota een
-betaling met de betaalwijze waarmee u terugbetaalde.
+betaling met de betaalwijze waarmee u terugbetaalde. Nimble stelt het negatieve openstaande bedrag voor.
+
+Een creditnota bij een factuur **buiten Nimble**, of zonder verwijzing, heeft geen factuur om vanaf te verrekenen.
+Klik dan op de creditnota op **Meer…** → **Verrekenen met een factuur…**, kies een openstaande factuur van dezelfde
+klant en klik op **Verrekenen**. Nimble registreert dezelfde twee betalingen Verrekend.
 
 !!! warning "Een onverrekende creditnota houdt de aanmaning tegen"
     Zolang een creditnota niet verrekend is, kunt u voor die factuur geen aanmaning versturen of optekenen.

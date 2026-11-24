@@ -45,7 +45,7 @@ Si la facture est partie via Peppol, le statut de livraison figure aussi : **Liv
 Au-dessus de la liste figurent :
 
 - **Facture à partir d'un devis** — crée une facture sur la base d'un devis accepté.
-- **Nouvelle facture** — ouvre une fiche vide.
+- **Nouvelle facture** — ouvre une fiche vide. Sous **Type**, vous choisissez Facture ou Note de crédit.
 - Une liste de choix à côté du titre : **Factures et notes de crédit**, **Factures ouvertes**, **Factures uniquement**,
   **Notes de crédit uniquement**, **Factures avec garantie** ou **Garantie possible (5 % ouvert)**. **Factures ouvertes**
   affiche uniquement les factures sur lesquelles il reste quelque chose à payer, garantie retenue comprise. Les notes de
@@ -487,8 +487,8 @@ Une note de crédit utilise le même écran qu'une facture, avec ces différence
 - En haut figure l'étiquette **Note de crédit**.
 - À la finalisation, elle reçoit une série de numéros *propre*, qui commence par `CN-`.
 - Ses lignes sont *négatives*, et son total l'est donc aussi.
-- Sous **Relative à la facture** figure la facture à laquelle elle renvoie — cette mention est
-  légalement obligatoire.
+- Sous **Relative à la facture** figure la facture à laquelle elle renvoie. La règle belge demande cette
+  mention.
 - Le bouton **Créer une note de crédit** n'y figure pas : on ne crédite pas une note de crédit.
 
 La note de crédit commence comme brouillon, afin que vous puissiez supprimer des lignes lorsque vous ne
@@ -498,6 +498,32 @@ total de la facture.
 
 Nimble refuse une note de crédit sur un brouillon (modifiez-le simplement) et sur une facture déjà
 entièrement créditée.
+
+Si vous ajoutez une ligne sur une note de crédit, tapez la quantité en positif : Nimble ajoute le signe moins. Une
+nouvelle ligne sur une note de crédit est toujours un crédit.
+
+### Une note de crédit sans facture dans Nimble
+
+Si la facture ne se trouve pas dans Nimble, par exemple parce qu'elle a été faite dans votre ancien logiciel, ou si
+vous accordez une remise après coup, vous créez la note de crédit vous-même :
+
+1. Dans la liste des factures, cliquez sur **Nouvelle facture**.
+2. Sous **Type**, choisissez **Note de crédit**.
+3. Choisissez le client.
+4. Sous **Relative à la facture**, indiquez la facture à laquelle elle renvoie :
+    - une facture dans Nimble : choisissez-la dans la liste des factures émises de ce client ;
+    - une facture hors Nimble : indiquez le **numéro** et la **date**, tels qu'ils figurent sur cette facture.
+5. Ajoutez les lignes avec une quantité positive, et enregistrez.
+
+![Le bloc Paiement et envoi d'une nouvelle note de crédit : Relative à la facture sur Aucune facture dans Nimble, avec en dessous le numéro 2025-114 et la date 12/03/2025 d'une facture hors Nimble et l'explication de la règle belge.](../images/creditnota-zonder-factuur-fr.png)
+
+La référence n'est pas nécessaire pour émettre la note de crédit, mais la règle belge demande le numéro et la date
+de la facture que vous créditez. Ils figurent sur le document (*Relative à la facture 2025-114 du 12/03/2025*) et
+dans la facture électronique. Si vous les laissez vides, l'aperçu avant impression du brouillon le signale.
+
+Si vous choisissez une facture dans Nimble, c'est la même chose que **Créer une note de crédit** sur cette facture,
+mais sans ses lignes : Nimble veille à ce que vous ne créditiez pas plus que la facture, et vous compensez depuis
+cette facture.
 
 ## Compenser une note de crédit
 
@@ -525,7 +551,11 @@ Vous pouvez aussi enregistrer vous-même ces deux mêmes paiements :
 ![La fenêtre Enregistrer un paiement sur la note de crédit CN-2026-0003 : Montant -1445,84 €, Date, Mode de paiement Compensé, une Note vide et en bas Enregistrer et Annuler.](../images/creditnota-betaling-verrekend-fr.png)
 
 Si vous remboursez au contraire le montant de la note de crédit au client, enregistrez sur la note de crédit
-un paiement avec le mode par lequel vous avez remboursé.
+un paiement avec le mode par lequel vous avez remboursé. Nimble propose le solde ouvert négatif.
+
+Une note de crédit relative à une facture **hors Nimble**, ou sans référence, n'a pas de facture depuis laquelle
+compenser. Cliquez alors sur la note de crédit sur **Plus…** → **Compenser avec une facture…**, choisissez une
+facture ouverte du même client et cliquez sur **Compenser**. Nimble enregistre les deux mêmes paiements Compensé.
 
 !!! warning "Une note de crédit non compensée bloque le rappel"
     Tant qu'une note de crédit n'est pas compensée, vous ne pouvez ni envoyer ni enregistrer de rappel pour
