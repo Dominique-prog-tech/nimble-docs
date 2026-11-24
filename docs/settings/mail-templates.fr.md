@@ -24,9 +24,9 @@ En haut, vous choisissez le **Modèle** :
 | **Devis** | Avec **Envoyer par e-mail** sur un devis |
 | **Rappel d'un devis** | Avec **Plus…** → **Envoyer un rappel** sur un devis envoyé — voir [Le suivi du devis](../sales/quotes.md#une-tache-de-suivi-et-un-rappel). Mêmes variables que le devis |
 | **Devis à signer (OKSign)** | Avec **Faire signer** sur un devis : l'e-mail avec le lien personnel pour signer — voir [Faire signer le devis](../sales/quotes.md#faire-signer-le-devis) |
-| **Rappel — premier rappel** | Avec **Envoyer…** sur l'écran Rappels, pour la première étape |
-| **Rappel — deuxième rappel** | Idem, pour la deuxième étape |
-| **Rappel — dernier rappel** | Idem, pour la troisième étape |
+| **Premier rappel** | Avec **Envoyer…** sur l'écran Rappels, pour la première étape |
+| **Deuxième rappel** | Idem, pour la deuxième étape |
+| **Dernier rappel** | Idem, pour la troisième étape |
 | **Rappel — mise en demeure (recouvrement)** | Idem, pour l'annonce du recouvrement |
 | **Bon de travail signé** | Quand le chef d'équipe envoie le bon de travail signé au client depuis l'application |
 | **Bon de commande au fournisseur** | Avec **Envoyer au fournisseur** sur une commande — voir [Le bon de commande](../purchasing/purchase-orders.md#imprimer-et-envoyer-le-bon-de-commande) |

@@ -24,9 +24,9 @@ Bovenaan kiest u het **Sjabloon**:
 | **Offerte** | Bij **Mailen** op een offerte |
 | **Herinnering bij een offerte** | Bij **Meer…** → **Herinnering sturen** op een verstuurde offerte — zie [De offerte opvolgen](../sales/quotes.md#een-opvolgtaak-en-een-herinnering). Zelfde variabelen als de offerte |
 | **Offerte ondertekenen (OKSign)** | Bij **Laten ondertekenen** op een offerte: de mail met de persoonlijke link om te tekenen — zie [De offerte laten ondertekenen](../sales/quotes.md#de-offerte-laten-ondertekenen) |
-| **Aanmaning — eerste herinnering** | Bij **Versturen…** op het scherm Aanmaningen, voor de eerste stap |
-| **Aanmaning — tweede herinnering** | Idem, voor de tweede stap |
-| **Aanmaning — laatste herinnering** | Idem, voor de derde stap |
+| **Eerste aanmaning** | Bij **Versturen…** op het scherm Aanmaningen, voor de eerste stap |
+| **Tweede aanmaning** | Idem, voor de tweede stap |
+| **Laatste aanmaning** | Idem, voor de derde stap |
 | **Aanmaning — ingebrekestelling (incasso)** | Idem, voor de aankondiging van de incasso |
 | **Getekende werkbon** | Wanneer de ploegbaas de getekende werkbon vanuit de app naar de klant mailt |
 | **Bestelbon naar de leverancier** | Bij **Mailen naar de leverancier** op een bestelling — zie [De bestelbon](../purchasing/purchase-orders.md#de-bestelbon-afdrukken-en-mailen) |
@@ -37,7 +37,7 @@ Bovenaan kiest u het **Sjabloon**:
 | **Serviceverzoek ontvangen (aan de klant)** | Bij een nieuw serviceverzoek, als het vinkje **Ontvangstbevestiging mailen** aanstaat: zie [Serviceverzoeken](../work/service-requests.md#de-klant-verwittigen) |
 | **Serviceverzoek ingepland (aan de klant)** | Zodra de werkorder van een serviceverzoek een dag heeft op het planbord, en opnieuw als die dag verschuift |
 
-Elke stap van de aanmaningen heeft een eigen sjabloon: een eerste herinnering schrijft u anders dan een
+Elke stap van de aanmaningen heeft een eigen sjabloon: een eerste aanmaning schrijft u anders dan een
 ingebrekestelling.
 
 Daarnaast kiest u de **Afzender** uit uw [mailafzenders](mail-senders.md). Laat u het veld leeg, dan staat er

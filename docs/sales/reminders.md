@@ -1,13 +1,13 @@
 # Aanmaningen
 
-Welke openstaande facturen een herinnering verdienen. Drie herinneringen, en daarna de aankondiging van een
+Welke openstaande facturen een aanmaning verdienen. Drie aanmaningen, en daarna de aankondiging van een
 incasso.
 
 ## Het scherm openen
 
 Klik in de zijbalk op **Verkoop → Aanmaningen**. Het scherm vraagt het recht om facturen te bewerken.
 
-![Het scherm Aanmaningen met bovenaan een gekleurde balk die meldt dat er één aanmaning klaarstaat, daaronder de zin over de termijnen, en twee facturen: één met het label Eerste herinnering en de knoppen Versturen…, Alleen optekenen en Buiten het rappelbeheer zetten, en één met Volgende vanaf.](../images/rappels-overzicht.png)
+![Het scherm Aanmaningen met bovenaan een gekleurde balk die meldt dat er één aanmaning klaarstaat, daaronder de zin over de termijnen, en twee facturen: één met het label Eerste aanmaning en de knoppen Versturen…, Alleen optekenen en Uitsluiten van aanmaningen, en één met Volgende vanaf.](../images/rappels-overzicht.png)
 
 !!! warning "Er vertrekt niets vanzelf"
     Nimble verstuurt **geen enkele** aanmaning automatisch. Bovenaan het scherm staat hoeveel er klaarstaan,
@@ -32,7 +32,7 @@ Staat er niets klaar, dan zegt de kaart waarom:
 | Tekst | Betekenis |
 |---|---|
 | **Volgende vanaf** met een datum | Nog niet aan de beurt; vanaf die dag staat de volgende aanmaning klaar |
-| **Buiten het rappelbeheer** | U hebt de factuur opzijgezet |
+| **Uitgesloten van aanmaningen** | U hebt de factuur opzijgezet |
 | **Geen vervaldag** | Er is niets om vanaf te tellen. Vul de vervaldag aan op de factuur |
 | **Alles verstuurd, tot en met de incasso** | De keten is doorlopen |
 
@@ -40,9 +40,9 @@ Staat er niets klaar, dan zegt de kaart waarom:
 
 | Stap | Toon |
 |---|---|
-| **Eerste herinnering** | Vriendelijk: wellicht is de factuur aan uw aandacht ontsnapt |
-| **Tweede herinnering** | Met het aantal dagen erbij, en de vraag of er iets niet in orde is |
-| **Laatste herinnering** | Kondigt aan dat het dossier anders voor invordering overgaat |
+| **Eerste aanmaning** | Vriendelijk: wellicht is de factuur aan uw aandacht ontsnapt |
+| **Tweede aanmaning** | Met het aantal dagen erbij, en de vraag of er iets niet in orde is |
+| **Laatste aanmaning** | Kondigt aan dat het dossier anders voor invordering overgaat |
 | **Ingebrekestelling — overdracht incasso** | De overdracht zelf, met de kosten ten laste van de schuldenaar |
 
 Er staat er altijd maar **één** klaar. De volgende wordt pas verschuldigd nadat het interval verstreken is,
@@ -56,10 +56,10 @@ Op de **Bedrijfsfiche** (Platformbeheer → Bedrijfsfiche) staan twee getallen n
 | Veld | Wat het bepaalt |
 |---|---|
 | **Eerste aanmaning na (dagen)** | Hoelang u een klant na de vervaldag met rust laat |
-| **Daarna elke (dagen)** | Het tempo daarna: tussen de eerste en de tweede herinnering, en tussen elke volgende |
+| **Daarna elke (dagen)** | Het tempo daarna: tussen de eerste en de tweede aanmaning, en tussen elke volgende |
 
 Dat zijn twee verschillende beslissingen. Met één getal zou u coulance en tempo tegen elkaar moeten
-afwegen: kort betekent dan meteen ook opjagen, lang betekent dat de tweede herinnering weken op zich laat
+afwegen: kort betekent dan meteen ook opjagen, lang betekent dat de tweede aanmaning weken op zich laat
 wachten.
 
 Laat u een veld leeg, dan geldt daar veertien dagen. Leeg betekent dus niet: geen aanmaningen.
@@ -74,9 +74,9 @@ van die stap — elke stap heeft een eigen sjabloon:
 - **Onderwerp** — uit het sjabloon, met het factuurnummer;
 - **Tekst** — de mail zoals ze vertrekt, in de taal van de klant.
 
-![Het venster Aanmaning versturen voor factuur F-2026-0011: Van noreply@adm-concept.be, Aan het adres van De Wilde Interieur BV, het onderwerp met het factuurnummer, de tekst van de eerste herinnering met het openstaande bedrag van € 2.474,55, de knop Tekst aanpassen, de zin dat de factuur niet als bijlage meegaat, en onderaan Versturen en optekenen en Annuleren.](../images/rappel-versturen-venster.png)
+![Het venster Aanmaning versturen voor factuur F-2026-0011: Van noreply@adm-concept.be, Aan het adres van De Wilde Interieur BV, het onderwerp met het factuurnummer, de tekst van de eerste aanmaning met het openstaande bedrag van € 2.474,55, de knop Tekst aanpassen, de zin dat de factuur niet als bijlage meegaat, en onderaan Versturen en optekenen en Annuleren.](../images/rappel-versturen-venster.png)
 
-Wie zijn klant kent, schrijft de eerste herinnering anders. Met **Tekst aanpassen** zet u de mail in een
+Wie zijn klant kent, schrijft de eerste aanmaning anders. Met **Tekst aanpassen** zet u de mail in een
 editor; wat u daar wijzigt, geldt enkel voor deze aanmaning. Wilt u het voor elke aanmaning anders, pas dan
 het sjabloon aan. Klik op **Versturen en optekenen**. Nimble verstuurt de mail en tekent op dát de aanmaning
 vertrokken is, met de datum. Dat is wat de volgende stap uitstelt. De mail staat daarna bij **Mails** op de
@@ -117,10 +117,10 @@ Zo verrekent u:
 Daarna toont de kaart het verminderde openstaande bedrag, en kunt u de aanmaning versturen. Meer uitleg staat
 bij [Facturen](invoices.md).
 
-## Een factuur buiten het rappelbeheer zetten
+## Een factuur uitsluiten van aanmaningen
 
-Loopt er een betwisting of een afbetalingsplan, dan zet **Buiten het rappelbeheer zetten** die factuur
-opzij. Ze telt niet meer mee en verschijnt niet in de teller. **Terug opnemen in het rappelbeheer** draait
+Loopt er een betwisting of een afbetalingsplan, dan zet **Uitsluiten van aanmaningen** die factuur
+opzij. Ze telt niet meer mee en verschijnt niet in de teller. **Terug opnemen in de aanmaningen** draait
 dat om.
 
 !!! warning "Een factuur zonder vervaldag krijgt nooit een aanmaning"
