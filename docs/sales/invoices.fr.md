@@ -167,6 +167,8 @@ Lors de l'ajout :
 
 - Un article n'est pas obligatoire. Un poste comme « Acompte » ou « Installation de chantier » se saisit
   simplement sous Description.
+- Une **Quantité** négative est une déduction, par exemple « Déduction de l'acompte facture … » avec la quantité −1 et le
+  montant comme prix. Seule la quantité 0 n'est pas possible.
 - Si vous laissez Description vide, le nom de l'article est repris.
 - Si vous laissez Prix vide, le prix de vente de l'article s'applique. Si vous laissez Unité vide, l'unité est
   reprise de l'article ; une ligne sans article reçoit l'unité que vous saisissez.

@@ -164,6 +164,8 @@ Op een klad kunt u de regels nog aanpassen:
 Bij het toevoegen geldt:
 
 - Een artikel is niet verplicht. Een post als "Voorschot" of "Werfinrichting" typt u gewoon bij Omschrijving.
+- Een negatief **Aantal** trekt af, bijvoorbeeld "Verrekening voorschot factuur …" met aantal −1 en het bedrag als prijs. Enkel
+  aantal 0 kan niet.
 - Laat u Omschrijving leeg, dan wordt het de naam van het artikel.
 - Laat u Prijs leeg, dan geldt de verkoopprijs van het artikel. Laat u Eenh. leeg, dan komt de eenheid uit het
   artikel; een regel zonder artikel krijgt de eenheid die u invult.
