@@ -2,16 +2,16 @@
 
 Een onderhoudscontract is bij Nimble een project met bezoeken die terugkomen: de jaarlijkse beurt van een ketel, de controle van
 een warmtepomp om het half jaar. U legt de bezoeken één keer vast. Nimble zet elk bezoek op tijd klaar als werkorder, en uw
-technieker vinkt op de werkbon per toestel af wat hij nakeek.
+technieker vinkt op de werkbon per installatie af wat hij nakeek.
 
 ## Hoe het samenhangt
 
 1. U maakt een **project** voor de klant, bijvoorbeeld met het projecttype Onderhoud.
 2. Op het tabblad **Onderhoud** van dat project legt u het **contract** vast (looptijd en prijs) en de **bezoeken**: wat, hoe vaak,
-   wanneer het volgende, en voor welke **toestellen**.
+   wanneer het volgende, en voor welke **installaties**.
 3. Valt het volgende bezoek binnen de termijn, dan zet Nimble 's ochtends een **werkorder** klaar bij **Nog in te plannen** op het
    [planbord](planning.md), met een taak voor de verantwoordelijke van het project.
-4. U plant de werkorder in. De technieker vult de **werkbon** in, met op het tabblad **Toestellen** de controle per toestel.
+4. U plant de werkorder in. De technieker vult de **werkbon** in, met op het tabblad **Installaties** de controle per installatie.
 5. Zegt de werkbon **Klaar**, dan schuift het volgende bezoek op, gerekend vanaf de dag van het bezoek.
 
 ## Het scherm openen
@@ -22,12 +22,12 @@ Klik in de zijbalk op **Werk → Onderhoud**.
 
 De lijst toont de bezoeken van alle onderhoudscontracten, het vroegste bovenaan. Zo staat wat te laat is altijd eerst.
 
-![De lijst Onderhoud met de kolommen Volgend bezoek, Stand, Werkorder, Klant, Omschrijving, Ploeg en Laatste bezoek: het jaarlijkse onderhoud van de gastoestellen van Gemeente Nijlen staat Klaargezet met zijn werkorder, de controle van de warmtepomp van de bibliotheek staat Gepland.](../images/onderhoud-lijst.png)
+![De lijst Onderhoud met de kolommen Volgend bezoek, Status, Werkorder, Klant, Omschrijving, Ploeg en Laatste bezoek: het jaarlijkse onderhoud van de gastoestellen van Gemeente Nijlen staat Klaargezet met zijn werkorder, de controle van de warmtepomp van de bibliotheek staat Ingepland.](../images/onderhoud-lijst.png)
 
 | Kolom | Wat het is |
 |---|---|
 | **Volgend bezoek** | De dag waarop het volgende bezoek voorzien is |
-| **Stand** | Waar het bezoek staat, zie hieronder |
+| **Status** | Waar het bezoek staat, zie hieronder |
 | **Werkorder** | De werkorder die Nimble klaarzette. Klik erop om hem te openen |
 | **Project** | Het project van het contract |
 | **Klant** | De klant van dat project |
@@ -39,9 +39,9 @@ De lijst toont de bezoeken van alle onderhoudscontracten, het vroegste bovenaan.
 **Project** en **Interval** staan standaard verborgen, zodat de lijst op een gewoon scherm past. U zet ze aan met
 **Kolommen kiezen** boven de lijst.
 
-| Stand | Betekenis |
+| Status | Betekenis |
 |---|---|
-| **Gepland** | Het volgende bezoek ligt verder dan de termijn: er gebeurt nog niets |
+| **Ingepland** | Het volgende bezoek ligt verder dan de termijn: er gebeurt nog niets |
 | **Binnenkort** | Het bezoek valt binnen de termijn; de werkorder komt bij de volgende ochtendronde |
 | **Klaargezet** | Er staat een werkorder klaar die nog niet afgewerkt is |
 | **Te laat** | De dag van het bezoek is voorbij, en er staat niets klaar of het klaargezette werk is nog niet af |
@@ -54,7 +54,7 @@ Dubbelklik op een rij om het project te openen. Rechts zit de lade **Journaal** 
 Open het project en klik op het tabblad **Onderhoud**. U vindt er drie kaarten: het contract, de installaties van het project en de
 onderhoudsbezoeken.
 
-![Het tabblad Onderhoud van project P2026-006 voor Gemeente Nijlen: de kaart Contract met de looptijd, de verlenging en de prijs per jaar, de kaart Installaties met de toestellen van het project, en de kaart Onderhoudsbezoeken met twee bezoeken, hun interval, het volgende bezoek, de stand, de werkorder en het aantal toestellen.](../images/project-onderhoud.png)
+![Het tabblad Onderhoud van project P2026-006 voor Gemeente Nijlen: de kaart Contract met de looptijd, de verlenging en de prijs per jaar, de kaart Installaties met de installaties van het project, en de kaart Onderhoudsbezoeken met twee bezoeken, hun interval, het volgende bezoek, de status, de werkorder en het aantal installaties.](../images/project-onderhoud.png)
 
 ### Het contract
 
@@ -87,7 +87,7 @@ af*. Zo blijft er tijd om met de klant te beslissen.
 
 ### De installaties
 
-De toestellen die bij dit project horen. **Nieuwe installatie** opent een lege fiche met de klant en het project al ingevuld. Meer
+De installaties die bij dit project horen. **Nieuwe installatie** opent een lege fiche met de klant en het project al ingevuld. Meer
 daarover in [Installaties](installations.md).
 
 ### De onderhoudsbezoeken
@@ -97,9 +97,9 @@ daarover in [Installaties](installations.md).
 | **Omschrijving** | Wat er bij het bezoek gebeurt |
 | **Interval** | Hoe vaak het terugkomt |
 | **Volgend bezoek** | De dag van het volgende bezoek |
-| **Stand** | Zoals in de lijst hierboven |
+| **Status** | Zoals in de lijst hierboven |
 | **Werkorder** | De klaargezette werkorder, met een link |
-| **Toestellen** | Hoeveel toestellen bij het bezoek horen. Klik om ze te kiezen |
+| **Installaties** | Hoeveel installaties bij het bezoek horen. Klik om ze te kiezen |
 | **Laatste bezoek** | De dag van het laatste afgewerkte bezoek |
 | **Ploeg** | De ploeg die het bezoek doet |
 
@@ -112,11 +112,11 @@ daarover in [Installaties](installations.md).
 | **Volgend bezoek** | De dag van het eerstvolgende bezoek. De dag van de uitvoering kiest u later op het planbord |
 | **Duur (dagen)** | Hoe lang het bezoek duurt, bijvoorbeeld 0,5 of 2 |
 | **Ploeg** | De ploeg die het bezoek doet. Mag leeg blijven |
-| **Na te kijken** | Eén punt per regel. Ze komen op de werkorder en worden op de werkbon per toestel afgevinkt |
+| **Na te kijken** | Eén punt per regel. Ze komen op de werkorder en worden op de werkbon per installatie afgevinkt |
 
 Dubbelklik op een bezoek om het bij te stellen. **Verwijderen** zet het in de [prullenbak](../administration/recycle-bin.md).
 
-Klik in de kolom **Toestellen** om de toestellen van het bezoek te kiezen. Het venster toont de toestellen van het project eerst,
+Klik in de kolom **Installaties** om de installaties van het bezoek te kiezen. Het venster toont de installaties van het project eerst,
 daarna de andere van dezelfde klant, met hun serienummer en locatie.
 
 ## Hoe een bezoek klaargezet wordt
@@ -126,11 +126,11 @@ Elke ochtend kijkt Nimble welke bezoeken binnen de termijn vallen. Standaard is 
 
 Voor elk bezoek dat aan de beurt is, komt er:
 
-- een **werkorder** bij **Nog in te plannen** op het planbord, met de ploeg, de duur, de toestellen en de punten om na te kijken in
+- een **werkorder** bij **Nog in te plannen** op het planbord, met de ploeg, de duur, de installaties en de punten om na te kijken in
   de omschrijving;
 - een taak *Onderhoud inplannen* voor de verantwoordelijke van het project.
 
-Op de [werkbon](work-sheets.md#toestellen) van die werkorder vinkt de technieker per toestel de punten af. Zegt de werkbon **Klaar**,
+Op de [werkbon](work-sheets.md#installaties) van die werkorder vinkt de technieker per installatie de punten af. Zegt de werkbon **Klaar**,
 dan noteert Nimble het bezoek als laatste bezoek en schuift het volgende op met het interval.
 
 ## De klant verwittigen

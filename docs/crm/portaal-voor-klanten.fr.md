@@ -77,7 +77,7 @@ pannes est activé, le bouton **Signaler une panne** figure en haut à droite.
 
 ### Un projet
 
-Un clic sur un projet affiche ces blocs. **Planning** et **Appareils et entretien** n'y figurent que s'ils ont quelque chose à
+Un clic sur un projet affiche ces blocs. **Planning** et **Installations et entretien** n'y figurent que s'ils ont quelque chose à
 montrer :
 
 - **Données** : l'adresse du chantier, le début, la fin et la date de réception.
@@ -88,14 +88,14 @@ montrer :
   chaque bloc planifié, le jour où il commence et combien de jours ouvrables il dure, par exemple
   *jeu. 26/11/2026 2,5 jours ouvrables*. Ce qui est déjà passé et ce qui n'a pas encore de jour n'y figurent pas. Si deux
   équipes travaillent le même jour aussi longtemps, ce jour n'y figure qu'une fois.
-- **Appareils et entretien** : seulement si le projet a des [appareils](../work/installations.md) ou un
-  [contrat d'entretien](../work/maintenance.md). Pour chaque appareil, quand il a été contrôlé pour la dernière fois, avec le
-  **Rapport** de cette visite. Si le signalement des pannes est activé, **Signaler une panne** figure à côté de chaque appareil en
+- **Installations et entretien** : seulement si le projet a des [installations](../work/installations.md) ou un
+  [contrat d'entretien](../work/maintenance.md). Pour chaque installation, quand elle a été contrôlée pour la dernière fois, avec le
+  **Rapport** de cette visite. Si le signalement des pannes est activé, **Signaler une panne** figure à côté de chaque installation en
   service. En dessous, le contrat et les visites d'entretien.
 - **Documents** : les documents que vous partagez avec lui, avec la date. Un clic ouvre une photo ou un PDF dans le
   navigateur ; un autre fichier est téléchargé.
 
-![Le projet Ventilatie kantoorverdieping dans le portail, avec les blocs Données et Contact, le bloc Appareils et entretien avec l'unité de ventilation et le lien Signaler une panne, et le bloc Documents avec une photo de chantier partagée.](../images/portaal-project-fr.png)
+![Le projet Ventilatie kantoorverdieping dans le portail, avec les blocs Données et Contact, le bloc Installations et entretien avec l'unité de ventilation et le lien Signaler une panne, et le bloc Documents avec une photo de chantier partagée.](../images/portaal-project-fr.png)
 
 ### Mes factures
 
@@ -116,15 +116,15 @@ exactement ce montant. Seules les factures émises y figurent : pas de brouillon
 
 Si **Les clients peuvent signaler une panne dans le portail** est activé dans
 [Suivi des leads, des devis, de l'entretien et des demandes d'intervention](../administration/lead-follow-up.md#demandes-dintervention),
-votre client signale lui-même une panne. Il clique sur **Signaler une panne** à côté d'un appareil sur la page du projet, ou en haut à
+votre client signale lui-même une panne. Il clique sur **Signaler une panne** à côté d'une installation sur la page du projet, ou en haut à
 droite de **Mes projets** ou **Mes signalements**.
 
-![Le formulaire Signaler une panne dans le portail : l'appareil Renson Endura Delta 450 est déjà choisi, en dessous Quel est le problème ? avec une description, la case Urgent, la zone pour les photos, le numéro de téléphone pour rappeler et les boutons Envoyer et Mes signalements.](../images/portaal-storing-melden-fr.png)
+![Le formulaire Signaler une panne dans le portail : l'installation Renson Endura Delta 450 est déjà choisie, en dessous Quel est le problème ? avec une description, la case Urgent, la zone pour les photos, le numéro de téléphone pour rappeler et les boutons Envoyer et Mes signalements.](../images/portaal-storing-melden-fr.png)
 
 | Champ | Ce que c'est |
 |---|---|
 | **Pour** | Seulement s'il a accès pour plus d'un client : pour qui il signale |
-| **Appareil** | Un de ses appareils en service, ou **Inconnu / aucun appareil**. Depuis un appareil, il est déjà rempli |
+| **Installation** | Une de ses installations en service, ou **Inconnu / aucune installation**. Depuis une installation, le champ est déjà rempli |
 | **Quel est le problème ?** | Obligatoire : le problème |
 | **Urgent** | Par exemple pas de chauffage ou une fuite d'eau |
 | **Photos** | Au maximum 5 photos de 10 Mo chacune |
@@ -137,7 +137,7 @@ aussi l'accusé de réception par e-mail.
 ### Mes signalements
 
 Chaque demande d'intervention du client, y compris celles que vous avez notées pour lui, avec le numéro, le jour du
-signalement, l'appareil, le problème et le statut dans ses mots :
+signalement, l'installation, le problème et le statut dans ses mots :
 
 - **Reçu** : la demande est arrivée.
 - **En cours** : quelqu'un l'a prise en charge, ou il y a un ordre de travail sans jour.
@@ -184,7 +184,7 @@ traite son signalement. Il ne voit pas non plus les projets d'un autre client, m
     - **Le client ne voit pas de planning.** Sur la fiche entreprise, **Les maîtres d'ouvrage voient dans le portail client
       quand on travaille à leur projet** est désactivé, ou le projet n'a pas de jour planifié à venir ou en cours.
     - **Le client ne voit pas de bouton Signaler une panne.** Le signalement est désactivé dans Suivi des leads, des devis, de
-      l'entretien et des demandes d'intervention. S'il est activé mais que le lien manque pour un appareil, cet appareil n'est pas
+      l'entretien et des demandes d'intervention. S'il est activé mais que le lien manque pour une installation, cette installation n'est pas
       en service.
     - **Le client ne peut plus envoyer de signalement.** Il a déjà signalé 10 pannes au cours des dernières 24 heures. Le portail
       lui demande alors de téléphoner.
