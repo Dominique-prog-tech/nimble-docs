@@ -81,6 +81,10 @@ Cliquez sur **Facture à partir d'un devis**. Dans la fenêtre, choisissez sous 
 n'a pas encore été facturé, puis cliquez sur **Créer**. Nimble crée un brouillon de facture avec les lignes
 du devis et l'ouvre. Le projet et **Votre référence** du devis suivent.
 
+Pour facturer d'abord un acompte, choisissez **Facture d'acompte** sous **Type** et cliquez sur **Continuer**. Le devis
+s'ouvre avec la fenêtre d'acompte : voir [Facturer un acompte](quotes.md#facturer-un-acompte). Si le projet est facturé
+par état d'avancement, aucun acompte n'est possible, et Nimble l'indique.
+
 Si aucun devis n'est prêt, la fenêtre l'indique : seul un devis accepté qui n'a pas encore été facturé
 figure dans la liste.
 

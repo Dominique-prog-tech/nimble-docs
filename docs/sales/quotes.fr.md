@@ -581,7 +581,8 @@ Si ce n'est pas possible, le bouton est grisé et la raison figure à côté :
 
 Si vous demandez un acompte à la commande, vous le facturez avant que le travail soit terminé :
 
-1. Ouvrez le devis accepté et choisissez **Facture d'acompte** sous **Plus…**.
+1. Ouvrez le devis accepté et choisissez **Facture d'acompte** sous **Plus…**. Ou partez des factures : dans
+   **Facture à partir d'un devis**, choisissez **Facture d'acompte** sous **Type**, et le devis s'ouvre avec cette fenêtre.
 2. Sous **Acompte en**, choisissez un **Pourcentage du devis** (30 % par défaut) ou un **Montant fixe (HTVA)**.
    La fenêtre affiche aussitôt le montant HTVA et TVAC.
 3. Cliquez sur **Créer l'acompte**. Nimble crée un brouillon de facture « Acompte 30 % sur le devis … » et l'ouvre.

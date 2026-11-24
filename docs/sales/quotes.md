@@ -569,7 +569,8 @@ Kan het niet, dan staat de knop grijs en staat de reden ernaast:
 
 Vraagt u een voorschot bij de bestelling, dan factureert u dat vóór het werk klaar is:
 
-1. Open de aanvaarde offerte en kies onder **Meer…** de keuze **Voorschotfactuur**.
+1. Open de aanvaarde offerte en kies onder **Meer…** de keuze **Voorschotfactuur**. Of begin bij de facturen: in
+   **Factuur uit offerte** kiest u bij **Soort** de keuze **Voorschotfactuur**, en de offerte opent met dit venster.
 2. Kies bij **Voorschot als** een **Percentage van de offerte** (standaard 30 %) of een **Vast bedrag (excl. btw)**.
    Het venster toont meteen het bedrag excl. en incl. btw.
 3. Klik op **Voorschot maken**. Nimble maakt een kladfactuur "Voorschot 30 % op offerte …" en opent ze. Maak ze

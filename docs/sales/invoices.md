@@ -79,6 +79,10 @@ Klik op **Factuur uit offerte**. In het venster kiest u bij **Offerte** een aanv
 gefactureerd is, en klikt u op **Aanmaken**. Nimble maakt een kladfactuur met de regels van de offerte en
 opent ze. Het project en **Uw referentie** van de offerte gaan mee.
 
+Wilt u eerst een voorschot factureren, kies dan bij **Soort** de keuze **Voorschotfactuur** en klik op **Verder**. De
+offerte opent met het venster van het voorschot: zie [Een voorschot factureren](quotes.md#een-voorschot-factureren).
+Factureert het project per vorderingsstaat, dan kan er geen voorschot, en dat zegt Nimble ook.
+
 Staat er geen enkele offerte klaar, dan leest u dat in het venster: alleen een aanvaarde offerte die nog
 niet gefactureerd is, komt in de lijst.
 
