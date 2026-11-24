@@ -129,7 +129,7 @@ die laatste vijf werken, leest u in [Werken met een fiche](../fiches.md). Bij **
 
 | Veld | Wat het is |
 |---|---|
-| **Openstaand** | Wat de klant nog moet betalen, in het rood met **Vervallen** erbij als de vervaldatum voorbij is — niet op een creditnota. Is alles binnen, dan staat er **Betaald**. Zijn er betalingen, dan staat eronder *Al betaald* met het bedrag. Hield de klant een borg in, dan staat eronder *Waarvan ingehouden borg* met het bedrag en de datum waarop hij vrijkomt |
+| **Openstaand** | Wat de klant nog moet betalen, in het rood met **Vervallen** erbij als de vervaldatum voorbij is — niet op een creditnota. Is alles binnen, dan staat er **Betaald**. Zijn er betalingen, dan staat eronder *Al betaald* met het bedrag; op een creditnota *Terugbetaald* of *Verrekend*. Hield de klant een borg in, dan staat eronder *Waarvan ingehouden borg* met het bedrag en de datum waarop hij vrijkomt |
 | **Gestructureerde mededeling** | Het nummer waarmee de klant betaalt. Nimble kent het automatisch toe bij het bewaren; het is niet te wijzigen |
 | **Verstuurd** | Wanneer, langs welke weg en naar wie de factuur vertrokken is. Staat het veld er niet, dan is ze nog niet als verstuurd gemarkeerd |
 | **Creditnota's** | De creditnota's die bij deze factuur horen, met hun bedrag. Klik een nummer om ze te openen |

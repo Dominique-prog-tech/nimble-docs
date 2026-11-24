@@ -131,7 +131,7 @@ Sous **E-mails** figurent les [rappels](reminders.md) envoyés pour cette factur
 
 | Champ | Ce que c'est |
 |---|---|
-| **Solde ouvert** | Ce que le client doit encore payer, en rouge avec **Échue** si l'échéance est dépassée — pas sur une note de crédit. Si tout est rentré, il indique **Payée**. S'il y a des paiements, *Déjà payé* et le montant figurent en dessous. Si le client a retenu une garantie, *Dont garantie retenue* figure en dessous, avec le montant et la date de libération |
+| **Solde ouvert** | Ce que le client doit encore payer, en rouge avec **Échue** si l'échéance est dépassée — pas sur une note de crédit. Si tout est rentré, il indique **Payée**. S'il y a des paiements, *Déjà payé* et le montant figurent en dessous ; sur une note de crédit, *Remboursé* ou *Compensé*. Si le client a retenu une garantie, *Dont garantie retenue* figure en dessous, avec le montant et la date de libération |
 | **Communication structurée** | Le numéro avec lequel le client paie. Nimble l'attribue automatiquement à l'enregistrement ; il n'est pas modifiable |
 | **Envoyée** | Quand, par quelle voie et à qui la facture est partie. Si le champ n'apparaît pas, elle n'a pas encore été marquée comme envoyée |
 | **Notes de crédit** | Les notes de crédit rattachées à cette facture, avec leur montant. Cliquez un numéro pour l'ouvrir |
