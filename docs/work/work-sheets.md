@@ -53,7 +53,7 @@ U opent een fiche door te dubbelklikken op een rij.
 ![De fiche van een werkbon: bovenaan het werkordernummer met de datum en een link naar het project, daaronder de blokken De werkdag, Uren per medewerker, Voortgang en meerwerk en Verbruikt materiaal.](../images/werkbon-fiche.png)
 
 Bovenaan staat het werkordernummer met de datum, en daaronder een link naar het **project** waar die
-werkorder onder valt. Links staan de tabbladen **De werkdag** en **Toestellen**, rechts **Taken**, **Notities**, **Bijlagen**,
+werkorder onder valt. Links staan de tabbladen **De werkdag** en **Installaties**, rechts **Taken**, **Notities**, **Bijlagen**,
 **Mails** en **Logboek**.
 
 Onderaan staat de knoppenbalk: **Bewaren**, **Afdrukvoorbeeld**, **Annuleren** en, apart rechts,
@@ -188,24 +188,24 @@ waar het materiaal al afgeboekt is, als de voorraad onder nul staat. Bewaren kan
     De voorraad is al bewogen. Klopt er iets niet, corrigeer dat dan met een aparte voorraadcorrectie in
     plaats van de bon aan te passen — anders lopen uw werkbon en uw voorraad uit elkaar.
 
-### Toestellen
+### Installaties
 
-Op het tabblad **Toestellen** vinkt u per toestel van de werkorder af wat er nagekeken werd. Elk toestel heeft een eigen kaart.
+Op het tabblad **Installaties** vinkt u per installatie van de werkorder af wat er nagekeken werd. Elke installatie heeft een eigen kaart.
 
-![Het tabblad Toestellen van een werkbon met de kaart van de ventilatie-unit van De Wilde Interieur BV: de punten Debietmeting, Filters en Condensafvoer met hun resultaat en opmerking, het besluit Opvolging nodig met een opmerking, en de knop Controle bewaren.](../images/werkbon-toestellen.png)
+![Het tabblad Installaties van een werkbon met de kaart van de ventilatie-unit van De Wilde Interieur BV: de punten Debietmeting, Filters en Condensafvoer met hun resultaat en opmerking, het besluit Opvolging nodig met een opmerking, en de knop Controle bewaren.](../images/werkbon-toestellen.png)
 
 - De **punten** komen uit het veld **Na te kijken** van het [onderhoudsbezoek](maintenance.md#de-onderhoudsbezoeken). Zolang u
   niets bewaard hebt, staat er *Punten uit het bezoek, nog niet bewaard*. Met **Punt toevoegen** zet u er een punt bij, met het
   kruisje haalt u er een weg.
 - Per punt kiest u een **Resultaat**: *Nog niet nagekeken*, *In orde*, *Niet in orde* of *N.v.t.*, met een **Opmerking**.
-- Het **Besluit** over het toestel is *In orde* of *Opvolging nodig*. Staat het besluit nog open, dan stelt de kaart er een voor
+- Het **Besluit** over de installatie is *In orde* of *Opvolging nodig*. Staat het besluit nog open, dan stelt de kaart er een voor
   op basis van de punten.
 - **Controle bewaren** bewaart enkel die kaart. Wat u op een andere kaart invulde, blijft staan tot u ook die bewaart.
 
 Is de werkbon getekend door de klant, dan liggen de controles vast. Elke bewaarde controle staat ook op het tabblad
-[Geschiedenis](installations.md#geschiedenis) van het toestel.
+[Geschiedenis](installations.md#geschiedenis) van de installatie.
 
-Hangen er geen toestellen aan de werkorder, dan zegt het tabblad dat. Kies ze op de [werkorder](work-orders.md#toestellen) of bij
+Hangen er geen installaties aan de werkorder, dan zegt het tabblad dat. Kies ze op de [werkorder](work-orders.md#installaties) of bij
 het onderhoudsbezoek.
 
 ## Het blad laten aftekenen
@@ -218,7 +218,7 @@ de klant tekent ook voor die uren.
 
 Is de werkbon getekend, dan staat de handtekening van de klant op het blad.
 
-Staat er een bewaarde controle op het tabblad **Toestellen**, dan krijgt het blad per toestel een **onderhoudsverslag**: de
+Staat er een bewaarde controle op het tabblad **Installaties**, dan krijgt het blad per installatie een **onderhoudsverslag**: de
 punten met hun resultaat en opmerking, en het besluit.
 
 Dat werkt alleen op een **bewaarde** bon.

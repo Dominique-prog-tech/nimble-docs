@@ -101,11 +101,11 @@ Cinq réglages pour les [demandes d'intervention](../work/service-requests.md) :
   case à cocher), et une confirmation dès que l'ordre de travail a un jour au planning. **Par défaut, c'est activé.** Les textes se
   trouvent dans **Modèles de mail**.
 - **Les clients peuvent signaler une panne dans le portail** : un client qui a accès au
-  [portail pour vos clients](../crm/portaal-voor-klanten.md#signaler-une-panne) signale lui-même une panne pour l'un de ses
-  appareils, avec des photos, et suit le statut dans **Mes signalements**. La demande arrive comme une demande du bureau. **Par
+  [portail pour vos clients](../crm/portaal-voor-klanten.md#signaler-une-panne) signale lui-même une panne pour l'une de ses
+  installations, avec des photos, et suit le statut dans **Mes signalements**. La demande arrive comme une demande du bureau. **Par
   défaut, c'est désactivé.**
 - **Toute personne disposant de l'autocollant peut signaler une panne** : celui qui scanne
-  l'[autocollant QR](../work/installations.md#lautocollant-qr) d'un appareil signale une panne sans se connecter : nom, téléphone, le
+  l'[autocollant QR](../work/installations.md#lautocollant-qr) d'une installation signale une panne sans se connecter : nom, téléphone, le
   problème et des photos. La demande arrive avec le canal **Autocollant QR** ; rappelez le demandeur avant de planifier une visite. Voir
   [Un signalement via l'autocollant QR](../work/service-requests.md#un-signalement-via-lautocollant-qr). **Par défaut, c'est
   désactivé.**

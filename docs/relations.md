@@ -159,8 +159,8 @@ facturen. U ziet wie toegang heeft en hoe ver die persoon staat; met **Uitnodige
 
 ### Tabblad Installaties
 
-Bij een **klant** staan hier zijn toestellen: soort, serienummer, project, locatie, garantie en toestand. Dubbelklik op een rij om
-de fiche van het toestel te openen; **Nieuwe installatie** opent een lege fiche met de klant al ingevuld. U ziet het tabblad
+Bij een **klant** staan hier zijn installaties: soort, serienummer, project, locatie, garantie en toestand. Dubbelklik op een rij om
+de fiche van de installatie te openen; **Nieuwe installatie** opent een lege fiche met de klant al ingevuld. U ziet het tabblad
 wanneer u projecten mag bekijken. Meer in [Installaties](work/installations.md).
 
 ![Het tabblad Installaties van Residentie Parkzicht VME: de twee oude ketels van project P2026-002 op Vervangen en de ventilatie-unit in de technische ruimte, met hun serienummer, project, locatie, garantie en toestand.](images/relatie-installaties.png)

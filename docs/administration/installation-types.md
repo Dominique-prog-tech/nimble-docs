@@ -1,6 +1,6 @@
 # Soorten installatie
 
-Met **soorten installatie** deelt u de toestellen bij uw klanten in: condensatieketel, warmtepomp, ventilatie-unit, boiler … U
+Met **soorten installatie** deelt u de installaties bij uw klanten in: condensatieketel, warmtepomp, ventilatie-unit, boiler … U
 kiest zelf welke soorten u nodig hebt.
 
 ## Het scherm openen
@@ -16,10 +16,10 @@ Op de fiche van een installatie opent **Soorten beheren** hetzelfde scherm.
 
 - Op de **fiche van een installatie**, in het veld **Soort**.
 - Als **kolom** in de lijst [Installaties](../work/installations.md), waar u erop kunt sorteren en filteren.
-- In de **naam** van een toestel: *Warmtepomp Daikin Altherma 3 H HT* is de soort, het merk en het model samen. Zo staat het
-  toestel op de werkorder, de werkbon en de QR-sticker.
+- In de **naam** van een installatie: *Warmtepomp Daikin Altherma 3 H HT* is de soort, het merk en het model samen. Zo staat de
+  installatie op de werkorder, de werkbon en de QR-sticker.
 
-Leest u toestellen in uit Excel met een soort die nog niet bestaat, dan maakt Nimble ze aan. Kijk de lijst daarna even na.
+Leest u installaties in uit Excel met een soort die nog niet bestaat, dan maakt Nimble ze aan. Kijk de lijst daarna even na.
 
 ## Een soort toevoegen of wijzigen
 
@@ -34,7 +34,7 @@ Klik op **Nieuwe waarde**, of dubbelklik op een bestaande rij. Er opent een vens
 
 ## Een soort verwijderen
 
-**Verwijderen** archiveert de soort: ze verdwijnt uit de keuzelijst, maar toestellen die ze al dragen, houden ze. Terughalen kan via
+**Verwijderen** archiveert de soort: ze verdwijnt uit de keuzelijst, maar installaties die ze al dragen, houden ze. Terughalen kan via
 de [prullenbak](recycle-bin.md).
 
 ## Zie ook

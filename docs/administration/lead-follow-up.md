@@ -99,10 +99,10 @@ Vijf instellingen voor de [serviceverzoeken](../work/service-requests.md):
   en een bevestiging zodra de werkorder een dag heeft op het planbord. **Standaard staat het aan.** De teksten staan bij
   **Mailsjablonen**.
 - **Klanten kunnen een storing melden in het portaal**: een klant met toegang tot het
-  [portaal voor uw klanten](../crm/portaal-voor-klanten.md#storing-melden) meldt zelf een storing voor een van zijn toestellen,
+  [portaal voor uw klanten](../crm/portaal-voor-klanten.md#storing-melden) meldt zelf een storing voor een van zijn installaties,
   met foto's, en volgt de stand bij **Mijn meldingen**. Het verzoek komt binnen zoals een verzoek van kantoor. **Standaard staat het
   uit.**
-- **Iedereen met de sticker kan een storing melden**: wie de [QR-sticker](../work/installations.md#de-qr-sticker) op een toestel
+- **Iedereen met de sticker kan een storing melden**: wie de [QR-sticker](../work/installations.md#de-qr-sticker) op een installatie
   scant, meldt een storing zonder aan te melden: naam, telefoon, wat er is en foto's. Het verzoek komt binnen met het kanaal
   **QR-sticker**; bel de melder na voor u een bezoek plant. Zie [Een melding via de QR-sticker](../work/service-requests.md#een-melding-via-de-qr-sticker).
   **Standaard staat het uit.**

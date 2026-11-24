@@ -102,7 +102,7 @@ montre que les variables qui fonctionnent dans le modèle choisi.
 | `{{geplande_dag}}` | Le jour où la visite est planifiée sur le tableau de planning | Entretien planifié, demande d'intervention planifiée |
 | `{{verzoek_nummer}}` | Le numéro de la demande d'intervention | Demandes d'intervention |
 | `{{verzoek}}` | Ce que le client a signalé : la première ligne de la description | Demandes d'intervention |
-| `{{toestel}}` | L'appareil de la demande, avec marque, modèle et numéro de série (vide sans appareil) | Demandes d'intervention |
+| `{{toestel}}` | L'installation de la demande, avec marque, modèle et numéro de série (vide sans installation) | Demandes d'intervention |
 
 ### Le lien vers le devis en ligne
 

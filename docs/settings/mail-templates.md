@@ -103,7 +103,7 @@ enkel de variabelen die in het gekozen sjabloon werken.
 | `{{geplande_dag}}` | De dag waarop het bezoek ingepland is op het planbord | Onderhoud gepland, serviceverzoek ingepland |
 | `{{verzoek_nummer}}` | Het nummer van het serviceverzoek | Serviceverzoeken |
 | `{{verzoek}}` | Wat de klant meldde: de eerste regel van de omschrijving | Serviceverzoeken |
-| `{{toestel}}` | Het toestel van het verzoek, met merk, model en serienummer (leeg zonder toestel) | Serviceverzoeken |
+| `{{toestel}}` | De installatie van het verzoek, met merk, model en serienummer (leeg zonder installatie) | Serviceverzoeken |
 
 ### De link naar de online offerte
 

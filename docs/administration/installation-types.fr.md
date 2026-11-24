@@ -1,6 +1,6 @@
 # Types d'installation
 
-Les **types d'installation** vous permettent de classer les appareils chez vos clients : chaudière à condensation, pompe à chaleur,
+Les **types d'installation** vous permettent de classer les installations chez vos clients : chaudière à condensation, pompe à chaleur,
 groupe de ventilation, boiler … Vous choisissez vous-même les types dont vous avez besoin.
 
 ## Ouvrir l'écran
@@ -16,10 +16,10 @@ Sur la fiche d'une installation, **Gérer les types** ouvre le même écran.
 
 - Sur la **fiche d'une installation**, dans le champ **Type**.
 - Comme **colonne** dans la liste [Installations](../work/installations.md), où vous pouvez trier et filtrer dessus.
-- Dans le **nom** d'un appareil : le type, la marque et le modèle ensemble. C'est ainsi que l'appareil figure sur l'ordre de
+- Dans le **nom** d'une installation : le type, la marque et le modèle ensemble. C'est ainsi que l'installation figure sur l'ordre de
   travail, le bon de travail et l'autocollant QR.
 
-Si vous importez des appareils depuis Excel avec un type qui n'existe pas encore, Nimble le crée. Vérifiez ensuite la liste.
+Si vous importez des installations depuis Excel avec un type qui n'existe pas encore, Nimble le crée. Vérifiez ensuite la liste.
 
 ## Ajouter ou modifier un type
 
@@ -34,7 +34,7 @@ boutons **Enregistrer** et **Annuler** ; pour une valeur existante, **Supprimer*
 
 ## Supprimer un type
 
-**Supprimer** archive le type : il disparaît de la liste de choix, mais les appareils qui le portent déjà le gardent. Vous pouvez le
+**Supprimer** archive le type : il disparaît de la liste de choix, mais les installations qui le portent déjà le gardent. Vous pouvez le
 récupérer via la [corbeille](recycle-bin.md).
 
 ## Voir aussi

@@ -158,8 +158,8 @@ l'accès**, vous gérez l'accès. Cela se fait immédiatement : vous ne cliquez 
 
 ### Onglet Installations
 
-Pour un **client**, vous trouvez ici ses appareils : type, numéro de série, projet, emplacement, garantie et état. Double-cliquez sur
-une ligne pour ouvrir la fiche de l'appareil ; **Nouvelle installation** ouvre une fiche vide avec le client déjà rempli. Vous voyez
+Pour un **client**, vous trouvez ici ses installations : type, numéro de série, projet, emplacement, garantie et état. Double-cliquez sur
+une ligne pour ouvrir la fiche de l'installation ; **Nouvelle installation** ouvre une fiche vide avec le client déjà rempli. Vous voyez
 cet onglet si vous pouvez consulter les projets. Pour en savoir plus : [Installations](work/installations.md).
 
 ![L'onglet Installations de Residentie Parkzicht VME : les deux anciennes chaudières du projet P2026-002 à l'état Remplacé et le groupe de ventilation dans le local technique, avec leur numéro de série, leur projet, leur emplacement, leur garantie et leur état.](images/relatie-installaties-fr.png)

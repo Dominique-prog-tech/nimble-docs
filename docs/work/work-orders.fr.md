@@ -63,17 +63,17 @@ bas : vous revenez avec **Vers la liste** en haut.
 Si vous cliquez sur **Enregistrer** alors que **Numéro** ou **Projet** est vide, la fiche indique en haut ce
 qui manque.
 
-### Appareils
+### Installations
 
-Sur un ordre de travail enregistré figure la carte **Appareils** : les appareils sur lesquels porte cet ordre de travail, avec leur
+Sur un ordre de travail enregistré figure la carte **Installations** : les installations sur lesquelles porte cet ordre de travail, avec leur
 type, leur numéro de série et leur emplacement. Si l'ordre de travail vient d'une [visite d'entretien](maintenance.md), il reprend
-les appareils de cette visite. Pour une réparation, vous les choisissez vous-même avec **Choisir les appareils** : la fenêtre montre
-d'abord les appareils du projet, puis les autres du même client.
+les installations de cette visite. Pour une réparation, vous les choisissez vous-même avec **Choisir les installations** : la fenêtre montre
+d'abord les installations du projet, puis les autres du même client.
 
-![La carte Appareils sur l'ordre de travail WO-2026-005 avec le groupe de ventilation de De Wilde Interieur BV, avec son type, sa marque, son modèle, son numéro de série et son emplacement, et à droite le bouton Choisir les appareils.](../images/werkorder-toestellen-fr.png)
+![La carte Installations sur l'ordre de travail WO-2026-005 avec le groupe de ventilation de De Wilde Interieur BV, avec son type, sa marque, son modèle, son numéro de série et son emplacement, et à droite le bouton Choisir les installations.](../images/werkorder-toestellen-fr.png)
 
-Sur les bons de travail de cet ordre, le technicien coche pour chaque appareil ce qu'il a contrôlé, voir
-[Bons de travail](work-sheets.md#appareils).
+Sur les bons de travail de cet ordre, le technicien coche pour chaque installation ce qu'il a contrôlé, voir
+[Bons de travail](work-sheets.md#installations).
 
 ### Exécution
 
