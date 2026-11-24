@@ -13,7 +13,7 @@ getal achter een tabblad zegt hoeveel verrichtingen er wachten. Zie [Betalingen 
 Onderaan staat **Ophalen bij de bank**, net als op [Bankverrichtingen](bank.md): daarmee haalt u nieuwe
 verrichtingen binnen zonder van scherm te wisselen.
 
-![Het scherm Afpunten met twee voorstellen: één met zekerheid Zeker dat naar factuur F-2026-0011 wijst, en één zonder voorstel, waarvoor geen openstaande post gevonden werd.](../images/afpunten-voorstel.png)
+![Het scherm Afpunten met twee voorstellen: één met zekerheid Zeker dat naar factuur F-2026-0001 wijst, en één zonder voorstel, waarvoor geen openstaande post gevonden werd.](../images/afpunten-voorstel.png)
 
 !!! warning "Er wordt niets automatisch geboekt"
     Ook een voorstel met zekerheid **Zeker** wacht op uw klik. Een verkeerde automatische afpunting is

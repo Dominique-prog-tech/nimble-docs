@@ -49,7 +49,7 @@ na het bewaren op de fiche.
 
 ## Regels toevoegen
 
-![De fiche van bestelling B2026-0011 met status Besteld: Bestelgegevens met leverancier Ventura Air Systems BV en Verwachte leverdatum, twee regels met de kolom Nog te komen in het oranje, en onderaan Bewaren, Receptioneren, Deellevering boeken, Annuleren en Verwijderen.](../images/bestelling-fiche.png)
+![De fiche van bestelling B2026-0003 met status Besteld: Bestelgegevens met leverancier Ventura Air Systems BV en Verwachte leverdatum, twee regels met de kolom Nog te komen in het oranje, en onderaan Bewaren, Receptioneren, Deellevering boeken, Annuleren en Verwijderen.](../images/bestelling-fiche.png)
 
 Onder de kaart **Regels** staat een rij om een regel toe te voegen. Kies een **Artikel**, vul het **Aantal**
 in en klik **Regel toevoegen**. De keuzelijst toont materiaal en diensten — een dienst bestelt u bijvoorbeeld bij

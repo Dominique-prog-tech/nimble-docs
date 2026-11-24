@@ -119,12 +119,14 @@ quelle autre. Tout en bas figure qui a créé la fiche.
 Vous n'y écrivez rien vous-même. Il n'y a pas de bouton d'ajout et vous ne pouvez rien supprimer — une
 histoire dans laquelle on peut effacer n'est pas une histoire.
 
-![L'onglet Historique de la relation Vandersteen Bouwprojecten BV : en haut deux lignes Modifié avec Responsable et Délai de paiement, en dessous Créé avec Code, Nom, E-mail et + 18 autres champs.](images/fiche-tab-logboek-fr.png)
+![L'onglet Historique de la relation Vandersteen Bouwprojecten BV : en haut une ligne Modifié avec Responsable, en dessous Créé avec Commune, Numéro de relation, Nom, E-mail et + 15 autres champs.](images/fiche-tab-logboek-fr.png)
 
 - Chaque ligne commence par une étiquette : **Créé**, **Modifié** ou **Supprimé**.
 - En dessous figurent les champs qui ont changé, avec leur valeur avant et après. Si un champ renvoie à
   autre chose — un ordre de travail, un fournisseur, un collaborateur, une pièce jointe —, c'est son nom ou
   son numéro qui y figure.
+- Sous **Créé** figurent uniquement les champs complétés. Les montants, quantités et choix s'affichent comme sur la fiche.
+- Si deux lignes successives disent exactement la même chose, cette ligne n'apparaît qu'une fois.
 - L'Historique se relit chaque fois que vous ouvrez l'onglet : ce que vous venez d'enregistrer y figure
   aussitôt.
 - Si beaucoup de champs ont changé en même temps, vous voyez les quatre premiers puis

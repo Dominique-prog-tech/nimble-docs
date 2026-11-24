@@ -49,7 +49,7 @@ l'enregistrement, vous restez sur la fiche.
 
 ## Ajouter des lignes
 
-![La fiche de la commande B2026-0011 au statut Commandé : Données de la commande avec le fournisseur Ventura Air Systems BV et la Date de livraison prévue, deux lignes dont la colonne Encore attendu en orange, et en bas Enregistrer, Réceptionner, Enregistrer une livraison partielle, Annuler et Supprimer.](../images/bestelling-fiche-fr.png)
+![La fiche de la commande B2026-0003 au statut Commandé : Données de la commande avec le fournisseur Ventura Air Systems BV et la Date de livraison prévue, deux lignes dont la colonne Encore attendu en orange, et en bas Enregistrer, Réceptionner, Enregistrer une livraison partielle, Annuler et Supprimer.](../images/bestelling-fiche-fr.png)
 
 Sous la carte **Lignes** figure une rangée pour ajouter une ligne. Choisissez un **Article**, indiquez la
 **Quantité** et cliquez sur **Ajouter une ligne**. La liste de choix affiche le matériel et les services — un

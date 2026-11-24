@@ -107,7 +107,7 @@ elke factuur met haar nummer, het project, de datum, de vervaldag, het bedrag en
 Met **PDF** opent hij de factuur zoals u ze verstuurt. Staat er nog iets open, dan vraagt de betaal-QR op de pdf precies dat
 bedrag. Enkel uitgereikte facturen staan erbij: geen klad en geen geannuleerde factuur.
 
-![Mijn facturen in het portaal: bovenaan Nog te betalen, € 2.474,55; daaronder factuur F-2026-0011 met de stand Vervallen en de link PDF.](../images/portaal-facturen.png)
+![Mijn facturen in het portaal: bovenaan Nog te betalen, € 2.474,55; daaronder factuur F-2026-0001 met de stand Vervallen en de link PDF.](../images/portaal-facturen.png)
 
 ### Storing melden
 

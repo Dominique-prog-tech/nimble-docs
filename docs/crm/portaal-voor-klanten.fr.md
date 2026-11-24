@@ -110,7 +110,7 @@ avec son numéro, le projet, la date, l'échéance, le montant et l'état :
 Avec **PDF**, il ouvre la facture telle que vous l'envoyez. S'il reste un montant ouvert, le QR de paiement sur le PDF demande
 exactement ce montant. Seules les factures émises y figurent : pas de brouillon ni de facture annulée.
 
-![Mes factures dans le portail : en haut Reste à payer, € 2.474,55 ; en dessous la facture F-2026-0011 avec l'état Échu et le lien PDF.](../images/portaal-facturen-fr.png)
+![Mes factures dans le portail : en haut Reste à payer, € 2.474,55 ; en dessous la facture F-2026-0001 avec l'état Échu et le lien PDF.](../images/portaal-facturen-fr.png)
 
 ### Signaler une panne
 

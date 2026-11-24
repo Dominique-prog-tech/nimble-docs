@@ -13,7 +13,7 @@ nombre après un onglet indique combien d'opérations attendent. Voir [Paiements
 En bas figure **Récupérer à la banque**, comme sur [Opérations bancaires](bank.md) : vous récupérez ainsi
 les nouvelles opérations sans changer d'écran.
 
-![L'écran Lettrage avec deux propositions : l'une avec la certitude Certain qui désigne la facture F-2026-0011, l'autre sans proposition, pour laquelle aucun poste ouvert n'a été trouvé.](../images/afpunten-voorstel-fr.png)
+![L'écran Lettrage avec deux propositions : l'une avec la certitude Certain qui désigne la facture F-2026-0001, l'autre sans proposition, pour laquelle aucun poste ouvert n'a été trouvé.](../images/afpunten-voorstel-fr.png)
 
 !!! warning "Rien n'est enregistré automatiquement"
     Même une proposition **Certain** attend votre clic. Un lettrage automatique erroné coûte plus cher qu'un
