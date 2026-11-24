@@ -28,7 +28,7 @@ u hier als kolom — tenzij er nog een lead in die status staat.
 - Met de dubbele pijl rechts in de kolomkop klapt u een kolom **in**: ze wordt een smalle strook met haar naam en het
   aantal kaarten. Klik de pijl opnieuw om ze uit te klappen. Welke kolommen ingeklapt zijn, onthoudt Nimble per gebruiker.
 - Onder de kolomtitel staat de som van de budgetten die ingevuld zijn. Dragen niet alle leads in die
-  kolom een budget, dan staat erbij hoeveel er geen hebben — bijvoorbeeld **€ 18.500 · 1 zonder
+  kolom een budget, dan staat erbij hoeveel er geen hebben — bijvoorbeeld **€ 18.500,00 · 1 zonder
   budget**. Draagt niemand in de kolom een budget, dan staat er **budget onbekend** in plaats van een
   bedrag.
 - Een kaart met een gele waarschuwing heeft aandacht nodig: de volgende actie is verlopen, of de

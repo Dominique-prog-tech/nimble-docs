@@ -17,6 +17,8 @@ en Gefactureerd en de lijn Orderboek, en onderaan de lijst per project.](../imag
 
 ## Bovenaan
 
+Bovenaan staat de titel **Orderboek**, met daaronder twee tegels:
+
 | Tegel | Wat het betekent |
 |---|---|
 | **Orderboek** | Het bedrag van vandaag: aanvaard en nog niet gefactureerd, over al uw projecten |
@@ -39,9 +41,9 @@ De lopende maand of week staat bleker: die cijfers kunnen nog bewegen.
     deel niet bij **Gefactureerd**. Het zat nooit in het orderboek. Daardoor is de lijn altijd de vorige stand,
     plus wat er aanvaard werd, min wat er gefactureerd werd.
 
-## De lijst per project
+## De tabel Per project
 
-Onder de grafiek staat elk project met werk in het orderboek, het grootste bovenaan:
+Onder de grafiek staat de tabel **Per project**: elk project met werk in het orderboek, het grootste bovenaan.
 
 | Kolom | Wat het betekent |
 |---|---|

@@ -17,6 +17,8 @@ barres Accepté et Facturé et la ligne Carnet de commandes, et en bas la liste 
 
 ## En haut
 
+En haut figure le titre **Carnet de commandes**, avec deux tuiles en dessous :
+
 | Tuile | Ce qu'elle signifie |
 |---|---|
 | **Carnet de commandes** | Le montant du jour : accepté et pas encore facturé, sur l'ensemble de vos projets |
@@ -40,9 +42,9 @@ Le mois ou la semaine en cours est plus pâle : ces chiffres peuvent encore boug
     cette part ne compte pas dans **Facturé**. Elle n'a jamais été dans le carnet. La ligne vaut donc toujours
     l'état précédent, plus ce qui a été accepté, moins ce qui a été facturé.
 
-## La liste par projet
+## Le tableau Par projet
 
-Sous le graphique figure chaque projet avec du travail au carnet, le plus important en haut :
+Sous le graphique figure le tableau **Par projet** : chaque projet avec du travail au carnet, le plus important en haut.
 
 | Colonne | Ce qu'elle signifie |
 |---|---|

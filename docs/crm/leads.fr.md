@@ -31,7 +31,7 @@ pas ici comme colonne — sauf s'il contient encore un lead.
   repliées.
 - Sous le titre de la colonne figure la somme des budgets encodés. Si tous les leads de cette colonne
   ne portent pas de budget, le nombre de leads sans budget est indiqué à côté — par exemple
-  **€ 18.500 · 1 sans budget**. Si aucun lead de la colonne ne porte de budget, **budget inconnu**
+  **18 500,00 € · 1 sans budget**. Si aucun lead de la colonne ne porte de budget, **budget inconnu**
   s'affiche à la place d'un montant.
 - Une carte avec un avertissement jaune demande de l'attention : la prochaine action est échue, ou la
   date de réactivation (En attente) est dépassée. C'est purement visuel — rien n'est enregistré en plus.
