@@ -21,12 +21,15 @@ Dans la barre latérale, cliquez sur **Stock → Articles**.
 | **Actif** | Une coche pour les articles que vous utilisez encore |
 | **Créé le** | Le jour où l'article a été créé |
 
-![La liste des articles avec les colonnes Numéro, Nom, Famille, Type, Unité, Stock, Prix de vente, Actif et Créé le, et en haut les listes de choix Toutes les familles et Tous les types et les boutons Importer une liste de prix, Importer des compositions et Vérifier les types. En haut figurent les services : leur colonne Stock est vide.](../images/artikelen-lijst-fr.png)
+![La liste des articles avec les colonnes Numéro, Nom, Famille, Type, Unité, Stock, Prix de vente, Actif et Créé le, et en haut les listes de choix Toutes les familles et Tous les types et le bouton Importer. En haut figurent les services : leur colonne Stock est vide.](../images/artikelen-lijst-fr.png)
 
 Les listes de choix **Toutes les familles** et **Tous les types** en haut limitent la liste aux articles
 d'une seule famille ou d'un seul type. Vous
 pouvez aussi rechercher, trier, filtrer et exporter comme dans les autres listes. Double-cliquez une ligne
 pour ouvrir l'article.
+
+Sous le bouton **Importer** figurent **Importer une liste de prix**, **Importer des compositions** et **Vérifier les
+types**. Vous n'y voyez que ce que vous pouvez faire.
 
 ## Créer ou modifier un article
 
@@ -152,7 +155,8 @@ champs sont vidés.
 ### Vérifier les types
 
 Si beaucoup d'articles de devis sont encore en matériel, vous les convertissez en une fois avec **Vérifier les types**.
-Le bouton se trouve au-dessus de la liste des articles ; vous le voyez si vous pouvez modifier les articles.
+Ce choix se trouve sous le bouton **Importer**, au-dessus de la liste des articles ; vous le voyez si vous pouvez modifier
+les articles.
 
 L'écran affiche les articles jamais utilisés comme matériel : sans fournisseur, sans mouvement de stock et pas en
 commande. Ce qui a un fournisseur ou un mouvement est du matériel et n'y figure pas. Un article d'heure ou de
@@ -238,7 +242,7 @@ d'abord s'ils peuvent être remplacés.
 ### Importer des compositions depuis Excel
 
 Si vous avez beaucoup d'articles de devis, importez leurs compositions depuis un fichier Excel au lieu de les saisir
-une par une. Au-dessus de la liste des articles, cliquez sur **Importer des compositions**.
+une par une. Au-dessus de la liste des articles, cliquez sur **Importer** → **Importer des compositions**.
 
 1. Cliquez sur **Télécharger le modèle**. Vous recevez un fichier Excel avec tous vos articles de devis et leur
    composition actuelle ; un article de devis sans composition y figure comme une ligne avec seulement son numéro.
@@ -362,7 +366,7 @@ Le prix d'achat et **Prix dégressifs** ne sont visibles qu'avec le droit *Voir 
 ### Importer une liste de prix
 
 Si un fournisseur livre sa liste de prix en Excel, vous l'importez en une fois, au lieu de créer chaque article
-séparément. Au-dessus de la liste des articles, cliquez sur **Importer une liste de prix**. Vous voyez le bouton si vous
+séparément. Au-dessus de la liste des articles, cliquez sur **Importer** → **Importer une liste de prix**. Vous voyez ce choix si vous
 pouvez modifier les articles et avez le droit *Voir les marges et prix de revient*.
 
 L'écran comporte quatre étapes. Rien n'est enregistré avant que vous cliquiez en bas sur **Importer**.

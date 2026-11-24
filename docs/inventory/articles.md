@@ -21,11 +21,14 @@ Klik in de zijbalk op **Voorraad → Artikelen**.
 | **Actief** | Een vinkje bij artikelen die u nog gebruikt |
 | **Aangemaakt** | De dag waarop het artikel is aangemaakt |
 
-![De artikellijst met de kolommen Nummer, Naam, Familie, Soort, Eenheid, Stock, Verkoopprijs, Actief en Aangemaakt, en bovenaan de keuzelijsten Alle families en Alle soorten en de knoppen Prijslijst inlezen, Samenstellingen inlezen en Soorten nakijken. Bovenaan staan de diensten: hun kolom Stock is leeg.](../images/artikelen-lijst.png)
+![De artikellijst met de kolommen Nummer, Naam, Familie, Soort, Eenheid, Voorraad, Verkoopprijs, Actief en Aangemaakt, en bovenaan de keuzelijsten Alle families en Alle soorten en de knop Inlezen. Bovenaan staan de diensten: hun kolom Voorraad is leeg.](../images/artikelen-lijst.png)
 
 Met de keuzelijsten **Alle families** en **Alle soorten** bovenaan toont u enkel de artikelen van één familie
 of van één soort. U kunt ook zoeken, sorteren, filteren en exporteren zoals in de andere lijsten. Dubbelklik een rij om het artikel te
 openen.
+
+Onder de knop **Inlezen** staan **Prijslijst inlezen**, **Samenstellingen inlezen** en **Soorten nakijken**. U ziet er enkel
+wat u mag doen.
 
 ## Een artikel aanmaken of bewerken
 
@@ -149,8 +152,8 @@ velden leeggemaakt.
 
 ### Soorten nakijken
 
-Staan er veel offerteartikelen nog als materiaal, dan zet u ze in één keer om met **Soorten nakijken**. U vindt de
-knop boven de artikellijst; u ziet hem als u artikelen mag bewerken.
+Staan er veel offerteartikelen nog als materiaal, dan zet u ze in één keer om met **Soorten nakijken**. U vindt het
+onder de knop **Inlezen** boven de artikellijst; u ziet het als u artikelen mag bewerken.
 
 Het scherm toont de artikelen die nooit als materiaal gebruikt zijn: zonder leverancier, zonder voorraadbeweging en
 niet in bestelling. Wat een leverancier of een beweging heeft, is materiaal en staat er niet. Een uur- of
@@ -231,7 +234,7 @@ en klik **Bewaren**. Staan er al onderdelen op het tabblad, dan vraagt Nimble ee
 ### Samenstellingen inlezen uit Excel
 
 Heeft u veel offerteartikelen, lees de samenstellingen dan in uit een Excel-bestand in plaats van ze één voor één
-in te tikken. Klik boven de artikellijst op **Samenstellingen inlezen**.
+in te tikken. Klik boven de artikellijst op **Inlezen** → **Samenstellingen inlezen**.
 
 1. Klik **Sjabloon downloaden**. U krijgt een Excel-bestand met al uw offerteartikelen en hun huidige samenstelling;
    een offerteartikel zonder samenstelling staat er als regel met enkel zijn nummer.
@@ -352,7 +355,7 @@ De aankoopprijs en **Staffel** ziet u alleen met het recht *Marges en kostprijze
 ### Een prijslijst inlezen
 
 Bezorgt een leverancier zijn prijslijst als Excel, dan leest u ze in één keer in, in plaats van elk artikel apart aan
-te maken. Klik boven de artikellijst op **Prijslijst inlezen**. U ziet de knop als u artikelen mag bewerken en het recht
+te maken. Klik boven de artikellijst op **Inlezen** → **Prijslijst inlezen**. U ziet die keuze als u artikelen mag bewerken en het recht
 *Marges en kostprijzen bekijken* hebt.
 
 Het scherm heeft vier stappen. Er wordt pas iets bewaard wanneer u onderaan op **Inlezen** klikt.
