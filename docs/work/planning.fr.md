@@ -14,7 +14,7 @@ Cliquez dans la barre latérale sur **Travail → Planning**.
 | Compteur | Ce qu'il indique |
 |---|---|
 | **Jours d'équipe planifiés** | Combien de jours d'équipe sont planifiés cette semaine, et sur combien de chantiers |
-| **Jours-homme planifiés** | Ces mêmes jours multipliés par le nombre de membres de chaque équipe — avec l'effectif actuel |
+| **Jours-homme planifiés** | Ces mêmes jours multipliés par le nombre de membres actifs de chaque équipe, avec l'effectif actuel. Une personne qui fait partie de deux équipes compte une fois par jour |
 | **Pas prêt à démarrer** | Les chantiers qui démarrent dans un jour ou sont en retard, alors que leur préparation n'est pas terminée |
 | **Ne tient pas** | Les chantiers qui portent plus de travail que leur journée n'en compte |
 
@@ -22,7 +22,7 @@ Si **Pas prêt à démarrer** ou **Ne tient pas** dépasse zéro, les chantiers 
 
 Si une équipe n'a pas de membres, ou si un chantier n'a pas encore d'équipe, il n'est pas compté dans les
 jours-homme. L'écran le signale alors sous les compteurs : le chiffre est alors sous-évalué. Complétez les
-membres sur la [fiche d'équipe](teams.md).
+membres sur la [fiche d'équipe](teams.md). Un collaborateur inactif ne compte pas, même s'il figure encore dans une équipe.
 
 ## Le tableau
 
@@ -40,6 +40,11 @@ projet apparaît lorsque vous survolez la carte avec la souris. Si un chantier s
 jours suivants indiquent *suite de* avec le jour de début. La petite barre en bas d'un jour montre le **taux de
 remplissage** de ce jour ; si elle devient rouge, il y a plus de travail que le jour n'en compte. Un jour ouvrable où une équipe n'a encore rien est **hachuré
 en gris** : vous voyez ainsi d'un coup d'œil où il reste de la place.
+
+Si un collaborateur fait partie de deux équipes et qu'il est planifié un jour pour plus d'une journée complète
+au total, une marque orange figure sous la date de ce jour, par exemple *Jan Peeters est planifié 2×*. Survolez-la
+pour lire l'explication. C'est un avertissement : la planification reste possible. Deux demi-journées dans deux
+équipes font ensemble une journée et ne reçoivent pas de marque.
 
 Une durée se compte en **jours ouvrables** : un chantier de trois jours à partir du vendredi se poursuit le
 lundi et le mardi. Le samedi, le dimanche et les **jours fériés légaux** sont sautés, sauf si le chantier

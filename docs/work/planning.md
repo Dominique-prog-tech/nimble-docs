@@ -14,7 +14,7 @@ Klik in de zijbalk op **Werk → Planning**.
 | Teller | Wat het zegt |
 |---|---|
 | **Geplande ploegdagen** | Hoeveel ploegdagen er deze week ingepland zijn, en over hoeveel werven |
-| **Geplande mandagen** | Dezelfde dagen maal het aantal leden van elke ploeg — met de bezetting van vandaag |
+| **Geplande mandagen** | Dezelfde dagen maal het aantal actieve leden van elke ploeg, met de bezetting van vandaag. Iemand die in twee ploegen zit, telt per dag één keer |
 | **Niet startklaar** | Werven die binnen een dag starten of al over tijd zijn, terwijl hun voorbereiding niet rond is |
 | **Past niet** | Werven die op hun dag meer werk dragen dan die dag telt |
 
@@ -22,7 +22,7 @@ Staat **Niet startklaar** of **Past niet** boven nul, dan staat eronder welke we
 
 Heeft een ploeg geen leden, of staat een werf nog zonder ploeg, dan telt die niet mee in de mandagen. Het
 scherm zegt dat dan onder de tellers: het getal staat dan te laag. Vul de leden aan op de
-[ploegenfiche](teams.md).
+[ploegenfiche](teams.md). Een inactieve medewerker telt niet mee, ook niet als hij nog in een ploeg staat.
 
 ## Het bord
 
@@ -39,6 +39,11 @@ wanneer u met de muis over de kaart gaat. Loopt een werf over meer dagen, dan st
 *loopt door van* met de startdag. Het balkje onderaan een dag toont **hoe vol die dag is**; wordt het rood, dan
 staat er meer werk op dan de dag telt. Een werkdag waarop een ploeg nog niets heeft, is **grijs gearceerd**: zo
 ziet u in één oogopslag waar er nog plaats is.
+
+Zit een medewerker in twee ploegen en staat hij op een dag samen meer dan een volle dag gepland, dan staat onder de
+datum van die dag een oranje markering, bijvoorbeeld *Jan Peeters staat 2× gepland*. Beweeg de muis erover voor de
+uitleg. Het is een waarschuwing: plannen blijft mogelijk. Twee halve dagen in twee ploegen zijn samen één dag en
+krijgen geen markering.
 
 Een duur telt in **werkdagen**: een werf van drie dagen vanaf vrijdag loopt door op maandag en dinsdag.
 Zaterdag, zondag en de **wettelijke feestdagen** slaat ze over, tenzij de werf er zelf op begint. Is de
