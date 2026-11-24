@@ -11,7 +11,7 @@ boekhouding. Elk [mailsjabloon](mail-templates.md) kiest er één.
 U komt er ook via de link **Afzenders beheren** op het scherm Mailsjablonen. U hebt er het recht
 *Documentsjablonen beheren* voor nodig.
 
-![Het scherm Mailafzenders: de lijst met de kolommen Naam, Adres, Standaard en Bij ADM One, bovenaan de knop Nieuwe afzender, en in de lege lijst de zin dat alle mail van noreply@adm-concept.be vertrekt.](../images/mailafzenders-scherm.png)
+![Het scherm Mailafzenders: de lijst met de kolommen Naam, Adres, Standaard en Geverifieerd, bovenaan de knop Nieuwe afzender, en in de lege lijst de zin dat alle mail van het adres van Nimble vertrekt.](../images/mailafzenders-scherm.png)
 
 ## De lijst
 
@@ -20,15 +20,16 @@ U komt er ook via de link **Afzenders beheren** op het scherm Mailsjablonen. U h
 | **Naam** | Wat de ontvanger als afzender ziet |
 | **Adres** | Het mailadres |
 | **Standaard** | De afzender voor elk sjabloon zonder eigen afzender |
-| **Bij ADM One** | **Toegelaten** of **Niet geregistreerd** — zie hieronder |
+| **Geverifieerd** | **Toegelaten** of **Niet geregistreerd**: zie hieronder |
 
-Hebt u nog geen afzenders, dan staat er: *Nog geen afzenders: alle mail vertrekt van noreply@adm-concept.be.*
+Hebt u nog geen afzenders, dan staat er: *Nog geen afzenders: alle mail vertrekt van het adres van Nimble
+(noreply@adm-concept.be).*
 
 ## Van welk adres vertrekt een mail?
 
 1. Van de afzender die het mailsjabloon kiest.
 2. Kiest het sjabloon er geen, van de **standaard**.
-3. Is er geen standaard, van noreply@adm-concept.be. De mail draagt dan de naam van uw bedrijf als afzender, zodat de
+3. Is er geen standaard, van het adres van Nimble (noreply@adm-concept.be). De mail draagt dan de naam van uw bedrijf als afzender, zodat de
    klant ziet van wie ze komt.
 
 ## Waar komt een antwoord terecht?
@@ -53,14 +54,16 @@ Klik op **Nieuwe afzender**, of klik op een rij om ze te wijzigen. Het venster v
 
 Uw eerste afzender staat al aangevinkt als standaard.
 
-Terwijl u het adres typt, zegt het venster wat ADM One ervan vindt — ADM One verstuurt uw mails:
+Terwijl u het adres typt, zegt het venster of het geverifieerd is:
 
-- *ADM One laat … toe als afzender.* — in orde.
-- *… is niet geregistreerd bij ADM One. U kunt de afzender bewaren, maar vraag ADM het domein te registreren:
-  tot dan kan de mail geweigerd worden.*
+- *… is geverifieerd: mail van dit adres wordt aanvaard.* Dan is het in orde.
+- *… is nog niet geverifieerd. U kunt de afzender bewaren, maar vraag ons het domein te verifiëren: tot dan kan de
+  mail geweigerd worden.*
 
-Dezelfde uitkomst staat in de kolom **Bij ADM One**. Blijft die kolom leeg, dan gaf ADM One op dat moment geen
-antwoord; het scherm zegt dan niets.
+Dezelfde uitkomst staat in de kolom **Geverifieerd**. Blijft die kolom leeg, dan kon Nimble het op dat moment niet
+nagaan; het scherm zegt dan niets.
+
+Wilt u van uw eigen domein versturen, voeg dan een afzender toe en laat het domein verifiëren.
 
 ## Een afzender verwijderen
 
@@ -73,8 +76,8 @@ daarna geen standaard meer.
 !!! warning
     - **Geen e-mailadres op de Bedrijfsfiche.** De klant antwoordt naar dat adres, niet naar de afzender. Staat het er
       niet, dan antwoordt hij aan de afzender — en zonder eigen afzender belandt zijn antwoord bij ADM.
-    - **Een domein dat niet bij ADM One geregistreerd is.** De mail kan geweigerd worden. Vraag ADM het
-      domein te registreren vóór u de afzender in een sjabloon kiest.
+    - **Een domein dat nog niet geverifieerd is.** De mail kan geweigerd worden. Vraag ons het domein te
+      verifiëren vóór u de afzender in een sjabloon kiest.
 
 ## Zie ook
 

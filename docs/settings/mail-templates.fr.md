@@ -41,7 +41,7 @@ Chaque étape des rappels a son propre modèle : un premier rappel ne s'écrit p
 
 Vous choisissez ensuite l'**Expéditeur** parmi vos [expéditeurs de mail](mail-senders.md). Si vous laissez le
 champ vide, il affiche *Par défaut :* avec l'adresse qui s'applique alors : votre expéditeur par défaut, ou
-noreply@adm-concept.be si vous n'en avez pas. **Gérer les expéditeurs** ouvre la liste des expéditeurs.
+*Nimble <noreply@adm-concept.be>* si vous n'en avez pas. **Gérer les expéditeurs** ouvre la liste des expéditeurs.
 
 Si l'expéditeur choisi se trouve dans la Corbeille, l'écran indique que le mail part de l'adresse par défaut.
 Choisissez alors un autre expéditeur, ou restaurez-le depuis la Corbeille.
@@ -156,7 +156,7 @@ tâche attribuée part lui aussi sans fenêtre, dans la langue de la personne qu
 !!! warning
     - **Taper une variable au lieu de la faire glisser.** `{{dagen te laat}}` avec des espaces ne fonctionne
       pas. Faites-la glisser depuis la liste, elle sera correcte.
-    - **Choisir un expéditeur dont le domaine n'est pas enregistré chez ADM One.** Le mail peut alors être
+    - **Choisir un expéditeur dont le domaine n'est pas encore vérifié.** Le mail peut alors être
       refusé. L'écran [Expéditeurs de mail](mail-senders.md) indique quelles adresses sont en ordre.
     - **Penser que l'aperçu enregistre.** Seul **Enregistrer** applique votre texte aux mails qui partent.
     - **Oublier qu'il y a deux langues.** Si vous adaptez uniquement le néerlandais, un client francophone

@@ -41,7 +41,8 @@ Elke stap van de aanmaningen heeft een eigen sjabloon: een eerste aanmaning schr
 ingebrekestelling.
 
 Daarnaast kiest u de **Afzender** uit uw [mailafzenders](mail-senders.md). Laat u het veld leeg, dan staat er
-*Standaard:* met het adres dat dan geldt: uw standaardafzender, of noreply@adm-concept.be als u er geen hebt.
+*Standaard:* met het adres dat dan geldt: uw standaardafzender, of *Nimble <noreply@adm-concept.be>* als u er geen
+hebt.
 Met **Afzenders beheren** opent u de lijst van afzenders.
 
 Staat de gekozen afzender in de Prullenbak, dan meldt het scherm dat de mail van de standaard vertrekt. Kies
@@ -157,7 +158,7 @@ toegewezen taak vertrekt zonder venster, in de taal van wie de taak krijgt — n
 !!! warning
     - **Een variabele overtypen in plaats van slepen.** `{{dagen te laat}}` met spaties werkt niet. Sleep
       ze uit de lijst, dan staat ze juist.
-    - **Een afzender kiezen waarvan het domein niet bij ADM One geregistreerd is.** De mail kan dan
+    - **Een afzender kiezen waarvan het domein nog niet geverifieerd is.** De mail kan dan
       geweigerd worden. Op het scherm [Mailafzenders](mail-senders.md) ziet u welke adressen in orde zijn.
     - **Denken dat het voorbeeld bewaart.** Pas **Bewaren** zet uw tekst op de mails die vertrekken.
     - **Vergeten dat er twee talen zijn.** Past u enkel het Nederlands aan, dan krijgt een Franstalige
