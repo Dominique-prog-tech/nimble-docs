@@ -134,7 +134,7 @@ hij ook de ontvangstbevestiging per mail.
 ### Mijn meldingen
 
 Elk serviceverzoek van de klant, ook wat u voor hem noteerde, met het nummer, de dag van de melding, de installatie, wat er is en
-de stand in zijn woorden:
+de status in zijn woorden:
 
 - **Ontvangen**: het verzoek kwam binnen.
 - **In behandeling**: iemand nam het op, of er is een werkorder zonder dag.
@@ -144,7 +144,7 @@ de stand in zijn woorden:
 
 Wie het behandelt, de werkorder en de ploeg ziet hij niet.
 
-![Mijn meldingen in het portaal: melding SV-2026-0005 voor de Renson Endura Delta 450, Ventilatie maakt een luid zoemend geluid, met de stand Ingepland op een dag, en rechtsboven de knop Storing melden.](../images/portaal-meldingen.png)
+![Mijn meldingen in het portaal: melding SV-2026-0005 voor de Renson Endura Delta 450, Ventilatie maakt een luid zoemend geluid, met de status Ingepland op een dag, en rechtsboven de knop Storing melden.](../images/portaal-meldingen.png)
 
 ## Documenten delen
 

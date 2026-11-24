@@ -140,7 +140,7 @@ binnen zoals een verzoek van kantoor: met de status **Nieuw** en de taak **Servi
   voor verzoeken uit het portaal** staat. Staat daar niemand, dan staat de taak bij **Niemand**;
 - de foto's onder **Journaal** › **Bijlagen**.
 
-U behandelt het verder zoals elk verzoek. De klant volgt de stand in het portaal bij **Mijn meldingen**.
+U behandelt het verder zoals elk verzoek. De klant volgt de status in het portaal bij **Mijn meldingen**.
 
 ## Een melding via de QR-sticker
 

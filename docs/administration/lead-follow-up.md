@@ -100,7 +100,7 @@ Vijf instellingen voor de [serviceverzoeken](../work/service-requests.md):
   **Mailsjablonen**.
 - **Klanten kunnen een storing melden in het portaal**: een klant met toegang tot het
   [portaal voor uw klanten](../crm/portaal-voor-klanten.md#storing-melden) meldt zelf een storing voor een van zijn installaties,
-  met foto's, en volgt de stand bij **Mijn meldingen**. Het verzoek komt binnen zoals een verzoek van kantoor. **Standaard staat het
+  met foto's, en volgt de status bij **Mijn meldingen**. Het verzoek komt binnen zoals een verzoek van kantoor. **Standaard staat het
   uit.**
 - **Iedereen met de sticker kan een storing melden**: wie de [QR-sticker](../work/installations.md#de-qr-sticker) op een installatie
   scant, meldt een storing zonder aan te melden: naam, telefoon, wat er is en foto's. Het verzoek komt binnen met het kanaal
