@@ -84,7 +84,8 @@ staat, dan past de voorgestelde prijs zich aan.
 | **Prijs** | De prijs per eenheid |
 | **Subtotaal** | Aantal maal prijs |
 
-Onder de regels staat het **Totaal**. Met het kruisje achteraan haalt u een regel weg.
+Onder de regels staat het **Totaal**. Met het kruisje achteraan haalt u een regel weg. Een regel waarvan al iets ontvangen is,
+heeft geen kruisje. Moet een ontvangst terug, zie dan [Een levering ongedaan maken](#een-levering-ongedaan-maken).
 
 Vergeet niet te **bewaren**: een regel die nog niet bewaard is, kan niet ontvangen worden.
 
@@ -149,7 +150,7 @@ verschijnt de melding om dat na te kijken vóór u de aankoopfactuur goedkeurt.
 Tikte u een levering verkeerd in (een verkeerd aantal, de verkeerde bestelling), klik dan naast die levering op
 **Ongedaan maken** en bevestig. U maakt telkens een hele levering ongedaan, met al haar regels.
 
-- Wat naar de voorraad ging, wordt teruggeboekt. Op het tabblad Stock van het artikel staan dan allebei de
+- Wat naar de voorraad ging, wordt teruggeboekt. Op het tabblad Voorraad van het artikel staan dan allebei de
   boekingen: de ontvangst en de tegenboeking *Ontvangst ongedaan gemaakt*.
 - Een regel met een project ging nooit naar de voorraad en wordt dus ook niet teruggeboekt.
 - De status volgt: **Deels geleverd** als er nog een andere levering staat, anders weer **Besteld**.
@@ -203,7 +204,7 @@ Klik op de fiche op **Verwijderen** en bevestig. De bestelling verdwijnt uit de 
 
 ## Waar de voorraad zichtbaar is
 
-Na een ontvangst ziet u het resultaat onder **Voorraad → Artikelen**, op het tabblad **Stock** van het
+Na een ontvangst ziet u het resultaat onder **Voorraad → Artikelen**, op het tabblad **Voorraad** van het
 artikel. Elke ontvangst staat daar als *Ontvangst bestelling* gevolgd door het bestelnummer. Zie
 [Artikelen](../inventory/articles.md).
 

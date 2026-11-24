@@ -84,7 +84,8 @@ déjà choisi, le prix proposé s'adapte.
 | **Prix** | Le prix unitaire |
 | **Sous-total** | Quantité fois prix |
 
-Sous les lignes figure le **Total**. La croix en fin de ligne supprime une ligne.
+Sous les lignes figure le **Total**. La croix en fin de ligne supprime une ligne. Une ligne dont une partie est déjà
+réceptionnée n'a pas de croix. Pour revenir sur une réception, voir [Annuler une livraison](#annuler-une-livraison).
 
 N'oubliez pas d'**enregistrer** : une ligne pas encore enregistrée ne peut pas être réceptionnée.
 

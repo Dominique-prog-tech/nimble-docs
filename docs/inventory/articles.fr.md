@@ -424,8 +424,8 @@ composition il se trouve ; retirez-le d'abord de celle-ci.
 Cliquez sur le rail **Journal** à droite et choisissez un article dans la liste. Le panneau affiche alors le
 dossier de cet article, réparti sur cinq onglets :
 
-- **Stock** — le solde actuel et tous les mouvements de cet article. Pour un service ou un article de devis,
-  l'onglet indique qu'il n'a pas de stock.
+- **Stock** — le solde actuel et tous les mouvements de cet article, avec l'unité de l'article : par exemple
+  *458 m* et *+400 m*. Pour un service ou un article de devis, l'onglet indique qu'il n'a pas de stock.
 - **Tâches** — ce qu'il reste à faire pour cet article.
 - **Notes** — des notes libres sur cet article. Voir [Notes](../notities.md).
 - **Pièces jointes** — documents et photos liés à cet article, par exemple une fiche technique. Voir
@@ -448,7 +448,7 @@ Vous consultez ainsi le stock article après article sans ouvrir chaque fiche.
 | **Consommation** | Des marchandises sortent — utilisées sur un bon de travail ou un projet. La quantité est négative |
 | **Correction** | Une rectification manuelle après un inventaire. Le signe dépend du sens |
 
-Chaque mouvement indique son type, la quantité, la date et l'heure, et une éventuelle note. Une commande
+Chaque mouvement indique son type, la quantité avec l'unité, la date et l'heure, et une éventuelle note. Une commande
 réceptionnée y figure par exemple comme *Ontvangst bestelling* suivi du numéro de commande.
 
 Le registre n'est **jamais modifié** : une erreur se corrige par un nouveau mouvement, pas en retouchant

@@ -330,7 +330,7 @@ Elke regel heeft een **status**: waar het materiaal op dit moment is.
 
 Onderaan staan de artikelen uit uw catalogus die voor dit project nodig zijn. Klik **Artikel toevoegen**, zoek
 het artikel op code of omschrijving en kies het. Daarna vult u het aantal in, de **Leverancier**, en of het
-**Besteld** is en een **Stockartikel**.
+**Besteld** is en een **Voorraadartikel**.
 
 Op deze lijst staat materiaal, en diensten die u bestelt — een container, een onderaannemer. Een
 [offerteartikel](../inventory/articles.md#de-soort-van-een-artikel) staat er niet op: het zoekvenster biedt

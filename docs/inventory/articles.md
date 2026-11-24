@@ -16,7 +16,7 @@ Klik in de zijbalk op **Voorraad → Artikelen**.
 | **Familie** | De groep waarin het artikel hoort |
 | **Soort** | Materiaal, dienst of offerteartikel — zie [De soort van een artikel](#de-soort-van-een-artikel) |
 | **Eenheid** | Stuk, meter, uur … |
-| **Stock** | De huidige voorraad — zie de opmerking onderaan. Leeg bij een dienst en bij een offerteartikel |
+| **Voorraad** | De huidige voorraad — zie de opmerking onderaan. Leeg bij een dienst en bij een offerteartikel |
 | **Verkoopprijs** | Prijs per eenheid. Leeg wanneer er geen prijs is ingevuld |
 | **Actief** | Een vinkje bij artikelen die u nog gebruikt |
 | **Aangemaakt** | De dag waarop het artikel is aangemaakt |
@@ -72,7 +72,7 @@ na het bewaren op de fiche.
     Twee artikelen met hetzelfde nummer kan niet: Nimble weigert te bewaren en zegt waarom. Dat geldt ook
     voor een nummer van een artikel in de prullenbak.
 
-Rechts op de fiche staan de tabbladen **Stock**, **Taken**, **Notities**, **Bijlagen** en **Logboek** —
+Rechts op de fiche staan de tabbladen **Voorraad**, **Taken**, **Notities**, **Bijlagen** en **Logboek** —
 dezelfde als in het journaal naast de lijst.
 
 ## De foto van een artikel
@@ -112,7 +112,7 @@ Waar een soort niet kan, staat ze niet in de keuzelijst. In het zoekvenster staa
 ![De fiche van de dienst DIE-9001, Werkuur installateur: in de kaart Algemeen staat de Soort op Dienst met de uitleg eronder, en de kaart Prijzen draagt Verkoopprijs en Aankoopprijs. Links de tabbladen Algemeen en Leveranciers.](../images/artikel-dienst.png)
 
 Op de fiche van een dienst staan **Minimumvoorraad** en **Streefvoorraad** niet: een dienst heeft geen
-voorraad. De kaart met de prijzen heet **Prijzen**, en het tabblad **Stock** zegt dat een dienst geen voorraad
+voorraad. De kaart met de prijzen heet **Prijzen**, en het tabblad **Voorraad** zegt dat een dienst geen voorraad
 heeft. Het tabblad **Leveranciers** blijft: bestelt u een dienst bij een onderaannemer of een verhuurder, dan legt
 u die daar vast, zoals bij materiaal.
 
@@ -122,7 +122,7 @@ u die daar vast, zoals bij materiaal.
 
 Op de fiche van een offerteartikel staan **Minimumvoorraad** en **Streefvoorraad** niet, en is er geen
 tabblad **Leveranciers** maar een tabblad **Samenstelling**. De kaart met de prijzen heet **Prijzen**. Het
-tabblad **Stock** zegt dat een offerteartikel geen voorraad heeft.
+tabblad **Voorraad** zegt dat een offerteartikel geen voorraad heeft.
 
 De **Aankoopprijs** is de kostprijs van het offerteartikel: wat het u kost om het te leveren en te plaatsen.
 Heeft het een samenstelling, dan rekent Nimble ze uit en staat eronder *Berekend uit de samenstelling*; u
@@ -413,8 +413,8 @@ samenstelling het zit; haal het daar eerst uit.
 Klik rechts op de rail **Journaal** en kies een artikel in de lijst. Het paneel toont dan de zijkant van dát
 artikel, verdeeld over vijf tabbladen:
 
-- **Stock** — de huidige stand en alle bewegingen van dit artikel. Bij een dienst of een offerteartikel staat
-  er dat het geen voorraad heeft.
+- **Voorraad** — de huidige stand en alle bewegingen van dit artikel, met de eenheid van het artikel: bijvoorbeeld
+  *458 m* en *+400 m*. Bij een dienst of een offerteartikel staat er dat het geen voorraad heeft.
 - **Taken** — wat er voor dit artikel nog moet gebeuren.
 - **Notities** — vrije notities bij dit artikel. Zie [Notities](../notities.md).
 - **Bijlagen** — documenten en foto's bij dit artikel, bijvoorbeeld een technische fiche. Zie
@@ -423,11 +423,11 @@ artikel, verdeeld over vijf tabbladen:
 
 Zo bekijkt u de voorraad van artikel na artikel zonder telkens een fiche te openen.
 
-![Het journaal open naast de artikellijst, op het tabblad Stock met de huidige stock en de bewegingen.](../images/artikel-journaal.png)
+![Het journaal open naast de artikellijst, op het tabblad Voorraad met de huidige voorraad en de bewegingen.](../images/artikel-journaal.png)
 
 !!! info "Waar de bewegingen vandaan komen"
     Nimble houdt de voorraad bij. Een **ontvangen bestelling** telt erbij; materiaal dat op een **werkbon**
-    verwerkt is, gaat eraf. De huidige stock is de som van alle bewegingen van het artikel.
+    verwerkt is, gaat eraf. De huidige voorraad is de som van alle bewegingen van het artikel.
 
 ### De drie soorten beweging
 
@@ -437,7 +437,7 @@ Zo bekijkt u de voorraad van artikel na artikel zonder telkens een fiche te open
 | **Verbruik** | Goederen gaan eruit — verwerkt op een werkbon of een project. Het aantal is negatief |
 | **Correctie** | Een handmatige rechtzetting na een telling. Het teken hangt af van de richting |
 
-Elke beweging toont haar soort, het aantal, de datum en het uur, en een eventuele notitie. Een ontvangen
+Elke beweging toont haar soort, het aantal met de eenheid, de datum en het uur, en een eventuele notitie. Een ontvangen
 bestelling staat er bijvoorbeeld als *Ontvangst bestelling* gevolgd door het bestelnummer.
 
 Het grootboek wordt **nooit gewijzigd**: een fout zet u recht met een nieuwe beweging, niet door de oude aan

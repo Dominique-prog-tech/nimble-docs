@@ -41,7 +41,7 @@ al onderweg is.
 | Kolom | Wat het zegt |
 |---|---|
 | **Artikel** | Nummer, naam en tussen haakjes de eenheid, die voor de hele rij geldt |
-| **In stock** | De huidige stand |
+| **In voorraad** | De huidige stand |
 | **Onderweg** | Wat besteld is maar nog niet geleverd |
 | **Minimum** | Onder deze grens moet u aanvullen |
 | **Streef** | De voorraad die u wil aanhouden |
