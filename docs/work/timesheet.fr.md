@@ -9,7 +9,7 @@ avec un total par collaborateur. Pratique pour la paie ou pour vérifier qui a t
 Dans la barre latérale, cliquez sur **Travail → Relevé des heures**. Vous avez besoin du droit de consulter les ordres et bons de
 travail.
 
-![Le relevé des heures avec en haut Du, Au et un choix Collaborateur vide ; en dessous le bloc Total par collaborateur avec par collaborateur les heures Travail, Ensemble et le nombre de Jours, dont Dieter Cools, Kris Van Damme et Sam Rombouts ; et la liste avec Date, Collaborateur, Ordre de travail, Projet, Type, Heures, Signé et Note.](../images/urenstaat-fr.png)
+![Le relevé des heures avec en haut Du, Au et un choix Collaborateur vide ; en dessous le bloc Total par collaborateur avec par collaborateur les heures Travail et le nombre de Jours, dont Dieter Cools, Kris Van Damme et Sam Rombouts ; et la liste avec Date, Collaborateur, Ordre de travail, Projet, Type, Heures, Signé et Note.](../images/urenstaat-fr.png)
 
 ## La période et le collaborateur
 
@@ -18,10 +18,16 @@ travail.
 
 ## Total par collaborateur
 
-Par collaborateur figurent les heures de **Travail**, les heures de **Déplacement**, la somme (**Ensemble**) et le nombre de **Jours**
-travaillés. Un jour avec deux bons de travail compte une fois. Le déplacement n'apparaît que si votre entreprise enregistre le temps de
-trajet sur la [fiche entreprise](../settings/company-profile.md), ou si la période choisie contient tout de même des heures de
-déplacement, par exemple d'avant la désactivation.
+Par collaborateur figurent les heures de **Travail** et le nombre de **Jours** travaillés. Un jour avec deux bons de travail compte une
+fois. Si votre entreprise enregistre le temps de trajet sur la [fiche entreprise](../settings/company-profile.md), ou si la période
+choisie contient tout de même des heures de déplacement, par exemple d'avant la désactivation, figurent aussi les heures de
+**Déplacement** et la somme des deux (**Ensemble**).
+
+## Heures sans collaborateur
+
+Un bon de travail peut porter un total d'heures sans lignes d'heures, par exemple « 8 h » sans dire qui. Ces heures n'appartiennent à
+personne et ne figurent donc pas dans le relevé. Un message apparaît alors en haut, avec le nombre de bons et leurs heures. Ouvrez ces
+bons et attribuez les heures à un collaborateur ; elles comptent ensuite.
 
 ## La liste
 

@@ -205,8 +205,8 @@ Zo werkt u ermee:
    alles zoals het was.
 
 Onder de lijst staat de **kostprijs** per eenheid van het offerteartikel, met de verkoopprijs en de marge. Op
-het tabblad bij de naam staat het aantal onderdelen: **Samenstelling (3)**. Met **Verwijderen** op een regel
-haalt u een onderdeel weg.
+het tabblad bij de naam staat het aantal onderdelen: **Samenstelling (3)**. Met **Regel verwijderen** haalt u een
+onderdeel weg.
 
 Wijzigt later de aankoopprijs van een onderdeel — op zijn fiche, bij zijn voorkeursleverancier of door een
 ingelezen prijslijst — dan volgt de kostprijs van elk offerteartikel waarin het zit vanzelf.
@@ -310,7 +310,7 @@ Zo werkt u ermee:
 4. Klik **Bewaren**. De leveranciers worden samen met de rest van de fiche bewaard; met **Annuleren** blijft
    alles zoals het was.
 
-Met **Verwijderen** op een regel haalt u een leverancier weg. Haalt u alle leveranciers weg, dan blijft de
+Met **Regel verwijderen** haalt u een leverancier weg. Haalt u alle leveranciers weg, dan blijft de
 laatste aankoopprijs staan en vult u ze weer zelf in op het tabblad Algemeen.
 
 !!! info "Precies één voorkeursleverancier"
@@ -343,7 +343,7 @@ achter de leverancier op **Staffel**. Staan er al regels in, dan staat hun aanta
 | **Vanaf aantal** | Het aantal vanaf waar de prijs geldt, in de eenheid van het artikel |
 | **Prijs per eenheid** | De prijs per eenheid vanaf dat aantal, excl. btw |
 
-Met **Staffelregel toevoegen** komt er een regel bij; met **Verwijderen** achter een regel haalt u ze weg. De
+Met **Staffelregel toevoegen** komt er een regel bij; met **Regel verwijderen** haalt u ze weg. De
 staffel wordt bewaard wanneer u de fiche bewaart.
 
 Een bestelling bij deze leverancier neemt de prijs van de hoogste staffel die het bestelde aantal haalt. Onder

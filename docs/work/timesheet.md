@@ -8,7 +8,7 @@ medewerker. Handig voor de loonverwerking of om na te kijken wie waar gewerkt he
 
 Klik in de zijbalk op **Werk → Urenstaat**. U hebt het recht nodig om werkorders en werkbonnen te bekijken.
 
-![De urenstaat met bovenaan Van, Tot en met en een lege keuze Medewerker; daaronder het blok Totaal per medewerker met per medewerker de uren Werk, Samen en het aantal Dagen, onder wie Dieter Cools, Kris Van Damme en Sam Rombouts; en de lijst Urenstaat met Datum, Medewerker, Werkorder, Project, Soort, Uren, Getekend en Notitie.](../images/urenstaat.png)
+![De urenstaat met bovenaan Van, Tot en met en een lege keuze Medewerker; daaronder het blok Totaal per medewerker met per medewerker de uren Werk en het aantal Dagen, onder wie Dieter Cools, Kris Van Damme en Sam Rombouts; en de lijst Urenstaat met Datum, Medewerker, Werkorder, Project, Soort, Uren, Getekend en Notitie.](../images/urenstaat.png)
 
 ## De periode en de medewerker
 
@@ -17,10 +17,15 @@ Klik in de zijbalk op **Werk → Urenstaat**. U hebt het recht nodig om werkorde
 
 ## Totaal per medewerker
 
-Per medewerker staan de uren **Werk**, de uren **Verplaatsing**, de som (**Samen**) en het aantal **Dagen** waarop hij werkte. Een dag
-met twee werkbonnen telt één keer. Verplaatsing staat er enkel als uw bedrijf reistijd registreert op de
-[bedrijfsfiche](../settings/company-profile.md), of als er in de gekozen periode toch verplaatsingsuren staan, bijvoorbeeld van vóór
-u het uitzette.
+Per medewerker staan de uren **Werk** en het aantal **Dagen** waarop hij werkte. Een dag met twee werkbonnen telt één keer. Registreert
+uw bedrijf reistijd op de [bedrijfsfiche](../settings/company-profile.md), of staan er in de gekozen periode toch verplaatsingsuren,
+bijvoorbeeld van vóór u het uitzette, dan staan er ook de uren **Verplaatsing** en de som van beide (**Samen**).
+
+## Uren zonder medewerker
+
+Een werkbon kan een urentotaal dragen zonder urenregels, bijvoorbeeld "8 u" zonder te zeggen wie. Die uren horen bij niemand en staan dus
+niet in de urenstaat. Bovenaan verschijnt dan een melding met het aantal werkbonnen en hun uren. Open die werkbonnen en zet de uren op een
+medewerker; daarna tellen ze mee.
 
 ## De lijst
 

@@ -210,7 +210,7 @@ Pour l'utiliser :
    tout reste comme avant.
 
 Sous la liste figure le **prix de revient** par unité de l'article de devis, avec le prix de vente et la marge.
-Le nom de l'onglet indique le nombre de composants : **Composition (3)**. **Supprimer** sur une ligne retire
+Le nom de l'onglet indique le nombre de composants : **Composition (3)**. **Supprimer la ligne** retire
 un composant.
 
 Si le prix d'achat d'un composant change par la suite — sur sa fiche, chez son fournisseur préféré ou par une
@@ -317,7 +317,7 @@ Voici comment procéder :
 4. Cliquez sur **Enregistrer**. Les fournisseurs sont enregistrés avec le reste de la fiche ; avec
    **Annuler**, tout reste tel quel.
 
-**Supprimer** sur une ligne retire un fournisseur. Si vous retirez tous les fournisseurs, le dernier prix
+**Supprimer la ligne** retire un fournisseur. Si vous retirez tous les fournisseurs, le dernier prix
 d'achat reste en place et vous le saisissez à nouveau vous-même dans l'onglet Général.
 
 !!! info "Exactement un fournisseur préféré"
@@ -351,7 +351,7 @@ nombre figure sur le bouton : **Prix dégressifs (2)**.
 | **À partir de** | La quantité à partir de laquelle le prix s'applique, dans l'unité de l'article |
 | **Prix par unité** | Le prix par unité à partir de cette quantité, hors TVA |
 
-**Ajouter un palier** ajoute une ligne ; **Supprimer** derrière une ligne la retire. Les prix dégressifs sont
+**Ajouter un palier** ajoute une ligne ; **Supprimer la ligne** la retire. Les prix dégressifs sont
 enregistrés lorsque vous enregistrez la fiche.
 
 Une commande chez ce fournisseur prend le prix du palier le plus élevé atteint par la quantité commandée. En
