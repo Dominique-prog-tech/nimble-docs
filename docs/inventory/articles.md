@@ -451,6 +451,21 @@ Het grootboek wordt **nooit gewijzigd**: een fout zet u recht met een nieuwe bew
 te passen. Zo blijft zichtbaar wat er wanneer gebeurd is. De bewegingen staan onder elkaar, met de jongste
 bovenaan; een plus betekent erbij, een min eraf.
 
+### Een beweging met de hand boeken
+
+Onder de huidige voorraad staat **Mutatie boeken**. Zo zet u de voorraad recht na een telling, of boekt u iets wat
+niet via een bestelling of een werkbon liep.
+
+1. Kies de **Soort**: **Ontvangst**, **Verbruik** of **Correctie**.
+2. Vul de **Hoeveelheid** in, in de eenheid van het artikel. Een positief aantal telt erbij, een minteken boekt af:
+   bijvoorbeeld *-5* bij een correctie of bij verbruik.
+3. Schrijf bij **Notitie** waarom, bijvoorbeeld *telling 25/11*. Zo begrijpt een collega later de beweging.
+4. Klik **Boeken**. De beweging staat meteen bovenaan, en de huidige voorraad volgt.
+
+Een geboekte beweging wijzigt of verwijdert u niet: een vergissing zet u recht met een nieuwe beweging in de andere
+richting. U ziet **Mutatie boeken** enkel als u artikelen en voorraad mag bewerken. Bij een dienst of een
+offerteartikel staat het er niet: die hebben geen voorraad.
+
 ## Veelgemaakte fouten
 
 !!! warning

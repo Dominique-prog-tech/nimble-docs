@@ -462,6 +462,21 @@ Le registre n'est **jamais modifié** : une erreur se corrige par un nouveau mou
 l'ancien. Ce qui s'est passé, et quand, reste ainsi visible. Les mouvements se suivent, le plus récent en
 haut ; un plus signifie une entrée, un moins une sortie.
 
+### Enregistrer un mouvement à la main
+
+Sous le stock actuel figure **Enregistrer un mouvement**. Vous rectifiez ainsi le stock après un inventaire, ou vous
+enregistrez ce qui n'est pas passé par une commande ou un bon de travail.
+
+1. Choisissez le **Type** : **Réception**, **Consommation** ou **Correction**.
+2. Indiquez la **Quantité**, dans l'unité de l'article. Une quantité positive s'ajoute, un signe moins déduit du
+   stock : par exemple *-5* pour une correction ou une consommation.
+3. Indiquez sous **Note** pourquoi, par exemple *inventaire 25/11*. Un collègue comprend ainsi le mouvement plus tard.
+4. Cliquez sur **Enregistrer**. Le mouvement figure aussitôt en haut, et le stock actuel suit.
+
+Vous ne modifiez ni ne supprimez un mouvement enregistré : une erreur se corrige par un nouveau mouvement dans
+l'autre sens. Vous ne voyez **Enregistrer un mouvement** que si vous pouvez modifier les articles et le stock. Pour
+un service ou un article de devis, il n'y figure pas : ils n'ont pas de stock.
+
 ## Erreurs fréquentes
 
 !!! warning
