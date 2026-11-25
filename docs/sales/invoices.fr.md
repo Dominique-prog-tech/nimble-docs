@@ -202,6 +202,7 @@ crédit.](../images/factuur-knoppen-meer-fr.png)
 | **Plus…** → **Créer une note de crédit** | Facture numérotée | Crée une note de crédit pour cette facture |
 | **Plus…** → **TVA pour toutes les lignes…** | Brouillon | Applique un seul code TVA à toutes les lignes. Enregistrez ensuite pour le confirmer |
 | **Plus…** → **Garantie retenue…** | Émise | Définit, modifie ou supprime la garantie retenue par le client. Voir [Une garantie retenue](#une-garantie-retenue) |
+| **Plus…** → **Repasser en brouillon** | Émise, jamais envoyée, sans paiements | En refait un brouillon, avec le même numéro. Voir [Repasser une facture en brouillon](#repasser-une-facture-en-brouillon) |
 | **Plus…** → **Annuler la facture** | Émise, jamais envoyée, sans paiements | Annule la facture. Voir [Annuler une facture](#annuler-une-facture) |
 | **Plus…** → **Marquer comme payée** | Émise, total 0,00 €, sans paiements | Passe la facture à Payée. Voir [Clôturer une facture sans montant](#cloturer-une-facture-sans-montant) |
 | **Remettre en ouverte** | Payée | Remet la facture sur Émise |
@@ -439,6 +440,23 @@ crédit, et pas pour une facture déjà payée.
 
 Si vous connaissez le jour où l'argent est arrivé, ou s'il s'agit d'un paiement partiel, utilisez **Enregistrer
 un paiement** sur la fiche. Marquée par erreur ? Supprimez le paiement dans le bloc Paiements sur la fiche.
+
+## Repasser une facture en brouillon
+
+Faut-il encore modifier quelque chose après **Finaliser**, et la facture n'a-t-elle pas encore été envoyée au client ? Repassez-la
+en brouillon.
+
+Cliquez en bas de la facture sur **Plus…** → **Repasser en brouillon** et confirmez.
+
+- La facture redevient un brouillon que vous pouvez modifier. Elle **garde son numéro**.
+- À la finalisation, elle reçoit le même numéro. La numérotation ne présente pas de trou, et aucun numéro ne passe à une autre
+  facture.
+- Gardez la date de facture s'il existe déjà des factures avec un numéro plus élevé. Si elle porte une date ultérieure à celle d'une
+  facture au numéro plus élevé, Nimble vous avertit lors de **Finaliser** : les numéros de facture doivent suivre l'ordre
+  chronologique.
+
+Le bouton apparaît aux mêmes conditions que **Annuler la facture** ci-dessous. Une note de crédit jamais envoyée se repasse en
+brouillon de la même manière, avec **Plus…** → **Repasser la note de crédit en brouillon**.
 
 ## Annuler une facture
 

@@ -198,6 +198,7 @@ registreren, Opnieuw verstuurd en Meer…, en het menu Meer… open op Creditnot
 | **Meer…** → **Creditnota maken** | Factuur met een nummer | Maakt een creditnota bij deze factuur |
 | **Meer…** → **Btw voor alle regels…** | Klad | Zet één btw-code op alle regels. Bewaar daarna om het vast te leggen |
 | **Meer…** → **Ingehouden borg…** | Uitgereikt | Zet, wijzigt of wist de borg die de klant inhield. Zie [Een ingehouden borg](#een-ingehouden-borg) |
+| **Meer…** → **Terug naar klad** | Uitgereikt, nooit verstuurd, zonder betalingen | Maakt er opnieuw een klad van, met hetzelfde nummer. Zie [Een factuur terug naar klad zetten](#een-factuur-terug-naar-klad-zetten) |
 | **Meer…** → **Factuur annuleren** | Uitgereikt, nooit verstuurd, zonder betalingen | Annuleert de factuur. Zie [Een factuur annuleren](#een-factuur-annuleren) |
 | **Meer…** → **Markeren als betaald** | Uitgereikt, totaal € 0,00, zonder betalingen | Zet de factuur op Betaald. Zie [Een factuur zonder bedrag afsluiten](#een-factuur-zonder-bedrag-afsluiten) |
 | **Terug naar openstaand** | Betaald | Zet de factuur terug op Uitgereikt |
@@ -475,6 +476,21 @@ leeg, dan zegt het afdrukvoorbeeld van de klad dat.
 
 Kiest u een factuur in Nimble, dan is het hetzelfde als **Creditnota maken** op die factuur, maar zonder haar regels:
 Nimble bewaakt dat u niet meer crediteert dan de factuur, en u verrekent vanaf die factuur.
+
+## Een factuur terug naar klad zetten
+
+Moet er na **Definitief maken** nog iets veranderen, en ging de factuur nog niet naar de klant, dan zet u ze terug naar klad.
+
+Klik onderaan de factuur op **Meer…** → **Terug naar klad** en bevestig.
+
+- De factuur wordt opnieuw een klad die u kunt aanpassen. Ze **houdt haar nummer**.
+- Bij **Definitief maken** krijgt ze hetzelfde nummer terug. Er komt geen gat in de nummering, en geen nummer gaat naar een andere
+  factuur.
+- Laat de factuurdatum staan als er al facturen met een hoger nummer zijn. Draagt ze een latere datum dan een factuur met een hoger
+  nummer, dan waarschuwt Nimble bij **Definitief maken**: factuurnummers horen in de tijd op te lopen.
+
+De knop staat er onder dezelfde voorwaarden als **Factuur annuleren** hieronder. Een creditnota die nooit vertrok, zet u op dezelfde
+manier terug met **Meer…** → **Creditnota terug naar klad**.
 
 ## Een factuur annuleren
 
