@@ -15,17 +15,20 @@ Dans la barre latérale, cliquez sur **Stock → Articles**.
 | **Nom** | Dénomination courte |
 | **Famille** | Le groupe auquel l'article appartient |
 | **Type** | Matériel, service ou article de devis — voir [Le type d'un article](#le-type-dun-article) |
+| **Fournisseur préféré** | Chez qui vous achetez habituellement l'article : le fournisseur coché **Préféré** dans l'onglet [Fournisseurs](#fournisseurs-dun-article). Vide si l'article n'a pas de fournisseur |
 | **Unité** | Pièce, mètre, heure … |
 | **Stock** | Le stock actuel — voir la remarque ci-dessous. Vide pour un service et pour un article de devis |
+| **Prix d'achat** | Le prix de revient par unité : le prix du fournisseur préféré, ou ce que vous avez saisi vous-même si l'article n'a pas de fournisseur. Visible seulement si vous pouvez voir les marges et les prix de revient |
 | **Prix de vente** | Prix par unité. Vide si aucun prix n'est renseigné |
 | **Actif** | Une coche pour les articles que vous utilisez encore |
 | **Créé le** | Le jour où l'article a été créé |
 
-![La liste des articles avec les colonnes Numéro, Nom, Famille, Type, Unité, Stock, Prix de vente, Actif et Créé le, et en haut les listes de choix Toutes les familles et Tous les types et le bouton Importer. En haut figurent les services : leur colonne Stock est vide.](../images/artikelen-lijst-fr.png)
+![La liste des articles avec les colonnes Numéro, Nom, Famille, Type, Fournisseur préféré, Unité, Stock, Prix d'achat, Prix de vente, Actif et Créé le, et en haut les listes de choix Toutes les familles, Tous les types et Tous les fournisseurs et le bouton Importer. En haut figurent les services : leur colonne Stock est vide.](../images/artikelen-lijst-fr.png)
 
 Les listes de choix **Toutes les familles** et **Tous les types** en haut limitent la liste aux articles
-d'une seule famille ou d'un seul type. Vous
-pouvez aussi rechercher, trier, filtrer et exporter comme dans les autres listes. Double-cliquez une ligne
+d'une seule famille ou d'un seul type. **Tous les fournisseurs** affiche chaque article qu'un fournisseur livre,
+même si un autre fournisseur en est le préféré. Vous pouvez aussi rechercher, trier, filtrer et exporter comme dans
+les autres listes ; la recherche trouve aussi le nom du fournisseur préféré. Double-cliquez une ligne
 pour ouvrir l'article.
 
 Sous le bouton **Importer** figurent **Importer une liste de prix**, **Importer des compositions** et **Vérifier les

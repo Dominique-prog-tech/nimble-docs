@@ -15,16 +15,20 @@ Klik in de zijbalk op **Voorraad → Artikelen**.
 | **Naam** | Korte benaming |
 | **Familie** | De groep waarin het artikel hoort |
 | **Soort** | Materiaal, dienst of offerteartikel — zie [De soort van een artikel](#de-soort-van-een-artikel) |
+| **Voorkeursleverancier** | Bij wie u het artikel gewoonlijk koopt: de leverancier met **Voorkeur** op het tabblad [Leveranciers](#leveranciers-van-een-artikel). Leeg als het artikel geen leveranciers heeft |
 | **Eenheid** | Stuk, meter, uur … |
 | **Voorraad** | De huidige voorraad — zie de opmerking onderaan. Leeg bij een dienst en bij een offerteartikel |
+| **Aankoopprijs** | De kostprijs per eenheid: de prijs van de voorkeursleverancier, of wat u zelf invulde als het artikel geen leveranciers heeft. Enkel zichtbaar als u marges en kostprijzen mag zien |
 | **Verkoopprijs** | Prijs per eenheid. Leeg wanneer er geen prijs is ingevuld |
 | **Actief** | Een vinkje bij artikelen die u nog gebruikt |
 | **Aangemaakt** | De dag waarop het artikel is aangemaakt |
 
-![De artikellijst met de kolommen Nummer, Naam, Familie, Soort, Eenheid, Voorraad, Verkoopprijs, Actief en Aangemaakt, en bovenaan de keuzelijsten Alle families en Alle soorten en de knop Inlezen. Bovenaan staan de diensten: hun kolom Voorraad is leeg.](../images/artikelen-lijst.png)
+![De artikellijst met de kolommen Nummer, Naam, Familie, Soort, Voorkeursleverancier, Eenheid, Voorraad, Aankoopprijs, Verkoopprijs, Actief en Aangemaakt, en bovenaan de keuzelijsten Alle families, Alle soorten en Alle leveranciers en de knop Inlezen. Bovenaan staan de diensten: hun kolom Voorraad is leeg.](../images/artikelen-lijst.png)
 
 Met de keuzelijsten **Alle families** en **Alle soorten** bovenaan toont u enkel de artikelen van één familie
-of van één soort. U kunt ook zoeken, sorteren, filteren en exporteren zoals in de andere lijsten. Dubbelklik een rij om het artikel te
+of van één soort. Met **Alle leveranciers** toont u elk artikel dat één leverancier levert, ook als een andere
+leverancier er de voorkeur heeft. U kunt ook zoeken, sorteren, filteren en exporteren zoals in de andere lijsten;
+zoeken vindt ook de naam van de voorkeursleverancier. Dubbelklik een rij om het artikel te
 openen.
 
 Onder de knop **Inlezen** staan **Prijslijst inlezen**, **Samenstellingen inlezen** en **Soorten nakijken**. U ziet er enkel
