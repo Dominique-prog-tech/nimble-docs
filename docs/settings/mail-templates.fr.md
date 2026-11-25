@@ -1,6 +1,6 @@
 # Modèles de mail
 
-Nimble envoie pour vous le mail d'un devis, les rappels, le bon de travail signé et l'avis d'une tâche attribuée. C'est ici
+Nimble envoie pour vous le mail d'un devis, d'une facture et d'une note de crédit, les rappels, le bon de travail signé et l'avis d'une tâche attribuée. C'est ici
 que vous
 déterminez l'adresse depuis laquelle ces mails partent, et pour chaque langue l'objet et le texte.
 
@@ -17,13 +17,15 @@ Le droit *Gérer les modèles de documents* est nécessaire.
 
 En haut, vous choisissez le **Modèle** :
 
-![La liste Modèle dépliée sur l'écran Modèles de mail : Devis, Rappel d'un devis, Devis à signer (OKSign) et les quatre modèles de rappel ; Bon de travail signé et Tâche attribuée se trouvent en dessous, après défilement.](../images/mailsjabloon-keuze-fr.png)
+![La liste Modèle dépliée sur l'écran Modèles de mail : Devis, Rappel d'un devis, Devis à signer (OKSign), Facture au client, Note de crédit au client et les modèles de rappel ; les autres se trouvent en dessous, après défilement.](../images/mailsjabloon-keuze-fr.png)
 
 | Modèle | Quand il part |
 |---|---|
 | **Devis** | Avec **Envoyer par e-mail** sur un devis |
 | **Rappel d'un devis** | Avec **Plus…** → **Envoyer un rappel** sur un devis envoyé — voir [Le suivi du devis](../sales/quotes.md#une-tache-de-suivi-et-un-rappel). Mêmes variables que le devis |
 | **Devis à signer (OKSign)** | Avec **Faire signer** sur un devis : l'e-mail avec le lien personnel pour signer — voir [Faire signer le devis](../sales/quotes.md#faire-signer-le-devis) |
+| **Facture au client** | Avec **Envoyer au client** sur une facture : voir [Envoyer au client](../sales/invoices.md#envoyer-au-client) |
+| **Note de crédit au client** | Avec **Envoyer au client** sur une note de crédit |
 | **Premier rappel** | Avec **Envoyer…** sur l'écran Rappels, pour la première étape |
 | **Deuxième rappel** | Idem, pour la deuxième étape |
 | **Dernier rappel** | Idem, pour la troisième étape |
@@ -70,17 +72,17 @@ montre que les variables qui fonctionnent dans le modèle choisi.
 
 | Variable | Ce qui figure dans le mail | Modèles |
 |---|---|---|
-| `{{klant}}` | Nom du client | Devis, devis à signer, rappels, bon de travail signé, entretien, demandes d'intervention |
-| `{{nummer}}` | Numéro du devis, de la facture ou de la commande. Pour une demande de prix : le numéro de votre devis, votre référence | Devis, devis à signer, rappels, bon de commande, demande de prix |
-| `{{datum}}` | Date du document | Devis, devis à signer, rappels, bon de travail signé, bon de commande, demande de prix |
+| `{{klant}}` | Nom du client | Devis, devis à signer, facture, note de crédit, rappels, bon de travail signé, entretien, demandes d'intervention |
+| `{{nummer}}` | Numéro du devis, de la facture, de la note de crédit ou de la commande. Pour une demande de prix : le numéro de votre devis, votre référence | Devis, devis à signer, facture, note de crédit, rappels, bon de commande, demande de prix |
+| `{{datum}}` | Date du document | Devis, devis à signer, facture, note de crédit, rappels, bon de travail signé, bon de commande, demande de prix |
 | `{{geldig_tot}}` | Valable jusqu'au | Devis, devis à signer |
-| `{{bedrag}}` | Montant | Devis, devis à signer, rappels |
-| `{{vervaldag}}` | Échéance | Rappels |
+| `{{bedrag}}` | Montant. Pour une note de crédit, sans signe moins | Devis, devis à signer, facture, note de crédit, rappels |
+| `{{vervaldag}}` | Échéance | Facture, rappels |
 | `{{dagen_te_laat}}` | Jours de retard | Rappels |
 | `{{werkorder}}` | Ordre de travail | Bon de travail signé |
 | `{{project}}` | Projet | Bon de travail signé, bon de commande, demande de prix, entretien |
 | `{{getekend_door}}` | Signataire | Bon de travail signé |
-| `{{afzender}}` | Nom de la personne qui envoie | Devis, devis à signer, rappels, bon de travail signé, bon de commande, demande de prix |
+| `{{afzender}}` | Nom de la personne qui envoie | Devis, devis à signer, facture, note de crédit, rappels, bon de travail signé, bon de commande, demande de prix |
 | `{{bedrijf}}` | Nom de votre entreprise | Tous |
 | `{{online_link}}` | Un lien vers le devis en ligne | Devis |
 | `{{ontvanger}}` | Destinataire de la tâche | Tâche attribuée |
@@ -95,6 +97,8 @@ montre que les variables qui fonctionnent dans le modèle choisi.
 | `{{teken_link}}` | Le lien personnel pour signer le devis | Devis à signer |
 | `{{leverancier}}` | Nom du fournisseur | Bon de commande, demande de prix |
 | `{{leverdatum}}` | La date de livraison souhaitée de la commande, ou *à convenir* | Bon de commande |
+| `{{mededeling}}` | La communication structurée pour le paiement, ou le numéro de facture s'il n'y en a pas | Facture |
+| `{{bij_factuur}}` | La facture que la note de crédit corrige : son numéro, ou le numéro et la date d'une facture hors Nimble | Note de crédit |
 | `{{antwoord_voor}}` | La date à laquelle vous souhaitez la réponse à la demande de prix | Demande de prix |
 | `{{bezoek}}` | La description de la visite d'entretien | Entretien |
 | `{{voorzien}}` | Le jour prévu pour la visite (pas encore planifiée) | Entretien à venir |

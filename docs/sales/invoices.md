@@ -97,9 +97,9 @@ Bovenaan staan het nummer, de klant, de datum en de status, en rechts het **Tota
 bij een uitgereikte factuur **op slot**, bij een creditnota het label **Creditnota** en bij een voorschotfactuur het
 label **Voorschot**.
 
-De fiche heeft de tabbladen **Algemeen**, **Taken**, **Notities**, **Bijlagen**, **Mails** en **Logboek**. Hoe
-die laatste vijf werken, leest u in [Werken met een fiche](../fiches.md). Bij **Mails** staan de
-[aanmaningen](reminders.md) die u voor deze factuur verstuurde.
+De fiche heeft de tabbladen **Algemeen** en **Journaal**. Onder **Journaal** staan **Taken**, **Notities**,
+**Bijlagen**, **Mails** en **Logboek**; hoe die werken, leest u in [Werken met een fiche](../fiches.md). Bij **Mails**
+staan de mails waarmee u de factuur naar de klant stuurde en de [aanmaningen](reminders.md) voor deze factuur.
 
 ### Het blok Factuurgegevens
 
@@ -184,17 +184,18 @@ en bedrag, met onderaan wat er nog openstaat. Met het rode ✕ verwijdert u een 
 Welke knoppen er staan, hangt af van de status en van uw rechten. Van links naar rechts. Minder gebruikte
 handelingen staan onder **Meer…**.
 
-![Factuur F-2026-0001, uitgereikt en op slot, met onderaan de knoppen Afdrukvoorbeeld, E-factuur (Peppol), Betaling
-registreren, Opnieuw verstuurd en Meer…, en het menu Meer… open op Creditnota maken.](../images/factuur-knoppen-meer.png)
+![Factuur F-2026-0001, uitgereikt en op slot, met onderaan de knoppen Afdrukvoorbeeld, E-factuur (Peppol), Mailen naar
+de klant, Betaling registreren en Meer…, en het menu Meer… open met Opnieuw verstuurd en Creditnota maken.](../images/factuur-knoppen-meer.png)
 
 | Knop | Wanneer | Wat ze doet |
 |---|---|---|
 | **Bewaren** | Klad | Bewaart uw wijzigingen |
 | **Afdrukvoorbeeld** | Altijd, ook op een klad | Toont de factuur als PDF, zoals de klant ze krijgt |
 | **E-factuur (Peppol)** | Zodra de factuur een nummer heeft | Bouwt het elektronische bestand |
+| **Mailen naar de klant** | Uitgereikt of betaald | Mailt de factuur als pdf naar de klant. Zie [Mailen naar de klant](#mailen-naar-de-klant) |
 | **Definitief maken** | Klad | Kent het nummer toe en zet de factuur op Uitgereikt |
 | **Betaling registreren** | Uitgereikt | Boekt een ontvangst |
-| **Markeren als verstuurd** | Uitgereikt | Schrijft op dát en hoe de factuur vertrokken is. Daarna heet de knop **Opnieuw verstuurd** |
+| **Meer…** → **Markeren als verstuurd** | Uitgereikt | Schrijft op dát en hoe de factuur langs een andere weg vertrokken is. Daarna heet het **Opnieuw verstuurd** |
 | **Meer…** → **Creditnota maken** | Factuur met een nummer | Maakt een creditnota bij deze factuur |
 | **Meer…** → **Btw voor alle regels…** | Klad | Zet één btw-code op alle regels. Bewaar daarna om het vast te leggen |
 | **Meer…** → **Ingehouden borg…** | Uitgereikt | Zet, wijzigt of wist de borg die de klant inhield. Zie [Een ingehouden borg](#een-ingehouden-borg) |
@@ -265,13 +266,48 @@ Nimble weigert en zegt waarom, wanneer:
 
 ## Een factuur versturen
 
-Nimble mailt een factuur niet zelf. Rechtstreeks versturen kan wel via Peppol, naar een Belgische onderneming
-(zie [Versturen via Peppol](#versturen-via-peppol)); dan houdt Nimble zelf bij dat ze vertrokken is. Anders bezorgt u
-de factuur via het afdrukvoorbeeld of de e-factuur, en schrijft u daarna op dát ze vertrokken is.
+Een factuur of creditnota bezorgt u op een van deze manieren:
+
+- **Mailen naar de klant:** Nimble mailt de pdf en houdt zelf bij dat ze vertrokken is. Zie hieronder.
+- **Via Peppol**, naar een Belgische onderneming: zie [Versturen via Peppol](#versturen-via-peppol). Ook dan houdt
+  Nimble het zelf bij.
+- **Langs een andere weg**, bijvoorbeeld afgedrukt en gepost: schrijf daarna op dát ze vertrokken is, met
+  [Markeren als verstuurd](#markeren-als-verstuurd).
+
+### Mailen naar de klant
+
+Klik op **Mailen naar de klant**, onderaan de fiche of in het afdrukvoorbeeld. De knop staat er op een uitgereikte of
+betaalde factuur, niet op een klad. Hebt u iets gewijzigd zonder te bewaren, dan vraagt Nimble om eerst te bewaren: de
+klant krijgt het blad zoals het bewaard staat.
+
+![Het venster Factuur mailen voor factuur F-2026-0001: bovenaan de waarschuwing dat de klant een Belgisch btw-nummer heeft
+en dat de factuur via Peppol hoort te vertrekken, daaronder Van, het e-mailadres van de klant bij Aan, het onderwerp, de
+tekst met het factuurnummer, het bedrag, de vervaldag en de mededeling, de bijlage factuur-F-2026-0001.pdf, en de knoppen Versturen en Annuleren.](../images/factuur-mail-venster.png)
+
+| Veld | Inhoud |
+|---|---|
+| **Van** | Het adres waarmee de mail vertrekt: de afzender van het mailsjabloon |
+| **Aan** | Het e-mailadres van de klant, dat u kunt wijzigen. Meerdere adressen scheidt u met een puntkomma: vanaf het tweede adres gaan ze in kopie |
+| **Onderwerp** en **Tekst** | Uit het mailsjabloon **Factuur naar de klant** of **Creditnota naar de klant** (zie [Mailsjablonen](../settings/mail-templates.md)), in de **documenttaal** van de klant. Nummer, bedrag, vervaldag en mededeling staan al ingevuld; bij een creditnota de factuur die ze rechtzet. Met **Tekst aanpassen** wijzigt u de tekst voor deze ene mail |
+| **Bijlage** | De factuur als pdf, dezelfde als in het afdrukvoorbeeld |
+
+Klik op **Versturen**. Daarna:
+
+- staat op de fiche onder **Verstuurd** de datum, *E-mail* en het adres. Mailt u de factuur later opnieuw, dan staat
+  daar de laatste keer;
+- staat de mail onder **Journaal** › **Mails**, en een kopie van de pdf bij de **Bijlagen**;
+- kan de factuur niet meer terug naar klad of geannuleerd worden: ze is vertrokken. Rechtzetten gaat met een creditnota.
+
+Lukt het versturen niet, bijvoorbeeld door een ongeldig e-mailadres, dan zegt Nimble waarom en blijft het venster open.
+
+!!! warning "Een klant met een Belgisch btw-nummer"
+    Heeft de klant een Belgisch btw-nummer, dan staat bovenaan het venster een waarschuwing: een factuur aan een
+    Belgische onderneming hoort via Peppol te vertrekken, en een gemailde pdf is geen geldige e-factuur. Versturen kan
+    wel, bijvoorbeeld als kopie voor de klant. Zie [Versturen via Peppol](#versturen-via-peppol).
 
 ### Markeren als verstuurd
 
-Klik op **Markeren als verstuurd**. In het venster vult u in:
+Is de factuur langs een andere weg vertrokken, kies dan **Meer…** → **Markeren als verstuurd**. In het venster vult u in:
 
 ![Het venster Markeren als verstuurd met de keuzelijst Langs welke weg op Afgedrukt en gepost, het veld Naar met een
 e-mailadres, de uitleg dat dit enkel opschrijft dát de factuur vertrokken is, en de knoppen Opschrijven en
@@ -303,7 +339,7 @@ bedrijfsfiche, dan kijkt Nimble bij het openen van het venster of de klant op Pe
 
 - **De klant staat op Peppol** en kan e-facturen (of creditnota's) ontvangen: de knop **Versturen via Peppol** werkt. Na een
   bevestiging vertrekt de factuur naar het boekhoudpakket van de klant. Dat kan niet ongedaan gemaakt worden.
-- **De klant staat niet op Peppol**, of kan dit soort document er niet ontvangen: mail de factuur.
+- **De klant staat niet op Peppol**, of kan dit soort document er niet ontvangen: [mail de factuur](#mailen-naar-de-klant).
 - **Geen Belgisch ondernemingsnummer:** Nimble verstuurt via Peppol enkel naar Belgische ondernemingen.
 - **Niet gecontroleerd:** ADM One antwoordde niet. Dat is iets anders dan "niet op Peppol"; probeer het later opnieuw.
 - **Factuur uit de vorige toepassing:** de gewone knop staat er niet. Zo'n factuur kan daar al via Peppol vertrokken zijn, en

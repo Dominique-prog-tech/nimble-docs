@@ -99,9 +99,10 @@ En haut figurent le numéro, le client, la date et le statut, et à droite le **
 facture émise porte la mention **verrouillée**, une note de crédit l'étiquette **Note de crédit** et une facture
 d'acompte l'étiquette **Acompte**.
 
-La fiche comporte les onglets **Général**, **Tâches**, **Notes**, **Pièces jointes**, **E-mails** et
-**Historique**. Le fonctionnement des cinq derniers est décrit dans [Travailler avec une fiche](../fiches.md).
-Sous **E-mails** figurent les [rappels](reminders.md) envoyés pour cette facture.
+La fiche comporte les onglets **Général** et **Journal**. Sous **Journal** se trouvent **Tâches**, **Notes**,
+**Pièces jointes**, **E-mails** et **Historique** ; leur fonctionnement est décrit dans
+[Travailler avec une fiche](../fiches.md). Sous **E-mails** figurent les e-mails par lesquels vous avez envoyé la
+facture au client et les [rappels](reminders.md) pour cette facture.
 
 ### Le bloc Données de la facture
 
@@ -188,17 +189,18 @@ Les boutons affichés dépendent du statut et de vos droits. De gauche à droite
 trouvent sous **Plus…**.
 
 ![La facture F-2026-0001, émise et verrouillée, avec en bas les boutons Aperçu avant impression, Facture électronique
-(Peppol), Enregistrer un paiement, Envoyée à nouveau et Plus…, et le menu Plus… ouvert sur Créer une note de
-crédit.](../images/factuur-knoppen-meer-fr.png)
+(Peppol), Envoyer au client, Enregistrer un paiement et Plus…, et le menu Plus… ouvert avec Envoyée à nouveau et Créer
+une note de crédit.](../images/factuur-knoppen-meer-fr.png)
 
 | Bouton | Quand | Ce qu'il fait |
 |---|---|---|
 | **Enregistrer** | Brouillon | Enregistre vos modifications |
 | **Aperçu avant impression** | Toujours, même sur un brouillon | Affiche la facture en PDF, telle que le client la reçoit |
 | **Facture électronique (Peppol)** | Dès que la facture a un numéro | Construit le fichier électronique |
+| **Envoyer au client** | Émise ou payée | Envoie la facture en pdf au client par e-mail. Voir [Envoyer au client](#envoyer-au-client) |
 | **Finaliser** | Brouillon | Attribue le numéro et met la facture sur Émise |
 | **Enregistrer un paiement** | Émise | Comptabilise une recette |
-| **Marquer comme envoyée** | Émise | Note que la facture est partie, et comment. Ensuite, le bouton s'appelle **Envoyée à nouveau** |
+| **Plus…** → **Marquer comme envoyée** | Émise | Note que la facture est partie par une autre voie, et laquelle. Ensuite, l'élément s'appelle **Envoyée à nouveau** |
 | **Plus…** → **Créer une note de crédit** | Facture numérotée | Crée une note de crédit pour cette facture |
 | **Plus…** → **TVA pour toutes les lignes…** | Brouillon | Applique un seul code TVA à toutes les lignes. Enregistrez ensuite pour le confirmer |
 | **Plus…** → **Garantie retenue…** | Émise | Définit, modifie ou supprime la garantie retenue par le client. Voir [Une garantie retenue](#une-garantie-retenue) |
@@ -271,13 +273,51 @@ Nimble refuse, en indiquant pourquoi, lorsque :
 
 ## Envoyer une facture
 
-Nimble n'envoie pas lui-même une facture par e-mail. L'envoi direct est possible via Peppol, vers une entreprise
-belge (voir [Envoyer via Peppol](#envoyer-via-peppol)) ; Nimble note alors lui-même qu'elle est partie. Sinon, vous
-transmettez la facture via l'aperçu avant impression ou la facture électronique, puis vous notez qu'elle est partie.
+Vous transmettez une facture ou une note de crédit de l'une de ces manières :
+
+- **Envoyer au client :** Nimble envoie le pdf par e-mail et note lui-même qu'elle est partie. Voir ci-dessous.
+- **Via Peppol**, vers une entreprise belge : voir [Envoyer via Peppol](#envoyer-via-peppol). Nimble le note alors aussi
+  lui-même.
+- **Par une autre voie**, par exemple imprimée et postée : notez ensuite qu'elle est partie, avec
+  [Marquer comme envoyée](#marquer-comme-envoyee).
+
+### Envoyer au client
+
+Cliquez sur **Envoyer au client**, en bas de la fiche ou dans l'aperçu avant impression. Le bouton apparaît sur une
+facture émise ou payée, pas sur un brouillon. Si vous avez modifié quelque chose sans enregistrer, Nimble vous demande
+d'enregistrer d'abord : le client reçoit le document tel qu'il est enregistré.
+
+![La fenêtre Envoyer la facture pour la facture F-2026-0001 : en haut l'avertissement que le client a un numéro de TVA
+belge et que la facture doit partir via Peppol, ensuite De, l'adresse e-mail du client dans À, l'objet et le texte en
+néerlandais, la langue des documents de ce client, avec le numéro de facture, le montant, l'échéance et la communication,
+la pièce jointe factuur-F-2026-0001.pdf, et les boutons Envoyer et Annuler.](../images/factuur-mail-venster-fr.png)
+
+| Champ | Contenu |
+|---|---|
+| **De** | L'adresse d'où part l'e-mail : l'expéditeur du modèle de mail |
+| **À** | L'adresse e-mail du client, que vous pouvez modifier. Séparez plusieurs adresses par un point-virgule : à partir de la deuxième, elles sont mises en copie |
+| **Objet** et **Texte** | Du modèle de mail **Facture au client** ou **Note de crédit au client** (voir [Modèles de mail](../settings/mail-templates.md)), dans la **langue des documents** du client. Le numéro, le montant, l'échéance et la communication sont déjà remplis ; pour une note de crédit, la facture qu'elle corrige. Avec **Modifier le texte**, vous adaptez le texte pour cet e-mail seulement |
+| **Pièce jointe** | La facture en pdf, la même que dans l'aperçu avant impression |
+
+Cliquez sur **Envoyer**. Ensuite :
+
+- la fiche affiche sous **Envoyée** la date, *E-mail* et l'adresse. Si vous renvoyez la facture plus tard, c'est la
+  dernière fois qui y figure ;
+- l'e-mail figure sous **Journal** › **E-mails**, et une copie du pdf dans les **Pièces jointes** ;
+- la facture ne peut plus repasser en brouillon ni être annulée : elle est partie. Pour la corriger, faites une note
+  de crédit.
+
+Si l'envoi échoue, par exemple à cause d'une adresse e-mail non valable, Nimble indique pourquoi et la fenêtre reste
+ouverte.
+
+!!! warning "Un client avec un numéro de TVA belge"
+    Si le client a un numéro de TVA belge, un avertissement apparaît en haut de la fenêtre : une facture à une
+    entreprise belge doit partir via Peppol, et un pdf envoyé par e-mail n'est pas une facture électronique valable.
+    L'envoi reste possible, par exemple comme copie pour le client. Voir [Envoyer via Peppol](#envoyer-via-peppol).
 
 ### Marquer comme envoyée
 
-Cliquez sur **Marquer comme envoyée**. Dans la fenêtre, complétez :
+Si la facture est partie par une autre voie, choisissez **Plus…** → **Marquer comme envoyée**. Dans la fenêtre, complétez :
 
 ![La fenêtre Marquer comme envoyée avec la liste Par quelle voie sur Imprimée et postée, le champ À avec une adresse
 e-mail, l'explication que ceci enregistre seulement que la facture est partie, et les boutons Enregistrer et
@@ -310,7 +350,7 @@ dans la fiche société, Nimble vérifie à l'ouverture de la fenêtre si le cli
 
 - **Le client est sur Peppol** et peut recevoir des factures électroniques (ou des notes de crédit) : le bouton **Envoyer via
   Peppol** fonctionne. Après confirmation, la facture part vers le logiciel comptable du client. Cela ne peut pas être annulé.
-- **Le client n'est pas sur Peppol**, ou ne peut pas y recevoir ce type de document : envoyez la facture par e-mail.
+- **Le client n'est pas sur Peppol**, ou ne peut pas y recevoir ce type de document : [envoyez la facture par e-mail](#envoyer-au-client).
 - **Pas de numéro d'entreprise belge :** Nimble n'envoie via Peppol qu'à des entreprises belges.
 - **Non vérifié :** ADM One n'a pas répondu. Ce n'est pas la même chose que « pas sur Peppol » ; réessayez plus tard.
 - **Facture de l'application précédente :** le bouton habituel n'y est pas. Une telle facture y est peut-être déjà partie via

@@ -1,6 +1,6 @@
 # Mailsjablonen
 
-Nimble verstuurt voor u de mail bij een offerte, de aanmaningen, de getekende werkbon en de melding van een toegewezen
+Nimble verstuurt voor u de mail bij een offerte, een factuur en een creditnota, de aanmaningen, de getekende werkbon en de melding van een toegewezen
 taak. Hier bepaalt u
 van welk adres die mails vertrekken, en per taal het onderwerp en de tekst.
 
@@ -17,13 +17,15 @@ U hebt er het recht *Documentsjablonen beheren* voor nodig.
 
 Bovenaan kiest u het **Sjabloon**:
 
-![De keuzelijst Sjabloon opengeklapt op het scherm Mailsjablonen: Offerte, Herinnering bij een offerte, Offerte ondertekenen (OKSign) en de vier sjablonen van de aanmaningen; Getekende werkbon en Taak toegewezen staan eronder, na het schuiven.](../images/mailsjabloon-keuze.png)
+![De keuzelijst Sjabloon opengeklapt op het scherm Mailsjablonen: Offerte, Herinnering bij een offerte, Offerte ondertekenen (OKSign), Factuur naar de klant, Creditnota naar de klant en de sjablonen van de aanmaningen; de andere staan eronder, na het schuiven.](../images/mailsjabloon-keuze.png)
 
 | Sjabloon | Waar het vertrekt |
 |---|---|
 | **Offerte** | Bij **Mailen** op een offerte |
 | **Herinnering bij een offerte** | Bij **Meer…** → **Herinnering sturen** op een verstuurde offerte — zie [De offerte opvolgen](../sales/quotes.md#een-opvolgtaak-en-een-herinnering). Zelfde variabelen als de offerte |
 | **Offerte ondertekenen (OKSign)** | Bij **Laten ondertekenen** op een offerte: de mail met de persoonlijke link om te tekenen — zie [De offerte laten ondertekenen](../sales/quotes.md#de-offerte-laten-ondertekenen) |
+| **Factuur naar de klant** | Bij **Mailen naar de klant** op een factuur: zie [Mailen naar de klant](../sales/invoices.md#mailen-naar-de-klant) |
+| **Creditnota naar de klant** | Bij **Mailen naar de klant** op een creditnota |
 | **Eerste aanmaning** | Bij **Versturen…** op het scherm Aanmaningen, voor de eerste stap |
 | **Tweede aanmaning** | Idem, voor de tweede stap |
 | **Laatste aanmaning** | Idem, voor de derde stap |
@@ -72,17 +74,17 @@ enkel de variabelen die in het gekozen sjabloon werken.
 
 | Variabele | Wat er in de mail komt | Sjablonen |
 |---|---|---|
-| `{{klant}}` | Naam van de klant | Offerte, offerte ondertekenen, aanmaningen, getekende werkbon, onderhoud, serviceverzoeken |
-| `{{nummer}}` | Nummer van de offerte, factuur of bestelling. Bij een prijsaanvraag: het nummer van uw offerte, uw referentie | Offerte, offerte ondertekenen, aanmaningen, bestelbon, prijsaanvraag |
-| `{{datum}}` | Datum van het document | Offerte, offerte ondertekenen, aanmaningen, getekende werkbon, bestelbon, prijsaanvraag |
+| `{{klant}}` | Naam van de klant | Offerte, offerte ondertekenen, factuur, creditnota, aanmaningen, getekende werkbon, onderhoud, serviceverzoeken |
+| `{{nummer}}` | Nummer van de offerte, factuur, creditnota of bestelling. Bij een prijsaanvraag: het nummer van uw offerte, uw referentie | Offerte, offerte ondertekenen, factuur, creditnota, aanmaningen, bestelbon, prijsaanvraag |
+| `{{datum}}` | Datum van het document | Offerte, offerte ondertekenen, factuur, creditnota, aanmaningen, getekende werkbon, bestelbon, prijsaanvraag |
 | `{{geldig_tot}}` | Geldig tot | Offerte, offerte ondertekenen |
-| `{{bedrag}}` | Bedrag | Offerte, offerte ondertekenen, aanmaningen |
-| `{{vervaldag}}` | Vervaldag | Aanmaningen |
+| `{{bedrag}}` | Bedrag. Bij een creditnota zonder minteken | Offerte, offerte ondertekenen, factuur, creditnota, aanmaningen |
+| `{{vervaldag}}` | Vervaldag | Factuur, aanmaningen |
 | `{{dagen_te_laat}}` | Dagen te laat | Aanmaningen |
 | `{{werkorder}}` | Werkorder | Getekende werkbon |
 | `{{project}}` | Project | Getekende werkbon, bestelbon, prijsaanvraag, onderhoud |
 | `{{getekend_door}}` | Wie tekende | Getekende werkbon |
-| `{{afzender}}` | Naam van wie verstuurt | Offerte, offerte ondertekenen, aanmaningen, getekende werkbon, bestelbon, prijsaanvraag |
+| `{{afzender}}` | Naam van wie verstuurt | Offerte, offerte ondertekenen, factuur, creditnota, aanmaningen, getekende werkbon, bestelbon, prijsaanvraag |
 | `{{bedrijf}}` | Uw bedrijfsnaam | Alle |
 | `{{online_link}}` | Een link naar de online offerte | Offerte |
 | `{{ontvanger}}` | Wie de taak krijgt | Taak toegewezen |
@@ -97,6 +99,8 @@ enkel de variabelen die in het gekozen sjabloon werken.
 | `{{teken_link}}` | De persoonlijke link om de offerte te ondertekenen | Offerte ondertekenen |
 | `{{leverancier}}` | Naam van de leverancier | Bestelbon, prijsaanvraag |
 | `{{leverdatum}}` | De gewenste leverdatum van de bestelling, of *in overleg* | Bestelbon |
+| `{{mededeling}}` | De gestructureerde mededeling voor de betaling, of het factuurnummer als er geen is | Factuur |
+| `{{bij_factuur}}` | De factuur die de creditnota rechtzet: haar nummer, of het nummer en de datum van een factuur buiten Nimble | Creditnota |
 | `{{antwoord_voor}}` | Tegen wanneer u het antwoord op de prijsaanvraag wilt | Prijsaanvraag |
 | `{{bezoek}}` | De omschrijving van het onderhoudsbezoek | Onderhoud |
 | `{{voorzien}}` | De dag waarop het bezoek voorzien is (nog niet ingepland) | Onderhoud komt eraan |
