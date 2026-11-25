@@ -263,7 +263,10 @@ Hier staat wat er klaar moet zijn vóór de werf start. Een nieuw project krijgt
 bedrijf, die u beheert op [Werfvoorbereiding](../administration/site-preparation.md); bij een bestaand project voegt u ze toe met **Standaardlijst toevoegen**.
 
 - Vink een punt af zodra het in orde is. Nimble noteert de datum.
-- Kies per punt een **Verantwoordelijke**: wie ervoor zorgt.
+- Kies per punt een **Verantwoordelijke**: wie ervoor zorgt. U kiest uit de gebruikers van uw bedrijf, zoals bij de
+  verantwoordelijke van het project. Die persoon ziet het punt ook bij zijn [taken](../crm/tasks.md).
+- Vul bij **Tegen** in tegen wanneer het klaar moet zijn. Dat kan op elk punt, ook achteraf: de punten uit de
+  standaardlijst komen binnen zonder datum. Met het kruisje in het veld wist u de datum weer.
 - Met **Punt toevoegen** zet u er een eigen punt bij, verplicht of niet. Met het rode ✕ schrapt u een punt
   dat voor dit project niet geldt.
 

@@ -271,7 +271,11 @@ Ici figure ce qui doit être prêt avant le début du chantier. Un nouveau proje
 votre entreprise, que vous gérez dans [Préparation du chantier](../administration/site-preparation.md) ; pour un projet existant, ajoutez-la avec **Ajouter la liste standard**.
 
 - Cochez un point dès qu'il est en ordre. Nimble note la date.
-- Choisissez pour chaque point un **Responsable** : la personne qui s'en charge.
+- Choisissez pour chaque point un **Responsable** : la personne qui s'en charge. Vous choisissez parmi les utilisateurs
+  de votre entreprise, comme pour le responsable du projet. Cette personne voit aussi le point dans ses
+  [tâches](../crm/tasks.fr.md).
+- Indiquez sous **Pour le** quand il doit être prêt. C'est possible sur chaque point, aussi après coup : les points
+  de la liste standard arrivent sans date. La croix dans le champ efface la date.
 - Avec **Ajouter un point**, vous ajoutez un point propre, obligatoire ou non. Le ✕ rouge supprime un point
   qui ne concerne pas ce projet.
 

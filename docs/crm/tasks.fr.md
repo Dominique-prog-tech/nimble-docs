@@ -97,6 +97,18 @@ Nimble crée certaines tâches lui-même.
 
 Voir [Leads](leads.fr.md) pour les détails.
 
+## Les points de la préparation du chantier
+
+Si vous êtes, sur un projet, le **Responsable** d'un point de l'onglet
+[Préparation](../work/projects.fr.md#onglet-preparation), ce point figure aussi dans cette liste. Sous **Rattachée à**,
+vous lisez *Préparation* avec le projet, la date **Pour le** figure sous **Échéance**, et **Priorité** indique
+*Obligatoire* si le point est nécessaire pour un chantier prêt à démarrer.
+
+- La coche termine le point, comme sur le projet même.
+- Double-cliquez sur le point pour ouvrir le projet sur l'onglet **Préparation**.
+- Un point sans responsable n'y figure pas. Tous les points ouverts ensemble se trouvent dans
+  [Points ouverts](../work/open-points.fr.md).
+
 !!! info "Jamais deux fois le même rappel"
     Si une telle tâche est déjà ouverte, il n'y en a pas de deuxième. Si vous la terminez et que le lead
     reste ensuite de nouveau en plan, une nouvelle tâche suit bien.
@@ -104,8 +116,9 @@ Voir [Leads](leads.fr.md) pour les détails.
 ## Le nombre près de Tâches dans la barre latérale
 
 Près de **Tâches** dans la barre latérale figure un nombre : vos tâches ouvertes qui arrivent à échéance aujourd'hui
-ou sont déjà échues, ou dont le rappel tombe aujourd'hui ou plus tôt. Seules les tâches qui vous sont attribuées
-comptent. Quand vous terminez une tâche, le nombre baisse aussitôt.
+ou sont déjà échues, ou dont le rappel tombe aujourd'hui ou plus tôt. Vos points ouverts de la préparation du chantier
+dont la date **Pour le** tombe aujourd'hui ou plus tôt comptent aussi. Seul ce qui vous est attribué compte. Quand
+vous terminez une tâche ou un point, le nombre baisse aussitôt.
 
 ## La cloche en haut
 

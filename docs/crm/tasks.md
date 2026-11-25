@@ -96,6 +96,18 @@ Sommige taken maakt Nimble zelf aan.
 
 Zie [Leads](leads.md) voor de details.
 
+## Punten van de werfvoorbereiding
+
+Bent u op een project de **Verantwoordelijke** van een punt op het tabblad
+[Voorbereiding](../work/projects.md#tabblad-voorbereiding), dan staat dat punt ook in deze lijst. Bij **Hangt aan**
+leest u *Voorbereiding* met het project, de datum **Tegen** staat bij **Vervaldag**, en bij **Prioriteit** staat
+*Verplicht* als het punt nodig is voor een startklare werf.
+
+- Met het vinkje vinkt u het punt af, zoals op het project zelf.
+- Dubbelklik op het punt om het project te openen op het tabblad **Voorbereiding**.
+- Een punt zonder verantwoordelijke staat hier niet. Alle open punten samen ziet u op
+  [Openstaande punten](../work/open-points.md).
+
 !!! info "Nooit twee keer dezelfde herinnering"
     Staat zo'n taak al open, dan komt er geen tweede bij. Werkt u ze af en blijft de lead daarna opnieuw
     liggen, dan volgt er wél een nieuwe.
@@ -103,8 +115,9 @@ Zie [Leads](leads.md) voor de details.
 ## Het getal bij Taken in de zijbalk
 
 Bij **Taken** in de zijbalk staat een getal: zoveel van uw open taken vervallen vandaag of zijn al vervallen, of
-hebben vandaag of eerder een herinnering. Enkel taken die aan u toegewezen zijn, tellen mee. Werkt u een taak af,
-dan zakt het getal meteen.
+hebben vandaag of eerder een herinnering. Ook uw open punten van de werfvoorbereiding met een datum **Tegen**
+vandaag of eerder tellen mee. Enkel wat aan u toegewezen is, telt mee. Werkt u een taak of een punt af, dan zakt het
+getal meteen.
 
 ## Het belletje bovenaan
 
