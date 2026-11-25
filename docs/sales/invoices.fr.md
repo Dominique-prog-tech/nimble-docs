@@ -240,6 +240,10 @@ message figure sur le document à la place du QR : complétez la fiche société
 Si elle n'a pas encore été envoyée au client, elle peut [repasser en brouillon](#repasser-une-facture-en-brouillon)
 pour être modifiée ; ensuite, une erreur se corrige par une note de crédit.
 
+**Enregistrez d'abord.** La finalisation reprend ce qui est enregistré. Si vous avez encore des modifications non
+enregistrées, par exemple une ligne que vous venez d'ajouter, Nimble vous demande d'enregistrer d'abord. Attention :
+l'**Aperçu avant impression** montre ce qui figure à l'écran, y compris ce qui n'est pas encore enregistré.
+
 Comme le numéro est définitif, Nimble demande d'abord une confirmation. La question indique le client et le
 montant, et précise ce qui est figé. La facture ne reçoit son numéro que lorsque vous cliquez à nouveau sur
 **Finaliser**. **Annuler** la laisse

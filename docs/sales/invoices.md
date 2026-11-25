@@ -236,6 +236,10 @@ ze **op slot**: velden en regels zijn niet aan te passen, en het nummer blijft v
 naar de klant, dan kan ze [terug naar klad](#een-factuur-terug-naar-klad-zetten) om aan te passen; daarna corrigeert
 u een fout met een creditnota.
 
+**Bewaar eerst.** Definitief maken neemt wat bewaard is. Heeft u nog wijzigingen die niet bewaard zijn, bijvoorbeeld
+een regel die u net toevoegde, dan vraagt Nimble om eerst te bewaren. Let op: het **Afdrukvoorbeeld** toont wat er op
+het scherm staat, ook wat nog niet bewaard is.
+
 Omdat het nummer vastligt, vraagt Nimble eerst om bevestiging. De vraag noemt de klant en het bedrag, en zegt wat
 er vastligt. Pas wanneer u daar opnieuw op **Definitief maken** klikt, krijgt de factuur haar nummer.
 
