@@ -240,7 +240,8 @@ Sous les blocs figure le détail :
   2 418,00 €)*.
 - **Total TVAC**.
 - En dessous, la mention légale liée à un code TVA, comme le texte en cas d'autoliquidation. Cette mention
-  figure aussi sur le document.
+  figure aussi sur le document. En cas d'autoliquidation, le devis porte la phrase courte ; la mention complète,
+  avec le délai de contestation, figure sur la facture.
 
 !!! info "Comment la TVA est calculée"
     Nimble calcule la TVA une fois par taux : sur la somme des lignes à ce taux, arrondie au cent. C'est aussi

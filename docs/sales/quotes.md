@@ -238,7 +238,8 @@ Onder de blokken staat de opsplitsing:
   € 2.418,00)*.
 - **Totaal incl. btw**.
 - Daaronder de wettelijke vermelding die bij een btw-code hoort, zoals de tekst bij verlegde btw. Die
-  vermelding staat ook op het document.
+  vermelding staat ook op het document. Bij verlegde btw staat op de offerte de korte zin; de volledige vermelding, met
+  de termijn om te betwisten, komt op de factuur.
 
 !!! info "Hoe de btw gerekend wordt"
     Nimble rekent de btw één keer per tarief: over de som van de regels aan dat tarief, afgerond op de cent.

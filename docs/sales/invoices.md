@@ -577,6 +577,11 @@ Een creditnota heft de factuur niet op en wordt **niet vanzelf** van haar openst
 factuur blijft haar volle bedrag tonen, en de creditnota toont een negatief openstaand bedrag. Zo ziet u dat
 er nog iets te regelen valt.
 
+Maakt u een creditnota definitief die bij een factuur hoort die nog openstaat, dan vraagt Nimble meteen of u ze
+ermee wilt verrekenen. Kiest u **Verrekenen**, dan registreert Nimble de verrekening op beide stukken (zie hieronder).
+Kiest u **Niet nu**, bijvoorbeeld omdat u de klant terugbetaalt, dan blijft alles zoals het was en kunt u later
+nog verrekenen.
+
 Zolang een creditnota niet verrekend is, staat ze onder het openstaande bedrag van de factuur, bijvoorbeeld
 *Creditnota CN-2026-0001 van € 1.445,84 is nog niet verrekend.* Klikt u **Betaling registreren**, dan stelt
 Nimble het openstaande bedrag **min** die creditnota voor: wat de klant nog werkelijk moet betalen.

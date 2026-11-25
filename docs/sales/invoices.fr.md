@@ -598,6 +598,11 @@ Une note de crédit n'annule pas la facture et n'est **pas déduite automatiquem
 facture continue d'afficher son montant complet, et la note de crédit un solde ouvert négatif. Vous voyez
 ainsi qu'il reste quelque chose à régler.
 
+Si vous rendez définitive une note de crédit liée à une facture encore ouverte, Nimble vous demande aussitôt si
+vous voulez la compenser. Choisissez **Compenser**, et Nimble enregistre la compensation sur les deux pièces (voir
+ci-dessous). Choisissez **Pas maintenant**, par exemple parce que vous remboursez le client : rien ne change et
+vous pourrez compenser plus tard.
+
 Tant qu'une note de crédit n'est pas compensée, elle figure sous le solde ouvert de la facture, par exemple
 *La note de crédit CN-2026-0001 de 1 445,84 € n'est pas encore compensée.* Si vous cliquez sur
 **Enregistrer un paiement**, Nimble propose le solde ouvert **moins** cette note de crédit : ce que le client
