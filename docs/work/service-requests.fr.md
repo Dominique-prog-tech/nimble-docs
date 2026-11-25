@@ -58,7 +58,7 @@ demande urgente aujourd'hui. Quand vous créez un ordre de travail ou clôturez 
 
 !!! info "La case Envoyer un accusé de réception"
     La case n'apparaît que si votre entreprise avertit le client de sa demande d'intervention, voir
-    [Suivi des leads, des devis, de l'entretien et des demandes d'intervention](../administration/lead-follow-up.md#demandes-dintervention). Elle est grisée s'il
+    [Suivi](../administration/lead-follow-up.md#demandes-dintervention). Elle est grisée s'il
     n'y a pas d'adresse e-mail : ni chez la personne de contact, ni chez le client. Celui qui téléphone a souvent déjà tout entendu :
     décochez-la alors.
 
@@ -131,7 +131,7 @@ La demande quitte le travail ouvert. **Rouvrir** la remet sur **Nouvelle**.
 ## Un signalement du portail
 
 Si **Les clients peuvent signaler une panne dans le portail** est activé dans
-[Suivi des leads, des devis, de l'entretien et des demandes d'intervention](../administration/lead-follow-up.md#demandes-dintervention),
+[Suivi](../administration/lead-follow-up.md#demandes-dintervention),
 un client qui a accès au [portail pour vos clients](../crm/portaal-voor-klanten.md#signaler-une-panne) signale lui-même une panne.
 La demande arrive comme une demande du bureau : avec le statut **Nouvelle** et la tâche **Traiter la demande d'intervention**, et
 avec :
@@ -150,7 +150,7 @@ Vous la traitez ensuite comme toute demande. Le client suit le statut dans le po
 ## Un signalement via l'autocollant QR
 
 Si **Toute personne disposant de l'autocollant peut signaler une panne** est activé dans
-[Suivi des leads, des devis, de l'entretien et des demandes d'intervention](../administration/lead-follow-up.md#demandes-dintervention),
+[Suivi](../administration/lead-follow-up.md#demandes-dintervention),
 le bouton **Signaler une panne** apparaît sur la page qui s'ouvre quand quelqu'un scanne avec son téléphone
 l'[autocollant QR](installations.md#lautocollant-qr) d'une installation. La personne qui signale ne doit pas se connecter : un locataire,
 le service de nettoyage ou le concierge peut aussi le faire. Elle remplit :
@@ -188,7 +188,7 @@ d'intervention** est activé.
 ## Avertir le client
 
 Si **Avertir le client de sa demande d'intervention** est activé dans
-[Suivi des leads, des devis, de l'entretien et des demandes d'intervention](../administration/lead-follow-up.md#demandes-dintervention), le client reçoit deux
+[Suivi](../administration/lead-follow-up.md#demandes-dintervention), le client reçoit deux
 e-mails :
 
 - l'**accusé de réception**, quand vous créez la demande et laissez la case cochée ;
@@ -215,6 +215,6 @@ textes dans [Modèles de mail](../settings/mail-templates.md).
 - [Ordres de travail](work-orders.md)
 - [Planning](planning.md)
 - [Installations](installations.md)
-- [Suivi des leads, des devis, de l'entretien et des demandes d'intervention](../administration/lead-follow-up.md)
+- [Suivi](../administration/lead-follow-up.md)
 - [Portail pour vos clients](../crm/portaal-voor-klanten.md#signaler-une-panne)
 - [Modèles de mail](../settings/mail-templates.md)

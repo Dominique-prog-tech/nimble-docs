@@ -5,7 +5,7 @@ Sous **Administration**, vous gérez aussi les listes de choix triables qui appa
 | Liste | Groupe | Utilisée pour |
 |---|---|---|
 | [Statuts de production](production-statuses.md) | Projets | L'avancement du travail d'un projet |
-| [Statuts pipeline](pipeline-statuses.md) | Projets | L'avancement de la vente d'un projet |
+| [Phases commerciales](pipeline-statuses.md) | Projets | L'avancement de la vente d'un projet |
 | [Types de projet](project-types.md) | Projets | Classification des projets (rénovation, neuf …) |
 | [Catégories client](account-categories.md) | Relations | Classification des clients (particulier, architecte …) |
 | [Fonctions de contact](contact-functions.md) | Relations | Titres de fonction sur les personnes de contact |

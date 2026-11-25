@@ -26,7 +26,7 @@ fichier. Si rien n'a été supprimé, la mention **La corbeille est vide.** s'af
 
 Relations, personnes de contact, leads, devis, factures de vente, commandes, factures d'achat, articles,
 projets, ordres de travail, bons de travail, collaborateurs et équipes — ainsi que les listes de choix de
-l'Administration : familles d'articles, unités, statuts de production, statuts pipeline, types de projet,
+l'Administration : familles d'articles, unités, statuts de production, phases commerciales, types de projet,
 catégories client, fonctions de contact, sources de leads, types de demande et codes TVA.
 
 Une [phase de lead](lead-status.md) que vous supprimez ne va **pas** dans la corbeille : elle disparaît

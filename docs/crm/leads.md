@@ -32,11 +32,11 @@ u hier als kolom — tenzij er nog een lead in die status staat.
   budget**. Draagt niemand in de kolom een budget, dan staat er **budget onbekend** in plaats van een
   bedrag.
 - Een kaart met een gele waarschuwing heeft aandacht nodig: de volgende actie is verlopen, of de
-  heractivatiedatum (On hold) is voorbij. Dit is puur visueel — er wordt niets extra opgeslagen.
+  heractivatiedatum (In de wacht) is voorbij. Dit is puur visueel — er wordt niets extra opgeslagen.
 - Klik op het info-icoon naast de titel voor een korte herinnering aan hoe het bord werkt.
 
-!!! warning "Verloren en On hold vragen een extra stap"
-    Een kaart naar **Verloren** slepen vraagt eerst een **verliesreden**; een kaart naar **On hold**
+!!! warning "Verloren en In de wacht vragen een extra stap"
+    Een kaart naar **Verloren** slepen vraagt eerst een **verliesreden**; een kaart naar **In de wacht**
     slepen vraagt een **heractivatiedatum**. Zonder die gegevens in te vullen, gaat de verplaatsing niet
     door — de kaart blijft in de kolom waar ze stond.
 
@@ -56,11 +56,11 @@ is er geen rail.
 ## De leadfiche
 
 Een klik op een kaart op het bord en een dubbelklik op een rij in de lijst openen dezelfde fiche — een
-eigen pagina met een eigen adres, die u kunt doorsturen. Links staat het tabblad **Fiche**, rechts staan
+eigen pagina met een eigen adres, die u kunt doorsturen. Links staat het tabblad **Algemeen**, rechts staan
 **Taken**, **Notities**, **Bijlagen** en **Logboek**. De knoppen onderaan horen bij de fiche; op een
 journaal-tabblad ziet u ze niet. Zie [Werken met een fiche](../fiches.md).
 
-Het tabblad **Fiche** is opgebouwd in vier blokken, in de volgorde waarin u de informatie doorgaans aan de
+Het tabblad **Algemeen** is opgebouwd in vier blokken, in de volgorde waarin u de informatie doorgaans aan de
 telefoon te horen krijgt.
 
 ### Blok Contact
@@ -107,7 +107,7 @@ Het adres van de lead staat in een eigen kaart: **Straat** en **Nr** links, **Po
 | **Leadnummer** | Laat u het leeg, dan krijgt de lead bij het bewaren het volgende nummer uit de reeks. Vult u zelf een nummer in, dan blijft dat staan |
 | **Volgende actie** / **Volgende actie tegen** | Wat de volgende stap is en tegen wanneer |
 | **Verliesreden** | Verschijnt en is **verplicht** zodra de status **Verloren** is |
-| **Heractivatiedatum** | Verschijnt en is **verplicht** zodra de fase *gepauzeerd* betekent (standaard: **On hold**) |
+| **Heractivatiedatum** | Verschijnt en is **verplicht** zodra de fase *gepauzeerd* betekent (standaard: **In de wacht**) |
 
 ![Het blok Opvolging van een verloren lead: de status staat op Verloren en de Verliesreden is zichtbaar.](../images/lead-blok-opvolging.png)
 
@@ -136,7 +136,7 @@ taken in het **Journaal** van de lead en in het scherm **Taken**.
 | Wanneer | Wat u krijgt |
 |---|---|
 | De **volgende actie** stond op een datum die voorbij is en de lead beweegt niet | Taak *"Volgende actie verlopen"* |
-| Een lead op **On hold** heeft zijn **heractivatiedatum** bereikt | Taak *"Lead weer oppakken"* |
+| Een lead op **In de wacht** heeft zijn **heractivatiedatum** bereikt | Taak *"Lead weer oppakken"* |
 | Er staat **geen volgende actie** gepland en er gebeurde al een tijd niets | Taak *"Lead ligt stil"* |
 
 De fase beslist, niet het omzetten: ook een lead die u al naar klant omzette, volgt Nimble op zolang zijn fase

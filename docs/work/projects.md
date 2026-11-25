@@ -12,7 +12,7 @@ Klik in de zijbalk op **Werk → Projecten**.
 
 ![De projectenlijst met de kolommen Nummer, Naam, Klant, Status, Verantwoordelijke, Startdatum, Einde en Productiestatus met een gekleurd blokje; rechts de dichtgeklapte lade Journaal.](../images/projecten-lijst.png)
 
-Standaard toont de lijst acht kolommen, zodat ze op een gewoon scherm past. **Projecttype**, **Pipeline-status**,
+Standaard toont de lijst acht kolommen, zodat ze op een gewoon scherm past. **Projecttype**, **Verkoopfase**,
 **Budget (excl. btw)**, **Besteld** en **Aangemaakt** zet u aan met **Kolommen kiezen** boven de lijst; Nimble onthoudt
 uw keuze.
 
@@ -21,17 +21,17 @@ uw keuze.
 | **Nummer** | Het projectnummer |
 | **Naam** | Waar het project over gaat |
 | **Klant** | De relatie waarvoor u werkt |
-| **Status** | **Actief**, **In wacht** of **Afgerond** |
+| **Status** | **Actief**, **In wacht** of **Afgewerkt** |
 | **Verantwoordelijke** | Wie het project opvolgt. Filter op uw eigen naam om uw projecten te zien |
 | **Startdatum** / **Einde** | Wanneer het werk loopt |
 | **Projecttype** | Wat voor werk het is, bijvoorbeeld Nieuwbouw |
 | **Productiestatus** | Waar het werk op de werf staat. Het gekleurde blokje ervoor is de kleur die uw bedrijf aan die status gaf |
-| **Pipeline-status** | Waar de zaak commercieel staat |
+| **Verkoopfase** | Waar de zaak commercieel staat |
 | **Budget (excl. btw)** | Het budget van het project, zonder btw. Leeg wanneer er geen budget is ingevuld |
 | **Besteld** | Het vinkje **Besteld** van de fiche. Filter erop om te zien welke projecten nog niet besteld zijn |
 | **Aangemaakt** | De dag waarop het project is aangemaakt. Sorteer erop om de jongste projecten bovenaan te zetten |
 
-**Projecttype**, **Productiestatus** en **Pipeline-status** verschijnen alleen wanneer uw bedrijf waarden in die
+**Projecttype**, **Productiestatus** en **Verkoopfase** verschijnen alleen wanneer uw bedrijf waarden in die
 keuzelijst heeft. Die lijsten
 beheert u onder **Platformbeheer**.
 
@@ -57,7 +57,7 @@ Met **Bord** naast de titel ziet u dezelfde projecten als kaarten, met een kolom
 ![Het projectbord: een kolom per productiestatus met het aantal projecten in de kop, en per project een kaart met de werfnaam, het projectnummer en de klant.](../images/projecten-bord.png)
 
 - De kolommen zijn de **productiestatussen** van uw bedrijf, in hun volgorde. Gebruikt uw bedrijf geen
-  productiestatus, dan toont het bord de **pipeline-status**. Projecten zonder status staan in de laatste kolom,
+  productiestatus, dan toont het bord de **verkoopfase**. Projecten zonder status staan in de laatste kolom,
   **Zonder status**.
 - Een kaart toont bovenaan de werfnaam (of, als die leeg is, de projectnaam), daaronder het projectnummer en de
   klant. Klik een kaart om het project te openen.
@@ -86,7 +86,7 @@ Onderaan staat de knoppenbalk: **Bewaren**, **Projectdossier**, **Annuleren** en
 
 ### Tabblad Algemeen
 
-![De projectfiche P2026-001 op het tabblad Algemeen: de kaart Algemeen met links nummer, naam, klant, verantwoordelijke en de datums, rechts status, productiestatus, projecttype, pipeline-status, budget en het vinkje Besteld, en de omschrijving over de volle breedte; daaronder de kaart Werf met werf, straat en werfcontact links en postcode, gemeente en land rechts.](../images/project-fiche.png)
+![De projectfiche P2026-001 op het tabblad Algemeen: de kaart Algemeen met links nummer, naam, klant, verantwoordelijke en de datums, rechts status, productiestatus, projecttype, verkoopfase, budget en het vinkje Besteld, en de omschrijving over de volle breedte; daaronder de kaart Werf met werf, straat en werfcontact links en postcode, gemeente en land rechts.](../images/project-fiche.png)
 
 De velden staan in twee kaarten: **Algemeen** en **Werf**.
 
@@ -97,10 +97,10 @@ De velden staan in twee kaarten: **Algemeen** en **Werf**.
 | **Klant** | De relatie waarvoor u werkt. Kies uit de lijst; met het kruisje maakt u het veld weer leeg. Met **Naar de klantfiche** eronder opent u de fiche van die klant |
 | **Verantwoordelijke** | Wie het project opvolgt. Kies uit de gebruikers van uw bedrijf. Dit is ook wie het dossier bij de overdracht overneemt |
 | **Omschrijving** | Ruimte voor wat er precies afgesproken is |
-| **Status** | Waar het project staat: **Actief**, **In wacht** of **Afgerond** |
+| **Status** | Waar het project staat: **Actief**, **In wacht** of **Afgewerkt** |
 | **Productiestatus** | Waar het werk staat op de werf, bijvoorbeeld **In uitvoering**. Dit staat los van de status |
 | **Projecttype** | Wat voor werk het is, bijvoorbeeld **Nieuwbouw** |
-| **Pipeline-status** | Waar de zaak commercieel staat — niet waar het werk staat |
+| **Verkoopfase** | Waar de zaak commercieel staat — niet waar het werk staat |
 | **Startdatum** / **Einddatum** | Wanneer het werk loopt |
 | **Budget (excl. btw)** | Het budget van het project, zonder btw. Laat het leeg wanneer er geen budget is |
 | **Besteld** | Vink aan wanneer het project besteld is |
@@ -109,7 +109,7 @@ De velden staan in twee kaarten: **Algemeen** en **Werf**.
 | **Land** | Het land van de werf. Typ een deel van de naam en kies uit de lijst |
 | **Werfcontact** | Het aanspreekpunt op de werf. Kies uit de contactpersonen van al uw relaties, dus ook van een architect of aannemer. Achter de naam staat bij welke relatie de persoon hoort |
 
-**Productiestatus**, **Projecttype** en **Pipeline-status** staan er alleen wanneer uw bedrijf waarden in
+**Productiestatus**, **Projecttype** en **Verkoopfase** staan er alleen wanneer uw bedrijf waarden in
 die keuzelijst heeft.
 
 Het werfadres is optioneel. Kiest u een **klant** terwijl het werfadres nog leeg is, dan neemt de fiche het adres

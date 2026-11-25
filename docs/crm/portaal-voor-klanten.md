@@ -112,7 +112,7 @@ bedrag. Enkel uitgereikte facturen staan erbij: geen klad en geen geannuleerde f
 ### Storing melden
 
 Staat **Klanten kunnen een storing melden in het portaal** aan op
-[Opvolging van leads, offertes, onderhoud en serviceverzoeken](../administration/lead-follow-up.md#serviceverzoeken), dan meldt uw
+[Opvolging](../administration/lead-follow-up.md#serviceverzoeken), dan meldt uw
 klant zelf een storing. Hij klikt op **Storing melden** bij een installatie op de projectpagina, of rechtsboven op **Mijn projecten** of
 **Mijn meldingen**.
 
@@ -180,8 +180,7 @@ ook niet als hij het adres van zo'n pagina zou kennen.
       komen.
     - **De klant ziet geen planning.** Op de bedrijfsfiche staat **Bouwheren zien in het klantenportaal wanneer er aan
       hun project gewerkt wordt** uit, of het project heeft geen geplande dag die nog komt of loopt.
-    - **De klant ziet geen knop Storing melden.** Het melden staat uit op Opvolging van leads, offertes, onderhoud en
-      serviceverzoeken. Staat het aan maar ontbreekt de link bij één installatie, dan is die installatie niet in gebruik.
+    - **De klant ziet geen knop Storing melden.** Het melden staat uit op Opvolging. Staat het aan maar ontbreekt de link bij één installatie, dan is die installatie niet in gebruik.
     - **De klant kan geen melding meer versturen.** Hij meldde de voorbije 24 uur al 10 storingen. Het portaal vraagt hem dan
       te bellen.
     - **Een e-mailadres van een collega gebruiken.** Op een adres waarop al een gebruiker van Nimble staat, kunt u geen

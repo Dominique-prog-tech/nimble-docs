@@ -5,7 +5,7 @@ Onder **Platformbeheer** beheert u ook de sorteerbare keuzelijsten die overal in
 | Lijst | Groep | Gebruikt bij |
 |---|---|---|
 | [Productiestatus](production-statuses.md) | Projecten | Hoever het werk van een project staat |
-| [Pipeline-status](pipeline-statuses.md) | Projecten | Hoever de verkoop van een project staat |
+| [Verkoopfases](pipeline-statuses.md) | Projecten | Hoever de verkoop van een project staat |
 | [Projecttypes](project-types.md) | Projecten | Indeling van projecten (renovatie, nieuwbouw …) |
 | [Klantcategorieën](account-categories.md) | Relaties | Indeling van klanten (particulier, architect …) |
 | [Contactfuncties](contact-functions.md) | Relaties | Functietitels op contactpersonen |

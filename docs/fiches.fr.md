@@ -40,7 +40,7 @@ Quitter quand même ? »* Avec **Rester**, vous restez sur la fiche et vos modif
 En haut de la fiche se trouvent deux groupes d'onglets.
 
 **À gauche**, les données de l'enregistrement lui-même. Sur la plupart des fiches il n'y en a qu'un,
-**Général** ou **Fiche**. Sur la fiche de relation il y en a davantage, avec **Personnes de contact**.
+**Général**. Sur la fiche de relation il y en a davantage, avec **Personnes de contact**.
 
 **À droite** figure l'onglet **Journal** : ce qui est rattaché à l'enregistrement. Quand vous cliquez dessus, une
 deuxième rangée d'onglets apparaît en dessous : **Tâches**, **Notes**, **Pièces jointes** et **Historique**, sur une
@@ -182,12 +182,12 @@ Les boutons se trouvent en bas à droite, dans cet ordre :
 S'il manque encore une donnée obligatoire lorsque vous cliquez sur **Enregistrer**, un message en haut de la
 fiche indique quel champ. Les champs obligatoires portent un astérisque rouge.
 
-!!! warning "Supprimer, c'est archiver"
-    Si vous cliquez sur **Supprimer**, la question « Archiver ? » apparaît, avec le nom de
-    l'enregistrement. Celui-ci disparaît de la liste et **reste conservé** ; vous le retrouvez dans la
+!!! warning "Supprimer envoie à la corbeille"
+    Si vous cliquez sur **Supprimer**, la question « Supprimer ? » apparaît, avec le nom de
+    l'enregistrement. Celui-ci disparaît de la liste et **reste conservé** ; vous le restaurez depuis la
     **Corbeille**.
 
-![La question de confirmation « Archiver ? » avec le nom de l'enregistrement.](images/fiche-archiveren-bevestiging-fr.png)
+![La question de confirmation « Supprimer ? » avec le nom de l'enregistrement et la phrase indiquant qu'il peut être restauré depuis la corbeille.](images/fiche-archiveren-bevestiging-fr.png)
 
 ## Qui peut modifier
 

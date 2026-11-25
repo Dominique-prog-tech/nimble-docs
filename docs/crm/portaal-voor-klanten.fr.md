@@ -115,7 +115,7 @@ exactement ce montant. Seules les factures émises y figurent : pas de brouillon
 ### Signaler une panne
 
 Si **Les clients peuvent signaler une panne dans le portail** est activé dans
-[Suivi des leads, des devis, de l'entretien et des demandes d'intervention](../administration/lead-follow-up.md#demandes-dintervention),
+[Suivi](../administration/lead-follow-up.md#demandes-dintervention),
 votre client signale lui-même une panne. Il clique sur **Signaler une panne** à côté d'une installation sur la page du projet, ou en haut à
 droite de **Mes projets** ou **Mes signalements**.
 
@@ -183,8 +183,7 @@ traite son signalement. Il ne voit pas non plus les projets d'un autre client, m
       ensuite dans un tel dossier.
     - **Le client ne voit pas de planning.** Sur la fiche entreprise, **Les maîtres d'ouvrage voient dans le portail client
       quand on travaille à leur projet** est désactivé, ou le projet n'a pas de jour planifié à venir ou en cours.
-    - **Le client ne voit pas de bouton Signaler une panne.** Le signalement est désactivé dans Suivi des leads, des devis, de
-      l'entretien et des demandes d'intervention. S'il est activé mais que le lien manque pour une installation, cette installation n'est pas
+    - **Le client ne voit pas de bouton Signaler une panne.** Le signalement est désactivé dans Suivi. S'il est activé mais que le lien manque pour une installation, cette installation n'est pas
       en service.
     - **Le client ne peut plus envoyer de signalement.** Il a déjà signalé 10 pannes au cours des dernières 24 heures. Le portail
       lui demande alors de téléphoner.

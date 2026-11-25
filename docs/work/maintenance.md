@@ -12,7 +12,7 @@ technieker vinkt op de werkbon per installatie af wat hij nakeek.
 3. Valt het volgende bezoek binnen de termijn, dan zet Nimble 's ochtends een **werkorder** klaar bij **Nog in te plannen** op het
    [planbord](planning.md), met een taak voor de verantwoordelijke van het project.
 4. U plant de werkorder in. De technieker vult de **werkbon** in, met op het tabblad **Installaties** de controle per installatie.
-5. Zegt de werkbon **Klaar**, dan schuift het volgende bezoek op, gerekend vanaf de dag van het bezoek.
+5. Zegt de werkbon **Afgewerkt**, dan schuift het volgende bezoek op, gerekend vanaf de dag van het bezoek.
 
 ## Het scherm openen
 
@@ -122,7 +122,7 @@ daarna de andere van dezelfde klant, met hun serienummer en locatie.
 ## Hoe een bezoek klaargezet wordt
 
 Elke ochtend kijkt Nimble welke bezoeken binnen de termijn vallen. Standaard is dat **30 dagen**; u stelt het in bij
-[Opvolging van leads, offertes, onderhoud en serviceverzoeken](../administration/lead-follow-up.md#onderhoudscontracten).
+[Opvolging](../administration/lead-follow-up.md#onderhoudscontracten).
 
 Voor elk bezoek dat aan de beurt is, komt er:
 
@@ -130,7 +130,7 @@ Voor elk bezoek dat aan de beurt is, komt er:
   de omschrijving;
 - een taak *Onderhoud inplannen* voor de verantwoordelijke van het project.
 
-Op de [werkbon](work-sheets.md#installaties) van die werkorder vinkt de technieker per installatie de punten af. Zegt de werkbon **Klaar**,
+Op de [werkbon](work-sheets.md#installaties) van die werkorder vinkt de technieker per installatie de punten af. Zegt de werkbon **Afgewerkt**,
 dan noteert Nimble het bezoek als laatste bezoek en schuift het volgende op met het interval.
 
 ## De klant verwittigen
@@ -163,4 +163,4 @@ staat onder **Journaal** › **Mails** van het project.
 - [Projecten](projects.md)
 - [Planning](planning.md)
 - [Werkbonnen](work-sheets.md)
-- [Opvolging van leads, offertes, onderhoud en serviceverzoeken](../administration/lead-follow-up.md)
+- [Opvolging](../administration/lead-follow-up.md)

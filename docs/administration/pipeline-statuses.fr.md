@@ -1,23 +1,23 @@
-# Statut pipeline
+# Phases commerciales
 
-Le **statut pipeline** indique où en est une affaire sur le plan commercial : prospection, devis envoyé,
+La **phase commerciale** indique où en est une affaire sur le plan commercial : prospection, devis envoyé,
 en suivi, attribué … Vous déterminez vous-même les étapes que parcourt votre processus de vente.
 
 ## Ouvrir l'écran
 
 1. Cliquez en bas de la barre latérale sur **Administration**.
-2. Cliquez dans le groupe **Projets** sur la tuile **Statuts pipeline**.
+2. Cliquez dans le groupe **Projets** sur la tuile **Phases commerciales**.
 
-![La liste des statuts pipeline.](../images/pipeline-status-lijst-fr.png)
+![La liste des phases commerciales.](../images/pipeline-status-lijst-fr.png)
 
-## Statut pipeline ou statut de production ?
+## Phase commerciale ou statut de production ?
 
 Deux listes qui se ressemblent, mais qui disent autre chose :
 
 | | Indique | Exemple |
 |---|---|---|
 | **Statut de production** | l'avancement du **travail** | en attente de matériel, en cours |
-| **Statut pipeline** | l'avancement de la **vente** | devis envoyé, attribué |
+| **Phase commerciale** | l'avancement de la **vente** | devis envoyé, attribué |
 
 Un projet peut être attribué et encore en préparation. Ce sont donc deux champs distincts, et toutes les
 entreprises n'utilisent pas les deux.
@@ -43,7 +43,7 @@ Cliquez sur **Nouvelle valeur**, ou double-cliquez sur une ligne existante. Une 
 
 ## Et si vous n'utilisez pas cette liste ?
 
-Si vous laissez la liste vide, le **champ Statut pipeline disparaît** de la fiche projet et de la liste des
+Si vous laissez la liste vide, le **champ Phase commerciale disparaît** de la fiche projet et de la liste des
 projets. Il n'y a rien à désactiver : c'est la liste elle-même qui détermine si le champ est là.
 
 L'inverse est vrai aussi. Si vous ajoutez plus tard une première étape, le champ réapparaît

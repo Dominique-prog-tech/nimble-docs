@@ -130,6 +130,6 @@ Leur fiche le dit aussi : **Phase standard : vous pouvez la renommer et la masqu
 ## Voir aussi
 
 - [Administration](platform-management.md)
-- [Suivi des leads](lead-follow-up.md)
+- [Suivi](lead-follow-up.md)
 - [Sources de leads](lead-sources.md)
 - [Leads](../crm/leads.md)

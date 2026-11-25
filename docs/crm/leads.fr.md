@@ -58,11 +58,11 @@ Le tableau n'a pas de rail.
 ## La fiche du lead
 
 Un clic sur une carte du tableau et un double-clic sur une ligne de la liste ouvrent la même fiche — une
-page à part entière, avec sa propre adresse, que vous pouvez transmettre. À gauche l'onglet **Fiche**, à
+page à part entière, avec sa propre adresse, que vous pouvez transmettre. À gauche l'onglet **Général**, à
 droite **Tâches**, **Notes**, **Pièces jointes** et **Historique**. Les boutons du bas appartiennent à la fiche ; sur un
 onglet du journal, ils ne s'affichent pas. Voir [Travailler avec une fiche](../fiches.md).
 
-L'onglet **Fiche** est structuré en quatre blocs, dans l'ordre où vous recevez généralement ces
+L'onglet **Général** est structuré en quatre blocs, dans l'ordre où vous recevez généralement ces
 informations au téléphone.
 
 ### Bloc Contact

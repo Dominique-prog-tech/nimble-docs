@@ -38,8 +38,7 @@ dan vraagt uw browser het.
 
 Bovenaan de fiche staan twee groepen tabbladen.
 
-**Links** staan de gegevens van het record zelf. Op de meeste fiches is dat er één, **Algemeen** of
-**Fiche**. Op de relatiefiche staan er meer, met **Contactpersonen** erbij.
+**Links** staan de gegevens van het record zelf. Op de meeste fiches is dat er één, **Algemeen**. Op de relatiefiche staan er meer, met **Contactpersonen** erbij.
 
 **Rechts** staat het tabblad **Journaal**: wat aan het record hangt. Klikt u erop, dan verschijnt eronder een
 tweede rij tabbladen: **Taken**, **Notities**, **Bijlagen** en **Logboek**, op een relatie, een project, een
@@ -176,11 +175,11 @@ De knoppen staan onderaan rechts, in deze volgorde:
 Ontbreekt er nog iets verplichts wanneer u op **Bewaren** klikt, dan verschijnt bovenaan de fiche een melding
 die zegt welk veld. Verplichte velden herkent u aan het rode sterretje.
 
-!!! warning "Verwijderen is archiveren"
-    Klikt u op **Verwijderen**, dan verschijnt de vraag *"Archiveren?"* met de naam van het record erbij.
-    Het verdwijnt uit de lijst en **blijft bewaard**; u vindt het terug in de **Prullenbak**.
+!!! warning "Verwijderen gaat naar de prullenbak"
+    Klikt u op **Verwijderen**, dan verschijnt de vraag *"Verwijderen?"* met de naam van het record erbij. Het
+    verdwijnt uit de lijst en **blijft bewaard**; u haalt het terug uit de **Prullenbak**.
 
-![De bevestigingsvraag Archiveren? met de naam van het record erin.](images/fiche-archiveren-bevestiging.png)
+![De bevestigingsvraag Verwijderen? met de naam van het record en de zin dat herstellen kan vanuit de prullenbak.](images/fiche-archiveren-bevestiging.png)
 
 ## Wie mag wijzigen
 

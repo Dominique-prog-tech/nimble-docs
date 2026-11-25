@@ -53,7 +53,7 @@ Les éléments comprennent notamment la fiche d'entreprise, les relations avec l
 contact, les fonctions de contact, les tâches, rendez-vous et notes, les groupes d'articles et les articles avec leur fournisseur, leur fabricant et leur code EAN,
 les codes TVA, les devis et leurs lignes, les factures et leurs lignes, les états d'avancement, les factures
 d'achat, les projets avec leurs phases, matériaux et articles, les équipes, et les listes de choix statuts de
-production, statuts pipeline et types de projet.
+production, phases commerciales et types de projet.
 
 !!! tip "Répétable"
     Vous pouvez relancer la conversion, par exemple après de nouvelles données dans Firebird. Aucun doublon

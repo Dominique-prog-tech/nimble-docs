@@ -15,15 +15,14 @@ vous rouvrez l'écran plus tard, il se présente dans la vue que vous avez utili
 ### Liste
 
 ![La liste des devis avec les colonnes Numéro, Client, Date, Valable jusqu'au, Montant et Statut. Deux devis
-envoyés ont dépassé leur date de validité : la colonne Valable jusqu'au indique en rouge depuis combien de
-temps.](../images/offertes-lijst-fr.png)
+envoyés ont dépassé leur date de validité : la colonne Valable jusqu'au indique Échu en rouge.](../images/offertes-lijst-fr.png)
 
 | Colonne | Ce que vous voyez |
 |---|---|
 | **Numéro** | Le numéro du devis. Les variantes et versions portent un suffixe, comme `-A` ou `-v2` |
 | **Client** | Pour qui est le devis |
 | **Date** | La date de la proposition |
-| **Valable jusqu'au** | Jusqu'à quand le prix s'applique. Si un devis envoyé a dépassé cette date, la durée du dépassement s'affiche en rouge — *10 jours*, *2 mois* |
+| **Valable jusqu'au** | Jusqu'à quand le prix s'applique. Si un devis envoyé a dépassé cette date, **Échu** s'affiche en rouge. En pointant dessus, vous voyez depuis quand, par exemple *Échu depuis 10 jours* |
 | **Montant** | Le total TVA comprise |
 | **Statut** | Brouillon, Envoyé, Accepté, Refusé ou Remplacé |
 
@@ -521,7 +520,7 @@ modifiez le devis, il ne correspond en effet plus à ce que le client a reçu. V
 Si le suivi des devis est activé, Nimble crée la nuit une tâche **Suivre le devis** pour la personne qui l'a envoyé par e-mail ou passé sur Envoyé, dès qu'un devis
 reste une semaine sur **Envoyé** sans réponse. Par défaut, il est désactivé. La tâche figure sous **Journal** › **Tâches** du devis et dans votre [liste de tâches](../crm/tasks.md). Si vous
 renvoyez le devis, le compte recommence. L'activation, et après combien de jours, se règlent dans
-[Suivi des leads et des devis](../administration/lead-follow-up.md).
+[Suivi](../administration/lead-follow-up.md).
 
 Nimble n'envoie rien au client. Pour lui rappeler le devis, cliquez sur **Plus…** → **Envoyer un rappel**. La fenêtre d'envoi s'ouvre
 avec le texte du rappel et le devis en pièce jointe ; adaptez le texte et cliquez sur **Envoyer**. Ce texte se règle dans

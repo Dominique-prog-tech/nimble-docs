@@ -15,14 +15,14 @@ scherm later opnieuw, dan staat het op de weergave die u het laatst gebruikte.
 ### Lijst
 
 ![De offertelijst met de kolommen Nummer, Klant, Datum, Geldig tot, Bedrag en Status. Twee verstuurde
-offertes zijn over hun geldigheidsdatum: de kolom Geldig tot toont in het rood hoelang al.](../images/offertes-lijst.png)
+offertes zijn over hun geldigheidsdatum: de kolom Geldig tot toont in het rood Verlopen.](../images/offertes-lijst.png)
 
 | Kolom | Wat u ziet |
 |---|---|
 | **Nummer** | Het offertenummer. Varianten en versies dragen een achtervoegsel, zoals `-A` of `-v2` |
 | **Klant** | Voor wie de offerte is |
 | **Datum** | De datum van het voorstel |
-| **Geldig tot** | Tot wanneer de prijs geldt. Is een verstuurde offerte over die datum, dan staat er in het rood hoelang al — *10 dagen*, *2 maanden* |
+| **Geldig tot** | Tot wanneer de prijs geldt. Is een verstuurde offerte over die datum, dan staat er in het rood **Verlopen**. Wijst u ernaar, dan ziet u hoelang al, bijvoorbeeld *Verlopen sinds 10 dagen* |
 | **Bedrag** | Het totaal inclusief btw |
 | **Status** | Klad, Verstuurd, Aanvaard, Geweigerd of Vervangen |
 
@@ -510,7 +510,7 @@ de offerte aan, dan klopt ze immers niet meer met wat de klant kreeg. U kiest:
 Staat de offerteopvolging aan, dan maakt Nimble 's nachts een taak **Offerte opvolgen** voor wie de offerte mailde of op Verstuurd zette, zodra een
 offerte een week op **Verstuurd** staat zonder antwoord. Standaard staat ze uit. De taak staat onder **Journaal** › **Taken** van de offerte en in uw [takenlijst](../crm/tasks.md). Mailt u de
 offerte opnieuw, dan begint de telling opnieuw. Aanzetten, en na hoeveel dagen, doet u bij
-[Opvolging van leads en offertes](../administration/lead-follow-up.md).
+[Opvolging](../administration/lead-follow-up.md).
 
 Nimble stuurt de klant zelf niets. Wilt u hem herinneren, klik dan **Meer…** → **Herinnering sturen**. Het verzendvenster opent
 met de tekst van de herinnering en de offerte als bijlage; u past de tekst aan en klikt **Versturen**. Die tekst stelt u in bij

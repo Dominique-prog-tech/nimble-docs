@@ -1,4 +1,4 @@
-# Opvolging van leads, offertes, onderhoud en serviceverzoeken
+# Opvolging
 
 Elke ochtend kijkt Nimble na welke leads blijven liggen en welke verstuurde offertes nog geen antwoord hebben, en
 maakt daar een taak van. Dezelfde ronde zet het volgende onderhoudsbezoek klaar. Op dit scherm bepaalt u wanneer dat
@@ -7,9 +7,9 @@ gebeurt, en hoe serviceverzoeken binnenkomen.
 ## Het scherm openen
 
 1. Klik onderaan in de zijbalk op **Platformbeheer**.
-2. Klik in de groep **Leads** op de tegel **Opvolging van leads, offertes, onderhoud en serviceverzoeken**.
+2. Klik in de groep **Leads** op de tegel **Opvolging**.
 
-![Het instellingenscherm Opvolging van leads, offertes, onderhoud en serviceverzoeken met het vinkje Automatische opvolging aan, het veld Stil na (dagen), het blok Verstuurde offertes met Offertes zonder antwoord opvolgen en Opvolgen na (dagen), het blok Onderhoudscontracten met Klaarzetten (dagen vooraf) en het vinkje De klant verwittigen over zijn onderhoudsbezoek, het blok Serviceverzoeken met Projecttype voor een nieuw project en het vinkje De klant verwittigen over zijn serviceverzoek, het vinkje Klanten kunnen een storing melden in het portaal, het vinkje Iedereen met de sticker kan een storing melden en het veld Verantwoordelijke voor verzoeken uit het portaal en via de sticker, en de knoppen Bewaren en Opvolging nu draaien.](../images/leadopvolging-scherm.png)
+![Het instellingenscherm Opvolging met het vinkje Automatische opvolging aan, het veld Stil na (dagen), het blok Verstuurde offertes met Offertes zonder antwoord opvolgen en Opvolgen na (dagen), het blok Onderhoudscontracten met Klaarzetten (dagen vooraf) en het vinkje De klant verwittigen over zijn onderhoudsbezoek, het blok Serviceverzoeken met Projecttype voor een nieuw project en het vinkje De klant verwittigen over zijn serviceverzoek, het vinkje Klanten kunnen een storing melden in het portaal, het vinkje Iedereen met de sticker kan een storing melden en het veld Verantwoordelijke voor verzoeken uit het portaal en via de sticker, en de knoppen Bewaren en Opvolging nu draaien.](../images/leadopvolging-scherm.png)
 
 ## De drie regels
 

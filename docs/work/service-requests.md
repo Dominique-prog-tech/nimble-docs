@@ -57,7 +57,7 @@ vandaag. Maakt u een werkorder of sluit u het verzoek af zonder bezoek, dan vink
 
 !!! info "Het vinkje Ontvangstbevestiging mailen"
     Het vinkje staat er enkel als uw bedrijf de klant verwittigt over zijn serviceverzoek, zie
-    [Opvolging van leads, offertes, onderhoud en serviceverzoeken](../administration/lead-follow-up.md#serviceverzoeken). Het is grijs als er geen
+    [Opvolging](../administration/lead-follow-up.md#serviceverzoeken). Het is grijs als er geen
     e-mailadres is: niet bij de contactpersoon en niet bij de klant. Wie belt, heeft vaak al alles gehoord: vink het dan uit.
 
 ## De fiche
@@ -127,7 +127,7 @@ Het verzoek verdwijnt uit het open werk. **Heropenen** zet het terug op **Nieuw*
 ## Een melding uit het portaal
 
 Staat **Klanten kunnen een storing melden in het portaal** aan bij
-[Opvolging van leads, offertes, onderhoud en serviceverzoeken](../administration/lead-follow-up.md#serviceverzoeken), dan meldt een
+[Opvolging](../administration/lead-follow-up.md#serviceverzoeken), dan meldt een
 klant met toegang tot het [portaal voor uw klanten](../crm/portaal-voor-klanten.md#storing-melden) zelf een storing. Het verzoek komt
 binnen zoals een verzoek van kantoor: met de status **Nieuw** en de taak **Serviceverzoek behandelen**, en met:
 
@@ -145,7 +145,7 @@ U behandelt het verder zoals elk verzoek. De klant volgt de status in het portaa
 ## Een melding via de QR-sticker
 
 Staat **Iedereen met de sticker kan een storing melden** aan bij
-[Opvolging van leads, offertes, onderhoud en serviceverzoeken](../administration/lead-follow-up.md#serviceverzoeken), dan staat de
+[Opvolging](../administration/lead-follow-up.md#serviceverzoeken), dan staat de
 knop **Storing melden** op de pagina die opent wanneer iemand de [QR-sticker](installations.md#de-qr-sticker) van een installatie scant
 met zijn gsm. Wie meldt, hoeft niet aan te melden: een huurder, de poetsdienst of de conciërge kan het ook. Hij vult in:
 
@@ -181,7 +181,7 @@ staat.
 ## De klant verwittigen
 
 Staat **De klant verwittigen over zijn serviceverzoek** aan bij
-[Opvolging van leads, offertes, onderhoud en serviceverzoeken](../administration/lead-follow-up.md#serviceverzoeken), dan krijgt de klant twee mails:
+[Opvolging](../administration/lead-follow-up.md#serviceverzoeken), dan krijgt de klant twee mails:
 
 - de **ontvangstbevestiging**, wanneer u het verzoek maakt en het vinkje aanlaat;
 - een **bevestiging van de dag**, zodra de werkorder een dag heeft op het planbord, en opnieuw als die dag verschuift.
@@ -206,6 +206,6 @@ De mail gaat naar de contactpersoon, anders naar de melder, anders naar de klant
 - [Werkorders](work-orders.md)
 - [Planning](planning.md)
 - [Installaties](installations.md)
-- [Opvolging van leads, offertes, onderhoud en serviceverzoeken](../administration/lead-follow-up.md)
+- [Opvolging](../administration/lead-follow-up.md)
 - [Portaal voor uw klanten](../crm/portaal-voor-klanten.md#storing-melden)
 - [Mailsjablonen](../settings/mail-templates.md)

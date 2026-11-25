@@ -21,7 +21,7 @@ altijd bij een werkorder.
 | **Datum** | De werkdag |
 | **Werkorder** | De opdracht waar deze dag onder valt |
 | **Uren** | Het totaal van alle medewerkers op die dag |
-| **Einde van de dag** | Op schema · Achterstand · Onderbroken · Klaar |
+| **Einde van de dag** | Op schema · Achterstand · Onderbroken · Afgewerkt |
 | **Meerwerk** | Toont **ja** wanneer de ploeg extra werk vastgesteld heeft |
 | **Omschrijving** | Het dagrapport in het kort |
 
@@ -140,7 +140,7 @@ nacalculatie en gaat bij facturatie in regie naar het artikel voor reistijd.
 | **Op schema** | Het werk vordert zoals gepland |
 | **Achterstand** | Er is gewerkt, maar er zijn meer dagen nodig dan voorzien |
 | **Onderbroken** | De werf ligt stil — weer, materiaal, toegang of een beslissing van de klant |
-| **Klaar** | Alles is af; de werf kan opgeleverd worden |
+| **Afgewerkt** | Alles is af; de werf kan opgeleverd worden |
 
 **Verwachte vervolgactie** is wat er morgen moet gebeuren. Vul dat in bij achterstand of onderbreking —
 het is wat de volgende ploeg als eerste leest.

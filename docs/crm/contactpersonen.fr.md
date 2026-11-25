@@ -19,7 +19,7 @@ Cliquez sur **CRM → Personnes de contact** dans la barre latérale.
 | **Fonction** | Le titre de fonction, issu de la liste [Fonctions de contact](../administration/contact-functions.fr.md) |
 | **Relations** | Toutes les relations auxquelles cette personne est liée |
 | **E-mail** | L'adresse personnelle |
-| **GSM** et **Téléphone** | Les numéros |
+| **Téléphone** et **GSM** | Les numéros |
 | **Langue** | La langue de cette personne |
 
 ![Le journal ouvert à côté de la liste des contacts.](../images/contactenlijst-rail-fr.png)
@@ -59,7 +59,7 @@ personne : **Tâches**, **Notes**, **Pièces jointes** et **Historique** — voi
 | Champ | Explication |
 |---|---|
 | **E-mail** | Optionnel, mais s'il est rempli, il doit être valide — le message apparaît pendant la saisie. |
-| **GSM** et **Téléphone** | Optionnels, mais s'ils sont remplis, il doit s'agir d'un numéro de téléphone valide. Le GSM figure en premier, car c'est en pratique le numéro qui est renseigné. |
+| **Téléphone** et **GSM** | Optionnels, mais s'ils sont remplis, il doit s'agir d'un numéro de téléphone valide. |
 | **Langue** | Pour une nouvelle personne, la langue de votre entreprise est déjà proposée. |
 
 ### Bloc Adresse privée

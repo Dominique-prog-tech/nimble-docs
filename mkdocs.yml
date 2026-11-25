@@ -205,7 +205,7 @@ plugins:
             Types aanvraag: Types de demande
             Leadstatus: Statut de lead
             Leadfases: Phases de lead
-            Leadopvolging: Suivi des leads
+            Opvolging: Suivi
             Taken: Tâches
             Bijlagen: Pièces jointes
             Notities: Notes
@@ -223,7 +223,7 @@ plugins:
             Serviceverzoeken: Demandes d'intervention
             Standaardmappen: Dossiers standard
             Werfvoorbereiding: Préparation du chantier
-            Pipeline-status: Statut pipeline
+            Verkoopfases: Phases commerciales
             Werk: Travail
             Projecten: Projets
             Werkorders: Ordres de travail
@@ -357,14 +357,14 @@ nav:
     - Soorten installatie: administration/installation-types.md
     - Werfvoorbereiding: administration/site-preparation.md
     - Standaardmappen: administration/default-folders.md
-    - Pipeline-status: administration/pipeline-statuses.md
+    - Verkoopfases: administration/pipeline-statuses.md
     - Klantcategorieën: administration/account-categories.md
     - Contactfuncties: administration/contact-functions.md
     - Aansprekingen: administration/contact-salutations.md
     - Leadbronnen: administration/lead-sources.md
     - Types aanvraag: administration/lead-request-types.md
     - Leadfases: administration/lead-status.md
-    - Leadopvolging: administration/lead-follow-up.md
+    - Opvolging: administration/lead-follow-up.md
     - Btw-codes: administration/vat-codes.md
     - Offertestatus: administration/quote-status.md
     - Factuurstatus: administration/invoice-status.md

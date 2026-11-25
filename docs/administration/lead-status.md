@@ -126,6 +126,6 @@ zegt dat ook: **Standaardfase: u kunt ze hernoemen en verbergen, maar niet verwi
 ## Zie ook
 
 - [Platformbeheer](platform-management.md)
-- [Leadopvolging](lead-follow-up.md)
+- [Opvolging](lead-follow-up.md)
 - [Leadbronnen](lead-sources.md)
 - [Leads](../crm/leads.md)

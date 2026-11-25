@@ -19,7 +19,7 @@ Klik in de zijbalk op **CRM → Contactpersonen**.
 | **Functie** | De functietitel, uit de lijst [Contactfuncties](../administration/contact-functions.md) |
 | **Relaties** | Alle relaties waar deze persoon aan hangt |
 | **E-mail** | Het persoonlijke adres |
-| **Gsm** en **Telefoon** | De nummers |
+| **Telefoon** en **Gsm** | De nummers |
 | **Taal** | De taal van deze persoon |
 
 ![De journaalrail open naast de contactenlijst.](../images/contactenlijst-rail.png)
@@ -58,7 +58,7 @@ Links staat het tabblad **Algemeen** met de blokken hieronder. Rechts staat het 
 | Veld | Uitleg |
 |---|---|
 | **E-mail** | Optioneel, maar ingevuld moet het geldig zijn — u ziet de melding tijdens het typen. |
-| **Gsm** en **Telefoon** | Optioneel, maar ingevuld moet het een geldig telefoonnummer zijn. Gsm staat eerst, omdat dat in de praktijk het nummer is dat ingevuld raakt. |
+| **Telefoon** en **Gsm** | Optioneel, maar ingevuld moet het een geldig telefoonnummer zijn. |
 | **Taal** | Bij een nieuwe persoon staat de taal van uw bedrijf al voorgesteld. |
 
 ### Blok Privéadres

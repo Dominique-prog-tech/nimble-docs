@@ -1,4 +1,4 @@
-# Suivi des leads, des devis, de l'entretien et des demandes d'intervention
+# Suivi
 
 Chaque matin, Nimble vérifie quels leads restent en plan et quels devis envoyés n'ont pas encore de réponse, et en
 crée une tâche. Le même tour prépare la prochaine visite d'entretien. Cet écran détermine quand cela se produit, et comment
@@ -7,9 +7,9 @@ arrivent les demandes d'intervention.
 ## Ouvrir l'écran
 
 1. Cliquez sur **Administration** en bas de la barre latérale.
-2. Dans le groupe **Leads**, cliquez sur la tuile **Suivi des leads, des devis, de l'entretien et des demandes d'intervention**.
+2. Dans le groupe **Leads**, cliquez sur la tuile **Suivi**.
 
-![L'écran de réglages Suivi des leads, des devis, de l'entretien et des demandes d'intervention avec la case Suivi automatique activé, le champ Silencieux après (jours), le bloc Devis envoyés avec Suivre les devis sans réponse et Suivre après (jours), le bloc Contrats d'entretien avec Préparer (jours avant) et la case Avertir le client de sa visite d'entretien, le bloc Demandes d'intervention avec Type de projet pour un nouveau projet et la case Avertir le client de sa demande d'intervention, la case Les clients peuvent signaler une panne dans le portail, la case Toute personne disposant de l'autocollant peut signaler une panne et le champ Responsable des demandes du portail et de l'autocollant, et les boutons Enregistrer et Lancer le suivi maintenant.](../images/leadopvolging-scherm-fr.png)
+![L'écran de réglages Suivi avec la case Suivi automatique activé, le champ Silencieux après (jours), le bloc Devis envoyés avec Suivre les devis sans réponse et Suivre après (jours), le bloc Contrats d'entretien avec Préparer (jours avant) et la case Avertir le client de sa visite d'entretien, le bloc Demandes d'intervention avec Type de projet pour un nouveau projet et la case Avertir le client de sa demande d'intervention, la case Les clients peuvent signaler une panne dans le portail, la case Toute personne disposant de l'autocollant peut signaler une panne et le champ Responsable des demandes du portail et de l'autocollant, et les boutons Enregistrer et Lancer le suivi maintenant.](../images/leadopvolging-scherm-fr.png)
 
 ## Les trois règles
 

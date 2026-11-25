@@ -26,7 +26,7 @@ binnen in een bestand. Is er niets verwijderd, dan staat er **De prullenbak is l
 
 Relaties, contactpersonen, leads, offertes, verkoopfacturen, bestellingen, aankoopfacturen, artikelen,
 projecten, werkorders, werkbonnen, medewerkers en ploegen — en ook de keuzelijsten uit Platformbeheer:
-artikelfamilies, eenheden, productiestatus, pipeline-status, projecttypes, klantcategorieën, contactfuncties,
+artikelfamilies, eenheden, productiestatus, verkoopfases, projecttypes, klantcategorieën, contactfuncties,
 leadbronnen, types aanvraag en btw-codes.
 
 Een [leadfase](lead-status.md) die u verwijdert, komt **niet** in de prullenbak: die is meteen definitief weg.

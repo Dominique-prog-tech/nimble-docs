@@ -1,23 +1,23 @@
-# Pipeline-status
+# Verkoopfases
 
-De **pipeline-status** zegt waar een zaak commercieel staat: prospectie, offerte verstuurd, in opvolging,
+De **verkoopfase** zegt waar een zaak commercieel staat: prospectie, offerte verstuurd, in opvolging,
 gegund … U bepaalt zelf welke stappen uw verkoop doorloopt.
 
 ## Het scherm openen
 
 1. Klik onderaan in de zijbalk op **Platformbeheer**.
-2. Klik in de groep **Projecten** op de tegel **Pipeline-status**.
+2. Klik in de groep **Projecten** op de tegel **Verkoopfase**.
 
-![De lijst met pipeline-statussen.](../images/pipeline-status-lijst.png)
+![De lijst met verkoopfases.](../images/pipeline-status-lijst.png)
 
-## Pipeline-status of productiestatus?
+## Verkoopfase of productiestatus?
 
 Twee lijsten die op elkaar lijken, maar iets anders zeggen:
 
 | | Zegt iets over | Voorbeeld |
 |---|---|---|
 | **Productiestatus** | hoever het **werk** staat | wacht op materiaal, in uitvoering |
-| **Pipeline-status** | hoever de **verkoop** staat | offerte verstuurd, gegund |
+| **Verkoopfase** | hoever de **verkoop** staat | offerte verstuurd, gegund |
 
 Een project kan gegund zijn en tegelijk nog in voorbereiding. Daarom staan het twee aparte velden, en
 gebruikt niet elk bedrijf ze allebei.
@@ -43,7 +43,7 @@ Klik op **Nieuwe waarde**, of dubbelklik op een bestaande rij. Er opent een vens
 
 ## Wat als u deze lijst niet gebruikt?
 
-Laat u de lijst leeg, dan **verdwijnt het veld Pipeline-status** van de projectfiche en uit de
+Laat u de lijst leeg, dan **verdwijnt het veld Verkoopfase** van de projectfiche en uit de
 projectenlijst. Er valt niets uit te schakelen: de lijst zelf bepaalt of het veld er staat.
 
 Dat geldt ook omgekeerd. Voegt u later een eerste stap toe, dan verschijnt het veld vanzelf.

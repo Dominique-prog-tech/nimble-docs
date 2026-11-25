@@ -35,13 +35,13 @@ Klik in de zijbalk op **CRM → Relaties**.
 
 ## De relatiefiche
 
-Links staan de tabbladen **Fiche** en **Contactpersonen**; bij een klant ook **Prijsafspraken**, **Portaal** en **Installaties**. Rechts staat het tabblad **Journaal** met wat aan deze klant hangt: **Taken**, **Afspraken**, **Notities**, **Bijlagen**, **Mails** en **Logboek**. Zie [Werken met een fiche](fiches.md#tabbladen).
+Links staan de tabbladen **Algemeen** en **Contactpersonen**; bij een klant ook **Prijsafspraken**, **Portaal** en **Installaties**. Rechts staat het tabblad **Journaal** met wat aan deze klant hangt: **Taken**, **Afspraken**, **Notities**, **Bijlagen**, **Mails** en **Logboek**. Zie [Werken met een fiche](fiches.md#tabbladen).
 
 Maakte een ander programma de klant aan via de koppeling met Nimble (de API), dan staat naast de naam **Aangemaakt via** met de naam van dat programma. Zolang niemand die relaties mag bewerken de fiche opende, meldt het belletje rechtsboven *1 nieuwe klant aangemaakt via de API*. Zo'n programma kan geen tweede klant maken met hetzelfde btw-nummer of e-mailadres. De klant wijzigen kan het ook niet: dat doet u in Nimble.
 
-De knoppen **Bewaren**, **Annuleren** en **Verwijderen** staan onderaan en gelden voor **Fiche** en **Contactpersonen** samen — u kunt dus bewaren vanaf welk van die twee tabbladen u ook staat. Op een journaal-tabblad ziet u ze niet.
+De knoppen **Bewaren**, **Annuleren** en **Verwijderen** staan onderaan en gelden voor **Algemeen** en **Contactpersonen** samen — u kunt dus bewaren vanaf welk van die twee tabbladen u ook staat. Op een journaal-tabblad ziet u ze niet.
 
-Het tabblad **Fiche** is verdeeld in blokken.
+Het tabblad **Algemeen** is verdeeld in blokken.
 
 ### Blok Identificatie
 
@@ -186,7 +186,7 @@ wanneer u projecten mag bekijken. Meer in [Installaties](work/installations.md).
 
 ## Verwijderen
 
-Op de fiche klikt u op **Verwijderen**. U krijgt eerst de vraag *"Archiveren?"* met de naam erbij. Bevestigt u, dan wordt de relatie **gearchiveerd** en belandt ze in de **Prullenbak**, waar u ze kunt herstellen.
+Op de fiche klikt u op **Verwijderen**. U krijgt eerst de vraag *"Verwijderen?"* met de naam erbij. Bevestigt u, dan belandt de relatie in de **Prullenbak**, waar u ze kunt herstellen.
 
 Bewaren en Verwijderen verschijnen alleen als u het **bewerkrecht** hebt; zonder dat recht kunt u de fiche lezen maar niet wijzigen, en gaat u terug met **Naar de lijst** linksboven.
 

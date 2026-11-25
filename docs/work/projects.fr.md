@@ -14,7 +14,7 @@ Dans la barre latérale, cliquez sur **Travail → Projets**.
 ![La liste des projets avec les colonnes Numéro, Nom, Client, Statut, Responsable, Date de début, Fin et Statut de production avec un carré de couleur ; à droite le tiroir Journal replié.](../images/projecten-lijst-fr.png)
 
 Par défaut, la liste affiche huit colonnes, pour tenir sur un écran ordinaire. Affichez **Type de projet**,
-**Statut pipeline**, **Budget (HTVA)**, **Commandé** et **Créé le** avec **Choisir les colonnes** au-dessus de la
+**Phase commerciale**, **Budget (HTVA)**, **Commandé** et **Créé le** avec **Choisir les colonnes** au-dessus de la
 liste ; Nimble retient votre choix.
 
 | Colonne | Ce que c'est |
@@ -27,12 +27,12 @@ liste ; Nimble retient votre choix.
 | **Date de début** / **Fin** | La période d'exécution |
 | **Type de projet** | Le type de travail, par exemple une construction neuve |
 | **Statut de production** | Où en est le travail sur le chantier. Le carré de couleur devant est la couleur que votre entreprise a donnée à ce statut |
-| **Statut pipeline** | Où en est l'affaire sur le plan commercial |
+| **Phase commerciale** | Où en est l'affaire sur le plan commercial |
 | **Budget (HTVA)** | Le budget du projet, hors TVA. Vide lorsqu'aucun budget n'a été saisi |
 | **Commandé** | La case **Commandé** de la fiche. Filtrez dessus pour voir quels projets ne sont pas encore commandés |
 | **Créé le** | Le jour où le projet a été créé. Triez dessus pour placer les projets les plus récents en haut |
 
-**Type de projet**, **Statut de production** et **Statut pipeline** n'apparaissent que si votre entreprise a des
+**Type de projet**, **Statut de production** et **Phase commerciale** n'apparaissent que si votre entreprise a des
 valeurs dans cette liste de choix.
 Ces listes se gèrent sous **Administration**.
 
@@ -88,7 +88,7 @@ droite, **Supprimer**. La barre reste en place pendant que vous faites défiler 
 
 ### Onglet Général
 
-![La fiche du projet P2026-001 sur l'onglet Général : la carte Général avec à gauche le numéro, le nom, le client, le responsable et les dates, à droite le statut, le statut de production, le type de projet, le statut pipeline, le budget et la case Commandé, et la description sur toute la largeur ; en dessous la carte Chantier avec le chantier, la rue et le contact sur le chantier à gauche, et le code postal, la commune et le pays à droite.](../images/project-fiche-fr.png)
+![La fiche du projet P2026-001 sur l'onglet Général : la carte Général avec à gauche le numéro, le nom, le client, le responsable et les dates, à droite le statut, le statut de production, le type de projet, le phase commerciale, le budget et la case Commandé, et la description sur toute la largeur ; en dessous la carte Chantier avec le chantier, la rue et le contact sur le chantier à gauche, et le code postal, la commune et le pays à droite.](../images/project-fiche-fr.png)
 
 Les champs figurent dans deux cartes : **Général** et **Chantier**.
 
@@ -102,7 +102,7 @@ Les champs figurent dans deux cartes : **Général** et **Chantier**.
 | **Statut** | Où en est le projet : **Actif**, **En attente** ou **Terminé** |
 | **Statut de production** | Où en est le travail sur le chantier, par exemple **En cours**. C'est indépendant du statut |
 | **Type de projet** | Le type de travail |
-| **Statut pipeline** | Où en est l'affaire sur le plan commercial — pas où en est le travail |
+| **Phase commerciale** | Où en est l'affaire sur le plan commercial — pas où en est le travail |
 | **Date de début** / **Date de fin** | La période d'exécution |
 | **Budget (HTVA)** | Le budget du projet, hors TVA. Laissez-le vide lorsqu'il n'y a pas de budget |
 | **Commandé** | Cochez lorsque le projet est commandé |
@@ -111,7 +111,7 @@ Les champs figurent dans deux cartes : **Général** et **Chantier**.
 | **Pays** | Le pays du chantier. Tapez une partie du nom et choisissez dans la liste |
 | **Contact chantier** | L'interlocuteur sur le chantier. Choisissez parmi les personnes de contact de toutes vos relations, donc aussi d'un architecte ou d'un entrepreneur. Derrière le nom figure la relation à laquelle la personne appartient |
 
-**Statut de production**, **Type de projet** et **Statut pipeline** n'apparaissent que si votre entreprise
+**Statut de production**, **Type de projet** et **Phase commerciale** n'apparaissent que si votre entreprise
 a des valeurs dans cette liste de choix.
 
 L'adresse du chantier est facultative. Si vous choisissez un **client** alors que l'adresse du chantier est encore

@@ -52,7 +52,7 @@ Onder de tabel staat het totaal: **Klaar — … rijen verwerkt in totaal.**
 De onderdelen omvatten onder meer de bedrijfsfiche, relaties met hun website, gsm en opmerkingen, leveranciers, contactpersonen, contactfuncties,
 taken, afspraken en notities, artikelgroepen en artikelen met hun leverancier, fabrikant en EAN-code, btw-codes, offertes en offerteregels, facturen en
 factuurregels, vorderingsstaten, inkoopfacturen, projecten met hun fases, materialen en artikelen, ploegen, en
-de keuzelijsten productiestatus, pipeline-status en projecttypes.
+de keuzelijsten productiestatus, verkoopfases en projecttypes.
 
 !!! tip "Herhaalbaar"
     U mag de conversie gerust opnieuw starten, bijvoorbeeld na nieuwe gegevens in Firebird. Er ontstaan geen

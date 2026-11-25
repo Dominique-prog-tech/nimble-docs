@@ -90,7 +90,7 @@ Sommige taken maakt Nimble zelf aan.
 | Waar het vandaan komt | Wanneer |
 |---|---|
 | Een lead met een verlopen **volgende actie** | Elke ochtend, zolang de lead niet beweegt |
-| Een lead op **On hold** waarvan de heractivatiedatum bereikt is | De ochtend na die datum |
+| Een lead op **In de wacht** waarvan de heractivatiedatum bereikt is | De ochtend na die datum |
 | Een lead waar **al een tijd niets** mee gebeurde | Elke ochtend |
 | Een aanvraag via uw **website** | Zodra ze binnenkomt |
 

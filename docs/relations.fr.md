@@ -35,13 +35,13 @@ Cliquez sur **CRM → Relations** dans la barre latérale.
 
 ## La fiche de relation
 
-À gauche figurent les onglets **Fiche** et **Personnes de contact** ; pour un client, aussi **Accords de prix**, **Portail** et **Installations**. À droite figure l'onglet **Journal** avec ce qui est rattaché à ce client : **Tâches**, **Rendez-vous**, **Notes**, **Pièces jointes**, **E-mails** et **Historique**. Voir [Travailler avec une fiche](fiches.fr.md#onglets).
+À gauche figurent les onglets **Général** et **Personnes de contact** ; pour un client, aussi **Accords de prix**, **Portail** et **Installations**. À droite figure l'onglet **Journal** avec ce qui est rattaché à ce client : **Tâches**, **Rendez-vous**, **Notes**, **Pièces jointes**, **E-mails** et **Historique**. Voir [Travailler avec une fiche](fiches.fr.md#onglets).
 
 Si un autre logiciel a créé le client via la connexion avec Nimble (l'API), **Créé via** suivi du nom de ce logiciel figure à côté du nom. Tant que personne pouvant modifier les relations n'a ouvert la fiche, la cloche en haut à droite indique *1 nouveau client créé via l'API*. Un tel logiciel ne peut pas créer un second client avec le même numéro de TVA ou la même adresse e-mail. Il ne peut pas non plus modifier le client : cela se fait dans Nimble.
 
-Les boutons **Enregistrer**, **Annuler** et **Supprimer** se trouvent en bas et valent pour **Fiche** et **Personnes de contact** ensemble — vous pouvez donc enregistrer depuis l'un ou l'autre de ces onglets. Sur un onglet du journal, ils ne s'affichent pas.
+Les boutons **Enregistrer**, **Annuler** et **Supprimer** se trouvent en bas et valent pour **Général** et **Personnes de contact** ensemble — vous pouvez donc enregistrer depuis l'un ou l'autre de ces onglets. Sur un onglet du journal, ils ne s'affichent pas.
 
-L'onglet **Fiche** est divisé en blocs.
+L'onglet **Général** est divisé en blocs.
 
 ### Bloc Identification
 
@@ -186,7 +186,7 @@ cet onglet si vous pouvez consulter les projets. Pour en savoir plus : [Installa
 
 ## Supprimer
 
-Sur la fiche, cliquez sur **Supprimer**. La question « Archiver ? » apparaît d'abord, avec le nom. Après confirmation, la relation est **archivée** et arrive dans la **Corbeille**, où vous pouvez la restaurer.
+Sur la fiche, cliquez sur **Supprimer**. La question « Supprimer ? » apparaît d'abord, avec le nom. Après confirmation, la relation arrive dans la **Corbeille**, où vous pouvez la restaurer.
 
 Enregistrer et Supprimer n'apparaissent que si vous disposez du **droit de modification** ; sans ce droit, vous pouvez lire la fiche mais pas la modifier, et vous revenez avec **Vers la liste** en haut à gauche.
 
