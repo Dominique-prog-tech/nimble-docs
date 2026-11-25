@@ -31,7 +31,7 @@ Un rendez-vous **annulé** reste visible, mais grisé et barré. Ainsi, personne
 ## Planifier un rendez-vous
 
 Cliquez sur **Nouveau rendez-vous**, ou double-cliquez sur un emplacement libre de l'agenda. Avec le bouton, le rendez-vous est
-préparé pour vous, aujourd'hui à l'heure pleine suivante. Avec un double-clic, il est préparé à l'heure et chez le collègue où
+préparé pour vous, aujourd'hui à l'heure pleine suivante entre 8 h et 18 h ; après 18 h, le jour ouvrable suivant à 8 h. Avec un double-clic, il est préparé à l'heure et chez le collègue où
 vous avez cliqué.
 
 | Champ | |

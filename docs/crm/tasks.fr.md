@@ -71,8 +71,8 @@ rattachée.
 
 **Nouvelle tâche** crée une tâche qui n'est rattachée à rien : une tâche libre.
 
-Ouvrir, créer, cocher et supprimer des tâches n'est possible que si vous pouvez modifier les tâches. Sans ce
-droit, vous voyez la liste, mais un double-clic n'ouvre rien et le bouton **Nouvelle tâche** n'apparaît pas.
+Créer, cocher, enregistrer et supprimer des tâches n'est possible que si vous pouvez modifier les tâches. Sans ce
+droit, vous voyez la liste sans le bouton **Nouvelle tâche**, et un double-clic ouvre la fenêtre **Tâche** en lecture seule, avec seulement **Fermer**.
 
 !!! tip "La tâche concerne un dossier ? Créez-la depuis ce dossier"
     Une tâche créée depuis le **Journal** d'un lead, d'un client ou d'un projet est immédiatement rattachée

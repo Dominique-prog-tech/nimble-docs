@@ -65,7 +65,7 @@ confirmation du jour est partie pour une demande d'intervention, vous voyez par 
 
 ## Devis envoyés
 
-Un devis envoyé par e-mail qui reste sur **Envoyé** sans réponse reçoit une tâche **Suivre le devis** pour la personne qui l'a envoyé.
+Un devis qui reste sur **Envoyé** sans réponse reçoit une tâche **Suivre le devis** pour la personne qui l'a envoyé par e-mail ou passé sur Envoyé.
 Nimble n'envoie rien au client ; vous envoyez le rappel depuis le devis avec **Plus…** → **Envoyer un rappel** (voir
 [Devis](../sales/quotes.md#une-tache-de-suivi-et-un-rappel)).
 

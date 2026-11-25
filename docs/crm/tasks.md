@@ -70,8 +70,8 @@ Onderaan staan **Bewaren** en **Annuleren**, en helemaal rechts **Verwijderen**.
 
 Met **Nieuwe taak** maakt u er een aan die aan niets hangt: een losse taak.
 
-Taken openen, aanmaken, afvinken en verwijderen kan enkel als u taken mag wijzigen. Zonder dat recht ziet u
-de lijst, maar opent een dubbelklik niets en staat er geen knop **Nieuwe taak**.
+Taken aanmaken, afvinken, bewaren en verwijderen kan enkel als u taken mag wijzigen. Zonder dat recht ziet u
+de lijst zonder knop **Nieuwe taak**, en opent een dubbelklik het venster **Taak** om te lezen, met enkel **Sluiten**.
 
 !!! tip "Hangt de taak bij een dossier? Maak ze daar aan"
     Een taak die u vanuit het **Journaal** van een lead, klant of project aanmaakt, hangt meteen aan het

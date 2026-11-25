@@ -64,12 +64,12 @@ bevestiging van de dag voor een serviceverzoek, dan ziet u bijvoorbeeld *Service
 
 ## Verstuurde offertes
 
-Een gemailde offerte die op **Verstuurd** blijft staan zonder antwoord, krijgt één taak **Offerte opvolgen** voor wie de offerte
-mailde. Nimble stuurt de klant zelf niets; de herinnering verstuurt u vanuit de offerte met **Meer…** → **Herinnering sturen** (zie
+Een offerte die op **Verstuurd** blijft staan zonder antwoord, krijgt één taak **Offerte opvolgen** voor wie de offerte
+mailde of op Verstuurd zette. Nimble stuurt de klant zelf niets; de herinnering verstuurt u vanuit de offerte met **Meer…** → **Herinnering sturen** (zie
 [Offertes](../sales/quotes.md#een-opvolgtaak-en-een-herinnering)).
 
 - **Offertes zonder antwoord opvolgen** zet dit aan of uit. **Standaard staat het uit.** Taken die er al staan, blijven staan.
-- **Opvolgen na (dagen)**: standaard **7**, geteld vanaf de dag dat de offerte gemaild werd. Mailt u ze opnieuw, dan begint de
+- **Opvolgen na (dagen)**: standaard **7**, geteld vanaf de dag dat de offerte verstuurd werd. Mailt u ze opnieuw, dan begint de
   telling opnieuw en kan er een nieuwe taak komen.
 - Een offerte die al meer dan 30 dagen over die termijn is, krijgt geen taak meer: dat is geen opvolging meer maar een vergeten
   offerte. Kijk die na in de [offertelijst](../sales/quotes.md).

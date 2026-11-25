@@ -93,10 +93,10 @@ La fiche comporte les onglets **Devis** et **Journal**, avec en dessous **Tâche
 
 Si le devis est arrivé via la connexion avec un autre logiciel (l'API), **Créé via** suivi du nom de ce logiciel figure après le statut. Un tel devis est toujours en brouillon : vous le finalisez et l'envoyez vous-même. Tant que personne pouvant modifier les devis n'a ouvert la fiche, la cloche en haut à droite indique combien de devis de ce type il y a.
 
-Si le devis a été envoyé par e-mail ou proposé en ligne, le bloc Données du devis comporte des lignes
+Si le devis a été envoyé ou proposé en ligne, le bloc Données du devis comporte des lignes
 supplémentaires :
 
-- **Envoyé le** — quand et à quelle adresse le devis a été envoyé.
+- **Envoyé le** — quand le devis a été envoyé, et à quelle adresse s'il l'a été par e-mail. Si vous l'avez passé sur Envoyé avec **Marquer comme envoyé**, seule l'heure y figure.
 - **Proposé en ligne** — le lien que reçoit le client, avec sa date de validité. Vous pouvez copier ce lien
   et le transmettre vous-même.
 
@@ -275,7 +275,7 @@ accepté, Refuser, Plus…, Annuler et Supprimer — avec le menu Plus… ouvert
 | **Plus…** → **Proposer en ligne** | Brouillon et Envoyé | Met le devis en ligne, pour que le client puisse l'accepter ou le refuser |
 | **Plus…** → **Proposer à nouveau en ligne** | Brouillon et Envoyé, dès que le devis est en ligne | Affiche le devis tel qu'il est maintenant, derrière le même lien |
 | **Plus…** → **Retirer la version en ligne** | Dès que le devis est en ligne | Supprime la version en ligne |
-| **Marquer comme envoyé** | Brouillon et Refusé | Change uniquement le statut ; rien n'est envoyé |
+| **Marquer comme envoyé** | Brouillon et Refusé | Change le statut et remplit **Envoyé le** ; rien n'est envoyé |
 | **Marquer comme accepté** · **Refuser** | Envoyé | Enregistre la réponse du client. Si le devis n'est lié à aucun projet, Nimble en crée un lors de l'acceptation — voir *Le travail accepté est lié à un projet* ci-dessous |
 | **Créer un projet** | Accepté, sans projet | Ouvre un nouveau projet avec le client et l'adresse du chantier du devis déjà remplis. À l'enregistrement, le devis et toutes ses versions sont rattachés à ce projet |
 | **Facturer** | Accepté | Crée un brouillon de facture avec les lignes du devis, moins les acomptes |
@@ -359,7 +359,8 @@ Après l'envoi, quatre choses se produisent :
 
 !!! tip "Déjà remis vous-même ? Utilisez Marquer comme envoyé"
     Si vous avez remis le devis par courrier ou depuis votre propre messagerie, utilisez **Marquer comme
-    envoyé**. Ce bouton ne fait que changer le statut ; il n'envoie rien.
+    envoyé**. Ce bouton change le statut et n'envoie rien. La fiche affiche **Envoyé le**, et le devis entre dans le suivi à
+    votre nom.
 
 !!! warning "Devis trop volumineux"
     Au-delà de 10 Mo, Nimble refuse d'envoyer. Au-dessus, l'e-mail partirait sans le devis. Mieux vaut un
@@ -517,8 +518,8 @@ modifiez le devis, il ne correspond en effet plus à ce que le client a reçu. V
 
 ### Une tâche de suivi et un rappel
 
-Si le suivi des devis est activé, Nimble crée la nuit une tâche **Suivre le devis** pour la personne qui l'a envoyé, dès qu'un devis
-envoyé par e-mail reste une semaine sur **Envoyé** sans réponse. Par défaut, il est désactivé. La tâche figure sous **Journal** › **Tâches** du devis et dans votre [liste de tâches](../crm/tasks.md). Si vous
+Si le suivi des devis est activé, Nimble crée la nuit une tâche **Suivre le devis** pour la personne qui l'a envoyé par e-mail ou passé sur Envoyé, dès qu'un devis
+reste une semaine sur **Envoyé** sans réponse. Par défaut, il est désactivé. La tâche figure sous **Journal** › **Tâches** du devis et dans votre [liste de tâches](../crm/tasks.md). Si vous
 renvoyez le devis, le compte recommence. L'activation, et après combien de jours, se règlent dans
 [Suivi des leads et des devis](../administration/lead-follow-up.md).
 

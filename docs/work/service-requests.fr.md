@@ -43,7 +43,7 @@ Cliquez sur **Nouvelle demande d'intervention**.
 
 | Champ | Ce que c'est |
 |---|---|
-| **Client** | Obligatoire |
+| **Client** | Obligatoire. Uniquement une relation qui est client |
 | **Personne de contact** | Qui a signalé chez le client. Peut rester vide |
 | **Installation** | Une installation de ce client. Laissez-la vide si vous ne savez pas de quelle installation il s'agit |
 | **Description** | Obligatoire : le problème. La première ligne figure dans la liste et dans l'e-mail au client |
@@ -170,7 +170,7 @@ la tâche **Traiter la demande d'intervention**, et avec :
 - l'adresse de l'installation, sinon celle du client ;
 - comme **Responsable** le responsable du client, sinon la personne indiquée sous **Responsable des demandes du portail et de
   l'autocollant** ;
-- les photos sous **Journal** › **Pièces jointes**.
+- les photos sous **Journal** › **Pièces jointes**, sous le nom *Photo demandeur 1*, *Photo demandeur 2* … (dans la langue de votre entreprise).
 
 En haut de la fiche figure alors : *Signalé via l'autocollant QR par une personne non connectée. Rappelez le demandeur avant de
 planifier une visite.* Ce message disparaît dès que vous prenez la demande en charge ou que vous en créez un ordre de travail. Si le

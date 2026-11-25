@@ -29,7 +29,7 @@ Een **geannuleerde** afspraak staat er nog, maar grijs en doorstreept. Zo vraagt
 ## Een afspraak plannen
 
 Klik op **Nieuwe afspraak**, of dubbelklik op een lege plek in de agenda. Met de knop staat de afspraak klaar voor u, vandaag
-op het volgende hele uur. Met een dubbelklik staat ze klaar op het uur en bij de collega waar u klikte.
+op het volgende hele uur tussen 8 en 18 u; na 18 u op de volgende werkdag om 8 u. Met een dubbelklik staat ze klaar op het uur en bij de collega waar u klikte.
 
 | Veld | |
 |---|---|

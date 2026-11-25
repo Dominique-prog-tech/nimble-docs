@@ -42,7 +42,7 @@ Klik op **Nieuw serviceverzoek**.
 
 | Veld | Wat het is |
 |---|---|
-| **Klant** | Verplicht |
+| **Klant** | Verplicht. Enkel een relatie die klant is |
 | **Contactpersoon** | Wie bij de klant meldde. Mag leeg blijven |
 | **Installatie** | Een installatie van die klant. Laat het leeg als u niet weet om welke installatie het gaat |
 | **Omschrijving** | Verplicht: wat er is. De eerste regel staat in de lijst en in de mail aan de klant |
@@ -164,7 +164,7 @@ Na **Versturen** ziet hij het nummer van zijn melding en uw telefoonnummer. Het 
 - het adres van de installatie, anders dat van de klant;
 - als **Verantwoordelijke** de verantwoordelijke van de klant, anders wie bij **Verantwoordelijke voor verzoeken uit het portaal en
   via de sticker** staat;
-- de foto's onder **Journaal** › **Bijlagen**.
+- de foto's onder **Journaal** › **Bijlagen**, als *Foto melder 1*, *Foto melder 2* … (in de taal van uw bedrijf).
 
 Bovenaan de fiche staat dan: *Gemeld via de QR-sticker door iemand die niet aangemeld is. Bel de melder na voor u een bezoek plant.*
 Die melding verdwijnt zodra u het verzoek opneemt of er een werkorder van maakt. Is de melding vals, dan haalt u het verzoek weg met

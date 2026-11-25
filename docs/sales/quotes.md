@@ -90,9 +90,9 @@ die laatste vijf werken, leest u in [Werken met een fiche](../fiches.md).
 
 Kwam de offerte binnen via de koppeling met een ander programma (de API), dan staat na de status **Aangemaakt via** met de naam van dat programma. Zo'n offerte staat altijd in klad: u werkt ze verder af en verstuurt ze zelf. Zolang niemand die offertes mag bewerken de fiche opende, meldt het belletje rechtsboven hoeveel zulke offertes er zijn.
 
-Is de offerte gemaild of online voorgelegd, dan staan er in het blok Offertegegevens extra regels:
+Is de offerte verstuurd of online voorgelegd, dan staan er in het blok Offertegegevens extra regels:
 
-- **Verstuurd op** — wanneer en naar welk adres de offerte gemaild is.
+- **Verstuurd op** — wanneer de offerte verstuurd is, en naar welk adres als ze gemaild werd. Zette u ze met **Markeren als verstuurd** op Verstuurd, dan staat er enkel het tijdstip.
 - **Online voorgelegd** — de link die de klant krijgt, met de datum tot wanneer ze geldig is. U kunt die
   link kopiëren en zelf doorsturen.
 
@@ -272,7 +272,7 @@ Meer…, Annuleren en Verwijderen — met het menu Meer… open op Online voorle
 | **Meer…** → **Online voorleggen** | Klad en Verstuurd | Zet de offerte online, zodat de klant ze kan aanvaarden of weigeren |
 | **Meer…** → **Opnieuw online voorleggen** | Klad en Verstuurd, zodra de offerte online staat | Toont de offerte zoals ze nu is, achter dezelfde link |
 | **Meer…** → **Online intrekken** | Zodra de offerte online staat | Haalt de online versie weg |
-| **Markeren als verstuurd** | Klad en Geweigerd | Zet enkel de status om; er vertrekt niets |
+| **Markeren als verstuurd** | Klad en Geweigerd | Zet de status om en vult **Verstuurd op**; er vertrekt niets |
 | **Markeren als aanvaard** · **Weigeren** | Verstuurd | Legt het antwoord van de klant vast. Hangt de offerte nog aan geen project, dan maakt Nimble er bij het aanvaarden een aan — zie *Aanvaard werk hangt aan een project* hieronder |
 | **Project maken** | Aanvaard, zonder project | Opent een nieuw project met de klant en het werfadres van de offerte al ingevuld. Bij het bewaren hangt de offerte, met al haar versies, aan dat project |
 | **Factureren** | Aanvaard | Maakt een kladfactuur met de regels van de offerte, min de voorschotten |
@@ -354,7 +354,8 @@ Na het versturen gebeuren er vier dingen:
 
 !!! tip "Zelf al bezorgd? Gebruik Markeren als verstuurd"
     Hebt u de offerte per post of vanuit uw eigen mailprogramma bezorgd, gebruik dan **Markeren als
-    verstuurd**. Die knop zet alleen de status om en stuurt niets.
+    verstuurd**. Die knop zet de status om en stuurt niets. Op de fiche verschijnt **Verstuurd op**, en de offerte komt op uw
+    naam in de opvolging.
 
 !!! warning "Te grote offerte"
     Boven 10 MB weigert Nimble te versturen. Daarboven zou de mail vertrekken zónder offerte. Liever een
@@ -506,8 +507,8 @@ de offerte aan, dan klopt ze immers niet meer met wat de klant kreeg. U kiest:
 
 ### Een opvolgtaak en een herinnering
 
-Staat de offerteopvolging aan, dan maakt Nimble 's nachts een taak **Offerte opvolgen** voor wie de offerte mailde, zodra een
-gemailde offerte een week op **Verstuurd** staat zonder antwoord. Standaard staat ze uit. De taak staat onder **Journaal** › **Taken** van de offerte en in uw [takenlijst](../crm/tasks.md). Mailt u de
+Staat de offerteopvolging aan, dan maakt Nimble 's nachts een taak **Offerte opvolgen** voor wie de offerte mailde of op Verstuurd zette, zodra een
+offerte een week op **Verstuurd** staat zonder antwoord. Standaard staat ze uit. De taak staat onder **Journaal** › **Taken** van de offerte en in uw [takenlijst](../crm/tasks.md). Mailt u de
 offerte opnieuw, dan begint de telling opnieuw. Aanzetten, en na hoeveel dagen, doet u bij
 [Opvolging van leads en offertes](../administration/lead-follow-up.md).
 
