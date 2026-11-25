@@ -56,10 +56,26 @@ in en klik **Regel toevoegen**. De keuzelijst toont materiaal en diensten — ee
 een onderaannemer of een verhuurder. Een [offerteartikel](../inventory/articles.md#de-soort-van-een-artikel)
 bestelt u niet.
 
+De keuzelijst toont per artikel vier kolommen:
+
+| Kolom | Wat |
+|---|---|
+| **Artikel** | De naam van het artikel |
+| **Code leverancier** | Onder welk nummer de leverancier van deze bestelling het artikel kent, als die code op de artikelfiche staat |
+| **Prijs** | De prijs die Nimble op de regel zet, zie hieronder |
+| **Voorkeursleverancier** | Bij wie u het artikel gewoonlijk koopt, ook als dat een andere leverancier is dan die van deze bestelling |
+
+U zoekt in alle kolommen tegelijk: typ een deel van de naam of van de code van de leverancier.
+
+Boven de keuzelijst staat **Enkel artikelen van** met de naam van de leverancier van de bestelling. Staat dat vakje
+aan, dan toont de lijst enkel de artikelen die deze leverancier levert, zoals op het tabblad **Leveranciers** van
+de artikelfiche. Zet het uit om alle artikelen te zien, bijvoorbeeld voor een artikel dat u voor het eerst bij
+deze leverancier bestelt. Het vakje staat aan zodra de leverancier minstens één artikel levert. Levert hij nog
+niets, dan staat het uit en ziet u alles.
+
 Zodra u een artikel kiest, vult Nimble de **Prijs** in:
 
-- **Levert de leverancier van deze bestelling het artikel**, dan staat er zijn prijs. Zijn code staat tussen
-  haakjes achter de naam van het artikel, zodat u in de keuzelijst ziet onder welk nummer hij het kent.
+- **Levert de leverancier van deze bestelling het artikel**, dan staat er zijn prijs.
 - **Heeft het artikel geen leveranciers**, dan staat er de aankoopprijs van het artikel.
 - **Heeft het artikel andere leveranciers, maar niet deze**, dan blijft de prijs leeg: Nimble kent de prijs
   van deze leverancier niet. Vul ze zelf in.

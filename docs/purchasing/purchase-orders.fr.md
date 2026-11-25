@@ -56,10 +56,26 @@ Sous la carte **Lignes** figure une rangée pour ajouter une ligne. Choisissez u
 service se commande par exemple chez un sous-traitant ou un loueur. Un
 [article de devis](../inventory/articles.md#le-type-dun-article) ne se commande pas.
 
+La liste de choix affiche quatre colonnes par article :
+
+| Colonne | Contenu |
+|---|---|
+| **Article** | Le nom de l'article |
+| **Code fournisseur** | Le numéro sous lequel le fournisseur de cette commande connaît l'article, si ce code figure sur la fiche article |
+| **Prix** | Le prix que Nimble met sur la ligne, voir ci-dessous |
+| **Fournisseur préféré** | Le fournisseur chez qui vous achetez habituellement l'article, même s'il ne s'agit pas du fournisseur de cette commande |
+
+Vous cherchez dans toutes les colonnes à la fois : tapez une partie du nom ou du code du fournisseur.
+
+Au-dessus de la liste de choix figure **Uniquement les articles de** suivi du nom du fournisseur de la commande.
+Si cette case est cochée, la liste n'affiche que les articles que ce fournisseur livre, tels qu'ils figurent dans
+l'onglet **Fournisseurs** de la fiche article. Décochez-la pour voir tous les articles, par exemple pour un article
+que vous commandez pour la première fois chez ce fournisseur. La case est cochée dès que le fournisseur livre au
+moins un article. S'il ne livre encore rien, elle est décochée et vous voyez tout.
+
 Dès que vous choisissez un article, Nimble remplit le **Prix** :
 
-- **Si le fournisseur de cette commande livre l'article**, c'est son prix. Son code figure entre parenthèses
-  après le nom de l'article, pour que vous voyiez dans la liste de choix sous quel numéro il le connaît.
+- **Si le fournisseur de cette commande livre l'article**, c'est son prix.
 - **Si l'article n'a pas de fournisseur**, c'est le prix d'achat de l'article.
 - **Si l'article a d'autres fournisseurs, mais pas celui-ci**, le prix reste vide : Nimble ne connaît pas le
   prix de ce fournisseur. Saisissez-le vous-même.
