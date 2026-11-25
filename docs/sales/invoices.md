@@ -232,15 +232,15 @@ er in de plaats van de QR een melding op het blad: vul het bedrijfsprofiel aan.
 ## Definitief maken
 
 **Definitief maken** trekt het volgende nummer uit de reeks en zet de factuur op **Uitgereikt**. Daarna staat
-ze **op slot**: velden en regels zijn niet aan te passen. Dat is niet ongedaan te maken. Een fout op een
-uitgereikte factuur corrigeert u met een creditnota.
+ze **op slot**: velden en regels zijn niet aan te passen, en het nummer blijft van deze factuur. Ging ze nog niet
+naar de klant, dan kan ze [terug naar klad](#een-factuur-terug-naar-klad-zetten) om aan te passen; daarna corrigeert
+u een fout met een creditnota.
 
-Omdat het niet terug te draaien is, vraagt Nimble eerst om bevestiging. De vraag noemt de klant en het
-bedrag, zegt wat er vastligt en dat het daarna niet meer ongedaan te maken is. Pas wanneer u daar opnieuw op
-**Definitief maken** klikt, krijgt de factuur haar nummer.
+Omdat het nummer vastligt, vraagt Nimble eerst om bevestiging. De vraag noemt de klant en het bedrag, en zegt wat
+er vastligt. Pas wanneer u daar opnieuw op **Definitief maken** klikt, krijgt de factuur haar nummer.
 
-![De vraag Definitief maken? bij de factuur voor Familie Peeters-Claes van € 1.753,24: ze krijgt het volgende nummer
-uit de reeks en wordt vergrendeld, rechtzetten kan enkel met een creditnota, en dat kan niet ongedaan gemaakt worden.
+![De vraag Definitief maken? bij de factuur voor Familie Peeters-Claes van € 1.753,24: ze wordt vergrendeld, kan
+zolang ze niet verstuurd is nog terug naar klad, en krijgt het volgende nummer uit de reeks, dat van haar blijft.
 Onderaan de knoppen Definitief maken en Annuleren.](../images/factuur-definitief-bevestiging.png)
 **Annuleren** laat ze in klad.
 

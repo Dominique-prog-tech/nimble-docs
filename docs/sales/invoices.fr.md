@@ -236,17 +236,18 @@ message figure sur le document à la place du QR : complétez la fiche société
 ## Finaliser
 
 **Finaliser** tire le numéro suivant de la série et met la facture sur **Émise**. Elle est alors
-**verrouillée** : les champs et les lignes ne sont pas modifiables. Cette étape est irréversible. Une erreur
-sur une facture émise se corrige par une note de crédit.
+**verrouillée** : les champs et les lignes ne sont pas modifiables, et le numéro reste attaché à cette facture.
+Si elle n'a pas encore été envoyée au client, elle peut [repasser en brouillon](#repasser-une-facture-en-brouillon)
+pour être modifiée ; ensuite, une erreur se corrige par une note de crédit.
 
-Comme c'est irréversible, Nimble demande d'abord une confirmation. La question indique le client et le
-montant, précise ce qui est figé et que l'action est ensuite irréversible. La facture ne reçoit son numéro que
-lorsque vous cliquez à nouveau sur **Finaliser**. **Annuler** la laisse
+Comme le numéro est définitif, Nimble demande d'abord une confirmation. La question indique le client et le
+montant, et précise ce qui est figé. La facture ne reçoit son numéro que lorsque vous cliquez à nouveau sur
+**Finaliser**. **Annuler** la laisse
 en brouillon.
 
-![La question Finaliser ? pour la facture de Familie Peeters-Claes : elle reçoit le numéro suivant de la série et est
-verrouillée, une correction ne pourra se faire que par une note de crédit, et l'action est irréversible. En bas les
-boutons Finaliser et Annuler.](../images/factuur-definitief-bevestiging-fr.png)
+![La question Finaliser ? pour la facture de Familie Peeters-Claes : elle est verrouillée, peut encore repasser en
+brouillon tant qu'elle n'est pas envoyée, et reçoit le numéro suivant de la série, qui lui reste. En bas les boutons
+Finaliser et Annuler.](../images/factuur-definitief-bevestiging-fr.png)
 
 Si la facture porte une date antérieure à celle d'une facture déjà émise, la question l'indique : quelle
 facture, et à quelle date. Les numéros de facture doivent suivre l'ordre chronologique. Adaptez d'abord la date de
