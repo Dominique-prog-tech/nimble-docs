@@ -17,7 +17,7 @@ Le droit *Gérer les modèles de documents* est nécessaire.
 
 En haut, vous choisissez le **Modèle** :
 
-![La liste Modèle dépliée sur l'écran Modèles de mail : Devis, Rappel d'un devis, Devis à signer (OKSign), Facture au client, Note de crédit au client et les modèles de rappel ; les autres se trouvent en dessous, après défilement.](../images/mailsjabloon-keuze-fr.png)
+![La liste Modèle dépliée sur l'écran Modèles de mail : Devis, Rappel d'un devis, Devis à signer (OKSign), Facture au client, Note de crédit au client et Premier rappel ; les autres se trouvent en dessous, après défilement.](../images/mailsjabloon-keuze-fr.png)
 
 | Modèle | Quand il part |
 |---|---|

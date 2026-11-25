@@ -12,7 +12,7 @@ Microsoft 365 (Outlook).
 
 Klik in de zijbalk op **CRM → Agenda**.
 
-![Het agendascherm in de weergave Werkweek van 9 tot 13 november: bovenaan Agenda van Iedereen, de knoppen Samen en Per persoon en de collega's Elke Wouters, Pieter Janssens en Sofie Maes elk met hun kleur; in het rooster afspraken in die kleuren, de geannuleerde Offertebespreking architect grijs en doorstreept, en de hele dag Opleiding warmtepompen bovenaan vrijdag.](../images/agenda-scherm.png)
+![Het agendascherm in de weergave Werkweek: bovenaan Agenda van Iedereen, de knoppen Samen en Per persoon en de collega's Elke Wouters, Pieter Janssens en Sofie Maes elk met hun kleur; in het rooster afspraken in die kleuren, de geannuleerde Offertebespreking architect grijs en doorstreept, en de hele dag Opleiding warmtepompen bovenaan vrijdag.](../images/agenda-scherm.png)
 
 ## De agenda bekijken
 

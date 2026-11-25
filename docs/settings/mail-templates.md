@@ -17,7 +17,7 @@ U hebt er het recht *Documentsjablonen beheren* voor nodig.
 
 Bovenaan kiest u het **Sjabloon**:
 
-![De keuzelijst Sjabloon opengeklapt op het scherm Mailsjablonen: Offerte, Herinnering bij een offerte, Offerte ondertekenen (OKSign), Factuur naar de klant, Creditnota naar de klant en de sjablonen van de aanmaningen; de andere staan eronder, na het schuiven.](../images/mailsjabloon-keuze.png)
+![De keuzelijst Sjabloon opengeklapt op het scherm Mailsjablonen: Offerte, Herinnering bij een offerte, Offerte ondertekenen (OKSign), Factuur naar de klant, Creditnota naar de klant en Eerste aanmaning; de andere staan eronder, na het schuiven.](../images/mailsjabloon-keuze.png)
 
 | Sjabloon | Waar het vertrekt |
 |---|---|

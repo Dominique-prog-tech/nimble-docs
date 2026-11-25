@@ -12,7 +12,7 @@ votre agenda Microsoft 365 (Outlook).
 
 Dans la barre latérale, cliquez sur **CRM → Agenda**.
 
-![L'écran Agenda en affichage Semaine de travail du 9 au 13 novembre : en haut Agenda de Tout le monde, les boutons Ensemble et Par personne et les collègues Elke Wouters, Pieter Janssens et Sofie Maes, chacun avec sa couleur ; dans la grille, des rendez-vous à ces couleurs, l'Offertebespreking architect annulé grisé et barré, et la journée entière Opleiding warmtepompen en haut du vendredi.](../images/agenda-scherm-fr.png)
+![L'écran Agenda en affichage Semaine de travail : en haut Agenda de Tout le monde, les boutons Ensemble et Par personne et les collègues Elke Wouters, Pieter Janssens et Sofie Maes, chacun avec sa couleur ; dans la grille, des rendez-vous à ces couleurs, l'Offertebespreking architect annulé grisé et barré, et la journée entière Opleiding warmtepompen en haut du vendredi.](../images/agenda-scherm-fr.png)
 
 ## Consulter l'agenda
 
