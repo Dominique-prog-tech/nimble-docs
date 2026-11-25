@@ -185,6 +185,7 @@ plugins:
             Bankverrichtingen: Opérations bancaires
             Afpunten: Lettrage
             Leads vanaf uw website: Les leads depuis votre site web
+            Zoeken: Rechercher
             Lijsten filteren: Filtrer les listes
             Werken met een fiche: Travailler avec une fiche
             Relaties: Relations
@@ -271,6 +272,7 @@ nav:
   # De bestanden zijn niet verplaatst: de adressen blijven gelijk, dus links vanuit de app werken nog.
   - Aan de slag:
     - Dashboard: getting-started/dashboard.md
+    - Zoeken: zoeken.md
     - Lijsten filteren: lijsten-filteren.md
     - Werken met een fiche: fiches.md
     - Notities: notities.md
