@@ -141,11 +141,17 @@ Vous choisissez ici si Nimble propose un numéro pour un nouveau projet, et sous
 | **Année** | L'année dans le numéro, en 4 chiffres (2026) ou en 2 chiffres (26) |
 | **Séparateur** | Un tiret entre le préfixe, l'année et le numéro d'ordre, ou rien |
 | **Numéro d'ordre** | Le nombre de chiffres du numéro d'ordre : 3 (001) ou 4 (0001) |
+| **L'année de numérotation commence le** | Le jour où le numéro d'ordre recommence à 1 : le 1er janvier (l'année civile) ou le premier jour d'un autre mois, par exemple si votre exercice commence le 1er juillet |
 
 Sous les champs, vous voyez directement à quoi ressemble un numéro, par exemple **PRJ-2026-001** ou **PRJ26001**.
 
-Le numéro d'ordre recommence à 1 chaque année. Vous pouvez toujours modifier un numéro proposé. Si le numéro
-suivant existe déjà, Nimble le saute. Les projets qui ont déjà un numéro le conservent.
+Le numéro d'ordre recommence à 1 à chaque année de numérotation. Vous pouvez toujours modifier un numéro proposé.
+Si le numéro suivant existe déjà, Nimble le saute. Les projets qui ont déjà un numéro le conservent.
+
+Si l'année de numérotation ne commence pas le 1er janvier, le numéro porte l'année où elle se termine. Avec le
+préfixe O, 2 chiffres, sans séparateur, 4 chiffres et un début le 1er juillet, le premier projet de juillet 2026
+reçoit le numéro **O270001**, et le premier de juillet 2027 **O280001**. Sous les champs, vous lisez de quand à
+quand va l'année de numérotation en cours.
 
 Si vous utilisez le numéro de la pièce dont naît le projet, comme un devis ou un bon de commande, laissez le
 préfixe vide.

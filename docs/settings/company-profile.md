@@ -136,11 +136,17 @@ Hier kiest u of Nimble een nummer voorstelt voor een nieuw project, en in welke 
 | **Jaartal** | Het jaar in het nummer, met 4 cijfers (2026) of 2 cijfers (26) |
 | **Scheidingsteken** | Een streepje tussen voorvoegsel, jaar en volgnummer, of niets |
 | **Volgnummer** | Het aantal cijfers van het volgnummer: 3 (001) of 4 (0001) |
+| **Nummerjaar begint op** | De dag waarop het volgnummer opnieuw bij 1 begint: 1 januari (het kalenderjaar) of de eerste dag van een andere maand, bijvoorbeeld als uw boekjaar op 1 juli begint |
 
 Onder de velden ziet u meteen hoe een nummer eruitziet, bijvoorbeeld **PRJ-2026-001** of **PRJ26001**.
 
-Het volgnummer begint elk jaar opnieuw bij 1. Een voorgesteld nummer kunt u altijd overschrijven. Bestaat
+Het volgnummer begint elk nummerjaar opnieuw bij 1. Een voorgesteld nummer kunt u altijd overschrijven. Bestaat
 het volgende nummer al, dan slaat Nimble het over. Projecten die al een nummer hebben, behouden het.
+
+Begint het nummerjaar niet op 1 januari, dan staat in het nummer het jaar waarin het nummerjaar eindigt. Met
+voorvoegsel O, 2 cijfers, geen scheidingsteken, 4 cijfers en een begin op 1 juli krijgt het eerste project van
+juli 2026 het nummer **O270001**, en het eerste van juli 2027 **O280001**. Onder de velden leest u van wanneer
+tot wanneer het lopende nummerjaar loopt.
 
 Werkt u met het nummer van het stuk waaruit het project ontstaat, zoals een offerte of een bestelbon, laat
 het voorvoegsel dan leeg.
