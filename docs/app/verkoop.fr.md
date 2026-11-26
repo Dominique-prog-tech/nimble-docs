@@ -38,7 +38,7 @@ La fiche affiche :
 - les lignes, les paiements et les rappels envoyés ;
 - **Voir le PDF** : la facture telle que le back-office la génère. Un brouillon n'a pas encore de PDF.
 
-Le solde ouvert connaît quatre états, comme dans le back-office : un montant, **Soldée**, **Montant inconnu** (une
+Le solde ouvert connaît quatre états, comme dans le back-office : un montant, **Payée**, **Montant inconnu** (une
 facture sans montant) ou un tiret (pas encore émise).
 
 ## Devis

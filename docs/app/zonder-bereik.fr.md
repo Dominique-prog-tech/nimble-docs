@@ -42,7 +42,7 @@ Si quelque chose attend une connexion, une bande s'affiche en haut d'Aujourd'hui
 **2 actions pas encore envoyées**. Touchez-la pour ouvrir la liste **Pas encore envoyé** : pour chaque action, ce que
 c'est, à quelle heure vous l'avez faite, et *en attente de connexion*.
 
-- Tout part automatiquement dès que la connexion revient. Avec **Envoyer maintenant**, vous essayez tout de suite.
+- Tout part automatiquement dès que la connexion revient. Avec **Envoyer**, vous essayez tout de suite.
 - Si **Tout a été envoyé.** s'affiche, Nimble a tout reçu.
 
 ### Une action refusée

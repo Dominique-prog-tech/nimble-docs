@@ -17,13 +17,13 @@ menu staan de artikelen en de voorraadstand.
 
 Zoek op code, naam, EAN, fabrikant of familie, of tik op het **scanicoon** in het zoekveld en scan de barcode: is er
 precies één artikel met die code, dan opent de fiche meteen. De lijst opent op **Actief**; met **Alle** ziet u ook de artikelen die
-niet meer actief zijn. Per artikel ziet u de naam, de code, de familie, de verkoopprijs en hoeveel er in stock ligt.
+niet meer actief zijn. Per artikel ziet u de naam, de code, de familie, de verkoopprijs en hoeveel er in voorraad ligt.
 
 Een dienst of een offerteartikel heeft geen voorraad: daar blijft de stand leeg, en het artikel draagt zijn soort.
 
 ## De artikelfiche
 
-- **Voorraad**: in stock, onderweg (besteld en nog niet geleverd), het minimum, de streefvoorraad en wat er bij te
+- **Voorraad**: in voorraad, onderweg (besteld en nog niet geleverd), het minimum, de streefvoorraad en wat er bij te
   bestellen is. Ligt er minder dan het minimum, dan staat er **Onder het minimum**; is er al genoeg besteld, dan
   **al besteld**.
 - Staat er geen minimum op het artikel, dan zegt de fiche dat er geen bestelsignaal is: het artikel wordt niet

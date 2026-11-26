@@ -38,7 +38,7 @@ De fiche toont:
 - de regels, de betalingen en de verstuurde aanmaningen;
 - **PDF bekijken**: de factuur zoals de backoffice ze maakt. Een klad heeft nog geen PDF.
 
-Openstaand kent vier toestanden, zoals in de backoffice: een bedrag, **Voldaan**, **Bedrag onbekend** (een factuur
+Openstaand kent vier toestanden, zoals in de backoffice: een bedrag, **Betaald**, **Bedrag onbekend** (een factuur
 zonder bedrag) of een streepje (nog niet uitgereikt).
 
 ## Offertes

@@ -40,7 +40,7 @@ Zo tellen de uren correct.
 | **Op schema** | Het werk vordert zoals gepland |
 | **Achterstand** | Er is gewerkt, maar er zijn meer dagen nodig dan voorzien |
 | **Onderbroken** | De werf ligt stil: weer, materiaal, toegang of een beslissing van de klant |
-| **Klaar** | Alles is af; de werf kan opgeleverd worden |
+| **Afgewerkt** | Alles is af; de werf kan opgeleverd worden |
 
 Bij **Achterstand** en **Onderbroken** vult u ook de **Verwachte vervolgactie** in: wat er morgen moet gebeuren.
 
