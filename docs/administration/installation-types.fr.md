@@ -12,7 +12,7 @@ Sur la fiche d'une installation, **Gérer les types** ouvre le même écran.
 
 La colonne **Points de contrôle** de la liste indique combien de points de contrôle fixes chaque type comporte.
 
-![La liste Types d'installation avec quatre types : chaudière à condensation, pompe à chaleur, groupe de ventilation et boiler, avec leur code et leur nom en néerlandais et en français.](../images/installatie-soorten-fr.png)
+![La liste Types d'installation avec quatre types : chaudière à condensation, pompe à chaleur, groupe de ventilation et boiler, avec leur code, leur nom en néerlandais et en français, et le nombre de points de contrôle (trois pour la chaudière à condensation).](../images/installatie-soorten-fr.png)
 
 ## Où le type est utilisé
 

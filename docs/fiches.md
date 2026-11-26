@@ -49,7 +49,7 @@ opende, zolang de fiche open staat.
 Heeft een scherm maar één van die tabbladen, zoals de bedrijfsfiche met enkel **Logboek**, dan staat dat
 tabblad gewoon los naast de gegevens.
 
-![Een relatiefiche met links de tabbladen Algemeen en Contactpersonen, rechts het tabblad Journaal open met eronder een tweede rij: Taken, Afspraken, Notities, Bijlagen, Mails en Logboek.](images/fiche-tabbladen.png)
+![Een relatiefiche met links de tabbladen Algemeen, Contactpersonen, Adressen, Prijsafspraken, Portaal en Installaties, rechts het tabblad Journaal open met eronder een tweede rij: Taken, Afspraken, Notities, Bijlagen, Mails en Logboek.](images/fiche-tabbladen.png)
 
 !!! info "De knoppen verdwijnen op een journaal-tabblad"
     Bewaren en Verwijderen horen bij het formulier. Staat u op **Bijlagen**, dan ziet u die knoppen niet

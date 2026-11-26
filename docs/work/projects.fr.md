@@ -55,7 +55,7 @@ et l'historique de ce projet, sans ouvrir la fiche.
 Avec **Tableau** à côté du titre, vous voyez les mêmes projets sous forme de cartes, avec une colonne par statut.
 Votre choix entre **Liste** et **Tableau** est conservé.
 
-![Le tableau des projets : une colonne par statut de production avec le nombre de projets dans l'en-tête, et pour chaque projet une carte avec le nom du chantier, le numéro du projet et le client.](../images/projecten-bord-fr.png)
+![Le tableau des projets : une colonne par statut de production avec le nombre de projets dans l'en-tête, et pour chaque projet une carte avec le nom du chantier, le numéro du projet et le client ; pour un projet avec un jalon ouvert, aussi le prochain jalon avec sa date, en rouge s'il est en retard.](../images/projecten-bord-fr.png)
 
 - Les colonnes sont les **statuts de production** de votre entreprise, dans leur ordre. Si votre entreprise
   n'utilise pas de statut de production, le tableau affiche le **statut de pipeline**. Les projets sans statut

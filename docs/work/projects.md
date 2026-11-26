@@ -54,7 +54,7 @@ fiche te openen.
 Met **Bord** naast de titel ziet u dezelfde projecten als kaarten, met een kolom per status. Uw keuze tussen
 **Lijst** en **Bord** blijft bewaard.
 
-![Het projectbord: een kolom per productiestatus met het aantal projecten in de kop, en per project een kaart met de werfnaam, het projectnummer en de klant.](../images/projecten-bord.png)
+![Het projectbord: een kolom per productiestatus met het aantal projecten in de kop, en per project een kaart met de werfnaam, het projectnummer en de klant; bij een project met een open mijlpaal ook de volgende mijlpaal met haar datum, in het rood als ze te laat is.](../images/projecten-bord.png)
 
 - De kolommen zijn de **productiestatussen** van uw bedrijf, in hun volgorde. Gebruikt uw bedrijf geen
   productiestatus, dan toont het bord de **verkoopfase**. Projecten zonder status staan in de laatste kolom,

@@ -28,7 +28,7 @@ de voorraad te bewerken. **Factuur maken** vraagt het recht om facturen te bewer
 
 ## De leverbon
 
-![De leverbon LEV-2026-0002 voor De Wilde Interieur BV op Te leveren: in de kaart Leverbongegevens de klant, bij Adres de grijze tekst Standaard: Magazijn Gent met het adres, Geen project, de leverdatum, Uw referentie BST-4471 en een notitie; daaronder de kaart Regels met twee artikelen en een regel met vrije tekst, elk met een aantal en een eenheid, en onderaan de knoppen Bewaren, Leveren, Afdrukken, Mailen naar de klant, Annuleren en Verwijderen.](../images/leverbon-fiche.png)
+![De leverbon LEV-2026-0002 voor De Wilde Interieur BV op Te leveren: in de kaart Leverbongegevens de klant, bij Adres een lege keuze die het leveradres van de klant voorstelt, een leeg veld Project, de leverdatum, Uw referentie BST-4471 en een notitie; daaronder de kaart Regels met twee artikelen en een regel met vrije tekst, elk met een aantal en een eenheid, en onderaan de knoppen Bewaren, Leveren, Afdrukken, Mailen naar de klant, Annuleren en Verwijderen.](../images/leverbon-fiche.png)
 
 Bovenaan staan het nummer en de status. De fiche heeft het tabblad **Algemeen** en rechts het **Journaal**, zie
 [Werken met een fiche](../fiches.md).

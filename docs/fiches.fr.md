@@ -51,7 +51,7 @@ projet aussi **Rendez-vous**. La rangée du haut reste ainsi courte pendant que 
 Si un écran n'a qu'un seul de ces onglets, comme la fiche d'entreprise avec uniquement **Historique**, cet onglet
 reste simplement à côté des données.
 
-![Une fiche de relation avec à gauche les onglets Général et Personnes de contact, à droite l'onglet Journal ouvert avec en dessous une deuxième rangée : Tâches, Rendez-vous, Notes, Pièces jointes, E-mails et Historique.](images/fiche-tabbladen-fr.png)
+![Une fiche de relation avec à gauche les onglets Général, Personnes de contact, Adresses, Accords de prix, Portail et Installations, à droite l'onglet Journal ouvert avec en dessous une deuxième rangée : Tâches, Rendez-vous, Notes, Pièces jointes, E-mails et Historique.](images/fiche-tabbladen-fr.png)
 
 !!! info "Les boutons disparaissent sur un onglet du journal"
     Enregistrer et Supprimer appartiennent au formulaire. Si vous êtes sur **Pièces jointes**, ces boutons

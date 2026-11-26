@@ -28,7 +28,7 @@ droit de modifier le stock. **Créer une facture** demande le droit de modifier 
 
 ## Le bon de livraison
 
-![Le bon de livraison LEV-2026-0002 pour De Wilde Interieur BV, À livrer : dans la carte Données du bon de livraison, le client, sous Adresse le texte gris Par défaut : Magazijn Gent avec l'adresse, Aucun projet, la date de livraison, Votre référence BST-4471 et une note ; en dessous la carte Lignes avec deux articles et une ligne de texte libre, chacun avec une quantité et une unité, et en bas les boutons Enregistrer, Livrer, Imprimer, Envoyer au client, Annuler et Supprimer.](../images/leverbon-fiche-fr.png)
+![Le bon de livraison LEV-2026-0002 pour De Wilde Interieur BV, À livrer : dans la carte Données du bon de livraison, le client, sous Adresse un choix vide qui propose l'adresse de livraison du client, un champ Projet vide, la date de livraison, Votre référence BST-4471 et une note ; en dessous la carte Lignes avec deux articles et une ligne de texte libre, chacun avec une quantité et une unité, et en bas les boutons Enregistrer, Livrer, Imprimer, Envoyer au client, Annuler et Supprimer.](../images/leverbon-fiche-fr.png)
 
 En haut figurent le numéro et le statut. La fiche comporte l'onglet **Général** et, à droite, le **Journal** : voir
 [Travailler avec une fiche](../fiches.md).

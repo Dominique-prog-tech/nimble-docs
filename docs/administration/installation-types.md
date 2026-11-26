@@ -12,7 +12,7 @@ Op de fiche van een installatie opent **Soorten beheren** hetzelfde scherm.
 
 De kolom **Controlepunten** in de lijst toont hoeveel vaste controlepunten elke soort heeft.
 
-![De lijst Soorten installatie met vier soorten: condensatieketel, warmtepomp, ventilatie-unit en boiler, met hun code en naam in het Nederlands en het Frans.](../images/installatie-soorten.png)
+![De lijst Soorten installatie met vier soorten: condensatieketel, warmtepomp, ventilatie-unit en boiler, met hun code, hun naam in het Nederlands en het Frans, en het aantal controlepunten (drie bij de condensatieketel).](../images/installatie-soorten.png)
 
 ## Waar de soort gebruikt wordt
 
