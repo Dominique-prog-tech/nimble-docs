@@ -203,9 +203,12 @@ installation a sa propre carte.
 
 ![L'onglet Installations d'un bon de travail avec la carte du groupe de ventilation de De Wilde Interieur BV : les points « Debietmeting », « Filters » et « Condensafvoer » avec leur résultat et leur remarque, la conclusion Suivi nécessaire avec une remarque, et le bouton Enregistrer le contrôle.](../images/werkbon-toestellen-fr.png)
 
-- Les **points** proviennent du champ **À vérifier** de la [visite d'entretien](maintenance.md#les-visites-dentretien). Tant que
-  vous n'avez rien enregistré, la carte indique *Points de la visite, pas encore enregistrés*. Avec **Ajouter un point**, vous en
-  ajoutez un ; avec la croix, vous en retirez un.
+- Tant qu'aucun contrôle n'est enregistré pour une installation, Nimble propose les **points** : ceux du champ **À vérifier**
+  de la [visite d'entretien](maintenance.md#les-visites-dentretien) si la visite en a, sinon les
+  [points de contrôle](../administration/installation-types.md#points-de-controle) fixes du type de l'installation. La carte
+  indique alors *Points proposés, pas encore enregistrés*. Avec **Ajouter un point**, vous en ajoutez un ; avec la croix, vous
+  en retirez un. L'application mobile propose les mêmes points.
+- Un contrôle déjà enregistré ne change pas si les points de contrôle du type sont modifiés par la suite.
 - Pour chaque point, vous choisissez un **Résultat** : *Pas encore contrôlé*, *En ordre*, *Pas en ordre* ou *N.a.*, avec une
   **Remarque**.
 - La **Conclusion** sur l'installation est *En ordre* ou *Suivi nécessaire*. Tant qu'elle reste ouverte, la carte en propose une sur

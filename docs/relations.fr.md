@@ -35,7 +35,7 @@ Cliquez sur **CRM → Relations** dans la barre latérale.
 
 ## La fiche de relation
 
-À gauche figurent les onglets **Général** et **Personnes de contact** ; pour un client, aussi **Accords de prix**, **Portail** et **Installations**. À droite figure l'onglet **Journal** avec ce qui est rattaché à ce client : **Tâches**, **Rendez-vous**, **Notes**, **Pièces jointes**, **E-mails** et **Historique**. Voir [Travailler avec une fiche](fiches.fr.md#onglets).
+À gauche figurent les onglets **Général** et **Personnes de contact**, pour une relation enregistrée aussi **Adresses**, et pour un client aussi **Accords de prix**, **Portail** et **Installations**. À droite figure l'onglet **Journal** avec ce qui est rattaché à ce client : **Tâches**, **Rendez-vous**, **Notes**, **Pièces jointes**, **E-mails** et **Historique**. Voir [Travailler avec une fiche](fiches.fr.md#onglets).
 
 Si un autre logiciel a créé le client via la connexion avec Nimble (l'API), **Créé via** suivi du nom de ce logiciel figure à côté du nom. Tant que personne pouvant modifier les relations n'a ouvert la fiche, la cloche en haut à droite indique *1 nouveau client créé via l'API*. Un tel logiciel ne peut pas créer un second client avec le même numéro de TVA ou la même adresse e-mail. Il ne peut pas non plus modifier le client : cela se fait dans Nimble.
 
@@ -154,6 +154,69 @@ Pour une nouvelle relation, vous lisez ici : *Enregistrez d'abord la relation ; 
 
 !!! note "Tout est enregistré avec Enregistrer"
     Les liens, les rôles et les adresses e-mail ne sont écrits qu'au moment où vous cliquez sur **Enregistrer**. **Annuler** laisse tout en l'état.
+
+### Onglet Adresses
+
+L'adresse principale de la relation figure dans le bloc **Adresse** de l'onglet **Général**. L'onglet **Adresses** contient
+les adresses qui s'y ajoutent : une adresse de facturation distincte, un entrepôt où vous livrez, un site. L'onglet apparaît
+dès que la relation est enregistrée, pour un client comme pour un fournisseur. Le nombre d'adresses figure dans le titre,
+par exemple **Adresses (3)**.
+
+![L'onglet Adresses de De Wilde Interieur BV avec trois adresses : l'adresse de facturation Boekhouding, l'adresse de livraison Magazijn Gent et le site Showroom Brugge, chacune avec son adresse et le bouton Modifier, et en bas Ajouter une adresse.](images/relatie-adressen-fr.png)
+
+Chaque adresse figure avec son type, son nom et l'adresse elle-même. L'adresse par défaut d'un type porte l'étiquette
+**Par défaut**.
+
+| Type | À quoi elle sert |
+|---|---|
+| **Adresse de facturation** | L'adresse de facturation par défaut figure sur une nouvelle facture et une nouvelle note de crédit |
+| **Adresse de livraison** | L'adresse de livraison par défaut figure sur un [bon de livraison](inventory/delivery-notes.md) |
+| **Site** | Un autre site du client. Sur un projet, vous le reprenez comme [adresse du chantier](work/projects.md#onglet-general) |
+| **Autre adresse** | Une adresse qui n'entre dans aucun des autres types |
+
+#### Ajouter ou modifier une adresse
+
+Cliquez sur **Ajouter une adresse**, ou sur **Modifier** à côté d'une adresse. Si vous ne pouvez pas modifier la relation,
+le bouton s'appelle **Consulter** : vous lisez l'adresse sans pouvoir la changer.
+
+![La fenêtre de l'adresse de livraison Magazijn Gent de De Wilde Interieur BV : Type Adresse de livraison, le nom, la rue et le numéro, le code postal, la commune et le pays, la case cochée Adresse de livraison par défaut et le champ Remarque, avec en bas Enregistrer, Annuler et Supprimer.](images/relatie-adres-venster-fr.png)
+
+| Champ | Explication |
+|---|---|
+| **Type** | Obligatoire. Une nouvelle adresse est une **Adresse de livraison** |
+| **Nom** | Ce qui vous permet de reconnaître l'adresse, par exemple *Entrepôt Gand* |
+| **Rue** et **N°** | La rue est obligatoire |
+| **Code postal** et **Commune** | Obligatoires. Des listes de recherche comme dans le bloc **Adresse** : le code postal et la commune se complètent mutuellement |
+| **Pays** | Obligatoire. Pour une nouvelle adresse, le pays de l'adresse principale est déjà rempli |
+| **Adresse de livraison par défaut** | La case porte le nom du type : **Adresse de facturation par défaut**, **Adresse de livraison par défaut** ou **Adresse par défaut de ce type**. Chaque type a une seule adresse par défaut : si vous cochez la case pour une autre adresse du même type, elle se décoche sur la précédente |
+| **Remarque** | Texte libre sur l'adresse |
+
+**Enregistrer** dans la fenêtre enregistre l'adresse immédiatement ; vous ne cliquez pas pour cela sur **Enregistrer** en
+bas de la fiche. **Supprimer** demande d'abord une confirmation et place l'adresse dans la **Corbeille**, où vous pouvez la
+restaurer.
+
+#### Quelle adresse figure sur un document
+
+| Document | Par défaut |
+|---|---|
+| **Devis** | L'adresse principale |
+| **Facture** et **note de crédit** | L'adresse de facturation par défaut ; à défaut, l'adresse principale |
+| **Bon de livraison** | L'adresse de livraison par défaut ; à défaut, l'adresse principale |
+
+Si le client a au moins une adresse dans cet onglet, le champ **Adresse** figure sur le devis, la facture et le bon de
+livraison. Si vous le laissez vide, l'adresse par défaut s'applique : le texte gris du champ indique laquelle, après
+*Par défaut :*. Pour une autre adresse du client, choisissez-la dans la liste ; l'adresse principale y figure aussi.
+
+L'adresse est fixée sur le document :
+
+- un devis dès qu'il est envoyé, et aussi lorsqu'il est accepté ou refusé ;
+- une facture ou une note de crédit lorsque vous la finalisez ;
+- un bon de livraison lorsque vous livrez.
+
+L'adresse figure ensuite comme texte sur le document, suivie de *enregistrée sur le document*. Une réimpression montre
+cette adresse, même si le client a déménagé entre-temps. Si le document repasse en brouillon, il suit à nouveau la fiche de
+relation. Si vous supprimez une adresse, un document qui la portait déjà garde sa propre copie. Si un brouillon renvoie à
+une adresse que vous avez supprimée, le champ indique *L'adresse choisie n'existe plus ; l'adresse par défaut est utilisée.*
 
 ### Onglet Accords de prix
 

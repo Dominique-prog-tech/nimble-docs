@@ -35,7 +35,7 @@ Klik in de zijbalk op **CRM → Relaties**.
 
 ## De relatiefiche
 
-Links staan de tabbladen **Algemeen** en **Contactpersonen**; bij een klant ook **Prijsafspraken**, **Portaal** en **Installaties**. Rechts staat het tabblad **Journaal** met wat aan deze klant hangt: **Taken**, **Afspraken**, **Notities**, **Bijlagen**, **Mails** en **Logboek**. Zie [Werken met een fiche](fiches.md#tabbladen).
+Links staan de tabbladen **Algemeen** en **Contactpersonen**, bij een bewaarde relatie ook **Adressen**, en bij een klant ook **Prijsafspraken**, **Portaal** en **Installaties**. Rechts staat het tabblad **Journaal** met wat aan deze klant hangt: **Taken**, **Afspraken**, **Notities**, **Bijlagen**, **Mails** en **Logboek**. Zie [Werken met een fiche](fiches.md#tabbladen).
 
 Maakte een ander programma de klant aan via de koppeling met Nimble (de API), dan staat naast de naam **Aangemaakt via** met de naam van dat programma. Zolang niemand die relaties mag bewerken de fiche opende, meldt het belletje rechtsboven *1 nieuwe klant aangemaakt via de API*. Zo'n programma kan geen tweede klant maken met hetzelfde btw-nummer of e-mailadres. De klant wijzigen kan het ook niet: dat doet u in Nimble.
 
@@ -154,6 +154,68 @@ Bij een nieuwe relatie staat hier: *Bewaar de relatie eerst; daarna kunt u er co
 
 !!! note "Alles gaat pas mee bij Bewaren"
     Ook koppelingen, rollen en e-mailadressen worden pas weggeschreven wanneer u op **Bewaren** klikt. **Annuleren** laat alles zoals het was.
+
+### Tabblad Adressen
+
+Het hoofdadres van de relatie staat in het blok **Adres** op het tabblad **Algemeen**. Op het tabblad **Adressen** staan de
+adressen die daarnaast gelden: een apart factuuradres, een magazijn waar u levert, een vestiging. Het tabblad verschijnt
+zodra de relatie bewaard is, bij een klant en bij een leverancier. Het aantal adressen staat in de titel, bijvoorbeeld
+**Adressen (3)**.
+
+![Het tabblad Adressen van De Wilde Interieur BV met drie adressen: het factuuradres Boekhouding, het leveradres Magazijn Gent en de vestiging Showroom Brugge, elk met zijn adres en de knop Bewerken, en onderaan Adres toevoegen.](images/relatie-adressen.png)
+
+Elk adres staat er met zijn soort, zijn naam en het adres zelf. Het standaardadres van een soort draagt het label
+**Standaard**.
+
+| Soort | Waarvoor |
+|---|---|
+| **Factuuradres** | Het standaard factuuradres komt op een nieuwe factuur en creditnota |
+| **Leveradres** | Het standaard leveradres komt op een [leverbon](inventory/delivery-notes.md) |
+| **Vestiging** | Een andere vestiging van de klant. Op een project neemt u ze over als [werfadres](work/projects.md#tabblad-algemeen) |
+| **Ander adres** | Een adres dat in geen van de andere soorten past |
+
+#### Een adres toevoegen of wijzigen
+
+Klik op **Adres toevoegen**, of op **Bewerken** naast een adres. Mag u de relatie niet wijzigen, dan staat er
+**Bekijken** en leest u het adres zonder het te kunnen aanpassen.
+
+![Het venster van het leveradres Magazijn Gent van De Wilde Interieur BV: Soort Leveradres, de naam, straat en nummer, postcode, gemeente en land, het aangevinkte vakje Standaard leveradres en het veld Opmerking, met onderaan Bewaren, Annuleren en Verwijderen.](images/relatie-adres-venster.png)
+
+| Veld | Uitleg |
+|---|---|
+| **Soort** | Verplicht. Een nieuw adres staat op **Leveradres** |
+| **Naam** | Hoe u het adres herkent, bijvoorbeeld *Magazijn Gent* |
+| **Straat** en **Nr.** | De straat is verplicht |
+| **Postcode** en **Gemeente** | Verplicht. Zoeklijsten zoals in het blok **Adres**: postcode en gemeente vullen elkaar aan |
+| **Land** | Verplicht. Bij een nieuw adres staat het land van het hoofdadres al ingevuld |
+| **Standaard leveradres** | Het vinkje draagt de naam van de soort: **Standaard factuuradres**, **Standaard leveradres** of **Standaardadres van deze soort**. Elke soort heeft één standaardadres: vinkt u het aan bij een ander adres van dezelfde soort, dan gaat het bij het vorige uit |
+| **Opmerking** | Vrije tekst bij het adres |
+
+**Bewaren** in het venster bewaart het adres meteen; daarvoor klikt u niet op **Bewaren** onderaan de fiche.
+**Verwijderen** vraagt eerst een bevestiging en zet het adres in de **Prullenbak**, waar u het kunt herstellen.
+
+#### Welk adres er op een stuk komt
+
+| Stuk | Standaard |
+|---|---|
+| **Offerte** | Het hoofdadres |
+| **Factuur** en **creditnota** | Het standaard factuuradres; is er geen, dan het hoofdadres |
+| **Leverbon** | Het standaard leveradres; is er geen, dan het hoofdadres |
+
+Heeft de klant minstens één adres op dit tabblad, dan staat op de offerte, de factuur en de leverbon het veld **Adres**. Laat
+u het leeg, dan geldt de standaard: de grijze tekst in het veld zegt welk adres dat is, na *Standaard:*. Wilt u een ander
+adres van de klant, kies het dan in de lijst; daar staat ook het hoofdadres.
+
+Het adres ligt vast op het stuk:
+
+- een offerte zodra ze verstuurd is, en ook als ze aanvaard of geweigerd is;
+- een factuur of creditnota wanneer u ze definitief maakt;
+- een leverbon wanneer u levert.
+
+Daarna staat het adres als tekst op het stuk, met *bewaard op het stuk* erachter. Een herdruk toont dat adres, ook als de
+klant intussen verhuisde. Gaat het stuk terug naar klad, dan volgt het weer de relatiefiche. Verwijdert u een adres, dan
+houdt een stuk dat het al droeg zijn eigen kopie. Wijst een stuk in klad naar een adres dat u verwijderde, dan staat onder
+het veld *Het gekozen adres bestaat niet meer; de standaard wordt gebruikt.*
 
 ### Tabblad Prijsafspraken
 

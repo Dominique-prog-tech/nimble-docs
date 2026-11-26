@@ -43,7 +43,7 @@ Double-cliquez sur une ligne pour ouvrir la fiche. En haut figure le nom de l'in
 |---|---|
 | **Client** | Obligatoire. L'installation reste chez le client, même quand le projet est clôturé |
 | **Projet** | Le projet lors duquel l'installation a été posée ou est entretenue. Peut rester vide |
-| **Type** | Dans la liste de choix. **Gérer les types** ouvre cette liste |
+| **Type** | Dans la liste de choix. **Gérer les types** ouvre cette liste. Si la visite d'entretien n'a pas ses propres points, le bon de travail propose les [points de contrôle](../administration/installation-types.md#points-de-controle) fixes du type |
 | **Marque**, **Modèle**, **Numéro de série** | Indiquez au moins le type, la marque, le modèle ou le numéro de série. Si le même numéro de série figure déjà chez une autre installation, la fiche le signale |
 | **Installé le** | Le jour de l'installation |
 | **Garantie jusqu'au** | Le dernier jour de la garantie. Un mois avant, une tâche est créée pour le responsable |

@@ -61,6 +61,8 @@ Met **Bord** naast de titel ziet u dezelfde projecten als kaarten, met een kolom
   **Zonder status**.
 - Een kaart toont bovenaan de werfnaam (of, als die leeg is, de projectnaam), daaronder het projectnummer en de
   klant. Klik een kaart om het project te openen.
+- Mag u de planning bekijken, dan staat op de kaart ook de volgende [mijlpaal](#mijlpalen) die nog niet bereikt is, met
+  een vlaggetje en de datum. Is ze te laat, dan staat ze in het rood.
 - **Sleep** een kaart naar een andere kolom om de status van het project te wijzigen.
 - Met de dubbele pijl rechts in de kolomkop klapt u een kolom **in**: ze wordt een smalle strook met haar naam en het
   aantal kaarten. Klik de pijl opnieuw om ze uit te klappen. Welke kolommen ingeklapt zijn, onthoudt Nimble per gebruiker.
@@ -114,6 +116,12 @@ die keuzelijst heeft.
 
 Het werfadres is optioneel. Kiest u een **klant** terwijl het werfadres nog leeg is, dan neemt de fiche het adres
 van de klant over, het land inbegrepen. Een werfadres dat al ingevuld is, blijft staan.
+
+Heeft de klant extra [adressen](../relations.md#tabblad-adressen), dan staat bovenaan de kaart **Werf** de keuzelijst
+**Een adres van de klant overnemen…**. Ze toont alle adressen van de klant, ook het hoofdadres. Kiest u er een, dan vult de
+fiche de straat met het nummer, de postcode, de gemeente en het land in, en de werfnaam als die nog leeg is en het adres een
+naam heeft. Het project is pas bewaard wanneer u op **Bewaren** klikt. Het werfadres blijft een eigen kopie op het project:
+wijzigt het adres later bij de klant, dan blijft de werf zoals ze is.
 
 Klikt u **Bewaren** terwijl **Nummer** of **Naam** leeg is, dan zegt de fiche bovenaan wat er ontbreekt.
 
@@ -281,6 +289,7 @@ De open punten van alle projecten samen ziet u op [Openstaande punten](open-poin
 Hier staan de blokken van dit project, dezelfde als op het [planbord](planning.md). Elke rij toont de **Dag**,
 tot wanneer het blok loopt (**Tot**, in werkdagen: weekend en feestdagen tellen niet mee), de **Duur**, de
 **Ploeg**, de **Omschrijving** en de **Werkorder**. Klik op een datum om die week op het planbord te openen.
+Helemaal bovenaan staat het blok [Mijlpalen](#mijlpalen).
 
 ![Het tabblad Planning van een project: bovenaan de geplande periode en het aantal ploegdagen, daaronder een blok met dag, ploeg en werkorder, en een klaargezet blok zonder dag.](../images/project-planning.png)
 
@@ -289,12 +298,43 @@ tot wanneer het blok loopt (**Tot**, in werkdagen: weekend en feestdagen tellen 
 - Dubbelklik op een rij om het blok bij te stellen of te verwijderen, in hetzelfde venster als op het planbord.
   Het project ligt hier vast.
 
-Bovenaan staat van wanneer tot wanneer het project gepland is, hoeveel ploegdagen het samen telt en hoeveel
+Boven de blokken staat van wanneer tot wanneer het project gepland is, hoeveel ploegdagen het samen telt en hoeveel
 blokken nog klaargezet staan. De **Startdatum** en **Einddatum** op het tabblad Algemeen passen zich daar niet
 vanzelf aan: die vult u zelf in.
 
 Het tabblad ziet u enkel wanneer u de planning mag bekijken; blokken toevoegen of wijzigen vraagt het recht
 om de planning te bewerken.
+
+#### Mijlpalen
+
+Een mijlpaal is een moment dat telt in het project: een keuring, de oplevering, een plaatsing. De mijlpalen staan bovenaan
+het tabblad **Planning**, boven de planningsblokken.
+
+![Het blok Mijlpalen bovenaan het tabblad Planning van project P2026-001: Ruwbouw klaar met de groene badge Bereikt op en de datum, Keuring met de rode badge Te laat en de opmerking Keurder belt de dag voordien, en Oplevering die nog open staat, elk met de knop Bewerken, en daaronder Mijlpaal toevoegen.](../images/project-mijlpalen.png)
+
+Per mijlpaal staan de datum, de naam en de opmerking. Een badge zegt hoe ze ervoor staat:
+
+- **Bereikt op** met de datum, in het groen: de mijlpaal is bereikt.
+- **Te laat**, in het rood: de datum is voorbij en de mijlpaal is nog niet bereikt.
+
+Klik op **Mijlpaal toevoegen** voor een nieuwe mijlpaal, of op **Bewerken** naast een mijlpaal. Mag u de planning niet
+bewerken, dan staat er **Bekijken** en leest u de mijlpaal zonder ze te kunnen aanpassen.
+
+| Veld | Uitleg |
+|---|---|
+| **Naam** | Verplicht, bijvoorbeeld *Keuring* of *Oplevering* |
+| **Datum** | Verplicht. Wanneer de mijlpaal gepland is |
+| **Bereikt op** | De dag waarop de mijlpaal bereikt is. Leeg zolang dat niet zo is |
+| **Opmerking** | Een opmerking voor uw eigen team |
+
+Onder de velden staat wat de klant ervan ziet: staat de planning in het klantenportaal aan, dan ziet hij de naam en de
+datum, nooit de opmerking. Zie [Portaal voor uw klanten](../crm/portaal-voor-klanten.md#een-project).
+
+**Bewaren** in het venster bewaart de mijlpaal meteen. **Verwijderen** zet ze na bevestiging in de **Prullenbak**, waar u
+ze kunt herstellen. Wie de planning mag bewerken, mag ook de mijlpalen bewerken.
+
+Een mijlpaal staat ook op het [planbord](planning.md#het-bord), in de kop van haar dag, en op het [projectbord](#het-bord)
+staat per project de volgende mijlpaal die nog niet bereikt is.
 
 ### Tabblad Onderhoud
 
@@ -342,6 +382,10 @@ voor in de plaats. Een offerteartikel dat er van vroeger op staat, blijft staan 
 
 De kolom **Herkomst** zegt waar een regel vandaan komt: **Offerte** voor een regel die *Overnemen uit offerte*
 zette, leeg voor een regel die u met de hand toevoegde.
+
+Met **Leverbon maken** boven de projectartikelen maakt u een [leverbon](../inventory/delivery-notes.md#een-leverbon-vanuit-een-project)
+met de klant, het project en de projectartikelen al ingevuld. De aantallen past u op de leverbon aan. U ziet de knop wanneer
+er projectartikelen zijn en u de voorraad mag bewerken.
 
 #### Overnemen uit offerte
 

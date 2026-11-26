@@ -60,6 +60,7 @@ Klik op **Nieuwe offerte**. U vult eerst het blok **Offertegegevens** in:
 |---|---|
 | **Nummer** | Laat u het leeg, dan krijgt de offerte bij het bewaren het volgende nummer (`OFF-2026-0001`). Vult u zelf een nummer in, dan blijft dat staan; het moet uniek zijn |
 | **Klant** | Verplicht. Kies uit uw [relaties](../relations.md) |
+| **Adres** | Enkel zichtbaar als de klant extra [adressen](../relations.md#tabblad-adressen) heeft. Leeg = het hoofdadres van de klant; de grijze tekst zegt welk adres het is. Of kies een ander adres van de klant. Zodra de offerte verstuurd, aanvaard of geweigerd is, ligt het adres vast op de offerte: het staat er dan als tekst, met *bewaard op het stuk* erachter |
 | **Project** | Optioneel. Hangt de offerte aan een project, dan hoort ze bij het dossier van dat project. Het geldt voor alle versies en varianten van de offerte, en u kunt het ook na het aanvaarden nog kiezen of wijzigen |
 | **Datum** | Verplicht. De datum van het voorstel; staat standaard op vandaag |
 | **Geldig tot** | Optioneel. Tot wanneer uw prijs geldt |
@@ -140,6 +141,17 @@ u met **+ artikel** kiest, krijgt ook de afgesproken prijs. Zo'n regel draagt he
 de prijs met de hand wijzigt.
 
 Staan er bij het afdrukken of mailen nog regels met hoeveelheid 0 op, dan waarschuwt Nimble.
+
+### Een staffelprijs
+
+Heeft een artikel een [verkoopstaffel](../inventory/articles.md#de-verkoopstaffel), dan krijgt een regel met dat artikel
+de prijs van de hoogste staffel die het aantal haalt. Wijzigt u het aantal, dan volgt de prijs de staffel; onder de eerste
+staffel geldt de verkoopprijs van het artikel. Een prijsafspraak met de klant gaat voor de staffel.
+
+Een regel met een staffelprijs draagt het kenmerk **Staffel**, zoals een regel uit een prijsafspraak het kenmerk
+**Prijsafspraak** draagt. Typt u de prijs zelf, dan verdwijnt het kenmerk en blijft uw prijs staan, ook als u het aantal wijzigt. Het
+kenmerk blijft bij de regel bewaard. Wijzigt iemand later de staffel van het artikel, dan blijft de prijs op de offerte
+staan.
 
 ### Een prijsaanvraag naar een leverancier
 
@@ -278,6 +290,7 @@ Meer…, Annuleren en Verwijderen — met het menu Meer… open op Online voorle
 | **Project maken** | Aanvaard, zonder project | Opent een nieuw project met de klant en het werfadres van de offerte al ingevuld. Bij het bewaren hangt de offerte, met al haar versies, aan dat project |
 | **Factureren** | Aanvaard | Maakt een kladfactuur met de regels van de offerte, min de voorschotten |
 | **Meer…** → **Voorschotfactuur** | Aanvaard, zolang Factureren kan | Maakt een kladfactuur voor een deel van de offerte, zie *Een voorschot factureren* |
+| **Meer…** → **Opties kiezen** | Aanvaard, met minstens één regel die een optie is of was | Kiest of wijzigt de opties die de klant neemt, zie *Opties kiezen na de aanvaarding* |
 | **Meer…** → **Nieuwe versie** | Aanvaard, Geweigerd en Vervangen | Maakt een bewerkbare kopie |
 | **Meer…** → **Herinnering sturen** | Verstuurd | Opent het verzendvenster met de herinnering, zie *De offerte opvolgen* |
 | **Meer…** → **Sjabloon invoegen** · **Opslaan als sjabloon** | Klad en Verstuurd · altijd | Zie *Een sjabloon gebruiken* |
@@ -420,6 +433,8 @@ Staan er [optieregels](#de-regelvelden) op de offerte, dan kiest de klant ze zel
 - Aanvaardt hij, dan worden de opties die hij aanvinkte **gewone regels** van de offerte: ze tellen mee in het
   totaal, op de factuur en in de vorderingsstaat. De opties die hij niet koos, blijven optie. Het Logboek
   toont welke regels zo veranderden, en het actielogboek noemt de gekozen opties of zegt *zonder de opties*.
+- Een gekozen optie draagt op de offerte de badge **gekozen optie**. Wil de klant achteraf iets anders, zie
+  [Opties kiezen na de aanvaarding](#opties-kiezen-na-de-aanvaarding).
 
 !!! warning "Wijzigt u de opties nadat de offerte online staat"
     Haalt u een optie weg of zet u het vinkje **optie** af terwijl de offerte online staat, en kiest de klant
@@ -474,7 +489,7 @@ antwoord: via het belletje en per mail. Nimble kijkt de stand na wanneer u de of
 |---|---|
 | **Klad** | Aanpassen, mailen, online voorleggen, of **Markeren als verstuurd** |
 | **Verstuurd** | Nog aanpassen (zie [Een verstuurde offerte aanpassen](#een-verstuurde-offerte-aanpassen)), of het antwoord vastleggen met **Markeren als aanvaard** of **Weigeren** |
-| **Aanvaard** | **Factureren**, of onder **Meer…** een **Nieuwe versie** maken |
+| **Aanvaard** | **Factureren**, onder **Meer…** de **Opties kiezen**, of onder **Meer…** een **Nieuwe versie** maken |
 | **Geweigerd** | **Markeren als verstuurd** als de klant toch terugkomt, of onder **Meer…** een **Nieuwe versie** maken |
 | **Vervangen** | Niets meer: een nieuwere versie van dezelfde offerte is aanvaard. Ze blijft bewaard om na te kijken wat de klant eerder kreeg |
 
@@ -538,6 +553,25 @@ laat de offerte zoals ze was; op het bord springt de kaart terug.
 
 Zet u een geweigerde offerte terug met **Markeren als verstuurd**, dan vervalt die weigering. Het Logboek
 bewaart wat er eerder stond.
+
+### Opties kiezen na de aanvaarding
+
+Kiest de klant pas na zijn akkoord welke opties hij neemt, of verandert hij van mening, dan legt u dat vast op de aanvaarde
+offerte. Kies onder **Meer…** de keuze **Opties kiezen**. U ziet ze wanneer u offertes mag bewerken en de offerte minstens
+één regel heeft die een optie is of was.
+
+Het venster **Opties kiezen** toont elke regel die een optie is of was, met een vinkje, de omschrijving en het bedrag.
+Daaronder staat het totaal van de aangevinkte opties: *Gekozen opties samen: € … excl. btw.* Klik op **Bewaren**.
+
+- Een **aangevinkte** optie wordt een gewone regel. Ze telt mee in het totaal van de offerte, in het projectbudget en in het
+  materiaalvoorstel. Op de regel staat de badge **gekozen optie**.
+- Een optie die u **uitvinkt**, wordt weer een optie en telt niet mee. Dat geldt ook voor een optie die de klant online koos
+  bij het aanvaarden.
+- Het actielogboek noemt de gekozen opties bij naam.
+
+Kiezen kan zolang er geen factuur uit de offerte bestaat en het project niet per vorderingsstaat gefactureerd wordt. Een
+voorschotfactuur telt daarbij niet mee. Kan het niet, dan zegt het venster waarom: een optie die de klant dan nog kiest,
+rekent u aan als [meerwerk](../work/extra-work.md).
 
 ## Aanvaard werk hangt aan een project
 

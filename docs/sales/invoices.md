@@ -89,6 +89,13 @@ niet gefactureerd is, komt in de lijst.
 U kunt een aanvaarde offerte ook factureren vanaf de offerte zelf, met **Factureren** — zie
 [Offertes](quotes.md).
 
+## Factuur uit leverbonnen
+
+Geleverde [leverbonnen](../inventory/delivery-notes.md) factureert u vanaf de leverbon zelf, met **Factuur maken**. U kiest
+welke geleverde leverbonnen van dezelfde klant samen op de factuur komen. Nimble maakt een kladfactuur met per leverbon een
+titelregel en zijn regels, met de prijzen uit een prijsafspraak, de verkoopstaffel of de verkoopprijs van het artikel. Zie
+[Een factuur maken](../inventory/delivery-notes.md#een-factuur-maken).
+
 ## De factuurfiche
 
 ![De fiche van F-2026-0003: status Uitgereikt en op slot, met de blokken Factuurgegevens, Betaling en verzending en Regels.](../images/factuur-fiche.png)
@@ -107,6 +114,7 @@ staan de mails waarmee u de factuur naar de klant stuurde en de [aanmaningen](re
 |---|---|
 | **Nummer** | Op een klad staat *— krijgt een nummer bij Definitief maken* |
 | **Klant** | Verplicht. Voor wie de factuur is |
+| **Adres** | Enkel zichtbaar als de klant extra [adressen](../relations.md#tabblad-adressen) heeft. Leeg = het standaard factuuradres van de klant, of zijn hoofdadres als hij er geen heeft; de grijze tekst zegt welk adres het is. Of kies een ander adres van de klant. Bij een creditnota werkt het veld hetzelfde. Wanneer u de factuur definitief maakt, ligt het adres vast: het staat er dan als tekst, met *bewaard op het stuk* erachter. Een herdruk toont dat adres, ook als de klant verhuist; zet u de factuur terug naar klad, dan volgt het weer de relatiefiche. Een e-factuur via Peppol draagt dit adres als adres van de koper |
 | **Project** | Optioneel. Hangt de factuur aan een project, dan telt ze mee in het financiële overzicht van dat project |
 | **Uw referentie** | Het kenmerk van de klant: zijn bestelbonnummer, dossier of werf. Komt mee uit de offerte; een creditnota neemt het over van haar factuur. Het staat op de factuur bij de datums, en de e-factuur draagt het als referentie van de klant. U kunt het ook op een uitgereikte factuur nog invullen of wijzigen — daar wordt het meteen bewaard |
 | **Datum** | Verplicht. De factuurdatum; bij een nieuwe factuur staat ze op vandaag |

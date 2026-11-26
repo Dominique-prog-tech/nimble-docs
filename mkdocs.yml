@@ -214,6 +214,7 @@ plugins:
             Klantcategorieën: Catégories de clients
             Meerwerken: Travaux supplémentaires
             Voorraadstand: État du stock
+            Leveringsbonnen: Bons de livraison
             Bestellingen: Commandes
             Productiestatus: Statut de production
             Projecttypes: Types de projet
@@ -343,6 +344,7 @@ nav:
   - Voorraad:
     - Artikelen: inventory/articles.md
     - Voorraadstand: inventory/stock-level.md
+    - Leveringsbonnen: inventory/delivery-notes.md
   - Platformbeheer:
     - Platformbeheer: administration/platform-management.md
     - Bedrijfsfiche: settings/company-profile.md

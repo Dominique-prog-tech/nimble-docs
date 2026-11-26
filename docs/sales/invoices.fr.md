@@ -91,6 +91,13 @@ figure dans la liste.
 Vous pouvez aussi facturer un devis accepté depuis le devis lui-même, avec **Facturer** — voir
 [Devis](quotes.md).
 
+## Facture à partir de bons de livraison
+
+Vous facturez des [bons de livraison](../inventory/delivery-notes.md) livrés depuis le bon lui-même, avec **Créer une
+facture**. Vous choisissez les bons livrés du même client qui figurent ensemble sur la facture. Nimble crée un brouillon de
+facture avec, pour chaque bon, une ligne de titre et ses lignes, aux prix d'un accord de prix, des prix de vente dégressifs
+ou du prix de vente de l'article. Voir [Créer une facture](../inventory/delivery-notes.md#creer-une-facture).
+
 ## La fiche de facture
 
 ![La fiche de F-2026-0003 : statut Émise et verrouillée, avec les blocs Données de la facture, Paiement et envoi et Lignes.](../images/factuur-fiche-fr.png)
@@ -110,6 +117,7 @@ facture au client et les [rappels](reminders.md) pour cette facture.
 |---|---|
 | **Numéro** | Sur un brouillon figure *— recevra un numéro lors de la finalisation* |
 | **Client** | Obligatoire. Pour qui est la facture |
+| **Adresse** | Visible uniquement si le client a des [adresses](../relations.md#onglet-adresses) supplémentaires. Vide = l'adresse de facturation par défaut du client, ou son adresse principale s'il n'en a pas ; le texte gris indique de quelle adresse il s'agit. Ou choisissez une autre adresse du client. Le champ fonctionne de la même manière sur une note de crédit. Lorsque vous finalisez la facture, l'adresse est fixée : elle y figure alors comme texte, suivie de *enregistrée sur le document*. Une réimpression montre cette adresse, même si le client déménage ; si vous remettez la facture en brouillon, elle suit à nouveau la fiche de relation. Une facture électronique via Peppol porte cette adresse comme adresse de l'acheteur |
 | **Projet** | Facultatif. Si la facture se rattache à un projet, elle compte dans la situation financière de ce projet |
 | **Votre référence** | La référence du client : son numéro de bon de commande, son dossier ou son chantier. Elle est reprise du devis ; une note de crédit la reprend de sa facture. Elle figure sur la facture près des dates, et la facture électronique la porte comme référence du client. Vous pouvez encore la compléter ou la modifier sur une facture émise — elle y est enregistrée aussitôt |
 | **Date** | Obligatoire. La date de facture ; aujourd'hui pour une nouvelle facture |

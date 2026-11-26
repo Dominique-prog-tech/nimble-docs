@@ -60,7 +60,7 @@ dienst, of **Samenstelling** bij een offerteartikel. Op **Algemeen** staan drie 
 
 | Veld | Opmerking |
 |---|---|
-| **Verkoopprijs** | Wat de klant betaalt |
+| **Verkoopprijs** | Wat de klant betaalt. Met de link **Staffel** eronder legt u een lagere prijs vanaf een bepaald aantal vast: zie [De verkoopstaffel](#de-verkoopstaffel) |
 | **Aankoopprijs** | De kostprijs van het artikel: ermee rekenen de voor- en nacalculatie van een project en de marge op het dashboard. Heeft het artikel leveranciers, dan is dit de prijs van de **voorkeursleverancier** en wijzigt u ze op het tabblad **Leveranciers** — het veld zegt dan welke leverancier het is. Zonder leveranciers vult u ze hier zelf in |
 | **Minimumvoorraad** | Onder dit aantal verschijnt het artikel op de [Voorraadstand](stock-level.md) als bij te bestellen. Laat leeg om het artikel niet op te volgen — leeg is iets anders dan nul |
 | **Streefvoorraad** | Tot hier wordt er aangevuld wanneer u bijbestelt. Laat leeg om tot het minimum aan te vullen |
@@ -81,6 +81,39 @@ na het bewaren op de fiche.
 
 Rechts op de fiche staan de tabbladen **Voorraad**, **Taken**, **Notities**, **Bijlagen** en **Logboek** —
 dezelfde als in het journaal naast de lijst.
+
+## De verkoopstaffel
+
+Verkoopt u een artikel goedkoper vanaf een bepaald aantal, dan legt u dat vast in de **verkoopstaffel**. Onder de
+**Verkoopprijs** op de kaart **Prijzen en voorraad** staat de link **Staffel**; bij een dienst of een offerteartikel heet de
+kaart **Prijzen**. Klik op de link om de staffel te openen. Bij het openen van de fiche staat ze dicht. Staan er al regels
+in, dan staat hun aantal op de link: **Staffel (2)**.
+
+![De kaart Prijzen en voorraad van artikel DIV-8001 Klein montagemateriaal met een verkoopprijs van € 0,95 en de link Staffel (2) open eronder: vanaf 10 aan € 0,80 en vanaf 50 aan € 0,70, elk met Regel verwijderen, en eronder de knop Staffelregel toevoegen.](../images/artikel-verkoopstaffel.png)
+
+| Veld | Wat het is |
+|---|---|
+| **Vanaf aantal** | Het aantal vanaf waar de prijs geldt, in de eenheid van het artikel. De eenheid staat tussen haakjes in de kop |
+| **Prijs per eenheid** | De verkoopprijs per eenheid vanaf dat aantal, excl. btw |
+
+Met **Staffelregel toevoegen** komt er een regel bij; met **Regel verwijderen** haalt u ze weg. De staffel wordt bewaard
+wanneer u de fiche bewaart. Zonder regels staat er *Geen staffel: altijd de prijs hierboven.*
+
+Zo gebruikt Nimble de verkoopstaffel:
+
+- Een nieuwe offerte- of factuurregel met dit artikel krijgt de prijs van de hoogste staffel die het aantal haalt. Bij
+  DIV-8001 krijgt een aantal van 30 de prijs € 0,80, een aantal van 60 de prijs € 0,70.
+- Onder de eerste staffel geldt de **Verkoopprijs**.
+- Geldt er voor de klant een [prijsafspraak](../sales/price-agreements.md) met dit artikel, dan gaat die voor.
+- Op een offerteregel volgt de prijs de staffel wanneer u het aantal wijzigt, tot u de prijs zelf typt. Zo'n regel draagt het
+  kenmerk **Staffel**: zie [Offertes](../sales/quotes.md#een-staffelprijs).
+- **Factuur maken** op een [leverbon](delivery-notes.md#een-factuur-maken) gebruikt de staffel ook.
+- Een offertesjabloon gebruikt ze niet: een sjabloon heeft zijn eigen prijs per regel.
+- Wijzigt u de staffel, dan blijven de regels die al op een offerte of factuur staan, zoals ze zijn.
+
+!!! info "Wat een staffelregel nodig heeft"
+    Elke regel heeft een vanaf-aantal groter dan 0 én een prijs, een prijs is nooit negatief, en een vanaf-aantal staat
+    maar één keer in de staffel. Klopt er iets niet, dan zegt de melding bovenaan het wanneer u bewaart.
 
 ## De foto van een artikel
 

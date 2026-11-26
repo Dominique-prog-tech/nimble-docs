@@ -87,7 +87,9 @@ montrer :
   activé sur la [fiche entreprise](../settings/company-profile.fr.md#afficher-le-planning-dans-le-portail-client). Pour
   chaque bloc planifié, le jour où il commence et combien de jours ouvrables il dure, par exemple
   *jeu. 26/11/2026 2,5 jours ouvrables*. Ce qui est déjà passé et ce qui n'a pas encore de jour n'y figurent pas. Si deux
-  équipes travaillent le même jour aussi longtemps, ce jour n'y figure qu'une fois.
+  équipes travaillent le même jour aussi longtemps, ce jour n'y figure qu'une fois. En dessous figure **Jalons** : le nom
+  et la date de chaque [jalon](../work/projects.md#jalons) à venir, aujourd'hui compris. Le client ne voit jamais la remarque
+  d'un jalon.
 - **Installations et entretien** : seulement si le projet a des [installations](../work/installations.md) ou un
   [contrat d'entretien](../work/maintenance.md). Pour chaque installation, quand elle a été contrôlée pour la dernière fois, avec le
   **Rapport** de cette visite. Si le signalement des pannes est activé, **Signaler une panne** figure à côté de chaque installation en
@@ -166,7 +168,7 @@ Le [journal des actions](../administration/audit-log.md) garde une trace de qui 
 ## Ce que votre client ne voit jamais
 
 Les notes et tâches internes, l'historique, les factures d'achat et les fournisseurs, les marges, le post-calcul et le
-budget, les bons de travail, les heures par monteur et les noms des monteurs, la description et l'équipe d'un planning, les remises et les accords de prix, et qui
+budget, les bons de travail, les heures par monteur et les noms des monteurs, la description et l'équipe d'un planning, la remarque d'un jalon, les remises et les accords de prix, et qui
 traite son signalement. Il ne voit pas non plus les projets d'un autre client, même s'il connaissait l'adresse d'une telle page.
 
 ## Erreurs fréquentes

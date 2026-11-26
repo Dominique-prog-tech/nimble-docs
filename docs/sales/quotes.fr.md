@@ -61,6 +61,7 @@ Cliquez sur **Nouveau devis**. Vous complétez d'abord le bloc **Données du dev
 |---|---|
 | **Numéro** | Si vous le laissez vide, le devis reçoit le numéro suivant à l'enregistrement (`OFF-2026-0001`). Si vous saisissez vous-même un numéro, il est conservé ; il doit être unique |
 | **Client** | Obligatoire. À choisir parmi vos [relations](../relations.md) |
+| **Adresse** | Visible uniquement si le client a des [adresses](../relations.md#onglet-adresses) supplémentaires. Vide = l'adresse principale du client ; le texte gris indique de quelle adresse il s'agit. Ou choisissez une autre adresse du client. Dès que le devis est envoyé, accepté ou refusé, l'adresse est fixée sur le devis : elle y figure alors comme texte, suivie de *enregistrée sur le document* |
 | **Projet** | Facultatif. Si le devis se rattache à un projet, il fait partie du dossier de ce projet. Il vaut pour toutes les versions et variantes du devis, et vous pouvez encore le choisir ou le modifier après l'acceptation |
 | **Date** | Obligatoire. La date de la proposition ; aujourd'hui par défaut |
 | **Valable jusqu'au** | Facultatif. Jusqu'à quand votre prix s'applique |
@@ -143,6 +144,18 @@ vous choisissez avec **+ article** reçoit lui aussi le prix convenu. Une telle 
 prix**, jusqu'à ce que vous modifiiez le prix manuellement.
 
 S'il reste des lignes avec la quantité 0 au moment d'imprimer ou d'envoyer, Nimble vous avertit.
+
+### Un prix dégressif
+
+Si un article a des [prix de vente dégressifs](../inventory/articles.md#prix-de-vente-degressifs), une ligne avec cet
+article reçoit le prix du palier le plus élevé atteint par la quantité. Si vous modifiez la quantité, le prix suit les
+paliers ; en dessous du premier palier, le prix de vente de l'article s'applique. Un accord de prix avec le client prime sur
+les prix dégressifs.
+
+Une ligne avec un prix dégressif porte la mention **Prix dégressif**, comme une ligne issue d'un accord de prix porte la
+mention **Accord de prix**. Si vous tapez vous-même le prix, la mention disparaît et votre prix reste, quelle que soit la quantité. La
+mention reste enregistrée sur la ligne. Si quelqu'un modifie ensuite les paliers de l'article, le prix du devis ne change
+pas.
 
 ### Une demande de prix à un fournisseur
 
@@ -280,6 +293,7 @@ accepté, Refuser, Plus…, Annuler et Supprimer — avec le menu Plus… ouvert
 | **Créer un projet** | Accepté, sans projet | Ouvre un nouveau projet avec le client et l'adresse du chantier du devis déjà remplis. À l'enregistrement, le devis et toutes ses versions sont rattachés à ce projet |
 | **Facturer** | Accepté | Crée un brouillon de facture avec les lignes du devis, moins les acomptes |
 | **Plus…** → **Facture d'acompte** | Accepté, tant que Facturer est possible | Crée un brouillon de facture pour une partie du devis, voir *Facturer un acompte* |
+| **Plus…** → **Choisir les options** | Accepté, avec au moins une ligne qui est ou était une option | Choisit ou modifie les options que le client prend, voir *Choisir les options après l'acceptation* |
 | **Plus…** → **Nouvelle version** | Accepté, Refusé et Remplacé | Crée une copie modifiable |
 | **Plus…** → **Envoyer un rappel** | Envoyé | Ouvre la fenêtre d'envoi avec le rappel, voir *Le suivi du devis* |
 | **Plus…** → **Insérer un modèle** · **Enregistrer comme modèle** | Brouillon et Envoyé · toujours | Voir *Utiliser un modèle* |
@@ -429,6 +443,8 @@ en ligne.
 - S'il accepte, les options qu'il a cochées deviennent des **lignes ordinaires** du devis : elles comptent dans le
   total, sur la facture et dans l'état d'avancement. Les options qu'il n'a pas choisies restent en option.
   L'Historique montre les lignes ainsi modifiées, et le journal d'audit cite les options choisies.
+- Une option choisie porte sur le devis le badge **option choisie**. Si le client change d'avis par la suite, voir
+  [Choisir les options après l'acceptation](#choisir-les-options-apres-lacceptation).
 
 !!! warning "Si vous modifiez les options alors que le devis est en ligne"
     Si vous supprimez une option ou décochez **option** alors que le devis est en ligne, et que le client choisit
@@ -483,7 +499,7 @@ en ligne : par la cloche et par e-mail. Nimble vérifie l'état quand vous ouvre
 |---|---|
 | **Brouillon** | Modifier, envoyer par e-mail, proposer en ligne, ou **Marquer comme envoyé** |
 | **Envoyé** | Encore modifier (voir [Modifier un devis envoyé](#modifier-un-devis-envoye)), ou enregistrer la réponse avec **Marquer comme accepté** ou **Refuser** |
-| **Accepté** | **Facturer**, ou créer une **Nouvelle version** sous **Plus…** |
+| **Accepté** | **Facturer**, **Choisir les options** sous **Plus…**, ou créer une **Nouvelle version** sous **Plus…** |
 | **Refusé** | **Marquer comme envoyé** si le client revient, ou créer une **Nouvelle version** sous **Plus…** |
 | **Remplacé** | Plus rien : une version plus récente du même devis a été acceptée. Elle reste conservée pour vérifier ce que le client a reçu auparavant |
 
@@ -549,6 +565,26 @@ le devis tel quel ; sur le tableau, la carte revient à sa place.
 
 Si vous remettez un devis refusé avec **Marquer comme envoyé**, ce refus est annulé. Le Journal conserve ce
 qui figurait auparavant.
+
+### Choisir les options après l'acceptation
+
+Si le client ne choisit ses options qu'après son accord, ou s'il change d'avis, vous l'enregistrez sur le devis accepté.
+Choisissez **Choisir les options** sous **Plus…**. Vous le voyez si vous pouvez modifier les devis et que le devis a au moins
+une ligne qui est ou était une option.
+
+La fenêtre **Choisir les options** affiche chaque ligne qui est ou était une option, avec une case à cocher, la description
+et le montant. En dessous figure le total des options cochées : *Options choisies au total : … € HTVA.* Cliquez sur
+**Enregistrer**.
+
+- Une option **cochée** devient une ligne ordinaire. Elle compte dans le total du devis, dans le budget du projet et dans la
+  proposition de matériel. La ligne porte le badge **option choisie**.
+- Une option que vous **décochez** redevient une option et ne compte pas. Cela vaut aussi pour une option que le client a
+  choisie en ligne lors de l'acceptation.
+- Le journal d'audit cite les options choisies par leur nom.
+
+Le choix est possible tant qu'aucune facture n'a été créée à partir du devis et que le projet n'est pas facturé par état
+d'avancement. Une facture d'acompte n'entre pas en compte. Si ce n'est pas possible, la fenêtre indique pourquoi : une
+option que le client choisit encore à ce moment se facture comme [travail supplémentaire](../work/extra-work.md).
 
 ## Le travail accepté est lié à un projet
 

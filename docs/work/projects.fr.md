@@ -62,6 +62,8 @@ Votre choix entre **Liste** et **Tableau** est conservé.
   figurent dans la dernière colonne, **Sans statut**.
 - Une carte affiche en haut le nom du chantier (ou, s'il est vide, le nom du projet), puis le numéro du projet et
   le client. Cliquez une carte pour ouvrir le projet.
+- Si vous pouvez consulter le planning, la carte affiche aussi le prochain [jalon](#jalons) non atteint, avec un petit
+  drapeau et la date. S'il est en retard, il figure en rouge.
 - **Glissez** une carte vers une autre colonne pour changer le statut du projet.
 - Avec la double flèche à droite de l'en-tête, vous **repliez** une colonne : elle devient une bande étroite avec son nom
   et le nombre de cartes. Cliquez à nouveau sur la flèche pour la déplier. Nimble retient par utilisateur les colonnes
@@ -116,6 +118,13 @@ a des valeurs dans cette liste de choix.
 
 L'adresse du chantier est facultative. Si vous choisissez un **client** alors que l'adresse du chantier est encore
 vide, la fiche reprend l'adresse du client, pays compris. Une adresse de chantier déjà remplie reste inchangée.
+
+Si le client a des [adresses](../relations.md#onglet-adresses) supplémentaires, la liste de choix **Reprendre une adresse
+du client…** figure en haut de la carte **Chantier**. Elle affiche toutes les adresses du client, y compris l'adresse
+principale. Si vous en choisissez une, la fiche remplit la rue avec le numéro, le code postal, la commune et le pays, ainsi
+que le nom du chantier s'il est encore vide et que l'adresse a un nom. Le projet n'est enregistré que lorsque vous cliquez
+sur **Enregistrer**. L'adresse du chantier reste une copie propre au projet : si l'adresse change ensuite chez le client, le
+chantier reste tel quel.
 
 Si vous cliquez sur **Enregistrer** alors que **Numéro** ou **Nom** est vide, la fiche indique en haut ce
 qui manque.
@@ -290,7 +299,7 @@ Les points ouverts de tous les projets figurent ensemble dans [Points ouverts](o
 Ici figurent les blocs de ce projet, les mêmes que sur le [tableau de planning](planning.md). Chaque ligne indique
 le **Jour**, jusqu'à quand le bloc dure (**Jusqu'au**, en jours ouvrables : le week-end et les jours fériés ne
 comptent pas), la **Durée**, l'**Équipe**, la **Description** et l'**Ordre de travail**. Cliquez sur une date pour
-ouvrir cette semaine dans le planning.
+ouvrir cette semaine dans le planning. Tout en haut figure le bloc [Jalons](#jalons).
 
 ![L'onglet Planning d'un projet : en haut la période planifiée et le nombre de jours d'équipe, en dessous un bloc avec jour, équipe et ordre de travail, et un bloc préparé sans jour.](../images/project-planning-fr.png)
 
@@ -300,12 +309,43 @@ ouvrir cette semaine dans le planning.
 - Double-cliquez sur une ligne pour ajuster ou supprimer le bloc, dans la même fenêtre que sur le tableau de
   planning. Le projet y est fixé.
 
-En haut figurent la période planifiée du projet, le total de jours d'équipe et le nombre de blocs encore
+Au-dessus des blocs figurent la période planifiée du projet, le total de jours d'équipe et le nombre de blocs encore
 préparés. La **Date de début** et la **Date de fin** de l'onglet Général ne s'y adaptent pas automatiquement :
 vous les remplissez vous-même.
 
 Vous ne voyez cet onglet que si vous pouvez consulter le planning ; ajouter ou modifier des blocs demande le droit
 de modifier le planning.
+
+#### Jalons
+
+Un jalon est un moment qui compte dans le projet : un contrôle, la réception, une pose. Les jalons figurent en haut de
+l'onglet **Planning**, au-dessus des blocs de planning.
+
+![Le bloc Jalons en haut de l'onglet Planning du projet P2026-001 : Ruwbouw klaar avec le badge vert Atteint le et la date, Keuring avec le badge rouge En retard et la remarque « Keurder belt de dag voordien », et Oplevering encore ouvert, chacun avec le bouton Modifier, et en dessous Ajouter un jalon.](../images/project-mijlpalen-fr.png)
+
+Pour chaque jalon figurent la date, le nom et la remarque. Un badge indique où il en est :
+
+- **Atteint le** avec la date, en vert : le jalon est atteint.
+- **En retard**, en rouge : la date est passée et le jalon n'est pas encore atteint.
+
+Cliquez sur **Ajouter un jalon** pour un nouveau jalon, ou sur **Modifier** à côté d'un jalon. Si vous ne pouvez pas
+modifier le planning, le bouton s'appelle **Consulter** : vous lisez le jalon sans pouvoir le changer.
+
+| Champ | Explication |
+|---|---|
+| **Nom** | Obligatoire, par exemple *Contrôle* ou *Réception* |
+| **Date** | Obligatoire. Quand le jalon est prévu |
+| **Atteint le** | Le jour où le jalon a été atteint. Vide tant que ce n'est pas le cas |
+| **Remarque** | Une remarque pour votre propre équipe |
+
+Sous les champs figure ce que le client en voit : si le planning est affiché dans le portail client, il voit le nom et la
+date, jamais la remarque. Voir [Portail pour vos clients](../crm/portaal-voor-klanten.md#un-projet).
+
+**Enregistrer** dans la fenêtre enregistre le jalon immédiatement. **Supprimer** le place après confirmation dans la
+**Corbeille**, où vous pouvez le restaurer. Qui peut modifier le planning peut aussi modifier les jalons.
+
+Un jalon figure aussi sur le [tableau de planning](planning.md#le-tableau), dans l'en-tête de son jour, et le
+[tableau des projets](#le-tableau) affiche pour chaque projet le prochain jalon non atteint.
 
 ### Onglet Entretien
 
@@ -354,6 +394,11 @@ article de devis qui y figure depuis avant reste en place et peut encore être m
 
 La colonne **Origine** indique d'où vient une ligne : **Devis** pour une ligne placée par *Reprendre du devis*,
 vide pour une ligne ajoutée à la main.
+
+Avec **Créer un bon de livraison** au-dessus des articles du projet, vous créez un
+[bon de livraison](../inventory/delivery-notes.md#un-bon-de-livraison-depuis-un-projet) avec le client, le projet et les
+articles du projet déjà remplis. Vous adaptez les quantités sur le bon de livraison. Vous voyez le bouton s'il y a des
+articles du projet et que vous pouvez modifier le stock.
 
 #### Reprendre du devis
 

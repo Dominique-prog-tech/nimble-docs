@@ -194,9 +194,12 @@ Op het tabblad **Installaties** vinkt u per installatie van de werkorder af wat 
 
 ![Het tabblad Installaties van een werkbon met de kaart van de ventilatie-unit van De Wilde Interieur BV: de punten Debietmeting, Filters en Condensafvoer met hun resultaat en opmerking, het besluit Opvolging nodig met een opmerking, en de knop Controle bewaren.](../images/werkbon-toestellen.png)
 
-- De **punten** komen uit het veld **Na te kijken** van het [onderhoudsbezoek](maintenance.md#de-onderhoudsbezoeken). Zolang u
-  niets bewaard hebt, staat er *Punten uit het bezoek, nog niet bewaard*. Met **Punt toevoegen** zet u er een punt bij, met het
-  kruisje haalt u er een weg.
+- Zolang er voor een installatie geen controle bewaard is, stelt Nimble de **punten** voor: die uit het veld **Na te kijken** van
+  het [onderhoudsbezoek](maintenance.md#de-onderhoudsbezoeken) als het bezoek er heeft, anders de vaste
+  [controlepunten](../administration/installation-types.md#controlepunten) van de soort van de installatie. Er staat dan
+  *Voorgestelde punten, nog niet bewaard*. Met **Punt toevoegen** zet u er een punt bij, met het kruisje haalt u er een weg. De
+  mobiele app stelt dezelfde punten voor.
+- Een controle die al bewaard is, verandert niet als de controlepunten van de soort later wijzigen.
 - Per punt kiest u een **Resultaat**: *Nog niet nagekeken*, *In orde*, *Niet in orde* of *N.v.t.*, met een **Opmerking**.
 - Het **Besluit** over de installatie is *In orde* of *Opvolging nodig*. Staat het besluit nog open, dan stelt de kaart er een voor
   op basis van de punten.

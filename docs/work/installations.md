@@ -42,7 +42,7 @@ Dubbelklik op een rij om de fiche te openen. Bovenaan staat de naam van de insta
 |---|---|
 | **Klant** | Verplicht. De installatie blijft bij de klant, ook als het project afgerond is |
 | **Project** | Het project waarbij de installatie geplaatst werd of onderhouden wordt. Mag leeg blijven |
-| **Soort** | Uit de keuzelijst. **Soorten beheren** opent die lijst |
+| **Soort** | Uit de keuzelijst. **Soorten beheren** opent die lijst. Heeft het onderhoudsbezoek geen eigen punten, dan stelt de werkbon de vaste [controlepunten](../administration/installation-types.md#controlepunten) van de soort voor |
 | **Merk**, **Model**, **Serienummer** | Vul minstens de soort, het merk, het model of het serienummer in. Staat hetzelfde serienummer al bij een andere installatie, dan meldt de fiche het |
 | **Geplaatst op** | De dag van de plaatsing |
 | **Garantie tot** | De laatste dag van de garantie. Een maand vooraf komt er een taak voor de verantwoordelijke |

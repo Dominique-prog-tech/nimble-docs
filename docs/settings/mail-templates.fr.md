@@ -32,6 +32,7 @@ En haut, vous choisissez le **Modèle** :
 | **Rappel — mise en demeure (recouvrement)** | Idem, pour l'annonce du recouvrement |
 | **Bon de travail signé** | Quand le chef d'équipe envoie le bon de travail signé au client depuis l'application |
 | **Bon de commande au fournisseur** | Avec **Envoyer au fournisseur** sur une commande — voir [Le bon de commande](../purchasing/purchase-orders.md#imprimer-et-envoyer-le-bon-de-commande) |
+| **Bon de livraison au client** | Avec **Envoyer au client** sur un bon de livraison : voir [Imprimer et envoyer](../inventory/delivery-notes.md#imprimer-et-envoyer) |
 | **Demande de prix à un fournisseur** | Avec **Plus…** → **Demande de prix à un fournisseur** sur un devis — voir [Une demande de prix](../sales/quotes.md#une-demande-de-prix-a-un-fournisseur) |
 | **Tâche attribuée** | Quand une tâche est attribuée à quelqu'un — uniquement si c'est activé dans la [Fiche entreprise](company-profile.md#e-mail-lors-de-lattribution-dune-tache) |
 | **Entretien à venir (au client)** | Quand Nimble prépare une visite d'entretien, si vous avertissez le client : voir [Entretien](../work/maintenance.md#avertir-le-client) |

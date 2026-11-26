@@ -85,6 +85,8 @@ hebben:
   **Bouwheren zien in het klantenportaal wanneer er aan hun project gewerkt wordt** aan staat. Per gepland blok de dag
   waarop het begint en hoeveel werkdagen het duurt, bijvoorbeeld *do 26/11/2026 2,5 werkdagen*. Wat al voorbij is en wat
   nog geen dag heeft, staat er niet. Werken twee ploegen op dezelfde dag even lang, dan staat die dag er één keer.
+  Daaronder staat **Mijlpalen**: de naam en de datum van elke [mijlpaal](../work/projects.md#mijlpalen) die nog komt, vandaag
+  inbegrepen. De opmerking bij een mijlpaal ziet de klant nooit.
 - **Installaties en onderhoud**: enkel als het project [installaties](../work/installations.md) of een
   [onderhoudscontract](../work/maintenance.md) heeft. Per installatie wanneer ze het laatst nagekeken werd, met het **Verslag** van dat
   bezoek. Staat het melden van storingen aan, dan staat bij elke installatie in gebruik **Storing melden**. Daaronder het contract en
@@ -163,8 +165,8 @@ Het [actielogboek](../administration/audit-log.md) houdt bij wie een document zi
 ## Wat uw klant nooit ziet
 
 Interne notities en taken, het logboek, aankoopfacturen en leveranciers, marges, nacalculatie en budget, werkbonnen, uren
-per monteur en de namen van monteurs, de omschrijving en de ploeg van een planning, kortingen en prijsafspraken, en wie zijn
-melding behandelt. Ook de projecten van een andere klant ziet hij niet,
+per monteur en de namen van monteurs, de omschrijving en de ploeg van een planning, de opmerking bij een mijlpaal, kortingen
+en prijsafspraken, en wie zijn melding behandelt. Ook de projecten van een andere klant ziet hij niet,
 ook niet als hij het adres van zo'n pagina zou kennen.
 
 ## Veelgemaakte fouten

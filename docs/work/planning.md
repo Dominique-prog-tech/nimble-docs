@@ -45,6 +45,11 @@ datum van die dag een oranje markering, bijvoorbeeld *Jan Peeters staat 2× gepl
 uitleg. Het is een waarschuwing: plannen blijft mogelijk. Twee halve dagen in twee ploegen zijn samen één dag en
 krijgen geen markering.
 
+Valt er op een dag een [mijlpaal](projects.md#mijlpalen) van een project, dan staat in de kop van die dag een vlaggetje met
+de naam van de mijlpaal en het projectnummer, bijvoorbeeld *Keuring · P2026-001*. Is de mijlpaal te laat, dan is het
+vlaggetje rood; is ze bereikt, dan is het grijs. Beweeg de muis erover om te lezen van welk project de mijlpaal is. Een klik
+opent het project.
+
 Een duur telt in **werkdagen**: een werf van drie dagen vanaf vrijdag loopt door op maandag en dinsdag.
 Zaterdag, zondag en de **wettelijke feestdagen** slaat ze over, tenzij de werf er zelf op begint. Is de
 zaterdag of de zondag bij u een werkdag, dan loopt een werf er gewoon over door. Een feestdag

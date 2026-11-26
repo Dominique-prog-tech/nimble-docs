@@ -60,7 +60,7 @@ pour un service, ou **Composition** pour un article de devis. L'onglet **Génér
 
 | Champ | Remarque |
 |---|---|
-| **Prix de vente** | Ce que paie le client |
+| **Prix de vente** | Ce que paie le client. Le lien **Prix dégressifs** en dessous vous permet d'enregistrer un prix plus bas à partir d'une certaine quantité : voir [Prix de vente dégressifs](#prix-de-vente-degressifs) |
 | **Prix d'achat** | Le prix de revient de l'article : c'est avec lui que calculent le pré- et le post-calcul d'un projet et la marge du tableau de bord. Si l'article a des fournisseurs, c'est le prix du **fournisseur préféré** et vous le modifiez dans l'onglet **Fournisseurs** — le champ indique alors de quel fournisseur il s'agit. Sans fournisseur, vous le saisissez vous-même ici |
 | **Stock minimum** | En dessous de cette quantité, l'article apparaît dans l'[état du stock](stock-level.md) comme à recommander. Laissez vide pour ne pas suivre l'article — vide n'est pas zéro |
 | **Stock cible** | Niveau jusqu'auquel réapprovisionner. Laissez vide pour compléter jusqu'au minimum |
@@ -81,6 +81,39 @@ l'enregistrement, vous restez sur la fiche.
 
 À droite de la fiche figurent les onglets **Stock**, **Tâches**, **Notes**, **Pièces jointes** et
 **Historique** — les mêmes que dans le journal à côté de la liste.
+
+## Prix de vente dégressifs
+
+Si vous vendez un article moins cher à partir d'une certaine quantité, vous l'enregistrez dans ses **prix de vente
+dégressifs**. Sous le **Prix de vente** de la carte **Prix et stock** figure le lien **Prix dégressifs** ; pour un service ou
+un article de devis, la carte s'appelle **Prix**. Cliquez sur le lien pour ouvrir les paliers. À l'ouverture de la fiche, ils
+sont repliés. S'il y a déjà des paliers, leur nombre figure sur le lien : **Prix dégressifs (2)**.
+
+![La carte Prix et stock de l'article DIV-8001 Klein montagemateriaal avec un prix de vente de 0,95 € et le lien Prix dégressifs (2) ouvert en dessous : à partir de 10 à 0,80 € et à partir de 50 à 0,70 €, chacun avec Supprimer la ligne, et en dessous le bouton Ajouter un palier.](../images/artikel-verkoopstaffel-fr.png)
+
+| Champ | Ce que c'est |
+|---|---|
+| **À partir de** | La quantité à partir de laquelle le prix s'applique, dans l'unité de l'article. L'unité figure entre parenthèses dans l'en-tête |
+| **Prix par unité** | Le prix de vente par unité à partir de cette quantité, HTVA |
+
+**Ajouter un palier** ajoute une ligne ; **Supprimer la ligne** la retire. Les paliers sont enregistrés lorsque vous
+enregistrez la fiche. Sans palier, vous lisez *Pas de prix dégressifs : toujours le prix ci-dessus.*
+
+Voici comment Nimble utilise les prix de vente dégressifs :
+
+- Une nouvelle ligne de devis ou de facture avec cet article reçoit le prix du palier le plus élevé atteint par la quantité.
+  Pour DIV-8001, une quantité de 30 reçoit le prix de 0,80 €, une quantité de 60 le prix de 0,70 €.
+- En dessous du premier palier, le **Prix de vente** s'applique.
+- Si un [accord de prix](../sales/price-agreements.md) s'applique au client pour cet article, il prime.
+- Sur une ligne de devis, le prix suit les paliers quand vous modifiez la quantité, jusqu'à ce que vous tapiez vous-même le
+  prix. Une telle ligne porte la mention **Prix dégressif** : voir [Devis](../sales/quotes.md#un-prix-degressif).
+- **Créer une facture** sur un [bon de livraison](delivery-notes.md#creer-une-facture) utilise aussi les paliers.
+- Un modèle de devis ne les utilise pas : un modèle a son propre prix par ligne.
+- Si vous modifiez les paliers, les lignes qui figurent déjà sur un devis ou une facture restent telles quelles.
+
+!!! info "Ce dont un palier a besoin"
+    Chaque palier a une quantité supérieure à 0 et un prix, un prix n'est jamais négatif, et une quantité ne figure qu'une
+    seule fois dans les paliers. Si quelque chose ne va pas, le message en haut le signale lorsque vous enregistrez.
 
 ## La photo d'un article
 

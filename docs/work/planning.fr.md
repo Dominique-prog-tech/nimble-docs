@@ -46,6 +46,10 @@ au total, une marque orange figure sous la date de ce jour, par exemple *Jan Pee
 pour lire l'explication. C'est un avertissement : la planification reste possible. Deux demi-journées dans deux
 équipes font ensemble une journée et ne reçoivent pas de marque.
 
+Si un [jalon](projects.md#jalons) d'un projet tombe un jour donné, l'en-tête de ce jour affiche un petit drapeau avec le nom
+du jalon et le numéro du projet, par exemple *Keuring · P2026-001*. Si le jalon est en retard, le drapeau est rouge ; s'il
+est atteint, il est gris. Survolez-le pour lire à quel projet appartient le jalon. Un clic ouvre le projet.
+
 Une durée se compte en **jours ouvrables** : un chantier de trois jours à partir du vendredi se poursuit le
 lundi et le mardi. Le samedi, le dimanche et les **jours fériés légaux** sont sautés, sauf si le chantier
 commence ce jour-là. Si le samedi ou le dimanche est un jour ouvrable chez vous, le chantier se poursuit
