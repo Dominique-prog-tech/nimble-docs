@@ -660,7 +660,7 @@ Vous pouvez aussi enregistrer vous-même ces deux mêmes paiements :
 2. Sur la **note de crédit** : un paiement Compensé. Le montant est déjà rempli avec le solde ouvert
    négatif. La note de crédit indique ensuite **Payée**.
 
-![La fenêtre Enregistrer un paiement sur la note de crédit CN-2026-0001 : Montant -1445,84 €, Date, Mode de paiement Compensé, une Note vide et en bas Enregistrer et Annuler.](../images/creditnota-betaling-verrekend-fr.png)
+![La fenêtre Enregistrer un paiement sur la note de crédit CN-2026-0001 : Montant -1 445,84 €, Date, Mode de paiement Compensé, une Note vide et en bas Enregistrer et Annuler.](../images/creditnota-betaling-verrekend-fr.png)
 
 Si vous remboursez au contraire le montant de la note de crédit au client, enregistrez sur la note de crédit
 un paiement avec le mode par lequel vous avez remboursé. Nimble propose le solde ouvert négatif.

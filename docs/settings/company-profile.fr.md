@@ -108,7 +108,7 @@ compte sur une date qu'il voit : activez-le seulement si votre planning le perme
 
 Cette carte contient les seuils que vous choisissez vous-même pour la facturation et pour la marge des projets.
 
-![La carte Paramètres financiers avec Délai de paiement par défaut (jours) à 30, Premier rappel après et Ensuite tous les vides avec l'indication 14 (par défaut), Marge verte à partir de 43, Marge orange à partir de 40, Article horaire standard (régie) sur Werkuur installateur, Enregistrer le temps de déplacement non coché et Article pour le déplacement (régie) vide.](../images/bedrijfsfiche-blok-financieel-fr.png)
+![La carte Paramètres financiers avec Délai de paiement par défaut (jours) à 30, Escompte pour paiement comptant (%) à 2, Premier rappel après et Ensuite tous les vides avec l'indication 14 (par défaut), Marge verte à partir de 25, Marge orange à partir de 15, Article horaire standard (régie) sur Werkuur installateur, Enregistrer le temps de déplacement non coché et Article pour le déplacement (régie) vide.](../images/bedrijfsfiche-blok-financieel-fr.png)
 
 | Champ | Ce qu'il fait |
 |---|---|

@@ -109,7 +109,7 @@ gevonden relatie en de reden erbij. De naam opent de fiche van die relatie in ee
 | **Klant** / **Leverancier** | Vink aan wat van toepassing is — beide mag. |
 | **Actief** | Uitvinken verbergt de relatie niet automatisch uit alle lijsten; gebruik dit als statusmarkering. |
 
-![Het blok Classificatie met categorie, bron, documenttaal en de vinkjes Klant, Leverancier en Actief.](images/relatie-blok-classificatie.png)
+![Het blok Classificatie met categorie, bron, verantwoordelijke, documenttaal, Betalingstermijn (dagen) en Korting voor contante betaling (%) allebei leeg met de tip bedrijfsstandaard, en de vinkjes Klant, Leverancier en Actief.](images/relatie-blok-classificatie.png)
 
 ### Blok Rekeningnummers van deze klant
 

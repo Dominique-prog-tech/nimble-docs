@@ -109,7 +109,7 @@ de cette relation dans un nouvel onglet.
 | **Client** / **Fournisseur** | Cochez ce qui s'applique — les deux sont possibles. |
 | **Actif** | Décocher ne masque pas automatiquement la relation dans toutes les listes ; utilisez-le comme marqueur de statut. |
 
-![Le bloc Classification avec catégorie, source, langue des documents et les cases Client, Fournisseur et Actif.](images/relatie-blok-classificatie-fr.png)
+![Le bloc Classification avec catégorie, source, responsable, langue des documents, Délai de paiement (jours) et Escompte pour paiement comptant (%) tous deux vides avec l'indication standard de l'entreprise, et les cases Client, Fournisseur et Actif.](images/relatie-blok-classificatie-fr.png)
 
 ### Bloc Numéros de compte de ce client
 

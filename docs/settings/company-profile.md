@@ -104,7 +104,7 @@ een datum die hij ziet: zet het pas aan als uw planning dat draagt.
 
 Deze kaart bevat de grenzen die u zelf kiest voor facturatie en voor de marge van projecten.
 
-![De kaart Financiële instellingen met Standaard betalingstermijn (dagen) op 30, Eerste aanmaning na en Daarna elke leeg met de tip 14 (standaard), Marge groen vanaf 43, Marge oranje vanaf 40, Standaard-uurartikel (regie) op Werkuur installateur, Reistijd registreren niet aangevinkt en Artikel voor reistijd (regie) leeg.](../images/bedrijfsfiche-blok-financieel.png)
+![De kaart Financiële instellingen met Standaard betalingstermijn (dagen) op 30, Korting voor contante betaling (%) op 2, Eerste aanmaning na en Daarna elke leeg met de tip 14 (standaard), Marge groen vanaf 25, Marge oranje vanaf 15, Standaard-uurartikel (regie) op Werkuur installateur, Reistijd registreren niet aangevinkt en Artikel voor reistijd (regie) leeg.](../images/bedrijfsfiche-blok-financieel.png)
 
 | Veld | Wat het doet |
 |---|---|
