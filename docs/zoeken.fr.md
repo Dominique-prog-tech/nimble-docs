@@ -10,6 +10,10 @@ Cliquez en haut à droite sur la loupe, ou appuyez sur **Ctrl-K** (sur un Mac **
 apparaissent pendant que vous tapez, regroupés par type, avec au maximum cinq par type. Cliquez sur un résultat pour ouvrir la fiche.
 Avec **Échap**, vous fermez la recherche.
 
+Vous pouvez aussi travailler sans souris. Le premier résultat est sélectionné d'emblée ; avec les flèches **haut** et **bas**, vous en
+choisissez un autre, d'un type à l'autre, et avec **Entrée**, vous ouvrez le résultat sélectionné. Vous reconnaissez le résultat
+sélectionné à sa bordure bleue à gauche.
+
 ![La recherche en haut ouverte avec le terme wilde : les groupes Relations avec De Wilde Interieur BV, Personnes de contact avec Sofie De Wilde, Projets, Devis et Factures et notes de crédit, chaque fois avec le nom du client à droite.](images/zoeken-paneel-fr.png)
 
 ## Ce que vous pouvez rechercher

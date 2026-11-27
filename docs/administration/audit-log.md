@@ -36,7 +36,7 @@ haalt u de lijst binnen in een bestand. Is er nog niets gebeurd, dan staat er **
 
 ## Waarvoor u het gebruikt
 
-- **Een mislukte aanmelding onderzoeken.** Meerdere regels met **mislukt** achter elkaar op dezelfde gebruiker wijzen op een vergeten wachtwoord — of op iemand die probeert binnen te raken.
+- **Een mislukte aanmelding onderzoeken.** Meerdere regels met **mislukt** achter elkaar op dezelfde gebruiker wijzen op een vergeten wachtwoord — of op iemand die probeert binnen te raken. Als gebruiker staat er de naam waarmee het geprobeerd werd. Bestaat die naam niet, dan ziet u enkel de eerste twee tekens en het aantal tekens, bijvoorbeeld **jo…(7)**: wie per ongeluk zijn wachtwoord in het naamveld typte, laat het zo niet leesbaar achter.
 - **Een wijziging terugvinden.** Zoek op het nummer of de naam van het record en lees de samenvattingen.
 - **Een verwijdering natrekken.** Het logboek zegt wie iets verwijderde; de [Prullenbak](recycle-bin.md) laat u het terugzetten.
 

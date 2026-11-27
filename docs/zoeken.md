@@ -9,6 +9,9 @@ Klik bovenaan rechts op het vergrootglas, of druk op **Ctrl-K** (op een Mac **‚å
 terwijl u typt, gegroepeerd per soort, met hoogstens vijf per soort. Klik op een treffer om de fiche te openen. Met **Esc** sluit u
 het vak.
 
+U kunt ook zonder muis werken. De eerste treffer staat meteen gekozen; met de pijltjes **omhoog** en **omlaag** kiest u een andere, over
+de soorten heen, en met **Enter** opent u de gekozen treffer. De gekozen treffer herkent u aan de blauwe rand links.
+
 ![Het zoekvak bovenaan open met de zoekterm wilde: de groepen Relaties met De Wilde Interieur BV, Contactpersonen met Sofie De Wilde, Projecten, Offertes en Facturen en creditnota's, telkens met de naam van de klant rechts.](images/zoeken-paneel.png)
 
 ## Waarop u kunt zoeken

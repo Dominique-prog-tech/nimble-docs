@@ -39,7 +39,7 @@ colonnes ; **Exporter** récupère la liste dans un fichier. Si rien ne s'est en
 
 ## À quoi cela sert
 
-- **Examiner une connexion échouée.** Plusieurs lignes **échoué** d'affilée sur le même utilisateur indiquent un mot de passe oublié — ou quelqu'un qui tente d'entrer.
+- **Examiner une connexion échouée.** Plusieurs lignes **échoué** d'affilée sur le même utilisateur indiquent un mot de passe oublié — ou quelqu'un qui tente d'entrer. Comme utilisateur figure le nom avec lequel la tentative a été faite. Si ce nom n'existe pas, vous ne voyez que les deux premiers caractères et le nombre de caractères, par exemple **jo…(7)** : qui a tapé par erreur son mot de passe dans le champ du nom ne le laisse ainsi pas lisible.
 - **Retrouver une modification.** Cherchez sur le numéro ou le nom de l'enregistrement et lisez les résumés.
 - **Vérifier une suppression.** Le journal indique qui a supprimé ; la [Corbeille](recycle-bin.md) vous permet de restaurer.
 
