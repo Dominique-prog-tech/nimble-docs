@@ -219,6 +219,10 @@ plugins:
             Productiestatus: Statut de production
             Projecttypes: Types de projet
             Soorten installatie: Types d'installation
+            Soorten afwezigheid: Types d'absence
+            Soorten onkosten: Types de dépenses
+            Afwezigheden: Absences
+            Onkosten: Dépenses
             Onderhoud: Entretien
             Installaties: Installations
             Serviceverzoeken: Demandes d'intervention
@@ -322,7 +326,9 @@ nav:
     - Onderhoud: work/maintenance.md
     - Installaties: work/installations.md
     - Medewerkers: work/staff.md
+    - Afwezigheden: work/absences.md
     - Urenstaat: work/timesheet.md
+    - Onkosten: work/expenses.md
     - Ploegen: work/teams.md
   # De mobiele app (24/10/2026): Aan de slag, Vandaag, De werkbon, Laten tekenen, Het project, Taken en Mijn uren, Zonder bereik. Beelden met de hand uit de simulator
   # (winkelbeelden 21/10) — de automatische beeldronde bedient de app niet.
@@ -357,6 +363,8 @@ nav:
     - Productiestatus: administration/production-statuses.md
     - Projecttypes: administration/project-types.md
     - Soorten installatie: administration/installation-types.md
+    - Soorten afwezigheid: administration/absence-types.md
+    - Soorten onkosten: administration/expense-types.md
     - Werfvoorbereiding: administration/site-preparation.md
     - Standaardmappen: administration/default-folders.md
     - Verkoopfases: administration/pipeline-statuses.md

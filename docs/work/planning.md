@@ -50,6 +50,10 @@ de naam van de mijlpaal en het projectnummer, bijvoorbeeld *Keuring · P2026-001
 vlaggetje rood; is ze bereikt, dan is het grijs. Beweeg de muis erover om te lezen van welk project de mijlpaal is. Een klik
 opent het project.
 
+Is iemand van een ploeg [afwezig](absences.md), dan staat in de cel van die ploeg en die dag zijn naam met de soort, bijvoorbeeld
+*Sam Rombouts · Ziekte*. Plant u een blok op een dag dat iemand van de ploeg afwezig is, door te slepen of in het venster, dan meldt
+Nimble wie en op welke dagen. Het blok staat er toch: het is een waarschuwing, geen verbod.
+
 Een duur telt in **werkdagen**: een werf van drie dagen vanaf vrijdag loopt door op maandag en dinsdag.
 Zaterdag, zondag en de **wettelijke feestdagen** slaat ze over, tenzij de werf er zelf op begint. Is de
 zaterdag of de zondag bij u een werkdag, dan loopt een werf er gewoon over door. Een feestdag
@@ -147,3 +151,4 @@ Met **Bord | Grafieken** bovenaan schakelt u naar twee grafieken over één jaar
 - [Projecten](projects.md) — de werven die u inplant, met hun voorbereiding
 - [Werkorders](work-orders.md) — het werk op een project
 - [Ploegen](teams.md) — wie er in een ploeg zit, en dus hoeveel mandagen een ploegdag is
+- [Afwezigheden](absences.md) — wie er wanneer niet is

@@ -50,7 +50,7 @@ klok blokkeert het tekenen van de werkbon van die dag. Mag u werkbonnen bewerken
 
 U opent een fiche door te dubbelklikken op een rij.
 
-![De fiche van een werkbon: bovenaan het werkordernummer met de datum en een link naar het project, daaronder de blokken De werkdag, Uren per medewerker, Voortgang en meerwerk en Verbruikt materiaal.](../images/werkbon-fiche.png)
+![De fiche van een werkbon: bovenaan het werkordernummer met de datum en een link naar het project, daaronder de blokken De werkdag, Uren per medewerker, Onkosten, Voortgang en meerwerk en Verbruikt materiaal.](../images/werkbon-fiche.png)
 
 Bovenaan staat het werkordernummer met de datum, en daaronder een link naar het **project** waar die
 werkorder onder valt. Links staan de tabbladen **De werkdag** en **Installaties**, rechts **Taken**, **Notities**, **Bijlagen**,
@@ -123,6 +123,17 @@ verwijdert u een regel.
 
 Het **Totaal** onderaan is de som, en dat is meteen het totaal van de werkbon.
 
+Hoe de werkbon de uren vraagt, kiest de beheerder op de [Bedrijfsfiche](../settings/company-profile.md#financiele-instellingen), bij
+**Uren op de werkbon**:
+
+- **Aantal uren**: per regel het aantal uren, zoals hierboven.
+- **Begin- en einduur**: per regel **Van** en **Tot**, bijvoorbeeld 07:30 en 12:00. Nimble rekent het aantal uit en toont het bij
+  **Uren**. Een middagpauze zijn twee regels: een voor de voormiddag en een voor de namiddag. Twee regels van dezelfde persoon mogen
+  niet overlappen. Over middernacht werken kan: van 22:00 tot 02:00 is vier uur.
+- **Allebei**: vult u een begin- en einduur in, dan rekent Nimble; laat u ze leeg, dan vult u het aantal uren zelf in.
+
+In de lijst staat dan de kolom **Van–tot** bij elke regel met een begin- en einduur.
+
 Deze uren zijn de bron van de nacalculatie op het project: ze worden vermenigvuldigd met de **Uurkost**
 van de medewerker.
 
@@ -130,6 +141,20 @@ Staat **Reistijd registreren** aan op de [Bedrijfsfiche](../settings/company-pro
 het toevoegen ook een vinkje **Verplaatsing**: de uren zijn dan reistijd en geen werk op de werf. Zo'n
 regel draagt het label *Verplaatsing*. Reistijd telt mee als kost voor het project, staat apart in de
 nacalculatie en gaat bij facturatie in regie naar het artikel voor reistijd.
+
+### Onkosten
+
+Hier zet u wat de ploeg die dag voorschoot: een parking aan de werf, brandstof, een maaltijd, klein materiaal.
+
+![Het blok Onkosten op een werkbon met twee regels, Dieter Cools Parking € 4,80 en Nico Baeten Maaltijd € 18,40, beide Open, met hun opmerking, het Totaal € 23,20 en daaronder Onkost toevoegen.](../images/werkbon-blok-onkosten.png)
+
+Klik **Onkost toevoegen**: het venster vraagt de **Medewerker**, het **Bedrag incl. btw**, de **Soort** en eventueel een
+**Opmerking**. De datum is die van de werkbon, en het project is dat van de werkbon. Na het bewaren voegt u in hetzelfde venster de
+foto of pdf van het ticket toe. Een regel aanklikken opent de onkost opnieuw.
+
+Onkosten toevoegen kan pas wanneer de werkbon bewaard is. Elke onkost wordt meteen apart bewaard: **Bewaren** onderaan de werkbon
+hoeft er niet voor. Alle onkosten samen ziet u in [Onkosten](expenses.md), en op het project tellen ze als kost in de
+[nacalculatie](projects.md#het-blok-nacalculatie).
 
 ### Voortgang en meerwerk
 
@@ -241,3 +266,4 @@ nog eens teruggeboekt worden. U krijgt dan een melding, en zet de voorraad zelf 
 - [Werkorders](work-orders.md) — de opdracht waar een werkbon onder valt
 - [Meerwerken](extra-work.md) — alle gemelde meerwerken in één overzicht
 - [Medewerkers](staff.md) — de uurkost waarmee de uren gerekend worden
+- [Onkosten](expenses.md) — alle onkosten van de medewerkers, met hun ticket

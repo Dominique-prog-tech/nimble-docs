@@ -22,7 +22,7 @@ De fiche heeft twee tabbladen: **Bedrijfsgegevens** met de kaarten hieronder, en
 |---|---|
 | **Identiteit** | Naam (verplicht), BTW / ondernemingsnr. met de knop **Ophalen**, FSMA-nummer |
 | **Contact** | Telefoon, Fax, E-mail, Website, **Website-leads naar**, **Online offerte-antwoorden naar**, **Mail bij het toewijzen van een taak** |
-| **Financiële instellingen** | Standaard betalingstermijn (dagen), Korting voor contante betaling (%), Eerste aanmaning na (dagen), Daarna elke (dagen), Marge groen vanaf (%), Marge oranje vanaf (%), Standaard-uurartikel (regie), Reistijd registreren, Artikel voor reistijd (regie) |
+| **Financiële instellingen** | Standaard betalingstermijn (dagen), Korting voor contante betaling (%), Eerste aanmaning na (dagen), Daarna elke (dagen), Marge groen vanaf (%), Marge oranje vanaf (%), Standaard-uurartikel (regie), Reistijd registreren, Uren op de werkbon, Artikel voor reistijd (regie) |
 | **Factuurnummering** | Volgend factuurnummer, Volgend creditnotanummer |
 | **Planning** | Zaterdag is een werkdag, Zondag is een werkdag |
 | **Adres** | Straat, Nr., Bus, Postcode, Gemeente, Land |
@@ -104,7 +104,7 @@ een datum die hij ziet: zet het pas aan als uw planning dat draagt.
 
 Deze kaart bevat de grenzen die u zelf kiest voor facturatie en voor de marge van projecten.
 
-![De kaart Financiële instellingen met Standaard betalingstermijn (dagen) op 30, Korting voor contante betaling (%) op 2, Eerste aanmaning na en Daarna elke leeg met de tip 14 (standaard), Marge groen vanaf 25, Marge oranje vanaf 15, Standaard-uurartikel (regie) op Werkuur installateur, Reistijd registreren niet aangevinkt en Artikel voor reistijd (regie) leeg.](../images/bedrijfsfiche-blok-financieel.png)
+![De kaart Financiële instellingen met Standaard betalingstermijn (dagen) op 30, Korting voor contante betaling (%) op 2, Eerste aanmaning na en Daarna elke leeg met de tip 14 (standaard), Marge groen vanaf 25, Marge oranje vanaf 15, Standaard-uurartikel (regie) op Werkuur installateur, Reistijd registreren niet aangevinkt, Uren op de werkbon op Aantal uren en Artikel voor reistijd (regie) leeg.](../images/bedrijfsfiche-blok-financieel.png)
 
 | Veld | Wat het doet |
 |---|---|
@@ -116,6 +116,7 @@ Deze kaart bevat de grenzen die u zelf kiest voor facturatie en voor de marge va
 | **Marge oranje vanaf (%)** | Vanaf deze marge kleurt een project oranje. Daaronder is het rood. |
 | **Standaard-uurartikel (regie)** | Het uurartikel voor facturatie in regie, voor elke medewerker zonder eigen uurartikel. Leeg = elke medewerker heeft een eigen uurartikel nodig, anders houdt Nimble de regiefactuur tegen |
 | **Reistijd registreren** | Aangevinkt vraagt de werkbon per persoon ook de uren verplaatsing. Ze tellen mee als kost voor het project en staan apart in de nacalculatie. Zie [Werkbonnen](../work/work-sheets.md) |
+| **Uren op de werkbon** | Hoe de werkbon de uren per persoon vraagt: een **Aantal uren**, een **Begin- en einduur** (Nimble rekent het aantal uit), of **Allebei**. Standaard een aantal uren. Een middagpauze zijn twee regels. Zie [Werkbonnen](../work/work-sheets.md#uren-per-medewerker) |
 | **Artikel voor reistijd (regie)** | Het artikel waartegen reistijd in regie gefactureerd wordt, als eigen regel. Leeg (*— reistijd niet aanrekenen —*): reistijd komt niet op een regiefactuur, en het voorstel zegt hoeveel uren dat zijn |
 
 Laat u beide margevelden leeg, dan kleurt de projectfiche niet. Nimble zegt dan niets over uw grenzen.

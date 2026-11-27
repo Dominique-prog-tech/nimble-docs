@@ -22,7 +22,7 @@ La fiche a deux onglets : **Données de l'entreprise** avec les cartes ci-dessou
 |---|---|
 | **Identité** | Nom (obligatoire), TVA / n° d'entreprise avec le bouton **Récupérer**, Numéro FSMA |
 | **Contact** | Téléphone, Fax, E-mail, Site web, **Leads du site web vers**, **Réponses en ligne aux devis vers**, **E-mail lors de l'attribution d'une tâche** |
-| **Paramètres financiers** | Délai de paiement par défaut (jours), Escompte pour paiement comptant (%), Premier rappel après (jours), Ensuite tous les (jours), Marge verte à partir de (%), Marge orange à partir de (%), Article horaire standard (régie), Enregistrer le temps de déplacement, Article pour le déplacement (régie) |
+| **Paramètres financiers** | Délai de paiement par défaut (jours), Escompte pour paiement comptant (%), Premier rappel après (jours), Ensuite tous les (jours), Marge verte à partir de (%), Marge orange à partir de (%), Article horaire standard (régie), Enregistrer le temps de déplacement, Heures sur le bon de travail, Article pour le déplacement (régie) |
 | **Numérotation des factures** | Prochain numéro de facture, Prochain numéro de note de crédit |
 | **Planning** | Le samedi est un jour ouvrable, Le dimanche est un jour ouvrable |
 | **Adresse** | Rue, N°, Boîte, Code postal, Commune, Pays |
@@ -108,7 +108,7 @@ compte sur une date qu'il voit : activez-le seulement si votre planning le perme
 
 Cette carte contient les seuils que vous choisissez vous-même pour la facturation et pour la marge des projets.
 
-![La carte Paramètres financiers avec Délai de paiement par défaut (jours) à 30, Escompte pour paiement comptant (%) à 2, Premier rappel après et Ensuite tous les vides avec l'indication 14 (par défaut), Marge verte à partir de 25, Marge orange à partir de 15, Article horaire standard (régie) sur Werkuur installateur, Enregistrer le temps de déplacement non coché et Article pour le déplacement (régie) vide.](../images/bedrijfsfiche-blok-financieel-fr.png)
+![La carte Paramètres financiers avec Délai de paiement par défaut (jours) à 30, Escompte pour paiement comptant (%) à 2, Premier rappel après et Ensuite tous les vides avec l'indication 14 (par défaut), Marge verte à partir de 25, Marge orange à partir de 15, Article horaire standard (régie) sur Werkuur installateur, Enregistrer le temps de déplacement non coché, Heures sur le bon de travail sur Nombre d'heures et Article pour le déplacement (régie) vide.](../images/bedrijfsfiche-blok-financieel-fr.png)
 
 | Champ | Ce qu'il fait |
 |---|---|
@@ -120,6 +120,7 @@ Cette carte contient les seuils que vous choisissez vous-même pour la facturati
 | **Marge orange à partir de (%)** | À partir de cette marge, un projet s'affiche en orange. En dessous, c'est rouge. |
 | **Article horaire standard (régie)** | L'article horaire pour la facturation en régie, pour chaque collaborateur sans article horaire propre. Vide = chaque collaborateur a besoin de son propre article horaire, sinon Nimble bloque la facture en régie |
 | **Enregistrer le temps de déplacement** | Coché, le bon de travail demande aussi, par personne, les heures de déplacement. Elles comptent comme coût du projet et figurent à part dans le post-calcul. Voir [Bons de travail](../work/work-sheets.md) |
+| **Heures sur le bon de travail** | Comment le bon de travail demande les heures par personne : un **Nombre d'heures**, une **Heure de début et de fin** (Nimble calcule le nombre), ou **Les deux**. Par défaut un nombre d'heures. Une pause de midi, ce sont deux lignes. Voir [Bons de travail](../work/work-sheets.md#heures-par-collaborateur) |
 | **Article pour le déplacement (régie)** | L'article au prix duquel le déplacement est facturé en régie, sur une ligne distincte. Vide (*— ne pas facturer le déplacement —*) : le déplacement n'apparaît pas sur une facture en régie, et la proposition indique combien d'heures cela représente |
 
 Si vous laissez les deux champs de marge vides, la fiche de projet ne se colore pas. Nimble n'avance alors

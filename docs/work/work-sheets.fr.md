@@ -51,7 +51,7 @@ clôturez avec **Clôturer…** : voir [Clôturer un chronomètre oublié](#clot
 
 Vous ouvrez une fiche en double-cliquant sur une ligne.
 
-![La fiche d'un bon de travail : en haut le numéro de l'ordre de travail avec la date et un lien vers le projet, en dessous les blocs La journée de travail, Heures par collaborateur, Avancement et travaux supplémentaires, et Matériel consommé.](../images/werkbon-fiche-fr.png)
+![La fiche d'un bon de travail : en haut le numéro de l'ordre de travail avec la date et un lien vers le projet, en dessous les blocs La journée de travail, Heures par collaborateur, Dépenses, Avancement et travaux supplémentaires, et Matériel consommé.](../images/werkbon-fiche-fr.png)
 
 En haut figurent le numéro de l'ordre de travail et la date, et en dessous un lien vers le **projet** dont
 relève cet ordre. À gauche se trouvent les onglets **La journée de travail** et **Installations**, à droite **Tâches**, **Notes**,
@@ -127,6 +127,18 @@ collaborateurs actifs. La croix supprime une ligne.
 
 Le **Total** en bas est la somme, et c'est aussi le total du bon de travail.
 
+La façon dont le bon de travail demande les heures se choisit sur la [Fiche d'entreprise](../settings/company-profile.md#parametres-financiers),
+sous **Heures sur le bon de travail** :
+
+- **Nombre d'heures** : par ligne le nombre d'heures, comme ci-dessus.
+- **Heure de début et de fin** : par ligne **De** et **À**, par exemple 07:30 et 12:00. Nimble calcule le nombre et l'affiche sous
+  **Heures**. Une pause de midi, ce sont deux lignes : une pour le matin et une pour l'après-midi. Deux lignes de la même personne ne
+  peuvent pas se chevaucher. Travailler après minuit est possible : de 22:00 à 02:00, cela fait quatre heures.
+- **Les deux** : si vous indiquez une heure de début et de fin, Nimble calcule ; si vous les laissez vides, vous saisissez vous-même
+  le nombre d'heures.
+
+La liste affiche alors la colonne **De–à** pour chaque ligne avec une heure de début et de fin.
+
 Ces heures sont la source du post-calcul sur le projet : elles sont multipliées par le **Coût horaire** du
 collaborateur.
 
@@ -135,6 +147,20 @@ une case **Déplacement** apparaît aussi à l'ajout : les heures sont alors du 
 travail sur chantier. Une telle ligne porte l'étiquette *Déplacement*. Le déplacement compte comme coût pour
 le projet, figure à part dans le post-calcul et, en facturation en régie, va vers l'article pour le
 déplacement.
+
+### Dépenses
+
+Vous indiquez ici ce que l'équipe a avancé ce jour-là : un parking au chantier, du carburant, un repas, du petit matériel.
+
+![Le bloc Dépenses sur un bon de travail avec deux lignes, Dieter Cools Parking 4,80 € et Nico Baeten Repas 18,40 €, toutes deux Ouverte, avec leur remarque, le Total 23,20 € et en dessous Ajouter une dépense.](../images/werkbon-blok-onkosten-fr.png)
+
+Cliquez sur **Ajouter une dépense** : la fenêtre demande le **Collaborateur**, le **Montant TVAC**, le **Type** et éventuellement une
+**Remarque**. La date est celle du bon de travail, et le projet celui du bon de travail. Après l'enregistrement, vous joignez dans la
+même fenêtre la photo ou le pdf du ticket. Cliquer une ligne rouvre la dépense.
+
+Ajouter des dépenses n'est possible qu'une fois le bon de travail enregistré. Chaque dépense est enregistrée tout de suite, à part :
+**Enregistrer** en bas du bon de travail n'est pas nécessaire. Toutes les dépenses figurent dans [Dépenses](expenses.md), et sur le
+projet elles comptent comme coût dans le [post-calcul](projects.md#le-bloc-post-calcul).
 
 ### Avancement et travaux supplémentaires
 
@@ -252,3 +278,4 @@ Si le bon a déjà été supprimé puis restauré, Nimble refuse une seconde foi
 - [Ordres de travail](work-orders.md) — la mission dont relève un bon de travail
 - [Travaux supplémentaires](extra-work.md) — tous les travaux supplémentaires signalés en un aperçu
 - [Collaborateurs](staff.md) — le coût horaire utilisé pour les heures
+- [Dépenses](expenses.md) — toutes les dépenses des collaborateurs, avec leur ticket

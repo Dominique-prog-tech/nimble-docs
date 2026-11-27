@@ -36,7 +36,7 @@ keuzelijst heeft. Die lijsten
 beheert u onder **Platformbeheer**.
 
 - **Nieuw project** opent een lege fiche.
-- Met **Lijst** en **Bord** naast de titel wisselt u tussen deze lijst en het [bord](#het-bord).
+- Met **Lijst**, **Bord** en **Tijdlijn** naast de titel wisselt u tussen deze lijst, het [bord](#het-bord) en de [tijdlijn](#de-tijdlijn).
 - Met **Zoeken** filtert u op alles wat in de lijst staat.
 - De drie knoppen naast Zoeken zijn de filter, de kolomkiezer en **Exporteren**.
 - Onderaan kiest u hoeveel rijen u per pagina wil zien.
@@ -52,7 +52,7 @@ fiche te openen.
 ## Het bord
 
 Met **Bord** naast de titel ziet u dezelfde projecten als kaarten, met een kolom per status. Uw keuze tussen
-**Lijst** en **Bord** blijft bewaard.
+**Lijst**, **Bord** en **Tijdlijn** blijft bewaard.
 
 ![Het projectbord: een kolom per productiestatus met het aantal projecten in de kop, en per project een kaart met de werfnaam, het projectnummer en de klant; bij een project met een open mijlpaal ook de volgende mijlpaal met haar datum, in het rood als ze te laat is.](../images/projecten-bord.png)
 
@@ -68,6 +68,24 @@ Met **Bord** naast de titel ziet u dezelfde projecten als kaarten, met een kolom
   aantal kaarten. Klik de pijl opnieuw om ze uit te klappen. Welke kolommen ingeklapt zijn, onthoudt Nimble per gebruiker.
 - Met **Zoek project…** vindt u een project op nummer, naam, werfnaam, klant of gemeente. Een kolom toont
   hoogstens 50 kaarten; voor de rest gebruikt u het zoekvak of de lijst.
+
+## De tijdlijn
+
+Met **Tijdlijn** naast de titel ziet u de projecten op een tijdas: elk project met een ingepland blok of een
+[mijlpaal](#mijlpalen) in de gekozen periode krijgt een rij.
+
+![De tijdlijn van de projecten in een kwartaal, van 09/11/2026 tot 07/02/2027 met 6 projecten: per project een rij met een balk in de kleur van zijn productiestatus, onder meer P2026-001 en P2026-004, de mijlpalen als ruitjes, een verticale lijn op vandaag en de weekends licht getint.](../images/projecten-tijdlijn.png)
+
+- De **balk** loopt van het eerste tot het laatste ingeplande blok van het project, in de kleur van zijn productiestatus. Op de
+  balk staan het projectnummer en de klant; beweeg de muis erover voor de volledige naam en de datums.
+- De **mijlpalen** staan als ruitjes: blauw als ze nog open zijn, rood als ze te laat zijn, grijs als ze bereikt zijn.
+- Een verticale lijn markeert **vandaag**. In de periode **Kwartaal** zijn weekends en feestdagen licht getint.
+- Met **Kwartaal**, **Halfjaar** en **Jaar** kiest u hoe lang de periode is. **◀ Vorige periode**, **Vandaag** en
+  **Volgende periode ▶** verschuiven ze. Nimble onthoudt uw keuze.
+- Klik op een project om het te openen. Een blok verschuift u op het [planbord](planning.md); de tijdlijn toont wat daar staat.
+- Met **Zoek project…** beperkt u de tijdlijn tot de projecten die u zoekt.
+
+Een blok dat nog geen dag heeft (klaargezet), staat niet op de tijdlijn.
 
 ## De projectfiche
 
@@ -166,17 +184,18 @@ Daaronder staat elke werkorder met zijn nummer, geplande datum, status en omschr
 
 De nacalculatie zet de werkelijke kosten van de werf tegenover wat u gefactureerd hebt. Het blok verschijnt
 zodra er kosten of facturen op het project staan. Alle bedragen zijn hier **exclusief btw**: btw is geen
-opbrengst.
+opbrengst. Enkel de onkosten staan inclusief btw, zoals op het ticket.
 
-![Het blok Nacalculatie met de zes tegels Loonkost, Materiaalkost, Opbrengst, Brutowinst, Nog niet gefactureerd en Marge, daaronder Geraamde kost, Werkelijke kost en Afwijking, en het oranje kader over uren zonder uurkost en materiaal zonder aankoopprijs.](../images/project-blok-nacalculatie.png)
+![Het blok Nacalculatie met de tegels Loonkost, Materiaalkost, Onkosten, Opbrengst, Brutowinst, Nog niet gefactureerd en Marge, daaronder Geraamde kost, Werkelijke kost en Afwijking, en het oranje kader over uren zonder uurkost en materiaal zonder aankoopprijs.](../images/project-blok-nacalculatie.png)
 
 | Tegel | Wat ze toont |
 |---|---|
 | **Loonkost** | De uren op de werkbonnen maal de **Uurkost** van elke medewerker, met eronder het aantal uren. Zit er reistijd bij, dan staat eronder ook hoeveel: *waarvan 6 u reistijd* |
 | **Materiaalkost** | Het verbruikte materiaal, aan de huidige aankoopprijs van het artikel |
 | **Aankopen** | Wat er van aankoopfacturen aan dit project [toegewezen](../purchasing/purchase-invoices.md#een-factuur-aan-een-project-toewijzen) is. Enkel als er iets toegewezen is |
+| **Onkosten** | Wat medewerkers voor dit project voorschoten: parking, brandstof, een maaltijd (zie [Onkosten](expenses.md)). **Inclusief btw**, zoals ze terugbetaald worden. Enkel als er onkosten zijn |
 | **Opbrengst** | Wat er gefactureerd is, zonder btw |
-| **Brutowinst** | Opbrengst min loonkost, materiaalkost en aankopen |
+| **Brutowinst** | Opbrengst min loonkost, materiaalkost, aankopen en onkosten |
 | **Nog niet gefactureerd** | De gemaakte kosten waar nog geen factuur tegenover staat. Dit is wat het werk gekost heeft, niet wat het waard is |
 | **Marge** | De brutowinst als percentage van de opbrengst |
 
@@ -195,7 +214,7 @@ Staat er een aanvaarde offerte op het project, dan volgen nog drie bedragen:
 | Bedrag | Wat het is |
 |---|---|
 | **Geraamde kost** | De aankoopprijs van de regels op de aanvaarde offerte |
-| **Werkelijke kost** | Loonkost plus materiaalkost plus aankopen |
+| **Werkelijke kost** | Loonkost plus materiaalkost plus aankopen plus onkosten |
 | **Afwijking** | Het verschil, in euro en in procent. Rood wanneer de werf duurder uitvalt dan geraamd |
 
 !!! warning "Een oranje kader betekent: de cijfers zijn onvolledig"
@@ -297,6 +316,10 @@ Helemaal bovenaan staat het blok [Mijlpalen](#mijlpalen).
   wanneer: het blok staat dan op het planbord bij **Nog in te plannen**, met zijn duur, tot u het op een dag zet.
 - Dubbelklik op een rij om het blok bij te stellen of te verwijderen, in hetzelfde venster als op het planbord.
   Het project ligt hier vast.
+- Met **Tijdlijn** rechts boven de blokken ziet u dezelfde blokken als balken over de weken: een rij per ploeg, met bovenaan een rij
+  **Mijlpalen**. Klik op een balk om het blok te openen. **Lijst** brengt u terug; Nimble onthoudt uw keuze.
+
+![Het tabblad Planning van P2026-001 als tijdlijn: bovenaan de drie mijlpalen Ruwbouw klaar, Keuring en Oplevering, daaronder Gepland van 27/11/2026 tot 14/12/2026 met Ploegdagen 3 en de tijdlijn met een rij Mijlpalen met drie ruitjes en een rij Ploeg sanitair met drie blokken.](../images/project-planning-tijdlijn.png)
 
 Boven de blokken staat van wanneer tot wanneer het project gepland is, hoeveel ploegdagen het samen telt en hoeveel
 blokken nog klaargezet staan. De **Startdatum** en **Einddatum** op het tabblad Algemeen passen zich daar niet

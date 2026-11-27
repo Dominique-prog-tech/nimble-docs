@@ -37,7 +37,7 @@ valeurs dans cette liste de choix.
 Ces listes se gèrent sous **Administration**.
 
 - **Nouveau projet** ouvre une fiche vide.
-- Avec **Liste** et **Tableau** à côté du titre, vous passez de cette liste au [tableau](#le-tableau).
+- Avec **Liste**, **Tableau** et **Chronologie** à côté du titre, vous passez de cette liste au [tableau](#le-tableau) ou à la [chronologie](#la-chronologie).
 - **Rechercher** filtre sur tout ce qui figure dans la liste.
 - Les trois boutons à côté de Rechercher sont le filtre, le sélecteur de colonnes et **Exporter**.
 - En bas, vous choisissez le nombre de lignes par page.
@@ -53,7 +53,7 @@ et l'historique de ce projet, sans ouvrir la fiche.
 ## Le tableau
 
 Avec **Tableau** à côté du titre, vous voyez les mêmes projets sous forme de cartes, avec une colonne par statut.
-Votre choix entre **Liste** et **Tableau** est conservé.
+Votre choix entre **Liste**, **Tableau** et **Chronologie** est conservé.
 
 ![Le tableau des projets : une colonne par statut de production avec le nombre de projets dans l'en-tête, et pour chaque projet une carte avec le nom du chantier, le numéro du projet et le client ; pour un projet avec un jalon ouvert, aussi le prochain jalon avec sa date, en rouge s'il est en retard.](../images/projecten-bord-fr.png)
 
@@ -70,6 +70,24 @@ Votre choix entre **Liste** et **Tableau** est conservé.
   repliées.
 - Avec **Rechercher un projet…**, vous retrouvez un projet par numéro, nom, nom du chantier, client ou commune.
   Une colonne affiche au maximum 50 cartes ; pour le reste, utilisez la recherche ou la liste.
+
+## La chronologie
+
+Avec **Chronologie** à côté du titre, vous voyez les projets sur un axe du temps : chaque projet avec un bloc planifié ou un
+[jalon](#jalons) dans la période choisie reçoit une ligne.
+
+![La chronologie des projets sur un trimestre, du 09/11/2026 au 07/02/2027 avec 6 projets : par projet une ligne avec une barre dans la couleur de son statut de production, notamment P2026-001 et P2026-004, les jalons sous forme de losanges, une ligne verticale sur aujourd'hui et les week-ends légèrement grisés.](../images/projecten-tijdlijn-fr.png)
+
+- La **barre** va du premier au dernier bloc planifié du projet, dans la couleur de son statut de production. Sur la barre figurent
+  le numéro du projet et le client ; survolez-la pour le nom complet et les dates.
+- Les **jalons** figurent sous forme de losanges : bleus s'ils sont encore ouverts, rouges s'ils sont en retard, gris s'ils sont atteints.
+- Une ligne verticale marque **aujourd'hui**. Sur la période **Trimestre**, les week-ends et les jours fériés sont légèrement grisés.
+- Avec **Trimestre**, **Semestre** et **Année**, vous choisissez la longueur de la période. **◀ Période précédente**,
+  **Aujourd'hui** et **Période suivante ▶** la déplacent. Nimble retient votre choix.
+- Cliquez sur un projet pour l'ouvrir. Un bloc se déplace dans le [planning](planning.md) ; la chronologie montre ce qui y figure.
+- Avec **Rechercher un projet…**, vous limitez la chronologie aux projets que vous cherchez.
+
+Un bloc qui n'a pas encore de jour (préparé) ne figure pas sur la chronologie.
 
 ## La fiche de projet
 
@@ -172,17 +190,18 @@ En dessous figure chaque ordre de travail avec son numéro, sa date planifiée, 
 
 Le post-calcul confronte les coûts réels du chantier à ce que vous avez facturé. Le bloc apparaît dès que
 des coûts ou des factures figurent sur le projet. Tous les montants y sont **hors TVA** : la TVA n'est
-pas un produit.
+pas un produit. Seules les dépenses figurent TVA comprise, comme sur le ticket.
 
-![Le bloc Post-calcul avec les six tuiles Coût salarial, Coût matériel, Produit, Marge brute, Pas encore facturé et Marge, en dessous Coût estimé, Coût réel et Écart, et le cadre orange sur les heures sans coût horaire et le matériel sans prix d'achat.](../images/project-blok-nacalculatie-fr.png)
+![Le bloc Post-calcul avec les tuiles Coût salarial, Coût matériel, Dépenses, Produit, Marge brute, Pas encore facturé et Marge, en dessous Coût estimé, Coût réel et Écart, et le cadre orange sur les heures sans coût horaire et le matériel sans prix d'achat.](../images/project-blok-nacalculatie-fr.png)
 
 | Tuile | Ce qu'elle montre |
 |---|---|
 | **Coût salarial** | Les heures des bons de travail multipliées par le **Coût horaire** de chaque collaborateur, avec en dessous le nombre d'heures. S'il y a du déplacement, la part figure aussi en dessous : *dont 6 h de déplacement* |
 | **Coût matériel** | Le matériel consommé, au prix d'achat actuel de l'article |
 | **Achats** | Ce qui, dans les factures d'achat, est [attribué](../purchasing/purchase-invoices.md#attribuer-une-facture-a-un-projet) à ce projet. Uniquement s'il y a une attribution |
+| **Dépenses** | Ce que des collaborateurs ont avancé pour ce projet : parking, carburant, un repas (voir [Dépenses](expenses.md)). **TVA comprise**, telles qu'elles sont remboursées. Uniquement s'il y a des dépenses |
 | **Produit** | Ce qui a été facturé, hors TVA |
-| **Marge brute** | Le produit moins le coût salarial, le coût matériel et les achats |
+| **Marge brute** | Le produit moins le coût salarial, le coût matériel, les achats et les dépenses |
 | **Pas encore facturé** | Les coûts engagés qui ne sont pas encore couverts par une facture. C'est ce que le travail a coûté, pas ce qu'il vaut |
 | **Marge** | La marge brute en pourcentage du produit |
 
@@ -201,7 +220,7 @@ S'il y a un devis accepté sur le projet, trois montants suivent :
 | Montant | Ce que c'est |
 |---|---|
 | **Coût estimé** | Le prix d'achat des lignes du devis accepté |
-| **Coût réel** | Coût salarial plus coût matériel plus achats |
+| **Coût réel** | Coût salarial plus coût matériel plus achats plus dépenses |
 | **Écart** | La différence, en euros et en pourcentage. En rouge si le chantier revient plus cher que prévu |
 
 !!! warning "Un cadre orange signifie : les chiffres sont incomplets"
@@ -308,6 +327,11 @@ ouvrir cette semaine dans le planning. Tout en haut figure le bloc [Jalons](#jal
   que vous le placiez sur un jour.
 - Double-cliquez sur une ligne pour ajuster ou supprimer le bloc, dans la même fenêtre que sur le tableau de
   planning. Le projet y est fixé.
+- Avec **Chronologie** en haut à droite des blocs, vous voyez les mêmes blocs comme des barres sur les semaines : une ligne par
+  équipe, avec en haut une ligne **Jalons**. Cliquez sur une barre pour ouvrir le bloc. **Liste** vous ramène ; Nimble retient votre
+  choix.
+
+![L'onglet Planning de P2026-001 en chronologie : en haut les trois jalons Ruwbouw klaar, Keuring et Oplevering, en dessous Planifié du 27/11/2026 au 14/12/2026 avec Jours d'équipe 3 et la chronologie avec une ligne Jalons avec trois losanges et une ligne Ploeg sanitair avec trois blocs.](../images/project-planning-tijdlijn-fr.png)
 
 Au-dessus des blocs figurent la période planifiée du projet, le total de jours d'équipe et le nombre de blocs encore
 préparés. La **Date de début** et la **Date de fin** de l'onglet Général ne s'y adaptent pas automatiquement :

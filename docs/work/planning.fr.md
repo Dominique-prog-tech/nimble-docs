@@ -50,6 +50,10 @@ Si un [jalon](projects.md#jalons) d'un projet tombe un jour donné, l'en-tête d
 du jalon et le numéro du projet, par exemple *Keuring · P2026-001*. Si le jalon est en retard, le drapeau est rouge ; s'il
 est atteint, il est gris. Survolez-le pour lire à quel projet appartient le jalon. Un clic ouvre le projet.
 
+Si quelqu'un d'une équipe est [absent](absences.md), son nom figure avec le type dans la case de cette équipe et de ce jour, par
+exemple *Sam Rombouts · Maladie*. Si vous planifiez un bloc un jour où quelqu'un de l'équipe est absent, en le faisant glisser ou
+dans la fenêtre, Nimble signale qui et quels jours. Le bloc est quand même planifié : c'est un avertissement, pas une interdiction.
+
 Une durée se compte en **jours ouvrables** : un chantier de trois jours à partir du vendredi se poursuit le
 lundi et le mardi. Le samedi, le dimanche et les **jours fériés légaux** sont sautés, sauf si le chantier
 commence ce jour-là. Si le samedi ou le dimanche est un jour ouvrable chez vous, le chantier se poursuit
@@ -150,3 +154,4 @@ Avec **Tableau | Graphiques** en haut, vous passez à deux graphiques sur une an
 - [Projets](projects.md) — les chantiers que vous planifiez, avec leur préparation
 - [Ordres de travail](work-orders.md) — le travail sur un projet
 - [Équipes](teams.md) — qui fait partie d'une équipe, et donc combien de jours-homme compte un jour d'équipe
+- [Absences](absences.md) — qui n'est pas là, et quand
