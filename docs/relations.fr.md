@@ -105,6 +105,7 @@ de cette relation dans un nouvel onglet.
 | **Responsable** | L'interlocuteur fixe au sein de votre équipe. |
 | **Langue des documents** | Obligatoire. Détermine la langue des devis, factures et e-mails pour ce client, indépendamment de la langue dans laquelle vous travaillez. |
 | **Délai de paiement (jours)** | Le nombre de jours dont ce client dispose pour payer. Il détermine l'échéance proposée sur une nouvelle facture. Vide = le standard de votre entreprise, à régler sur la fiche d'entreprise. **0 signifie au comptant** — ce qui n'est pas la même chose que vide. |
+| **Escompte pour paiement comptant (%)** | Le pourcentage d'escompte habituel que ce client retient s'il paie rapidement. S'il retient un escompte et une garantie, Nimble répartit la différence lors du paiement (voir [Escompte et garantie sur un seul paiement](sales/invoices.md#escompte-et-garantie-sur-un-seul-paiement)). Vide = le standard de votre entreprise. **0 signifie pas d'escompte pour ce client**, même si la fiche d'entreprise en prévoit un. N'apparaît pas sur la facture. |
 | **Client** / **Fournisseur** | Cochez ce qui s'applique — les deux sont possibles. |
 | **Actif** | Décocher ne masque pas automatiquement la relation dans toutes les listes ; utilisez-le comme marqueur de statut. |
 

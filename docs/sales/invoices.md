@@ -421,7 +421,8 @@ Betalingen die via de bank binnenkomen, boekt u het makkelijkst op het scherm
 Betaalde de klant vroeg en hield hij een paar procent in, dan boekt u dat verschil af als korting. Vul in
 **Bedrag** in wat er werkelijk binnenkwam. Is dat minder dan wat er openstaat, dan verschijnt het veld
 **Het verschil van €** …, met de keuzes **Blijft openstaan**, **Afboeken als korting contante betaling** (met
-het percentage) en **Ingehouden borg**. Kies de korting en klik op **Optekenen**.
+het percentage) en **Ingehouden borg**, en soms een vierde voor korting én borg samen (zie verder). Kies de korting en
+klik op **Optekenen**.
 
 Nimble registreert dan twee regels op dezelfde datum: de betaling, en de korting met de betaalwijze
 **Korting contante betaling**. De factuur gaat naar **Betaald**.
@@ -465,6 +466,35 @@ datum, of wist u de borg met **Borg wissen**. Het bedrag is hoogstens wat er ope
     nog precies 5 % van het totaal openstaat, incl. of excl. btw. Klik bij elke factuur die een borg is op
     **Als borg**: het openstaande bedrag wordt de borg, nog zonder datum. Die zet u later op de fiche. Nimble
     markeert niets uit zichzelf.
+
+### Korting én borg op één betaling
+
+Houdt de klant zowel een korting voor contante betaling als een borg in, bijvoorbeeld 2 % korting en 5 % borg, dan
+verwerkt u dat in één keer. Daarvoor kent Nimble het gebruikelijke kortingspercentage van de klant: op de
+[relatie](../relations.md), anders het standaardpercentage op de [bedrijfsfiche](../settings/company-profile.md).
+
+Vul in **Bedrag** in wat er binnenkwam. Bij **Het verschil van €** … staat dan ook de keuze
+**Korting … % (€ …) en ingehouden borg € …**. Nimble rekent de korting met het percentage van de klant op het
+factuurtotaal; de rest van het verschil is de borg. Vul eventueel **Vrij te geven op** in en klik op **Optekenen**.
+
+![Het venster Betaling registreren met Bedrag € 14.061,45, Betaalwijze Overschrijving, bij Het verschil van
+€ 1.058,39 de gekozen keuze Korting 2,00 % (€ 302,40) en ingehouden borg € 755,99, daaronder het veld Vrij te geven
+op, en de knoppen Optekenen en Annuleren.](../images/factuur-betaling-korting-borg.png)
+
+Nimble registreert de betaling en de korting op dezelfde datum, en zet de rest als borg op de factuur. De factuur
+blijft openstaan voor het bedrag van de borg, met *Waarvan ingehouden borg* op de fiche.
+
+Voorbeeld: een factuur van € 15.119,84, betaald met € 14.061,45 (93 %). Met 2 % als gebruikelijk percentage wordt
+dat € 302,40 korting en € 755,99 borg.
+
+- De keuze verschijnt enkel als er een percentage gekend is, er nog geen borg op de factuur staat, en er na de korting
+  een borg overblijft van hoogstens 10 % van het factuurtotaal. Een tikfout krijgt zo geen borg van 90 %.
+- Staat bij de klant **0**, dan krijgt die klant geen korting, ook als de bedrijfsfiche er een kent.
+- Rekende de klant anders, bijvoorbeeld met een ander percentage, registreer dan de betaling, daarna een betaling met
+  de betaalwijze **Korting contante betaling** voor de korting, en zet de rest als borg met **Meer…** →
+  **Ingehouden borg…**.
+- Dezelfde keuze staat op het scherm [Afpunten](../finance/reconciliation.md), voor betalingen die via de bank
+  binnenkomen.
 
 ### Met één klik vanuit de lijst
 

@@ -105,6 +105,7 @@ gevonden relatie en de reden erbij. De naam opent de fiche van die relatie in ee
 | **Verantwoordelijke** | Het vaste aanspreekpunt binnen uw team. |
 | **Documenttaal** | Verplicht. Stuurt de taal van offertes, facturen en mails voor deze klant, los van de taal waarin u zelf werkt. |
 | **Betalingstermijn (dagen)** | Het aantal dagen dat deze klant krijgt om te betalen. Het bepaalt de vervaldag die een nieuwe factuur voorstelt. Leeg = de standaard van uw bedrijf, in te stellen op de bedrijfsfiche. **0 betekent contant** — dat is iets anders dan leeg. |
+| **Korting voor contante betaling (%)** | Het gebruikelijke percentage korting dat deze klant inhoudt als hij snel betaalt. Houdt hij korting én borg in, dan verdeelt Nimble het verschil bij de betaling (zie [Korting én borg op één betaling](sales/invoices.md#korting-en-borg-op-een-betaling)). Leeg = de standaard van uw bedrijf. **0 betekent geen korting voor deze klant**, ook als de bedrijfsfiche er een kent. Komt niet op de factuur. |
 | **Klant** / **Leverancier** | Vink aan wat van toepassing is — beide mag. |
 | **Actief** | Uitvinken verbergt de relatie niet automatisch uit alle lijsten; gebruik dit als statusmarkering. |
 

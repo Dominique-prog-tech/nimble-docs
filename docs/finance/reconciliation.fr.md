@@ -78,6 +78,7 @@ faire de **La différence de** ce montant. Ce sont les mêmes choix que pour un 
 | **Reste ouverte** | La différence reste sur la facture. C'est le choix par défaut. |
 | **Comptabiliser comme escompte pour paiement comptant** | La différence est comptabilisée comme escompte et la facture est entièrement payée. Seulement si la différence ne dépasse pas 5 % du total de la facture. |
 | **Garantie retenue** | La différence reste ouverte comme garantie : ni en retard, ni dans les rappels. Seulement s'il n'y a pas encore de garantie sur la facture. Si le projet de la facture est réceptionné, la garantie reçoit comme date de libération la réception plus un an. |
+| **Escompte … % (… €) et garantie retenue … €** | Escompte et garantie en une fois : l'escompte au pourcentage habituel du client (relation ou fiche d'entreprise) est comptabilisé, le reste reste ouvert comme garantie, avec la même date de libération que ci-dessus. Seulement si un pourcentage est connu, s'il n'y a pas encore de garantie sur la facture et si la garantie représente au maximum 10 % du total de la facture. Voir [Escompte et garantie sur un seul paiement](../sales/invoices.md#escompte-et-garantie-sur-un-seul-paiement). |
 
 Si le paiement porte sur plus d'une facture, il n'y a pas de choix : personne ne sait alors à quelle facture la
 différence appartient.

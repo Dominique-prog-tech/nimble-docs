@@ -78,6 +78,7 @@ Betaalt de klant iets minder dan er op **één** factuur openstaat, dan vraagt h
 | **Blijft openstaan** | Het verschil blijft op de factuur staan. Dat is de standaard. |
 | **Afboeken als korting contante betaling** | Het verschil wordt als korting afgeboekt en de factuur is volledig betaald. Enkel als het verschil hoogstens 5 % van het factuurtotaal is. |
 | **Ingehouden borg** | Het verschil blijft openstaan als borg: niet als achterstallig en niet in de aanmaningen. Enkel als er nog geen borg op de factuur staat. Is het project van de factuur opgeleverd, dan krijgt de borg als vrijgavedatum de oplevering plus één jaar. |
+| **Korting … % (€ …) en ingehouden borg € …** | Korting én borg in één keer: de korting met het gebruikelijke percentage van de klant (relatie of bedrijfsfiche) wordt afgeboekt, de rest blijft openstaan als borg, met dezelfde vrijgavedatum als hierboven. Enkel als er een percentage gekend is, er nog geen borg op de factuur staat en de borg hoogstens 10 % van het factuurtotaal is. Zie [Korting én borg op één betaling](../sales/invoices.md#korting-en-borg-op-een-betaling). |
 
 Gaat de betaling over meer dan één factuur, dan is er geen keuze: niemand weet dan op welke factuur het verschil hoort.
 

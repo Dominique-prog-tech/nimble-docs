@@ -432,7 +432,8 @@ Les paiements arrivés par la banque s'enregistrent le plus facilement sur l'éc
 Si le client a payé rapidement en retenant quelques pour cent, vous comptabilisez cette différence comme escompte.
 Indiquez dans **Montant** ce qui est réellement rentré. S'il est inférieur au solde ouvert, le champ
 **La différence de** … apparaît, avec les choix **Reste ouverte**, **Comptabiliser comme escompte pour paiement
-comptant** (avec le pourcentage) et **Garantie retenue**. Choisissez l'escompte et cliquez sur **Enregistrer**.
+comptant** (avec le pourcentage) et **Garantie retenue**, et parfois un quatrième pour l'escompte et la garantie
+ensemble (voir plus loin). Choisissez l'escompte et cliquez sur **Enregistrer**.
 
 Nimble enregistre alors deux lignes à la même date : le paiement, et l'escompte avec le mode de paiement
 **Escompte pour paiement comptant**. La facture passe à **Payée**.
@@ -480,6 +481,37 @@ liste.
     garantie dont il reste exactement 5 % du total ouvert, TVAC ou HTVA. Pour chaque facture qui est une
     garantie, cliquez sur **Garantie** : le solde ouvert devient la garantie, encore sans date. Vous la complétez
     plus tard sur la fiche. Nimble ne marque rien de lui-même.
+
+### Escompte et garantie sur un seul paiement
+
+Si le client retient à la fois un escompte pour paiement comptant et une garantie, par exemple 2 % d'escompte et 5 %
+de garantie, vous le traitez en une fois. Nimble connaît pour cela le pourcentage d'escompte habituel du client : sur
+la [relation](../relations.md), sinon le pourcentage par défaut de la [fiche d'entreprise](../settings/company-profile.md).
+
+Indiquez dans **Montant** ce qui est rentré. Dans **La différence de** … figure alors aussi le choix
+**Escompte … % (… €) et garantie retenue … €**. Nimble calcule l'escompte avec le pourcentage du client sur le total
+de la facture ; le reste de la différence est la garantie. Complétez éventuellement **À libérer le** et cliquez sur
+**Enregistrer**.
+
+![La fenêtre Enregistrer un paiement avec Montant 14 061,45 €, Mode de paiement Virement, dans La différence de
+1 058,39 € le choix Escompte 2,00 % (302,40 €) et garantie retenue 755,99 €, en dessous le champ À libérer le, et
+les boutons Enregistrer et Annuler.](../images/factuur-betaling-korting-borg-fr.png)
+
+Nimble enregistre le paiement et l'escompte à la même date, et place le reste comme garantie sur la facture. La
+facture reste ouverte pour le montant de la garantie, avec *Dont garantie retenue* sur la fiche.
+
+Exemple : une facture de 15 119,84 €, payée avec 14 061,45 € (93 %). Avec 2 % comme pourcentage habituel, cela donne
+302,40 € d'escompte et 755,99 € de garantie.
+
+- Le choix n'apparaît que si un pourcentage est connu, s'il n'y a pas encore de garantie sur la facture, et s'il reste
+  après l'escompte une garantie d'au maximum 10 % du total de la facture. Une faute de frappe ne reçoit ainsi pas une
+  garantie de 90 %.
+- Si le client porte **0**, ce client ne reçoit pas d'escompte, même si la fiche d'entreprise en prévoit un.
+- Si le client a calculé autrement, par exemple avec un autre pourcentage, enregistrez le paiement, ensuite un paiement
+  avec le mode **Escompte pour paiement comptant** pour l'escompte, et placez le reste comme garantie avec **Plus…** →
+  **Garantie retenue…**.
+- Le même choix figure sur l'écran [Lettrage](../finance/reconciliation.md), pour les paiements qui arrivent par la
+  banque.
 
 ### En un clic depuis la liste
 

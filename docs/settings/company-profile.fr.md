@@ -22,7 +22,7 @@ La fiche a deux onglets : **Données de l'entreprise** avec les cartes ci-dessou
 |---|---|
 | **Identité** | Nom (obligatoire), TVA / n° d'entreprise avec le bouton **Récupérer**, Numéro FSMA |
 | **Contact** | Téléphone, Fax, E-mail, Site web, **Leads du site web vers**, **Réponses en ligne aux devis vers**, **E-mail lors de l'attribution d'une tâche** |
-| **Paramètres financiers** | Délai de paiement par défaut (jours), Premier rappel après (jours), Ensuite tous les (jours), Marge verte à partir de (%), Marge orange à partir de (%), Article horaire standard (régie), Enregistrer le temps de déplacement, Article pour le déplacement (régie) |
+| **Paramètres financiers** | Délai de paiement par défaut (jours), Escompte pour paiement comptant (%), Premier rappel après (jours), Ensuite tous les (jours), Marge verte à partir de (%), Marge orange à partir de (%), Article horaire standard (régie), Enregistrer le temps de déplacement, Article pour le déplacement (régie) |
 | **Numérotation des factures** | Prochain numéro de facture, Prochain numéro de note de crédit |
 | **Planning** | Le samedi est un jour ouvrable, Le dimanche est un jour ouvrable |
 | **Adresse** | Rue, N°, Boîte, Code postal, Commune, Pays |
@@ -113,6 +113,7 @@ Cette carte contient les seuils que vous choisissez vous-même pour la facturati
 | Champ | Ce qu'il fait |
 |---|---|
 | **Délai de paiement par défaut (jours)** | S'applique aux clients sans délai propre. Si vous le laissez vide, Nimble ne propose pas d'échéance et vous la complétez vous-même sur la facture. |
+| **Escompte pour paiement comptant (%)** | Le pourcentage d'escompte habituel pour les clients sans pourcentage propre, au maximum 5 %. Si un client retient un escompte et une garantie, Nimble répartit la différence lors du paiement (voir [Escompte et garantie sur un seul paiement](../sales/invoices.md#escompte-et-garantie-sur-un-seul-paiement)). Vide = aucune proposition. N'apparaît pas sur la facture et ne change aucun montant ni la TVA. |
 | **Premier rappel après (jours)** | Combien de temps vous laissez le client tranquille après l'échéance. Vide signifie quatorze jours. |
 | **Ensuite tous les (jours)** | Le délai entre le premier et le deuxième rappel, et entre chacun des suivants. Vide signifie quatorze jours — et non : pas de rappels. |
 | **Marge verte à partir de (%)** | À partir de cette marge, un projet s'affiche en vert sur la fiche de projet. |
