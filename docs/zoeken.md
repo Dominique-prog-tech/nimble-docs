@@ -5,9 +5,12 @@ juiste lijst te openen. Dat werkt ook met een telefoonnummer: typ het gsm-nummer
 
 ## Het zoekvak openen
 
-Klik bovenaan rechts op het vergrootglas, of druk op **Ctrl-K** (op een Mac **⌘K**). Typ minstens drie tekens. De treffers verschijnen
-terwijl u typt, gegroepeerd per soort, met hoogstens vijf per soort. Klik op een treffer om de fiche te openen. Met **Esc** sluit u
-het vak.
+Het zoekvak staat bovenaan links, naast de naam Nimble. Klik erin, of druk op **Ctrl-K** (op een Mac **⌘K**) om de cursor erin te zetten.
+Typ minstens drie tekens. De treffers verschijnen onder het vak terwijl u typt, gegroepeerd per soort, met hoogstens vijf per soort.
+Klik op een treffer om de fiche te openen. Met **Esc**, of met een klik ernaast, sluit u de treffers en maakt u het vak leeg.
+
+Op een smal scherm, zoals een tablet, staat er geen vak maar een vergrootglas naast de naam Nimble. Klik erop, of druk op **Ctrl-K**: het
+zoekvak opent dan in het midden van het scherm.
 
 U kunt ook zonder muis werken. De eerste treffer staat meteen gekozen; met de pijltjes **omhoog** en **omlaag** kiest u een andere, over
 de soorten heen, en met **Enter** opent u de gekozen treffer. De gekozen treffer herkent u aan de blauwe rand links.

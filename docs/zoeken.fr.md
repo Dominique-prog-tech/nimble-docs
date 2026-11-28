@@ -6,9 +6,13 @@ voyez le client et ses projets.
 
 ## Ouvrir la recherche
 
-Cliquez en haut à droite sur la loupe, ou appuyez sur **Ctrl-K** (sur un Mac **⌘K**). Tapez au moins trois caractères. Les résultats
-apparaissent pendant que vous tapez, regroupés par type, avec au maximum cinq par type. Cliquez sur un résultat pour ouvrir la fiche.
-Avec **Échap**, vous fermez la recherche.
+Le champ de recherche se trouve en haut à gauche, à côté du nom Nimble. Cliquez dedans, ou appuyez sur **Ctrl-K** (sur un Mac **⌘K**)
+pour y placer le curseur. Tapez au moins trois caractères. Les résultats apparaissent sous le champ pendant que vous tapez, regroupés
+par type, avec au maximum cinq par type. Cliquez sur un résultat pour ouvrir la fiche. Avec **Échap**, ou en cliquant à côté, vous
+fermez les résultats et videz le champ.
+
+Sur un écran étroit, comme une tablette, il n'y a pas de champ mais une loupe à côté du nom Nimble. Cliquez dessus, ou appuyez sur
+**Ctrl-K** : la recherche s'ouvre alors au milieu de l'écran.
 
 Vous pouvez aussi travailler sans souris. Le premier résultat est sélectionné d'emblée ; avec les flèches **haut** et **bas**, vous en
 choisissez un autre, d'un type à l'autre, et avec **Entrée**, vous ouvrez le résultat sélectionné. Vous reconnaissez le résultat
