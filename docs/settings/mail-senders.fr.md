@@ -11,7 +11,7 @@ comptabilité. Chaque [modèle de mail](mail-templates.md) en choisit une.
 Vous y accédez aussi par le lien **Gérer les expéditeurs** sur l'écran Modèles de mail. Le droit *Gérer les
 modèles de documents* est nécessaire.
 
-![L'écran Expéditeurs de mail : la liste avec les colonnes Nom, Adresse, Par défaut et Vérifié, en haut le bouton Nouvel expéditeur, et dans la liste vide la phrase indiquant que tous les mails partent de l'adresse de Nimble.](../images/mailafzenders-scherm-fr.png)
+![L'écran Expéditeurs de mail : la liste avec les colonnes Nom, Adresse, Par défaut et Vérifié, avec un expéditeur, Boekhouding, et en haut le bouton Nouvel expéditeur.](../images/mailafzenders-scherm-fr.png)
 
 ## La liste
 

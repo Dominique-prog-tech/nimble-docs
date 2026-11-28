@@ -8,7 +8,7 @@ Klik in de zijbalk op **Inkoop → Aankoopfacturen**.
 
 ## De lijst
 
-![De lijst Aankoopfacturen met de kolommen Factuurnummer, Leverancier, Datum, Vervaldatum, Bedrag, Soort, Herkomst en Status, en achteraan per rij één knop: Goedkeuren bij de twee facturen die op goedkeuring wachten, Betaald bij de factuur die goedgekeurd is om te betalen.](../images/aankoopfacturen-lijst.png)
+![De lijst Aankoopfacturen met de kolommen Factuurnummer, Leverancier, Datum, Vervaldatum, Bedrag, Soort, Herkomst en Status, en achteraan een knop: Goedkeuren bij de twee facturen die op goedkeuring wachten, Markeren als betaald bij de factuur die goedgekeurd is om te betalen; de betaalde factuur heeft er geen.](../images/aankoopfacturen-lijst.png)
 
 | Kolom | Wat het zegt |
 |---|---|

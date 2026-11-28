@@ -115,10 +115,10 @@ Klikt u **Bewaren** terwijl een verplicht veld leeg is, dan zegt de fiche bovena
 
 ### Uren per medewerker
 
-![Het blok Uren per medewerker met twee regels — Sam Rombouts 7,5 uur en Kris Van Damme 8 uur — en het Totaal 15,5; daaronder de velden Medewerker, Uren en Notitie met de knop Toevoegen.](../images/werkbon-blok-uren.png)
+![Het blok Uren per medewerker met drie regels: Kris Van Damme van 08:00 tot 12:00 en van 12:30 tot 16:30, telkens 4 uur, en Yves Maertens van 07:30 tot 13:30, 6 uur, met het Totaal 14; daaronder de velden Medewerker, Van, Tot, Uren en Notitie met de knop Toevoegen.](../images/werkbon-blok-uren.png)
 
-Onder de lijst voegt u een regel toe: kies een **Medewerker**, vul de **Uren** in (hoogstens 24) en
-eventueel een **Notitie**, en klik **Toevoegen**. U kiest uit de actieve medewerkers. Met het kruisje
+Onder de lijst voegt u een regel toe: kies een **Medewerker**, vul de **Uren** in (hoogstens 24), of
+**Van** en **Tot** als de werkbon ze vraagt (zie hieronder), en eventueel een **Notitie**, en klik **Toevoegen**. U kiest uit de actieve medewerkers. Met het kruisje
 verwijdert u een regel.
 
 Het **Totaal** onderaan is de som, en dat is meteen het totaal van de werkbon.

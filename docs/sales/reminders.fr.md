@@ -6,7 +6,7 @@ Quelles factures ouvertes méritent un rappel. Trois rappels, puis l'annonce d'u
 
 Cliquez dans la barre latérale sur **Ventes → Rappels**. L'écran demande le droit de modifier les factures.
 
-![L'écran Rappels avec, en haut, un bandeau coloré indiquant qu'un rappel est prêt, puis la phrase sur les délais, et deux factures : l'une portant l'étiquette Premier rappel et les boutons Envoyer…, Enregistrer seulement et Exclure des rappels, l'autre avec Suivant à partir du.](../images/rappels-overzicht-fr.png)
+![L'écran Rappels avec, en haut, un bandeau coloré indiquant qu'un rappel est prêt, puis la phrase sur les délais, et deux factures : l'une portant l'étiquette Deuxième rappel, la mention que le premier est déjà envoyé, et les boutons Envoyer…, Enregistrer seulement et Exclure des rappels, l'autre avec Suivant à partir du.](../images/rappels-overzicht-fr.png)
 
 !!! warning "Rien ne part automatiquement"
     Nimble n'envoie **aucun** rappel automatiquement. En haut de l'écran figure le nombre de rappels prêts,
@@ -73,7 +73,7 @@ de cette étape — chaque étape a son propre modèle :
 - **Objet** — issu du modèle, avec le numéro de facture ;
 - **Texte** — le mail tel qu'il partira, dans la langue du client.
 
-![La fenêtre Envoyer un rappel pour la facture F-2026-0001 : De noreply@adm-concept.be, À l'adresse de De Wilde Interieur BV, l'objet avec le numéro de facture, le texte du premier rappel en néerlandais — la langue de ce client — avec le montant ouvert de 2 474,55 €, le bouton Modifier le texte, la phrase indiquant que la facture n'est pas jointe, et en bas Envoyer et enregistrer et Annuler.](../images/rappel-versturen-venster-fr.png)
+![La fenêtre Envoyer un rappel pour la facture F-2026-0001 : De noreply@adm-concept.be, À l'adresse de De Wilde Interieur BV, l'objet avec le numéro de facture, le texte du deuxième rappel en néerlandais, la langue de ce client, avec le montant ouvert de 2 474,55 €, le bouton Modifier le texte, la phrase indiquant que la facture n'est pas jointe, et en bas Envoyer et enregistrer et Annuler.](../images/rappel-versturen-venster-fr.png)
 
 Qui connaît son client rédige autrement son premier rappel. **Modifier le texte** place le mail dans un
 éditeur ; ce que vous y changez ne vaut que pour ce rappel. Pour le changer pour chaque rappel, adaptez le

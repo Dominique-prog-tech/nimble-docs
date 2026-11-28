@@ -7,7 +7,7 @@ incasso.
 
 Klik in de zijbalk op **Verkoop → Aanmaningen**. Het scherm vraagt het recht om facturen te bewerken.
 
-![Het scherm Aanmaningen met bovenaan een gekleurde balk die meldt dat er één aanmaning klaarstaat, daaronder de zin over de termijnen, en twee facturen: één met het label Eerste aanmaning en de knoppen Versturen…, Alleen optekenen en Uitsluiten van aanmaningen, en één met Volgende vanaf.](../images/rappels-overzicht.png)
+![Het scherm Aanmaningen met bovenaan een gekleurde balk die meldt dat er één aanmaning klaarstaat, daaronder de zin over de termijnen, en twee facturen: één met het label Tweede aanmaning, de vermelding dat de eerste al verstuurd is, en de knoppen Versturen…, Alleen optekenen en Uitsluiten van aanmaningen, en één met Volgende vanaf.](../images/rappels-overzicht.png)
 
 !!! warning "Er vertrekt niets vanzelf"
     Nimble verstuurt **geen enkele** aanmaning automatisch. Bovenaan het scherm staat hoeveel er klaarstaan,
@@ -74,7 +74,7 @@ van die stap — elke stap heeft een eigen sjabloon:
 - **Onderwerp** — uit het sjabloon, met het factuurnummer;
 - **Tekst** — de mail zoals ze vertrekt, in de taal van de klant.
 
-![Het venster Aanmaning versturen voor factuur F-2026-0001: Van noreply@adm-concept.be, Aan het adres van De Wilde Interieur BV, het onderwerp met het factuurnummer, de tekst van de eerste aanmaning met het openstaande bedrag van € 2.474,55, de knop Tekst aanpassen, de zin dat de factuur niet als bijlage meegaat, en onderaan Versturen en optekenen en Annuleren.](../images/rappel-versturen-venster.png)
+![Het venster Aanmaning versturen voor factuur F-2026-0001: Van noreply@adm-concept.be, Aan het adres van De Wilde Interieur BV, het onderwerp met het factuurnummer, de tekst van de tweede aanmaning met het openstaande bedrag van € 2.474,55, de knop Tekst aanpassen, de zin dat de factuur niet als bijlage meegaat, en onderaan Versturen en optekenen en Annuleren.](../images/rappel-versturen-venster.png)
 
 Wie zijn klant kent, schrijft de eerste aanmaning anders. Met **Tekst aanpassen** zet u de mail in een
 editor; wat u daar wijzigt, geldt enkel voor deze aanmaning. Wilt u het voor elke aanmaning anders, pas dan

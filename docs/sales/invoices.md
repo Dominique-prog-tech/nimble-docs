@@ -10,7 +10,7 @@ Klik in de zijbalk op **Verkoop → Facturen**.
 
 ## De lijst
 
-![De lijst Verkoopfacturen met de kolommen Nummer, Soort, Klant, Datum, Mededeling, Vervaldatum, Openstaand en Status; er staan een creditnota met een negatief bedrag, een klad zonder nummer, twee vervallen facturen met de knop Betaald en een betaalde factuur.](../images/facturen-lijst.png)
+![De lijst Verkoopfacturen met de kolommen Nummer, Soort, Klant, Datum, Mededeling, Vervaldatum, Openstaand en Status; er staan een klad zonder nummer, een creditnota met een negatief bedrag, een factuur met het label Borg, een openstaande en een betaalde factuur, en een vervallen factuur met de knop Markeren als betaald.](../images/facturen-lijst.png)
 
 | Kolom | Wat u ziet |
 |---|---|

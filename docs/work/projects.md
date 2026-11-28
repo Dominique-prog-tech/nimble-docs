@@ -186,7 +186,7 @@ De nacalculatie zet de werkelijke kosten van de werf tegenover wat u gefactureer
 zodra er kosten of facturen op het project staan. Alle bedragen zijn hier **exclusief btw**: btw is geen
 opbrengst. Enkel de onkosten staan inclusief btw, zoals op het ticket.
 
-![Het blok Nacalculatie met de tegels Loonkost, Materiaalkost, Onkosten, Opbrengst, Brutowinst, Nog niet gefactureerd en Marge, daaronder Geraamde kost, Werkelijke kost en Afwijking, en het oranje kader over uren zonder uurkost en materiaal zonder aankoopprijs.](../images/project-blok-nacalculatie.png)
+![Het blok Nacalculatie met de tegels Loonkost, Materiaalkost, Aankopen, Onkosten, Opbrengst, Brutowinst, Nog niet gefactureerd en Marge, daaronder Geraamde kost, Werkelijke kost en Afwijking, en het oranje kader over uren zonder uurkost en materiaal zonder aankoopprijs.](../images/project-blok-nacalculatie.png)
 
 | Tegel | Wat ze toont |
 |---|---|

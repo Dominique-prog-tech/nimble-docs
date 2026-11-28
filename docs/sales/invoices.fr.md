@@ -10,7 +10,7 @@ Dans la barre latérale, cliquez sur **Ventes → Factures**.
 
 ## La liste
 
-![La liste Factures de vente avec les colonnes Numéro, Type, Client, Date, Communication, Date d'échéance, Solde ouvert et Statut ; on y voit une note de crédit avec un montant négatif, un brouillon sans numéro, deux factures échues avec le bouton Payée et une facture payée.](../images/facturen-lijst-fr.png)
+![La liste Factures de vente avec les colonnes Numéro, Type, Client, Date, Communication, Date d'échéance, Solde ouvert et Statut ; on y voit un brouillon sans numéro, une note de crédit avec un montant négatif, une facture avec l'étiquette Garantie, une facture ouverte et une facture payée, et une facture échue avec le bouton Marquer comme payée.](../images/facturen-lijst-fr.png)
 
 | Colonne | Ce que vous voyez |
 |---|---|

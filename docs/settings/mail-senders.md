@@ -11,7 +11,7 @@ boekhouding. Elk [mailsjabloon](mail-templates.md) kiest er één.
 U komt er ook via de link **Afzenders beheren** op het scherm Mailsjablonen. U hebt er het recht
 *Documentsjablonen beheren* voor nodig.
 
-![Het scherm Mailafzenders: de lijst met de kolommen Naam, Adres, Standaard en Geverifieerd, bovenaan de knop Nieuwe afzender, en in de lege lijst de zin dat alle mail van het adres van Nimble vertrekt.](../images/mailafzenders-scherm.png)
+![Het scherm Mailafzenders: de lijst met de kolommen Naam, Adres, Standaard en Geverifieerd, met één afzender, Boekhouding, en bovenaan de knop Nieuwe afzender.](../images/mailafzenders-scherm.png)
 
 ## De lijst
 

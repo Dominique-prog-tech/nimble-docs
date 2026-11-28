@@ -119,10 +119,10 @@ manque.
 
 ### Heures par collaborateur
 
-![Le bloc Heures par collaborateur avec deux lignes — Sam Rombouts 7,5 heures et Kris Van Damme 8 heures — et le Total 15,5 ; en dessous les champs Collaborateur, Heures et Note avec le bouton Ajouter.](../images/werkbon-blok-uren-fr.png)
+![Le bloc Heures par collaborateur avec trois lignes : Kris Van Damme de 08:00 à 12:00 et de 12:30 à 16:30, chaque fois 4 heures, et Yves Maertens de 07:30 à 13:30, 6 heures, avec le Total 14 ; en dessous les champs Collaborateur, De, À, Heures et Note avec le bouton Ajouter.](../images/werkbon-blok-uren-fr.png)
 
 Sous la liste, vous ajoutez une ligne : choisissez un **Collaborateur**, saisissez les **Heures** (24 au
-maximum) et éventuellement une **Note**, puis cliquez sur **Ajouter**. Vous choisissez parmi les
+maximum), ou **De** et **À** si le bon de travail les demande (voir ci-dessous), et éventuellement une **Note**, puis cliquez sur **Ajouter**. Vous choisissez parmi les
 collaborateurs actifs. La croix supprime une ligne.
 
 Le **Total** en bas est la somme, et c'est aussi le total du bon de travail.

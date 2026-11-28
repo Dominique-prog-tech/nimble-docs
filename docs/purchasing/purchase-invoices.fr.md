@@ -8,7 +8,7 @@ Cliquez dans la barre latérale sur **Achats → Factures d'achat**.
 
 ## La liste
 
-![La liste Factures d'achat avec les colonnes Numéro de facture, Fournisseur, Date, Échéance, Montant, Type, Origine et Statut, et en fin de ligne un seul bouton : Approuver pour les deux factures en attente d'approbation, Payée pour la facture approuvée au paiement.](../images/aankoopfacturen-lijst-fr.png)
+![La liste Factures d'achat avec les colonnes Numéro de facture, Fournisseur, Date, Échéance, Montant, Type, Origine et Statut, et en fin de ligne un bouton : Approuver pour les deux factures en attente d'approbation, Marquer comme payée pour la facture approuvée au paiement ; la facture payée n'en a pas.](../images/aankoopfacturen-lijst-fr.png)
 
 | Colonne | Ce qu'elle indique |
 |---|---|

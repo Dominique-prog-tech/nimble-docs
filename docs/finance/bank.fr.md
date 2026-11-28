@@ -8,7 +8,7 @@ connectez votre banque une seule fois dans le portail client.
 Cliquez dans la barre latérale sur **Ventes → Opérations bancaires**. L'écran demande le droit de modifier
 les factures.
 
-![La liste Opérations bancaires avec les colonnes Date de valeur, Contrepartie, Communication et Montant ; on y voit un paiement entrant, deux sortants et une domiciliation en attente.](../images/bank-lijst-fr.png)
+![La liste Opérations bancaires avec les colonnes Date de valeur, Contrepartie, Communication et Montant ; on y voit deux paiements entrants, trois sortants, dont un déjà lettré sur une facture d'achat, et une domiciliation en attente.](../images/bank-lijst-fr.png)
 
 ## Récupérer à la banque
 

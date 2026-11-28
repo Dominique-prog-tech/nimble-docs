@@ -192,7 +192,7 @@ Le post-calcul confronte les coûts réels du chantier à ce que vous avez factu
 des coûts ou des factures figurent sur le projet. Tous les montants y sont **hors TVA** : la TVA n'est
 pas un produit. Seules les dépenses figurent TVA comprise, comme sur le ticket.
 
-![Le bloc Post-calcul avec les tuiles Coût salarial, Coût matériel, Dépenses, Produit, Marge brute, Pas encore facturé et Marge, en dessous Coût estimé, Coût réel et Écart, et le cadre orange sur les heures sans coût horaire et le matériel sans prix d'achat.](../images/project-blok-nacalculatie-fr.png)
+![Le bloc Post-calcul avec les tuiles Coût salarial, Coût matériel, Achats, Dépenses, Produit, Marge brute, Pas encore facturé et Marge, en dessous Coût estimé, Coût réel et Écart, et le cadre orange sur les heures sans coût horaire et le matériel sans prix d'achat.](../images/project-blok-nacalculatie-fr.png)
 
 | Tuile | Ce qu'elle montre |
 |---|---|

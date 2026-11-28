@@ -7,7 +7,7 @@ koppelt u één keer in het klantenportaal.
 
 Klik in de zijbalk op **Verkoop → Bankverrichtingen**. Het scherm vraagt het recht om facturen te bewerken.
 
-![De lijst Bankverrichtingen met de kolommen Valutadatum, Tegenpartij, Mededeling en Bedrag; er staan een inkomende betaling, twee uitgaande en één domiciliëring in afwachting.](../images/bank-lijst.png)
+![De lijst Bankverrichtingen met de kolommen Valutadatum, Tegenpartij, Mededeling en Bedrag; er staan twee inkomende betalingen, drie uitgaande, waarvan één al afgepunt op een aankoopfactuur, en één domiciliëring in afwachting.](../images/bank-lijst.png)
 
 ## Ophalen bij de bank
 
