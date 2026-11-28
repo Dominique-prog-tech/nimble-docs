@@ -110,6 +110,22 @@ Si vous cliquez sur une étape alors qu'une saisie n'est pas encore enregistrée
 postes avec les colonnes devis, état précédent, cet état et cumulé, le total avec la TVA, et une case *pour
 accord* à signer. Le document suit la langue du client. Un état en préparation porte la mention **PROJET**.
 
+## Envoyer au client
+
+**Envoyer au client** (également en bas de l'aperçu avant impression) ouvre la fenêtre d'envoi : l'adresse du client, un objet et un texte
+dans la langue du client, avec le montant de l'état TVA comprise, et l'état en PDF en pièce jointe. Vous pouvez encore modifier
+l'adresse, l'objet et le texte avant de cliquer sur **Envoyer**. Le texte par défaut se règle dans [Modèles de mail](../settings/mail-templates.md),
+modèle **État d'avancement au client**.
+
+Si vous avez encore saisi quelque chose qui n'est pas enregistré, Nimble vous demande d'abord d'enregistrer : le PDF montre l'état
+enregistré.
+
+Si l'état était encore **en préparation**, Nimble vous demande après l'envoi s'il peut passer à **Soumis**, avec aujourd'hui comme date
+de soumission. Si vous choisissez **Laisser ainsi**, il reste en préparation et vous le soumettez plus tard vous-même. Un état déjà
+soumis ou approuvé peut être renvoyé ; son statut ne change alors pas.
+
+Le mail envoyé et le PDF se retrouvent dans le journal du projet, sous **E-mails** et **Pièces jointes**.
+
 ## Facturer
 
 Sur un état approuvé, **Facturer** crée un **brouillon de facture** : une ligne par taux de TVA avec le montant

@@ -105,6 +105,21 @@ kolommen offerte, vorige staat, deze staat en cumulatief, het totaal met de btw,
 om te ondertekenen. Het document volgt de taal van de klant. Een staat in opmaak draagt het merkteken
 **ONTWERP**.
 
+## Mailen naar de klant
+
+**Mailen naar de klant** (ook onderaan het afdrukvoorbeeld) opent het verzendvenster: het adres van de klant, een onderwerp en een tekst
+in de taal van de klant, met het bedrag van de staat incl. btw, en de staat als PDF in bijlage. U kunt het adres, het onderwerp en de
+tekst nog aanpassen voor u op **Versturen** klikt. De standaardtekst stelt u in bij [Mailsjablonen](../settings/mail-templates.md),
+sjabloon **Vorderingsstaat naar de klant**.
+
+Hebt u nog iets ingetikt dat niet bewaard is, dan vraagt Nimble eerst om te bewaren: de PDF toont de bewaarde staat.
+
+Stond de staat nog **In opmaak**, dan vraagt Nimble na het versturen of ze op **Ingediend** mag, met vandaag als indieningsdatum. Kiest u
+**Zo laten**, dan blijft ze in opmaak en zet u ze later zelf op Ingediend. Een staat die al ingediend of goedgekeurd is, kunt u opnieuw
+mailen; haar status verandert dan niet.
+
+De verstuurde mail en de PDF vindt u terug in het journaal van het project, bij **Mails** en **Bijlagen**.
+
 ## Factureren
 
 Op een goedgekeurde staat maakt **Factureren** een **kladfactuur**: één regel per btw-tarief met het bedrag van

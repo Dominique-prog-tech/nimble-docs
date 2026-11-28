@@ -33,6 +33,7 @@ Bovenaan kiest u het **Sjabloon**:
 | **Getekende werkbon** | Wanneer de ploegbaas de getekende werkbon vanuit de app naar de klant mailt |
 | **Bestelbon naar de leverancier** | Bij **Mailen naar de leverancier** op een bestelling — zie [De bestelbon](../purchasing/purchase-orders.md#de-bestelbon-afdrukken-en-mailen) |
 | **Leverbon naar de klant** | Bij **Mailen naar de klant** op een leverbon: zie [Afdrukken en mailen](../inventory/delivery-notes.md#afdrukken-en-mailen) |
+| **Vorderingsstaat naar de klant** | Bij **Mailen naar de klant** op een vorderingsstaat: zie [Mailen naar de klant](../sales/progress-reports.md#mailen-naar-de-klant) |
 | **Prijsaanvraag naar een leverancier** | Bij **Meer…** → **Prijsaanvraag naar een leverancier** op een offerte — zie [Een prijsaanvraag](../sales/quotes.md#een-prijsaanvraag-naar-een-leverancier) |
 | **Taak toegewezen** | Wanneer iemand een taak toegewezen krijgt — enkel als dat aanstaat op de [Bedrijfsfiche](company-profile.md#mail-bij-het-toewijzen-van-een-taak) |
 | **Onderhoud komt eraan (aan de klant)** | Wanneer Nimble een onderhoudsbezoek klaarzet, als u de klant verwittigt: zie [Onderhoud](../work/maintenance.md#de-klant-verwittigen) |
