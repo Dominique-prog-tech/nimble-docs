@@ -114,6 +114,8 @@ radiateurs et huit robinets de radiateur — et en bas le sous-total du bloc de 
 - Cocher **sous-total** affiche le total de ce bloc sous les lignes, comme *Sous-total du bloc*.
 - Le ✕ rouge à côté du titre supprime le bloc avec ses lignes. Ce bouton apparaît dès qu'il y a plus d'un
   bloc.
+- Les flèches **↑** et **↓** à gauche du titre déplacent le bloc avec ses lignes, d'une place vers le haut ou vers le bas. Si le bloc a
+  des sous-blocs (en retrait en dessous), ils suivent. Un sous-bloc se déplace uniquement entre les autres sous-blocs du même bloc.
 
 Chaque bloc offre deux façons d'ajouter une ligne :
 
@@ -125,7 +127,8 @@ Pour copier :
 
 - L'**icône de copie** à côté du ✕ rouge d'une ligne place une copie de cette ligne juste en dessous, avec l'article, la
   quantité, le prix, la TVA et l'option. La quantité est prête à être modifiée.
-- **Copier le bloc** dans le titre d'un bloc place une copie du bloc avec toutes ses lignes juste sous l'original.
+- **Copier le bloc** dans le titre d'un bloc place une copie du bloc avec toutes ses lignes juste sous l'original, sous-blocs
+  compris.
 
 ![La fenêtre Choisir un article, avec numéro, description, famille et prix.](../images/offerte-artikelzoeker-fr.png)
 

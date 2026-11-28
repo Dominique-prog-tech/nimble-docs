@@ -111,6 +111,9 @@ acht radiatoren en acht radiatorkranen — en onderaan het Subtotaal blok van �
 - **subtotaal** aanvinken toont het totaal van dat blok onder de regels, als *Subtotaal blok*.
 - Het rode ✕ naast de kop verwijdert het blok met zijn regels. Die knop staat er zodra er meer dan één blok
   is.
+- Met de pijltjes **↑** en **↓** links van de kop verschuift u het blok met zijn regels, een plaats naar boven of naar beneden. Heeft het
+  blok onderblokken (ingesprongen eronder), dan verhuizen die mee. Een onderblok schuift enkel tussen de andere onderblokken van
+  hetzelfde blok.
 
 Per blok hebt u twee manieren om een regel toe te voegen:
 
@@ -122,7 +125,8 @@ Kopiëren gaat zo:
 
 - Het **kopieericoon** naast het rode ✕ van een regel zet een kopie van die regel er meteen onder, met artikel, aantal,
   prijs, btw en optie. Het aantal is meteen klaar om aan te passen.
-- **Blok kopiëren** in de kop van een blok zet een kopie van het blok met al zijn regels meteen onder het origineel.
+- **Blok kopiëren** in de kop van een blok zet een kopie van het blok met al zijn regels meteen onder het origineel, met zijn
+  onderblokken erbij.
 
 ![Het venster Artikel kiezen, met nummer, omschrijving, familie en prijs.](../images/offerte-artikelzoeker.png)
 
